@@ -1,0 +1,7 @@
+$("#toc_filter_input").keyup(function () {
+    $(this).next().toggle(Boolean($(this).val()));
+});
+$(".searchclear").click(function () {
+    $(this).prev().val('').focus();
+    $(this).hide();
+});

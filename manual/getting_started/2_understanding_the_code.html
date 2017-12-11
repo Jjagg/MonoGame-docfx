@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Understanding the Code | MonoGame Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Understanding the Code | MonoGame Documentation ">
+    <meta name="generator" content="docfx 2.28.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="understanding-the-code">Understanding the Code</h1>
+
+<p>This file will go over the code that is getting created when you start a blank project. For help on creating a project please look at <a href="1_creating_a_new_project.html">Creating a New Project</a></p>
+<p><strong>Using Statements</strong></p>
+<pre><code class="lang-csharp">using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Storage;
+using Microsoft.Xna.Framework.Input;
+</code></pre><p>These using statements are required in order to use the code that MonoGame has to offer.</p>
+<p>The reason why they start with Microsoft.Xna.Framework is because MonoGame is an open source implementation of Microsoft Xna framework, and in order to maintain compatibility with the XNA code, it is using the same namespaces.</p>
+<p><strong>The Game1 Class</strong></p>
+<pre><code class="lang-csharp">public class Game1 : Game
+</code></pre><p>The main Game1 class is inheriting from the Game class, which provides all the core methods for your game (ie. Load/Unload Content, Update, Draw etc.). You usually have only one Game class per game so its name isn&#39;t that important.</p>
+<p><strong>Instanced Variables</strong></p>
+<pre><code class="lang-csharp">GraphicsDeviceManager graphics;
+SpriteBatch spriteBatch;
+</code></pre><p>The two default variables that the blank template starts with are GraphicsDeviceManager and SpriteBatch. Both of these variables are used for drawing stuff as you will see in a later tutorial.</p>
+<p><strong>Constructor</strong></p>
+<pre><code class="lang-csharp">public Game1()
+{
+    graphics = new GraphicsDeviceManager(this);
+    Content.RootDirectory = &quot;Content&quot;;
+}
+</code></pre><p>The main game constructor is used to initialize the starting variables. In this case we are creating a new GraphicsDeviceManager from our game, and are setting the folder which the game will search for content.</p>
+<p><strong>Initialize Method</strong></p>
+<pre><code class="lang-csharp">protected override void Initialize()
+{
+    // TODO: Add your initialization logic here
+
+    base.Initialize();
+}
+</code></pre><p>This method is called after the constructor, but before the main game loop(Update/Draw). This is where you can query any required services and load any non-graphic related content.</p>
+<p><strong>LoadContent Method</strong></p>
+<pre><code class="lang-csharp">protected override void LoadContent()
+{
+    // Create a new SpriteBatch, which can be used to draw textures.
+    spriteBatch = new SpriteBatch(GraphicsDevice);
+
+    // TODO: use this.Content to load your game content here
+}
+</code></pre><p>This method is used to load your game content. It is called only once per game, after Initialize method, but before the main game loop methods.</p>
+<p><strong>Update Method</strong></p>
+<pre><code class="lang-csharp">protected override void Update(GameTime gameTime)
+{
+    if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+        Exit();
+
+    // TODO: Add your update logic here
+
+    base.Update(gameTime);
+}
+</code></pre><p>This method is called multiple times per second, and is used to update your game state (checking for collisions, gathering input, playing audio, etc.).</p>
+<p><strong>Draw Method</strong></p>
+<pre><code class="lang-csharp">protected override void Draw(GameTime gameTime)
+{
+    graphics.GraphicsDevice.Clear(Color.CornflowerBlue);
+
+    // TODO: Add your drawing code here
+
+    base.Draw(gameTime);
+}
+</code></pre><p>Similar to the Update method, it is also called multiple times per second.</p>
+<p>For the next part, look at <a href="3_adding_content.html">Adding Content</a> page.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/Documentation/manual/getting_started/2_understanding_the_code.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

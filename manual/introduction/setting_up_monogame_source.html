@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Setting up MonoGame from Source | MonoGame Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Setting up MonoGame from Source | MonoGame Documentation ">
+    <meta name="generator" content="docfx 2.28.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="setting-up-monogame-from-source">Setting up MonoGame from Source</h1>
+
+<p>This section will help you setup MonoGame by building it from source code.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>Install the tools for the system you are building from:</p>
+<ul>
+<li>Windows: <ul>
+<li><a href="https://git-scm.com/download/win">Git for Windows</a></li>
+<li><a href="https://www.visualstudio.com/">Visual Studio</a></li>
+<li><a href="https://www.xamarin.com/download">Xamarin.Android</a> (Optional)</li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=35471">Windows Phone 8 SDK</a> (Optional)</li>
+</ul>
+</li>
+<li>Mac: <ul>
+<li><a href="https://git-scm.com/download/mac">Git</a></li>
+<li><a href="https://store.xamarin.com/">Xamarin Studio</a></li>
+<li>Xamarin.Android and Xamarin.iOS can be installed with the Xamarin Studio installer (Optional)</li>
+</ul>
+</li>
+<li>Linux: <ul>
+<li><a href="https://git-scm.com/download/linux">Git</a></li>
+<li><a href="http://www.monodevelop.com/download/linux/">Monodevelop</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="getting-the-source-code">Getting the source code</h3>
+<p>Start up a Terminal (Mac/Linux) or Git Bash (Windows) and clone the MonoGame repository:</p>
+<pre><code>git clone https://github.com/MonoGame/MonoGame.git
+cd MonoGame
+git submodule init
+git submodule update
+</code></pre><h3 id="building-from-source">Building from source</h3>
+<p>MonoGame uses <a href="https://protobuild.org/">Protobuild</a> to generate project and solution files. Protobuild.exe will be in your MonoGame folder. To run Protobuild:</p>
+<ul>
+<li>On Windows run Protobuild.exe either by double-clicking or by executing it from the command line.</li>
+<li>On Mac/Linux open a terminal and run <code>mono Protobuild.exe</code> in the MonoGame folder.</li>
+</ul>
+<p>Once the project and solution files are generated you can build them with the IDE you installed.</p>
+<h3 id="referencing-the-projects">Referencing the projects</h3>
+<p>First get the MonoGame SDK from the <a href="http://www.monogame.net/downloads/">downloads page</a> and install it to get the IDE templates. Start up the IDE you have installed and create a new project from one of the templates. Click Add &gt; Existing Project... on your solution and select the MonoGame.Framework project that matches the template (i.e. MonoGame.Framework.Windows.csproj for a MonoGame Windows project template). The project files are located in MonoGame/MonoGame.Framework. Delete the existing MonoGame.Framework reference and add a reference to the added project by clicking Add Reference... &gt; Projects and selecting the project. You can run your game now. If you make changes to the MonoGame.Framework project it will automatically rebuild when running your game.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/Documentation/manual/introduction/setting_up_monogame_source.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

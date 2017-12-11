@@ -1,0 +1,4112 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/jesse/Projects/MonoGame/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html",
+          "hash": "vw56AsjeV0UgYBNfHcxvHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioCategory.html",
+          "hash": "ZW+DPRNulVsSsPcMGf3SxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioChannels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioChannels.html",
+          "hash": "9c1otJMtp58arYkaQRxv6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioEmitter.html",
+          "hash": "G4ZJMDKGFUwfJp+MsXO28g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioEngine.html",
+          "hash": "m+bOHhgM9vWXlsaJ/GP3Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioListener.html",
+          "hash": "7G1VeRNSvfPRtkWtZIUvrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioStopOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.AudioStopOptions.html",
+          "hash": "J4MrYrCFPNfTkpYmF5nzkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.Cue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.Cue.html",
+          "hash": "GkGrDEGYCvVL9sp9wzBUwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.html",
+          "hash": "JqRzOVOpycW3oVF1yAR8vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.InstancePlayLimitException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.InstancePlayLimitException.html",
+          "hash": "x8V3/VjXD7ocUQoVwqVtzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.Microphone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.Microphone.html",
+          "hash": "qkkInmIq1UCCmAZL0uzA4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.MicrophoneState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.MicrophoneState.html",
+          "hash": "SlQ4Pq8rNsXsvnmlvPqD8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.NoAudioHardwareException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.NoAudioHardwareException.html",
+          "hash": "K7ygqZkzMXGqI3SUynnE4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.html",
+          "hash": "nDI9BWHwVX5e9dUkPkBjWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundBank.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundBank.html",
+          "hash": "VehdeFYuNySC+7N58gVJqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundEffect.html",
+          "hash": "011iNcl7xb22ENmBMSGqIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundEffectInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundEffectInstance.html",
+          "hash": "IPIjjcxiLQS2JMaG1kbZrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.SoundState.html",
+          "hash": "zA3qMLqPj+Fmuq0ZYCoJzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.WaveBank.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.WaveBank.html",
+          "hash": "oQNE+o8tw58/Oxu/RpMFlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Audio.html",
+          "hash": "JVGS7qLJeFm+w/x4v1LfeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.BoundingBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.BoundingBox.html",
+          "hash": "iyJLJna2YgabIsbo4fYF1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.BoundingFrustum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.BoundingFrustum.html",
+          "hash": "oPUHmEpuYpVrX936A+PEUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.BoundingSphere.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.BoundingSphere.html",
+          "hash": "44NwWXDD7xP9aKKfp4OsxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Color.html",
+          "hash": "PoihXfhbZp8HUec3saFZVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.ContainmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.ContainmentType.html",
+          "hash": "dDC3feoiKUSZhnER2cg1hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentLoadException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentLoadException.html",
+          "hash": "hu8cyj+dFEUhuc1LtGxMxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentManager.html",
+          "hash": "w2qvoDUQxLZgy64v3kiuoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentReader.html",
+          "hash": "hkLe4dCso/ESnUds8VhYHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerAttribute.html",
+          "hash": "vAV5UaGKIUKqmxybMJZCuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerCollectionItemNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerCollectionItemNameAttribute.html",
+          "hash": "XQDe62wcAqzBXbCbc7PSPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerIgnoreAttribute.html",
+          "hash": "SqPxJI3/jBhxwx3wJ+EqWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerRuntimeTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerRuntimeTypeAttribute.html",
+          "hash": "CLNHyLlbMOvzqy8vemtjvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerTypeVersionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentSerializerTypeVersionAttribute.html",
+          "hash": "7f5Sm4dQ7ZmKpcFxVpzy6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentTypeReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentTypeReader-1.html",
+          "hash": "RzzLwVgJv8fo8fuDUxFFdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentTypeReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentTypeReader.html",
+          "hash": "aqsIm4bjwB2kmbQfjw26cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.html",
+          "hash": "Ztj7Id+EYdIR4DhfsO6ADg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.ResourceContentManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.ResourceContentManager.html",
+          "hash": "r+paTlJzLmgtUz3htyNdAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Content.html",
+          "hash": "0XZwOTTOBeeRIQ/iZX2OGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Curve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Curve.html",
+          "hash": "NUFJe3XqZRT0plmp55WKmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.CurveContinuity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.CurveContinuity.html",
+          "hash": "hRIWMc8RkvRC50Xp6RCRPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.CurveKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.CurveKey.html",
+          "hash": "rexWGXH4E9SgXgXRUA/m2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.CurveKeyCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.CurveKeyCollection.html",
+          "hash": "MoxWYEGDSUXjvMtrJznU6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.CurveLoopType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.CurveLoopType.html",
+          "hash": "Fmq5Jfb7KgG8a9oQqdxZWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.CurveTangent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.CurveTangent.html",
+          "hash": "qaWMo/OPHnNwg2sGNqvwnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Design.Vector2TypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Design.Vector2TypeConverter.html",
+          "hash": "ECNV159ObnGyJ0S3sNJMvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Design.Vector3TypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Design.Vector3TypeConverter.html",
+          "hash": "drQ75mJSKm6y6YLw/yf2nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Design.Vector4TypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Design.Vector4TypeConverter.html",
+          "hash": "cWvL7rIgShBCk/AJlS2DAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Design.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Design.html",
+          "hash": "y+ej1NW+trojTgAvVUGIiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.DisplayOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.DisplayOrientation.html",
+          "hash": "gMpXgdPtuzBxKndMkXT/bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.DrawableGameComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.DrawableGameComponent.html",
+          "hash": "0QABDPOD6ZnrJphBAao3WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.FrameworkDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.FrameworkDispatcher.html",
+          "hash": "2MG2zlIEN0DK2iVLoNQU+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Game.html",
+          "hash": "Jout7YYBdoV/SCcZM5vlTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameComponent.html",
+          "hash": "AU2CU0WdIsufgrlALC/RMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameComponentCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameComponentCollection.html",
+          "hash": "D4jPXgGnQ5JW55/EQKSZEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameComponentCollectionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameComponentCollectionEventArgs.html",
+          "hash": "sk941bCR5pg8Ut3Kn6jqYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameRunBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameRunBehavior.html",
+          "hash": "Izb7AfMvQn3UvRtIyRUX+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameServiceContainer.html",
+          "hash": "mEEztUi+NkQwQxjXp8p4tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameTime.html",
+          "hash": "CzuxNBY7drpV1TZGEclXgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameUpdateRequiredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameUpdateRequiredException.html",
+          "hash": "LrYKEDUsev/UZ8a352QX5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GameWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GameWindow.html",
+          "hash": "nK9kx6zChA82RdYpDehBsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.html",
+          "hash": "XRupZME3mfnKJhR7KnThxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.BasicEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.BasicEffect.html",
+          "hash": "tKBQ06o4dzeY3ZrdwCsodw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Blend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Blend.html",
+          "hash": "lbgD/cB1eRjJ08RaM6qnPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.BlendFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.BlendFunction.html",
+          "hash": "lQlep8+r6lnFb7BqBxSLSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.BlendState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.BlendState.html",
+          "hash": "ESKauSWtEUS2jRlX8FdIxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.BufferUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.BufferUsage.html",
+          "hash": "2ll1PZprm8K7NuQsjzMLgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ClearOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ClearOptions.html",
+          "hash": "8j1ClbhJk1inRhWos5YBKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ColorWriteChannels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ColorWriteChannels.html",
+          "hash": "YHfJH0mS+h1sdwePEer0Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.CompareFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.CompareFunction.html",
+          "hash": "g9+cy7YdnOuuERO/gUyaJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.CubeMapFace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.CubeMapFace.html",
+          "hash": "GC6AVoXZO2/9U3qnGoOfHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.CullMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.CullMode.html",
+          "hash": "HHQmVe/pTkdNinY7i7bCaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DepthFormat.html",
+          "hash": "4IeDOy1iPu6AH/1+1S9oYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DepthStencilState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DepthStencilState.html",
+          "hash": "OHP5XjTVxNATP6ReCGebDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DeviceLostException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DeviceLostException.html",
+          "hash": "PHPI5wLErAjwOv8APfNGMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DeviceNotResetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DeviceNotResetException.html",
+          "hash": "G690kw5eyCEid0mmb89/3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DirectionalLight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DirectionalLight.html",
+          "hash": "AGz2C77kvL9ZRKC2TYwTVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DisplayMode.html",
+          "hash": "ulbMHA2rsaLDkYDV1luBPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DisplayModeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DisplayModeCollection.html",
+          "hash": "E0ASI/SRoRSBegAQGWpo9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.html",
+          "hash": "Cer1E8VfDgyPj5V/vCBYiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DynamicIndexBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DynamicIndexBuffer.html",
+          "hash": "oIecZmXdyWMX1c/pvq40Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.DynamicVertexBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.DynamicVertexBuffer.html",
+          "hash": "gb72pqNGN/2HnaJ6yrbVfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Effect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Effect.html",
+          "hash": "gMdzlxSbWxjD5QxWD55VIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectAnnotation.html",
+          "hash": "zBRARxQu0B5EG7WxaTrSFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.html",
+          "hash": "/qrqj/73ZMLYWxs8iHAT0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectMaterial.html",
+          "hash": "eKbxpwNmmD2TxNTDot6VAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameter.html",
+          "hash": "d1yumeILUpxKHKRNsbsLFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameterClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameterClass.html",
+          "hash": "xFqQv75c8QymPYUGfm6wDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameterCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameterCollection.html",
+          "hash": "0Tbnvlt7kJe6ivxxskc2Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectParameterType.html",
+          "hash": "8qtQmw9Q/GjotNGLNlec1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectPass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectPass.html",
+          "hash": "UGODFefhkIi0xGeMwf/3Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.html",
+          "hash": "zAreQoiGTSXk/pEX1uNYNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.html",
+          "hash": "HQlpy9zMkeRyda2akuLB7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectTechnique.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectTechnique.html",
+          "hash": "wcXWHbOhbj4Ah6zugFv6vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.html",
+          "hash": "fQAAFr/hSrqW/GD850JF5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.html",
+          "hash": "uNnKeuV9fChJx2bCNteajg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.FillMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.FillMode.html",
+          "hash": "pRC8XpWlGgsvf6rMRdnkrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType.html",
+          "hash": "YWpuMQ38oHRtQ4dedKpjKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.html",
+          "hash": "jwyIAVdjN6dEFQMMJ31RPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDebug.html",
+          "hash": "h6O7fdgoQEIpt5QOI6jFpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDebugMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDebugMessage.html",
+          "hash": "Jg9zNxzRUhlPjmWp7jdFIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDevice.html",
+          "hash": "n0n1jcR059TF/LIAz8Gmqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDeviceStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsDeviceStatus.html",
+          "hash": "9t/MT+T4lM7lQ3mNxL8+PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsMetrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html",
+          "hash": "RLCPIaXbAD808+tOYNVMPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsProfile.html",
+          "hash": "yYvY7pdt0Cn45L7Q30sCAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.html",
+          "hash": "WcI9lfGifRqbQfO6SrWB+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.IEffectFog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.IEffectFog.html",
+          "hash": "uKlSbl5To1IgoBTDac6QbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.IEffectLights.html",
+          "hash": "HvFRoW9qmcnRarJQ4gdnww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.IEffectMatrices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.IEffectMatrices.html",
+          "hash": "u6gdCm/JFAPdKIjX0Yh8lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService.html",
+          "hash": "8aRsquL7Na7yPJZhQPDeJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.IVertexType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.IVertexType.html",
+          "hash": "O3Wvxbw+hP+LWJTGcjOpxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.IndexBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.IndexBuffer.html",
+          "hash": "T2mE5I9uUBc//VeBqrlswg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.IndexElementSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.IndexElementSize.html",
+          "hash": "xsfxErTKcv01Ocx4sFlxaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Model.html",
+          "hash": "1d0SbWF7m73m7LGAcXHflQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelBone.html",
+          "hash": "wNxX5PL8oqWM+JL9Zh+YsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.html",
+          "hash": "c73h0tL4WVWngHwt2OkMBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.html",
+          "hash": "54cBCLOFRPSvJMqQwHn81g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.html",
+          "hash": "HOHAvWByU/kvd4VqsW+MfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.html",
+          "hash": "beS/z7y8R2xkMURTa1C4QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMesh.html",
+          "hash": "9TMV6FqUf7CHB/5bEln3Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.html",
+          "hash": "944DdVJAQZzJxXhGhtNRJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.html",
+          "hash": "50ROVz2M27433Yrq9ta1oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshPart.html",
+          "hash": "XvMRYqXJN7MW/M+k7hXBOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshPartCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ModelMeshPartCollection.html",
+          "hash": "/xI5igJg8yzzWm0A/fF/Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.NoSuitableGraphicsDeviceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.NoSuitableGraphicsDeviceException.html",
+          "hash": "bdd1W/9FQdS7lxQeBgDEvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.OcclusionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.OcclusionQuery.html",
+          "hash": "6D16Ef9APY8CE49gSQ0x5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.html",
+          "hash": "kOEX0U09ECQbZdghUpVmKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgr565.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgr565.html",
+          "hash": "PERVL5ZKmwvnt7ARwDaz8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.html",
+          "hash": "oLYG7f2ZEJYetYiDBkibMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgra5551.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Bgra5551.html",
+          "hash": "DIaP9E1frPoO3kPrNnTgIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.html",
+          "hash": "CUcD/B4g2S/p2eb/EBHCUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfSingle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfSingle.html",
+          "hash": "NpwuTRFbcEivmvJhCKW+oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector2.html",
+          "hash": "Z9byVpy5amNuAJ1I2CwTRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector4.html",
+          "hash": "YDxwYzoZydLDnReEtAqerw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector-1.html",
+          "hash": "pEKFeZzzMtQ3CapCbiiUTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html",
+          "hash": "/r9Qyu1gVp8OhVv0HeU8aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedByte2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedByte2.html",
+          "hash": "LB6PnhYa6ubhKcPeE1b0Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedByte4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedByte4.html",
+          "hash": "jzoEm0L1ZGdypE+sWLTlUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort2.html",
+          "hash": "g/QSkkOUv5h8VOhHDI/A0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort4.html",
+          "hash": "VLskX7jjVZE9aOtWlcjsgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Rg32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Rg32.html",
+          "hash": "ZfaKk8EsGcxZuhd7jaUKNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Rgba1010102.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Rgba1010102.html",
+          "hash": "JfpWCkC6n8chNA1EBIvUnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Rgba64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Rgba64.html",
+          "hash": "dchb8uTiC8oncG+FdSDtuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Short2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Short2.html",
+          "hash": "tzSqgYGU6taf8IXiN1mFAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Short4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.Short4.html",
+          "hash": "Amr0ByMCNaswLNXdG4C9Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PackedVector.html",
+          "hash": "uFEM22xJ7BRLGNIoZGgi7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PresentInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PresentInterval.html",
+          "hash": "23NuFZ05EHtbJGu7SpnW/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PresentationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PresentationParameters.html",
+          "hash": "lqjdJjlvqQLDSqYi7+QaOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.PrimitiveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.PrimitiveType.html",
+          "hash": "3LCQheLFdeipmVnTav/xfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.RasterizerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.RasterizerState.html",
+          "hash": "YgEV4tpSaDlCU5xaHY0Utw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTarget2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTarget2D.html",
+          "hash": "tcIkW/JwrHFFfdpdfKSQ3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTarget3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTarget3D.html",
+          "hash": "wKtagc63vNnY1dEUDS8eUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTargetBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html",
+          "hash": "toiZHc0kCbiorP51k03IBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTargetCube.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTargetCube.html",
+          "hash": "zmPh3hmlpg0NdQVlGxWyXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTargetUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.RenderTargetUsage.html",
+          "hash": "6JeTzT57ZLuOwvz9ZCmAHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ResourceCreatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ResourceCreatedEventArgs.html",
+          "hash": "arnzLqGb08vyOZULJs5A0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.ResourceDestroyedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.ResourceDestroyedEventArgs.html",
+          "hash": "LtW0SgmvKrGq1RRIDU5ULw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SamplerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SamplerState.html",
+          "hash": "8c0J9e+eR1rgD2DKyM2kMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SamplerStateCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SamplerStateCollection.html",
+          "hash": "Wt2mQYwho+eMpNBHMn9AHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SetDataOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SetDataOptions.html",
+          "hash": "iOmB9WizIB8wO4NrOR7V8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.html",
+          "hash": "4s/VQc7YUkRVggnixDD2vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteBatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteBatch.html",
+          "hash": "e8pWUwMhjdtWogmXVxH7wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteEffect.html",
+          "hash": "pi1J9Pvagu6EHjjo8MZfIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteEffects.html",
+          "hash": "HURdlMJNjHfdCg0Rd1RYzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.html",
+          "hash": "ly872oWBe3oadP08eAGPmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteFont.html",
+          "hash": "vai/BPYdljqU6wIh8wcGdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteSortMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SpriteSortMode.html",
+          "hash": "BkSw95ALXLbOqyl1sJzEtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.StencilOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.StencilOperation.html",
+          "hash": "sVqXPOl5cq1SWLMuIitBHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SurfaceFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SurfaceFormat.html",
+          "hash": "19jStrZnF7eMj0ACk2YOEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.html",
+          "hash": "Pyx3YgL4vod+S51IombuOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.TargetBlendState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.TargetBlendState.html",
+          "hash": "7HpOVEpwt0f8MaBzLecyKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture.html",
+          "hash": "FydsHw7lDYyNrA+s/2TQEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType.html",
+          "hash": "qm+Yl/0ppz0Xy/cLp4EMaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture2D.html",
+          "hash": "LQ3mSxXsVWbKbDZIo2vqyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Texture3D.html",
+          "hash": "7R58a3yEhqrBhh/10ZuAOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureAddressMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureAddressMode.html",
+          "hash": "CWCeK86yJVL9vAjuB+rY6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureCollection.html",
+          "hash": "ftY/IhXh/2QRHFzX+j+fVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureCube.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureCube.html",
+          "hash": "ApH0Jw6cWBMKbr7t3/PpwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureFilter.html",
+          "hash": "i1pqyA8/bPHPRwkyfsX7eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureFilterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.TextureFilterMode.html",
+          "hash": "WJ6PmYN30W4SE6LEYx0cgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexBuffer.html",
+          "hash": "Lce6ioKn1lwcTNmrm6CcnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexBufferBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html",
+          "hash": "P94gJ93/YC2cpkxLR9Bd+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexDeclaration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexDeclaration.html",
+          "hash": "ww87YgEPnf91qgO+A//gLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexElement.html",
+          "hash": "YqDCnZUbKZzXTd01YOo8+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexElementFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexElementFormat.html",
+          "hash": "PAGmcARGVOipfikooYRVvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexElementUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexElementUsage.html",
+          "hash": "stqOu9nKRya1zmK0ZIgzJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPosition.html",
+          "hash": "aQhg21/Wr+oTz/u0gWbh6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionColor.html",
+          "hash": "D5Sas6QIkpk616Jgeh5yuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.html",
+          "hash": "pFhDdLAV1Ay2JWju6bTmDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.html",
+          "hash": "YV5gHP3ntsH/xdpo2U9xFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.VertexPositionTexture.html",
+          "hash": "pjS7rHqVogIjFDQ0oBPAOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.Viewport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.Viewport.html",
+          "hash": "PJNtJrnsrzLE0d3/ruwC1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Graphics.html",
+          "hash": "a6PJQ4sxRngu9fcjqzpdFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GraphicsDeviceInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GraphicsDeviceInformation.html",
+          "hash": "BOjgeHh93V6qmb2jCgWO1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.GraphicsDeviceManager.html",
+          "hash": "j48b1KuTof+B33zAoknFaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.IDrawable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.IDrawable.html",
+          "hash": "2U8MjnCwVkPGCCRm59cfSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.IGameComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.IGameComponent.html",
+          "hash": "MBFMgpLClqZvN7gOixAszA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.html",
+          "hash": "AdVq+lErNJfrnojk+uol1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.IUpdateable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.IUpdateable.html",
+          "hash": "bkO2dGq1UzvwiKebtbE9RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.ButtonState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.ButtonState.html",
+          "hash": "N3c9HoBpYwefzixRDJR0WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Buttons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Buttons.html",
+          "hash": "lWqW6ISKffsv/11LbIfDGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePad.html",
+          "hash": "oe/ug0OMc3rLRlLGc2oGDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadButtons.html",
+          "hash": "aEoIOTdMRNJuOcOVflOVDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadCapabilities.html",
+          "hash": "ETQVRu/9S/73heq9l7FsHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadDPad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadDPad.html",
+          "hash": "Ktyo9+RxKbGJDlXgz2pv7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadDeadZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadDeadZone.html",
+          "hash": "oFPAN8mDFAX/HZ8YwCdLcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadState.html",
+          "hash": "TjfvdcxfIltHhICHfcQRdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadThumbSticks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadThumbSticks.html",
+          "hash": "T6+7e9hbQR9sqlK5qJuaDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadTriggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadTriggers.html",
+          "hash": "VQjziHu9MzMe0/ZbsdCBhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.GamePadType.html",
+          "hash": "eFeSmGYvfnBZfgtNHPXzbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Joystick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Joystick.html",
+          "hash": "hmYizg699gz4NAMu1cwVVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.JoystickCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.JoystickCapabilities.html",
+          "hash": "vFazglU7Abk/xgQFI/zRBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.JoystickHat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.JoystickHat.html",
+          "hash": "IbybLbIOFAdG4A3YH70M6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.JoystickState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.JoystickState.html",
+          "hash": "+7xeEJgV3AOJ0JaDSu7NSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.KeyState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.KeyState.html",
+          "hash": "Wgdmzb4djJj1VcNjkEsAmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Keyboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Keyboard.html",
+          "hash": "KCX84dFI8DinRZgv03mKbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.KeyboardState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.KeyboardState.html",
+          "hash": "cPBE/47wUE2IOlqURwM/EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Keys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Keys.html",
+          "hash": "iYxV+wqg/RKBbSMlMBdG6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Mouse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Mouse.html",
+          "hash": "VLvKnSWMPpfM/jsnOgEByQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.MouseCursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.MouseCursor.html",
+          "hash": "dSx4nwntkwmGiZ+OUh+TAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.MouseState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.MouseState.html",
+          "hash": "OaUo01+Uix012aNIB7U6tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.GestureSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.GestureSample.html",
+          "hash": "J2C2wPpeJJ3CR+0EqJljWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.GestureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.GestureType.html",
+          "hash": "r4zth3gR0kXg+y90qxak+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.html",
+          "hash": "FMfnm68/EGFGcYC+Cbz8IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.html",
+          "hash": "dN7h1BrOAdVMhjgq19/eAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchLocation.html",
+          "hash": "LvCk9qQBi6Lwz/Tj0r58iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchLocationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchLocationState.html",
+          "hash": "Wus6Kk9XObOgEzVhQQkCfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchPanel.html",
+          "hash": "gnt73NJt+/ojPJVz1Kz+wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.html",
+          "hash": "YshKxUuHdvoT8KP2hPxJvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchPanelState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.TouchPanelState.html",
+          "hash": "xVeiV+3a2zSUX5hhZyP2uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.Touch.html",
+          "hash": "S9ASJKn8ADPWRdQMxC8TFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Input.html",
+          "hash": "a8GUzW02z/095KEcC3Lo7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.LaunchParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.LaunchParameters.html",
+          "hash": "hUBD7EqGxvkdhva+UsF1MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.MathHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.MathHelper.html",
+          "hash": "oT1D1uCm3XDoH7wOMA/zPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Matrix.html",
+          "hash": "dShc9no1pNpQM+eeBNU7HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.Album.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.Album.html",
+          "hash": "Guv5cDU3OQ16iBEpAy0StQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.AlbumCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.AlbumCollection.html",
+          "hash": "l8IK59brbPTVA0jKuBRRGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.Artist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.Artist.html",
+          "hash": "9cFGxP5Vq+OJqJ6bSDlrNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.Genre.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.Genre.html",
+          "hash": "urun1MzQ7esSXvQY41/tog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.MediaLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.MediaLibrary.html",
+          "hash": "+DUuywWUJABKr4/sTNe+HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.MediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.MediaPlayer.html",
+          "hash": "sxtFHLZ8kvAo46sy6IuzTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.MediaQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.MediaQueue.html",
+          "hash": "oo85/H3znbiFo33+yNE9YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.MediaSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.MediaSource.html",
+          "hash": "n6gu+D/ZVDN2qFQCWHg9SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.MediaSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.MediaSourceType.html",
+          "hash": "D9373AVYrxUrsEJsRK1W6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.MediaState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.MediaState.html",
+          "hash": "BEd7IPWzICX4b1znurAVXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.Playlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.Playlist.html",
+          "hash": "hBWgP61Vf5ktgtpwDT/Nag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.PlaylistCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.PlaylistCollection.html",
+          "hash": "YqumOzgq1fuSVlaacC9B2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.Song.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.Song.html",
+          "hash": "HIVG1RgT/T4+/eOCxTivmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.SongCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.SongCollection.html",
+          "hash": "D+4oYowyPRVKuHoW3ETkRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.Video.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.Video.html",
+          "hash": "azbL4FaAe1kGDCdUhCVbQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.VideoPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.VideoPlayer.html",
+          "hash": "xvJDNppcc4/n9doj+QIQxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.VideoSoundtrackType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.VideoSoundtrackType.html",
+          "hash": "ICMbWDYihxSP9eZQwZpWCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Media.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Media.html",
+          "hash": "JGGn7+QQNg6P0b40bZYVXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Plane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Plane.html",
+          "hash": "iISaVRiz8YHT6OlWZpbn2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.PlaneIntersectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.PlaneIntersectionType.html",
+          "hash": "+fY8Jq0gy9S0od+DNK3k0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.PlayerIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.PlayerIndex.html",
+          "hash": "7D1TBLLaFuq/vPWdRUR+5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Point.html",
+          "hash": "3/Q+H0Rbdtud5LFpOqPbFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.html",
+          "hash": "NuCkb66HMpNjZkycHFSiZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Quaternion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Quaternion.html",
+          "hash": "Otk2ntxnkqN1sc8wQXvmlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Ray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Ray.html",
+          "hash": "nXCq9CRF5X5ECFkSkyzv3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Rectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Rectangle.html",
+          "hash": "pVBAtWeTJ8vUkBgZNSLFMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.TextInputEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.TextInputEventArgs.html",
+          "hash": "geKx8bhMRCAbQFIWO4vsfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.TitleContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.TitleContainer.html",
+          "hash": "N1ViEy540IK9XypjGlTQBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Vector2.html",
+          "hash": "jAMCNiGrPTfGyM4CYbzV1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Vector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Vector3.html",
+          "hash": "/UojEEZsEPbDSh38y1/JIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.Vector4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.Vector4.html",
+          "hash": "HnPUz+VFNiPzeynLg+jmaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/Microsoft.Xna.Framework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/Microsoft.Xna.Framework.html",
+          "hash": "b2mBu/7Y41dFNzjJoOYwQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.OpenGL.IWindowInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.OpenGL.IWindowInfo.html",
+          "hash": "keUsXzgRiboov8674ZHNow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.OpenGL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.OpenGL.html",
+          "hash": "W/xLZwwJrszFPLzVZQm0vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.CompressionLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.CompressionLevel.html",
+          "hash": "+DnnZBLfg5SCk7n6QjG4xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.CompressionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.CompressionMode.html",
+          "hash": "Q/q1bJOW53dUNy6ovjRbDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.FlushType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.FlushType.html",
+          "hash": "2/5/k2Naiq5VJQ/gqeJvwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.PlatformParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.PlatformParameters.html",
+          "hash": "TAz3mM+Tm0NhkDHjFW61Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.Png.PngReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.Png.PngReader.html",
+          "hash": "IjpnLjWg0ZxTMRutO/8UCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.Png.PngWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.Png.PngWriter.html",
+          "hash": "fbwAaslRMRqdsq/KUlvkfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.Png.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.Png.html",
+          "hash": "yb9z5yDWp71agF0n/fAZTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.ZlibStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.ZlibStream.html",
+          "hash": "JqmBUmd1Cz/PsFGjAh44Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/MonoGame.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/MonoGame.Utilities.html",
+          "hash": "rXJgVEnJ6MD4nOAkhtk7WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "_api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_api/toc.html",
+          "hash": "6iwskPWTLZZzACSZ8RV1gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "UNsEFHv2Ut64uKnOtjQoaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/content/adding_ttf_fonts.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/content/adding_ttf_fonts.html",
+          "hash": "M4Of8tgkSlejY3XyMSbX1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/content/content.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/content/content.html",
+          "hash": "HBkxba/c0BhU+p48W3EOrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/content/custom_effects.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/content/custom_effects.html",
+          "hash": "zVoZCY5G8e7UVv1Blf3IEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/content/images/add_as_link.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/content/images/add_as_link.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/content/images/adding_ttf_fonts_step_1.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/content/images/adding_ttf_fonts_step_1.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/content/images/adding_ttf_fonts_step_2.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/content/images/adding_ttf_fonts_step_2.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/content/images/pipeline_items.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/content/images/pipeline_items.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/content/localization.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/content/localization.html",
+          "hash": "kP8fw/AhcL4sqkC+BSxNEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/content/using_pipeline_tool.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/content/using_pipeline_tool.html",
+          "hash": "hIE2RAfmpE/CW98UbsqwqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting_started/1_creating_a_new_project.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting_started/1_creating_a_new_project.html",
+          "hash": "YUvSbeytFlqbppCXQkHLDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting_started/1_creating_a_new_project_md.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting_started/1_creating_a_new_project_md.html",
+          "hash": "OQ3k2CTN6JXWjcQG92EvKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting_started/1_creating_a_new_project_vs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting_started/1_creating_a_new_project_vs.html",
+          "hash": "YvadT1e9mg1Yz+ptQL7cig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting_started/2_understanding_the_code.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting_started/2_understanding_the_code.html",
+          "hash": "oj/pKzH29QRf39Lr14DpBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting_started/3_adding_content.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting_started/3_adding_content.html",
+          "hash": "aDo16H3H+4znW8NTgdJ0+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting_started/4_adding_basic_code.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting_started/4_adding_basic_code.html",
+          "hash": "mYO2JmST1XAlSW/+YClVxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting_started/getting_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting_started/getting_started.html",
+          "hash": "8Oau02coFQskVzMl0YeNKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_game_md.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_game_md.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_game_vs.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_game_vs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_new_solution_md.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_new_solution_md.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_new_solution_vs.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_new_solution_vs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_project_dialog_md.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_project_dialog_md.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_run_game_md.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_run_game_md.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_run_game_vs.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_run_game_vs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_template_dialog_md.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_template_dialog_md.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/1_template_dialog_vs.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/1_template_dialog_vs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/3_add_content.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/3_add_content.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/3_copy_content.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/3_copy_content.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/3_game.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/3_game.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/3_open_content.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/3_open_content.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/3_pipeline_tool.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/3_pipeline_tool.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/3_save_content.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/3_save_content.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/4_ball_center.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/4_ball_center.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/4_ball_not_center.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/4_ball_not_center.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/getting_started/images/ball.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/getting_started/images/ball.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "utEpBWq3kd+v6QxiI9fFsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/help_and_support.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/help_and_support.html",
+          "hash": "bhHGVrSlTYYkRwgyHPeaPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/introduction.html",
+          "hash": "3gomlL72BRb9dwfbxCDKLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/monogame_faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/monogame_faq.html",
+          "hash": "zgjwIZZMhkV9VyJE0mOjgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/setting_up_monogame.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/setting_up_monogame.html",
+          "hash": "6J2pFttFKdg/tUlM/Q9iXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/setting_up_monogame_linux.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/setting_up_monogame_linux.html",
+          "hash": "qihhrDfBKkstNID7DlrVtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/setting_up_monogame_mac.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/setting_up_monogame_mac.html",
+          "hash": "y7ybLcUhpa+y7IAoEsubyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/setting_up_monogame_source.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/setting_up_monogame_source.html",
+          "hash": "qPMsBe+x3TWn9fVxRsCWng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/system_requirements.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/system_requirements.html",
+          "hash": "kpP0qgvNWyFg3822wVuzkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction/what_is_monogame.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction/what_is_monogame.html",
+          "hash": "Dod6EbjD/a41vSTKyGRNVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/links.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/links.html",
+          "hash": "nWABqGcdIwSmhrA1sVAW+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/platform_specific/android.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/platform_specific/android.html",
+          "hash": "yIaDxamGhmLTLRhawj4v/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/platform_specific/images/android_vs_target_frameworks.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/platform_specific/images/android_vs_target_frameworks.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/platform_specific/images/android_xs_minimum_framework.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/platform_specific/images/android_xs_minimum_framework.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/platform_specific/images/android_xs_target_framework.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/platform_specific/images/android_xs_target_framework.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/platform_specific/platform_specific.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/platform_specific/platform_specific.html",
+          "hash": "9fVrcBJRpq9gjlVT4iWxQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/platform_specific/tvOS.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/platform_specific/tvOS.html",
+          "hash": "R6mfD2f11+cK+2eFYAa7WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "9Z7+SyaXuM6F1uQNRbVKIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tools/2mgfx.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tools/2mgfx.html",
+          "hash": "GpEfw8kr1l3COdd4S5Vbhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/tools/images/pipeline.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/tools/images/pipeline.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tools/mgcb.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tools/mgcb.html",
+          "hash": "X/8osad3/aZ3oz16oP+vuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tools/pipeline.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tools/pipeline.html",
+          "hash": "LlImnoWeTeKi7s3cGS/t9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tools/tools.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tools/tools.html",
+          "hash": "naDrbPIukcaLlpmCttUgSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "FZaf6cJ/LKaE/2n5q0G/AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/external.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/external.html",
+          "hash": "vuf7sh55dsPG9AklZHP7CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/index.html",
+          "hash": "Q4KJCsxdQz8Yyu8WmkTsHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "tutorials/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/toc.html",
+          "hash": "4wq2fmeY8AVVbZfaTj9e7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

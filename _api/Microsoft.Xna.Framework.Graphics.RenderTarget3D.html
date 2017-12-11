@@ -1,0 +1,580 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class RenderTarget3D
+   | MonoGame Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class RenderTarget3D
+   | MonoGame Documentation ">
+    <meta name="generator" content="docfx 2.28.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D">
+  
+  
+  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D" class="text-break">Class RenderTarget3D
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></div>
+    <div class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html">Texture</a></div>
+    <div class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html">Texture3D</a></div>
+    <div class="level4"><span class="xref">RenderTarget3D</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_Width">Texture3D.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_Height">Texture3D.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_Depth">Texture3D.Depth</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_SetData__1___0___">Texture3D.SetData&lt;T&gt;(T[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_SetData__1___0___System_Int32_System_Int32_">Texture3D.SetData&lt;T&gt;(T[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_SetData__1_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32___0___System_Int32_System_Int32_">Texture3D.SetData&lt;T&gt;(Int32, Int32, Int32, Int32, Int32, Int32, Int32, T[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32___0___System_Int32_System_Int32_">Texture3D.GetData&lt;T&gt;(Int32, Int32, Int32, Int32, Int32, Int32, Int32, T[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___System_Int32_System_Int32_">Texture3D.GetData&lt;T&gt;(T[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___">Texture3D.GetData&lt;T&gt;(T[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_Format">Texture.Format</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_LevelCount">Texture.LevelCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_GraphicsDeviceResetting">Texture.GraphicsDeviceResetting()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_GetSharedHandle">Texture.GetSharedHandle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_CreateShaderResourceView">Texture.CreateShaderResourceView()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h6>
+  <h6><strong>Assembly</strong>: MonoGame.Framework.dll</h6>
+  <h5 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RenderTarget3D : Texture3D, IDisposable, IRenderTarget</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L44">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.#ctor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Int32)">RenderTarget3D(GraphicsDevice, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderTarget3D(GraphicsDevice graphicsDevice, int width, int height, int depth)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+        <td><span class="parametername">graphicsDevice</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">depth</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CMicrosoft.Xna.Framework.Graphics.DepthFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L40">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.#ctor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.DepthFormat)">RenderTarget3D(GraphicsDevice, Int32, Int32, Int32, Boolean, SurfaceFormat, DepthFormat)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderTarget3D(GraphicsDevice graphicsDevice, int width, int height, int depth, bool mipMap, SurfaceFormat preferredFormat, DepthFormat preferredDepthFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+        <td><span class="parametername">graphicsDevice</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">depth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">mipMap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+        <td><span class="parametername">preferredFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+        <td><span class="parametername">preferredDepthFormat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CMicrosoft.Xna.Framework.Graphics.DepthFormat%2CSystem.Int32%2CMicrosoft.Xna.Framework.Graphics.RenderTargetUsage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L26">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.#ctor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.DepthFormat,System.Int32,Microsoft.Xna.Framework.Graphics.RenderTargetUsage)">RenderTarget3D(GraphicsDevice, Int32, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderTarget3D(GraphicsDevice graphicsDevice, int width, int height, int depth, bool mipMap, SurfaceFormat preferredFormat, DepthFormat preferredDepthFormat, int preferredMultiSampleCount, RenderTargetUsage usage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+        <td><span class="parametername">graphicsDevice</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">depth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">mipMap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+        <td><span class="parametername">preferredFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+        <td><span class="parametername">preferredDepthFormat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">preferredMultiSampleCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetUsage.html">RenderTargetUsage</a></td>
+        <td><span class="parametername">usage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D_DepthStencilFormat.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.DepthStencilFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L11">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_DepthStencilFormat_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.DepthStencilFormat*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_DepthStencilFormat" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.DepthStencilFormat">DepthStencilFormat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DepthFormat DepthStencilFormat { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D_IsContentLost.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.IsContentLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L17">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_IsContentLost_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.IsContentLost*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_IsContentLost" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.IsContentLost">IsContentLost</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsContentLost { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D_MultiSampleCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.MultiSampleCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L13">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_MultiSampleCount_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.MultiSampleCount*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_MultiSampleCount" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.MultiSampleCount">MultiSampleCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MultiSampleCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D_RenderTargetUsage.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.RenderTargetUsage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L15">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_RenderTargetUsage_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.RenderTargetUsage*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_RenderTargetUsage" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.RenderTargetUsage">RenderTargetUsage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderTargetUsage RenderTargetUsage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetUsage.html">RenderTargetUsage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.DirectX.cs/#L50">View Source</a>
+  </span>
+  <a id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.Dispose*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_Dispose_System_Boolean_">Texture.Dispose(Boolean)</a></div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D_ContentLost.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D.ContentLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.cs/#L19">View Source</a>
+  </span>
+  <h4 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_ContentLost" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.ContentLost">ContentLost</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; ContentLost</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTarget3D.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTarget3D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/RenderTarget3D.DirectX.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

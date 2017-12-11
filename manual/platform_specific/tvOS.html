@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Platform-Specific Notes: tvOS | MonoGame Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Platform-Specific Notes: tvOS | MonoGame Documentation ">
+    <meta name="generator" content="docfx 2.28.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="platform-specific-notes-tvos">Platform-Specific Notes: tvOS</h1>
+
+<h3 id="menu-button-handling">Menu Button Handling</h3>
+<p>The Menu button will map to the &quot;Back&quot; button on the GamePad. However on tvOS,
+the Menu button requires some special processing. According to the Apple 
+documentation the Menu Button</p>
+<p>&quot;<em>Pauses/resumes gameplay.
+Returns to previous screen, exits to main game menu, and/or exits to Apple TV Home screen.</em>&quot;</p>
+<p>By default MonoGame will exit to the Apple TV Home screen when the Menu button is pressed, 
+this is not alawys the desired behviour. When in gameplay the Menu button really should
+Pause the game rather than Exiting to the Home screen.</p>
+<p>Because MonoGame has no idea of the game state, it is down to the developer to inform
+it when it can exit to the Home screen and when it should ignore the Menu event and allow
+the developer to the event.</p>
+<p>Some sample code.</p>
+<pre><code class="lang-csharp">
+    public class Game1 : Game , IPlaformBackButton {
+
+        bool IsOnRootMenu = true;
+
+        public bool Handled () {
+            return IsOnRootMenu ? false : true;
+        }
+
+        public Game1 ()
+        {
+            Services.AddService&lt;IPlaformBackButton&gt;(this);
+        }
+
+        public override Update(GameTime gametime)
+        {
+            if (GamePad.GetState (PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            {
+                // do something in game
+            }
+        }
+    }
+</code></pre><p>The key to this working is the <code>IPlatformBackButton</code> interface. By implementing
+and registering this interface MonoGame can callback into your application to ask if it
+should let you handle the Menu button or if it should pass it up to tvOS. So in this case if
+the app is on the &quot;Main menu&quot; the developer will set <em>IsOnRootMenu</em> to true and when the Menu
+button is pressed the game with Exit. However if IsOnRootMenu is false then the &quot;Menu&quot; button 
+click will be routed to the GamePad Back button and the developer can check for the Back button
+press and act accordingly.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/Documentation/manual/platform_specific/tvOS.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
