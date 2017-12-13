@@ -36,8 +36,12 @@ button, a {
 }
 
 a:focus, a:hover, button:focus, button:hover, .btn:focus, .btn:hover {
-  text-decoration: underline;
   color: #E73C00;
+  text-decoration: underline;
+}
+/* Don't underline expanders */
+a.expander:focus, a.expander:hover {
+  text-decoration: unset;
 }
 
 /* toc */
@@ -58,6 +62,7 @@ a:focus, a:hover, button:focus, button:hover, .btn:focus, .btn:hover {
   color: #E73C00;
 }
 
+
 /* affix */
 .sideaffix > div.contribution > ul > li > a.contribution-link:hover, .sideaffix > div.contribution > ul > li > a.contribution-link:focus {
   text-decoration: underline;
@@ -73,7 +78,9 @@ a:focus, a:hover, button:focus, button:hover, .btn:focus, .btn:hover {
 }
 
 /* small screens */
-
+.navbar-form {
+  line-height: 3;
+}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border-width: 0px
 }
@@ -82,5 +89,91 @@ a:focus, a:hover, button:focus, button:hover, .btn:focus, .btn:hover {
 }
 .navbar-inverse .navbar-toggle {
   border-color: #E66A38
+}
+#search {
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: none;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255,255,255,.1);
+}
+
+/* API */
+.api-table {
+  text-align: justify;
+  vertical-align: top;
+}
+.api > h2 {
+  margin-bottom: 25px;
+}
+/* API expanders */
+.expander:before {
+  font-family: 'Glyphicons Halflings';
+  content: "\e114";
+  color: grey;
+  font-size: medium;
+  position: absolute;
+  left: -10px;
+  margin-top: 10px;
+
+  transition: transform .2s ease-out;
+}
+.expander.collapsed:before {
+  transform: rotate(-90deg);
+}
+
+/* Namespace tables */
+table.api-table td {
+  border-top: #ccc 1px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table.api-table td.member {
+  min-width: 200px;
+  width: 30%;
+}
+table.api-table td.summary {
+  width: 70%;
+}
+@media (max-width: 768px) {
+  table.api-table td.member {
+    width: 100%;
+    float: left;
+    padding-bottom: 0px;
+  }
+  table.api-table td.summary {
+    width: 100%;
+    border: none;
+    float: left;
+    padding-top: 0px;
+  }
+}
+/* Class page */
+.api h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.inheritance h5 {
+  border-bottom: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.class-loc {
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.class-loc h5 {
+  margin-top: 5px;
+}
+/* View Source links */
+article span.small.pull-right {
+  margin-top: 3px;
+}
+/* They used a trick for anchors, but it's hacky and causes problems
+ * with the View Source links, so we're overwriting it
+ * we solve the anchoring with a script in main.js */
+h1::before, h2::before, h3::before, h4::before {
+  height: 0px;
+  margin-top: 0px;
 }
 

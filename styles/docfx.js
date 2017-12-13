@@ -47,7 +47,7 @@ $(function () {
   // Styling for tables in conceptual documents using Bootstrap.
   // See http://getbootstrap.com/css/#tables
   function renderTables() {
-    $('table').addClass('table table-bordered table-striped table-condensed').wrap('<div class=\"table-responsive\"></div>');
+    $('.table').addClass('table-bordered table-striped table-condensed').wrap('<div class=\"table-responsive\"></div>');
   }
 
   // Styling for alerts.
@@ -56,15 +56,6 @@ $(function () {
     $('.WARNING').addClass('alert alert-warning');
     $('.IMPORTANT, .CAUTION').addClass('alert alert-danger');
   }
-
-  // Enable anchors for headings.
-  (function () {
-    anchors.options = {
-      placement: 'left',
-      visible: 'touch'
-    };
-    anchors.add('article h2:not(.no-anchor), article h3:not(.no-anchor), article h4:not(.no-anchor)');
-  })();
 
   // Open links to different host in a new window.
   function renderLinks() {
@@ -555,7 +546,7 @@ $(function () {
 
     function getHierarchy() {
       // supported headers are h1, h2, h3, and h4
-      // The topest header is ignored
+      // The top header is ignored
       var selector = ".article article";
       var affixSelector = "#affix";
       var headers = ['h4', 'h3', 'h2', 'h1'];
@@ -588,7 +579,7 @@ $(function () {
             href: "#" + id,
             items: []
           };
-          if (nextLevelSelector) {
+          /*if (nextLevelSelector) {
             var selector = '#' + cssEscape(id) + "~" + nextLevelSelector;
             var currentSelector = selector;
             if (prevSelector) currentSelector += ":not(" + prevSelector + ")";
@@ -601,7 +592,7 @@ $(function () {
               }
             })
             prevSelector = selector;
-          }
+          }*/
           hierarchy.push(item);
         }
         break;
