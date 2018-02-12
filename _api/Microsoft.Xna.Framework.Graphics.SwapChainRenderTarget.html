@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,217 +10,205 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="SwapChainRenderTarget Class
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.28.2.0">
-    
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    
+    <meta name="generator" content="docfx 2.31.0.0">
+    <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../css/main.css">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="110">
-    <div id="wrapper">
+  <body>
+    <div class="flex-col">
       <header>
         
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
           </div>
+          <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="container body-content">
+      <div class="flex-row flex-stretch no-overflow">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
-        </div>
-      </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+        <div id="page-toc" class="shown pos-rel hide">
+          <div class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <span class="mg-icons">&#xe804;</span><input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
           </div>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget">
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="flex-stretch">
+            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel"><span id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</span></div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row hide">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+    Improve this Doc
+  </a>
+</div>
+
+              <div id="content-wrapper">
   
-  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget" role="main" class="pos-rel">
+    
   <h1 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget" class="text-break">SwapChainRenderTarget Class
   </h1>
   <div class="api">
     <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
       <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
     </div>
-    <div class="markdown level0 summary"><p>A swap chain used for rendering to a secondary GameWindow.</p>
+    <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A swap chain used for rendering to a secondary GameWindow.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
     <hr>
     <div class="inheritance">
       <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><span class="xref">System.Object</span></div>
-      <div class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></div>
-      <div class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html">Texture</a></div>
-      <div class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></div>
-      <div class="level4"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></div>
+      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
+      <div class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></div>
+      <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Texture" text="Texture" alt="Microsoft.Xna.Framework.Graphics.Texture"/></div>
+      <div class="level3"><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></div>
+      <div class="level4"><xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D" text="RenderTarget2D" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D"/></div>
       <div class="level5"><span class="xref">SwapChainRenderTarget</span></div>
     </div>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><span class="xref">System.IDisposable</span></div>
+      <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
     </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_DepthStencilFormat">RenderTarget2D.DepthStencilFormat</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.DepthStencilFormat" text="RenderTarget2D.DepthStencilFormat" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.DepthStencilFormat"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_MultiSampleCount">RenderTarget2D.MultiSampleCount</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.MultiSampleCount" text="RenderTarget2D.MultiSampleCount" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.MultiSampleCount"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_RenderTargetUsage">RenderTarget2D.RenderTargetUsage</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.RenderTargetUsage" text="RenderTarget2D.RenderTargetUsage" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.RenderTargetUsage"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_IsContentLost">RenderTarget2D.IsContentLost</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.IsContentLost" text="RenderTarget2D.IsContentLost" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.IsContentLost"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_ContentLost">RenderTarget2D.ContentLost</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.ContentLost" text="RenderTarget2D.ContentLost" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.ContentLost"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_GraphicsDeviceResetting">RenderTarget2D.GraphicsDeviceResetting()</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.GraphicsDeviceResetting" text="RenderTarget2D.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.GraphicsDeviceResetting()"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_CreateSampleDescription">RenderTarget2D.CreateSampleDescription()</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.CreateSampleDescription" text="RenderTarget2D.CreateSampleDescription()" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.CreateSampleDescription()"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_CreateShaderResourceView">RenderTarget2D.CreateShaderResourceView()</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.CreateShaderResourceView" text="RenderTarget2D.CreateShaderResourceView()" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.CreateShaderResourceView()"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_GetTexture2DDescription">RenderTarget2D.GetTexture2DDescription()</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.GetTexture2DDescription" text="RenderTarget2D.GetTexture2DDescription()" alt="Microsoft.Xna.Framework.Graphics.RenderTarget2D.GetTexture2DDescription()"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Bounds">Texture2D.Bounds</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.Bounds" text="Texture2D.Bounds" alt="Microsoft.Xna.Framework.Graphics.Texture2D.Bounds"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Width">Texture2D.Width</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.Width" text="Texture2D.Width" alt="Microsoft.Xna.Framework.Graphics.Texture2D.Width"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Height">Texture2D.Height</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.Height" text="Texture2D.Height" alt="Microsoft.Xna.Framework.Graphics.Texture2D.Height"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.SetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" text="Texture2D.SetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SetData&lt;T&gt;(System.Int32, System.Int32, System.Nullable&lt;Microsoft.Xna.Framework.Rectangle&gt;, T[], System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.SetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" text="Texture2D.SetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SetData&lt;T&gt;(System.Int32, System.Nullable&lt;Microsoft.Xna.Framework.Rectangle&gt;, T[], System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_">Texture2D.SetData&lt;T&gt;(T[], Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[],System.Int32,System.Int32)" text="Texture2D.SetData&lt;T&gt;(T[], Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SetData&lt;T&gt;(T[], System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___">Texture2D.SetData&lt;T&gt;(T[])</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[])" text="Texture2D.SetData&lt;T&gt;(T[])" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SetData&lt;T&gt;(T[])"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.GetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" text="Texture2D.GetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.GetData&lt;T&gt;(System.Int32, System.Int32, System.Nullable&lt;Microsoft.Xna.Framework.Rectangle&gt;, T[], System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.GetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" text="Texture2D.GetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.GetData&lt;T&gt;(System.Int32, System.Nullable&lt;Microsoft.Xna.Framework.Rectangle&gt;, T[], System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_">Texture2D.GetData&lt;T&gt;(T[], Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[],System.Int32,System.Int32)" text="Texture2D.GetData&lt;T&gt;(T[], Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.GetData&lt;T&gt;(T[], System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___">Texture2D.GetData&lt;T&gt;(T[])</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[])" text="Texture2D.GetData&lt;T&gt;(T[])" alt="Microsoft.Xna.Framework.Graphics.Texture2D.GetData&lt;T&gt;(T[])"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream_">Texture2D.FromStream(GraphicsDevice, Stream)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IO.Stream)" text="Texture2D.FromStream(GraphicsDevice, Stream)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream(Microsoft.Xna.Framework.Graphics.GraphicsDevice, System.IO.Stream)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_System_IO_Stream_System_Int32_System_Int32_">Texture2D.SaveAsJpeg(Stream, Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg(System.IO.Stream,System.Int32,System.Int32)" text="Texture2D.SaveAsJpeg(Stream, Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg(System.IO.Stream, System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_System_IO_Stream_System_Int32_System_Int32_">Texture2D.SaveAsPng(Stream, Int32, Int32)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng(System.IO.Stream,System.Int32,System.Int32)" text="Texture2D.SaveAsPng(Stream, Int32, Int32)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng(System.IO.Stream, System.Int32, System.Int32)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Reload_System_IO_Stream_">Texture2D.Reload(Stream)</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.Reload(System.IO.Stream)" text="Texture2D.Reload(Stream)" alt="Microsoft.Xna.Framework.Graphics.Texture2D.Reload(System.IO.Stream)"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Shared">Texture2D.Shared</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.Shared" text="Texture2D.Shared" alt="Microsoft.Xna.Framework.Graphics.Texture2D.Shared"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap">Texture2D.Mipmap</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap" text="Texture2D.Mipmap" alt="Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription">Texture2D.SampleDescription</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription" text="Texture2D.SampleDescription" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_Format">Texture.Format</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.Format" text="Texture.Format" alt="Microsoft.Xna.Framework.Graphics.Texture.Format"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_LevelCount">Texture.LevelCount</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.LevelCount" text="Texture.LevelCount" alt="Microsoft.Xna.Framework.Graphics.Texture.LevelCount"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_GetSharedHandle">Texture.GetSharedHandle()</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle" text="Texture.GetSharedHandle()" alt="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle()"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
       </div>
       <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
+        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.GetHashCode()</span>
+        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
       </div>
       <div>
-        <span class="xref">System.Object.GetType()</span>
+        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
       </div>
       <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
+        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
       </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_syntax"><strong>Syntax</strong></h5>
@@ -228,270 +216,266 @@
       <pre><code class="lang-csharp hljs">public class SwapChainRenderTarget : RenderTarget2D, IDisposable, IRenderTarget</code></pre>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_remarks"><strong>Remarks</strong></h5>
-    <div class="markdown level0 remarks"><p>This is an extension and not part of stock XNA.
+    <div class="markdown level0 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.yml" sourcestartlinenumber="2" sourceendlinenumber="3">This is an extension and not part of stock XNA.
 It is currently implemented for Windows and DirectX only.</p>
 </div>
   </div>
-  <h3 id="constructors">Constructors
+    <h3 id="constructors">Constructors
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor*"></a>
+    <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L26">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L26">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IntPtr,System.Int32,System.Int32)">SwapChainRenderTarget(GraphicsDevice, IntPtr, Int32, Int32)</h4>
-  </div>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SwapChainRenderTarget(GraphicsDevice graphicsDevice, IntPtr windowHandle, int width, int height)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
-        <td><span class="parametername">graphicsDevice</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.IntPtr</span></td>
-        <td><span class="parametername">windowHandle</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">height</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+      <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IntPtr,System.Int32,System.Int32)">SwapChainRenderTarget(GraphicsDevice, IntPtr, Int32, Int32)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public SwapChainRenderTarget(GraphicsDevice graphicsDevice, IntPtr windowHandle, int width, int height)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+          <td><span class="parametername">graphicsDevice</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.IntPtr" text="IntPtr" alt="System.IntPtr"/></td>
+          <td><span class="parametername">windowHandle</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">width</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">height</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor*"></a>
+    <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_Microsoft_Xna_Framework_Graphics_PresentInterval_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CMicrosoft.Xna.Framework.Graphics.DepthFormat%2CSystem.Int32%2CMicrosoft.Xna.Framework.Graphics.RenderTargetUsage%2CMicrosoft.Xna.Framework.Graphics.PresentInterval)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L44">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_Microsoft_Xna_Framework_Graphics_PresentInterval_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CMicrosoft.Xna.Framework.Graphics.DepthFormat%2CSystem.Int32%2CMicrosoft.Xna.Framework.Graphics.RenderTargetUsage%2CMicrosoft.Xna.Framework.Graphics.PresentInterval)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L44">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_Microsoft_Xna_Framework_Graphics_PresentInterval_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IntPtr,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.DepthFormat,System.Int32,Microsoft.Xna.Framework.Graphics.RenderTargetUsage,Microsoft.Xna.Framework.Graphics.PresentInterval)">SwapChainRenderTarget(GraphicsDevice, IntPtr, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage, PresentInterval)</h4>
-  </div>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SwapChainRenderTarget(GraphicsDevice graphicsDevice, IntPtr windowHandle, int width, int height, bool mipMap, SurfaceFormat surfaceFormat, DepthFormat depthFormat, int preferredMultiSampleCount, RenderTargetUsage usage, PresentInterval presentInterval)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
-        <td><span class="parametername">graphicsDevice</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.IntPtr</span></td>
-        <td><span class="parametername">windowHandle</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">height</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">mipMap</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
-        <td><span class="parametername">surfaceFormat</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
-        <td><span class="parametername">depthFormat</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">preferredMultiSampleCount</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetUsage.html">RenderTargetUsage</a></td>
-        <td><span class="parametername">usage</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PresentInterval.html">PresentInterval</a></td>
-        <td><span class="parametername">presentInterval</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
+      <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IntPtr_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_Microsoft_Xna_Framework_Graphics_PresentInterval_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IntPtr,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.DepthFormat,System.Int32,Microsoft.Xna.Framework.Graphics.RenderTargetUsage,Microsoft.Xna.Framework.Graphics.PresentInterval)">SwapChainRenderTarget(GraphicsDevice, IntPtr, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage, PresentInterval)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public SwapChainRenderTarget(GraphicsDevice graphicsDevice, IntPtr windowHandle, int width, int height, bool mipMap, SurfaceFormat surfaceFormat, DepthFormat depthFormat, int preferredMultiSampleCount, RenderTargetUsage usage, PresentInterval presentInterval)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+          <td><span class="parametername">graphicsDevice</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.IntPtr" text="IntPtr" alt="System.IntPtr"/></td>
+          <td><span class="parametername">windowHandle</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">width</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">height</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td><span class="parametername">mipMap</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
+          <td><span class="parametername">surfaceFormat</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthFormat" text="DepthFormat" alt="Microsoft.Xna.Framework.Graphics.DepthFormat"/></td>
+          <td><span class="parametername">depthFormat</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">preferredMultiSampleCount</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Graphics.RenderTargetUsage" text="RenderTargetUsage" alt="Microsoft.Xna.Framework.Graphics.RenderTargetUsage"/></td>
+          <td><span class="parametername">usage</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Graphics.PresentInterval" text="PresentInterval" alt="Microsoft.Xna.Framework.Graphics.PresentInterval"/></td>
+          <td><span class="parametername">presentInterval</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="fields">Fields
   </h3>
   
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_PresentInterval.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.PresentInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L24">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_PresentInterval.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.PresentInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L24">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_PresentInterval" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.PresentInterval">PresentInterval</h4>
-  </div>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PresentInterval PresentInterval</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PresentInterval.html">PresentInterval</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
+      <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_PresentInterval" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.PresentInterval">PresentInterval</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public PresentInterval PresentInterval</code></pre>
+    </div>
+    <h5 class="fieldValue">Field Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Graphics.PresentInterval" text="PresentInterval" alt="Microsoft.Xna.Framework.Graphics.PresentInterval"/></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Dispose*"></a>
+    <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Dispose*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L167">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L167">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  </div>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disposing</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_Dispose_System_Boolean_">RenderTarget2D.Dispose(Boolean)</a></div>
+      <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td><span class="parametername">disposing</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D.Dispose(System.Boolean)" altProperty="fullName" displayProperty="nameWithType"/></div>
   
-  <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Present_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present*"></a>
+    <a id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Present_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Present.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L153">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Present.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L153">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Present" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present">Present()</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Displays the contents of the active back buffer to the screen.</p>
+      <h4 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Present" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present">Present()</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Displays the contents of the active back buffer to the screen.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Present()</code></pre>
-  </div>
-</article>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Present()</code></pre>
+    </div>
+  </article>
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
+              </div>
+            </div>
           </div>
           
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Graphics/SwapChainRenderTarget.cs/#L20" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
+          <div id="page-affix" role="complementary" class=" ">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
           </div>
         </div>
       </div>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../js/tree.js"></script>
+    <script src="../js/main.js"></script>
+    
   </body>
 </html>

@@ -1,0 +1,11 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="platform-specific-notes">Platform-Specific Notes</h1>
+  
+<p>While MonoGame aims to provide a platform-agnostic framework for developing games and apps, there are still some specifics for each platform that the developer needs to be aware of. This section lists those specifics broken down by platform.</p>
+<ul>
+<li><a href="android.html">Android</a></li>
+<li><a href="tvOS.html">tvOS</a></li>
+</ul>
+
+</article>
+

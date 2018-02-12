@@ -1,0 +1,191 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelEffectCollection" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelEffectCollection" data-uid="Microsoft.Xna.Framework.Graphics.ModelEffectCollection" class="text-break">ModelEffectCollection Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a>&gt;</div>
+      <div class="level2"><span class="xref">ModelEffectCollection</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a>&gt;</div>
+      <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ilist">IList</a></div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+      <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a>&gt;</div>
+      <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a>&gt;</div>
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.Contains(Microsoft.Xna.Framework.Graphics.Effect)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.CopyTo(Microsoft.Xna.Framework.Graphics.Effect[], System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.IndexOf(Microsoft.Xna.Framework.Graphics.Effect)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.get_Item(System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.set_Item(System.Int32, Microsoft.Xna.Framework.Graphics.Effect)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.Add(Microsoft.Xna.Framework.Graphics.Effect)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.Clear()</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.Insert(System.Int32, Microsoft.Xna.Framework.Graphics.Effect)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.Remove(Microsoft.Xna.Framework.Graphics.Effect)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.RemoveAt(System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IEnumerable.GetEnumerator()</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.get_Item(System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.set_Item(System.Int32, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.Add(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.Clear()</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.Contains(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.IndexOf(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.Insert(System.Int32, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.Remove(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.RemoveAt(System.Int32)</span>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.count#System_Collections_ObjectModel_ReadOnlyCollection_1_Count">ReadOnlyCollection&lt;Effect&gt;.Count</a>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.Item[System.Int32]</span>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.items#System_Collections_ObjectModel_ReadOnlyCollection_1_Items">ReadOnlyCollection&lt;Effect&gt;.Items</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-generic-icollection-t--isreadonly#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_Generic_ICollection_T__IsReadOnly">ReadOnlyCollection&lt;Effect&gt;.ICollection&lt;Effect&gt;.IsReadOnly</a>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.Item[System.Int32]</span>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-icollection-issynchronized#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_ICollection_IsSynchronized">ReadOnlyCollection&lt;Effect&gt;.ICollection.IsSynchronized</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-icollection-syncroot#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_ICollection_SyncRoot">ReadOnlyCollection&lt;Effect&gt;.ICollection.SyncRoot</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-ilist-isfixedsize#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_IList_IsFixedSize">ReadOnlyCollection&lt;Effect&gt;.IList.IsFixedSize</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-ilist-isreadonly#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_IList_IsReadOnly">ReadOnlyCollection&lt;Effect&gt;.IList.IsReadOnly</a>
+      </div>
+      <div>
+        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.Effect&gt;.System.Collections.IList.Item[System.Int32]</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Graphics_ModelEffectCollection_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class ModelEffectCollection : ReadOnlyCollection&lt;Effect&gt;, IList&lt;Effect&gt;, ICollection&lt;Effect&gt;, IList, ICollection, IReadOnlyList&lt;Effect&gt;, IReadOnlyCollection&lt;Effect&gt;, IEnumerable&lt;Effect&gt;, IEnumerable</code></pre>
+    </div>
+  </div>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_ModelEffectCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Graphics.ModelEffectCollection.GetEnumerator*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_ModelEffectCollection_GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.ModelEffectCollection.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/ModelEffectCollection.cs/#L34">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_ModelEffectCollection_GetEnumerator" data-uid="Microsoft.Xna.Framework.Graphics.ModelEffectCollection.GetEnumerator">GetEnumerator()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ModelEffectCollection.Enumerator GetEnumerator()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.html">ModelEffectCollection.Enumerator</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

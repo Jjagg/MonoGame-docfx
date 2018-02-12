@@ -1,0 +1,315 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Media_MediaLibrary" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary" class="text-break">MediaLibrary Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Media.html">Microsoft.Xna.Framework.Media</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><span class="xref">MediaLibrary</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Media_MediaLibrary_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class MediaLibrary : IDisposable</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary__ctor_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L19">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary__ctor" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.#ctor">MediaLibrary()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public MediaLibrary()</code></pre>
+    </div>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary__ctor_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary__ctor_Microsoft_Xna_Framework_Media_MediaSource_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.%23ctor(Microsoft.Xna.Framework.Media.MediaSource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L32">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary__ctor_Microsoft_Xna_Framework_Media_MediaSource_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.#ctor(Microsoft.Xna.Framework.Media.MediaSource)">MediaLibrary(MediaSource)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public MediaLibrary(MediaSource mediaSource)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Media.MediaSource.html">MediaSource</a></td>
+          <td><span class="parametername">mediaSource</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary_Albums_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Albums*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary_Albums.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.Albums%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L11">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary_Albums" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Albums">Albums</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public AlbumCollection Albums { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Media.AlbumCollection.html">AlbumCollection</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary_IsDisposed_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.IsDisposed*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L14">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary_IsDisposed" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.IsDisposed">IsDisposed</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary_MediaSource_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.MediaSource*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary_MediaSource.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.MediaSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L15">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary_MediaSource" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.MediaSource">MediaSource</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public MediaSource MediaSource { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Media.MediaSource.html">MediaSource</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary_Songs_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Songs*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary_Songs.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.Songs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L17">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary_Songs" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Songs">Songs</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public SongCollection Songs { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Media.SongCollection.html">SongCollection</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary_Dispose_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Dispose*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L37">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary_Dispose" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Dispose">Dispose()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    </div>
+  
+    <a id="Microsoft_Xna_Framework_Media_MediaLibrary_Load_" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Load*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_MediaLibrary_Load_System_Action_System_Int32__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.MediaLibrary.Load(System.Action%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/MediaLibrary.cs/#L27">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_MediaLibrary_Load_System_Action_System_Int32__" data-uid="Microsoft.Xna.Framework.Media.MediaLibrary.Load(System.Action{System.Int32})">Load(Action&lt;Int32&gt;)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Load the contents of MediaLibrary. This blocking call might take up to a few minutes depending on the platform and the size of the user&apos;s music library.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Load(Action&lt;int&gt; progressCallback = null)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+          <td><span class="parametername">progressCallback</span></td>
+          <td><p>Callback that reports back the progress of the music library loading in percents (0-100).</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

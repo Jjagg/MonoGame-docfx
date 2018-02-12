@@ -1,0 +1,41 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="platform-specific-notes-android">Platform-Specific Notes: Android</h1>
+  
+<h3 id="target-frameworks">Target Frameworks</h3>
+<p>Specifying the target Android versions can be confusing.  MonoGame is built to target Android 4.2 (API Level 17), but can run on lower Android versions.  If you build MonoGame from source, you will need the SDK Platform for API Level 17 installed in the Android SDK Manager.</p>
+<p>Since MonoGame targets Android 4.2, the Target Framework in your Android project must be set to 4.2 or higher.  To allow your game to run on lower Android versions, set the Minimum Android version to the desired version in the project properties.</p>
+<h4 id="visual-studio">Visual Studio</h4>
+<p>There are three settings in the Application tab of the project properties to set the target Android versions.</p>
+<p><code>Compile using Android version</code> must be set to a minimum of <code>Android 4.2</code>.  If you are using APIs available only in later Android versions, this must be set to the Android version that API became available or higher.</p>
+<p><code>Minimum Android to target</code> is set to the lowest Android version that you wish to support.</p>
+<p><code>Target Android version</code> is usually set to <code>Use Compile using SDK version</code>.  This means to use the same value that we set the app to be built with.  There is usually no reason to set this to any other value.</p>
+<p>This is an example of a project set to build with the 4.4 SDK and target 4.0 as a minimum Android version.</p>
+<p align="center">
+<img src="images/android_vs_target_frameworks.png" alt="Android Visual Studio target framework">
+</p>
+
+<h4 id="xamarin-studio">Xamarin Studio</h4>
+<p>Xamarin Studio has the same settings in the project options dialog. They are just in different places.</p>
+<p><code>Target framework</code> on the <code>General</code> page is the equivalent of Visual Studio&#39;s <code>Compile using Android version</code>.</p>
+<p align="center">
+<img src="images/android_xs_target_framework.png" alt="Android Xamarin Studio target framework">
+</p>
+
+<p>On the <code>Android Application</code> page, you will find <code>Minimum Android version</code> (Visual Studio&#39;s <code>Minimum Android to target</code>) and <code>Target Android version</code> (same as Visual Studio).</p>
+<p align="center">
+<img src="images/android_xs_minimum_framework.png" alt="Android Xamarin Studio minimum framework">
+</p>
+
+
+<h3 id="android-manifest-requirements">Android Manifest Requirements</h3>
+<h4 id="opengl-es-20-support">OpenGL ES 2.0 Support</h4>
+<p>MonoGame uses OpenGL ES 2.0. Google requires the following to be added to AndroidManifest.xml in order for the Market to hide the game from devices that do not have support for OpenGL ES 2.0.</p>
+<pre><code>&lt;!-- Tell the system this app requires OpenGL ES 2.0. --&gt;
+&lt;uses-feature android:glEsVersion=&quot;0x00020000&quot; android:required=&quot;true&quot; /&gt;
+</code></pre><h4 id="texture-compression">Texture Compression</h4>
+<p>The Market can also filter games by the types of texture compression they support. Add a  <code>&lt;supports-gl-texture&gt;</code> node for each type of texture compression used in your game. See the <a href="http://developer.android.com/guide/topics/manifest/supports-gl-texture-element.html">Android documentation</a> for further details on this node.</p>
+<h3 id="references">References</h3>
+<p><a href="http://redth.codes/such-android-api-levels-much-confuse-wow/">Such Android API Levels, Much Confuse. Wow.</a> is a blog post by Redth going into more detail about setting the Android versions in a Xamarin project.</p>
+
+</article>
+

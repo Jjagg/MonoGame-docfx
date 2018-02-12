@@ -1,0 +1,481 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute" class="text-break">ContentSerializerAttribute Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Content.html">Microsoft.Xna.Framework.Content</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
+      <div class="level2"><span class="xref">ContentSerializerAttribute</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices._attribute">_Attribute</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Module)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.Module, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.Module, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Assembly)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.Assembly, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefined(System.Reflection.Assembly, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.Match(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.IsDefaultAttribute()</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.System.Runtime.InteropServices._Attribute.GetTypeInfoCount(System.UInt32)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.System.Runtime.InteropServices._Attribute.GetTypeInfo(System.UInt32, System.UInt32, System.IntPtr)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.System.Runtime.InteropServices._Attribute.GetIDsOfNames(System.Guid, System.IntPtr, System.UInt32, System.UInt32, System.IntPtr)</span>
+      </div>
+      <div>
+        <span class="xref">System.Attribute.System.Runtime.InteropServices._Attribute.Invoke(System.UInt32, System.Guid, System.UInt32, System.Int16, System.IntPtr, System.IntPtr, System.IntPtr, System.IntPtr)</span>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute.typeid#System_Attribute_TypeId">Attribute.TypeId</a>
+      </div>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
+public sealed class ContentSerializerAttribute : Attribute, _Attribute</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute__ctor_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L17">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute__ctor" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.#ctor">ContentSerializerAttribute()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Creates an instance of the attribute.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ContentSerializerAttribute()</code></pre>
+    </div>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_AllowNull_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.AllowNull*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_AllowNull.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.AllowNull%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L22">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_AllowNull" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.AllowNull">AllowNull</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool AllowNull { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_CollectionItemName_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.CollectionItemName*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_CollectionItemName.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.CollectionItemName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L27">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_CollectionItemName" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.CollectionItemName">CollectionItemName</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns the overriden XML element name or the default &quot;Item&quot;.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public string CollectionItemName { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_ElementName_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.ElementName*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_ElementName.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.ElementName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L43">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_ElementName" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.ElementName">ElementName</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public string ElementName { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_FlattenContent_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.FlattenContent*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_FlattenContent.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.FlattenContent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L45">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_FlattenContent" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.FlattenContent">FlattenContent</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool FlattenContent { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_HasCollectionItemName_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.HasCollectionItemName*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_HasCollectionItemName.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.HasCollectionItemName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L50">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_HasCollectionItemName" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.HasCollectionItemName">HasCollectionItemName</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns true if the default CollectionItemName value was overridden.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool HasCollectionItemName { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Optional_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Optional*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Optional.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Optional%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L58">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Optional" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Optional">Optional</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool Optional { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_SharedResource_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.SharedResource*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_SharedResource.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.SharedResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L60">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_SharedResource" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.SharedResource">SharedResource</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool SharedResource { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Clone_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Clone*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentSerializerAttribute.cs/#L62">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Clone" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Clone">Clone()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ContentSerializerAttribute Clone()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.html">ContentSerializerAttribute</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

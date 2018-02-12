@@ -1,0 +1,201 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.IUpdateable" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_IUpdateable" data-uid="Microsoft.Xna.Framework.IUpdateable" class="text-break">IUpdateable Interface
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_IUpdateable_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public interface IUpdateable</code></pre>
+    </div>
+  </div>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_IUpdateable_Enabled_" data-uid="Microsoft.Xna.Framework.IUpdateable.Enabled*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IUpdateable_Enabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IUpdateable.Enabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IUpdateable.cs/#L22">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_IUpdateable_Enabled" data-uid="Microsoft.Xna.Framework.IUpdateable.Enabled">Enabled</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">bool Enabled { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_IUpdateable_UpdateOrder_" data-uid="Microsoft.Xna.Framework.IUpdateable.UpdateOrder*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IUpdateable_UpdateOrder.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IUpdateable.UpdateOrder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IUpdateable.cs/#L24">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_IUpdateable_UpdateOrder" data-uid="Microsoft.Xna.Framework.IUpdateable.UpdateOrder">UpdateOrder</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">int UpdateOrder { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_IUpdateable_Update_" data-uid="Microsoft.Xna.Framework.IUpdateable.Update*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IUpdateable_Update_Microsoft_Xna_Framework_GameTime_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IUpdateable.Update(Microsoft.Xna.Framework.GameTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IUpdateable.cs/#L12">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_IUpdateable_Update_Microsoft_Xna_Framework_GameTime_" data-uid="Microsoft.Xna.Framework.IUpdateable.Update(Microsoft.Xna.Framework.GameTime)">Update(GameTime)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">void Update(GameTime gameTime)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.GameTime.html">GameTime</a></td>
+          <td><span class="parametername">gameTime</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="events">Events
+  </h3>
+  
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IUpdateable_EnabledChanged.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IUpdateable.EnabledChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IUpdateable.cs/#L16">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_IUpdateable_EnabledChanged" data-uid="Microsoft.Xna.Framework.IUpdateable.EnabledChanged">EnabledChanged</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&gt; EnabledChanged</code></pre>
+    </div>
+    <h5 class="eventType">Event Type</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IUpdateable_UpdateOrderChanged.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IUpdateable.UpdateOrderChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IUpdateable.cs/#L18">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_IUpdateable_UpdateOrderChanged" data-uid="Microsoft.Xna.Framework.IUpdateable.UpdateOrderChanged">UpdateOrderChanged</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&gt; UpdateOrderChanged</code></pre>
+    </div>
+    <h5 class="eventType">Event Type</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

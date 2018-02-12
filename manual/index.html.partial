@@ -1,0 +1,17 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="monogame-documentation">MonoGame Documentation</h1>
+  
+<p>Welcome to the MonoGame game library documentation hub.</p>
+<p>This area of the site contains the documentation on the API of MonoGame as well as how to use it to create great games.
+Note that this is a work in progress so there will be gaps in the documentation coverage. </p>
+<p>If you cannot find what you need here you can also look at the <a href="https://msdn.microsoft.com/en-us/library/bb200104.aspx">Microsoft XNA documentation</a>. MonoGame is API compatible
+with <a href="https://msdn.microsoft.com/en-us/library/bb203940.aspx">XNA</a> even down to the namespaces. So usually what works for XNA will work for MonoGame too. </p>
+<p>Note that this documentation hub is built from the source code on every commit to the development branch. As such 
+it applies to the development builds available on the <a href="http://www.monogame.net/downloads">Downloads</a> page. This may include new features which may
+not be available in the current stable release </p>
+<h3 id="we-need-your-help">We Need Your Help!</h3>
+<p>Truly great open source projects require high quality documentation.  This is call for volunteers to help us make the MonoGame documentation truly great.  If you can help write tutorials, guides, code snippets, reference docs, video walkthroughs or just any improvement to our current documentation we could use your help!</p>
+<p>Check out the <a href="https://github.com/mono/MonoGame/blob/develop/Documentation/README.md">README on GitHub</a> or <a href="http://community.monogame.net/t/lets-improve-the-monogame-documentation/916">talk with us on the community site</a> to learn how to help!</p>
+
+</article>
+

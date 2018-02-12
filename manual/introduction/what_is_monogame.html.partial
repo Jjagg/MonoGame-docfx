@@ -1,0 +1,37 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="what-is-monogame">What is MonoGame</h1>
+  
+<p>MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow people to make great games using a simple API.
+The currently supported platforms are as follows.</p>
+<ul>
+<li>Desktop PCs<ul>
+<li>Windows 10 Store Apps (UWP)</li>
+<li>Windows Win32 (OpenGL &amp; DirectX)</li>
+<li>Linux (OpenGL)</li>
+<li>Mac OS X (OpenGL)</li>
+</ul>
+</li>
+<li>Mobile/Tablet Devices<ul>
+<li>Android (OpenGL)</li>
+<li>iPhone/iPad (OpenGL)</li>
+<li>Windows Phone 10</li>
+<li>Television</li>
+<li>tvOS</li>
+</ul>
+</li>
+</ul>
+<p>MonoGame also supports a number of Game Consoles. The templates and source for these platforms
+are not publicly available. However they are available to developers registered with the appropriate
+developer programs.  </p>
+<ul>
+<li>Consoles (for registered developers)<ul>
+<li>PlayStation 4 (Sony)</li>
+<li>PlayStation Vita (Sony)</li>
+<li>Xbox One (both UWP and XDK) (id@xbox)</li>
+<li>Nintendo Switch (Nintendo)</li>
+</ul>
+</li>
+</ul>
+
+</article>
+

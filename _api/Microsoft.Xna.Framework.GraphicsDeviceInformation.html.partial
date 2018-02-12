@@ -1,0 +1,165 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_GraphicsDeviceInformation" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation" class="text-break">GraphicsDeviceInformation Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>The settings used in creation of the graphics device.
+See <a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceManager.html#Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings">PreparingDeviceSettings</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><span class="xref">GraphicsDeviceInformation</span></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_GraphicsDeviceInformation_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class GraphicsDeviceInformation</code></pre>
+    </div>
+  </div>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_GraphicsDeviceInformation_Adapter_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.Adapter*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceInformation_Adapter.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceInformation.Adapter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceInformation.cs/#L22">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceInformation_Adapter" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.Adapter">Adapter</h4>
+    </div>
+    <div class="markdown level1 summary"><p>The graphics adapter on which the graphics device will be created.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public GraphicsAdapter Adapter { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.html">GraphicsAdapter</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceInformation_Adapter_remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>This is only valid on desktop systems where multiple graphics 
+adapters are possible.  Defaults to <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.html#Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter">DefaultAdapter</a>.</p>
+</div>
+  
+    <a id="Microsoft_Xna_Framework_GraphicsDeviceInformation_GraphicsProfile_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.GraphicsProfile*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceInformation_GraphicsProfile.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceInformation.GraphicsProfile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceInformation.cs/#L27">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceInformation_GraphicsProfile" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.GraphicsProfile">GraphicsProfile</h4>
+    </div>
+    <div class="markdown level1 summary"><p>The requested graphics device feature set. </p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public GraphicsProfile GraphicsProfile { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsProfile.html">GraphicsProfile</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_GraphicsDeviceInformation_PresentationParameters_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.PresentationParameters*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceInformation_PresentationParameters.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceInformation.PresentationParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceInformation.cs/#L32">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceInformation_PresentationParameters" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.PresentationParameters">PresentationParameters</h4>
+    </div>
+    <div class="markdown level1 summary"><p>The settings that define how graphics will be presented to the display.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public PresentationParameters PresentationParameters { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PresentationParameters.html">PresentationParameters</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

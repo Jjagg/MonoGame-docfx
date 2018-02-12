@@ -1,0 +1,392 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont" class="text-break">SpriteFont Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><span class="xref">SpriteFont</span></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Graphics_SpriteFont_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class SpriteFont</code></pre>
+    </div>
+  </div>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_Characters_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Characters*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Characters.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Characters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L118">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Characters" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Characters">Characters</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a collection of the characters in the font.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;char&gt; Characters { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>&gt;</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_DefaultCharacter_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.DefaultCharacter*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_DefaultCharacter.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.DefaultCharacter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L124">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_DefaultCharacter" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.DefaultCharacter">DefaultCharacter</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the character that will be substituted when a
+given character is not included in the font.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public char? DefaultCharacter { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>&gt;</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_LineSpacing_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.LineSpacing*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_LineSpacing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.LineSpacing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L146">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_LineSpacing" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.LineSpacing">LineSpacing</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the line spacing (the distance from baseline
+to baseline) of the font.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public int LineSpacing { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_Spacing_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Spacing*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Spacing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Spacing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L152">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Spacing" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Spacing">Spacing</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the spacing (tracking) between characters in
+the font.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public float Spacing { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Texture*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L100">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Texture" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Texture">Texture</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets the texture that this SpriteFont draws from.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Texture2D Texture { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Texture_remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>Can be used to implement custom rendering of a SpriteFont</p>
+</div>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_GetGlyphs_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.GetGlyphs*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_GetGlyphs.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.GetGlyphs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L107">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_GetGlyphs" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.GetGlyphs">GetGlyphs()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns a copy of the dictionary containing the glyphs in this SpriteFont.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Dictionary&lt;char, SpriteFont.Glyph&gt; GetGlyphs()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>, <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.html">SpriteFont.Glyph</a>&gt;</td>
+          <td><p>A new Dictionary containing all of the glyphs inthis SpriteFont</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Graphics_SpriteFont_GetGlyphs_remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>Can be used to calculate character bounds when implementing custom SpriteFont rendering.</p>
+</div>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L160">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_String_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.String)">MeasureString(String)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns the size of a string when rendered in this font.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector2 MeasureString(string text)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text to measure.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><p>The size, in pixels, of &apos;text&apos; when rendered in
+this font.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_Text_StringBuilder_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.Text.StringBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L175">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_Text_StringBuilder_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.Text.StringBuilder)">MeasureString(StringBuilder)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns the size of the contents of a StringBuilder when
+rendered in this font.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector2 MeasureString(StringBuilder text)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text to measure.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><p>The size, in pixels, of &apos;text&apos; when rendered in
+this font.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

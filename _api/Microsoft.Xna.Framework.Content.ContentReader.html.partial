@@ -1,0 +1,1030 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentReader" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Content_ContentReader" data-uid="Microsoft.Xna.Framework.Content.ContentReader" class="text-break">ContentReader Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Content.html">Microsoft.Xna.Framework.Content</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.binaryreader">BinaryReader</a></div>
+      <div class="level2"><span class="xref">ContentReader</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.IO.BinaryReader.Close()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.Dispose(System.Boolean)</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.Dispose()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.PeekChar()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.Read()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadBoolean()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadByte()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadSByte()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadChar()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadInt16()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadUInt16()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadInt32()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadUInt32()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadInt64()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadUInt64()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadSingle()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadDouble()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadDecimal()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadString()</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.Read(System.Char[], System.Int32, System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadChars(System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.Read(System.Byte[], System.Int32, System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.ReadBytes(System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.FillBuffer(System.Int32)</span>
+      </div>
+      <div>
+        <span class="xref">System.IO.BinaryReader.Read7BitEncodedInt()</span>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.binaryreader.basestream#System_IO_BinaryReader_BaseStream">BinaryReader.BaseStream</a>
+      </div>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Content_ContentReader_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class ContentReader : BinaryReader, IDisposable</code></pre>
+    </div>
+  </div>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_AssetName_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.AssetName*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_AssetName.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.AssetName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L59">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_AssetName" data-uid="Microsoft.Xna.Framework.Content.ContentReader.AssetName">AssetName</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public string AssetName { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ContentManager_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ContentManager*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ContentManager.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ContentManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L51">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ContentManager" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ContentManager">ContentManager</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ContentManager ContentManager { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentManager.html">ContentManager</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadColor_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadColor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L286">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadColor" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadColor">ReadColor()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Color ReadColor()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadExternalReference_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadExternalReference*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadExternalReference__1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadExternalReference%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L115">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadExternalReference__1" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadExternalReference``1">ReadExternalReference&lt;T&gt;()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadExternalReference&lt;T&gt;()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadMatrix_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadMatrix*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadMatrix.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadMatrix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L127">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadMatrix" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadMatrix">ReadMatrix()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Matrix ReadMatrix()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadObject%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L161">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject``1">ReadObject&lt;T&gt;()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadObject&lt;T&gt;()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1___0_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadObject%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L173">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1___0_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject``1(``0)">ReadObject&lt;T&gt;(T)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadObject&lt;T&gt;(T existingInstance)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td><span class="parametername">existingInstance</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadObject%60%601(Microsoft.Xna.Framework.Content.ContentTypeReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L166">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject``1(Microsoft.Xna.Framework.Content.ContentTypeReader)">ReadObject&lt;T&gt;(ContentTypeReader)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadObject&lt;T&gt;(ContentTypeReader typeReader)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
+          <td><span class="parametername">typeReader</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader___0_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadObject%60%601(Microsoft.Xna.Framework.Content.ContentTypeReader%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L195">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader___0_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadObject``1(Microsoft.Xna.Framework.Content.ContentTypeReader,``0)">ReadObject&lt;T&gt;(ContentTypeReader, T)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadObject&lt;T&gt;(ContentTypeReader typeReader, T existingInstance)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
+          <td><span class="parametername">typeReader</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td><span class="parametername">existingInstance</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadQuaternion_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadQuaternion*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadQuaternion.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadQuaternion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L207">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadQuaternion" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadQuaternion">ReadQuaternion()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Quaternion ReadQuaternion()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L217">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1">ReadRawObject&lt;T&gt;()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1___0_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L227">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1___0_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1(``0)">ReadRawObject&lt;T&gt;(T)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;(T existingInstance)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td><span class="parametername">existingInstance</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject%60%601(Microsoft.Xna.Framework.Content.ContentTypeReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L222">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1(Microsoft.Xna.Framework.Content.ContentTypeReader)">ReadRawObject&lt;T&gt;(ContentTypeReader)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;(ContentTypeReader typeReader)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
+          <td><span class="parametername">typeReader</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader___0_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject%60%601(Microsoft.Xna.Framework.Content.ContentTypeReader%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L238">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader___0_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1(Microsoft.Xna.Framework.Content.ContentTypeReader,``0)">ReadRawObject&lt;T&gt;(ContentTypeReader, T)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;(ContentTypeReader typeReader, T existingInstance)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
+          <td><span class="parametername">typeReader</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td><span class="parametername">existingInstance</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L243">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource__1_System_Action___0__" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource``1(System.Action{``0})">ReadSharedResource&lt;T&gt;(Action&lt;T&gt;)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void ReadSharedResource&lt;T&gt;(Action&lt;T&gt; fixup)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+          <td><span class="parametername">fixup</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="typeParameters">Type Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="parametername">T</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadVector2_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadVector2*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadVector2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadVector2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L259">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadVector2" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadVector2">ReadVector2()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector2 ReadVector2()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadVector3_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadVector3*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadVector3.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadVector3%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L267">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadVector3" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadVector3">ReadVector3()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector3 ReadVector3()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Content_ContentReader_ReadVector4_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadVector4*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadVector4.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadVector4%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L276">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadVector4" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadVector4">ReadVector4()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector4 ReadVector4()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

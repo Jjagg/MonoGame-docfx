@@ -1,0 +1,23 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="system-requirements">System Requirements</h1>
+  
+<p>This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.</p>
+<h3 id="development">Development</h3>
+<ul>
+<li>Windows - </li>
+<li>Linux - 1 GB Ram</li>
+<li>Mac - </li>
+</ul>
+<h3 id="running-monogame-application-on-specific-platform">Running MonoGame Application on specific Platform</h3>
+<ul>
+<li>WindowsDX - DirectX 9.0c capable gpu</li>
+<li>WindowsGL - </li>
+<li>Linux - 512 MB Ram</li>
+<li>Mac -</li>
+<li>Android - Android 4.2 or higher</li>
+<li>iOS -</li>
+<li>Windows Phone - Windows Phone 10</li>
+</ul>
+
+</article>
+

@@ -1,0 +1,151 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities" class="text-break">TouchPanelCapabilities Struct
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.html">Microsoft.Xna.Framework.Input.Touch</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Allows retrieval of capabilities information from touch panel device.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.ValueType.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.ValueType.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.ValueType.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct TouchPanelCapabilities</code></pre>
+    </div>
+  </div>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_HasPressure_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.HasPressure*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_HasPressure.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.HasPressure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanelCapabilities.cs/#L75">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_HasPressure" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.HasPressure">HasPressure</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool HasPressure { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_IsConnected_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.IsConnected*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_IsConnected.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.IsConnected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanelCapabilities.cs/#L86">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_IsConnected" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.IsConnected">IsConnected</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns true if a device is available for use.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool IsConnected { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_MaximumTouchCount_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.MaximumTouchCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_MaximumTouchCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.MaximumTouchCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanelCapabilities.cs/#L97">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelCapabilities_MaximumTouchCount" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.MaximumTouchCount">MaximumTouchCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns the maximum number of touch locations tracked by the touch panel device.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public int MaximumTouchCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

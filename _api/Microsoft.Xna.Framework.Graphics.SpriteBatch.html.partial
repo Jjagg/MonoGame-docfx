@@ -1,0 +1,1340 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteBatch" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch" class="text-break">SpriteBatch Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Helper class for drawing text strings and sprites in one or more optimized batches.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></div>
+      <div class="level2"><span class="xref">SpriteBatch</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting">GraphicsResource.GraphicsDeviceResetting()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class SpriteBatch : GraphicsResource, IDisposable</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L45">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">SpriteBatch(GraphicsDevice)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Constructs a <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.html">SpriteBatch</a>.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public SpriteBatch(GraphicsDevice graphicsDevice)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+          <td><span class="parametername">graphicsDevice</span></td>
+          <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a>, which will be used for sprite rendering.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="exceptions">Exceptions</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Condition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+          <td><p>Thrown when <code data-dev-comment-type="paramref" class="paramref">graphicsDevice</code> is null.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_Microsoft_Xna_Framework_Graphics_SpriteSortMode_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_Microsoft_Xna_Framework_Graphics_DepthStencilState_Microsoft_Xna_Framework_Graphics_RasterizerState_Microsoft_Xna_Framework_Graphics_Effect_System_Nullable_Microsoft_Xna_Framework_Matrix__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(Microsoft.Xna.Framework.Graphics.SpriteSortMode%2CMicrosoft.Xna.Framework.Graphics.BlendState%2CMicrosoft.Xna.Framework.Graphics.SamplerState%2CMicrosoft.Xna.Framework.Graphics.DepthStencilState%2CMicrosoft.Xna.Framework.Graphics.RasterizerState%2CMicrosoft.Xna.Framework.Graphics.Effect%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Matrix%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L77">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_Microsoft_Xna_Framework_Graphics_SpriteSortMode_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_Microsoft_Xna_Framework_Graphics_DepthStencilState_Microsoft_Xna_Framework_Graphics_RasterizerState_Microsoft_Xna_Framework_Graphics_Effect_System_Nullable_Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(Microsoft.Xna.Framework.Graphics.SpriteSortMode,Microsoft.Xna.Framework.Graphics.BlendState,Microsoft.Xna.Framework.Graphics.SamplerState,Microsoft.Xna.Framework.Graphics.DepthStencilState,Microsoft.Xna.Framework.Graphics.RasterizerState,Microsoft.Xna.Framework.Graphics.Effect,System.Nullable{Microsoft.Xna.Framework.Matrix})">Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Nullable&lt;Matrix&gt;)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Begins a new sprite and text batch with the specified render state.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Begin(SpriteSortMode sortMode = SpriteSortMode.Deferred, BlendState blendState = null, SamplerState samplerState = null, DepthStencilState depthStencilState = null, RasterizerState rasterizerState = null, Effect effect = null, Matrix? transformMatrix = default (Matrix? ))</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteSortMode.html">SpriteSortMode</a></td>
+          <td><span class="parametername">sortMode</span></td>
+          <td><p>The drawing order for sprite and text drawing. <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteSortMode.html#Microsoft_Xna_Framework_Graphics_SpriteSortMode_Deferred">Deferred</a> by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BlendState.html">BlendState</a></td>
+          <td><span class="parametername">blendState</span></td>
+          <td><p>State of the blending. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.BlendState.html#Microsoft_Xna_Framework_Graphics_BlendState_AlphaBlend">AlphaBlend</a> if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SamplerState.html">SamplerState</a></td>
+          <td><span class="parametername">samplerState</span></td>
+          <td><p>State of the sampler. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.SamplerState.html#Microsoft_Xna_Framework_Graphics_SamplerState_LinearClamp">LinearClamp</a> if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthStencilState.html">DepthStencilState</a></td>
+          <td><span class="parametername">depthStencilState</span></td>
+          <td><p>State of the depth-stencil buffer. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthStencilState.html#Microsoft_Xna_Framework_Graphics_DepthStencilState_None">None</a> if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RasterizerState.html">RasterizerState</a></td>
+          <td><span class="parametername">rasterizerState</span></td>
+          <td><p>State of the rasterization. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.RasterizerState.html#Microsoft_Xna_Framework_Graphics_RasterizerState_CullCounterClockwise">CullCounterClockwise</a> if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
+          <td><span class="parametername">effect</span></td>
+          <td><p>A custom <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a> to override the default sprite effect. Uses default sprite effect if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>&gt;</td>
+          <td><span class="parametername">transformMatrix</span></td>
+          <td><p>An optional matrix used to transform the sprite geometry. Uses <a class="xref" href="Microsoft.Xna.Framework.Matrix.html#Microsoft_Xna_Framework_Matrix_Identity">Identity</a> if null.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_Microsoft_Xna_Framework_Graphics_SpriteSortMode_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_Microsoft_Xna_Framework_Graphics_DepthStencilState_Microsoft_Xna_Framework_Graphics_RasterizerState_Microsoft_Xna_Framework_Graphics_Effect_System_Nullable_Microsoft_Xna_Framework_Matrix___remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>This method uses optional parameters.</p>
+</div>
+    <h5 class="exceptions">Exceptions</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Condition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+          <td><p>Thrown if <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_Microsoft_Xna_Framework_Graphics_SpriteSortMode_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_Microsoft_Xna_Framework_Graphics_DepthStencilState_Microsoft_Xna_Framework_Graphics_RasterizerState_Microsoft_Xna_Framework_Graphics_Effect_System_Nullable_Microsoft_Xna_Framework_Matrix__">Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Nullable&lt;Matrix&gt;)</a> is called next time without previous <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_End">End()</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Dispose*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L1210">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Immediately releases the unmanaged resources used by this object.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td><span class="parametername">disposing</span></td>
+          <td><p><code>true</code> to release both managed and unmanaged resources; <code>false</code> to release only unmanaged resources.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_">GraphicsResource.Dispose(Boolean)</a></div>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Color_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CMicrosoft.Xna.Framework.Rectangle%2CMicrosoft.Xna.Framework.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L619">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Color)">Draw(Texture2D, Rectangle, Color)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Rectangle destinationRectangle, Color color)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+          <td><span class="parametername">destinationRectangle</span></td>
+          <td><p>The drawing bounds on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CMicrosoft.Xna.Framework.Rectangle%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2CMicrosoft.Xna.Framework.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L549">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color)">Draw(Texture2D, Rectangle, Nullable&lt;Rectangle&gt;, Color)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Rectangle destinationRectangle, Rectangle? sourceRectangle, Color color)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+          <td><span class="parametername">destinationRectangle</span></td>
+          <td><p>The drawing bounds on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+          <td><span class="parametername">sourceRectangle</span></td>
+          <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CMicrosoft.Xna.Framework.Rectangle%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2CMicrosoft.Xna.Framework.Color%2CSystem.Single%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L386">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">Draw(Texture2D, Rectangle, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Rectangle destinationRectangle, Rectangle? sourceRectangle, Color color, float rotation, Vector2 origin, SpriteEffects effects, float layerDepth)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+          <td><span class="parametername">destinationRectangle</span></td>
+          <td><p>The drawing bounds on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+          <td><span class="parametername">sourceRectangle</span></td>
+          <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>A rotation of this sprite.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>A depth of the layer of this sprite.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L591">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)">Draw(Texture2D, Vector2, Color)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Color color)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CMicrosoft.Xna.Framework.Vector2%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2CMicrosoft.Xna.Framework.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L502">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color)">Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Rectangle? sourceRectangle, Color color)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+          <td><span class="parametername">sourceRectangle</span></td>
+          <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CMicrosoft.Xna.Framework.Vector2%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2CMicrosoft.Xna.Framework.Color%2CSystem.Single%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L253">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, Vector2, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Rectangle? sourceRectangle, Color color, float rotation, Vector2 origin, Vector2 scale, SpriteEffects effects, float layerDepth)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+          <td><span class="parametername">sourceRectangle</span></td>
+          <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>A rotation of this sprite.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">scale</span></td>
+          <td><p>A scaling of this sprite.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>A depth of the layer of this sprite.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CMicrosoft.Xna.Framework.Vector2%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2CMicrosoft.Xna.Framework.Color%2CSystem.Single%2CMicrosoft.Xna.Framework.Vector2%2CSystem.Single%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L361">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, Single, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Rectangle? sourceRectangle, Color color, float rotation, Vector2 origin, float scale, SpriteEffects effects, float layerDepth)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+          <td><span class="parametername">sourceRectangle</span></td>
+          <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>A rotation of this sprite.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">scale</span></td>
+          <td><p>A scaling of this sprite.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>A depth of the layer of this sprite.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Vector2__System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Color__Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Vector2%7D%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Vector2%7D%2CSystem.Single%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Vector2%7D%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Color%7D%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L203">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Vector2__System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Color__Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Rectangle},System.Nullable{Microsoft.Xna.Framework.Rectangle},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Single,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Color},Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">Draw(Texture2D, Nullable&lt;Vector2&gt;, Nullable&lt;Rectangle&gt;, Nullable&lt;Rectangle&gt;, Nullable&lt;Vector2&gt;, Single, Nullable&lt;Vector2&gt;, Nullable&lt;Color&gt;, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[Obsolete(&quot;In future versions this method can be removed.&quot;)]
+public void Draw(Texture2D texture, Vector2? position = default (Vector2? ), Rectangle? destinationRectangle = default (Rectangle? ), Rectangle? sourceRectangle = default (Rectangle? ), Vector2? origin = default (Vector2? ), float rotation = 0F, Vector2? scale = default (Vector2? ), Color? color = default (Color? ), SpriteEffects effects = SpriteEffects.None, float layerDepth = 0F)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td><span class="parametername">texture</span></td>
+          <td><p>A texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen or null if <code data-dev-comment-type="paramref" class="paramref">destinationRectangle</code></p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+          <td><span class="parametername">destinationRectangle</span></td>
+          <td><p>The drawing bounds on screen or null if <code data-dev-comment-type="paramref" class="paramref">position</code></p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+          <td><span class="parametername">sourceRectangle</span></td>
+          <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>An optional center of rotation. Uses <a class="xref" href="Microsoft.Xna.Framework.Vector2.html#Microsoft_Xna_Framework_Vector2_Zero">Zero</a> if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>An optional rotation of this sprite. 0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</td>
+          <td><span class="parametername">scale</span></td>
+          <td><p>An optional scale vector. Uses <a class="xref" href="Microsoft.Xna.Framework.Vector2.html#Microsoft_Xna_Framework_Vector2_One">One</a> if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a>&gt;</td>
+          <td><span class="parametername">color</span></td>
+          <td><p>An optional color mask. Uses <a class="xref" href="Microsoft.Xna.Framework.Color.html#Microsoft_Xna_Framework_Color_White">White</a> if null.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>The optional drawing modificators. <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html#Microsoft_Xna_Framework_Graphics_SpriteEffects_None">None</a> by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>An optional depth of the layer of this sprite. 0 by default.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Vector2__System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Color__Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single__remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>This overload uses optional parameters. This overload requires only one of <code data-dev-comment-type="paramref" class="paramref">position</code> and <code data-dev-comment-type="paramref" class="paramref">destinationRectangle</code> been used.</p>
+</div>
+    <h5 class="exceptions">Exceptions</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Condition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+          <td><p>Throwns if both <code data-dev-comment-type="paramref" class="paramref">position</code> and <code data-dev-comment-type="paramref" class="paramref">destinationRectangle</code> been used.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont%2CSystem.String%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L648">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)">DrawString(SpriteFont, String, Vector2, Color)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, string text, Vector2 position, Color color)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+          <td><span class="parametername">spriteFont</span></td>
+          <td><p>A font.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text which will be drawn.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont%2CSystem.String%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Color%2CSystem.Single%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L751">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">DrawString(SpriteFont, String, Vector2, Color, Single, Vector2, Vector2, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, string text, Vector2 position, Color color, float rotation, Vector2 origin, Vector2 scale, SpriteEffects effects, float layerDepth)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+          <td><span class="parametername">spriteFont</span></td>
+          <td><p>A font.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text which will be drawn.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>A rotation of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">scale</span></td>
+          <td><p>A scaling of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>A depth of the layer of this string.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont%2CSystem.String%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Color%2CSystem.Single%2CMicrosoft.Xna.Framework.Vector2%2CSystem.Single%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L731">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">DrawString(SpriteFont, String, Vector2, Color, Single, Vector2, Single, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, string text, Vector2 position, Color color, float rotation, Vector2 origin, float scale, SpriteEffects effects, float layerDepth)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+          <td><span class="parametername">spriteFont</span></td>
+          <td><p>A font.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text which will be drawn.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>A rotation of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">scale</span></td>
+          <td><p>A scaling of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>A depth of the layer of this string.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont%2CSystem.Text.StringBuilder%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L931">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.Text.StringBuilder,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)">DrawString(SpriteFont, StringBuilder, Vector2, Color)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, StringBuilder text, Vector2 position, Color color)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+          <td><span class="parametername">spriteFont</span></td>
+          <td><p>A font.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text which will be drawn.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont%2CSystem.Text.StringBuilder%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Color%2CSystem.Single%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L1034">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.Text.StringBuilder,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">DrawString(SpriteFont, StringBuilder, Vector2, Color, Single, Vector2, Vector2, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, StringBuilder text, Vector2 position, Color color, float rotation, Vector2 origin, Vector2 scale, SpriteEffects effects, float layerDepth)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+          <td><span class="parametername">spriteFont</span></td>
+          <td><p>A font.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text which will be drawn.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>A rotation of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">scale</span></td>
+          <td><p>A scaling of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>A depth of the layer of this string.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont%2CSystem.Text.StringBuilder%2CMicrosoft.Xna.Framework.Vector2%2CMicrosoft.Xna.Framework.Color%2CSystem.Single%2CMicrosoft.Xna.Framework.Vector2%2CSystem.Single%2CMicrosoft.Xna.Framework.Graphics.SpriteEffects%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L1014">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.Text.StringBuilder,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)">DrawString(SpriteFont, StringBuilder, Vector2, Color, Single, Vector2, Single, SpriteEffects, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, StringBuilder text, Vector2 position, Color color, float rotation, Vector2 origin, float scale, SpriteEffects effects, float layerDepth)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+          <td><span class="parametername">spriteFont</span></td>
+          <td><p>A font.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+          <td><span class="parametername">text</span></td>
+          <td><p>The text which will be drawn.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">position</span></td>
+          <td><p>The drawing location on screen.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+          <td><span class="parametername">color</span></td>
+          <td><p>A color mask.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">rotation</span></td>
+          <td><p>A rotation of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+          <td><span class="parametername">origin</span></td>
+          <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">scale</span></td>
+          <td><p>A scaling of this string.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+          <td><span class="parametername">effects</span></td>
+          <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">layerDepth</span></td>
+          <td><p>A depth of the layer of this string.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteBatch_End_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.End*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteBatch_End.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteBatch.End%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteBatch.cs/#L113">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_End" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.End">End()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Flushes all batched text and sprites to the screen.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void End()</code></pre>
+    </div>
+    <h3 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_End_remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>This command should be called after <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_Microsoft_Xna_Framework_Graphics_SpriteSortMode_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_Microsoft_Xna_Framework_Graphics_DepthStencilState_Microsoft_Xna_Framework_Graphics_RasterizerState_Microsoft_Xna_Framework_Graphics_Effect_System_Nullable_Microsoft_Xna_Framework_Matrix__">Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Nullable&lt;Matrix&gt;)</a> and drawing commands.</p>
+</div>
+  </article>

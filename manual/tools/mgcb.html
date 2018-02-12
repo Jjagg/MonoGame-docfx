@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -8,210 +8,69 @@
     <title>MGCB | MonoGame Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="MGCB | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.28.2.0">
-    
-    <link rel="shortcut icon" href="../../favicon.ico">
-    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../../styles/docfx.css">
-    <link rel="stylesheet" href="../../styles/main.css">
-    <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
-    
-    <meta property="docfx:rel" content="../../">
-    
+    <meta name="generator" content="docfx 2.31.0.0">
+    <meta property="docfx:pagedata" content="mgcb">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../../favicon.ico">
+  <link rel="stylesheet" href="../../css/main.css">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="110">
-    <div id="wrapper">
+  <body>
+    <div class="flex-col">
       <header>
         
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
           </div>
+          <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="container body-content">
+      <div class="flex-row flex-stretch no-overflow">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
-        </div>
-      </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+        <div id="page-toc" class="shown pos-rel ">
+          <div class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <span class="mg-icons">&#xe804;</span><input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
           </div>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="mgcb">MGCB</h1>
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="flex-stretch">
+            <div id="toc-toggle-wrapper" class=" show-sm pos-rel"><span id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</span></div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row ">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/Documentation/manual/tools/mgcb.md/#L1">
+    Improve this Doc
+  </a>
+</div>
 
-<p>The MonoGame Content Builder (MGCB.exe) is a command line tool for building XNB content on Windows, Mac, and Linux desktop systems.</p>
-<p>Typically it is executed by the <a href="pipeline.html">Pipeline GUI tool</a> when editing content or indirectly from VisualStudio or MonoDevelop during the build process of a MonoGame project.  Alternatively you can use it yourself from the command line for specialized build pipelines or for debugging content processing.</p>
-<h3 id="command-line-options">Command Line Options</h3>
-<p>The options are processed &quot;left to right&quot;.  When an option is repeated the last option always wins.</p>
-<h4 id="output-directory">Output Directory</h4>
-<pre><code>/outputDir:&lt;directory_path&gt;
-</code></pre><p>It specifies the directory where all content is written.  If this option is omitted the output will be put into the current working directory.</p>
-<h4 id="intermediate-directory">Intermediate Directory</h4>
-<pre><code>/intermediateDir:&lt;directory_path&gt;
-</code></pre><p>It specifies the directory where all intermediate files are written.  If this option is omitted the intermediate data will be put into the current working directory.</p>
-<h4 id="rebuild-content">Rebuild Content</h4>
-<pre><code>/rebuild 
-</code></pre><p>An optional parameter which forces a full rebuild of all content.</p>
-<h4 id="clean-content">Clean Content</h4>
-<pre><code>/clean
-</code></pre><p>Delete all previously built content and intermediate files.  Only the <code>/intermediateDir</code> and <code>/outputDir</code> need to be defined for clean to do its job.</p>
-<h4 id="incremental-build">Incremental Build</h4>
-<pre><code>/incremental
-</code></pre><p>Skip cleaning files not included in the current build.  Useful for custom tools which only require a subset of the game content built.</p>
-<h4 id="assembly-reference">Assembly Reference</h4>
-<pre><code>/reference:&lt;assembly_path&gt; 
-</code></pre><p>An optional parameter which adds an assembly reference which contains importers, processors, or writers needed during content building.</p>
-<h4 id="target-platform">Target Platform</h4>
-<pre><code>/platform:&lt;target_Platform&gt; 
-</code></pre><p>Set the target platform for this build. It must be a member of the TargetPlatform enum:</p>
-<ul>
-<li>Windows</li>
-<li>iOS</li>
-<li>Android</li>
-<li>DesktopGL</li>
-<li>MacOSX</li>
-<li>WindowsStoreApp</li>
-<li>NativeClient</li>
-<li>PlayStation4</li>
-<li>WindowsPhone8</li>
-<li>RaspberryPi</li>
-<li>PSVita</li>
-<li>XboxOne</li>
-<li>Switch</li>
-</ul>
-<p>If not set it will default to Windows.</p>
-<p>NOTE: PlayStation 4, Xbox One, PS Vita, and Switch support is only available to licensed console developers.</p>
-<h4 id="target-graphics-profile">Target Graphics Profile</h4>
-<pre><code>/profile:&lt;graphics_Profile&gt; 
-</code></pre><p>Set the target graphics profile for this build. It must be a member of the GraphicsProfile enum:</p>
-<ul>
-<li>HiDef</li>
-<li>Reach</li>
-</ul>
-<p>If not set it will default to HiDef.</p>
-<h4 id="target-build-configuration">Target Build Configuration</h4>
-<pre><code>/config:&lt;build_config&gt; 
-</code></pre><p>The optional build configuration name from the build system.  This is sometimes used as a hint in content processors.</p>
-<h4 id="content-compression">Content Compression</h4>
-<pre><code>/compress
-</code></pre><p>Uses LZ4 compression to compress the contents of the XNB files.  Content build times will increase with this option enabled.  Compression is not recommended for platforms such as Android, Windows Phone 8 and Windows 8 as the app package is already compressed.  This is not compatible with LZX compression used in XNA content.</p>
-<h4 id="content-importer-name">Content Importer Name</h4>
-<pre><code>/importer:&lt;class_name&gt;
-</code></pre><p>An optional parameter which defines the class name of the content importer for reading source content.  If the option is omitted or used without a class name the default content importer for the source type is used.</p>
-<h4 id="content-processor-name">Content Processor Name</h4>
-<pre><code>/processor:&lt;class_name&gt;
-</code></pre><p>An optional parameter which defines the class name of the content processor for processing imported content.  If the option is omitted used without a class name the default content processor for the imported content is used.</p>
-<p>Note that when you change the processor all previously defined <code>/processorParam</code> are cleared.</p>
-<h4 id="content-processor-parameter">Content Processor Parameter</h4>
-<pre><code>/processorParam:&lt;name&gt;=&lt;value&gt;
-</code></pre><p>An optional parameter which defines a parameter name and value to set on a content processor.</p>
-<p>Note all defined processor parameters are cleared when the <code>/processor</code> is set.</p>
-<h4 id="build-content-file">Build Content File</h4>
-<pre><code>/build:&lt;content_filepath&gt;
-</code></pre><p>Instructs the content builder to build the specified content file using the previously set switches and options.</p>
-<h4 id="response-file">Response File</h4>
-<pre><code>/@:&lt;response_filepath&gt;
-</code></pre><p>This defines a text response file (sometimes called a command file) that contains the same options and switches you would normally find on the command line.</p>
-<p>Each switch is specified on a new line.  Comment lines are prefixed with #.  You can specify multiple response files or mix normal command line switches with response files.</p>
-<p>An example response file could look like this:</p>
-<pre><code># Directories
-/outputDir:bin/foo 
-/intermediateDir:obj/foo 
-
-/rebuild
-
-# Build a texture
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyEnabled=false
-/build:Textures\wood.png
-/build:Textures\metal.png
-/build:Textures\plastic.png
-</code></pre><pre><code>#### Launch Debugger
-</code></pre><p>/launchdebugger</p>
-<pre><code>Allows a debugger to attach to the MGCB executable before content is built.
-#### Define Preprocessor Parameter
-</code></pre><p>/define <name>=<value><p>
-<pre><code>Sets or creates a preprocessor parameter with the given name and value.
-### Preprocessor Macros
-</code></pre><p>$if <name>=<value>
-$endif<p>
-<pre><code>Preprocessor macros are intended to allow conditionals within a response file.
-
-The preprocess step is what expands a response file command into its composite commands for each line in the file. However, a line is only emitted if all conditionals which contain the line evaluate true.
-</code></pre><p><example command="" line="">
-MGCB.exe /define:BuildEffects=No /@:example.mgcb<p>
-<p>&lt;example.mgcb file&gt;
-$if BuildEffects=Yes
-   /importer:EffectImporter
-   /processor:EffectProcessor
-   /build:Effects\custom.fx</p>
-<h1 id="all-other-effects-here">all other effects here....</h1>
-<p>$endif</p>
-<pre><code>
-### Customizing your Build Process
-
-When building content from your project via `msbuild` there are a few ways to can hook into the build process. The `MonoGame.Content.Builder.targets` runs a target called
-`BuildContent` just before your project builds. If you want to do any processing before or after this process you can use the `BeforeTargets` and `AfterTargets` mechanism provided
-by `msbuild` to run your own targest.
-</code></pre><p><target name="MyBeforeTarget" beforetargets="BuildContent">
-   <message text="MyBeforeTarget Ran"></message>
-</target>
-<target name="MyAfterTarget" aftertargets="BuildContent">
-   <message text="MyAfterTarget Ran"></message>
-</target></p>
-<pre><code>
-If you want to customise the arguements sent to the `MGCB.exe` as part of the build process you can use the `&lt;MonoGameMGCBAdditionalArguments&gt;` property to define those. 
-For example if you wanted to pass in the current project configuration you could define
-</code></pre><p><monogamemgcbadditionalarguments>-config:$(Configuration)</monogamemgcbadditionalarguments></p>
-<pre><code>
-
-</code></pre></example></value></name></value></name></article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/Documentation/manual/tools/mgcb.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
-                </ul>
+              <div id="content-wrapper">
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
               </div>
             </div>
+          </div>
+          
+          <div id="page-affix" role="complementary" class=" hide">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
           </div>
         </div>
       </div>
     </div>
     
-    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../../styles/docfx.js"></script>
-    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../../js/tree.js"></script>
+    <script src="../../js/main.js"></script>
+    
   </body>
 </html>

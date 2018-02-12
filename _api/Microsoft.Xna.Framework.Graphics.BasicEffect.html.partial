@@ -1,0 +1,1002 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_BasicEffect" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect" class="text-break">BasicEffect Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Built-in effect that supports optional texturing, vertex coloring, fog, and lighting.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></div>
+      <div class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></div>
+      <div class="level3"><span class="xref">BasicEffect</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectMatrices.html">IEffectMatrices</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.html">IEffectLights</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.html">IEffectFog</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Parameters">Effect.Parameters</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Techniques">Effect.Techniques</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_CurrentTechnique">Effect.CurrentTechnique</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Dispose_System_Boolean_">Effect.Dispose(Boolean)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_GraphicsDeviceResetting">Effect.GraphicsDeviceResetting()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Graphics_BasicEffect_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class BasicEffect : Effect, IDisposable, IEffectMatrices, IEffectLights, IEffectFog</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect__ctor_Microsoft_Xna_Framework_Graphics_BasicEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.%23ctor(Microsoft.Xna.Framework.Graphics.BasicEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L358">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect__ctor_Microsoft_Xna_Framework_Graphics_BasicEffect_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.#ctor(Microsoft.Xna.Framework.Graphics.BasicEffect)">BasicEffect(BasicEffect)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Creates a new BasicEffect by cloning parameter settings from an existing instance.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">protected BasicEffect(BasicEffect cloneSource)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BasicEffect.html">BasicEffect</a></td>
+          <td><span class="parametername">cloneSource</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L345">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">BasicEffect(GraphicsDevice)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Creates a new BasicEffect with default parameter settings.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public BasicEffect(GraphicsDevice device)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+          <td><span class="parametername">device</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Alpha*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L172">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Alpha">Alpha</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the material alpha.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.AmbientLightColor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_AmbientLightColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.AmbientLightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L218">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.AmbientLightColor">AmbientLightColor</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector3 AmbientLightColor { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DiffuseColor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L122">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DiffuseColor">DiffuseColor</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the material diffuse color (range 0 to 1).</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight0*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight0.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L231">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight0">DirectionalLight0</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight0 { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight1*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L235">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight1">DirectionalLight1</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight1 { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight2*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L239">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.DirectionalLight2">DirectionalLight2</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight2 { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_EmissiveColor_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.EmissiveColor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_EmissiveColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.EmissiveColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L137">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_EmissiveColor" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.EmissiveColor">EmissiveColor</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the material emissive color (range 0 to 1).</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector3 EmissiveColor { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogColor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L285">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogColor">FogColor</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogEnabled*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L243">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogEnabled">FogEnabled</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogEnd*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L272">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogEnd">FogEnd</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogStart*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L259">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.FogStart">FogStart</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.LightingEnabled*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_LightingEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.LightingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L184">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.LightingEnabled">LightingEnabled</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool LightingEnabled { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_PreferPerPixelLighting_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.PreferPerPixelLighting*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_PreferPerPixelLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.PreferPerPixelLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L202">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_PreferPerPixelLighting" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.PreferPerPixelLighting">PreferPerPixelLighting</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the per-pixel lighting prefer flag.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool PreferPerPixelLighting { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Projection*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L107">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Projection">Projection</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the projection matrix.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_SpecularColor_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.SpecularColor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_SpecularColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.SpecularColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L152">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_SpecularColor" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.SpecularColor">SpecularColor</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the material specular color (range 0 to 1).</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector3 SpecularColor { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_SpecularPower_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.SpecularPower*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_SpecularPower.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.SpecularPower%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L162">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_SpecularPower" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.SpecularPower">SpecularPower</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the material specular power.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public float SpecularPower { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Texture*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L313">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Texture">Texture</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the current texture.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_TextureEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.TextureEnabled*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_TextureEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.TextureEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L295">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_TextureEnabled" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.TextureEnabled">TextureEnabled</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets whether texturing is enabled.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool TextureEnabled { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_VertexColorEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.VertexColorEnabled*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_VertexColorEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.VertexColorEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L323">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_VertexColorEnabled" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.VertexColorEnabled">VertexColorEnabled</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets whether vertex color is enabled.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool VertexColorEnabled { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.View*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L92">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.View">View</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the view matrix.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.World*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L77">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.World">World</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets or sets the world matrix.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Clone*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L387">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.Clone">Clone()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Creates a clone of the current BasicEffect instance.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Clone">Effect.Clone()</a></div>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.EnableDefaultLighting*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_EnableDefaultLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.EnableDefaultLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L394">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.EnableDefaultLighting">EnableDefaultLighting()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void EnableDefaultLighting()</code></pre>
+    </div>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_BasicEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.OnApply*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_BasicEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.BasicEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/BasicEffect.cs/#L439">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_BasicEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.BasicEffect.OnApply">OnApply()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Lazily computes derived parameter values immediately before applying the effect.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
+    </div>
+    <h5 class="overrides">Overrides</h5>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_OnApply">Effect.OnApply()</a></div>
+  </article>

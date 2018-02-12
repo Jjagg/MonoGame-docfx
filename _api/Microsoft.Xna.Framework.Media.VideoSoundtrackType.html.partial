@@ -1,0 +1,48 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Media.VideoSoundtrackType" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Media_VideoSoundtrackType" data-uid="Microsoft.Xna.Framework.Media.VideoSoundtrackType" class="text-break">VideoSoundtrackType Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Media.html">Microsoft.Xna.Framework.Media</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Type of sounds in a video</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_Media_VideoSoundtrackType_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum VideoSoundtrackType</code></pre>
+    </div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Media_VideoSoundtrackType_Dialog">Dialog</td>
+          <td><p>This video contains only dialog.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Media_VideoSoundtrackType_Music">Music</td>
+          <td><p>This video contains only music.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Media_VideoSoundtrackType_MusicAndDialog">MusicAndDialog</td>
+          <td><p>This video contains music and dialog.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

@@ -1,0 +1,44 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="setting-up-monogame-from-source">Setting up MonoGame from Source</h1>
+  
+<p>This section will help you setup MonoGame by building it from source code.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>Install the tools for the system you are building from:</p>
+<ul>
+<li>Windows: <ul>
+<li><a href="https://git-scm.com/download/win">Git for Windows</a></li>
+<li><a href="https://www.visualstudio.com/">Visual Studio</a></li>
+<li><a href="https://www.xamarin.com/download">Xamarin.Android</a> (Optional)</li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=35471">Windows Phone 8 SDK</a> (Optional)</li>
+</ul>
+</li>
+<li>Mac: <ul>
+<li><a href="https://git-scm.com/download/mac">Git</a></li>
+<li><a href="https://store.xamarin.com/">Xamarin Studio</a></li>
+<li>Xamarin.Android and Xamarin.iOS can be installed with the Xamarin Studio installer (Optional)</li>
+</ul>
+</li>
+<li>Linux: <ul>
+<li><a href="https://git-scm.com/download/linux">Git</a></li>
+<li><a href="http://www.monodevelop.com/download/linux/">Monodevelop</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="getting-the-source-code">Getting the source code</h3>
+<p>Start up a Terminal (Mac/Linux) or Git Bash (Windows) and clone the MonoGame repository:</p>
+<pre><code>git clone https://github.com/MonoGame/MonoGame.git
+cd MonoGame
+git submodule init
+git submodule update
+</code></pre><h3 id="building-from-source">Building from source</h3>
+<p>MonoGame uses <a href="https://protobuild.org/">Protobuild</a> to generate project and solution files. Protobuild.exe will be in your MonoGame folder. To run Protobuild:</p>
+<ul>
+<li>On Windows run Protobuild.exe either by double-clicking or by executing it from the command line.</li>
+<li>On Mac/Linux open a terminal and run <code>mono Protobuild.exe</code> in the MonoGame folder.</li>
+</ul>
+<p>Once the project and solution files are generated you can build them with the IDE you installed.</p>
+<h3 id="referencing-the-projects">Referencing the projects</h3>
+<p>First get the MonoGame SDK from the <a href="http://www.monogame.net/downloads/">downloads page</a> and install it to get the IDE templates. Start up the IDE you have installed and create a new project from one of the templates. Click Add &gt; Existing Project... on your solution and select the MonoGame.Framework project that matches the template (i.e. MonoGame.Framework.Windows.csproj for a MonoGame Windows project template). The project files are located in MonoGame/MonoGame.Framework. Delete the existing MonoGame.Framework reference and add a reference to the added project by clicking Add Reference... &gt; Projects and selecting the project. You can run your game now. If you make changes to the MonoGame.Framework project it will automatically rebuild when running your game.</p>
+
+</article>
+

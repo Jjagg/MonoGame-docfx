@@ -1,0 +1,43 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioChannels" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioChannels" data-uid="Microsoft.Xna.Framework.Audio.AudioChannels" class="text-break">AudioChannels Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Represents how many channels are used in the audio data.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_Audio_AudioChannels_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum AudioChannels</code></pre>
+    </div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Audio_AudioChannels_Mono">Mono</td>
+          <td><p>Single channel.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Audio_AudioChannels_Stereo">Stereo</td>
+          <td><p>Two channels.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

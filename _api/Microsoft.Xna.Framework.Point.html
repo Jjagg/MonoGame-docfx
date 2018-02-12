@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,88 +10,76 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Point Struct
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.28.2.0">
-    
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    
+    <meta name="generator" content="docfx 2.31.0.0">
+    <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Point">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../css/main.css">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="110">
-    <div id="wrapper">
+  <body>
+    <div class="flex-col">
       <header>
         
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
           </div>
+          <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="container body-content">
+      <div class="flex-row flex-stretch no-overflow">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
-        </div>
-      </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+        <div id="page-toc" class="shown pos-rel hide">
+          <div class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <span class="mg-icons">&#xe804;</span><input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
           </div>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Microsoft.Xna.Framework.Point">
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="flex-stretch">
+            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel"><span id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</span></div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row hide">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+    Improve this Doc
+  </a>
+</div>
+
+              <div id="content-wrapper">
   
-  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Point" role="main" class="pos-rel">
+    
   <h1 id="Microsoft_Xna_Framework_Point" data-uid="Microsoft.Xna.Framework.Point" class="text-break">Point Struct
   </h1>
   <div class="api">
     <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h5>
+      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework" text="Microsoft.Xna.Framework" alt="Microsoft.Xna.Framework"/></h5>
       <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
     </div>
-    <div class="markdown level0 summary"><p>Describes a 2D-point.</p>
+    <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Describes a 2D-point.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
     <hr>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>&gt;</div>
+      <div><xref uid="System.IEquatable`1" text="IEquatable" alt="System.IEquatable"/>&lt;<xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/>&gt;</div>
     </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.GetType()</span>
+        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
       </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Point_syntax"><strong>Syntax</strong></h5>
@@ -100,828 +88,824 @@
 public struct Point : IEquatable&lt;Point&gt;</code></pre>
     </div>
   </div>
-  <h3 id="constructors">Constructors
+    <h3 id="constructors">Constructors
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Point__ctor_" data-uid="Microsoft.Xna.Framework.Point.#ctor*"></a>
+    <a id="Microsoft_Xna_Framework_Point__ctor_" data-uid="Microsoft.Xna.Framework.Point.#ctor*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L84">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L84">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point__ctor_System_Int32_" data-uid="Microsoft.Xna.Framework.Point.#ctor(System.Int32)">Point(Int32)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Constructs a point with X and Y set to the same value.</p>
+      <h4 id="Microsoft_Xna_Framework_Point__ctor_System_Int32_" data-uid="Microsoft.Xna.Framework.Point.#ctor(System.Int32)">Point(Int32)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs a point with X and Y set to the same value.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Point(int value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The x and y coordinates in 2d-space.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Point(int value)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">value</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The x and y coordinates in 2d-space.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Point__ctor_" data-uid="Microsoft.Xna.Framework.Point.#ctor*"></a>
+    <a id="Microsoft_Xna_Framework_Point__ctor_" data-uid="Microsoft.Xna.Framework.Point.#ctor*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point__ctor_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.%23ctor(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L74">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point__ctor_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.%23ctor(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L74">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point__ctor_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Point.#ctor(System.Int32,System.Int32)">Point(Int32, Int32)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Constructs a point with X and Y from two values.</p>
+      <h4 id="Microsoft_Xna_Framework_Point__ctor_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Point.#ctor(System.Int32,System.Int32)">Point(Int32, Int32)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs a point with X and Y from two values.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Point(int x, int y)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">x</span></td>
-        <td><p>The x coordinate in 2d-space.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Point(int x, int y)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">x</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The x coordinate in 2d-space.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">y</span></td>
-        <td><p>The y coordinate in 2d-space.</p>
+        </tr>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><span class="parametername">y</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The y coordinate in 2d-space.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="fields">Fields
   </h3>
   
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_X.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.X%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L30">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_X.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.X%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L30">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_X" data-uid="Microsoft.Xna.Framework.Point.X">X</h4>
-  </div>
-  <div class="markdown level1 summary"><p>The x coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_X" data-uid="Microsoft.Xna.Framework.Point.X">X</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The x coordinate of this <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataMember]
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataMember]
 public int X</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+    </div>
+    <h5 class="fieldValue">Field Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
   
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Y.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Y%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L36">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Y.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Y%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L36">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_Y" data-uid="Microsoft.Xna.Framework.Point.Y">Y</h4>
-  </div>
-  <div class="markdown level1 summary"><p>The y coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_Y" data-uid="Microsoft.Xna.Framework.Point.Y">Y</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The y coordinate of this <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DataMember]
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataMember]
 public int Y</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
+    </div>
+    <h5 class="fieldValue">Field Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Point_Zero_" data-uid="Microsoft.Xna.Framework.Point.Zero*"></a>
+    <a id="Microsoft_Xna_Framework_Point_Zero_" data-uid="Microsoft.Xna.Framework.Point.Zero*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Zero.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Zero%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L45">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Zero.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Zero%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L45">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_Zero" data-uid="Microsoft.Xna.Framework.Point.Zero">Zero</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> with coordinates 0, 0.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_Zero" data-uid="Microsoft.Xna.Framework.Point.Zero">Zero</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns a <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> with coordinates 0, 0.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Point Zero { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static Point Zero { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Point_Equals_" data-uid="Microsoft.Xna.Framework.Point.Equals*"></a>
+    <a id="Microsoft_Xna_Framework_Point_Equals_" data-uid="Microsoft.Xna.Framework.Point.Equals*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Equals_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Equals(Microsoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L179">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Equals_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Equals(Microsoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L179">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_Equals_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.Equals(Microsoft.Xna.Framework.Point)">Equals(Point)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Compares whether current instance is equal to specified <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_Equals_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.Equals(Microsoft.Xna.Framework.Point)">Equals(Point)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether current instance is equal to specified <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(Point other)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">other</span></td>
-        <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> to compare.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool Equals(Point other)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">other</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> to compare.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Point_Equals_" data-uid="Microsoft.Xna.Framework.Point.Equals*"></a>
+    <a id="Microsoft_Xna_Framework_Point_Equals_" data-uid="Microsoft.Xna.Framework.Point.Equals*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L169">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L169">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Point.Equals(System.Object)">Equals(Object)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Compares whether current instance is equal to specified <span class="xref">System.Object</span>.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Point.Equals(System.Object)">Equals(Object)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether current instance is equal to specified <xref href="System.Object" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>The <span class="xref">System.Object</span> to compare.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+          <td><span class="parametername">obj</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <xref href="System.Object" data-throw-if-not-resolved="false"></xref> to compare.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><xref uid="System.ValueType.Equals(System.Object)" altProperty="fullName" displayProperty="nameWithType"/></div>
   
-  <a id="Microsoft_Xna_Framework_Point_GetHashCode_" data-uid="Microsoft.Xna.Framework.Point.GetHashCode*"></a>
+    <a id="Microsoft_Xna_Framework_Point_GetHashCode_" data-uid="Microsoft.Xna.Framework.Point.GetHashCode*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_GetHashCode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L188">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_GetHashCode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L188">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_GetHashCode" data-uid="Microsoft.Xna.Framework.Point.GetHashCode">GetHashCode()</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Gets the hash code of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_GetHashCode" data-uid="Microsoft.Xna.Framework.Point.GetHashCode">GetHashCode()</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the hash code of this <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Hash code of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Hash code of this <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><xref uid="System.ValueType.GetHashCode" altProperty="fullName" displayProperty="nameWithType"/></div>
   
-  <a id="Microsoft_Xna_Framework_Point_ToString_" data-uid="Microsoft.Xna.Framework.Point.ToString*"></a>
+    <a id="Microsoft_Xna_Framework_Point_ToString_" data-uid="Microsoft.Xna.Framework.Point.ToString*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L205">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L205">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_ToString" data-uid="Microsoft.Xna.Framework.Point.ToString">ToString()</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> representation of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> in the format:
-{X:[<a class="xref" href="Microsoft.Xna.Framework.Point.html#Microsoft_Xna_Framework_Point_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Point.html#Microsoft_Xna_Framework_Point_Y">Y</a>]}</p>
+      <h4 id="Microsoft_Xna_Framework_Point_ToString" data-uid="Microsoft.Xna.Framework.Point.ToString">ToString()</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of this <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> in the format:
+{X:[<xref href="Microsoft.Xna.Framework.Point.X" data-throw-if-not-resolved="false"></xref>] Y:[<xref href="Microsoft.Xna.Framework.Point.Y" data-throw-if-not-resolved="false"></xref>]}</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p><span class="xref">System.String</span> representation of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.String" text="String" alt="System.String"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of this <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.ToString()</span></div>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><xref uid="System.ValueType.ToString" altProperty="fullName" displayProperty="nameWithType"/></div>
   
-  <a id="Microsoft_Xna_Framework_Point_ToVector2_" data-uid="Microsoft.Xna.Framework.Point.ToVector2*"></a>
+    <a id="Microsoft_Xna_Framework_Point_ToVector2_" data-uid="Microsoft.Xna.Framework.Point.ToVector2*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_ToVector2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.ToVector2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L214">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_ToVector2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.ToVector2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L214">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_ToVector2" data-uid="Microsoft.Xna.Framework.Point.ToVector2">ToVector2()</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> representation for this object.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_ToVector2" data-uid="Microsoft.Xna.Framework.Point.ToVector2">ToVector2()</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets a <xref href="Microsoft.Xna.Framework.Vector2" data-throw-if-not-resolved="false"></xref> representation for this object.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 ToVector2()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
-        <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> representation for this object.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector2 ToVector2()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Vector2" text="Vector2" alt="Microsoft.Xna.Framework.Vector2"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A <xref href="Microsoft.Xna.Framework.Vector2" data-throw-if-not-resolved="false"></xref> representation for this object.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="operators">Operators
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="operators">Operators
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Point_op_Addition_" data-uid="Microsoft.Xna.Framework.Point.op_Addition*"></a>
+    <a id="Microsoft_Xna_Framework_Point_op_Addition_" data-uid="Microsoft.Xna.Framework.Point.op_Addition*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Addition_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Addition(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L100">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Addition_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Addition(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L100">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_op_Addition_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Addition(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Addition(Point, Point)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Adds two points.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_op_Addition_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Addition(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Addition(Point, Point)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Adds two points.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Point operator +(Point value1, Point value2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">value1</span></td>
-        <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the left of the add sign.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static Point operator +(Point value1, Point value2)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">value1</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Source <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the left of the add sign.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">value2</span></td>
-        <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the right of the add sign.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">value2</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Source <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the right of the add sign.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><p>Sum of the points.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Sum of the points.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Point_op_Division_" data-uid="Microsoft.Xna.Framework.Point.op_Division*"></a>
+    <a id="Microsoft_Xna_Framework_Point_op_Division_" data-uid="Microsoft.Xna.Framework.Point.op_Division*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Division_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Division(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L133">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Division_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Division(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L133">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_op_Division_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Division(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Division(Point, Point)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> by the components of another <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_op_Division_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Division(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Division(Point, Point)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Divides the components of a <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> by the components of another <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Point operator /(Point source, Point divisor)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the left of the div sign.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static Point operator /(Point source, Point divisor)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">source</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Source <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the left of the div sign.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">divisor</span></td>
-        <td><p>Divisor <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the right of the div sign.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">divisor</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Divisor <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the right of the div sign.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><p>The result of dividing the points.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The result of dividing the points.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Point_op_Equality_" data-uid="Microsoft.Xna.Framework.Point.op_Equality*"></a>
+    <a id="Microsoft_Xna_Framework_Point_op_Equality_" data-uid="Microsoft.Xna.Framework.Point.op_Equality*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Equality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Equality(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L144">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Equality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Equality(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L144">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_op_Equality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Equality(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Equality(Point, Point)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instances are equal.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_op_Equality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Equality(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Equality(Point, Point)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether two <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> instances are equal.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator ==(Point a, Point b)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">a</span></td>
-        <td><p><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instance on the left of the equal sign.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static bool operator ==(Point a, Point b)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">a</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> instance on the left of the equal sign.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">b</span></td>
-        <td><p><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instance on the right of the equal sign.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">b</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> instance on the right of the equal sign.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Point_op_Inequality_" data-uid="Microsoft.Xna.Framework.Point.op_Inequality*"></a>
+    <a id="Microsoft_Xna_Framework_Point_op_Inequality_" data-uid="Microsoft.Xna.Framework.Point.op_Inequality*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Inequality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Inequality(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L155">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Inequality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Inequality(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L155">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_op_Inequality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Inequality(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Inequality(Point, Point)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instances are not equal.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_op_Inequality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Inequality(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Inequality(Point, Point)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether two <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> instances are not equal.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator !=(Point a, Point b)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">a</span></td>
-        <td><p><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instance on the left of the not equal sign.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static bool operator !=(Point a, Point b)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">a</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> instance on the left of the not equal sign.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">b</span></td>
-        <td><p><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instance on the right of the not equal sign.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">b</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> instance on the right of the not equal sign.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if the instances are not equal; <code>false</code> otherwise.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><code>true</code> if the instances are not equal; <code>false</code> otherwise.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Point_op_Multiply_" data-uid="Microsoft.Xna.Framework.Point.op_Multiply*"></a>
+    <a id="Microsoft_Xna_Framework_Point_op_Multiply_" data-uid="Microsoft.Xna.Framework.Point.op_Multiply*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Multiply_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Multiply(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L122">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Multiply_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Multiply(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L122">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_op_Multiply_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Multiply(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Multiply(Point, Point)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Multiplies the components of two points by each other.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_op_Multiply_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Multiply(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Multiply(Point, Point)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Multiplies the components of two points by each other.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Point operator *(Point value1, Point value2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">value1</span></td>
-        <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the left of the mul sign.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static Point operator *(Point value1, Point value2)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">value1</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Source <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the left of the mul sign.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">value2</span></td>
-        <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the right of the mul sign.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">value2</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Source <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the right of the mul sign.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><p>Result of the multiplication.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Result of the multiplication.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Point_op_Subtraction_" data-uid="Microsoft.Xna.Framework.Point.op_Subtraction*"></a>
+    <a id="Microsoft_Xna_Framework_Point_op_Subtraction_" data-uid="Microsoft.Xna.Framework.Point.op_Subtraction*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Subtraction_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Subtraction(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L111">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Point_op_Subtraction_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point.op_Subtraction(Microsoft.Xna.Framework.Point%2CMicrosoft.Xna.Framework.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Point.cs/#L111">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Point_op_Subtraction_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Subtraction(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Subtraction(Point, Point)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> from a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+      <h4 id="Microsoft_Xna_Framework_Point_op_Subtraction_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Point.op_Subtraction(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)">Subtraction(Point, Point)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Subtracts a <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> from a <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Point operator -(Point value1, Point value2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">value1</span></td>
-        <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the left of the sub sign.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static Point operator -(Point value1, Point value2)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">value1</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Source <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the left of the sub sign.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><span class="parametername">value2</span></td>
-        <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the right of the sub sign.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><span class="parametername">value2</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Source <xref href="Microsoft.Xna.Framework.Point" data-throw-if-not-resolved="false"></xref> on the right of the sub sign.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-        <td><p>Result of the subtraction.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Point" text="Point" alt="Microsoft.Xna.Framework.Point"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Point.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Result of the subtraction.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-</article>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
+              </div>
+            </div>
           </div>
           
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Point.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Point%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Point.cs/#L14" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
+          <div id="page-affix" role="complementary" class=" ">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
           </div>
         </div>
       </div>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../js/tree.js"></script>
+    <script src="../js/main.js"></script>
+    
   </body>
 </html>

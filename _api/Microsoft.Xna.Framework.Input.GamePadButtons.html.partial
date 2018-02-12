@@ -1,0 +1,743 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadButtons" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons" class="text-break">GamePadButtons Struct
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Input.html">Microsoft.Xna.Framework.Input</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>A struct that represents the current button states for the controller.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Input_GamePadButtons_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct GamePadButtons</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons__ctor_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons__ctor_Microsoft_Xna_Framework_Input_Buttons_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.%23ctor(Microsoft.Xna.Framework.Input.Buttons)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L146">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons__ctor_Microsoft_Xna_Framework_Input_Buttons_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.#ctor(Microsoft.Xna.Framework.Input.Buttons)">GamePadButtons(Buttons)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public GamePadButtons(Buttons buttons)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Buttons.html">Buttons</a></td>
+          <td><span class="parametername">buttons</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_A_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.A*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_A.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.A%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L18">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_A" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.A">A</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the button A is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState A { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the button A is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_B_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.B*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_B.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.B%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L30">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_B" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.B">B</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the button B is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState B { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the button B is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_Back_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Back*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_Back.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.Back%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L42">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_Back" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Back">Back</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the button Back is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState Back { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the button Back is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_BigButton_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.BigButton*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_BigButton.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.BigButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L138">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_BigButton" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.BigButton">BigButton</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the guide button is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState BigButton { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the guide button is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_LeftShoulder_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.LeftShoulder*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_LeftShoulder.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.LeftShoulder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L90">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_LeftShoulder" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.LeftShoulder">LeftShoulder</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the left shoulder button is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState LeftShoulder { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the left shoulder button is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_LeftStick_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.LeftStick*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_LeftStick.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.LeftStick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L102">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_LeftStick" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.LeftStick">LeftStick</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the left stick button is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState LeftStick { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the left stick button is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_RightShoulder_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.RightShoulder*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_RightShoulder.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.RightShoulder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L114">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_RightShoulder" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.RightShoulder">RightShoulder</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the right shoulder button is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState RightShoulder { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the right shoulder button is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_RightStick_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.RightStick*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_RightStick.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.RightStick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L126">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_RightStick" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.RightStick">RightStick</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the right stick button is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState RightStick { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the right stick button is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_Start_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Start*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_Start.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L78">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_Start" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Start">Start</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the button Start is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState Start { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the button Start is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_X_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.X*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_X.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.X%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L54">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_X" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.X">X</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the button X is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState X { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the button X is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_Y_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Y*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_Y.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.Y%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L66">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_Y" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Y">Y</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating if the button Y is pressed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public ButtonState Y { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Pressed">Pressed</a> if the button Y is pressed; otherwise, <a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html#Microsoft_Xna_Framework_Input_ButtonState_Released">Released</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_Equals_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Equals*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L184">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.Equals(System.Object)">Equals(Object)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns a value indicating whether this instance is equal to a specified object.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+          <td><span class="parametername">obj</span></td>
+          <td><p>An object to compare to this instance.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td><p>true if <code data-dev-comment-type="paramref" class="paramref">obj</code> is a <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a> and has the same value as this instance; otherwise, false.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_GetHashCode_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.GetHashCode*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_GetHashCode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L194">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_GetHashCode" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.GetHashCode">GetHashCode()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Serves as a hash function for a <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a> object.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td><p>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a
+hash table.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_ToString_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.ToString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L203">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_ToString" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.ToString">ToString()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a>.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    </div>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a>.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="overrides">Overrides</h5>
+    <div><span class="xref">System.ValueType.ToString()</span></div>
+    <h3 id="operators">Operators
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_op_Equality_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.op_Equality*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_op_Equality_Microsoft_Xna_Framework_Input_GamePadButtons_Microsoft_Xna_Framework_Input_GamePadButtons_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.op_Equality(Microsoft.Xna.Framework.Input.GamePadButtons%2CMicrosoft.Xna.Framework.Input.GamePadButtons)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L163">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_op_Equality_Microsoft_Xna_Framework_Input_GamePadButtons_Microsoft_Xna_Framework_Input_GamePadButtons_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.op_Equality(Microsoft.Xna.Framework.Input.GamePadButtons,Microsoft.Xna.Framework.Input.GamePadButtons)">Equality(GamePadButtons, GamePadButtons)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Determines whether two specified instances of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a> are equal.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static bool operator ==(GamePadButtons left, GamePadButtons right)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a></td>
+          <td><span class="parametername">left</span></td>
+          <td><p>The first object to compare.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a></td>
+          <td><span class="parametername">right</span></td>
+          <td><p>The second object to compare.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td><p>true if <code data-dev-comment-type="paramref" class="paramref">left</code> and <code data-dev-comment-type="paramref" class="paramref">right</code> are equal; otherwise, false.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Input_GamePadButtons_op_Inequality_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.op_Inequality*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePadButtons_op_Inequality_Microsoft_Xna_Framework_Input_GamePadButtons_Microsoft_Xna_Framework_Input_GamePadButtons_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePadButtons.op_Inequality(Microsoft.Xna.Framework.Input.GamePadButtons%2CMicrosoft.Xna.Framework.Input.GamePadButtons)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePadButtons.cs/#L174">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Input_GamePadButtons_op_Inequality_Microsoft_Xna_Framework_Input_GamePadButtons_Microsoft_Xna_Framework_Input_GamePadButtons_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.op_Inequality(Microsoft.Xna.Framework.Input.GamePadButtons,Microsoft.Xna.Framework.Input.GamePadButtons)">Inequality(GamePadButtons, GamePadButtons)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Determines whether two specified instances of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a> are not equal.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static bool operator !=(GamePadButtons left, GamePadButtons right)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a></td>
+          <td><span class="parametername">left</span></td>
+          <td><p>The first object to compare.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a></td>
+          <td><span class="parametername">right</span></td>
+          <td><p>The second object to compare.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td><p>true if <code data-dev-comment-type="paramref" class="paramref">left</code> and <code data-dev-comment-type="paramref" class="paramref">right</code> are not equal; otherwise, false.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

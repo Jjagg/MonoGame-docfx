@@ -1,0 +1,60 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="custom-effects">Custom Effects</h1>
+  
+<p>A core element of Microsoft XNA is the effect system which is used for all rendering.</p>
+<p>For MonoGame we have the burden of supporting stock and custom effects for desktop GLSL, mobile GLSL, DirectX HLSL, and custom formats like that of the PlayStation Mobile.  There currently is no effect system or shader language that supports all the platforms we require, forcing us to build a new custom effect system.</p>
+<h2 id="mgfx">MGFX</h2>
+<p>MGFX is MonoGame&#39;s own &quot;FX&quot; runtime and tools which with the following core goals:</p>
+<ul>
+<li>Support a similar technique, passes, shaders structure as Microsoft FX files.</li>
+<li>Have a textual format for ease of editing.</li>
+<li>Have a compiled and optimized binary format for runtime use.</li>
+<li>Be cross-platform and support multiple shader languages and bytecodes.</li>
+<li>Easy to extend for future platforms and features.</li>
+</ul>
+<h2 id="stock-effects">Stock Effects</h2>
+<p>The following stock effects in MonoGame and fully supported on current platforms:</p>
+<ul>
+<li>BasicEffect</li>
+<li>AlphaTestEffect</li>
+<li>DualTextureEffect</li>
+<li>EnvironmentMapEffect</li>
+<li>SkinnedEffect</li>
+</ul>
+<p>Under the hood these effects use the same system and tools as one would for a custom Effect.  The source and pre-compiled versions of these effects can be found in the &#39;MonoGame.Framework\Graphics\Effect\Resources&#39; folder.</p>
+<p>If your game requires an extra little bit of performance you can easily hand edit the existing effects to remove unnecessary features or optimize for specific hardware and rebuild them with the MGFX tool.</p>
+<h2 id="custom-effects-1">Custom Effects</h2>
+<p>To use a custom effect with MonoGame you must do one of the following (not both):</p>
+<ul>
+<li>Run the effect file through the <a href="../tools/mgcb.html">MonoGame Effect content processor</a> for loading via the <code>ContentManager</code> (Recommended).</li>
+<li>Process your effect file with the <a href="../tools/2mgfx.html">2MGFX tool</a> and load them yourself at runtime.</li>
+</ul>
+<h2 id="effect-writing-tips">Effect Writing Tips</h2>
+<p>These are some tips for writing or converting effects for use with MonoGame.</p>
+<ul>
+<li>Use the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ff476876.aspx">DX11 feature levels</a> <code>vs_4_0_level_9_1</code> or <code>ps_4_0_level_9_1</code> when targeting Windows 8 Metro applications and wanting to support all devices.  Higher shader models work, but might not run on all Windows 8 systems.</li>
+<li>When targeting Windows Phone 8 you can use <code>vs_4_0_level_9_3</code> or <code>ps_4_0_level_9_3</code>.</li>
+<li>When targeting GL platforms we automatically translate FX files to GLSL using a library called <a href="http://icculus.org/mojoshader/">MojoShader</a>.  It will only work with <code>vs_3_0</code> or <code>ps_3_0</code> or lower shaders.</li>
+<li>Make sure the pixel shaders inputs exactly match the vertex shader outputs so the parameters are passed in the correct registers.</li>
+<li>You can use <code>#if SM4</code> to add conditional code for DirectX platforms.</li>
+<li>On DirectX platforms use the <code>SV_Position</code> semantic instead of <code>POSITION</code> in vertex shader inputs.</li>
+<li>Note that on GL platforms default values on Effect parameters do not work.  Either set the parameter from code or use a real constant like a #define.</li>
+<li>Do not name your sampler <code>Sampler</code> - it will not compile.</li>
+<li>The effect compiler is aggressive about removing unused paramters, be sure the parameters you are setting are actually used.</li>
+<li>If you think you&#39;ve found a bug porting a shader <a href="https://github.com/mono/MonoGame/issues">please let us know</a>.</li>
+</ul>
+<h2 id="roadmap">Roadmap</h2>
+<p>There is still work to be done for better support of custom effects and shaders in MonoGame:</p>
+<ul>
+<li>Support GLSL in FX files.<ul>
+<li>Write a new preprocessor replacing <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd607332.aspx">D3DPreprocess</a>.</li>
+<li>Replace MojoShader with <a href="https://github.com/SickheadGames/HL2GLSL">HL2GLSL</a>.</li>
+</ul>
+</li>
+<li>Create an automated tests for custom effects.</li>
+<li>Support PlayStation Suite shaders in MGFX tools and formats.</li>
+<li>Support pre-compiled GLSL assembly instead of GLSL code.</li>
+</ul>
+
+</article>
+

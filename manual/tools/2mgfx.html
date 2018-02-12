@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -8,110 +8,69 @@
     <title>2MGFX | MonoGame Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="2MGFX | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.28.2.0">
-    
-    <link rel="shortcut icon" href="../../favicon.ico">
-    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../../styles/docfx.css">
-    <link rel="stylesheet" href="../../styles/main.css">
-    <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
-    
-    <meta property="docfx:rel" content="../../">
-    
+    <meta name="generator" content="docfx 2.31.0.0">
+    <meta property="docfx:pagedata" content="2mgfx">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../../favicon.ico">
+  <link rel="stylesheet" href="../../css/main.css">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="110">
-    <div id="wrapper">
+  <body>
+    <div class="flex-col">
       <header>
         
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
           </div>
+          <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="container body-content">
+      <div class="flex-row flex-stretch no-overflow">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
-        </div>
-      </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+        <div id="page-toc" class="shown pos-rel ">
+          <div class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <span class="mg-icons">&#xe804;</span><input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
           </div>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="2mgfx">2MGFX</h1>
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="flex-stretch">
+            <div id="toc-toggle-wrapper" class=" show-sm pos-rel"><span id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</span></div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row ">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/Documentation/manual/tools/2mgfx.md/#L1">
+    Improve this Doc
+  </a>
+</div>
 
-<p>The 2MGFX tool is used to build a MonoGame Effect from an input Microsoft FX or MGFX file.</p>
-<h3 id="command-line">Command Line</h3>
-<p>The command line options are:</p>
-<pre><code>2MGFX &lt;SourceFile&gt; &lt;OutputFile&gt; [/Debug] [/Profile:&lt;DirectX_11,OpenGL,PlayStation4&gt;]
-</code></pre><h4 id="source-file">Source File</h4>
-<p>The input effect file in typical FX format with samplers, techniques, and passes defined.  This parameter is required.</p>
-<h4 id="output-file">Output File</h4>
-<p>The file to write for the output compiled MGFX file.  This parameter is required.</p>
-<p>NOTE: The generated file is not an XNB file for use with the ContentManager.</p>
-<h4 id="debug-info">Debug Info</h4>
-<p>If the <code>/Debug</code> flag is passed the resulting compiled MGFX file will contain extra debug information and the fewest possible optimizations.</p>
-<h4 id="platform-profile">Platform Profile</h4>
-<p>The <code>/Profile</code> option defines the platform we&#39;re targeting with this effect file.  It can be one of the following:</p>
-<pre><code>- DirectX_11
-- OpenGL
-- PlayStation4
-- PSVita
-- XboxOne
-- Switch
-</code></pre><p>NOTE: PlayStation 4, Xbox One, PS Vita, and Switch support is only available to licensed console developers.</p>
-<h4 id="help">Help</h4>
-<p>If you use <code>/?</code>, <code>/help</code>, or simply pass no paramters to 2MGFX.exe you will get information about these command line options.</p>
-<h3 id="runtime-use">Runtime Use</h3>
-<p>The resulting compiled MGFX file can be used from your game code like so:</p>
-<pre><code>byte[] bytecode = File.ReadAllBytes(&quot;mycompiled.mgfx&quot;);
-var effect = new Effect(bytecode);
-</code></pre><p>This is basically how the stock effects (BasicEffect, DualTextureEffect, etc) are compiled and loaded.</p>
-</article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/Documentation/manual/tools/2mgfx.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
-                </ul>
+              <div id="content-wrapper">
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
               </div>
             </div>
+          </div>
+          
+          <div id="page-affix" role="complementary" class=" hide">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
           </div>
         </div>
       </div>
     </div>
     
-    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../../styles/docfx.js"></script>
-    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../../js/tree.js"></script>
+    <script src="../../js/main.js"></script>
+    
   </body>
 </html>

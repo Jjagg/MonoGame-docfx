@@ -1,0 +1,456 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics" class="text-break">GraphicsMetrics Struct
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>A snapshot of rendering statistics from <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_Metrics">Metrics</a> to be used for runtime debugging and profiling.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.ValueType.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.ValueType.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.ValueType.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct GraphicsMetrics</code></pre>
+    </div>
+  </div>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_ClearCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.ClearCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_ClearCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.ClearCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L24">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_ClearCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.ClearCount">ClearCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of times Clear was called.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long ClearCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_DrawCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.DrawCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_DrawCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.DrawCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L29">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_DrawCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.DrawCount">DrawCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of times Draw was called.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long DrawCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_PixelShaderCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.PixelShaderCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_PixelShaderCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.PixelShaderCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L34">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_PixelShaderCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.PixelShaderCount">PixelShaderCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of times the pixel shader was changed on the GPU.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long PixelShaderCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_PrimitiveCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.PrimitiveCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_PrimitiveCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.PrimitiveCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L39">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_PrimitiveCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.PrimitiveCount">PrimitiveCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of rendered primitives.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long PrimitiveCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_SpriteCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.SpriteCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_SpriteCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.SpriteCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L44">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_SpriteCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.SpriteCount">SpriteCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of sprites and text characters rendered via <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.html">SpriteBatch</a>.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long SpriteCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_TargetCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.TargetCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_TargetCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.TargetCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L49">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_TargetCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.TargetCount">TargetCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of times a target was changed on the GPU.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long TargetCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_TextureCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.TextureCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_TextureCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.TextureCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L54">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_TextureCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.TextureCount">TextureCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of times a texture was changed on the GPU.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long TextureCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_VertexShaderCount_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.VertexShaderCount*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_VertexShaderCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.VertexShaderCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L59">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_VertexShaderCount" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.VertexShaderCount">VertexShaderCount</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Number of times the vertex shader was changed on the GPU.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public long VertexShaderCount { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="operators">Operators
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Addition_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Addition_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition(Microsoft.Xna.Framework.Graphics.GraphicsMetrics%2CMicrosoft.Xna.Framework.Graphics.GraphicsMetrics)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L88">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Addition_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition(Microsoft.Xna.Framework.Graphics.GraphicsMetrics,Microsoft.Xna.Framework.Graphics.GraphicsMetrics)">Addition(GraphicsMetrics, GraphicsMetrics)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns the combination of two sets of metrics.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static GraphicsMetrics operator +(GraphicsMetrics value1, GraphicsMetrics value2)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+          <td><span class="parametername">value1</span></td>
+          <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a> on the left of the add sign.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+          <td><span class="parametername">value2</span></td>
+          <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a> on the right of the add sign.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+          <td><p>Combination of two sets of metrics.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Subtraction_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Subtraction*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Subtraction_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Subtraction(Microsoft.Xna.Framework.Graphics.GraphicsMetrics%2CMicrosoft.Xna.Framework.Graphics.GraphicsMetrics)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsMetrics.cs/#L67">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Subtraction_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_Microsoft_Xna_Framework_Graphics_GraphicsMetrics_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Subtraction(Microsoft.Xna.Framework.Graphics.GraphicsMetrics,Microsoft.Xna.Framework.Graphics.GraphicsMetrics)">Subtraction(GraphicsMetrics, GraphicsMetrics)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns the difference between two sets of metrics.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static GraphicsMetrics operator -(GraphicsMetrics value1, GraphicsMetrics value2)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+          <td><span class="parametername">value1</span></td>
+          <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a> on the left of the sub sign.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+          <td><span class="parametername">value2</span></td>
+          <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a> on the right of the sub sign.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+          <td><p>Difference between two sets of metrics.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

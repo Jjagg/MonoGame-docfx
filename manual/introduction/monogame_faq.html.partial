@@ -1,0 +1,13 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="monogame-faq">MonoGame FAQ</h1>
+  
+<p>This page contains a list of frequently asked questions.</p>
+<h3 id="what-software-do-i-need-to-start">What software do I need to start?</h3>
+<p>Depending on the platform you wish to develop for the following thing are needed:</p>
+<ul>
+<li>Android - You need Xamarin.Android: <a href="http://android.xamarin.com/">http://android.xamarin.com/</a>, it works on Windows and Mac and it can be used in combination with either Visual Studio or Xamarin Studio.</li>
+<li>iOS - You need Xamarin.iOS: <a href="http://ios.xamarin.com/">http://ios.xamarin.com/</a>, it works on Windows and Mac and it can be used in combination with either Visual Studio or Xamarin Studio.</li>
+</ul>
+
+</article>
+

@@ -1,0 +1,484 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioEngine" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine" class="text-break">AudioEngine Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Class used to create and manipulate code audio objects.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><span class="xref">AudioEngine</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Audio_AudioEngine_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class AudioEngine : IDisposable</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L54">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor(System.String)">AudioEngine(String)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public AudioEngine(string settingsFile)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">settingsFile</span></td>
+          <td><p>Path to a XACT settings file.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.%23ctor(System.String%2CSystem.TimeSpan%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L85">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor(System.String,System.TimeSpan,System.String)">AudioEngine(String, TimeSpan, String)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public AudioEngine(string settingsFile, TimeSpan lookAheadTime, string rendererId)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">settingsFile</span></td>
+          <td><p>Path to a XACT settings file.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="parametername">lookAheadTime</span></td>
+          <td><p>Determines how many milliseconds the engine will look ahead when determing when to transition to another sound.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">rendererId</span></td>
+          <td><p>A string that specifies the audio renderer to use.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String__remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>For the best results, use a lookAheadTime of 250 milliseconds or greater.</p>
+</div>
+    <h3 id="fields">Fields
+  </h3>
+  
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_ContentVersion.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.ContentVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L51">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_ContentVersion" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.ContentVersion">ContentVersion</h4>
+    </div>
+    <div class="markdown level1 summary"><p>The current content version.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public const int ContentVersion = 39</code></pre>
+    </div>
+    <h5 class="fieldValue">Field Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.IsDisposed*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L373">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.IsDisposed">IsDisposed</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Is true if the AudioEngine has been disposed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Dispose*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L378">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_Dispose" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Dispose">Dispose()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Disposes the AudioEngine.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    </div>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Finalize*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L384">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_Finalize" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Finalize">Finalize()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+    </div>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine_GetCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.GetCategory*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_GetCategory_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.GetCategory(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L314">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_GetCategory_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.GetCategory(System.String)">GetCategory(String)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Returns an audio category by name.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public AudioCategory GetCategory(string name)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">name</span></td>
+          <td><p>Friendly name of the category to get.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a></td>
+          <td><p>The AudioCategory with a matching name. Throws an exception if not found.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine_GetGlobalVariable_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.GetGlobalVariable*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_GetGlobalVariable_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.GetGlobalVariable(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L330">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_GetGlobalVariable_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.GetGlobalVariable(System.String)">GetGlobalVariable(String)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets the value of a global variable.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public float GetGlobalVariable(string name)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">name</span></td>
+          <td><p>Friendly name of the variable.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><p>float value of the queried variable.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Audio_AudioEngine_GetGlobalVariable_System_String__remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>A global variable has global scope. It can be accessed by all code within a project.</p>
+</div>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine_SetGlobalVariable_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.SetGlobalVariable*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_SetGlobalVariable_System_String_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.SetGlobalVariable(System.String%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L352">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_SetGlobalVariable_System_String_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.SetGlobalVariable(System.String,System.Single)">SetGlobalVariable(String, Single)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Sets the value of a global variable.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void SetGlobalVariable(string name, float value)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">name</span></td>
+          <td><p>Friendly name of the variable.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+          <td><span class="parametername">value</span></td>
+          <td><p>Value of the global variable.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Audio_AudioEngine_Update_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Update*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_Update.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L270">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_Update" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Update">Update()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Performs periodic work required by the audio engine.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+    </div>
+    <h3 id="Microsoft_Xna_Framework_Audio_AudioEngine_Update_remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>Must be called at least once per frame.</p>
+</div>
+    <h3 id="events">Events
+  </h3>
+  
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L368">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine_Disposing" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Disposing">Disposing</h4>
+    </div>
+    <div class="markdown level1 summary"><p>This event is triggered when the AudioEngine is disposed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
+    </div>
+    <h5 class="eventType">Event Type</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

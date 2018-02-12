@@ -1,0 +1,243 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Media_AlbumCollection" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection" class="text-break">AlbumCollection Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Media.html">Microsoft.Xna.Framework.Media</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><span class="xref">AlbumCollection</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Object.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Media_AlbumCollection_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class AlbumCollection : IDisposable</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Media_AlbumCollection__ctor_" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_AlbumCollection__ctor_System_Collections_Generic_List_Microsoft_Xna_Framework_Media_Album__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.AlbumCollection.%23ctor(System.Collections.Generic.List%7BMicrosoft.Xna.Framework.Media.Album%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/AlbumCollection.cs/#L37">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_AlbumCollection__ctor_System_Collections_Generic_List_Microsoft_Xna_Framework_Media_Album__" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.#ctor(System.Collections.Generic.List{Microsoft.Xna.Framework.Media.Album})">AlbumCollection(List&lt;Album&gt;)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public AlbumCollection(List&lt;Album&gt; albums)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Media.Album.html">Album</a>&gt;</td>
+          <td><span class="parametername">albums</span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Media_AlbumCollection_Count_" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Count*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_AlbumCollection_Count.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.AlbumCollection.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/AlbumCollection.cs/#L18">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_AlbumCollection_Count" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Count">Count</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets the number of Album objects in the AlbumCollection.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Media_AlbumCollection_IsDisposed_" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.IsDisposed*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_AlbumCollection_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.AlbumCollection.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/AlbumCollection.cs/#L29">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_AlbumCollection_IsDisposed" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.IsDisposed">IsDisposed</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets a value indicating whether the object is disposed.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Media_AlbumCollection_Item_" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Item*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_AlbumCollection_Item_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.AlbumCollection.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/AlbumCollection.cs/#L46">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_AlbumCollection_Item_System_Int32_" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Item(System.Int32)">Item[Int32]</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets the Album at the specified index in the AlbumCollection.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Album this[int index] { get; }</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td><span class="parametername">index</span></td>
+          <td><p>Index of the Album to get.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Media.Album.html">Album</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Media_AlbumCollection_Dispose_" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Dispose*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Media_AlbumCollection_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Media.AlbumCollection.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Media/AlbumCollection.cs/#L57">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Media_AlbumCollection_Dispose" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Dispose">Dispose()</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Immediately releases the unmanaged resources used by this object.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    </div>
+  </article>

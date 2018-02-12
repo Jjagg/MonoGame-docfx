@@ -1,0 +1,48 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDeviceStatus" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsDeviceStatus" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDeviceStatus" class="text-break">GraphicsDeviceStatus Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Describes the status of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsDeviceStatus_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum GraphicsDeviceStatus</code></pre>
+    </div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_GraphicsDeviceStatus_Lost">Lost</td>
+          <td><p>The device has been lost.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_GraphicsDeviceStatus_Normal">Normal</td>
+          <td><p>The device is normal.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_GraphicsDeviceStatus_NotReset">NotReset</td>
+          <td><p>The device has not been reset.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

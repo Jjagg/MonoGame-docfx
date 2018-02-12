@@ -1,0 +1,73 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.StencilOperation" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_StencilOperation" data-uid="Microsoft.Xna.Framework.Graphics.StencilOperation" class="text-break">StencilOperation Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Defines stencil buffer operations.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_Graphics_StencilOperation_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum StencilOperation</code></pre>
+    </div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_Decrement">Decrement</td>
+          <td><p>Decrements the stencil buffer entry, wrapping to the maximum value if the new value is less than 0.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_DecrementSaturation">DecrementSaturation</td>
+          <td><p>Decrements the stencil buffer entry, clamping to 0.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_Increment">Increment</td>
+          <td><p>Increments the stencil buffer entry, wrapping to 0 if the new value exceeds the maximum value.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_IncrementSaturation">IncrementSaturation</td>
+          <td><p>Increments the stencil buffer entry, clamping to the maximum value.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_Invert">Invert</td>
+          <td><p>Inverts the bits in the stencil buffer entry.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_Keep">Keep</td>
+          <td><p>Does not update the stencil buffer entry.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_Replace">Replace</td>
+          <td><p>Replaces the stencil buffer entry with a reference value.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_StencilOperation_Zero">Zero</td>
+          <td><p>Sets the stencil buffer entry to 0.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

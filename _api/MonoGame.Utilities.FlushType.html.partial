@@ -1,0 +1,74 @@
+﻿
+  
+  <article id="content" data-uid="MonoGame.Utilities.FlushType" role="main" class="pos-rel">
+    
+  <h1 id="MonoGame_Utilities_FlushType" data-uid="MonoGame.Utilities.FlushType" class="text-break">FlushType Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="MonoGame.Utilities.html">MonoGame.Utilities</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Describes how to flush the current deflate operation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="MonoGame_Utilities_FlushType_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum FlushType</code></pre>
+    </div>
+    <h5 id="MonoGame_Utilities_FlushType_remarks"><strong>Remarks</strong></h5>
+    <div class="markdown level0 remarks"><p>The different FlushType values are useful when using a Deflate in a streaming application.</p>
+</div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="MonoGame_Utilities_FlushType_Finish">Finish</td>
+          <td><p>Signals the end of the compression/decompression stream.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="MonoGame_Utilities_FlushType_Full">Full</td>
+          <td><p>Use this during compression to specify that all output should be flushed, as
+with <code>FlushType.Sync</code>, but also, the compression state should be reset
+so that decompression can restart from this point if previous compressed
+data has been damaged or if random access is desired.  Using
+<code>FlushType.Full</code> too often can significantly degrade the compression.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="MonoGame_Utilities_FlushType_None">None</td>
+          <td><p>No flush at all.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="MonoGame_Utilities_FlushType_Partial">Partial</td>
+          <td><p>Closes the current block, but doesn&apos;t flush it to
+the output. Used internally only in hypothetical
+scenarios.  This was supposed to be removed by Zlib, but it is
+still in use in some edge cases.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="MonoGame_Utilities_FlushType_Sync">Sync</td>
+          <td><p>Use this during compression to specify that all pending output should be
+flushed to the output buffer and the output should be aligned on a byte
+boundary.  You might use this in a streaming communication scenario, so that
+the decompressor can get all input data available so far.  When using this
+with a ZlibCodec, <code>AvailableBytesIn</code> will be zero after the call if
+enough output space has been provided before the call.  Flushing will
+degrade compression and so it should be used only when necessary.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

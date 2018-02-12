@@ -1,0 +1,318 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding" class="text-break">VertexBufferBinding Struct
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Defines how a vertex buffer is bound to the graphics device for rendering.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.ValueType.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.ValueType.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.ValueType.ToString()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetType()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct VertexBufferBinding</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.VertexBufferBinding.%23ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Vertices/VertexBufferBinding.cs/#L54">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer)">VertexBufferBinding(VertexBuffer)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public VertexBufferBinding(VertexBuffer vertexBuffer)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+          <td><span class="parametername">vertexBuffer</span></td>
+          <td><p>The vertex buffer to bind.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.VertexBufferBinding.%23ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Vertices/VertexBufferBinding.cs/#L66">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer,System.Int32)">VertexBufferBinding(VertexBuffer, Int32)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public VertexBufferBinding(VertexBuffer vertexBuffer, int vertexOffset)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+          <td><span class="parametername">vertexBuffer</span></td>
+          <td><p>The vertex buffer to bind.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td><span class="parametername">vertexOffset</span></td>
+          <td><p>The index of the first vertex in the vertex buffer to use.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.VertexBufferBinding.%23ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Vertices/VertexBufferBinding.cs/#L89">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer,System.Int32,System.Int32)">VertexBufferBinding(VertexBuffer, Int32, Int32)</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Creates an instance of VertexBufferBinding.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public VertexBufferBinding(VertexBuffer vertexBuffer, int vertexOffset, int instanceFrequency)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+          <td><span class="parametername">vertexBuffer</span></td>
+          <td><p>The vertex buffer to bind.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td><span class="parametername">vertexOffset</span></td>
+          <td><p>The index of the first vertex in the vertex buffer to use.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td><span class="parametername">instanceFrequency</span></td>
+          <td><p>The number of instances to draw using the same per-instance data before advancing in the
+buffer by one element. This value must be 0 for an element that contains per-vertex data
+and greater than 0 for per-instance data.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="exceptions">Exceptions</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Condition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+          <td><p><code data-dev-comment-type="paramref" class="paramref">vertexBuffer</code> is <span class="xref">null</span>.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+          <td><p><code data-dev-comment-type="paramref" class="paramref">vertexOffset</code> or <code data-dev-comment-type="paramref" class="paramref">instanceFrequency</code> is invalid.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_InstanceFrequency_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.InstanceFrequency*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_VertexBufferBinding_InstanceFrequency.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.VertexBufferBinding.InstanceFrequency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Vertices/VertexBufferBinding.cs/#L45">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_InstanceFrequency" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.InstanceFrequency">InstanceFrequency</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets the number of instances to draw using the same per-instance data before advancing
+in the buffer by one element.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public int InstanceFrequency { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td><p>The number of instances to draw using the same per-instance data before advancing in the
+buffer by one element. This value must be 0 for an element that contains per-vertex
+data and greater than 0 for per-instance data.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexBuffer_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexBuffer*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexBuffer.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexBuffer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Vertices/VertexBufferBinding.cs/#L22">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexBuffer" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexBuffer">VertexBuffer</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets the vertex buffer.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public VertexBuffer VertexBuffer { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+          <td><p>The vertex buffer.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexOffset_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexOffset*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexOffset.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Vertices/VertexBufferBinding.cs/#L31">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexOffset" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexOffset">VertexOffset</h4>
+    </div>
+    <div class="markdown level1 summary"><p>Gets the index of the first vertex in the vertex buffer to use.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public int VertexOffset { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+          <td><p>The index of the first vertex in the vertex buffer to use.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

@@ -1,0 +1,48 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.CullMode" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_CullMode" data-uid="Microsoft.Xna.Framework.Graphics.CullMode" class="text-break">CullMode Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Defines a culling mode for faces in rasterization process.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_Graphics_CullMode_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum CullMode</code></pre>
+    </div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_CullMode_CullClockwiseFace">CullClockwiseFace</td>
+          <td><p>Cull faces with clockwise order.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_CullMode_CullCounterClockwiseFace">CullCounterClockwiseFace</td>
+          <td><p>Cull faces with counter clockwise order.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_CullMode_None">None</td>
+          <td><p>Do not cull faces.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

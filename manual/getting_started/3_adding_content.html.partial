@@ -1,0 +1,56 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="adding-content">Adding Content</h1>
+  
+<p>This file will go over adding content to your game. For help on creating a project please look at <a href="1_creating_a_new_project.html">Creating a New Project</a></p>
+<p>First of all you are gonna need some content for your game. For this tutorial use the following image of a ball:</p>
+<p><img src="images/ball.png" alt="Open Content"></p>
+<p>Do <strong>right-click &gt; Save Image As</strong> and save it somewhere with the name &quot;ball.png&quot;.</p>
+<p>Now open up your game project and look at the left. You should see a solution explorer window. Expand the <strong>Content</strong> folder and open up <strong>Content.mgcb</strong> file by double clicking on it.</p>
+<p><img src="images/3_open_content.png" alt="Open Content"></p>
+<p>You should now see a MonoGame Pipeline Tool window open up. In case it didn&#39;t get opened, you can right-click on <strong>Content.mgcb</strong>, select <strong>open with</strong> and then select <strong>MonoGame Pipeline</strong>.</p>
+<p><img src="images/3_pipeline_tool.png" alt="MonoGame Pipeline Tool"></p>
+<p>Your game content is managed from this external tool. You can add content to your game in one of the following ways:</p>
+<ul>
+<li><strong>Add Existing Item</strong> toolbar button</li>
+<li><strong>Edit &gt; Add &gt; Existing Item...</strong> menu button</li>
+<li><strong>right-click &gt; Add &gt; Existing Item...</strong> context menu</li>
+</ul>
+<p>In our case let&#39;s use the <strong>Add Existing Item</strong> toolbar button.</p>
+<p><img src="images/3_add_content.png" alt="Add Content"></p>
+<p>You should now be prompted to select a file. Select the &quot;ball.png&quot; that you have downloaded a moment ago. After that you will be asked on what action you want to do for adding the file. Just leave the it to default and click <strong>OK</strong>.</p>
+<p><img src="images/3_copy_content.png" alt="Copy Content"></p>
+<p>Now simply click <strong>Save</strong> toolbar button and close the tool.</p>
+<p><img src="images/3_save_content.png" alt="Save Content"></p>
+<p>Now that we have added the content, it&#39;s time to load it. First declare a new variable so we can load the ball image into memory.</p>
+<pre><code class="lang-csharp">public class Game1 : Game
+{
+    Texture2D textureBall;
+
+    GraphicsDeviceManager graphics;
+</code></pre><p>Next find the Load Content method and use it to initialize the ball private variable:</p>
+<pre><code class="lang-csharp">protected override void LoadContent()
+{
+    // Create a new SpriteBatch, which can be used to draw textures.
+    spriteBatch = new SpriteBatch(GraphicsDevice);
+
+    // TODO: use this.Content to load your game content here
+    textureBall = Content.Load&lt;Texture2D&gt;(&quot;ball&quot;);
+}
+</code></pre><p>And finally, find the Draw method, and let&#39;s draw the ball onto the screen:</p>
+<pre><code class="lang-csharp">protected override void Draw(GameTime gameTime)
+{
+    graphics.GraphicsDevice.Clear(Color.CornflowerBlue);
+
+    // TODO: Add your drawing code here
+    spriteBatch.Begin();
+    spriteBatch.Draw(textureBall, new Vector2(0, 0), Color.White);
+    spriteBatch.End();
+
+    base.Draw(gameTime);
+}
+</code></pre><p>Now run the game and you should get the following:</p>
+<p><img src="images/3_game.png" alt="Game"></p>
+<p>For the next part, look at <a href="4_adding_basic_code.html">Adding Basic Code</a> page.</p>
+
+</article>
+

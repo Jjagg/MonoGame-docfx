@@ -1,0 +1,78 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.TextureFilter" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Graphics_TextureFilter" data-uid="Microsoft.Xna.Framework.Graphics.TextureFilter" class="text-break">TextureFilter Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Defines filtering types for texture sampler.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_Graphics_TextureFilter_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum TextureFilter</code></pre>
+    </div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_Anisotropic">Anisotropic</td>
+          <td><p>Use anisotropic filtering.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_Linear">Linear</td>
+          <td><p>Use linear filtering.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_LinearMipPoint">LinearMipPoint</td>
+          <td><p>Use linear filtering to shrink or expand, and point filtering between mipmap levels (mip).</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_MinLinearMagPointMipLinear">MinLinearMagPointMipLinear</td>
+          <td><p>Use linear filtering to shrink, point filtering to expand, and linear filtering between mipmap levels.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_MinLinearMagPointMipPoint">MinLinearMagPointMipPoint</td>
+          <td><p>Use linear filtering to shrink, point filtering to expand, and point filtering between mipmap levels.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_MinPointMagLinearMipLinear">MinPointMagLinearMipLinear</td>
+          <td><p>Use point filtering to shrink, linear filtering to expand, and linear filtering between mipmap levels.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_MinPointMagLinearMipPoint">MinPointMagLinearMipPoint</td>
+          <td><p>Use point filtering to shrink, linear filtering to expand, and point filtering between mipmap levels.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_Point">Point</td>
+          <td><p>Use point filtering.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_Graphics_TextureFilter_PointMipLinear">PointMipLinear</td>
+          <td><p>Use point filtering to shrink (minify) or expand (magnify), and linear filtering between mipmap levels.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

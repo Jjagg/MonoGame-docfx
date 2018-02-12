@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -10,105 +10,93 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="SoundBank Class
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.28.2.0">
-    
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    
+    <meta name="generator" content="docfx 2.31.0.0">
+    <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Audio.SoundBank">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../css/main.css">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="110">
-    <div id="wrapper">
+  <body>
+    <div class="flex-col">
       <header>
         
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
           </div>
+          <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="container body-content">
+      <div class="flex-row flex-stretch no-overflow">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
-        </div>
-      </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+        <div id="page-toc" class="shown pos-rel hide">
+          <div class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <span class="mg-icons">&#xe804;</span><input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
           </div>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Microsoft.Xna.Framework.Audio.SoundBank">
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="flex-stretch">
+            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel"><span id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</span></div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row hide">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+    Improve this Doc
+  </a>
+</div>
+
+              <div id="content-wrapper">
   
-  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundBank" role="main" class="pos-rel">
+    
   <h1 id="Microsoft_Xna_Framework_Audio_SoundBank" data-uid="Microsoft.Xna.Framework.Audio.SoundBank" class="text-break">SoundBank Class
   </h1>
   <div class="api">
     <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
+      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Audio" text="Microsoft.Xna.Framework.Audio" alt="Microsoft.Xna.Framework.Audio"/></h5>
       <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
     </div>
-    <div class="markdown level0 summary"><p>Represents a collection of Cues.</p>
+    <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Represents a collection of Cues.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
     <hr>
     <div class="inheritance">
       <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><span class="xref">System.Object</span></div>
+      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
       <div class="level1"><span class="xref">SoundBank</span></div>
     </div>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><span class="xref">System.IDisposable</span></div>
+      <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
     </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
-        <span class="xref">System.Object.ToString()</span>
+        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
       </div>
       <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
+        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
       </div>
       <div>
-        <span class="xref">System.Object.GetHashCode()</span>
+        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
       </div>
       <div>
-        <span class="xref">System.Object.GetType()</span>
+        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
       </div>
       <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
+        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
       </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Audio_SoundBank_syntax"><strong>Syntax</strong></h5>
@@ -116,384 +104,380 @@
       <pre><code class="lang-csharp hljs">public class SoundBank : IDisposable</code></pre>
     </div>
   </div>
-  <h3 id="constructors">Constructors
+    <h3 id="constructors">Constructors
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank__ctor_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.#ctor*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank__ctor_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.#ctor*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.%23ctor(Microsoft.Xna.Framework.Audio.AudioEngine%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L31">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.%23ctor(Microsoft.Xna.Framework.Audio.AudioEngine%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L31">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.#ctor(Microsoft.Xna.Framework.Audio.AudioEngine,System.String)">SoundBank(AudioEngine, String)</h4>
-  </div>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SoundBank(AudioEngine audioEngine, string fileName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.html">AudioEngine</a></td>
-        <td><span class="parametername">audioEngine</span></td>
-        <td><p>AudioEngine that will be associated with this sound bank.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.#ctor(Microsoft.Xna.Framework.Audio.AudioEngine,System.String)">SoundBank(AudioEngine, String)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public SoundBank(AudioEngine audioEngine, string fileName)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioEngine" text="AudioEngine" alt="Microsoft.Xna.Framework.Audio.AudioEngine"/></td>
+          <td><span class="parametername">audioEngine</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">AudioEngine that will be associated with this sound bank.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>Path to a .xsb SoundBank file.</p>
+        </tr>
+        <tr>
+          <td><xref uid="System.String" text="String" alt="System.String"/></td>
+          <td><span class="parametername">fileName</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Path to a .xsb SoundBank file.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="properties">Properties
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsDisposed*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsDisposed*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L324">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L324">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsDisposed">IsDisposed</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Is true if the SoundBank has been disposed.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsDisposed">IsDisposed</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Is true if the SoundBank has been disposed.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank_IsInUse_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsInUse*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank_IsInUse_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsInUse*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_IsInUse.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.IsInUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L27">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_IsInUse.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.IsInUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L27">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_IsInUse" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsInUse">IsInUse</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Is true if the SoundBank has any live Cues in use.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_IsInUse" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.IsInUse">IsInUse</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Is true if the SoundBank has any live Cues in use.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsInUse { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public bool IsInUse { get; }</code></pre>
+    </div>
+    <h5 class="propertyValue">Property Value</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="methods">Methods
   </h3>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Dispose*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Dispose*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L329">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L329">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_Dispose" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Dispose">Dispose()</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Disposes the SoundBank.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_Dispose" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Dispose">Dispose()</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Disposes the SoundBank.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-  </div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    </div>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Finalize*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Finalize*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L335">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L335">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_Finalize" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Finalize">Finalize()</h4>
-  </div>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
-  </div>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_Finalize" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Finalize">Finalize()</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+    </div>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.GetCue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L243">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.GetCue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L243">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue(System.String)">GetCue(String)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Returns a pooled Cue object.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue(System.String)">GetCue(String)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns a pooled Cue object.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Cue GetCue(string name)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>Friendly name of the cue to get.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Cue GetCue(string name)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.String" text="String" alt="System.String"/></td>
+          <td><span class="parametername">name</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Friendly name of the cue to get.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Audio.Cue.html">Cue</a></td>
-        <td><p>a unique Cue object from a pool.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Audio.Cue" text="Cue" alt="Microsoft.Xna.Framework.Audio.Cue"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">a unique Cue object from a pool.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String__remarks">Remarks</h3>
-  <div class="markdown level1 remarks"><p>Cue instances are unique, even when sharing the same name. This allows multiple instances to simultaneously play.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String__remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p>Cue instances are unique, even when sharing the same name. This allows multiple instances to simultaneously play.</p>
 </div>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L267">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L267">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String)">PlayCue(String)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Plays a cue.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String)">PlayCue(String)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Plays a cue.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayCue(string name)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>Name of the cue to play.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void PlayCue(string name)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.String" text="String" alt="System.String"/></td>
+          <td><span class="parametername">name</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Name of the cue to play.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
   
-  <a id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue*"></a>
+    <a id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue*"></a>
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String%2CMicrosoft.Xna.Framework.Audio.AudioListener%2CMicrosoft.Xna.Framework.Audio.AudioEmitter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L295">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String%2CMicrosoft.Xna.Framework.Audio.AudioListener%2CMicrosoft.Xna.Framework.Audio.AudioEmitter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L295">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String,Microsoft.Xna.Framework.Audio.AudioListener,Microsoft.Xna.Framework.Audio.AudioEmitter)">PlayCue(String, AudioListener, AudioEmitter)</h4>
-  </div>
-  <div class="markdown level1 summary"><p>Plays a cue with static 3D positional information.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String,Microsoft.Xna.Framework.Audio.AudioListener,Microsoft.Xna.Framework.Audio.AudioEmitter)">PlayCue(String, AudioListener, AudioEmitter)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Plays a cue with static 3D positional information.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlayCue(string name, AudioListener listener, AudioEmitter emitter)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of the cue to play.</p>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public void PlayCue(string name, AudioListener listener, AudioEmitter emitter)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.String" text="String" alt="System.String"/></td>
+          <td><span class="parametername">name</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The name of the cue to play.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a></td>
-        <td><span class="parametername">listener</span></td>
-        <td><p>The listener state.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioListener" text="AudioListener" alt="Microsoft.Xna.Framework.Audio.AudioListener"/></td>
+          <td><span class="parametername">listener</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The listener state.</p>
 </td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
-        <td><span class="parametername">emitter</span></td>
-        <td><p>The cue emitter state.</p>
+        </tr>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioEmitter" text="AudioEmitter" alt="Microsoft.Xna.Framework.Audio.AudioEmitter"/></td>
+          <td><span class="parametername">emitter</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The cue emitter state.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter__remarks">Remarks</h3>
-  <div class="markdown level1 remarks"><p>Commonly used for short lived effects.  To dynamically change the 3D 
-positional information on a cue over time use <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.html#Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String_">GetCue(String)</a> and <a class="xref" href="Microsoft.Xna.Framework.Audio.Cue.html#Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">Apply3D(AudioListener, AudioEmitter)</a>.</p>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter__remarks">Remarks</h3>
+    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Commonly used for short lived effects.  To dynamically change the 3D 
+positional information on a cue over time use <xref href="Microsoft.Xna.Framework.Audio.SoundBank.GetCue(System.String)" data-throw-if-not-resolved="false"></xref> and <xref href="Microsoft.Xna.Framework.Audio.Cue.Apply3D(Microsoft.Xna.Framework.Audio.AudioListener%2cMicrosoft.Xna.Framework.Audio.AudioEmitter)" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
-  <h3 id="events">Events
+    <h3 id="events">Events
   </h3>
   
   
-  <div>
-    <span class="small pull-right mobile-hide">
-      <span class="divider">|</span>
-      <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-    </span>
-    <span class="small pull-right">
-      <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L319">View Source</a>
-    </span>
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L319">View Source</a>
+      </span>
   
-    <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_Disposing" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Disposing">Disposing</h4>
-  </div>
-  <div class="markdown level1 summary"><p>This event is triggered when the SoundBank is disposed.</p>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundBank_Disposing" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.Disposing">Disposing</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.SoundBank.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This event is triggered when the SoundBank is disposed.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-</article>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
+    </div>
+    <h5 class="eventType">Event Type</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/>&gt;</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
+              </div>
+            </div>
           </div>
           
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/new/docfx/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundBank.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundBank%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Jjagg/MonoGame/blob/docfx/MonoGame.Framework/Audio/Xact/SoundBank.cs/#L14" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
+          <div id="page-affix" role="complementary" class=" ">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
           </div>
         </div>
       </div>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../js/tree.js"></script>
+    <script src="../js/main.js"></script>
+    
   </body>
 </html>

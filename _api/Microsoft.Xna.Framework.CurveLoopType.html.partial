@@ -1,0 +1,60 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.CurveLoopType" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_CurveLoopType" data-uid="Microsoft.Xna.Framework.CurveLoopType" class="text-break">CurveLoopType Enum
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>Defines how the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> value is determined for position before first point or after the end point on the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <h5 id="Microsoft_Xna_Framework_CurveLoopType_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum CurveLoopType</code></pre>
+    </div>
+  </div>
+    <h3 id="fields">Fields
+  </h3>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      <thead>
+      <tbody>
+        <tr>
+          <td id="Microsoft_Xna_Framework_CurveLoopType_Constant">Constant</td>
+          <td><p>The value of <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> will be evaluated as first point for positions before the beginning and end point for positions after the end.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_CurveLoopType_Cycle">Cycle</td>
+          <td><p>The positions will wrap around from the end to beginning of the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> for determined the value.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_CurveLoopType_CycleOffset">CycleOffset</td>
+          <td><p>The positions will wrap around from the end to beginning of the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.
+The value will be offset by the difference between the values of first and end <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> multiplied by the wrap amount.
+If the position is before the beginning of the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> the difference will be subtracted from its value; otherwise the difference will be added.</p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_CurveLoopType_Linear">Linear</td>
+          <td><p>The linear interpolation will be performed for determined the value. </p>
+</td>
+        </tr>
+        <tr>
+          <td id="Microsoft_Xna_Framework_CurveLoopType_Oscillate">Oscillate</td>
+          <td><p>The value at the end of the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> act as an offset from the same side of the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> toward the opposite side.</p>
+</td>
+        </tr>
+      </tbody>
+    </thead></thead></table>
+  </article>

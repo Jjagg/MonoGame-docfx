@@ -1,0 +1,179 @@
+﻿
+  
+  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.NoAudioHardwareException" role="main" class="pos-rel">
+    
+  <h1 id="Microsoft_Xna_Framework_Audio_NoAudioHardwareException" data-uid="Microsoft.Xna.Framework.Audio.NoAudioHardwareException" class="text-break">NoAudioHardwareException Class
+  </h1>
+  <div class="api">
+    <div class="class-loc">
+      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
+      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
+    </div>
+    <div class="markdown level0 summary"><p>The exception thrown when no audio hardware is present, or driver issues are detected.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    <hr>
+    <div class="inheritance">
+      <h5><strong>Inheritance</strong></h5>
+      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+      <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></div>
+      <div class="level2"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.systemexception">SystemException</a></div>
+      <div class="level3"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.externalexception">ExternalException</a></div>
+      <div class="level4"><span class="xref">NoAudioHardwareException</span></div>
+    </div>
+    <div class="implements">
+      <h5><strong>Implements</strong></h5>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices._exception">_Exception</a></div>
+    </div>
+    <div class="inheritedMembers">
+      <h5><strong>Inherited Members</strong></h5>
+      <div>
+        <span class="xref">System.Runtime.InteropServices.ExternalException.ToString()</span>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.externalexception.errorcode#System_Runtime_InteropServices_ExternalException_ErrorCode">ExternalException.ErrorCode</a>
+      </div>
+      <div>
+        <span class="xref">System.Exception.GetBaseException()</span>
+      </div>
+      <div>
+        <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
+      </div>
+      <div>
+        <span class="xref">System.Exception.GetType()</span>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.message#System_Exception_Message">Exception.Message</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.data#System_Exception_Data">Exception.Data</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">Exception.InnerException</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">Exception.TargetSite</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Exception.StackTrace</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.helplink#System_Exception_HelpLink">Exception.HelpLink</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.source#System_Exception_Source">Exception.Source</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.hresult#System_Exception_HResult">Exception.HResult</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.serializeobjectstate">Exception.SerializeObjectState</a>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.GetHashCode()</span>
+      </div>
+      <div>
+        <span class="xref">System.Object.MemberwiseClone()</span>
+      </div>
+    </div>
+    <h5 id="Microsoft_Xna_Framework_Audio_NoAudioHardwareException_syntax"><strong>Syntax</strong></h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public sealed class NoAudioHardwareException : ExternalException, ISerializable, _Exception</code></pre>
+    </div>
+  </div>
+    <h3 id="constructors">Constructors
+  </h3>
+  
+    <a id="Microsoft_Xna_Framework_Audio_NoAudioHardwareException__ctor_" data-uid="Microsoft.Xna.Framework.Audio.NoAudioHardwareException.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_NoAudioHardwareException__ctor_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.NoAudioHardwareException.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/NoAudioHardwareException.cs/#L23">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_NoAudioHardwareException__ctor_System_String_" data-uid="Microsoft.Xna.Framework.Audio.NoAudioHardwareException.#ctor(System.String)">NoAudioHardwareException(String)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public NoAudioHardwareException(string msg)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">msg</span></td>
+          <td><p>A message describing the error.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <a id="Microsoft_Xna_Framework_Audio_NoAudioHardwareException__ctor_" data-uid="Microsoft.Xna.Framework.Audio.NoAudioHardwareException.#ctor*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_NoAudioHardwareException__ctor_System_String_System_Exception_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.NoAudioHardwareException.%23ctor(System.String%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/NoAudioHardwareException.cs/#L30">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Audio_NoAudioHardwareException__ctor_System_String_System_Exception_" data-uid="Microsoft.Xna.Framework.Audio.NoAudioHardwareException.#ctor(System.String,System.Exception)">NoAudioHardwareException(String, Exception)</h4>
+    </div>
+    <div class="markdown level1 summary"></div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public NoAudioHardwareException(string msg, Exception innerException)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+          <td><span class="parametername">msg</span></td>
+          <td><p>A message describing the error.</p>
+</td>
+        </tr>
+        <tr>
+          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+          <td><span class="parametername">innerException</span></td>
+          <td><p>The exception that is the underlying cause of the current exception. If not null, the current exception is raised in a try/catch block that handled the innerException.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>

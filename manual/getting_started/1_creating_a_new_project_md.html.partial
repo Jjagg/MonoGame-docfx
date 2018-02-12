@@ -1,0 +1,17 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="creating-a-new-project-with-monodevelop">Creating a new project with MonoDevelop</h1>
+  
+<p>Start up MonoDevelop / Xamarin Studio and select <strong>New...</strong> in the upper left corner.</p>
+<p><img src="images/1_new_solution_md.png" alt="New Solution"></p>
+<p>Now you should see a &quot;New Project&quot; dialog pop up. From here select <strong>MonoGame &gt; App</strong> category, then select <strong>MonoGame Cross Platform Desktop Project</strong> and click <strong>Next</strong>.</p>
+<p><img src="images/1_template_dialog_md.png" alt="New Template"></p>
+<p>On the following dialog, type in the name that you wish to give your project. Do note that you should not use space character for it. For this tutorial, it will be named <strong>ExampleGame</strong>. After you&#39;ve entered the name, click on the <strong>Browse</strong> button next to location text field, and select where you wish to save your project. Finally click <strong>Create</strong> to create a new project.</p>
+<p><img src="images/1_project_dialog_md.png" alt="New Project"></p>
+<p>If everything went correctly, you should see an <strong>ExampleGame</strong> project open up like in the picture bellow. To run your game simply press the big <strong>Play Button</strong> in the upper left corner or press <strong>F5</strong>.</p>
+<p><img src="images/1_run_game_md.png" alt="Run Game"></p>
+<p>You should now see your game window running.</p>
+<p><img src="images/1_game_md.png" alt="Game"></p>
+<p>Currently it&#39;s just clearing the surface with blue color. For further information on creating your game, please look at the <a href="2_understanding_the_code.html">Understanding the Code</a>.</p>
+
+</article>
+

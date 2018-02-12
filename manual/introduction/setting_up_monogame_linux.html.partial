@@ -1,0 +1,33 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="setting-up-monogame-on-linux">Setting up MonoGame on Linux</h1>
+  
+<p>This section will help you setup MonoGame on Linux.</p>
+<h3 id="running-monogame-applications">Running MonoGame Applications</h3>
+<p>The following packages are needed for the MonoGame Applications to run on Linux:</p>
+<ul>
+<li>libopenal-dev</li>
+<li>mono-runtime</li>
+</ul>
+<p>For Ubuntu/Debian based Linux systems, you can run:</p>
+<pre><code>sudo apt-get install libopenal-dev mono-runtime
+</code></pre><h3 id="developing-monogame-applications">Developing MonoGame Applications</h3>
+<ul>
+<li>Go to <a href="http://www.monogame.net/downloads/">MonoGame Downloads page</a></li>
+<li>Download MonoGame for Linux</li>
+<li>Open up terminal and type in:
+<code>cd Downloads
+chmod +x monogame-sdk.run
+sudo ./monogame-sdk.run</code></li>
+<li>During the installation process the installer will give you the following list of dependencies, please make sure they are installed:<ul>
+<li>monodevelop (<a href="http://www.monodevelop.com/download/">http://www.monodevelop.com/download/</a>)</li>
+<li>libopenal-dev</li>
+<li>gtk-sharp3</li>
+<li>referenceassemblies-pcl (needed to use PCL template)</li>
+<li>ttf-mscorefonts-installer (recommended, but not needed)</li>
+</ul>
+</li>
+<li>That&#39;s it, MonoGame SDK is installed</li>
+</ul>
+
+</article>
+

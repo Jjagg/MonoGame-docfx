@@ -1,0 +1,15 @@
+﻿<article id="content" data-uid="" role="main" class="pos-rel">
+  <h1 id="creating-a-new-project-with-visual-studio">Creating a New Project with Visual Studio</h1>
+  
+<p>Start up Visual Studio and select <strong>New Project...</strong> in the upper left corner.</p>
+<p><img src="images/1_new_solution_vs.png" alt="New Solution"></p>
+<p>Now you should see a &quot;New Project&quot; dialog pop up, from here select <strong>Templates &gt; Visual C# &gt; MonoGame</strong> category, and then select <strong>MonoGame Cross Platform Desktop Project</strong>. Next type in the name that you wish to give your project, for this tutorial let&#39;s just use <strong>ExampleGame</strong> (do note that you should not use space character for it). After you&#39;ve entered the name, click on the <strong>Browse</strong> button next to the location text field, and select where you wish to save your project. Finally click <strong>OK</strong> to create a new project.</p>
+<p><img src="images/1_template_dialog_vs.png" alt="New Template"></p>
+<p>If everything went correctly, you should see an <strong>ExampleGame</strong> project open up like in the picture bellow. To run your game simply press the big <strong>Play Button</strong> in the toolbar or press <strong>F5</strong>.</p>
+<p><img src="images/1_run_game_vs.png" alt="Run Game"></p>
+<p>You should now see your game window running.</p>
+<p><img src="images/1_game_vs.png" alt="Game"></p>
+<p>Currently it&#39;s just clearing the surface with blue color. For further information on creating your game, please look at the <a href="2_understanding_the_code.html">Understanding the Code</a>.</p>
+
+</article>
+
