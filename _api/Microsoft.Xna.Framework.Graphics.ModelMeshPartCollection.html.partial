@@ -15,143 +15,11 @@
     <div class="inheritance">
       <h5><strong>Inheritance</strong></h5>
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</div>
-      <div class="level2"><span class="xref">ModelMeshPartCollection</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</div>
-      <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ilist">IList</a></div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
-      <div><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</div>
-      <div><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</div>
-      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.Contains(Microsoft.Xna.Framework.Graphics.ModelMeshPart)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.CopyTo(Microsoft.Xna.Framework.Graphics.ModelMeshPart[], System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.GetEnumerator()</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.IndexOf(Microsoft.Xna.Framework.Graphics.ModelMeshPart)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.get_Item(System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.set_Item(System.Int32, Microsoft.Xna.Framework.Graphics.ModelMeshPart)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.Add(Microsoft.Xna.Framework.Graphics.ModelMeshPart)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.Clear()</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.Insert(System.Int32, Microsoft.Xna.Framework.Graphics.ModelMeshPart)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.Remove(Microsoft.Xna.Framework.Graphics.ModelMeshPart)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.RemoveAt(System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IEnumerable.GetEnumerator()</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.get_Item(System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.set_Item(System.Int32, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.Add(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.Clear()</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.Contains(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.IndexOf(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.Insert(System.Int32, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.Remove(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.RemoveAt(System.Int32)</span>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.count#System_Collections_ObjectModel_ReadOnlyCollection_1_Count">ReadOnlyCollection&lt;ModelMeshPart&gt;.Count</a>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.Item[System.Int32]</span>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.items#System_Collections_ObjectModel_ReadOnlyCollection_1_Items">ReadOnlyCollection&lt;ModelMeshPart&gt;.Items</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-generic-icollection-t--isreadonly#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_Generic_ICollection_T__IsReadOnly">ReadOnlyCollection&lt;ModelMeshPart&gt;.ICollection&lt;ModelMeshPart&gt;.IsReadOnly</a>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.Generic.IList&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.Item[System.Int32]</span>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-icollection-issynchronized#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_ICollection_IsSynchronized">ReadOnlyCollection&lt;ModelMeshPart&gt;.ICollection.IsSynchronized</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-icollection-syncroot#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_ICollection_SyncRoot">ReadOnlyCollection&lt;ModelMeshPart&gt;.ICollection.SyncRoot</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-ilist-isfixedsize#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_IList_IsFixedSize">ReadOnlyCollection&lt;ModelMeshPart&gt;.IList.IsFixedSize</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.system-collections-ilist-isreadonly#System_Collections_ObjectModel_ReadOnlyCollection_1_System_Collections_IList_IsReadOnly">ReadOnlyCollection&lt;ModelMeshPart&gt;.IList.IsReadOnly</a>
-      </div>
-      <div>
-        <span class="xref">System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.Xna.Framework.Graphics.ModelMeshPart&gt;.System.Collections.IList.Item[System.Int32]</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
+      <div class="level1"><span class="xref">ModelMeshPartCollection</span></div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_ModelMeshPartCollection_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class ModelMeshPartCollection : ReadOnlyCollection&lt;ModelMeshPart&gt;, IList&lt;ModelMeshPart&gt;, ICollection&lt;ModelMeshPart&gt;, IList, ICollection, IReadOnlyList&lt;ModelMeshPart&gt;, IReadOnlyCollection&lt;ModelMeshPart&gt;, IEnumerable&lt;ModelMeshPart&gt;, IEnumerable</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class ModelMeshPartCollection : ReadOnlyCollection&lt;ModelMeshPart&gt;</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -162,13 +30,13 @@
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_ModelMeshPartCollection__ctor_System_Collections_Generic_IList_Microsoft_Xna_Framework_Graphics_ModelMeshPart__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.ModelMeshPartCollection.%23ctor(System.Collections.Generic.IList%7BMicrosoft.Xna.Framework.Graphics.ModelMeshPart%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_ModelMeshPartCollection__ctor_IList_Microsoft_Xna_Framework_Graphics_ModelMeshPart__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.ModelMeshPartCollection.%23ctor(IList%7BMicrosoft.Xna.Framework.Graphics.ModelMeshPart%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/ModelMeshPartCollection.cs/#L11">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Graphics_ModelMeshPartCollection__ctor_System_Collections_Generic_IList_Microsoft_Xna_Framework_Graphics_ModelMeshPart__" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshPartCollection.#ctor(System.Collections.Generic.IList{Microsoft.Xna.Framework.Graphics.ModelMeshPart})">ModelMeshPartCollection(IList&lt;ModelMeshPart&gt;)</h4>
+      <h4 id="Microsoft_Xna_Framework_Graphics_ModelMeshPartCollection__ctor_IList_Microsoft_Xna_Framework_Graphics_ModelMeshPart__" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshPartCollection.#ctor(IList{Microsoft.Xna.Framework.Graphics.ModelMeshPart})">ModelMeshPartCollection(IList&lt;ModelMeshPart&gt;)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -187,7 +55,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</td>
+          <td><span class="xref">IList</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</td>
           <td><span class="parametername">list</span></td>
           <td></td>
         </tr>

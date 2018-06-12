@@ -15,7 +15,7 @@
     <hr>
     <h5 id="Microsoft_Xna_Framework_Audio_MicrophoneState_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum MicrophoneState</code></pre>
+      <pre><code class="lang-csharp hljs">public enum MicrophoneState : int</code></pre>
     </div>
   </div>
     <h3 id="fields">Fields

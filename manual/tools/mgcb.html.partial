@@ -127,7 +127,6 @@ If you want to customise the arguements sent to the `MGCB.exe` as part of the bu
 For example if you wanted to pass in the current project configuration you could define
 </code></pre><p><monogamemgcbadditionalarguments>-config:$(Configuration)</monogamemgcbadditionalarguments></p>
 <pre><code>
-
 </code></pre></example></value></name></value></name>
 </article>
 

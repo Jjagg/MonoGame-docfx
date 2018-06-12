@@ -13,24 +13,6 @@
 </div>
     <div class="markdown level0 conceptual"></div>
     <hr>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.ValueType.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.ValueType.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public struct Glyph</code></pre>
@@ -357,6 +339,4 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.ToString()</span></div>
   </article>

@@ -12,27 +12,6 @@
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
     <hr>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.ValueType.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.ValueType.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.ValueType.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public struct RenderTargetBinding</code></pre>

@@ -18,34 +18,6 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">SoundEffect</span></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Audio_SoundEffect_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public sealed class SoundEffect : IDisposable</code></pre>
@@ -304,7 +276,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -439,8 +411,7 @@
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public static Speakers Speakers { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public static Speakers Speakers { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -452,7 +423,7 @@ public static Speakers Speakers { get; set; }</code></pre>
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">SharpDX.Multimedia.Speakers</span></td>
+          <td><span class="xref">Speakers</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -588,13 +559,13 @@ public static Speakers Speakers { get; set; }</code></pre>
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L199">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_System_IO_Stream_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(System.IO.Stream)">FromStream(Stream)</h4>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_Stream_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream)">FromStream(Stream)</h4>
     </div>
     <div class="markdown level1 summary"><p>Creates a new SoundEffect object based on the specified data stream.</p>
 </div>
@@ -614,7 +585,7 @@ public static Speakers Speakers { get; set; }</code></pre>
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+          <td><span class="xref">Stream</span></td>
           <td><span class="parametername">stream</span></td>
           <td><p>A stream containing the wave data.</p>
 </td>
@@ -637,7 +608,7 @@ public static Speakers Speakers { get; set; }</code></pre>
         </tr>
       </tbody>
     </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_System_IO_Stream__remarks">Remarks</h3>
+    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_Stream__remarks">Remarks</h3>
     <div class="markdown level1 remarks"><p>The stream must point to the head of a valid wave file in the RIFF bitstream format.  The formats supported are:
 <ul><li>8-bit unsigned PCM16-bit signed PCM24-bit signed PCM32-bit IEEE float PCMMS-ADPCM 4-bit compressedIMA/ADPCM (IMA4) 4-bit compressed</li></ul></p>
 </div>
@@ -702,7 +673,7 @@ public static Speakers Speakers { get; set; }</code></pre>
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td><p>The duration of the audio data.</p>
 </td>
         </tr>
@@ -714,13 +685,13 @@ public static Speakers Speakers { get; set; }</code></pre>
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_System_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(System.TimeSpan%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(TimeSpan%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L245">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_System_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(System.TimeSpan,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">GetSampleSizeInBytes(TimeSpan, Int32, AudioChannels)</h4>
+      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(TimeSpan,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">GetSampleSizeInBytes(TimeSpan, Int32, AudioChannels)</h4>
     </div>
     <div class="markdown level1 summary"><p>Returns the data size in bytes for 16bit PCM audio.</p>
 </div>
@@ -740,7 +711,7 @@ public static Speakers Speakers { get; set; }</code></pre>
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td><span class="parametername">duration</span></td>
           <td><p>The total duration of the audio data.</p>
 </td>

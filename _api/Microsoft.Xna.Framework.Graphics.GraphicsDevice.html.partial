@@ -17,34 +17,6 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">GraphicsDevice</span></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public class GraphicsDevice : IDisposable</code></pre>
@@ -99,22 +71,6 @@
           <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PresentationParameters.html">PresentationParameters</a></td>
           <td><span class="parametername">presentationParameters</span></td>
           <td><p>The presentation options.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-          <td><p><code data-dev-comment-type="paramref" class="paramref">presentationParameters</code> is <span class="xref">null</span>.</p>
 </td>
         </tr>
       </tbody>
@@ -1233,8 +1189,7 @@ The metrics are reset every frame after draw within <a class="xref" href="Micros
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int startIndex, int primitiveCount) instead. In future versions this method can be removed.&quot;)]
-public void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount)</code></pre>
+      <pre><code class="lang-csharp hljs">public void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount)</code></pre>
     </div>
     <h5 class="parameters">Parameters</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -1372,8 +1327,7 @@ public void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, i
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use DrawInstancedPrimitives(PrimitiveType primitiveType, int baseVertex, int startIndex, int primitiveCount, int instanceCount) instead. In future versions this method can be removed.&quot;)]
-public void DrawInstancedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount, int instanceCount)</code></pre>
+      <pre><code class="lang-csharp hljs">public void DrawInstancedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount, int instanceCount)</code></pre>
     </div>
     <h5 class="parameters">Parameters</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -2754,7 +2708,7 @@ The format is whatever the current format of the backbuffer is.</p>
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -2788,7 +2742,7 @@ The format is whatever the current format of the backbuffer is.</p>
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -2822,7 +2776,7 @@ The format is whatever the current format of the backbuffer is.</p>
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -2856,7 +2810,7 @@ The format is whatever the current format of the backbuffer is.</p>
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -2890,7 +2844,7 @@ The format is whatever the current format of the backbuffer is.</p>
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ResourceCreatedEventArgs.html">ResourceCreatedEventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ResourceCreatedEventArgs.html">ResourceCreatedEventArgs</a>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -2924,7 +2878,7 @@ The format is whatever the current format of the backbuffer is.</p>
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ResourceDestroyedEventArgs.html">ResourceDestroyedEventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ResourceDestroyedEventArgs.html">ResourceDestroyedEventArgs</a>&gt;</td>
           <td></td>
         </tr>
       </tbody>

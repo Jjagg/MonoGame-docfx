@@ -15,25 +15,11 @@
     <hr>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
+      <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Vector2_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[TypeConverter(typeof (Vector2TypeConverter))]
-[DataContract]
-public struct Vector2 : IEquatable&lt;Vector2&gt;</code></pre>
+      <pre><code class="lang-csharp hljs">public struct Vector2 : IEquatable&lt;Vector2&gt;</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -142,8 +128,7 @@ public struct Vector2 : IEquatable&lt;Vector2&gt;</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public float X</code></pre>
+      <pre><code class="lang-csharp hljs">public float X</code></pre>
     </div>
     <h5 class="fieldValue">Field Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -178,8 +163,7 @@ public float X</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public float Y</code></pre>
+      <pre><code class="lang-csharp hljs">public float Y</code></pre>
     </div>
     <h5 class="fieldValue">Field Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -1507,7 +1491,7 @@ addition in <code data-dev-comment-type="paramref" class="paramref">result</code
   
       <h4 id="Microsoft_Xna_Framework_Vector2_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Vector2.Equals(System.Object)">Equals(Object)</h4>
     </div>
-    <div class="markdown level1 summary"><p>Compares whether current instance is equal to specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>.</p>
+    <div class="markdown level1 summary"><p>Compares whether current instance is equal to specified <see cref="!:Object"></see>.</p>
 </div>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
@@ -1527,7 +1511,7 @@ addition in <code data-dev-comment-type="paramref" class="paramref">result</code
         <tr>
           <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
           <td><span class="parametername">obj</span></td>
-          <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> to compare.</p>
+          <td><p>The <see cref="!:Object"></see> to compare.</p>
 </td>
         </tr>
       </tbody>
@@ -1548,8 +1532,6 @@ addition in <code data-dev-comment-type="paramref" class="paramref">result</code
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
     <a id="Microsoft_Xna_Framework_Vector2_GetHashCode_" data-uid="Microsoft.Xna.Framework.Vector2.GetHashCode*"></a>
   
@@ -1587,8 +1569,6 @@ addition in <code data-dev-comment-type="paramref" class="paramref">result</code
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Vector2_Hermite_" data-uid="Microsoft.Xna.Framework.Vector2.Hermite*"></a>
   
@@ -3133,7 +3113,7 @@ See remarks section of <a class="xref" href="Microsoft.Xna.Framework.MathHelper.
   
       <h4 id="Microsoft_Xna_Framework_Vector2_ToString" data-uid="Microsoft.Xna.Framework.Vector2.ToString">ToString()</h4>
     </div>
-    <div class="markdown level1 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> in the format:
+    <div class="markdown level1 summary"><p>Returns a <see cref="!:String"></see> representation of this <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> in the format:
 {X:[<a class="xref" href="Microsoft.Xna.Framework.Vector2.html#Microsoft_Xna_Framework_Vector2_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Vector2.html#Microsoft_Xna_Framework_Vector2_Y">Y</a>]}</p>
 </div>
     <div class="markdown level1 conceptual"></div>
@@ -3152,13 +3132,11 @@ See remarks section of <a class="xref" href="Microsoft.Xna.Framework.MathHelper.
       <tbody>
         <tr>
           <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+          <td><p>A <see cref="!:String"></see> representation of this <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
 </td>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.ToString()</span></div>
   
     <a id="Microsoft_Xna_Framework_Vector2_Transform_" data-uid="Microsoft.Xna.Framework.Vector2.Transform*"></a>
   

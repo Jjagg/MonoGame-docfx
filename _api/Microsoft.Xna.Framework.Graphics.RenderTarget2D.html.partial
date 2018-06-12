@@ -21,10 +21,6 @@
       <div class="level4"><span class="xref">RenderTarget2D</span></div>
         <div class="level5"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.html">SwapChainRenderTarget</a></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
@@ -61,16 +57,16 @@
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___">Texture2D.GetData&lt;T&gt;(T[])</a>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream_">Texture2D.FromStream(GraphicsDevice, Stream)</a>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Stream_">Texture2D.FromStream(GraphicsDevice, Stream)</a>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_System_IO_Stream_System_Int32_System_Int32_">Texture2D.SaveAsJpeg(Stream, Int32, Int32)</a>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_Stream_System_Int32_System_Int32_">Texture2D.SaveAsJpeg(Stream, Int32, Int32)</a>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_System_IO_Stream_System_Int32_System_Int32_">Texture2D.SaveAsPng(Stream, Int32, Int32)</a>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_Stream_System_Int32_System_Int32_">Texture2D.SaveAsPng(Stream, Int32, Int32)</a>
       </div>
       <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Reload_System_IO_Stream_">Texture2D.Reload(Stream)</a>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Reload_Stream_">Texture2D.Reload(Stream)</a>
       </div>
       <div>
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html#Microsoft_Xna_Framework_Graphics_Texture2D_Shared">Texture2D.Shared</a>
@@ -111,28 +107,10 @@
       <div>
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
       </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_RenderTarget2D_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class RenderTarget2D : Texture2D, IDisposable, IRenderTarget</code></pre>
+      <pre><code class="lang-csharp hljs">public class RenderTarget2D : Texture2D, IRenderTarget</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -729,7 +707,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">SharpDX.DXGI.SampleDescription</span></td>
+          <td><span class="xref">SampleDescription</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -766,7 +744,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">SharpDX.Direct3D11.ShaderResourceView</span></td>
+          <td><span class="xref">ShaderResourceView</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -842,7 +820,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">SharpDX.Direct3D11.Texture2DDescription</span></td>
+          <td><span class="xref">Texture2DDescription</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -902,7 +880,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>

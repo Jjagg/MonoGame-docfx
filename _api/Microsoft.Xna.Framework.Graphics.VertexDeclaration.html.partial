@@ -21,8 +21,7 @@
     </div>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-      <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a>&gt;</div>
+      <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a>&gt;</div>
     </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
@@ -53,25 +52,13 @@
       <div>
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
       </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class VertexDeclaration : GraphicsResource, IDisposable, IEquatable&lt;VertexDeclaration&gt;</code></pre>
+      <pre><code class="lang-csharp hljs">public class VertexDeclaration : GraphicsResource, IEquatable&lt;VertexDeclaration&gt;</code></pre>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_remarks"><strong>Remarks</strong></h5>
-    <div class="markdown level0 remarks"><p><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> implements <span class="xref">System.IEquatable&lt;T&gt;</span> and can be used as
+    <div class="markdown level0 remarks"><p><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> implements <see cref="!:IEquatable&lt;T>"></see> and can be used as
 a key in a dictionary. Two vertex declarations are considered equal if the vertices are
 structurally equivalent, i.e. the vertex elements and the vertex stride are identical. (The
 properties <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">Name</a> and <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">Tag</a> are
@@ -119,22 +106,6 @@ ignored in <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclarat
         </tr>
       </tbody>
     </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-          <td><p><code data-dev-comment-type="paramref" class="paramref">elements</code> is <span class="xref">null</span> or empty.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
   
     <a id="Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.#ctor*"></a>
   
@@ -176,22 +147,6 @@ ignored in <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclarat
           <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a>[]</td>
           <td><span class="parametername">elements</span></td>
           <td><p>The vertex elements.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-          <td><p><code data-dev-comment-type="paramref" class="paramref">elements</code> is <span class="xref">null</span> or empty.</p>
 </td>
         </tr>
       </tbody>
@@ -308,7 +263,7 @@ instance; otherwise, <span class="xref">false</span>.</p>
   
       <h4 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals(System.Object)">Equals(Object)</h4>
     </div>
-    <div class="markdown level1 summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+    <div class="markdown level1 summary"><p>Determines whether the specified <see cref="!:System.Object"></see> is equal to this instance.</p>
 </div>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
@@ -344,14 +299,12 @@ instance; otherwise, <span class="xref">false</span>.</p>
       <tbody>
         <tr>
           <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><p><span class="xref">true</span> if the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance;
+          <td><p><span class="xref">true</span> if the specified <see cref="!:System.Object"></see> is equal to this instance;
 otherwise, <span class="xref">false</span>.</p>
 </td>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_GetHashCode_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.GetHashCode*"></a>
   
@@ -390,8 +343,6 @@ structures like a hash table.</p>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.Object.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_GetVertexElements_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.GetVertexElements*"></a>
   

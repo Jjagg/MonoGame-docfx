@@ -90,7 +90,9 @@ $(function() {
     if (shouldLoadToc)
       loadToc(currentPage, newPage);
     else
-      loadAfterToc(currentPage, newPage, false);
+      loadAfterToc(currentPage, newPage, currentPage && newPage.toc !== null);
+
+    clearTocFilter();
 
     pageTocEl.toggleClass('hide', !newPage.hasToc);
     tocToggleWrapperEl.toggleClass('hide', !newPage.hasToc);
@@ -124,38 +126,44 @@ $(function() {
   function loadToc(oldPage, newPage) {
     getJSON(newPage.toc + '.json', function (tocNodes) {
       toc = new Tree(tocNodes);
-      var tocHtml = buildTreeHtml(toc, createTocEntry);
+      var tocHtml = buildTreeHtml(toc, createTocEntry, true);
       tocEl.html(tocHtml);
       hookTocEvents();
 
-      loadAfterToc(oldPage, newPage, true);
+      loadAfterToc(oldPage, newPage, false);
     });
   }
 
   function createTocEntry(node, tree) {
-    var anchor = createAnchorJquery(node);
-    //if (tree.hasChildren(node.index))
-    //  $(anchor).addClass('expander');
-
-    return anchor;
+    return createAnchorJquery(node);
   }
 
-  function buildTreeHtml(tree, createEntry) {
-    var root = buildTreeRec(tree.rootNodes(), 1);
+  function buildTreeHtml(tree, createEntry, expander = false) {
+    var root = buildTreeRec(tree.rootNodes(), 1, expander);
     return root;
 
-    function buildTreeRec(nodes, level) {
+    function buildTreeRec(nodes, level, expander) {
       var ul = $('<ul>').addClass('nav level' + level);
+      if (expander)
+        ul.addClass('collapsed');
       for (var i = 0; i < nodes.length; i++) {
         var node = nodes[i];
+        var children = tree.children(node.index);
+
         var li = $('<li class="pos-rel">');
+        if (children.length > 0 && expander) {
+          var expander = $('<span class="expander" />');
+          expander.click(function() {
+            toggleExpander($(this));
+          });
+          li.append(expander);
+        }
         li.append(createEntry(node, tree));
 
         node.element = li;
 
-        var children = tree.children(node.index);
         if (children.length > 0) {
-          var subUl = buildTreeRec(children, level + 1);
+          var subUl = buildTreeRec(children, level + 1, expander);
           li.append(subUl);
         }
         ul.append(li);
@@ -165,6 +173,18 @@ $(function() {
     }
   }
 
+  function toggleExpandLi(e, value) {
+    var expander = e.children('span.expander');
+    if (expander)
+      toggleExpander(expander, value);
+  }
+
+  function toggleExpander(e, value) {
+    e.toggleClass('expanded', value);
+    var expanded = e.hasClass('expanded');
+    e.nextAll('ul').toggleClass('collapsed', !expanded);
+  }
+
   function loadAfterNav(oldPage, newPage) {
     if (oldPage && oldPage.navIndex >= 0)
       nav.nodes[oldPage.navIndex].element.removeClass('active');
@@ -172,10 +192,20 @@ $(function() {
       nav.nodes[newPage.navIndex].element.addClass('active');
   }
 
-  function loadAfterToc(oldPage, newPage, tocChanged) {
-    if (!tocChanged)
-      toggleTocActive(oldPage, false);
-    toggleTocActive(newPage, true);
+  function loadAfterToc(oldPage, newPage, keptToc) {
+    if (keptToc) {
+      if (oldPage.tocIndex >= 0)
+        toggleTocActive(oldPage, false);
+      // fold in all elements
+      toc.doAll(n => toggleExpandLi(n.element, false));
+    }
+
+    if (newPage.tocIndex >= 0) {
+      toggleTocActive(newPage, true);
+      // expand active elements
+      toc.doSelf(newPage.tocIndex, n => toggleExpandLi(n.element, true));
+      toc.doAncestors(newPage.tocIndex, n => toggleExpandLi(n.element, true));
+    }
 
     if (newPage.tocIndex < 0) {
       newPage.hasBreadcrumb = false;
@@ -278,6 +308,8 @@ $(function() {
       pageScrollEl.scroll(function () {
         scrollAffix(headingTree);
       });
+
+      scrollAffix(headingTree);
     }
   }
 
@@ -362,22 +394,21 @@ $(function() {
     filterEl.on('input', function (e) {
       var text = e.currentTarget.value.trim();
       if (!text) {
-        toc.doAll(n => n.element.removeClass('hide'));
+        toc.doAll(n => n.element.removeClass('hide search-result direct-search-result'));
         filterNoResultsEl.addClass('hide');
       } else {
+        toc.doAll(n => n.element.addClass('hide').removeClass('search-result direct-search-result'));
         var match = 0;
         for (var i = 0; i < toc.nodes.length; i++) {
           var node = toc.nodes[i];
           if (node.name.toLowerCase().indexOf(text.toLowerCase()) > -1) {
-            toc.doSelf(i, n => n.element.removeClass('hide'));
-            toc.doAncestors(i, n => n.element.removeClass('hide'));
+            toc.doSelf(i, n => n.element.removeClass('hide').addClass('search-result direct-search-result'));
+            toc.doAncestors(i, n => n.element.removeClass('hide').addClass('search-result'));
             i = toc.doBelow(i, n => n.element.removeClass('hide'));
             match++;
-          } else {
-            node.element.addClass('hide');
           }
-          filterNoResultsEl.toggleClass('hide', match > 0);
         }
+        filterNoResultsEl.toggleClass('hide', match > 0);
       }
     });
   }
@@ -418,7 +449,6 @@ $(function() {
   }
 
   function clearTocFilter() {
-    // this is currently not used
     if (filterEl[0].value) {
       filterEl[0].value = '';
       filterEl.trigger('input');

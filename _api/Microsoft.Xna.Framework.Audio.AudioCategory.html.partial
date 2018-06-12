@@ -15,19 +15,7 @@
     <hr>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a>&gt;</div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
+      <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a>&gt;</div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Audio_AudioCategory_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
@@ -184,8 +172,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
     <a id="Microsoft_Xna_Framework_Audio_AudioCategory_GetHashCode_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.GetHashCode*"></a>
   
@@ -223,8 +209,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Pause_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Pause*"></a>
   
@@ -379,8 +363,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.ToString()</span></div>
     <h3 id="operators">Operators
   </h3>
   

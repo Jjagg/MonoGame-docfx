@@ -17,33 +17,9 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">GameTime</span></div>
     </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_GameTime_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class GameTime</code></pre>
+      <pre><code class="lang-csharp hljs">public class GameTime : object</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -74,13 +50,13 @@
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GameTime__ctor_System_TimeSpan_System_TimeSpan_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GameTime.%23ctor(System.TimeSpan%2CSystem.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GameTime__ctor_TimeSpan_TimeSpan_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GameTime.%23ctor(TimeSpan%2CTimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GameTime.cs/#L24">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_GameTime__ctor_System_TimeSpan_System_TimeSpan_" data-uid="Microsoft.Xna.Framework.GameTime.#ctor(System.TimeSpan,System.TimeSpan)">GameTime(TimeSpan, TimeSpan)</h4>
+      <h4 id="Microsoft_Xna_Framework_GameTime__ctor_TimeSpan_TimeSpan_" data-uid="Microsoft.Xna.Framework.GameTime.#ctor(TimeSpan,TimeSpan)">GameTime(TimeSpan, TimeSpan)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -99,12 +75,12 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td><span class="parametername">totalGameTime</span></td>
           <td></td>
         </tr>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td><span class="parametername">elapsedGameTime</span></td>
           <td></td>
         </tr>
@@ -116,13 +92,13 @@
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GameTime__ctor_System_TimeSpan_System_TimeSpan_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GameTime.%23ctor(System.TimeSpan%2CSystem.TimeSpan%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GameTime__ctor_TimeSpan_TimeSpan_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GameTime.%23ctor(TimeSpan%2CTimeSpan%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GameTime.cs/#L31">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_GameTime__ctor_System_TimeSpan_System_TimeSpan_System_Boolean_" data-uid="Microsoft.Xna.Framework.GameTime.#ctor(System.TimeSpan,System.TimeSpan,System.Boolean)">GameTime(TimeSpan, TimeSpan, Boolean)</h4>
+      <h4 id="Microsoft_Xna_Framework_GameTime__ctor_TimeSpan_TimeSpan_System_Boolean_" data-uid="Microsoft.Xna.Framework.GameTime.#ctor(TimeSpan,TimeSpan,System.Boolean)">GameTime(TimeSpan, TimeSpan, Boolean)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -141,12 +117,12 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td><span class="parametername">totalRealTime</span></td>
           <td></td>
         </tr>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td><span class="parametername">elapsedRealTime</span></td>
           <td></td>
         </tr>
@@ -189,7 +165,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -259,7 +235,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td></td>
         </tr>
       </tbody>

@@ -104,7 +104,7 @@ ul.nav {
 .expander::before {
   font-family: "mg-icons";
   content: "\e802";
-  transition: transform .3s ease-out;
+  /* transition: transform .2s; */
   cursor: pointer;
   position: absolute;
   font-size: .8em;
@@ -143,8 +143,10 @@ ul.nav {
   margin-bottom: 10px;
 }
 #toc-toggle {
+  position: sticky;
   padding: 10px; /* make it larger so it's easier to click */
-  left: -6px;
+  top: 10px;
+  margin-left: -10px;
   cursor: pointer;
   color: #666;
   transition: color .2s;
@@ -236,12 +238,14 @@ ul.nav {
   background-color: transparent;
 }
 #toc-no-results {
-  margin-left: 20px !important;
+  margin-left: 20px;
   color: #666;
   font-weight: 600;
+  font-style: italic;
 }
 #toc {
   margin: 10px;
+  padding-left: 12px;
 }
 #toc a {
   color: #666
@@ -251,6 +255,16 @@ ul.nav {
 }
 #toc a:hover {
   color: #E73C00;
+}
+#toc ul {
+  /*transition: height .2s;*/
+  /*transition: margin .2s;*/
+}
+.search-result > a {
+  font-style: italic;
+}
+#toc li:not(.search-result) ul.collapsed {
+  height: 0;
 }
 ul.level1 {
   margin: 0;
@@ -262,21 +276,35 @@ ul.level1 {
   font-size: 100%;
 }
 #toc ul.level2 {
-  margin: 3px 0;
-  border-left: 3px #ddd solid;
+  margin: 3px 0 3px -2px;
+  padding-left: 14px;
   font-weight: 400;
   font-size: 92%;
+  overflow: hidden;
+}
+#toc ul.level2 {
+  margin: 0;
 }
 #toc ul.level3 {
   margin: 2px 0;
-  border-left: 2px #ddd solid;
   font-size: 86%;
+  overflow: hidden;
+}
+#toc ul.level3 {
+  margin: 0;
 }
 .level1 .expander::before {
-  left: -17px;
+  left: -15px;
+  top: 4px;
+  font-weight: 500;
+  color: #444;
 }
 .level2 .expander::before {
-  left: -13px;
+  left: -11px;
+  top: 5px;
+  font-weight: 400;
+  font-size: 7.5pt;
+  color: #666;
 }
 
 /* ===== CONTENT ===== */
@@ -298,7 +326,7 @@ ul.level1 {
 #main-wrapper {
   flex-grow: 1;
   max-width: 900px;
-  padding-bottom: 50%;
+  padding-bottom: 50px;
   margin: 0 auto;
   width: 100%;
 }
@@ -396,30 +424,19 @@ a.page-nav:not([href]) {
 }
 
 /* API */
-/*div.api {
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-.api-table {
-  text-align: justify;
-  vertical-align: top;
-}
-.api > h2 {
-  /* disable top margin to prevent margin folding, which causes
-   * jumps in the collapse animation */
-  margin-top: 0;
-  margin-bottom: 15px;
-}
 
 /* Namespace tables */
 table.api-table {
   margin-top: 25px;
   margin-bottom: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 table.api-table td {
   border-top: #ccc 1px solid;
   padding-top: 10px;
   padding-bottom: 10px;
+  vertical-align: top;
 }
 table.api-table td.member {
   min-width: 200px;
@@ -427,6 +444,9 @@ table.api-table td.member {
 }
 table.api-table td.summary {
   width: 70%;
+}
+table.api-table td.summary>p {
+  margin: 0;
 }
 @media (max-width: 768px) {
   table.api-table td.member {

@@ -17,28 +17,6 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">Genre</span></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Media_Genre_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public sealed class Genre : IDisposable</code></pre>
@@ -288,8 +266,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.Object.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Media_Genre_ToString_" data-uid="Microsoft.Xna.Framework.Media.Genre.ToString*"></a>
   
@@ -326,6 +302,4 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.Object.ToString()</span></div>
   </article>

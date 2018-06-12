@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Model Class
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.36.1.0">
     <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Graphics.Model">
     <meta property="docfx:baseDir" content="MonoGame-docfx">
     <link rel="stylesheet" href="../css/mg-icons.css">
@@ -71,33 +71,9 @@
       <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
       <div class="level1"><span class="xref">Model</span></div>
     </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_Model_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class Model</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class Model : object</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -108,13 +84,13 @@
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Model__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Collections_Generic_List_Microsoft_Xna_Framework_Graphics_ModelBone__System_Collections_Generic_List_Microsoft_Xna_Framework_Graphics_ModelMesh__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Model.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Collections.Generic.List%7BMicrosoft.Xna.Framework.Graphics.ModelBone%7D%2CSystem.Collections.Generic.List%7BMicrosoft.Xna.Framework.Graphics.ModelMesh%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Model__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_List_Microsoft_Xna_Framework_Graphics_ModelBone__List_Microsoft_Xna_Framework_Graphics_ModelMesh__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Model.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CList%7BMicrosoft.Xna.Framework.Graphics.ModelBone%7D%2CList%7BMicrosoft.Xna.Framework.Graphics.ModelMesh%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Model.cs/#L65">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Graphics_Model__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Collections_Generic_List_Microsoft_Xna_Framework_Graphics_ModelBone__System_Collections_Generic_List_Microsoft_Xna_Framework_Graphics_ModelMesh__" data-uid="Microsoft.Xna.Framework.Graphics.Model.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Collections.Generic.List{Microsoft.Xna.Framework.Graphics.ModelBone},System.Collections.Generic.List{Microsoft.Xna.Framework.Graphics.ModelMesh})">Model(GraphicsDevice, List&lt;ModelBone&gt;, List&lt;ModelMesh&gt;)</h4>
+      <h4 id="Microsoft_Xna_Framework_Graphics_Model__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_List_Microsoft_Xna_Framework_Graphics_ModelBone__List_Microsoft_Xna_Framework_Graphics_ModelMesh__" data-uid="Microsoft.Xna.Framework.Graphics.Model.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,List{Microsoft.Xna.Framework.Graphics.ModelBone},List{Microsoft.Xna.Framework.Graphics.ModelMesh})">Model(GraphicsDevice, List&lt;ModelBone&gt;, List&lt;ModelMesh&gt;)</h4>
     </div>
     <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs a model. </p>
 </div>
@@ -140,41 +116,15 @@
 </td>
         </tr>
         <tr>
-          <td><xref uid="System.Collections.Generic.List`1" text="List" alt="System.Collections.Generic.List"/>&lt;<xref uid="Microsoft.Xna.Framework.Graphics.ModelBone" text="ModelBone" alt="Microsoft.Xna.Framework.Graphics.ModelBone"/>&gt;</td>
+          <td><xref uid="List`1" text="List" alt="List"/>&lt;<xref uid="Microsoft.Xna.Framework.Graphics.ModelBone" text="ModelBone" alt="Microsoft.Xna.Framework.Graphics.ModelBone"/>&gt;</td>
           <td><span class="parametername">bones</span></td>
           <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The collection of bones.</p>
 </td>
         </tr>
         <tr>
-          <td><xref uid="System.Collections.Generic.List`1" text="List" alt="System.Collections.Generic.List"/>&lt;<xref uid="Microsoft.Xna.Framework.Graphics.ModelMesh" text="ModelMesh" alt="Microsoft.Xna.Framework.Graphics.ModelMesh"/>&gt;</td>
+          <td><xref uid="List`1" text="List" alt="List"/>&lt;<xref uid="Microsoft.Xna.Framework.Graphics.ModelMesh" text="ModelMesh" alt="Microsoft.Xna.Framework.Graphics.ModelMesh"/>&gt;</td>
           <td><span class="parametername">meshes</span></td>
           <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The collection of meshes.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.ArgumentNullException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code data-dev-comment-type="paramref" class="paramref">graphicsDevice</code> is null.</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="System.ArgumentNullException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code data-dev-comment-type="paramref" class="paramref">bones</code> is null.</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="System.ArgumentNullException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code data-dev-comment-type="paramref" class="paramref">meshes</code> is null.</p>
 </td>
         </tr>
       </tbody>
@@ -411,27 +361,6 @@ Skinning data is example of attached object for model.
         </tr>
       </tbody>
     </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.ArgumentNullException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code data-dev-comment-type="paramref" class="paramref">sourceBoneTransforms</code> is null.</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="System.ArgumentOutOfRangeException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code data-dev-comment-type="paramref" class="paramref">sourceBoneTransforms</code> is invalid.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
   
     <a id="Microsoft_Xna_Framework_Graphics_Model_CopyBoneTransformsTo_" data-uid="Microsoft.Xna.Framework.Graphics.Model.CopyBoneTransformsTo*"></a>
   
@@ -467,27 +396,6 @@ Skinning data is example of attached object for model.
           <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/>[]</td>
           <td><span class="parametername">destinationBoneTransforms</span></td>
           <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The array receiving the transformed bones.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.ArgumentNullException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code data-dev-comment-type="paramref" class="paramref">destinationBoneTransforms</code> is null.</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="System.ArgumentOutOfRangeException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Model.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><code data-dev-comment-type="paramref" class="paramref">destinationBoneTransforms</code> is invalid.</p>
 </td>
         </tr>
       </tbody>

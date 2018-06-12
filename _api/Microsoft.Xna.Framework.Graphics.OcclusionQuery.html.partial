@@ -18,10 +18,6 @@
       <div class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></div>
       <div class="level2"><span class="xref">OcclusionQuery</span></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
@@ -48,28 +44,10 @@
       <div>
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
       </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_OcclusionQuery_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class OcclusionQuery : GraphicsResource, IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public class OcclusionQuery : GraphicsResource</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -109,27 +87,6 @@
           <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
           <td><span class="parametername">graphicsDevice</span></td>
           <td><p>The graphics device.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-          <td><p><code data-dev-comment-type="paramref" class="paramref">graphicsDevice</code> is <span class="xref">null</span>.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
-          <td><p>The current graphics profile does not support occlusion queries.</p>
 </td>
         </tr>
       </tbody>
@@ -211,23 +168,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
-          <td><p>The occlusion query has not yet completed. Check <a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_IsComplete">IsComplete</a> before reading
-the result!</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
     <h3 id="methods">Methods
   </h3>
   
@@ -251,22 +191,6 @@ the result!</p>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public void Begin()</code></pre>
     </div>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
-          <td><p><a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_Begin">Begin()</a> is called again before calling <a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_End">End()</a>.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
   
     <a id="Microsoft_Xna_Framework_Graphics_OcclusionQuery_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.Dispose*"></a>
   
@@ -327,20 +251,4 @@ the result!</p>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public void End()</code></pre>
     </div>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
-          <td><p><a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_End">End()</a> is called before calling <a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_Begin">Begin()</a>.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
   </article>

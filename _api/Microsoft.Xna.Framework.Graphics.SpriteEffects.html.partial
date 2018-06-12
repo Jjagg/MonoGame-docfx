@@ -15,8 +15,7 @@
     <hr>
     <h5 id="Microsoft_Xna_Framework_Graphics_SpriteEffects_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[Flags]
-public enum SpriteEffects</code></pre>
+      <pre><code class="lang-csharp hljs">public enum SpriteEffects : int</code></pre>
     </div>
   </div>
     <h3 id="fields">Fields

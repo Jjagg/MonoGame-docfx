@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="ResourceContentManager Class
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.36.1.0">
     <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Content.ResourceContentManager">
     <meta property="docfx:baseDir" content="MonoGame-docfx">
     <link rel="stylesheet" href="../css/mg-icons.css">
@@ -71,10 +71,6 @@
       <div class="level1"><xref uid="Microsoft.Xna.Framework.Content.ContentManager" text="ContentManager" alt="Microsoft.Xna.Framework.Content.ContentManager"/></div>
       <div class="level2"><span class="xref">ResourceContentManager</span></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
-    </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
@@ -90,7 +86,7 @@
         <xref uid="Microsoft.Xna.Framework.Content.ContentManager.Load``1(System.String)" text="ContentManager.Load&lt;T&gt;(String)" alt="Microsoft.Xna.Framework.Content.ContentManager.Load&lt;T&gt;(System.String)"/>
       </div>
       <div>
-        <xref uid="Microsoft.Xna.Framework.Content.ContentManager.ReadAsset``1(System.String,System.Action{System.IDisposable})" text="ContentManager.ReadAsset&lt;T&gt;(String, Action&lt;IDisposable&gt;)" alt="Microsoft.Xna.Framework.Content.ContentManager.ReadAsset&lt;T&gt;(System.String, System.Action&lt;System.IDisposable&gt;)"/>
+        <xref uid="Microsoft.Xna.Framework.Content.ContentManager.ReadAsset``1(System.String,Action{IDisposable})" text="ContentManager.ReadAsset&lt;T&gt;(String, Action&lt;IDisposable&gt;)" alt="Microsoft.Xna.Framework.Content.ContentManager.ReadAsset&lt;T&gt;(System.String, Action&lt;IDisposable&gt;)"/>
       </div>
       <div>
         <xref uid="Microsoft.Xna.Framework.Content.ContentManager.LoadedAssets" text="ContentManager.LoadedAssets" alt="Microsoft.Xna.Framework.Content.ContentManager.LoadedAssets"/>
@@ -110,31 +106,10 @@
       <div>
         <xref uid="Microsoft.Xna.Framework.Content.ContentManager.ServiceProvider" text="ContentManager.ServiceProvider" alt="Microsoft.Xna.Framework.Content.ContentManager.ServiceProvider"/>
       </div>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Content_ResourceContentManager_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class ResourceContentManager : ContentManager, IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public class ResourceContentManager : ContentManager</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -145,13 +120,13 @@
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ResourceContentManager__ctor_System_IServiceProvider_System_Resources_ResourceManager_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ResourceContentManager.%23ctor(System.IServiceProvider%2CSystem.Resources.ResourceManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ResourceContentManager__ctor_IServiceProvider_ResourceManager_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ResourceContentManager.%23ctor(IServiceProvider%2CResourceManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ResourceContentManager.cs/#L12">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Content_ResourceContentManager__ctor_System_IServiceProvider_System_Resources_ResourceManager_" data-uid="Microsoft.Xna.Framework.Content.ResourceContentManager.#ctor(System.IServiceProvider,System.Resources.ResourceManager)">ResourceContentManager(IServiceProvider, ResourceManager)</h4>
+      <h4 id="Microsoft_Xna_Framework_Content_ResourceContentManager__ctor_IServiceProvider_ResourceManager_" data-uid="Microsoft.Xna.Framework.Content.ResourceContentManager.#ctor(IServiceProvider,ResourceManager)">ResourceContentManager(IServiceProvider, ResourceManager)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -170,12 +145,12 @@
       </thead>
       <tbody>
         <tr>
-          <td><xref uid="System.IServiceProvider" text="IServiceProvider" alt="System.IServiceProvider"/></td>
+          <td><xref uid="IServiceProvider" text="IServiceProvider" alt="IServiceProvider"/></td>
           <td><span class="parametername">servicesProvider</span></td>
           <td></td>
         </tr>
         <tr>
-          <td><xref uid="System.Resources.ResourceManager" text="ResourceManager" alt="System.Resources.ResourceManager"/></td>
+          <td><xref uid="ResourceManager" text="ResourceManager" alt="ResourceManager"/></td>
           <td><span class="parametername">resource</span></td>
           <td></td>
         </tr>
@@ -201,7 +176,7 @@
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override Stream OpenStream(string assetName)</code></pre>
+      <pre><code class="lang-csharp hljs">protected override System.IO.Stream OpenStream(string assetName)</code></pre>
     </div>
     <h5 class="parameters">Parameters</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -230,7 +205,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><xref uid="System.IO.Stream" text="Stream" alt="System.IO.Stream"/></td>
+          <td><xref uid="System.IO.Stream" text="System.IO.Stream" alt="System.IO.Stream"/></td>
           <td></td>
         </tr>
       </tbody>

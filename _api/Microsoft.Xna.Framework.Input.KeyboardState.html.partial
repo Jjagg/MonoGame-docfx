@@ -13,21 +13,6 @@
 </div>
     <div class="markdown level0 conceptual"></div>
     <hr>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.ValueType.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Input_KeyboardState_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public struct KeyboardState</code></pre>
@@ -311,8 +296,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
     <a id="Microsoft_Xna_Framework_Input_KeyboardState_GetHashCode_" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.GetHashCode*"></a>
   
@@ -350,8 +333,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys_" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.GetPressedKeys*"></a>
   

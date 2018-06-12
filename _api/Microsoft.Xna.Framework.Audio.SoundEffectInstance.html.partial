@@ -21,35 +21,11 @@
     </div>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
+      <div><span class="xref">IDisposable</span></div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class SoundEffectInstance : IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public class SoundEffectInstance : IDisposable, IDisposable</code></pre>
     </div>
     <h5 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_remarks"><strong>Remarks</strong></h5>
     <div class="markdown level0 remarks"><p>SoundEffectInstances are created through SoundEffect.CreateInstance() and used internally by SoundEffect.Play()</p>

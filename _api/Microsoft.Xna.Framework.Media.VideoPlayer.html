@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="VideoPlayer Class
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.36.1.0">
     <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Media.VideoPlayer">
     <meta property="docfx:baseDir" content="MonoGame-docfx">
     <link rel="stylesheet" href="../css/mg-icons.css">
@@ -72,35 +72,11 @@
     </div>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
+      <div><xref uid="IDisposable" text="IDisposable" alt="IDisposable"/></div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Media_VideoPlayer_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class VideoPlayer : IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class VideoPlayer : IDisposable, IDisposable</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -266,7 +242,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><xref uid="System.TimeSpan" text="TimeSpan" alt="System.TimeSpan"/></td>
+          <td><xref uid="TimeSpan" text="TimeSpan" alt="TimeSpan"/></td>
           <td></td>
         </tr>
       </tbody>
@@ -435,28 +411,6 @@
         <tr>
           <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
           <td><p sourcefile="_api/Microsoft.Xna.Framework.Media.VideoPlayer.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The current frame of video.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.InvalidOperationException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Media.VideoPlayer.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Thrown if no video is set on the player</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="System.InvalidOperationException" displayProperty="name" altProperty="fullName"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Media.VideoPlayer.yml" sourcestartlinenumber="1" sourceendlinenumber="2">Thrown if the platform was unable to get a texture in a reasonable amount of time. Often the platform specific media code is running
-in a different thread or process. Note: This may be a change from XNA behaviour</p>
 </td>
         </tr>
       </tbody>

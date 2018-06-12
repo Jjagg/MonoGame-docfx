@@ -17,34 +17,6 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">GraphicsAdapter</span></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public sealed class GraphicsAdapter : IDisposable</code></pre>
@@ -82,7 +54,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.html">GraphicsAdapter</a>&gt;</td>
+          <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.html">GraphicsAdapter</a>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -366,7 +338,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
+          <td><span class="xref">IntPtr</span></td>
           <td></td>
         </tr>
       </tbody>

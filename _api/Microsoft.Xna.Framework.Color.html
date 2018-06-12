@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Color Struct
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.36.1.0">
     <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Color">
     <meta property="docfx:baseDir" content="MonoGame-docfx">
     <link rel="stylesheet" href="../css/mg-icons.css">
@@ -68,24 +68,11 @@
     <hr>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><xref uid="System.IEquatable`1" text="IEquatable" alt="System.IEquatable"/>&lt;<xref uid="Microsoft.Xna.Framework.Color" text="Color" alt="Microsoft.Xna.Framework.Color"/>&gt;</div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
+      <div><xref uid="IEquatable`1" text="IEquatable" alt="IEquatable"/>&lt;<xref uid="Microsoft.Xna.Framework.Color" text="Color" alt="Microsoft.Xna.Framework.Color"/>&gt;</div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Color_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataContract]
-public struct Color : IEquatable&lt;Color&gt;</code></pre>
+      <pre><code class="lang-csharp hljs">public struct Color : IEquatable&lt;Color&gt;</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -550,8 +537,7 @@ The value is a 32-bit unsigned integer, with R in the least significant octet.</
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public Color(uint packedValue)</code></pre>
+      <pre><code class="lang-csharp hljs">public Color(uint packedValue)</code></pre>
     </div>
     <h5 class="parameters">Parameters</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -592,8 +578,7 @@ public Color(uint packedValue)</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public byte A { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public byte A { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -809,8 +794,7 @@ public byte A { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public byte B { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public byte B { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -2322,8 +2306,7 @@ public byte B { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public byte G { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public byte G { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -4411,8 +4394,7 @@ public byte G { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public uint PackedValue { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public UInt32 PackedValue { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -4424,7 +4406,7 @@ public uint PackedValue { get; set; }</code></pre>
       </thead>
       <tbody>
         <tr>
-          <td><xref uid="System.UInt32" text="UInt32" alt="System.UInt32"/></td>
+          <td><xref uid="UInt32" text="UInt32" alt="UInt32"/></td>
           <td></td>
         </tr>
       </tbody>
@@ -4844,8 +4826,7 @@ public uint PackedValue { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public byte R { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public byte R { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -6018,8 +5999,6 @@ public byte R { get; set; }</code></pre>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="System.ValueType.Equals(System.Object)" altProperty="fullName" displayProperty="nameWithType"/></div>
   
     <a id="Microsoft_Xna_Framework_Color_FromNonPremultiplied_" data-uid="Microsoft.Xna.Framework.Color.FromNonPremultiplied*"></a>
   
@@ -6185,28 +6164,26 @@ public byte R { get; set; }</code></pre>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="System.ValueType.GetHashCode" altProperty="fullName" displayProperty="nameWithType"/></div>
   
     <a id="Microsoft_Xna_Framework_Color_Lerp_" data-uid="Microsoft.Xna.Framework.Color.Lerp*"></a>
   
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Color_Lerp_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color%2CMicrosoft.Xna.Framework.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Color_Lerp_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color%2CMicrosoft.Xna.Framework.Color%2CSingle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Color.cs/#L1726">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Color_Lerp_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_System_Single_" data-uid="Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Single)">Lerp(Color, Color, Single)</h4>
+      <h4 id="Microsoft_Xna_Framework_Color_Lerp_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_Single_" data-uid="Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,Single)">Lerp(Color, Color, Single)</h4>
     </div>
     <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs linear interpolation of <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
 </div>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static Color Lerp(Color value1, Color value2, float amount)</code></pre>
+      <pre><code class="lang-csharp hljs">public static Color Lerp(Color value1, Color value2, Single amount)</code></pre>
     </div>
     <h5 class="parameters">Parameters</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -6231,7 +6208,7 @@ public byte R { get; set; }</code></pre>
 </td>
         </tr>
         <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+          <td><xref uid="Single" text="Single" alt="Single"/></td>
           <td><span class="parametername">amount</span></td>
           <td><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Interpolation factor.</p>
 </td>
@@ -6260,21 +6237,20 @@ public byte R { get; set; }</code></pre>
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Color_LerpPrecise_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Color.LerpPrecise(Microsoft.Xna.Framework.Color%2CMicrosoft.Xna.Framework.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Color_LerpPrecise_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Color.LerpPrecise(Microsoft.Xna.Framework.Color%2CMicrosoft.Xna.Framework.Color%2CSingle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Color.cs/#L1740">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Color_LerpPrecise_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_System_Single_" data-uid="Microsoft.Xna.Framework.Color.LerpPrecise(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Single)">LerpPrecise(Color, Color, Single)</h4>
+      <h4 id="Microsoft_Xna_Framework_Color_LerpPrecise_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Color_Single_" data-uid="Microsoft.Xna.Framework.Color.LerpPrecise(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,Single)">LerpPrecise(Color, Color, Single)</h4>
     </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><xref href="Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color%2cMicrosoft.Xna.Framework.Color%2cSystem.Single)" data-throw-if-not-resolved="false"></xref> should be used instead of this function.</p>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><xref href="Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color%2cMicrosoft.Xna.Framework.Color%2cSingle)" data-throw-if-not-resolved="false"></xref> should be used instead of this function.</p>
 </div>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[Obsolete(&quot;Color.Lerp should be used instead of this function.&quot;)]
-public static Color LerpPrecise(Color value1, Color value2, float amount)</code></pre>
+      <pre><code class="lang-csharp hljs">public static Color LerpPrecise(Color value1, Color value2, Single amount)</code></pre>
     </div>
     <h5 class="parameters">Parameters</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -6297,7 +6273,7 @@ public static Color LerpPrecise(Color value1, Color value2, float amount)</code>
           <td></td>
         </tr>
         <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+          <td><xref uid="Single" text="Single" alt="Single"/></td>
           <td><span class="parametername">amount</span></td>
           <td></td>
         </tr>
@@ -6394,7 +6370,7 @@ public static Color LerpPrecise(Color value1, Color value2, float amount)</code>
   
       <h4 id="Microsoft_Xna_Framework_Color_ToString" data-uid="Microsoft.Xna.Framework.Color.ToString">ToString()</h4>
     </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of this <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> in the format:
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Returns a <see cref="!:String"></see> representation of this <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> in the format:
 {R:[red] G:[green] B:[blue] A:[alpha]}</p>
 </div>
     <div class="markdown level1 conceptual"></div>
@@ -6413,13 +6389,11 @@ public static Color LerpPrecise(Color value1, Color value2, float amount)</code>
       <tbody>
         <tr>
           <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of this <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="1" sourceendlinenumber="1"><see cref="!:String"></see> representation of this <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
 </td>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="System.ValueType.ToString" altProperty="fullName" displayProperty="nameWithType"/></div>
   
     <a id="Microsoft_Xna_Framework_Color_ToVector3_" data-uid="Microsoft.Xna.Framework.Color.ToVector3*"></a>
   

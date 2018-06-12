@@ -19,35 +19,11 @@
     </div>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
+      <div><span class="xref">IDisposable</span></div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Media_VideoPlayer_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class VideoPlayer : IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class VideoPlayer : IDisposable, IDisposable</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -213,7 +189,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -382,28 +358,6 @@
         <tr>
           <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
           <td><p>The current frame of video.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
-          <td><p>Thrown if no video is set on the player</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
-          <td><p>Thrown if the platform was unable to get a texture in a reasonable amount of time. Often the platform specific media code is running
-in a different thread or process. Note: This may be a change from XNA behaviour</p>
 </td>
         </tr>
       </tbody>

@@ -15,118 +15,11 @@
     <div class="inheritance">
       <h5><strong>Inheritance</strong></h5>
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.binaryreader">BinaryReader</a></div>
-      <div class="level2"><span class="xref">ContentReader</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.IO.BinaryReader.Close()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.Dispose(System.Boolean)</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.Dispose()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.PeekChar()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.Read()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadBoolean()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadByte()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadSByte()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadChar()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadInt16()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadUInt16()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadInt32()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadUInt32()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadInt64()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadUInt64()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadSingle()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadDouble()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadDecimal()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadString()</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.Read(System.Char[], System.Int32, System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadChars(System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.Read(System.Byte[], System.Int32, System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.ReadBytes(System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.FillBuffer(System.Int32)</span>
-      </div>
-      <div>
-        <span class="xref">System.IO.BinaryReader.Read7BitEncodedInt()</span>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.binaryreader.basestream#System_IO_BinaryReader_BaseStream">BinaryReader.BaseStream</a>
-      </div>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
+      <div class="level1"><span class="xref">ContentReader</span></div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Content_ContentReader_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class ContentReader : BinaryReader, IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class ContentReader : BinaryReader</code></pre>
     </div>
   </div>
     <h3 id="properties">Properties
@@ -876,13 +769,13 @@
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource__1_Action___0__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource%60%601(Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentReader.cs/#L243">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource__1_System_Action___0__" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource``1(System.Action{``0})">ReadSharedResource&lt;T&gt;(Action&lt;T&gt;)</h4>
+      <h4 id="Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource__1_Action___0__" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource``1(Action{``0})">ReadSharedResource&lt;T&gt;(Action&lt;T&gt;)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -901,7 +794,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+          <td><span class="xref">Action</span>&lt;T&gt;</td>
           <td><span class="parametername">fixup</span></td>
           <td></td>
         </tr>

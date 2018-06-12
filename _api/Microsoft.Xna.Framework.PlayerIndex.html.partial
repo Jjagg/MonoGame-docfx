@@ -15,7 +15,7 @@
     <hr>
     <h5 id="Microsoft_Xna_Framework_PlayerIndex_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum PlayerIndex</code></pre>
+      <pre><code class="lang-csharp hljs">public enum PlayerIndex : int</code></pre>
     </div>
   </div>
     <h3 id="fields">Fields

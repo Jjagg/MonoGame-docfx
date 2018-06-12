@@ -20,10 +20,6 @@
       <div class="level3"><span class="xref">TextureCube</span></div>
         <div class="level4"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.html">RenderTargetCube</a></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
@@ -65,28 +61,10 @@
       <div>
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
       </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_TextureCube_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class TextureCube : Texture, IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public class TextureCube : Texture</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors

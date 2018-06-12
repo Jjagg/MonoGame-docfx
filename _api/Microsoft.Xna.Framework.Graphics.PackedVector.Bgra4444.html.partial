@@ -15,25 +15,13 @@
     <hr>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector-1.html">IPackedVector</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a>&gt;</div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector-1.html">IPackedVector</a>&lt;<span class="xref">UInt16</span>&gt;</div>
       <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html">IPackedVector</a></div>
-      <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.html">Bgra4444</a>&gt;</div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
+      <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.html">Bgra4444</a>&gt;</div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct Bgra4444 : IPackedVector&lt;ushort&gt;, IPackedVector, IEquatable&lt;Bgra4444&gt;</code></pre>
+      <pre><code class="lang-csharp hljs">public struct Bgra4444 : IPackedVector&lt;UInt16&gt;, IPackedVector, IEquatable&lt;Bgra4444&gt;</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -155,8 +143,7 @@
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public ushort PackedValue { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public UInt16 PackedValue { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -168,7 +155,7 @@ public ushort PackedValue { get; set; }</code></pre>
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+          <td><span class="xref">UInt16</span></td>
           <td></td>
         </tr>
       </tbody>
@@ -285,8 +272,6 @@ public ushort PackedValue { get; set; }</code></pre>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_GetHashCode_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.GetHashCode*"></a>
   
@@ -324,8 +309,6 @@ public ushort PackedValue { get; set; }</code></pre>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_ToString_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.ToString*"></a>
   
@@ -363,8 +346,6 @@ public ushort PackedValue { get; set; }</code></pre>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.ToString()</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_ToVector4_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.ToVector4*"></a>
   

@@ -12,18 +12,6 @@
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
     <hr>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Input_GamePadDPad_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public struct GamePadDPad</code></pre>
@@ -295,8 +283,6 @@
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
     <a id="Microsoft_Xna_Framework_Input_GamePadDPad_GetHashCode_" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad.GetHashCode*"></a>
   
@@ -335,8 +321,6 @@ hash table.</p>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Input_GamePadDPad_ToString_" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad.ToString*"></a>
   
@@ -375,8 +359,6 @@ in a format of 0000 where each number represents a boolean value of each respect
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.ToString()</span></div>
     <h3 id="operators">Operators
   </h3>
   

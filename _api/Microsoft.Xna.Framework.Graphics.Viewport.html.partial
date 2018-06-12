@@ -13,28 +13,9 @@
 </div>
     <div class="markdown level0 conceptual"></div>
     <hr>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.ValueType.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.ValueType.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_Viewport_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataContract]
-public struct Viewport</code></pre>
+      <pre><code class="lang-csharp hljs">public struct Viewport</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -297,8 +278,7 @@ public struct Viewport</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public int Height { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public int Height { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -334,8 +314,7 @@ public int Height { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public float MaxDepth { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public float MaxDepth { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -371,8 +350,7 @@ public float MaxDepth { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public float MinDepth { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public float MinDepth { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -444,8 +422,7 @@ public float MinDepth { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public int Width { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public int Width { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -481,8 +458,7 @@ public int Width { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public int X { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public int X { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -518,8 +494,7 @@ public int X { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public int Y { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public int Y { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -624,7 +599,7 @@ public int Y { get; set; }</code></pre>
   
       <h4 id="Microsoft_Xna_Framework_Graphics_Viewport_ToString" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.ToString">ToString()</h4>
     </div>
-    <div class="markdown level1 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a> in the format:
+    <div class="markdown level1 summary"><p>Returns a <see cref="!:String"></see> representation of this <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a> in the format:
 {X:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html#Microsoft_Xna_Framework_Graphics_Viewport_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html#Microsoft_Xna_Framework_Graphics_Viewport_Y">Y</a>] Width:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html#Microsoft_Xna_Framework_Graphics_Viewport_Width">Width</a>] Height:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html#Microsoft_Xna_Framework_Graphics_Viewport_Height">Height</a>] MinDepth:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html#Microsoft_Xna_Framework_Graphics_Viewport_MinDepth">MinDepth</a>] MaxDepth:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html#Microsoft_Xna_Framework_Graphics_Viewport_MaxDepth">MaxDepth</a>]}</p>
 </div>
     <div class="markdown level1 conceptual"></div>
@@ -643,13 +618,11 @@ public int Y { get; set; }</code></pre>
       <tbody>
         <tr>
           <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a>.</p>
+          <td><p>A <see cref="!:String"></see> representation of this <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a>.</p>
 </td>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.ToString()</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_Viewport_Unproject_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.Unproject*"></a>
   

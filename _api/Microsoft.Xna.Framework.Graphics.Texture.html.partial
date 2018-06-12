@@ -21,10 +21,6 @@
         <div class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html">Texture3D</a></div>
         <div class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.TextureCube.html">TextureCube</a></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
     <div class="inheritedMembers">
       <h5><strong>Inherited Members</strong></h5>
       <div>
@@ -48,28 +44,10 @@
       <div>
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
       </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_Texture_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public abstract class Texture : GraphicsResource, IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public abstract class Texture : GraphicsResource</code></pre>
     </div>
   </div>
     <h3 id="properties">Properties
@@ -164,7 +142,7 @@
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected virtual ShaderResourceView CreateShaderResourceView()</code></pre>
+      <pre><code class="lang-csharp hljs">protected virtual SharpDX.Direct3D11.ShaderResourceView CreateShaderResourceView()</code></pre>
     </div>
     <h5 class="returns">Returns</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -251,8 +229,8 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-          <td><p>The handle of the shared resource, or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr.zero">Zero</a> if the texture was not
+          <td><span class="xref">IntPtr</span></td>
+          <td><p>The handle of the shared resource, or <see cref="!:IntPtr.Zero"></see> if the texture was not
 created as a shared resource.</p>
 </td>
         </tr>

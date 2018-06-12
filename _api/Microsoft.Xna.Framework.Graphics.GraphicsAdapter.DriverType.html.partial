@@ -15,7 +15,7 @@
     <hr>
     <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DriverType_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum DriverType</code></pre>
+      <pre><code class="lang-csharp hljs">public enum DriverType : int</code></pre>
     </div>
   </div>
     <h3 id="fields">Fields

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="SpriteFont Class
    | MonoGame Documentation ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.36.1.0">
     <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Graphics.SpriteFont">
     <meta property="docfx:baseDir" content="MonoGame-docfx">
     <link rel="stylesheet" href="../css/mg-icons.css">
@@ -70,33 +70,9 @@
       <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
       <div class="level1"><span class="xref">SpriteFont</span></div>
     </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_SpriteFont_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class SpriteFont</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class SpriteFont : object</code></pre>
     </div>
   </div>
     <h3 id="properties">Properties
@@ -132,7 +108,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><xref uid="System.Collections.ObjectModel.ReadOnlyCollection`1" text="ReadOnlyCollection" alt="System.Collections.ObjectModel.ReadOnlyCollection"/>&lt;<xref uid="System.Char" text="Char" alt="System.Char"/>&gt;</td>
+          <td><xref uid="ReadOnlyCollection`1" text="ReadOnlyCollection" alt="ReadOnlyCollection"/>&lt;<xref uid="System.Char" text="Char" alt="System.Char"/>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -320,7 +296,7 @@ the font.</p>
       </thead>
       <tbody>
         <tr>
-          <td><xref uid="System.Collections.Generic.Dictionary`2" text="Dictionary" alt="System.Collections.Generic.Dictionary"/>&lt;<xref uid="System.Char" text="Char" alt="System.Char"/>, <xref uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph" text="SpriteFont.Glyph" alt="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph"/>&gt;</td>
+          <td><xref uid="Dictionary`2" text="Dictionary" alt="Dictionary"/>&lt;<xref uid="System.Char" text="Char" alt="System.Char"/>, <xref uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph" text="SpriteFont.Glyph" alt="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph"/>&gt;</td>
           <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A new Dictionary containing all of the glyphs inthis SpriteFont</p>
 </td>
         </tr>
@@ -329,6 +305,63 @@ the font.</p>
     <h3 id="Microsoft_Xna_Framework_Graphics_SpriteFont_GetGlyphs_remarks">Remarks</h3>
     <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Can be used to calculate character bounds when implementing custom SpriteFont rendering.</p>
 </div>
+  
+    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString*"></a>
+  
+    <div>
+      <span class="small pull-right mobile-hide">
+        <span class="divider">|</span>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_StringBuilder_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(StringBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+      </span>
+      <span class="small pull-right">
+        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L175">View Source</a>
+      </span>
+  
+      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_StringBuilder_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(StringBuilder)">MeasureString(StringBuilder)</h4>
+    </div>
+    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Returns the size of the contents of a StringBuilder when
+rendered in this font.</p>
+</div>
+    <div class="markdown level1 conceptual"></div>
+    <h5 class="decalaration">Declaration</h5>
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Vector2 MeasureString(StringBuilder text)</code></pre>
+    </div>
+    <h5 class="parameters">Parameters</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="StringBuilder" text="StringBuilder" alt="StringBuilder"/></td>
+          <td><span class="parametername">text</span></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The text to measure.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <h5 class="returns">Returns</h5>
+    <table class="table table-bordered table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><xref uid="Microsoft.Xna.Framework.Vector2" text="Vector2" alt="Microsoft.Xna.Framework.Vector2"/></td>
+          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="1" sourceendlinenumber="2">The size, in pixels, of &apos;text&apos; when rendered in
+this font.</p>
+</td>
+        </tr>
+      </tbody>
+    </table>
   
     <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString*"></a>
   
@@ -362,63 +395,6 @@ the font.</p>
       <tbody>
         <tr>
           <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td><span class="parametername">text</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The text to measure.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector2" text="Vector2" alt="Microsoft.Xna.Framework.Vector2"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="1" sourceendlinenumber="2">The size, in pixels, of &apos;text&apos; when rendered in
-this font.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_Text_StringBuilder_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.Text.StringBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L175">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_Text_StringBuilder_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.Text.StringBuilder)">MeasureString(StringBuilder)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Returns the size of the contents of a StringBuilder when
-rendered in this font.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector2 MeasureString(StringBuilder text)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Text.StringBuilder" text="StringBuilder" alt="System.Text.StringBuilder"/></td>
           <td><span class="parametername">text</span></td>
           <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SpriteFont.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The text to measure.</p>
 </td>

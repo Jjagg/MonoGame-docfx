@@ -13,27 +13,6 @@
 </div>
     <div class="markdown level0 conceptual"></div>
     <hr>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.ValueType.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.ValueType.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.ValueType.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public struct VertexBufferBinding</code></pre>
@@ -174,27 +153,6 @@
           <td><p>The number of instances to draw using the same per-instance data before advancing in the
 buffer by one element. This value must be 0 for an element that contains per-vertex data
 and greater than 0 for per-instance data.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="exceptions">Exceptions</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Condition</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-          <td><p><code data-dev-comment-type="paramref" class="paramref">vertexBuffer</code> is <span class="xref">null</span>.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
-          <td><p><code data-dev-comment-type="paramref" class="paramref">vertexOffset</code> or <code data-dev-comment-type="paramref" class="paramref">instanceFrequency</code> is invalid.</p>
 </td>
         </tr>
       </tbody>

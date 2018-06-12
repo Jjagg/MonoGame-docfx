@@ -15,7 +15,7 @@
     <hr>
     <h5 id="Microsoft_Xna_Framework_Graphics_CompareFunction_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum CompareFunction</code></pre>
+      <pre><code class="lang-csharp hljs">public enum CompareFunction : int</code></pre>
     </div>
   </div>
     <h3 id="fields">Fields

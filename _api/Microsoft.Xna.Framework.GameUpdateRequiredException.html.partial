@@ -15,74 +15,11 @@
     <div class="inheritance">
       <h5><strong>Inheritance</strong></h5>
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></div>
-      <div class="level2"><span class="xref">GameUpdateRequiredException</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices._exception">_Exception</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Exception.GetBaseException()</span>
-      </div>
-      <div>
-        <span class="xref">System.Exception.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
-      </div>
-      <div>
-        <span class="xref">System.Exception.GetType()</span>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.message#System_Exception_Message">Exception.Message</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.data#System_Exception_Data">Exception.Data</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">Exception.InnerException</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">Exception.TargetSite</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Exception.StackTrace</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.helplink#System_Exception_HelpLink">Exception.HelpLink</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.source#System_Exception_Source">Exception.Source</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.hresult#System_Exception_HResult">Exception.HResult</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.serializeobjectstate">Exception.SerializeObjectState</a>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
+      <div class="level1"><span class="xref">GameUpdateRequiredException</span></div>
     </div>
     <h5 id="Microsoft_Xna_Framework_GameUpdateRequiredException_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class GameUpdateRequiredException : Exception, ISerializable, _Exception</code></pre>
+      <pre><code class="lang-csharp hljs">public class GameUpdateRequiredException : Exception</code></pre>
     </div>
   </div>
   </article>

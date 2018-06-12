@@ -21,36 +21,12 @@
     <div class="implements">
       <h5><strong>Implements</strong></h5>
       <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService.html">IGraphicsDeviceService</a></div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IDisposable</span></div>
       <div><a class="xref" href="Microsoft.Xna.Framework.IGraphicsDeviceManager.html">IGraphicsDeviceManager</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
     </div>
     <h5 id="Microsoft_Xna_Framework_GraphicsDeviceManager_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class GraphicsDeviceManager : IGraphicsDeviceService, IDisposable, IGraphicsDeviceManager</code></pre>
+      <pre><code class="lang-csharp hljs">public class GraphicsDeviceManager : object, IGraphicsDeviceService, IDisposable, IGraphicsDeviceManager</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -763,13 +739,13 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_System_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(System.EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L177">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(System.EventArgs)">OnDeviceDisposing(EventArgs)</h4>
+      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(EventArgs)">OnDeviceDisposing(EventArgs)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -788,7 +764,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></td>
+          <td><span class="xref">EventArgs</span></td>
           <td><span class="parametername">e</span></td>
           <td></td>
         </tr>
@@ -800,13 +776,13 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_System_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(System.EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L182">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(System.EventArgs)">OnDeviceResetting(EventArgs)</h4>
+      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(EventArgs)">OnDeviceResetting(EventArgs)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -825,7 +801,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></td>
+          <td><span class="xref">EventArgs</span></td>
           <td><span class="parametername">e</span></td>
           <td></td>
         </tr>
@@ -886,7 +862,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -920,7 +896,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -954,7 +930,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -988,7 +964,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -1022,7 +998,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>
@@ -1056,7 +1032,7 @@ set after startup you must call ApplyChanges() for the vsync mode to be changed.
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.html">PreparingDeviceSettingsEventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.html">PreparingDeviceSettingsEventArgs</a>&gt;</td>
           <td></td>
         </tr>
       </tbody>

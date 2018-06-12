@@ -18,34 +18,6 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">AudioEngine</span></div>
     </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Audio_AudioEngine_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
       <pre><code class="lang-csharp hljs">public class AudioEngine : IDisposable</code></pre>
@@ -97,13 +69,13 @@
     <div>
       <span class="small pull-right mobile-hide">
         <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.%23ctor(System.String%2CSystem.TimeSpan%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_TimeSpan_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEngine.%23ctor(System.String%2CTimeSpan%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
       </span>
       <span class="small pull-right">
         <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioEngine.cs/#L85">View Source</a>
       </span>
   
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor(System.String,System.TimeSpan,System.String)">AudioEngine(String, TimeSpan, String)</h4>
+      <h4 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_TimeSpan_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor(System.String,TimeSpan,System.String)">AudioEngine(String, TimeSpan, String)</h4>
     </div>
     <div class="markdown level1 summary"></div>
     <div class="markdown level1 conceptual"></div>
@@ -128,7 +100,7 @@
 </td>
         </tr>
         <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+          <td><span class="xref">TimeSpan</span></td>
           <td><span class="parametername">lookAheadTime</span></td>
           <td><p>Determines how many milliseconds the engine will look ahead when determing when to transition to another sound.</p>
 </td>
@@ -141,7 +113,7 @@
         </tr>
       </tbody>
     </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String__remarks">Remarks</h3>
+    <h3 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_TimeSpan_System_String__remarks">Remarks</h3>
     <div class="markdown level1 remarks"><p>For the best results, use a lookAheadTime of 250 milliseconds or greater.</p>
 </div>
     <h3 id="fields">Fields
@@ -164,7 +136,7 @@
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public const int ContentVersion = 39</code></pre>
+      <pre><code class="lang-csharp hljs">public const int ContentVersion = null</code></pre>
     </div>
     <h5 class="fieldValue">Field Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -476,7 +448,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
           <td></td>
         </tr>
       </tbody>

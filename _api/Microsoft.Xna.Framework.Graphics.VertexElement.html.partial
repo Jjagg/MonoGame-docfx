@@ -15,19 +15,7 @@
     <hr>
     <div class="implements">
       <h5><strong>Implements</strong></h5>
-      <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a>&gt;</div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
+      <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a>&gt;</div>
     </div>
     <h5 id="Microsoft_Xna_Framework_Graphics_VertexElement_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
@@ -323,7 +311,7 @@ instance; otherwise, <span class="xref">false</span>.</p>
   
       <h4 id="Microsoft_Xna_Framework_Graphics_VertexElement_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.Equals(System.Object)">Equals(Object)</h4>
     </div>
-    <div class="markdown level1 summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+    <div class="markdown level1 summary"><p>Determines whether the specified <see cref="!:System.Object"></see> is equal to this instance.</p>
 </div>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
@@ -359,14 +347,12 @@ instance; otherwise, <span class="xref">false</span>.</p>
       <tbody>
         <tr>
           <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><p><span class="xref">true</span> if the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance;
+          <td><p><span class="xref">true</span> if the specified <see cref="!:System.Object"></see> is equal to this instance;
 otherwise, <span class="xref">false</span>.</p>
 </td>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_VertexElement_GetHashCode_" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.GetHashCode*"></a>
   
@@ -405,8 +391,6 @@ structures like a hash table.</p>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   
     <a id="Microsoft_Xna_Framework_Graphics_VertexElement_ToString_" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.ToString*"></a>
   
@@ -421,7 +405,7 @@ structures like a hash table.</p>
   
       <h4 id="Microsoft_Xna_Framework_Graphics_VertexElement_ToString" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.ToString">ToString()</h4>
     </div>
-    <div class="markdown level1 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents this instance.</p>
+    <div class="markdown level1 summary"><p>Returns a <see cref="!:System.String"></see> that represents this instance.</p>
 </div>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
@@ -439,13 +423,11 @@ structures like a hash table.</p>
       <tbody>
         <tr>
           <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents this instance.</p>
+          <td><p>A <see cref="!:System.String"></see> that represents this instance.</p>
 </td>
         </tr>
       </tbody>
     </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><span class="xref">System.ValueType.ToString()</span></div>
     <h3 id="operators">Operators
   </h3>
   

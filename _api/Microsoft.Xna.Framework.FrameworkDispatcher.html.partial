@@ -18,33 +18,9 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">FrameworkDispatcher</span></div>
     </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_FrameworkDispatcher_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static class FrameworkDispatcher</code></pre>
+      <pre><code class="lang-csharp hljs">public static class FrameworkDispatcher : object</code></pre>
     </div>
     <h5 id="Microsoft_Xna_Framework_FrameworkDispatcher_remarks"><strong>Remarks</strong></h5>
     <div class="markdown level0 remarks"><p>If you use <a class="xref" href="Microsoft.Xna.Framework.Game.html">Game</a> class, <a class="xref" href="Microsoft.Xna.Framework.FrameworkDispatcher.html#Microsoft_Xna_Framework_FrameworkDispatcher_Update">Update()</a> is called automatically.

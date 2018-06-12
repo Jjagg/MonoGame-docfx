@@ -18,34 +18,9 @@
       <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
       <div class="level1"><span class="xref">Curve</span></div>
     </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <span class="xref">System.Object.ToString()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetHashCode()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.GetType()</span>
-      </div>
-      <div>
-        <span class="xref">System.Object.MemberwiseClone()</span>
-      </div>
-    </div>
     <h5 id="Microsoft_Xna_Framework_Curve_syntax"><strong>Syntax</strong></h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataContract]
-public class Curve</code></pre>
+      <pre><code class="lang-csharp hljs">public class Curve : object</code></pre>
     </div>
   </div>
     <h3 id="constructors">Constructors
@@ -92,8 +67,7 @@ public class Curve</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public bool IsConstant { get; }</code></pre>
+      <pre><code class="lang-csharp hljs">public bool IsConstant { get; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -129,8 +103,7 @@ public bool IsConstant { get; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public CurveKeyCollection Keys { get; }</code></pre>
+      <pre><code class="lang-csharp hljs">public CurveKeyCollection Keys { get; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -166,8 +139,7 @@ public CurveKeyCollection Keys { get; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public CurveLoopType PostLoop { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public CurveLoopType PostLoop { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
@@ -203,8 +175,7 @@ public CurveLoopType PostLoop { get; set; }</code></pre>
     <div class="markdown level1 conceptual"></div>
     <h5 class="decalaration">Declaration</h5>
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public CurveLoopType PreLoop { get; set; }</code></pre>
+      <pre><code class="lang-csharp hljs">public CurveLoopType PreLoop { get; set; }</code></pre>
     </div>
     <h5 class="propertyValue">Property Value</h5>
     <table class="table table-bordered table-striped table-condensed">
