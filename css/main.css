@@ -124,7 +124,7 @@ ul.nav {
   align-items: stretch;
 }
 #page-toc {
-  overflow: auto;
+  overflow: hidden;
   white-space: nowrap;
   flex: 0 0 0;
   transition: flex-basis .2s ease;
@@ -133,6 +133,11 @@ ul.nav {
 }
 #page-toc.shown {
   flex-basis: 280px;
+}
+#toc-scroll-wrapper {
+  position: absolute;
+  right: 0;
+  width: 280px;
 }
 #page-affix {
   flex: 1 0 200px;
@@ -479,6 +484,10 @@ table.api-table td.summary>p {
   margin-top: 5px;
 }
 
+.no-transition {
+  transition: none !important;
+}
+
 /* ===== RESPONSIVENESS ===== */
 
 @media(max-width: 786px) {
@@ -498,6 +507,9 @@ table.api-table td.summary>p {
 @media(max-width: 414px) {
   #page-toc.shown {
     flex-basis: 84vw;
+  }
+  #toc-scroll-wrapper {
+    width: 100%;
   }
 }
 

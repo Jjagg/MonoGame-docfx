@@ -42,9 +42,41 @@ $(function() {
   init();
   
   function init() {
-    $('#toc-toggle').click(function () {
+
+    $('#toc-toggle').click(function (ev) {
       pageTocEl.toggleClass('shown');
+      ev.stopPropagation();
     });
+
+    var mainPage = $('#page-main');
+    mainPage.click(hideTocForMobile);
+
+    pageTocEl.addClass('no-transition');
+    hideTocForMobile();
+    // we need to force the browser to reload the element before the no-transition class is removed
+    pageTocEl.hide().show(0);
+    pageTocEl.removeClass('no-transition');
+
+    var touchStart = {startLeft: false, x: 0, y: 0};
+    pageScrollEl.on('touchstart', function (ev) {
+      var t = ev.targetTouches[0];
+      if (t.clientX < 30)
+        touchStart = { startLeft: true, x: t.clientX, y: t.clientY };
+    });
+    pageScrollEl.on('touchmove', function (ev) {
+      if (!touchStart.startLeft || pageTocEl.hasClass('shown'))
+        return;
+      var t = ev.targetTouches[0];
+      if (t.clientX - touchStart.x > 50) {
+        pageTocEl.addClass('shown');
+        touchStart = {startLeft: false, x: 0, y: 0};
+      }
+    });
+    pageScrollEl.on('touchend', function (ev) {
+      touchStart = {startLeft: false, x: 0, y: 0};
+    });
+
+
     var startPagePath = $("meta[property='docfx\\:pagedata']").attr('content');
     var scrollPos = null;
     if (historySupported && history.state && history.state.scrollPos)
@@ -52,6 +84,11 @@ $(function() {
     loadPage(startPagePath, scrollPos, window.location.hash);
   }
 
+  function hideTocForMobile() {
+    if (isReallySmall())
+      pageTocEl.removeClass('shown');
+  }
+ 
   function loadPage(path, scrollPos, hash) {
     // don't reload page
     if (currentPage && currentPage.path === path) {
@@ -61,6 +98,7 @@ $(function() {
 
     getJSON(path + '.json', function (page) {
       updatePage(page, scrollPos, hash);
+      hideTocForMobile();
     }, function () {
       console.error('Failed to load page: ' + path);
       // reload the page on failure to go to 404
@@ -472,6 +510,10 @@ $(function() {
     })
       .done(success)
       .fail(failure);
+  }
+
+  function isReallySmall() {
+    return window.matchMedia("(max-width: 414px)").matches;
   }
 
   function htmlEncode(str) {
