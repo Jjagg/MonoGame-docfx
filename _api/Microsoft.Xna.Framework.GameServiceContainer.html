@@ -34,17 +34,20 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <span class="mg-icons">&#xe804;</span><input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
             <div id="toc"></div>
           </div>
         </div>
         <div id="page-scroll" class="flex-stretch flex-row scroll-y">
-          <div id="page-main" class="flex-stretch">
-            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel"><span id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</span></div>
+          <div id="page-main" class="page-main flex-stretch">
+            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
+              <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
+            </div>
             <div id="main-wrapper">
-              <div id="breadcrumb-wrapper" class="flex-row hide">
+              <div id="breadcrumb-wrapper" class="flex-row ">
   <div id="breadcrumb"></div>
   <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GameServiceContainer.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GameServiceContainer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
     Improve this Doc

@@ -23,6 +23,7 @@ $(function() {
   var pageAffixEl = $('#page-affix');
   var navEl = $('#navbar');
   var filterEl = pageTocEl.find('#toc-filter-input');
+  var filterClearEl = pageTocEl.find('#filter-clear');
   var filterNoResultsEl = pageTocEl.find('#toc-no-results');
   var tocEl = pageTocEl.find('#toc');
   var pageScrollEl = $('#page-scroll');
@@ -240,9 +241,11 @@ $(function() {
 
     if (newPage.tocIndex >= 0) {
       toggleTocActive(newPage, true);
-      // expand active elements
-      toc.doSelf(newPage.tocIndex, n => toggleExpandLi(n.element, true));
-      toc.doAncestors(newPage.tocIndex, n => toggleExpandLi(n.element, true));
+      if (newPage.autoExpandToc) {
+        // expand active elements
+        toc.doSelf(newPage.tocIndex, n => toggleExpandLi(n.element, true));
+        toc.doAncestors(newPage.tocIndex, n => toggleExpandLi(n.element, true));
+      }
     }
 
     if (newPage.tocIndex < 0) {
@@ -428,13 +431,16 @@ $(function() {
   }
 
   function hookTocFilterEvent() {
+    filterClearEl.click(clearTocFilter);
     filterEl.off('input');
     filterEl.on('input', function (e) {
       var text = e.currentTarget.value.trim();
       if (!text) {
+        filterClearEl.addClass('hide');
         toc.doAll(n => n.element.removeClass('hide search-result direct-search-result'));
         filterNoResultsEl.addClass('hide');
       } else {
+        filterClearEl.removeClass('hide');
         toc.doAll(n => n.element.addClass('hide').removeClass('search-result direct-search-result'));
         var match = 0;
         for (var i = 0; i < toc.nodes.length; i++) {

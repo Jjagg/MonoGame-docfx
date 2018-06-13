@@ -32,15 +32,18 @@
         <div id="page-toc" class="shown pos-rel ">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <span class="mg-icons">&#xe804;</span><input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
             <div id="toc"></div>
           </div>
         </div>
         <div id="page-scroll" class="flex-stretch flex-row scroll-y">
-          <div id="page-main" class="flex-stretch">
-            <div id="toc-toggle-wrapper" class=" show-sm pos-rel"><span id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</span></div>
+          <div id="page-main" class="page-main flex-stretch">
+            <div id="toc-toggle-wrapper" class=" show-sm pos-rel">
+              <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
+            </div>
             <div id="main-wrapper">
               <div id="breadcrumb-wrapper" class="flex-row ">
   <div id="breadcrumb"></div>
