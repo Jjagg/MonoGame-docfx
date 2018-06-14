@@ -143,6 +143,7 @@ ul.nav {
   flex: 1 0 200px;
   position: sticky;
   top: 0;
+  max-width: 400px;
 }
 #toc-toggle-wrapper {
   margin-bottom: 10px;
@@ -513,6 +514,9 @@ table.api-table td.summary>p {
   }
   #toc-scroll-wrapper {
     width: 100%;
+  }
+  #page-scroll {
+    min-width: 100%;
   }
 }
 
