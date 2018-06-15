@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,207 +55,244 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager" class="text-break">ContentTypeReaderManager Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Content" text="Microsoft.Xna.Framework.Content" alt="Microsoft.Xna.Framework.Content"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><span class="xref">ContentTypeReaderManager</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class ContentTypeReaderManager : object</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public sealed class ContentTypeReaderManager</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">ContentTypeReaderManager</span>
+        </div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_AddTypeCreator_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.AddTypeCreator*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_AddTypeCreator_System_String_System_Func_Microsoft_Xna_Framework_Content_ContentTypeReader__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.AddTypeCreator(System.String%2CSystem.Func%7BMicrosoft.Xna.Framework.Content.ContentTypeReader%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L266">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_AddTypeCreator_System_String_System_Func_Microsoft_Xna_Framework_Content_ContentTypeReader__" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.AddTypeCreator(System.String,System.Func{Microsoft.Xna.Framework.Content.ContentTypeReader})">AddTypeCreator(String, Func&lt;ContentTypeReader&gt;)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Adds the type creator.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static void AddTypeCreator(string typeString, Func&lt;ContentTypeReader&gt; createFunction)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td><span class="parametername">typeString</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Type string.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Func`1" text="Func" alt="System.Func"/>&lt;<xref uid="Microsoft.Xna.Framework.Content.ContentTypeReader" text="ContentTypeReader" alt="Microsoft.Xna.Framework.Content.ContentTypeReader"/>&gt;</td>
+                <td><span class="parametername">createFunction</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Create function.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_ClearTypeCreators_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.ClearTypeCreators*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_ClearTypeCreators.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.ClearTypeCreators%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L272">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_ClearTypeCreators" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.ClearTypeCreators">ClearTypeCreators()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static void ClearTypeCreators()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_System_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L55">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_System_Type_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader(System.Type)">GetTypeReader(Type)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public ContentTypeReader GetTypeReader(Type targetType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Type" text="Type" alt="System.Type"/></td>
+                <td><span class="parametername">targetType</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Content.ContentTypeReader" text="ContentTypeReader" alt="Microsoft.Xna.Framework.Content.ContentTypeReader"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L230">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_System_String_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType(System.String)">PrepareType(String)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Removes Version, Culture and PublicKeyToken from a type string.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static string PrepareType(string type)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td><span class="parametername">type</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <xref href="System.String" data-throw-if-not-resolved="false"></xref></p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <xref href="System.String" data-throw-if-not-resolved="false"></xref></p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_System_String__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supports multiple generic types (e.g. Dictionary&lt;TKey,TValue&gt;) and nested generic types (e.g. List&lt;List&lt;int&gt;&gt;).</p>
+</div>
+      
+
   </div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_AddTypeCreator_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.AddTypeCreator*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_AddTypeCreator_System_String_Func_Microsoft_Xna_Framework_Content_ContentTypeReader__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.AddTypeCreator(System.String%2CFunc%7BMicrosoft.Xna.Framework.Content.ContentTypeReader%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L264">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_AddTypeCreator_System_String_Func_Microsoft_Xna_Framework_Content_ContentTypeReader__" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.AddTypeCreator(System.String,Func{Microsoft.Xna.Framework.Content.ContentTypeReader})">AddTypeCreator(String, Func&lt;ContentTypeReader&gt;)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Adds the type creator.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static void AddTypeCreator(string typeString, Func&lt;ContentTypeReader&gt; createFunction)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td><span class="parametername">typeString</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Type string.</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="Func`1" text="Func" alt="Func"/>&lt;<xref uid="Microsoft.Xna.Framework.Content.ContentTypeReader" text="ContentTypeReader" alt="Microsoft.Xna.Framework.Content.ContentTypeReader"/>&gt;</td>
-          <td><span class="parametername">createFunction</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Create function.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_ClearTypeCreators_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.ClearTypeCreators*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_ClearTypeCreators.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.ClearTypeCreators%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L270">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_ClearTypeCreators" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.ClearTypeCreators">ClearTypeCreators()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static void ClearTypeCreators()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L55">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_Type_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader(Type)">GetTypeReader(Type)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public ContentTypeReader GetTypeReader(Type targetType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Type" text="Type" alt="Type"/></td>
-          <td><span class="parametername">targetType</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Content.ContentTypeReader" text="ContentTypeReader" alt="Microsoft.Xna.Framework.Content.ContentTypeReader"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Content/ContentTypeReaderManager.cs/#L228">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_System_String_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType(System.String)">PrepareType(String)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Removes Version, Culture and PublicKeyToken from a type string.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static string PrepareType(string type)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td><span class="parametername">type</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <see cref="!:System.String"></see></p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A <see cref="!:System.String"></see></p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_System_String__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Content.ContentTypeReaderManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supports multiple generic types (e.g. Dictionary&lt;TKey,TValue&gt;) and nested generic types (e.g. List&lt;List&lt;int&gt;&gt;).</p>
-</div>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,286 +55,323 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Mouse" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Mouse" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Input_Mouse" data-uid="Microsoft.Xna.Framework.Input.Mouse" class="text-break">Mouse Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Input" text="Microsoft.Xna.Framework.Input" alt="Microsoft.Xna.Framework.Input"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Allows reading position and button click information from mouse.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><span class="xref">Mouse</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Input_Mouse_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static class Mouse : object</code></pre>
-    </div>
-  </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Mouse_WindowHandle_" data-uid="Microsoft.Xna.Framework.Input.Mouse.WindowHandle*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_WindowHandle.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.WindowHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L21">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Mouse_WindowHandle" data-uid="Microsoft.Xna.Framework.Input.Mouse.WindowHandle">WindowHandle</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the window handle for current mouse processing.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public static class Mouse</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">Mouse</span>
+        </div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Mouse_WindowHandle_" data-uid="Microsoft.Xna.Framework.Input.Mouse.WindowHandle*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_WindowHandle.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.WindowHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L21">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Mouse_WindowHandle" data-uid="Microsoft.Xna.Framework.Input.Mouse.WindowHandle">WindowHandle</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the window handle for current mouse processing.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static IntPtr WindowHandle { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="IntPtr" text="IntPtr" alt="IntPtr"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Mouse_GetState_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_GetState.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.GetState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L43">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Mouse_GetState" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState">GetState()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Gets mouse state information that includes position and button presses
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static IntPtr WindowHandle { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.IntPtr" text="IntPtr" alt="System.IntPtr"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Mouse_GetState_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_GetState.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.GetState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L43">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Mouse_GetState" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState">GetState()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Gets mouse state information that includes position and button presses
 for the primary window</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static MouseState GetState()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Input.MouseState" text="MouseState" alt="Microsoft.Xna.Framework.Input.MouseState"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Current state of the mouse.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static MouseState GetState()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Input.MouseState" text="MouseState" alt="Microsoft.Xna.Framework.Input.MouseState"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Current state of the mouse.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Mouse_GetState_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_GetState_Microsoft_Xna_Framework_GameWindow_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.GetState(Microsoft.Xna.Framework.GameWindow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L33">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Mouse_GetState_Microsoft_Xna_Framework_GameWindow_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState(Microsoft.Xna.Framework.GameWindow)">GetState(GameWindow)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="4">This API is an extension to XNA.
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Mouse_GetState_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_GetState_Microsoft_Xna_Framework_GameWindow_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.GetState(Microsoft.Xna.Framework.GameWindow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L33">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Mouse_GetState_Microsoft_Xna_Framework_GameWindow_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState(Microsoft.Xna.Framework.GameWindow)">GetState(GameWindow)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="4">This API is an extension to XNA.
 Gets mouse state information that includes position and button
 presses for the provided window</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static MouseState GetState(GameWindow window)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.GameWindow" text="GameWindow" alt="Microsoft.Xna.Framework.GameWindow"/></td>
-          <td><span class="parametername">window</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Input.MouseState" text="MouseState" alt="Microsoft.Xna.Framework.Input.MouseState"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Current state of the mouse.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static MouseState GetState(GameWindow window)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.GameWindow" text="GameWindow" alt="Microsoft.Xna.Framework.GameWindow"/></td>
+                <td><span class="parametername">window</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Input.MouseState" text="MouseState" alt="Microsoft.Xna.Framework.Input.MouseState"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Current state of the mouse.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Mouse_PlatformSetCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.PlatformSetCursor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_PlatformSetCursor_Microsoft_Xna_Framework_Input_MouseCursor_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.PlatformSetCursor(Microsoft.Xna.Framework.Input.MouseCursor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.Windows.cs/#L43">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Mouse_PlatformSetCursor_Microsoft_Xna_Framework_Input_MouseCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.PlatformSetCursor(Microsoft.Xna.Framework.Input.MouseCursor)">PlatformSetCursor(MouseCursor)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static void PlatformSetCursor(MouseCursor cursor)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Input.MouseCursor" text="MouseCursor" alt="Microsoft.Xna.Framework.Input.MouseCursor"/></td>
-          <td><span class="parametername">cursor</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Mouse_SetCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetCursor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_SetCursor_Microsoft_Xna_Framework_Input_MouseCursor_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.SetCursor(Microsoft.Xna.Framework.Input.MouseCursor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L65">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Mouse_SetCursor_Microsoft_Xna_Framework_Input_MouseCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetCursor(Microsoft.Xna.Framework.Input.MouseCursor)">SetCursor(MouseCursor)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets the cursor image to the specified MouseCursor.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Mouse_PlatformSetCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.PlatformSetCursor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_PlatformSetCursor_Microsoft_Xna_Framework_Input_MouseCursor_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.PlatformSetCursor(Microsoft.Xna.Framework.Input.MouseCursor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.Windows.cs/#L43">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Mouse_PlatformSetCursor_Microsoft_Xna_Framework_Input_MouseCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.PlatformSetCursor(Microsoft.Xna.Framework.Input.MouseCursor)">PlatformSetCursor(MouseCursor)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static void PlatformSetCursor(MouseCursor cursor)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Input.MouseCursor" text="MouseCursor" alt="Microsoft.Xna.Framework.Input.MouseCursor"/></td>
+                <td><span class="parametername">cursor</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Mouse_SetCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetCursor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_SetCursor_Microsoft_Xna_Framework_Input_MouseCursor_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.SetCursor(Microsoft.Xna.Framework.Input.MouseCursor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L65">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Mouse_SetCursor_Microsoft_Xna_Framework_Input_MouseCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetCursor(Microsoft.Xna.Framework.Input.MouseCursor)">SetCursor(MouseCursor)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets the cursor image to the specified MouseCursor.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static void SetCursor(MouseCursor cursor)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Input.MouseCursor" text="MouseCursor" alt="Microsoft.Xna.Framework.Input.MouseCursor"/></td>
-          <td><span class="parametername">cursor</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Mouse cursor to use for the cursor image.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static void SetCursor(MouseCursor cursor)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Input.MouseCursor" text="MouseCursor" alt="Microsoft.Xna.Framework.Input.MouseCursor"/></td>
+                <td><span class="parametername">cursor</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Mouse cursor to use for the cursor image.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Mouse_SetPosition_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetPosition*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_SetPosition_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.SetPosition(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L56">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Mouse_SetPosition_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetPosition(System.Int32,System.Int32)">SetPosition(Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets mouse cursor&apos;s relative position to game-window.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Mouse_SetPosition_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetPosition*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Mouse_SetPosition_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Mouse.SetPosition(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Mouse.cs/#L56">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Mouse_SetPosition_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetPosition(System.Int32,System.Int32)">SetPosition(Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets mouse cursor&apos;s relative position to game-window.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static void SetPosition(int x, int y)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">x</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Relative horizontal position of the cursor.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static void SetPosition(int x, int y)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">x</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Relative horizontal position of the cursor.</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">y</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Relative vertical position of the cursor.</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">y</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Input.Mouse.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Relative vertical position of the cursor.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

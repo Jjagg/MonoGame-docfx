@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,1067 +55,1104 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_GraphicsDeviceManager" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager" class="text-break">GraphicsDeviceManager Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework" text="Microsoft.Xna.Framework" alt="Microsoft.Xna.Framework"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Used to initialize and control the presentation of the graphics device.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><span class="xref">GraphicsDeviceManager</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService" text="IGraphicsDeviceService" alt="Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService"/></div>
-      <div><xref uid="IDisposable" text="IDisposable" alt="IDisposable"/></div>
-      <div><xref uid="Microsoft.Xna.Framework.IGraphicsDeviceManager" text="IGraphicsDeviceManager" alt="Microsoft.Xna.Framework.IGraphicsDeviceManager"/></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_GraphicsDeviceManager_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class GraphicsDeviceManager : object, IGraphicsDeviceService, IDisposable, IGraphicsDeviceManager</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_Microsoft_Xna_Framework_Game_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.%23ctor(Microsoft.Xna.Framework.Game)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L54">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_Microsoft_Xna_Framework_Game_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.#ctor(Microsoft.Xna.Framework.Game)">GraphicsDeviceManager(Game)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Associates this graphics device manager to a game instances.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class GraphicsDeviceManager : IGraphicsDeviceService, IDisposable, IGraphicsDeviceManager</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">GraphicsDeviceManager</span>
+        </div>
+      </div>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService" text="IGraphicsDeviceService" alt="Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService"/></div>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.IGraphicsDeviceManager" text="IGraphicsDeviceManager" alt="Microsoft.Xna.Framework.IGraphicsDeviceManager"/></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_Microsoft_Xna_Framework_Game_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.%23ctor(Microsoft.Xna.Framework.Game)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L54">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_Microsoft_Xna_Framework_Game_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.#ctor(Microsoft.Xna.Framework.Game)">GraphicsDeviceManager(Game)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Associates this graphics device manager to a game instances.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public GraphicsDeviceManager(Game game)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Game" text="Game" alt="Microsoft.Xna.Framework.Game"/></td>
-          <td><span class="parametername">game</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The game instance to attach.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public GraphicsDeviceManager(Game game)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Game" text="Game" alt="Microsoft.Xna.Framework.Game"/></td>
+                <td><span class="parametername">game</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The game instance to attach.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="fields">Fields
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferHeight.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L43">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferHeight" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferHeight">DefaultBackBufferHeight</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The default back buffer height.</p>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="fields">Fields
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferHeight.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L43">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferHeight" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferHeight">DefaultBackBufferHeight</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The default back buffer height.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static readonly int DefaultBackBufferHeight</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferWidth.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L38">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferWidth" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferWidth">DefaultBackBufferWidth</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The default back buffer width.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static readonly int DefaultBackBufferHeight</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferWidth.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L38">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferWidth" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferWidth">DefaultBackBufferWidth</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The default back buffer width.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static readonly int DefaultBackBufferWidth</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L391">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice">GraphicsDevice</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the graphics device for this manager.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static readonly int DefaultBackBufferWidth</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L391">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice">GraphicsDevice</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the graphics device for this manager.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public GraphicsDevice GraphicsDevice { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L375">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile">GraphicsProfile</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The profile which determines the graphics feature level.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public GraphicsDevice GraphicsDevice { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L375">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile">GraphicsProfile</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The profile which determines the graphics feature level.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public GraphicsProfile GraphicsProfile { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" text="GraphicsProfile" alt="Microsoft.Xna.Framework.Graphics.GraphicsProfile"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L422">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch">HardwareModeSwitch</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Gets or sets the boolean which defines how window switches from windowed to fullscreen state.
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public GraphicsProfile GraphicsProfile { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" text="GraphicsProfile" alt="Microsoft.Xna.Framework.Graphics.GraphicsProfile"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L422">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch">HardwareModeSwitch</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Gets or sets the boolean which defines how window switches from windowed to fullscreen state.
 &quot;Hard&quot; mode(true) is slow to switch, but more effecient for performance, while &quot;soft&quot; mode(false) is vice versa.
 The default value is <code>true</code>.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool HardwareModeSwitch { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L407">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen">IsFullScreen</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desire to switch into fullscreen mode.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool HardwareModeSwitch { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L407">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen">IsFullScreen</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desire to switch into fullscreen mode.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsFullScreen { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">When called at startup this will automatically set fullscreen mode during initialization.  If
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsFullScreen { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">When called at startup this will automatically set fullscreen mode during initialization.  If
 set after startup you must call ApplyChanges() for the fullscreen mode to be changed.
 Note that for some platforms that do not support windowed modes this property has no affect.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L439">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling">PreferMultiSampling</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desire for a multisampled back buffer.</p>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L439">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling">PreferMultiSampling</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desire for a multisampled back buffer.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool PreferMultiSampling { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the MSAA mode during initialization.  If
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool PreferMultiSampling { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the MSAA mode during initialization.  If
 set after startup you must call ApplyChanges() for the MSAA mode to be changed.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L459">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat">PreferredBackBufferFormat</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired back buffer color format.</p>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L459">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat">PreferredBackBufferFormat</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired back buffer color format.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public SurfaceFormat PreferredBackBufferFormat { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the format during initialization.  If
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public SurfaceFormat PreferredBackBufferFormat { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the format during initialization.  If
 set after startup you must call ApplyChanges() for the format to be changed.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L479">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight">PreferredBackBufferHeight</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired back buffer height in pixels.</p>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L479">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight">PreferredBackBufferHeight</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired back buffer height in pixels.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int PreferredBackBufferHeight { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the height during initialization.  If
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int PreferredBackBufferHeight { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the height during initialization.  If
 set after startup you must call ApplyChanges() for the height to be changed.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L499">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth">PreferredBackBufferWidth</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired back buffer width in pixels.</p>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L499">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth">PreferredBackBufferWidth</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired back buffer width in pixels.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int PreferredBackBufferWidth { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the width during initialization.  If
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int PreferredBackBufferWidth { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">When called at startup this will automatically set the width during initialization.  If
 set after startup you must call ApplyChanges() for the width to be changed.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L520">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat">PreferredDepthStencilFormat</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired depth-stencil buffer format.</p>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L520">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat">PreferredDepthStencilFormat</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired depth-stencil buffer format.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DepthFormat PreferredDepthStencilFormat { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthFormat" text="DepthFormat" alt="Microsoft.Xna.Framework.Graphics.DepthFormat"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">The depth-stencil buffer format defines the scene depth precision and stencil bits available for effects during rendering.
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DepthFormat PreferredDepthStencilFormat { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthFormat" text="DepthFormat" alt="Microsoft.Xna.Framework.Graphics.DepthFormat"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">The depth-stencil buffer format defines the scene depth precision and stencil bits available for effects during rendering.
 When called at startup this will automatically set the format during initialization.  If
 set after startup you must call ApplyChanges() for the format to be changed.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L562">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations">SupportedOrientations</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired allowable display orientations when the device is rotated.</p>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L562">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations">SupportedOrientations</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desired allowable display orientations when the device is rotated.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DisplayOrientation SupportedOrientations { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.DisplayOrientation" text="DisplayOrientation" alt="Microsoft.Xna.Framework.DisplayOrientation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">This property only applies to mobile platforms with automatic display rotation.
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DisplayOrientation SupportedOrientations { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.DisplayOrientation" text="DisplayOrientation" alt="Microsoft.Xna.Framework.DisplayOrientation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">This property only applies to mobile platforms with automatic display rotation.
 When called at startup this will automatically apply the supported orientations during initialization.  If
 set after startup you must call ApplyChanges() for the supported orientations to be changed.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L541">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace">SynchronizeWithVerticalRetrace</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desire for vsync when presenting the back buffer.</p>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L541">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace">SynchronizeWithVerticalRetrace</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indicates the desire for vsync when presenting the back buffer.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool SynchronizeWithVerticalRetrace { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Vsync limits the frame rate of the game to the monitor referesh rate to prevent screen tearing.
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool SynchronizeWithVerticalRetrace { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Vsync limits the frame rate of the game to the monitor referesh rate to prevent screen tearing.
 When called at startup this will automatically set the vsync mode during initialization.  If
 set after startup you must call ApplyChanges() for the vsync mode to be changed.</p>
 </div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L295">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges">ApplyChanges()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Applies any pending property changes to the graphics device.</p>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L295">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges">ApplyChanges()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Applies any pending property changes to the graphics device.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void ApplyChanges()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L150">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw">BeginDraw()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool BeginDraw()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L225">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose">Dispose()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L231">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">disposing</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L159">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw">EndDraw()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void EndDraw()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L98">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize">Finalize()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L177">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(EventArgs)">OnDeviceDisposing(EventArgs)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected void OnDeviceDisposing(EventArgs e)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventArgs" text="EventArgs" alt="EventArgs"/></td>
-          <td><span class="parametername">e</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L182">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(EventArgs)">OnDeviceResetting(EventArgs)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected void OnDeviceResetting(EventArgs e)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventArgs" text="EventArgs" alt="EventArgs"/></td>
-          <td><span class="parametername">e</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L361">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen">ToggleFullScreen()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Toggles between windowed and fullscreen modes.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void ApplyChanges()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L150">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw">BeginDraw()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool BeginDraw()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L225">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose">Dispose()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L231">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">disposing</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L159">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw">EndDraw()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void EndDraw()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L98">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize">Finalize()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_System_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(System.EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L177">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(System.EventArgs)">OnDeviceDisposing(EventArgs)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected void OnDeviceDisposing(EventArgs e)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/></td>
+                <td><span class="parametername">e</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_System_EventArgs_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(System.EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L182">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(System.EventArgs)">OnDeviceResetting(EventArgs)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected void OnDeviceResetting(EventArgs e)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/></td>
+                <td><span class="parametername">e</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L361">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen">ToggleFullScreen()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Toggles between windowed and fullscreen modes.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void ToggleFullScreen()</code></pre>
-    </div>
-    <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Note that on platforms that do not support windowed modes this has no affect.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void ToggleFullScreen()</code></pre>
+          </div>
+          <h3 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.GraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Note that on platforms that do not support windowed modes this has no affect.</p>
 </div>
-    <h3 id="events">Events
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceCreated.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L170">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceCreated" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceCreated">DeviceCreated</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceCreated</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventHandler`1" text="EventHandler" alt="EventHandler"/>&lt;<xref uid="EventArgs" text="EventArgs" alt="EventArgs"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceDisposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceDisposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L171">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceDisposing" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceDisposing">DeviceDisposing</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceDisposing</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventHandler`1" text="EventHandler" alt="EventHandler"/>&lt;<xref uid="EventArgs" text="EventArgs" alt="EventArgs"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceReset.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceReset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L172">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceReset" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceReset">DeviceReset</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceReset</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventHandler`1" text="EventHandler" alt="EventHandler"/>&lt;<xref uid="EventArgs" text="EventArgs" alt="EventArgs"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceResetting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceResetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L173">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceResetting" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceResetting">DeviceResetting</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceResetting</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventHandler`1" text="EventHandler" alt="EventHandler"/>&lt;<xref uid="EventArgs" text="EventArgs" alt="EventArgs"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Disposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Disposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L175">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Disposed" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Disposed">Disposed</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposed</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventHandler`1" text="EventHandler" alt="EventHandler"/>&lt;<xref uid="EventArgs" text="EventArgs" alt="EventArgs"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreparingDeviceSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L174">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreparingDeviceSettings">PreparingDeviceSettings</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;PreparingDeviceSettingsEventArgs&gt; PreparingDeviceSettings</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventHandler`1" text="EventHandler" alt="EventHandler"/>&lt;<xref uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs" text="PreparingDeviceSettingsEventArgs" alt="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft#Xna#Framework#IGraphicsDeviceManager#CreateDevice*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft%23Xna%23Framework%23IGraphicsDeviceManager%23CreateDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L145">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft#Xna#Framework#IGraphicsDeviceManager#CreateDevice">IGraphicsDeviceManager.CreateDevice()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">void IGraphicsDeviceManager.CreateDevice()</code></pre>
-    </div>
-  </article>
+        <h3 id="events">Events
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceCreated.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L170">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceCreated" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceCreated">DeviceCreated</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceCreated</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceDisposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceDisposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L171">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceDisposing" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceDisposing">DeviceDisposing</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceDisposing</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceReset.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceReset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L172">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceReset" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceReset">DeviceReset</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceReset</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceResetting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceResetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L173">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceResetting" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceResetting">DeviceResetting</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceResetting</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Disposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Disposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L175">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Disposed" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Disposed">Disposed</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposed</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.PreparingDeviceSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L174">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreparingDeviceSettings">PreparingDeviceSettings</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;PreparingDeviceSettingsEventArgs&gt; PreparingDeviceSettings</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs" text="PreparingDeviceSettingsEventArgs" alt="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="eii">Explicit Interface Implementations
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft#Xna#Framework#IGraphicsDeviceManager#CreateDevice*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft%23Xna%23Framework%23IGraphicsDeviceManager%23CreateDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/GraphicsDeviceManager.cs/#L145">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft#Xna#Framework#IGraphicsDeviceManager#CreateDevice">IGraphicsDeviceManager.CreateDevice()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void IGraphicsDeviceManager.CreateDevice()</code></pre>
+          </div>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

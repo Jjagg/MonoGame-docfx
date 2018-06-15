@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,1092 +55,1126 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect" class="text-break">SkinnedEffect Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Built-in effect for rendering skinned character models.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></div>
-      <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></div>
-      <div class="level3"><span class="xref">SkinnedEffect</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectLights" text="IEffectLights" alt="Microsoft.Xna.Framework.Graphics.IEffectLights"/></div>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class SkinnedEffect : Effect, IDisposable, IEffectMatrices, IEffectLights, IEffectFog</code></pre>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level3"><span class="xref">SkinnedEffect</span>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectLights" text="IEffectLights" alt="Microsoft.Xna.Framework.Graphics.IEffectLights"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
-      </div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class SkinnedEffect : Effect, IEffectMatrices, IEffectLights, IEffectFog</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L381">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">SkinnedEffect(GraphicsDevice)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new SkinnedEffect with default parameter settings.</p>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L381">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">SkinnedEffect(GraphicsDevice)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new SkinnedEffect with default parameter settings.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public SkinnedEffect(GraphicsDevice device)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">device</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_SkinnedEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.%23ctor(Microsoft.Xna.Framework.Graphics.SkinnedEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L405">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_SkinnedEffect_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor(Microsoft.Xna.Framework.Graphics.SkinnedEffect)">SkinnedEffect(SkinnedEffect)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new SkinnedEffect by cloning parameter settings from an existing instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public SkinnedEffect(GraphicsDevice device)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">device</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_SkinnedEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.%23ctor(Microsoft.Xna.Framework.Graphics.SkinnedEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L405">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_SkinnedEffect_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor(Microsoft.Xna.Framework.Graphics.SkinnedEffect)">SkinnedEffect(SkinnedEffect)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new SkinnedEffect by cloning parameter settings from an existing instance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected SkinnedEffect(SkinnedEffect cloneSource)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect" text="SkinnedEffect" alt="Microsoft.Xna.Framework.Graphics.SkinnedEffect"/></td>
-          <td><span class="parametername">cloneSource</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="fields">Fields
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_MaxBones.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.MaxBones%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L23">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_MaxBones" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.MaxBones">MaxBones</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public const int MaxBones = null</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L174">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha">Alpha</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected SkinnedEffect(SkinnedEffect cloneSource)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect" text="SkinnedEffect" alt="Microsoft.Xna.Framework.Graphics.SkinnedEffect"/></td>
+                <td><span class="parametername">cloneSource</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="fields">Fields
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_MaxBones.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.MaxBones%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L23">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_MaxBones" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.MaxBones">MaxBones</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public const int MaxBones = 72</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L174">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha">Alpha</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L207">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor">AmbientLightColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the ambient light color (range 0 to 1).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L207">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor">AmbientLightColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the ambient light color (range 0 to 1).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 AmbientLightColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L124">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor">DiffuseColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 AmbientLightColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L124">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor">DiffuseColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L222">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0">DirectionalLight0</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the first directional light.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L222">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0">DirectionalLight0</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the first directional light.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight0 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L228">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1">DirectionalLight1</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the second directional light.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight0 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L228">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1">DirectionalLight1</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the second directional light.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight1 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L234">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2">DirectionalLight2</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the third directional light.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight1 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L234">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2">DirectionalLight2</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the third directional light.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight2 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L139">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor">EmissiveColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material emissive color (range 0 to 1).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight2 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L139">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor">EmissiveColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material emissive color (range 0 to 1).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 EmissiveColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L288">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor">FogColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 EmissiveColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L288">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor">FogColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L240">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled">FogEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L240">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled">FogEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L273">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd">FogEnd</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L273">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd">FogEnd</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L258">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart">FogStart</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L258">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart">FogStart</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L189">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting">PreferPerPixelLighting</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the per-pixel lighting prefer flag.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L189">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting">PreferPerPixelLighting</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the per-pixel lighting prefer flag.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool PreferPerPixelLighting { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L109">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection">Projection</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool PreferPerPixelLighting { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L109">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection">Projection</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L154">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor">SpecularColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material specular color (range 0 to 1).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L154">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor">SpecularColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material specular color (range 0 to 1).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 SpecularColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L164">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower">SpecularPower</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material specular power.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 SpecularColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L164">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower">SpecularPower</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material specular power.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float SpecularPower { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L298">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture">Texture</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current texture.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float SpecularPower { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L298">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture">Texture</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current texture.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.View*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L94">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.View">View</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.View*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L94">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.View">View</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L308">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex">WeightsPerVertex</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the number of skinning weights to evaluate for each vertex (1, 2, or 4).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L308">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex">WeightsPerVertex</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the number of skinning weights to evaluate for each vertex (1, 2, or 4).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int WeightsPerVertex { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.World*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L79">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.World">World</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int WeightsPerVertex { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.World*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L79">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.World">World</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L433">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone">Clone()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current SkinnedEffect instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L433">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone">Clone()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current SkinnedEffect instance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L442">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting">EnableDefaultLighting()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets up the standard key/fill/back lighting rig.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L442">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting">EnableDefaultLighting()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets up the standard key/fill/back lighting rig.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void EnableDefaultLighting()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L345">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms(System.Int32)">GetBoneTransforms(Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets a copy of the current skinning bone transform matrices.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void EnableDefaultLighting()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L345">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms(System.Int32)">GetBoneTransforms(Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets a copy of the current skinning bone transform matrices.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix[] GetBoneTransforms(int count)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">count</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/>[]</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L486">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply">OnApply()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix[] GetBoneTransforms(int count)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">count</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/>[]</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L486">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply">OnApply()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_Microsoft_Xna_Framework_Matrix___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms(Microsoft.Xna.Framework.Matrix%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L330">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_Microsoft_Xna_Framework_Matrix___" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms(Microsoft.Xna.Framework.Matrix[])">SetBoneTransforms(Matrix[])</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets an array of skinning bone transform matrices.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_Microsoft_Xna_Framework_Matrix___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms(Microsoft.Xna.Framework.Matrix%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L330">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_Microsoft_Xna_Framework_Matrix___" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms(Microsoft.Xna.Framework.Matrix[])">SetBoneTransforms(Matrix[])</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets an array of skinning bone transform matrices.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SetBoneTransforms(Matrix[] boneTransforms)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/>[]</td>
-          <td><span class="parametername">boneTransforms</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft%23Xna%23Framework%23Graphics%23IEffectLights%23LightingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L366">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled">IEffectLights.LightingEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="3">This effect requires lighting, so we explicitly implement
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SetBoneTransforms(Matrix[] boneTransforms)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/>[]</td>
+                <td><span class="parametername">boneTransforms</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="eii">Explicit Interface Implementations
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft%23Xna%23Framework%23Graphics%23IEffectLights%23LightingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/SkinnedEffect.cs/#L366">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled">IEffectLights.LightingEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.SkinnedEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="3">This effect requires lighting, so we explicitly implement
 IEffectLights.LightingEnabled, and do not allow turning it off.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">bool IEffectLights.LightingEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool IEffectLights.LightingEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

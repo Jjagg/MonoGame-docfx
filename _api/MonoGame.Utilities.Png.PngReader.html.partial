@@ -1,158 +1,194 @@
 ﻿
-  
-  <article id="content" data-uid="MonoGame.Utilities.Png.PngReader" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="MonoGame.Utilities.Png.PngReader" role="main" class="pos-rel">
   <h1 id="MonoGame_Utilities_Png_PngReader" data-uid="MonoGame.Utilities.Png.PngReader" class="text-break">PngReader Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="MonoGame.Utilities.Png.html">MonoGame.Utilities.Png</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">PngReader</span></div>
-    </div>
-    <h5 id="MonoGame_Utilities_Png_PngReader_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class PngReader : object</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class PngReader</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">PngReader</span>
+        </span></div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="MonoGame_Utilities_Png_PngReader__ctor_" data-uid="MonoGame.Utilities.Png.PngReader.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=MonoGame_Utilities_Png_PngReader__ctor.md&amp;value=---%0Auid%3A%20MonoGame.Utilities.Png.PngReader.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Utilities/Png/PngReader.cs/#L33">View Source</a>
+            </span>
+      
+            <h4 id="MonoGame_Utilities_Png_PngReader__ctor" data-uid="MonoGame.Utilities.Png.PngReader.#ctor">PngReader()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public PngReader()</code></pre>
+          </div>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="MonoGame_Utilities_Png_PngReader_IsPngImage_" data-uid="MonoGame.Utilities.Png.PngReader.IsPngImage*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=MonoGame_Utilities_Png_PngReader_IsPngImage_System_IO_Stream_.md&amp;value=---%0Auid%3A%20MonoGame.Utilities.Png.PngReader.IsPngImage(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Utilities/Png/PngReader.cs/#L70">View Source</a>
+            </span>
+      
+            <h4 id="MonoGame_Utilities_Png_PngReader_IsPngImage_System_IO_Stream_" data-uid="MonoGame.Utilities.Png.PngReader.IsPngImage(System.IO.Stream)">IsPngImage(Stream)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool IsPngImage(Stream stream)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+                <td><span class="parametername">stream</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="MonoGame_Utilities_Png_PngReader_Read_" data-uid="MonoGame.Utilities.Png.PngReader.Read*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=MonoGame_Utilities_Png_PngReader_Read_System_IO_Stream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20MonoGame.Utilities.Png.PngReader.Read(System.IO.Stream%2CMicrosoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Utilities/Png/PngReader.cs/#L39">View Source</a>
+            </span>
+      
+            <h4 id="MonoGame_Utilities_Png_PngReader_Read_System_IO_Stream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="MonoGame.Utilities.Png.PngReader.Read(System.IO.Stream,Microsoft.Xna.Framework.Graphics.GraphicsDevice)">Read(Stream, GraphicsDevice)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D Read(Stream inputStream, GraphicsDevice graphicsDevice)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+                <td><span class="parametername">inputStream</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+                <td><span class="parametername">graphicsDevice</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="MonoGame_Utilities_Png_PngReader__ctor_" data-uid="MonoGame.Utilities.Png.PngReader.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=MonoGame_Utilities_Png_PngReader__ctor.md&amp;value=---%0Auid%3A%20MonoGame.Utilities.Png.PngReader.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Utilities/Png/PngReader.cs/#L33">View Source</a>
-      </span>
-  
-      <h4 id="MonoGame_Utilities_Png_PngReader__ctor" data-uid="MonoGame.Utilities.Png.PngReader.#ctor">PngReader()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public PngReader()</code></pre>
-    </div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="MonoGame_Utilities_Png_PngReader_IsPngImage_" data-uid="MonoGame.Utilities.Png.PngReader.IsPngImage*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=MonoGame_Utilities_Png_PngReader_IsPngImage_Stream_.md&amp;value=---%0Auid%3A%20MonoGame.Utilities.Png.PngReader.IsPngImage(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Utilities/Png/PngReader.cs/#L70">View Source</a>
-      </span>
-  
-      <h4 id="MonoGame_Utilities_Png_PngReader_IsPngImage_Stream_" data-uid="MonoGame.Utilities.Png.PngReader.IsPngImage(Stream)">IsPngImage(Stream)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool IsPngImage(Stream stream)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">Stream</span></td>
-          <td><span class="parametername">stream</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="MonoGame_Utilities_Png_PngReader_Read_" data-uid="MonoGame.Utilities.Png.PngReader.Read*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=MonoGame_Utilities_Png_PngReader_Read_Stream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20MonoGame.Utilities.Png.PngReader.Read(Stream%2CMicrosoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Utilities/Png/PngReader.cs/#L39">View Source</a>
-      </span>
-  
-      <h4 id="MonoGame_Utilities_Png_PngReader_Read_Stream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="MonoGame.Utilities.Png.PngReader.Read(Stream,Microsoft.Xna.Framework.Graphics.GraphicsDevice)">Read(Stream, GraphicsDevice)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D Read(Stream inputStream, GraphicsDevice graphicsDevice)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">Stream</span></td>
-          <td><span class="parametername">inputStream</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
-          <td><span class="parametername">graphicsDevice</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

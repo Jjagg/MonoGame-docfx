@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,362 +55,413 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsResource" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" class="text-break">GraphicsResource Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><span class="xref">GraphicsResource</span></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.BlendState" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.IndexBuffer" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.RasterizerState" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.SamplerState" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.SpriteBatch" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Texture" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.VertexBuffer" displayProperty="name" altProperty="fullName"/></div>
-        <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration" displayProperty="name" altProperty="fullName"/></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public abstract class GraphicsResource : IDisposable</code></pre>
-    </div>
-  </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L121">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice">GraphicsDevice</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public GraphicsDevice GraphicsDevice { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L150">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed">IsDisposed</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Name_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L158">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Name" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name">Name</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L160">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag">Tag</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Object Tag { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Object" text="Object" alt="Object"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L79">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose">Dispose()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L92">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The method that derived classes should override to implement disposing of managed and native resources.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public abstract class GraphicsResource : IDisposable</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">GraphicsResource</span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.BlendState" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.IndexBuffer" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.RasterizerState" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.SamplerState" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.SpriteBatch" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Texture" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.VertexBuffer" displayProperty="name" altProperty="fullName"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration" displayProperty="name" altProperty="fullName"/></span>
+        </div>
+      </div>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L121">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice">GraphicsDevice</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public GraphicsDevice GraphicsDevice { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L150">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed">IsDisposed</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Name_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L158">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Name" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name">Name</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L160">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag">Tag</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public object Tag { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L79">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose">Dispose()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L92">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The method that derived classes should override to implement disposing of managed and native resources.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">disposing</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True if managed objects should be disposed.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">disposing</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True if managed objects should be disposed.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Native resources should always be released regardless of the value of the disposing parameter.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Native resources should always be released regardless of the value of the disposing parameter.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Finalize_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Finalize*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L62">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Finalize" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Finalize">Finalize()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L74">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting">GraphicsDeviceResetting()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="2" sourceendlinenumber="5">Called before the device is reset. Allows graphics resources to 
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Finalize_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Finalize*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L62">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Finalize" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Finalize">Finalize()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L74">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting">GraphicsDeviceResetting()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsResource.yml" sourcestartlinenumber="2" sourceendlinenumber="5">Called before the device is reset. Allows graphics resources to 
 invalidate their state so they can be recreated after the device reset.
 Warning: This may be called after a call to Dispose() up until
 the resource is garbage collected.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected virtual void GraphicsDeviceResetting()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L162">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString">ToString()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="events">Events
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L119">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing">Disposing</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="EventHandler`1" text="EventHandler" alt="EventHandler"/>&lt;<xref uid="EventArgs" text="EventArgs" alt="EventArgs"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected virtual void GraphicsDeviceResetting()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L162">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString">ToString()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.Object.ToString" altProperty="fullName" displayProperty="nameWithType"/></div>
+        <h3 id="events">Events
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsResource.cs/#L119">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing">Disposing</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.EventHandler`1" text="EventHandler" alt="System.EventHandler"/>&lt;<xref uid="System.EventArgs" text="EventArgs" alt="System.EventArgs"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

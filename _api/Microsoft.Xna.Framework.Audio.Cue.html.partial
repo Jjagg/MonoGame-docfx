@@ -1,683 +1,723 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.Cue" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Cue" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Audio_Cue" data-uid="Microsoft.Xna.Framework.Audio.Cue" class="text-break">Cue Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Manages the playback of a sound or set of sounds.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">Cue</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_Cue_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class Cue : IDisposable</code></pre>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_Cue_remarks"><strong>Remarks</strong></h5>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class Cue : IDisposable</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">Cue</span>
+        </span></div>
+      </div>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+    <h2 id="Microsoft_Xna_Framework_Audio_Cue_remarks"><strong>Remarks</strong></h2>
     <div class="markdown level0 remarks"><p>Cues are comprised of one or more sounds.</p>
 <p>Cues also define specific properties such as pitch or volume.</p>
 <p>Cues are referenced through SoundBank objects.</p>
 </div>
-  </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsCreated_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsCreated*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsCreated.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L83">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsCreated" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsCreated">IsCreated</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsCreated { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsDisposed*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L352">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsDisposed">IsDisposed</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Is true if the Cue has been disposed.</p>
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsCreated_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsCreated*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsCreated.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L83">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsCreated" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsCreated">IsCreated</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsCreated { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsDisposed*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L352">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsDisposed">IsDisposed</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Is true if the Cue has been disposed.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsPaused_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPaused*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPaused.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPaused%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L31">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPaused" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPaused">IsPaused</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Indicates whether or not the cue is currently paused.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsPaused_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPaused*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPaused.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPaused%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L31">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPaused" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPaused">IsPaused</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Indicates whether or not the cue is currently paused.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsPaused { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_Cue_IsPaused_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>IsPlaying and IsPaused both return true if a cue is paused while playing.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsPaused { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_Cue_IsPaused_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>IsPlaying and IsPaused both return true if a cue is paused while playing.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPlaying*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPlaying.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPlaying%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L44">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPlaying">IsPlaying</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Indicates whether or not the cue is currently playing.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPlaying*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPlaying.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPlaying%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L44">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPlaying">IsPlaying</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Indicates whether or not the cue is currently playing.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsPlaying { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>IsPlaying and IsPaused both return true if a cue is paused while playing.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsPlaying { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>IsPlaying and IsPaused both return true if a cue is paused while playing.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsPrepared_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPrepared*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPrepared.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPrepared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L81">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPrepared" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPrepared">IsPrepared</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsPrepared { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsPreparing_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPreparing*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPreparing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPreparing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L76">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPreparing" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPreparing">IsPreparing</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsPreparing { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsStopped_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopped*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsStopped.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsStopped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L56">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsStopped" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopped">IsStopped</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Indicates whether or not the cue is currently stopped.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsPrepared_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPrepared*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPrepared.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPrepared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L81">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPrepared" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPrepared">IsPrepared</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsPrepared { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsPreparing_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPreparing*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsPreparing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsPreparing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L76">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsPreparing" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsPreparing">IsPreparing</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsPreparing { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsStopped_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopped*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsStopped.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsStopped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L56">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsStopped" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopped">IsStopped</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Indicates whether or not the cue is currently stopped.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsStopped { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_IsStopping_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopping*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsStopping.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsStopping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L67">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsStopping" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopping">IsStopping</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsStopping { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_Name_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Name*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L87">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Name" data-uid="Microsoft.Xna.Framework.Audio.Cue.Name">Name</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets the friendly name of the cue.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsStopped { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_IsStopping_" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopping*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_IsStopping.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.IsStopping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L67">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_IsStopping" data-uid="Microsoft.Xna.Framework.Audio.Cue.IsStopping">IsStopping</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsStopping { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_Name_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Name*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L87">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Name" data-uid="Microsoft.Xna.Framework.Audio.Cue.Name">Name</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets the friendly name of the cue.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_Cue_Name_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>The friendly name is a value set from the designer.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_Cue_Name_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>The friendly name is a value set from the designer.</p>
 </div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Apply3D*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Apply3D(Microsoft.Xna.Framework.Audio.AudioListener%2CMicrosoft.Xna.Framework.Audio.AudioEmitter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L234">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Apply3D(Microsoft.Xna.Framework.Audio.AudioListener,Microsoft.Xna.Framework.Audio.AudioEmitter)">Apply3D(AudioListener, AudioEmitter)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Updates the simulated 3D Audio settings calculated between an AudioEmitter and AudioListener.</p>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Apply3D*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Apply3D(Microsoft.Xna.Framework.Audio.AudioListener%2CMicrosoft.Xna.Framework.Audio.AudioEmitter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L234">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Apply3D(Microsoft.Xna.Framework.Audio.AudioListener,Microsoft.Xna.Framework.Audio.AudioEmitter)">Apply3D(AudioListener, AudioEmitter)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Updates the simulated 3D Audio settings calculated between an AudioEmitter and AudioListener.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Apply3D(AudioListener listener, AudioEmitter emitter)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a></td>
-          <td><span class="parametername">listener</span></td>
-          <td><p>The listener to calculate.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Apply3D(AudioListener listener, AudioEmitter emitter)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a></td>
+                <td><span class="parametername">listener</span></td>
+                <td><p>The listener to calculate.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
-          <td><span class="parametername">emitter</span></td>
-          <td><p>The emitter to calculate.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
+                <td><span class="parametername">emitter</span></td>
+                <td><p>The emitter to calculate.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>This must be called before Play().</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>This must be called before Play().</p>
 <p>Calling this method automatically converts the sound to monoaural and sets the speaker mix for any sound played by this cue to a value calculated with the listener&apos;s and emitter&apos;s positions. Any stereo information in the sound will be discarded.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L357">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Dispose" data-uid="Microsoft.Xna.Framework.Audio.Cue.Dispose">Dispose()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Disposes the Cue.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L357">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Dispose" data-uid="Microsoft.Xna.Framework.Audio.Cue.Dispose">Dispose()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Disposes the Cue.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_" data-uid="Microsoft.Xna.Framework.Audio.Cue.GetVariable*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.GetVariable(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L215">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String_" data-uid="Microsoft.Xna.Framework.Audio.Cue.GetVariable(System.String)">GetVariable(String)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets a cue-instance variable value based on its friendly name.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_" data-uid="Microsoft.Xna.Framework.Audio.Cue.GetVariable*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.GetVariable(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L215">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String_" data-uid="Microsoft.Xna.Framework.Audio.Cue.GetVariable(System.String)">GetVariable(String)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets a cue-instance variable value based on its friendly name.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float GetVariable(string name)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td><span class="parametername">name</span></td>
-          <td><p>Friendly name of the variable.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float GetVariable(string name)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+                <td><span class="parametername">name</span></td>
+                <td><p>Friendly name of the variable.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><p>Value of the variable.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><p>Value of the variable.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Cue-instance variables are useful when multiple instantiations of a single cue (and its associated sounds) are required (for example, a &quot;car&quot; cue where there may be more than one car at any given time). While a global variable allows multiple audio elements to be controlled in unison, a cue instance variable grants discrete control of each instance of a cue, even for each copy of the same cue.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Cue-instance variables are useful when multiple instantiations of a single cue (and its associated sounds) are required (for example, a &quot;car&quot; cue where there may be more than one car at any given time). While a global variable allows multiple audio elements to be controlled in unison, a cue instance variable grants discrete control of each instance of a cue, even for each copy of the same cue.</p>
 <p>The friendly name is a value set from the designer.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_Pause_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Pause*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Pause.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L121">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Pause" data-uid="Microsoft.Xna.Framework.Audio.Cue.Pause">Pause()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Pauses playback.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_Pause_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Pause*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Pause.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L121">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Pause" data-uid="Microsoft.Xna.Framework.Audio.Cue.Pause">Pause()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Pauses playback.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_Play_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Play*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Play.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L132">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Play" data-uid="Microsoft.Xna.Framework.Audio.Cue.Play">Play()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Requests playback of a prepared or preparing Cue.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_Play_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Play*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Play.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L132">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Play" data-uid="Microsoft.Xna.Framework.Audio.Cue.Play">Play()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Requests playback of a prepared or preparing Cue.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Play()</code></pre>
-    </div>
-    <h3 id="Microsoft_Xna_Framework_Audio_Cue_Play_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Calling Play when the Cue already is playing can result in an InvalidOperationException.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Play()</code></pre>
+          </div>
+          <h3 id="Microsoft_Xna_Framework_Audio_Cue_Play_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Calling Play when the Cue already is playing can result in an InvalidOperationException.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_Resume_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Resume*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Resume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L153">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Resume" data-uid="Microsoft.Xna.Framework.Audio.Cue.Resume">Resume()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Resumes playback of a paused Cue.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_Resume_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Resume*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Resume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L153">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Resume" data-uid="Microsoft.Xna.Framework.Audio.Cue.Resume">Resume()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Resumes playback of a paused Cue.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_" data-uid="Microsoft.Xna.Framework.Audio.Cue.SetVariable*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.SetVariable(System.String%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L196">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.Cue.SetVariable(System.String,System.Single)">SetVariable(String, Single)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Sets the value of a cue-instance variable based on its friendly name.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_" data-uid="Microsoft.Xna.Framework.Audio.Cue.SetVariable*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.SetVariable(System.String%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L196">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.Cue.SetVariable(System.String,System.Single)">SetVariable(String, Single)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Sets the value of a cue-instance variable based on its friendly name.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SetVariable(string name, float value)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td><span class="parametername">name</span></td>
-          <td><p>Friendly name of the variable to set.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SetVariable(string name, float value)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+                <td><span class="parametername">name</span></td>
+                <td><p>Friendly name of the variable to set.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">value</span></td>
-          <td><p>Value to assign to the variable.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">value</span></td>
+                <td><p>Value to assign to the variable.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>The friendly name is a value set from the designer.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>The friendly name is a value set from the designer.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_Cue_Stop_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Stop*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L164">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)">Stop(AudioStopOptions)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Stops playback of a Cue.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_Cue_Stop_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Stop*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L164">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)">Stop(AudioStopOptions)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Stops playback of a Cue.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Stop(AudioStopOptions options)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioStopOptions.html">AudioStopOptions</a></td>
-          <td><span class="parametername">options</span></td>
-          <td><p>Specifies if the sound should play any pending release phases or transitions before stopping.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Stop(AudioStopOptions options)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioStopOptions.html">AudioStopOptions</a></td>
+                <td><span class="parametername">options</span></td>
+                <td><p>Specifies if the sound should play any pending release phases or transitions before stopping.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="events">Events
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L347">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_Cue_Disposing" data-uid="Microsoft.Xna.Framework.Audio.Cue.Disposing">Disposing</h4>
-    </div>
-    <div class="markdown level1 summary"><p>This event is triggered when the Cue is disposed.</p>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="events">Events
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_Cue_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.Cue.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/Cue.cs/#L347">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_Cue_Disposing" data-uid="Microsoft.Xna.Framework.Audio.Cue.Disposing">Disposing</h4>
+          </div>
+          <div class="markdown level1 summary"><p>This event is triggered when the Cue is disposed.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>

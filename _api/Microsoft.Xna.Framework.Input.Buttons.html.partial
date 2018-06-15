@@ -1,158 +1,167 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Buttons" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Buttons" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Input_Buttons" data-uid="Microsoft.Xna.Framework.Input.Buttons" class="text-break">Buttons Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Input.html">Microsoft.Xna.Framework.Input</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Defines the buttons on gamepad.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Input_Buttons_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum Buttons : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">[Flags]
+public enum Buttons</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_A">A</td>
+            <td><p>A button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_B">B</td>
+            <td><p>B button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_Back">Back</td>
+            <td><p>BACK button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_BigButton">BigButton</td>
+            <td><p>Big button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_DPadDown">DPadDown</td>
+            <td><p>Directional pad down.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_DPadLeft">DPadLeft</td>
+            <td><p>Directional pad left.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_DPadRight">DPadRight</td>
+            <td><p>Directional pad right.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_DPadUp">DPadUp</td>
+            <td><p>Directional pad up.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_LeftShoulder">LeftShoulder</td>
+            <td><p>Left bumper (shoulder) button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_LeftStick">LeftStick</td>
+            <td><p>Left stick button (pressing the left stick).</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickDown">LeftThumbstickDown</td>
+            <td><p>Left stick is towards down.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickLeft">LeftThumbstickLeft</td>
+            <td><p>Left stick is towards the left.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickRight">LeftThumbstickRight</td>
+            <td><p>Left stick is towards the right.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickUp">LeftThumbstickUp</td>
+            <td><p>Left stick is towards up.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_LeftTrigger">LeftTrigger</td>
+            <td><p>Left trigger.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_RightShoulder">RightShoulder</td>
+            <td><p>Right bumper (shoulder) button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_RightStick">RightStick</td>
+            <td><p>Right stick button (pressing the right stick).</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickDown">RightThumbstickDown</td>
+            <td><p>Right stick is towards down.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickLeft">RightThumbstickLeft</td>
+            <td><p>Right stick is towards the left.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickRight">RightThumbstickRight</td>
+            <td><p>Right stick is towards the right.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickUp">RightThumbstickUp</td>
+            <td><p>Right stick is towards up.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_RightTrigger">RightTrigger</td>
+            <td><p>Right trigger.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_Start">Start</td>
+            <td><p>START button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_X">X</td>
+            <td><p>X button.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Buttons_Y">Y</td>
+            <td><p>Y button.</p>
+</td>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_A">A</td>
-          <td><p>A button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_B">B</td>
-          <td><p>B button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_Back">Back</td>
-          <td><p>BACK button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_BigButton">BigButton</td>
-          <td><p>Big button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_DPadDown">DPadDown</td>
-          <td><p>Directional pad down.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_DPadLeft">DPadLeft</td>
-          <td><p>Directional pad left.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_DPadRight">DPadRight</td>
-          <td><p>Directional pad right.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_DPadUp">DPadUp</td>
-          <td><p>Directional pad up.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_LeftShoulder">LeftShoulder</td>
-          <td><p>Left bumper (shoulder) button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_LeftStick">LeftStick</td>
-          <td><p>Left stick button (pressing the left stick).</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickDown">LeftThumbstickDown</td>
-          <td><p>Left stick is towards down.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickLeft">LeftThumbstickLeft</td>
-          <td><p>Left stick is towards the left.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickRight">LeftThumbstickRight</td>
-          <td><p>Left stick is towards the right.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_LeftThumbstickUp">LeftThumbstickUp</td>
-          <td><p>Left stick is towards up.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_LeftTrigger">LeftTrigger</td>
-          <td><p>Left trigger.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_RightShoulder">RightShoulder</td>
-          <td><p>Right bumper (shoulder) button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_RightStick">RightStick</td>
-          <td><p>Right stick button (pressing the right stick).</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickDown">RightThumbstickDown</td>
-          <td><p>Right stick is towards down.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickLeft">RightThumbstickLeft</td>
-          <td><p>Right stick is towards the left.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickRight">RightThumbstickRight</td>
-          <td><p>Right stick is towards the right.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_RightThumbstickUp">RightThumbstickUp</td>
-          <td><p>Right stick is towards up.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_RightTrigger">RightTrigger</td>
-          <td><p>Right trigger.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_Start">Start</td>
-          <td><p>START button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_X">X</td>
-          <td><p>X button.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Buttons_Y">Y</td>
-          <td><p>Y button.</p>
-</td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+</article>

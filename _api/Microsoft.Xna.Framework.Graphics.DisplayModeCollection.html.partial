@@ -1,116 +1,194 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection" class="text-break">DisplayModeCollection Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">DisplayModeCollection</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class DisplayModeCollection : IEnumerable&lt;DisplayMode&gt;</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class DisplayModeCollection : IEnumerable&lt;DisplayMode&gt;, IEnumerable</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">DisplayModeCollection</span>
+        </span></div>
+      </div>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.html">DisplayMode</a>&gt;</div>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_Item_" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DisplayModeCollection_Item_Microsoft_Xna_Framework_Graphics_SurfaceFormat_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item(Microsoft.Xna.Framework.Graphics.SurfaceFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DisplayModeCollection.cs/#L40">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_Item_Microsoft_Xna_Framework_Graphics_SurfaceFormat_" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item(Microsoft.Xna.Framework.Graphics.SurfaceFormat)">Item[SurfaceFormat]</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public IEnumerable&lt;DisplayMode&gt; this[SurfaceFormat format] { get; }</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+                <td><span class="parametername">format</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.html">DisplayMode</a>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.GetEnumerator*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DisplayModeCollection_GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DisplayModeCollection.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DisplayModeCollection.cs/#L54">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_GetEnumerator" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.GetEnumerator">GetEnumerator()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public IEnumerator&lt;DisplayMode&gt; GetEnumerator()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.html">DisplayMode</a>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="eii">Explicit Interface Implementations
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_System_Collections_IEnumerable_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System#Collections#IEnumerable#GetEnumerator*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DisplayModeCollection_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DisplayModeCollection.cs/#L59">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_System_Collections_IEnumerable_GetEnumerator" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_Item_" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DisplayModeCollection_Item_Microsoft_Xna_Framework_Graphics_SurfaceFormat_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item(Microsoft.Xna.Framework.Graphics.SurfaceFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DisplayModeCollection.cs/#L40">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_Item_Microsoft_Xna_Framework_Graphics_SurfaceFormat_" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item(Microsoft.Xna.Framework.Graphics.SurfaceFormat)">Item[SurfaceFormat]</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public IEnumerable&lt;DisplayMode&gt; this[SurfaceFormat format] { get; }</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
-          <td><span class="parametername">format</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.html">DisplayMode</a>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.GetEnumerator*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DisplayModeCollection_GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DisplayModeCollection.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DisplayModeCollection.cs/#L54">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DisplayModeCollection_GetEnumerator" data-uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection.GetEnumerator">GetEnumerator()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public IEnumerator&lt;DisplayMode&gt; GetEnumerator()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">IEnumerator</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.html">DisplayMode</a>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

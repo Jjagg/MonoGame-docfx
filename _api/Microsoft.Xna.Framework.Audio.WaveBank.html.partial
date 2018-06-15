@@ -1,324 +1,364 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.WaveBank" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.WaveBank" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Audio_WaveBank" data-uid="Microsoft.Xna.Framework.Audio.WaveBank" class="text-break">WaveBank Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Represents a collection of wave files.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">WaveBank</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_WaveBank_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class WaveBank : IDisposable</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.%23ctor(Microsoft.Xna.Framework.Audio.AudioEngine%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L74">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor(Microsoft.Xna.Framework.Audio.AudioEngine,System.String)">WaveBank(AudioEngine, String)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public WaveBank(AudioEngine audioEngine, string nonStreamingWaveBankFilename)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.html">AudioEngine</a></td>
-          <td><span class="parametername">audioEngine</span></td>
-          <td><p>Instance of the AudioEngine to associate this wave bank with.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class WaveBank : IDisposable</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">WaveBank</span>
+        </span></div>
+      </div>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.%23ctor(Microsoft.Xna.Framework.Audio.AudioEngine%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L74">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor(Microsoft.Xna.Framework.Audio.AudioEngine,System.String)">WaveBank(AudioEngine, String)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public WaveBank(AudioEngine audioEngine, string nonStreamingWaveBankFilename)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.html">AudioEngine</a></td>
+                <td><span class="parametername">audioEngine</span></td>
+                <td><p>Instance of the AudioEngine to associate this wave bank with.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td><span class="parametername">nonStreamingWaveBankFilename</span></td>
-          <td><p>Path to the .xwb file to load.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+                <td><span class="parametername">nonStreamingWaveBankFilename</span></td>
+                <td><p>Path to the .xwb file to load.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>This constructor immediately loads all wave data into memory at once.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>This constructor immediately loads all wave data into memory at once.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.%23ctor(Microsoft.Xna.Framework.Audio.AudioEngine%2CSystem.String%2CSystem.Int32%2CSystem.Int16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L356">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor(Microsoft.Xna.Framework.Audio.AudioEngine,System.String,System.Int32,System.Int16)">WaveBank(AudioEngine, String, Int32, Int16)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public WaveBank(AudioEngine audioEngine, string streamingWaveBankFilename, int offset, short packetsize)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.html">AudioEngine</a></td>
-          <td><span class="parametername">audioEngine</span></td>
-          <td><p>Instance of the AudioEngine to associate this wave bank with.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.%23ctor(Microsoft.Xna.Framework.Audio.AudioEngine%2CSystem.String%2CSystem.Int32%2CSystem.Int16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L356">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.#ctor(Microsoft.Xna.Framework.Audio.AudioEngine,System.String,System.Int32,System.Int16)">WaveBank(AudioEngine, String, Int32, Int16)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public WaveBank(AudioEngine audioEngine, string streamingWaveBankFilename, int offset, short packetsize)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.html">AudioEngine</a></td>
+                <td><span class="parametername">audioEngine</span></td>
+                <td><p>Instance of the AudioEngine to associate this wave bank with.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td><span class="parametername">streamingWaveBankFilename</span></td>
-          <td><p>Path to the .xwb to stream from.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+                <td><span class="parametername">streamingWaveBankFilename</span></td>
+                <td><p>Path to the .xwb to stream from.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">offset</span></td>
-          <td><p>DVD sector-aligned offset within the wave bank data file.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">offset</span></td>
+                <td><p>DVD sector-aligned offset within the wave bank data file.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
-          <td><span class="parametername">packetsize</span></td>
-          <td><p>Stream packet size, in sectors, to use for each stream. The minimum value is 2.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+                <td><span class="parametername">packetsize</span></td>
+                <td><p>Stream packet size, in sectors, to use for each stream. The minimum value is 2.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>This constructor streams wave data as needed.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>This constructor streams wave data as needed.</p>
 <p>Note that packetsize is in sectors, which is 2048 bytes.</p>
 <p>AudioEngine.Update() must be called at least once before using data from a streaming wave bank.</p>
 </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsDisposed*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L385">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsDisposed">IsDisposed</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Is true if the WaveBank has been disposed.</p>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsDisposed*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L385">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsDisposed">IsDisposed</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Is true if the WaveBank has been disposed.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_WaveBank_IsInUse_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsInUse*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_IsInUse.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.IsInUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L65">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_IsInUse" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsInUse">IsInUse</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsInUse { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsPrepared*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.IsPrepared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L69">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsPrepared">IsPrepared</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsPrepared { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_WaveBank_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L390">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_Dispose" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Dispose">Dispose()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Disposes the WaveBank.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_WaveBank_IsInUse_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsInUse*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_IsInUse.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.IsInUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L65">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_IsInUse" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsInUse">IsInUse</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsInUse { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsPrepared*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.IsPrepared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L69">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.IsPrepared">IsPrepared</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsPrepared { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_WaveBank_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L390">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_Dispose" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Dispose">Dispose()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Disposes the WaveBank.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_WaveBank_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Finalize*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L396">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_Finalize" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Finalize">Finalize()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
-    </div>
-    <h3 id="events">Events
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L380">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_Disposing" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Disposing">Disposing</h4>
-    </div>
-    <div class="markdown level1 summary"><p>This event is triggered when the WaveBank is disposed.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_WaveBank_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Finalize*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L396">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_Finalize" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Finalize">Finalize()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+          </div>
+        <h3 id="events">Events
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_WaveBank_Disposing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.WaveBank.Disposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/WaveBank.cs/#L380">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_WaveBank_Disposing" data-uid="Microsoft.Xna.Framework.Audio.WaveBank.Disposing">Disposing</h4>
+          </div>
+          <div class="markdown level1 summary"><p>This event is triggered when the WaveBank is disposed.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposing</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>

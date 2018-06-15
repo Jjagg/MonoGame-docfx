@@ -1,43 +1,51 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsProfile" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" class="text-break">GraphicsProfile Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Defines a set of graphic capabilities.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsProfile_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum GraphicsProfile : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public enum GraphicsProfile</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_GraphicsProfile_HiDef">HiDef</td>
+            <td><p>Use the largest available set of graphic features and capabilities to target devices, that have more enhanced graphic capabilities.        </p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_GraphicsProfile_Reach">Reach</td>
+            <td><p>Use a limited set of graphic features and capabilities, allowing the game to support the widest variety of devices.</p>
+</td>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_GraphicsProfile_HiDef">HiDef</td>
-          <td><p>Use the largest available set of graphic features and capabilities to target devices, that have more enhanced graphic capabilities.        </p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_GraphicsProfile_Reach">Reach</td>
-          <td><p>Use a limited set of graphic features and capabilities, allowing the game to support the widest variety of devices.</p>
-</td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+</article>

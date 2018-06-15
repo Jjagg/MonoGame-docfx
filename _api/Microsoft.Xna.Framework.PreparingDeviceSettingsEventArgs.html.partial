@@ -1,105 +1,146 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs" class="text-break">PreparingDeviceSettingsEventArgs Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>The arguments to the <a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceManager.html#Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings">PreparingDeviceSettings</a> event.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">PreparingDeviceSettingsEventArgs</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class PreparingDeviceSettingsEventArgs : EventArgs</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs__ctor_" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs__ctor_Microsoft_Xna_Framework_GraphicsDeviceInformation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.%23ctor(Microsoft.Xna.Framework.GraphicsDeviceInformation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/PreparingDeviceSettingsEventArgs.cs/#L18">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs__ctor_Microsoft_Xna_Framework_GraphicsDeviceInformation_" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.#ctor(Microsoft.Xna.Framework.GraphicsDeviceInformation)">PreparingDeviceSettingsEventArgs(GraphicsDeviceInformation)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Create a new instance of the event.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class PreparingDeviceSettingsEventArgs : EventArgs</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level2"><span class="xref">PreparingDeviceSettingsEventArgs</span>
+        </span></div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs.empty">EventArgs.Empty</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs__ctor_" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs__ctor_Microsoft_Xna_Framework_GraphicsDeviceInformation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.%23ctor(Microsoft.Xna.Framework.GraphicsDeviceInformation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/PreparingDeviceSettingsEventArgs.cs/#L18">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs__ctor_Microsoft_Xna_Framework_GraphicsDeviceInformation_" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.#ctor(Microsoft.Xna.Framework.GraphicsDeviceInformation)">PreparingDeviceSettingsEventArgs(GraphicsDeviceInformation)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Create a new instance of the event.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public PreparingDeviceSettingsEventArgs(GraphicsDeviceInformation graphicsDeviceInformation)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceInformation.html">GraphicsDeviceInformation</a></td>
-          <td><span class="parametername">graphicsDeviceInformation</span></td>
-          <td><p>The default settings to be used in device creation.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public PreparingDeviceSettingsEventArgs(GraphicsDeviceInformation graphicsDeviceInformation)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceInformation.html">GraphicsDeviceInformation</a></td>
+                <td><span class="parametername">graphicsDeviceInformation</span></td>
+                <td><p>The default settings to be used in device creation.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation_" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/PreparingDeviceSettingsEventArgs.cs/#L26">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation">GraphicsDeviceInformation</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The default settings that will be used in device creation.</p>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation_" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/PreparingDeviceSettingsEventArgs.cs/#L26">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation">GraphicsDeviceInformation</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The default settings that will be used in device creation.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public GraphicsDeviceInformation GraphicsDeviceInformation { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceInformation.html">GraphicsDeviceInformation</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public GraphicsDeviceInformation GraphicsDeviceInformation { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceInformation.html">GraphicsDeviceInformation</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>

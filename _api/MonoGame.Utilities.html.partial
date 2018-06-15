@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="MonoGame.Utilities" role="main" class="pos-rel">
-    <h1 id="MonoGame_Utilities" data-uid="MonoGame.Utilities" class="text-break">MonoGame.Utilities Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="MonoGame.Utilities" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities" data-uid="MonoGame.Utilities" class="text-break">MonoGame.Utilities Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="classes">
           Classes
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="MonoGame.Utilities.PlatformParameters.html">PlatformParameters</a></td>
@@ -25,7 +31,7 @@
         <h2 id="enums">
           Enums
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="MonoGame.Utilities.CompressionLevel.html">CompressionLevel</a></td>
@@ -44,6 +50,6 @@
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

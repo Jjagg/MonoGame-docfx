@@ -1,106 +1,114 @@
 ﻿
-  
-  <article id="content" data-uid="MonoGame.Utilities.CompressionLevel" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="MonoGame.Utilities.CompressionLevel" role="main" class="pos-rel">
   <h1 id="MonoGame_Utilities_CompressionLevel" data-uid="MonoGame.Utilities.CompressionLevel" class="text-break">CompressionLevel Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="MonoGame.Utilities.html">MonoGame.Utilities</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>The compression level to be used when using a DeflateStream or ZlibStream with CompressionMode.Compress.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="MonoGame_Utilities_CompressionLevel_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum CompressionLevel : int</code></pre>
-    </div>
-  </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_BestCompression">BestCompression</td>
-          <td><p>The &quot;best&quot; compression, where best means greatest reduction in size of the input data stream.
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public enum CompressionLevel</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_BestCompression">BestCompression</td>
+            <td><p>The &quot;best&quot; compression, where best means greatest reduction in size of the input data stream.
 This is also the slowest compression.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_BestSpeed">BestSpeed</td>
-          <td><p>The fastest but least effective compression.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_BestSpeed">BestSpeed</td>
+            <td><p>The fastest but least effective compression.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Default">Default</td>
-          <td><p>The default compression level, with a good balance of speed and compression efficiency.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Default">Default</td>
+            <td><p>The default compression level, with a good balance of speed and compression efficiency.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level0">Level0</td>
-          <td><p>Same as None.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level0">Level0</td>
+            <td><p>Same as None.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level1">Level1</td>
-          <td><p>A synonym for BestSpeed.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level1">Level1</td>
+            <td><p>A synonym for BestSpeed.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level2">Level2</td>
-          <td><p>A little slower, but better, than level 1.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level2">Level2</td>
+            <td><p>A little slower, but better, than level 1.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level3">Level3</td>
-          <td><p>A little slower, but better, than level 2.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level3">Level3</td>
+            <td><p>A little slower, but better, than level 2.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level4">Level4</td>
-          <td><p>A little slower, but better, than level 3.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level4">Level4</td>
+            <td><p>A little slower, but better, than level 3.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level5">Level5</td>
-          <td><p>A little slower than level 4, but with better compression.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level5">Level5</td>
+            <td><p>A little slower than level 4, but with better compression.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level6">Level6</td>
-          <td><p>A synonym for Default.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level6">Level6</td>
+            <td><p>A synonym for Default.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level7">Level7</td>
-          <td><p>Pretty good compression!</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level7">Level7</td>
+            <td><p>Pretty good compression!</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level8">Level8</td>
-          <td><p>Better compression than Level7!</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level8">Level8</td>
+            <td><p>Better compression than Level7!</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_Level9">Level9</td>
-          <td><p>A synonym for BestCompression.</p>
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_Level9">Level9</td>
+            <td><p>A synonym for BestCompression.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="MonoGame_Utilities_CompressionLevel_None">None</td>
-          <td><p>None means that the data will be simply stored, with no change at all.
+          </tr>
+          <tr>
+            <td id="MonoGame_Utilities_CompressionLevel_None">None</td>
+            <td><p>None means that the data will be simply stored, with no change at all.
 If you are producing ZIPs for use on Mac OSX, be aware that archives produced with CompressionLevel.None
 cannot be opened with the default zip reader. Use a different CompressionLevel.</p>
 </td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
+  </div>
+</article>

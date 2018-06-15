@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector" role="main" class="pos-rel">
-    <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector" class="text-break">Microsoft.Xna.Framework.Graphics.PackedVector Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector" class="text-break">Microsoft.Xna.Framework.Graphics.PackedVector Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="structs">
           Structs
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.html">Alpha8</a></td>
@@ -96,7 +102,7 @@ The x, y and z components use 10 bits, and the w component uses 2 bits.</p>
         <h2 id="interfaces">
           Interfaces
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html">IPackedVector</a></td>
@@ -108,6 +114,6 @@ The x, y and z components use 10 bits, and the w component uses 2 bits.</p>
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

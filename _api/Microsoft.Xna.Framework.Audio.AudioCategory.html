@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,495 +55,523 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Audio_AudioCategory" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory" class="text-break">AudioCategory Struct
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Audio" text="Microsoft.Xna.Framework.Audio" alt="Microsoft.Xna.Framework.Audio"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides functionality for manipulating multiple sounds at a time.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="IEquatable`1" text="IEquatable" alt="IEquatable"/>&lt;<xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/>&gt;</div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_AudioCategory_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct AudioCategory : IEquatable&lt;AudioCategory&gt;</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public struct AudioCategory : IEquatable&lt;AudioCategory&gt;</code></pre>
+      </div>
+      
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IEquatable`1" text="IEquatable" alt="System.IEquatable"/>&lt;<xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/>&gt;</div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Name_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Name*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L98">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Name" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Name">Name</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the category&apos;s friendly name.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Equals_Microsoft_Xna_Framework_Audio_AudioCategory_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Equals(Microsoft.Xna.Framework.Audio.AudioCategory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L170">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_Microsoft_Xna_Framework_Audio_AudioCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals(Microsoft.Xna.Framework.Audio.AudioCategory)">Equals(AudioCategory)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are equal.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool Equals(AudioCategory other)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
+                <td><span class="parametername">other</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">AudioCategory to compare with this instance.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are equal or false if they aren&apos;t</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L180">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals(System.Object)">Equals(Object)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are equal.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+                <td><span class="parametername">obj</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Object to compare with this instance.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are equal or false if they aren&apos;t.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.ValueType.Equals(System.Object)" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_GetHashCode_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.GetHashCode*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_GetHashCode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L195">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_GetHashCode" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.GetHashCode">GetHashCode()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the hash code for this instance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Hash code for this object.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.ValueType.GetHashCode" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Pause_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Pause*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Pause.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L103">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Pause" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Pause">Pause()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Pauses all associated sounds.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Resume_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Resume*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Resume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L112">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Resume" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Resume">Resume()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Resumes all associated paused sounds.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_SetVolume_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.SetVolume*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_SetVolume_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.SetVolume(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L127">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_SetVolume_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.SetVolume(System.Single)">SetVolume(Single)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SetVolume(float volume)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td><span class="parametername">volume</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Stop_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Stop*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L121">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)">Stop(AudioStopOptions)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Stops all associated sounds.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Stop(AudioStopOptions options)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Audio.AudioStopOptions" text="AudioStopOptions" alt="Microsoft.Xna.Framework.Audio.AudioStopOptions"/></td>
+                <td><span class="parametername">options</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_ToString_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.ToString*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L204">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_ToString" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.ToString">ToString()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the name of this AudioCategory</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Friendly name of the AudioCategory</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.ValueType.ToString" altProperty="fullName" displayProperty="nameWithType"/></div>
+        <h3 id="operators">Operators
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Equality_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_op_Equality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality(Microsoft.Xna.Framework.Audio.AudioCategory%2CMicrosoft.Xna.Framework.Audio.AudioCategory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L149">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Equality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality(Microsoft.Xna.Framework.Audio.AudioCategory,Microsoft.Xna.Framework.Audio.AudioCategory)">Equality(AudioCategory, AudioCategory)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are equal.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool operator ==(AudioCategory first, AudioCategory second)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
+                <td><span class="parametername">first</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First AudioCategory instance to compare.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
+                <td><span class="parametername">second</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Second AudioCategory instance to compare.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are equal or false if they aren&apos;t.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Inequality_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Inequality*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_op_Inequality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.op_Inequality(Microsoft.Xna.Framework.Audio.AudioCategory%2CMicrosoft.Xna.Framework.Audio.AudioCategory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L160">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Inequality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Inequality(Microsoft.Xna.Framework.Audio.AudioCategory,Microsoft.Xna.Framework.Audio.AudioCategory)">Inequality(AudioCategory, AudioCategory)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are not equal.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool operator !=(AudioCategory first, AudioCategory second)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
+                <td><span class="parametername">first</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First AudioCategory instance to compare.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
+                <td><span class="parametername">second</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Second AudioCategory instance to compare.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are not equal or false if they are.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Name_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Name*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L98">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Name" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Name">Name</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the category&apos;s friendly name.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Equals_Microsoft_Xna_Framework_Audio_AudioCategory_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Equals(Microsoft.Xna.Framework.Audio.AudioCategory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L170">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_Microsoft_Xna_Framework_Audio_AudioCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals(Microsoft.Xna.Framework.Audio.AudioCategory)">Equals(AudioCategory)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are equal.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool Equals(AudioCategory other)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
-          <td><span class="parametername">other</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">AudioCategory to compare with this instance.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are equal or false if they aren&apos;t</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L180">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals(System.Object)">Equals(Object)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are equal.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
-          <td><span class="parametername">obj</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Object to compare with this instance.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are equal or false if they aren&apos;t.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_GetHashCode_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.GetHashCode*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_GetHashCode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L195">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_GetHashCode" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.GetHashCode">GetHashCode()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the hash code for this instance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Hash code for this object.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Pause_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Pause*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Pause.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L103">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Pause" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Pause">Pause()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Pauses all associated sounds.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Resume_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Resume*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Resume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L112">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Resume" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Resume">Resume()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Resumes all associated paused sounds.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_SetVolume_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.SetVolume*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_SetVolume_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.SetVolume(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L127">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_SetVolume_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.SetVolume(System.Single)">SetVolume(Single)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SetVolume(float volume)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td><span class="parametername">volume</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_Stop_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Stop*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L121">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions)">Stop(AudioStopOptions)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Stops all associated sounds.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Stop(AudioStopOptions options)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioStopOptions" text="AudioStopOptions" alt="Microsoft.Xna.Framework.Audio.AudioStopOptions"/></td>
-          <td><span class="parametername">options</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_ToString_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.ToString*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L204">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_ToString" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.ToString">ToString()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the name of this AudioCategory</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Friendly name of the AudioCategory</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="operators">Operators
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Equality_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_op_Equality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality(Microsoft.Xna.Framework.Audio.AudioCategory%2CMicrosoft.Xna.Framework.Audio.AudioCategory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L149">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Equality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality(Microsoft.Xna.Framework.Audio.AudioCategory,Microsoft.Xna.Framework.Audio.AudioCategory)">Equality(AudioCategory, AudioCategory)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are equal.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool operator ==(AudioCategory first, AudioCategory second)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
-          <td><span class="parametername">first</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First AudioCategory instance to compare.</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
-          <td><span class="parametername">second</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Second AudioCategory instance to compare.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are equal or false if they aren&apos;t.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Inequality_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Inequality*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioCategory_op_Inequality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioCategory.op_Inequality(Microsoft.Xna.Framework.Audio.AudioCategory%2CMicrosoft.Xna.Framework.Audio.AudioCategory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/Xact/AudioCategory.cs/#L160">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Inequality_Microsoft_Xna_Framework_Audio_AudioCategory_Microsoft_Xna_Framework_Audio_AudioCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Inequality(Microsoft.Xna.Framework.Audio.AudioCategory,Microsoft.Xna.Framework.Audio.AudioCategory)">Inequality(AudioCategory, AudioCategory)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Determines whether two AudioCategory instances are not equal.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool operator !=(AudioCategory first, AudioCategory second)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
-          <td><span class="parametername">first</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First AudioCategory instance to compare.</p>
-</td>
-        </tr>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Audio.AudioCategory" text="AudioCategory" alt="Microsoft.Xna.Framework.Audio.AudioCategory"/></td>
-          <td><span class="parametername">second</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Second AudioCategory instance to compare.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioCategory.yml" sourcestartlinenumber="1" sourceendlinenumber="1">true if the objects are not equal or false if they are.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

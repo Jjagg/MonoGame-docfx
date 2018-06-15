@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,652 +55,686 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect" class="text-break">DualTextureEffect Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Built-in effect that supports two-layer multitexturing.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></div>
-      <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></div>
-      <div class="level3"><span class="xref">DualTextureEffect</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class DualTextureEffect : Effect, IDisposable, IEffectMatrices, IEffectFog</code></pre>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level3"><span class="xref">DualTextureEffect</span>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
-      </div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class DualTextureEffect : Effect, IEffectMatrices, IEffectFog</code></pre>
-    </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_DualTextureEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.%23ctor(Microsoft.Xna.Framework.Graphics.DualTextureEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L247">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_DualTextureEffect_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor(Microsoft.Xna.Framework.Graphics.DualTextureEffect)">DualTextureEffect(DualTextureEffect)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new DualTextureEffect by cloning parameter settings from an existing instance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected DualTextureEffect(DualTextureEffect cloneSource)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect" text="DualTextureEffect" alt="Microsoft.Xna.Framework.Graphics.DualTextureEffect"/></td>
+                <td><span class="parametername">cloneSource</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L237">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">DualTextureEffect(GraphicsDevice)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new DualTextureEffect with default parameter settings.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DualTextureEffect(GraphicsDevice device)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">device</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Alpha*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L121">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Alpha">Alpha</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.DiffuseColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L106">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.DiffuseColor">DiffuseColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L184">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogColor">FogColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L136">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnabled">FogEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnd*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L169">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnd">FogEnd</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogStart*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L154">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogStart">FogStart</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Projection*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L91">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Projection">Projection</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L194">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture">Texture</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current base texture.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture2_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture2*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L204">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture2" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture2">Texture2</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current overlay texture.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D Texture2 { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_VertexColorEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.VertexColorEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_VertexColorEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.VertexColorEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L214">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_VertexColorEnabled" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.VertexColorEnabled">VertexColorEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets whether vertex color is enabled.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool VertexColorEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.View*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L76">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.View">View</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.World*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L61">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.World">World</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L271">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone">Clone()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current DualTextureEffect instance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L294">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply">OnApply()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_DualTextureEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.%23ctor(Microsoft.Xna.Framework.Graphics.DualTextureEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L247">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_DualTextureEffect_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor(Microsoft.Xna.Framework.Graphics.DualTextureEffect)">DualTextureEffect(DualTextureEffect)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new DualTextureEffect by cloning parameter settings from an existing instance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected DualTextureEffect(DualTextureEffect cloneSource)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect" text="DualTextureEffect" alt="Microsoft.Xna.Framework.Graphics.DualTextureEffect"/></td>
-          <td><span class="parametername">cloneSource</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L237">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">DualTextureEffect(GraphicsDevice)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new DualTextureEffect with default parameter settings.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DualTextureEffect(GraphicsDevice device)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">device</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Alpha*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L121">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Alpha">Alpha</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.DiffuseColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L106">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.DiffuseColor">DiffuseColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L184">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogColor">FogColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L136">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnabled">FogEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnd*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L169">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogEnd">FogEnd</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogStart*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L154">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.FogStart">FogStart</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Projection*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L91">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Projection">Projection</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L194">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture">Texture</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current base texture.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture2_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture2*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L204">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Texture2" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Texture2">Texture2</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current overlay texture.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D Texture2 { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_VertexColorEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.VertexColorEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_VertexColorEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.VertexColorEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L214">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_VertexColorEnabled" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.VertexColorEnabled">VertexColorEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets whether vertex color is enabled.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool VertexColorEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.View*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L76">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.View">View</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.World*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L61">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.World">World</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L271">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone">Clone()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current DualTextureEffect instance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DualTextureEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/DualTextureEffect.cs/#L294">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply">OnApply()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

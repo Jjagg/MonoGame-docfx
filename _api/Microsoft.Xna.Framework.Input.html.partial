@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input" role="main" class="pos-rel">
-    <h1 id="Microsoft_Xna_Framework_Input" data-uid="Microsoft.Xna.Framework.Input" class="text-break">Microsoft.Xna.Framework.Input Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input" data-uid="Microsoft.Xna.Framework.Input" class="text-break">Microsoft.Xna.Framework.Input Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="classes">
           Classes
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.html">GamePad</a></td>
@@ -41,7 +47,7 @@
         <h2 id="structs">
           Structs
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a></td>
@@ -105,7 +111,7 @@ to offer additional data without separate state queries to GamePad.</p>
         <h2 id="enums">
           Enums
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Buttons.html">Buttons</a></td>
@@ -140,6 +146,6 @@ analog sticks when calling GetState.</p>
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

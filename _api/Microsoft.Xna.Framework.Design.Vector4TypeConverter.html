@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,275 +55,424 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter" class="text-break">Vector4TypeConverter Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Design" text="Microsoft.Xna.Framework.Design" alt="Microsoft.Xna.Framework.Design"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><span class="xref">Vector4TypeConverter</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class Vector4TypeConverter : TypeConverter</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class Vector4TypeConverter : TypeConverter</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><xref uid="System.ComponentModel.TypeConverter" text="TypeConverter" alt="System.ComponentModel.TypeConverter"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level2"><span class="xref">Vector4TypeConverter</span>
+        </div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.CanConvertFrom(System.Type)" text="TypeConverter.CanConvertFrom(Type)" alt="System.ComponentModel.TypeConverter.CanConvertFrom(System.Type)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.CanConvertTo(System.Type)" text="TypeConverter.CanConvertTo(Type)" alt="System.ComponentModel.TypeConverter.CanConvertTo(System.Type)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertFrom(System.Object)" text="TypeConverter.ConvertFrom(Object)" alt="System.ComponentModel.TypeConverter.ConvertFrom(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.String)" text="TypeConverter.ConvertFromInvariantString(String)" alt="System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.String)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.ComponentModel.ITypeDescriptorContext,System.String)" text="TypeConverter.ConvertFromInvariantString(ITypeDescriptorContext, String)" alt="System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.ComponentModel.ITypeDescriptorContext, System.String)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertFromString(System.String)" text="TypeConverter.ConvertFromString(String)" alt="System.ComponentModel.TypeConverter.ConvertFromString(System.String)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext,System.String)" text="TypeConverter.ConvertFromString(ITypeDescriptorContext, String)" alt="System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext, System.String)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.String)" text="TypeConverter.ConvertFromString(ITypeDescriptorContext, CultureInfo, String)" alt="System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.String)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertTo(System.Object,System.Type)" text="TypeConverter.ConvertTo(Object, Type)" alt="System.ComponentModel.TypeConverter.ConvertTo(System.Object, System.Type)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertToInvariantString(System.Object)" text="TypeConverter.ConvertToInvariantString(Object)" alt="System.ComponentModel.TypeConverter.ConvertToInvariantString(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertToInvariantString(System.ComponentModel.ITypeDescriptorContext,System.Object)" text="TypeConverter.ConvertToInvariantString(ITypeDescriptorContext, Object)" alt="System.ComponentModel.TypeConverter.ConvertToInvariantString(System.ComponentModel.ITypeDescriptorContext, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertToString(System.Object)" text="TypeConverter.ConvertToString(Object)" alt="System.ComponentModel.TypeConverter.ConvertToString(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext,System.Object)" text="TypeConverter.ConvertToString(ITypeDescriptorContext, Object)" alt="System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" text="TypeConverter.ConvertToString(ITypeDescriptorContext, CultureInfo, Object)" alt="System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.CreateInstance(System.Collections.IDictionary)" text="TypeConverter.CreateInstance(IDictionary)" alt="System.ComponentModel.TypeConverter.CreateInstance(System.Collections.IDictionary)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary)" text="TypeConverter.CreateInstance(ITypeDescriptorContext, IDictionary)" alt="System.ComponentModel.TypeConverter.CreateInstance(System.ComponentModel.ITypeDescriptorContext, System.Collections.IDictionary)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetConvertFromException(System.Object)" text="TypeConverter.GetConvertFromException(Object)" alt="System.ComponentModel.TypeConverter.GetConvertFromException(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetConvertToException(System.Object,System.Type)" text="TypeConverter.GetConvertToException(Object, Type)" alt="System.ComponentModel.TypeConverter.GetConvertToException(System.Object, System.Type)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetCreateInstanceSupported" text="TypeConverter.GetCreateInstanceSupported()" alt="System.ComponentModel.TypeConverter.GetCreateInstanceSupported()"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext)" text="TypeConverter.GetCreateInstanceSupported(ITypeDescriptorContext)" alt="System.ComponentModel.TypeConverter.GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetProperties(System.Object)" text="TypeConverter.GetProperties(Object)" alt="System.ComponentModel.TypeConverter.GetProperties(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object)" text="TypeConverter.GetProperties(ITypeDescriptorContext, Object)" alt="System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[])" text="TypeConverter.GetProperties(ITypeDescriptorContext, Object, Attribute[])" alt="System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext, System.Object, System.Attribute[])"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetPropertiesSupported" text="TypeConverter.GetPropertiesSupported()" alt="System.ComponentModel.TypeConverter.GetPropertiesSupported()"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext)" text="TypeConverter.GetPropertiesSupported(ITypeDescriptorContext)" alt="System.ComponentModel.TypeConverter.GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetStandardValues" text="TypeConverter.GetStandardValues()" alt="System.ComponentModel.TypeConverter.GetStandardValues()"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)" text="TypeConverter.GetStandardValues(ITypeDescriptorContext)" alt="System.ComponentModel.TypeConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetStandardValuesExclusive" text="TypeConverter.GetStandardValuesExclusive()" alt="System.ComponentModel.TypeConverter.GetStandardValuesExclusive()"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)" text="TypeConverter.GetStandardValuesExclusive(ITypeDescriptorContext)" alt="System.ComponentModel.TypeConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetStandardValuesSupported" text="TypeConverter.GetStandardValuesSupported()" alt="System.ComponentModel.TypeConverter.GetStandardValuesSupported()"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)" text="TypeConverter.GetStandardValuesSupported(ITypeDescriptorContext)" alt="System.ComponentModel.TypeConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.IsValid(System.Object)" text="TypeConverter.IsValid(Object)" alt="System.ComponentModel.TypeConverter.IsValid(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.IsValid(System.ComponentModel.ITypeDescriptorContext,System.Object)" text="TypeConverter.IsValid(ITypeDescriptorContext, Object)" alt="System.ComponentModel.TypeConverter.IsValid(System.ComponentModel.ITypeDescriptorContext, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ComponentModel.TypeConverter.SortProperties(System.ComponentModel.PropertyDescriptorCollection,System.String[])" text="TypeConverter.SortProperties(PropertyDescriptorCollection, String[])" alt="System.ComponentModel.TypeConverter.SortProperties(System.ComponentModel.PropertyDescriptorCollection, System.String[])"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertFrom_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertFrom*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L46">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Type_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">CanConvertFrom(ITypeDescriptorContext, Type)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.ComponentModel.ITypeDescriptorContext" text="ITypeDescriptorContext" alt="System.ComponentModel.ITypeDescriptorContext"/></td>
+                <td><span class="parametername">context</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Type" text="Type" alt="System.Type"/></td>
+                <td><span class="parametername">sourceType</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.ComponentModel.TypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertTo_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L13">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Type_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">CanConvertTo(ITypeDescriptorContext, Type)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.ComponentModel.ITypeDescriptorContext" text="ITypeDescriptorContext" alt="System.ComponentModel.ITypeDescriptorContext"/></td>
+                <td><span class="parametername">context</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Type" text="Type" alt="System.Type"/></td>
+                <td><span class="parametername">destinationType</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.ComponentModel.TypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertFrom_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertFrom*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext%2CSystem.Globalization.CultureInfo%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L54">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.ComponentModel.ITypeDescriptorContext" text="ITypeDescriptorContext" alt="System.ComponentModel.ITypeDescriptorContext"/></td>
+                <td><span class="parametername">context</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Globalization.CultureInfo" text="CultureInfo" alt="System.Globalization.CultureInfo"/></td>
+                <td><span class="parametername">culture</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+                <td><span class="parametername">value</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.ComponentModel.TypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertTo_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertTo*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_System_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext%2CSystem.Globalization.CultureInfo%2CSystem.Object%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L23">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_System_Type_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.ComponentModel.ITypeDescriptorContext" text="ITypeDescriptorContext" alt="System.ComponentModel.ITypeDescriptorContext"/></td>
+                <td><span class="parametername">context</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Globalization.CultureInfo" text="CultureInfo" alt="System.Globalization.CultureInfo"/></td>
+                <td><span class="parametername">culture</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+                <td><span class="parametername">value</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Type" text="Type" alt="System.Type"/></td>
+                <td><span class="parametername">destinationType</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="System.ComponentModel.TypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+
   </div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertFrom_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertFrom*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertFrom_ITypeDescriptorContext_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertFrom(ITypeDescriptorContext%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L46">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertFrom_ITypeDescriptorContext_Type_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertFrom(ITypeDescriptorContext,Type)">CanConvertFrom(ITypeDescriptorContext, Type)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="ITypeDescriptorContext" text="ITypeDescriptorContext" alt="ITypeDescriptorContext"/></td>
-          <td><span class="parametername">context</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="Type" text="Type" alt="Type"/></td>
-          <td><span class="parametername">sourceType</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertTo_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertTo_ITypeDescriptorContext_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo(ITypeDescriptorContext%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L13">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertTo_ITypeDescriptorContext_Type_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo(ITypeDescriptorContext,Type)">CanConvertTo(ITypeDescriptorContext, Type)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="ITypeDescriptorContext" text="ITypeDescriptorContext" alt="ITypeDescriptorContext"/></td>
-          <td><span class="parametername">context</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="Type" text="Type" alt="Type"/></td>
-          <td><span class="parametername">destinationType</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertFrom_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertFrom*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertFrom_ITypeDescriptorContext_CultureInfo_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertFrom(ITypeDescriptorContext%2CCultureInfo%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L54">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertFrom_ITypeDescriptorContext_CultureInfo_System_Object_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,System.Object)">ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="ITypeDescriptorContext" text="ITypeDescriptorContext" alt="ITypeDescriptorContext"/></td>
-          <td><span class="parametername">context</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="CultureInfo" text="CultureInfo" alt="CultureInfo"/></td>
-          <td><span class="parametername">culture</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
-          <td><span class="parametername">value</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertTo_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertTo*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertTo_ITypeDescriptorContext_CultureInfo_System_Object_Type_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertTo(ITypeDescriptorContext%2CCultureInfo%2CSystem.Object%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Design/Vector4TypeConverter.cs/#L23">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_ConvertTo_ITypeDescriptorContext_CultureInfo_System_Object_Type_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,System.Object,Type)">ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="ITypeDescriptorContext" text="ITypeDescriptorContext" alt="ITypeDescriptorContext"/></td>
-          <td><span class="parametername">context</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="CultureInfo" text="CultureInfo" alt="CultureInfo"/></td>
-          <td><span class="parametername">culture</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
-          <td><span class="parametername">value</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="Type" text="Type" alt="Type"/></td>
-          <td><span class="parametername">destinationType</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

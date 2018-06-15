@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,806 +55,842 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_DepthStencilState" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" class="text-break">DepthStencilState Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></div>
-      <div class="level2"><span class="xref">DepthStencilState</span></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class DepthStencilState : GraphicsResource, IDisposable</code></pre>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level2"><span class="xref">DepthStencilState</span>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
-      </div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class DepthStencilState : GraphicsResource</code></pre>
-    </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L207">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState__ctor" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.#ctor">DepthStencilState()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DepthStencilState()</code></pre>
+          </div>
+        <h3 id="fields">Fields
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_Default.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L257">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_Default" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.Default">Default</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static readonly DepthStencilState Default</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" text="DepthStencilState" alt="Microsoft.Xna.Framework.Graphics.DepthStencilState"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthRead.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthRead%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L258">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthRead" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthRead">DepthRead</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static readonly DepthStencilState DepthRead</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" text="DepthStencilState" alt="Microsoft.Xna.Framework.Graphics.DepthStencilState"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_None.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.None%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L259">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_None" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.None">None</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static readonly DepthStencilState None</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" text="DepthStencilState" alt="Microsoft.Xna.Framework.Graphics.DepthStencilState"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilDepthBufferFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilDepthBufferFail*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilDepthBufferFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilDepthBufferFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L50">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilDepthBufferFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilDepthBufferFail">CounterClockwiseStencilDepthBufferFail</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public StencilOperation CounterClockwiseStencilDepthBufferFail { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFail*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L60">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFail">CounterClockwiseStencilFail</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public StencilOperation CounterClockwiseStencilFail { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFunction_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L70">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFunction" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction">CounterClockwiseStencilFunction</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public CompareFunction CounterClockwiseStencilFunction { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilPass_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilPass*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilPass.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilPass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L80">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilPass" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilPass">CounterClockwiseStencilPass</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public StencilOperation CounterClockwiseStencilPass { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferEnable_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferEnable*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferEnable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L30">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferEnable" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferEnable">DepthBufferEnable</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool DepthBufferEnable { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferFunction_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferFunction*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L90">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferFunction" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferFunction">DepthBufferFunction</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public CompareFunction DepthBufferFunction { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferWriteEnable_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferWriteEnable*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferWriteEnable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferWriteEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L40">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferWriteEnable" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferWriteEnable">DepthBufferWriteEnable</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool DepthBufferWriteEnable { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_ReferenceStencil_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.ReferenceStencil*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_ReferenceStencil.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.ReferenceStencil%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L100">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_ReferenceStencil" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.ReferenceStencil">ReferenceStencil</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int ReferenceStencil { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilDepthBufferFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilDepthBufferFail*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilDepthBufferFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilDepthBufferFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L110">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilDepthBufferFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilDepthBufferFail">StencilDepthBufferFail</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public StencilOperation StencilDepthBufferFail { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilEnable_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilEnable*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilEnable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L120">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilEnable" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilEnable">StencilEnable</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool StencilEnable { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFail*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L130">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFail">StencilFail</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public StencilOperation StencilFail { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFunction_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFunction*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L140">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFunction" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFunction">StencilFunction</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public CompareFunction StencilFunction { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilMask_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilMask*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilMask.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L150">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilMask" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilMask">StencilMask</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int StencilMask { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilPass_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilPass*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilPass.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilPass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L160">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilPass" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilPass">StencilPass</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public StencilOperation StencilPass { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilWriteMask_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilWriteMask*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilWriteMask.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilWriteMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L170">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilWriteMask" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilWriteMask">StencilWriteMask</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int StencilWriteMask { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_TwoSidedStencilMode_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.TwoSidedStencilMode*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_TwoSidedStencilMode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.TwoSidedStencilMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L180">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_TwoSidedStencilMode" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.TwoSidedStencilMode">TwoSidedStencilMode</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool TwoSidedStencilMode { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L275">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">disposing</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose(System.Boolean)" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_GraphicsDeviceResetting_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.GraphicsDeviceResetting*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_GraphicsDeviceResetting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.GraphicsDeviceResetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.DirectX.cs/#L14">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_GraphicsDeviceResetting" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.GraphicsDeviceResetting">GraphicsDeviceResetting()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void GraphicsDeviceResetting()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L207">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState__ctor" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.#ctor">DepthStencilState()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DepthStencilState()</code></pre>
-    </div>
-    <h3 id="fields">Fields
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_Default.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L257">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_Default" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.Default">Default</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static readonly DepthStencilState Default</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" text="DepthStencilState" alt="Microsoft.Xna.Framework.Graphics.DepthStencilState"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthRead.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthRead%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L258">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthRead" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthRead">DepthRead</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static readonly DepthStencilState DepthRead</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" text="DepthStencilState" alt="Microsoft.Xna.Framework.Graphics.DepthStencilState"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_None.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.None%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L259">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_None" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.None">None</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static readonly DepthStencilState None</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthStencilState" text="DepthStencilState" alt="Microsoft.Xna.Framework.Graphics.DepthStencilState"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilDepthBufferFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilDepthBufferFail*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilDepthBufferFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilDepthBufferFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L50">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilDepthBufferFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilDepthBufferFail">CounterClockwiseStencilDepthBufferFail</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public StencilOperation CounterClockwiseStencilDepthBufferFail { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFail*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L60">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFail">CounterClockwiseStencilFail</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public StencilOperation CounterClockwiseStencilFail { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFunction_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L70">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFunction" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction">CounterClockwiseStencilFunction</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public CompareFunction CounterClockwiseStencilFunction { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilPass_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilPass*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilPass.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilPass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L80">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilPass" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilPass">CounterClockwiseStencilPass</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public StencilOperation CounterClockwiseStencilPass { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferEnable_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferEnable*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferEnable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L30">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferEnable" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferEnable">DepthBufferEnable</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool DepthBufferEnable { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferFunction_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferFunction*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L90">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferFunction" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferFunction">DepthBufferFunction</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public CompareFunction DepthBufferFunction { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferWriteEnable_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferWriteEnable*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferWriteEnable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferWriteEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L40">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_DepthBufferWriteEnable" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.DepthBufferWriteEnable">DepthBufferWriteEnable</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool DepthBufferWriteEnable { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_ReferenceStencil_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.ReferenceStencil*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_ReferenceStencil.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.ReferenceStencil%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L100">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_ReferenceStencil" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.ReferenceStencil">ReferenceStencil</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int ReferenceStencil { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilDepthBufferFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilDepthBufferFail*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilDepthBufferFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilDepthBufferFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L110">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilDepthBufferFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilDepthBufferFail">StencilDepthBufferFail</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public StencilOperation StencilDepthBufferFail { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilEnable_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilEnable*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilEnable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L120">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilEnable" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilEnable">StencilEnable</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool StencilEnable { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFail_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFail*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFail.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L130">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFail" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFail">StencilFail</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public StencilOperation StencilFail { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFunction_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFunction*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L140">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilFunction" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilFunction">StencilFunction</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public CompareFunction StencilFunction { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilMask_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilMask*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilMask.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L150">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilMask" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilMask">StencilMask</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int StencilMask { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilPass_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilPass*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilPass.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilPass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L160">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilPass" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilPass">StencilPass</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public StencilOperation StencilPass { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.StencilOperation" text="StencilOperation" alt="Microsoft.Xna.Framework.Graphics.StencilOperation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilWriteMask_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilWriteMask*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilWriteMask.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilWriteMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L170">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_StencilWriteMask" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.StencilWriteMask">StencilWriteMask</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int StencilWriteMask { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_TwoSidedStencilMode_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.TwoSidedStencilMode*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_TwoSidedStencilMode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.TwoSidedStencilMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L180">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_TwoSidedStencilMode" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.TwoSidedStencilMode">TwoSidedStencilMode</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool TwoSidedStencilMode { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.cs/#L275">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">disposing</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose(System.Boolean)" altProperty="fullName" displayProperty="nameWithType"/></div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DepthStencilState_GraphicsDeviceResetting_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.GraphicsDeviceResetting*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DepthStencilState_GraphicsDeviceResetting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DepthStencilState.GraphicsDeviceResetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/States/DepthStencilState.DirectX.cs/#L14">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_GraphicsDeviceResetting" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.GraphicsDeviceResetting">GraphicsDeviceResetting()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void GraphicsDeviceResetting()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting" altProperty="fullName" displayProperty="nameWithType"/></div>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

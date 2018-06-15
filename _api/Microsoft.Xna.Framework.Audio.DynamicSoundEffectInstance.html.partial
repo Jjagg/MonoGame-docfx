@@ -1,642 +1,676 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance" class="text-break">DynamicSoundEffectInstance Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>A <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a> for which the audio buffer is provided by the game at run time.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a></div>
-      <div class="level2"><span class="xref">DynamicSoundEffectInstance</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><span class="xref">IDisposable</span></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pan">SoundEffectInstance.Pan</a>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public sealed class DynamicSoundEffectInstance : SoundEffectInstance, IDisposable</code></pre>
       </div>
-      <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pitch">SoundEffectInstance.Pitch</a>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level2"><span class="xref">DynamicSoundEffectInstance</span>
+        </span></div>
       </div>
-      <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Volume">SoundEffectInstance.Volume</a>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       </div>
-      <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsDisposed">SoundEffectInstance.IsDisposed</a>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pan">SoundEffectInstance.Pan</a>
+        </div>
+        <div>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pitch">SoundEffectInstance.Pitch</a>
+        </div>
+        <div>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Volume">SoundEffectInstance.Volume</a>
+        </div>
+        <div>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsDisposed">SoundEffectInstance.IsDisposed</a>
+        </div>
+        <div>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">SoundEffectInstance.Apply3D(AudioListener, AudioEmitter)</a>
+        </div>
+        <div>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener___Microsoft_Xna_Framework_Audio_AudioEmitter_">SoundEffectInstance.Apply3D(AudioListener[], AudioEmitter)</a>
+        </div>
+        <div>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose">SoundEffectInstance.Dispose()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
       </div>
-      <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">SoundEffectInstance.Apply3D(AudioListener, AudioEmitter)</a>
-      </div>
-      <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener___Microsoft_Xna_Framework_Audio_AudioEmitter_">SoundEffectInstance.Apply3D(AudioListener[], AudioEmitter)</a>
-      </div>
-      <div>
-        <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose">SoundEffectInstance.Dispose()</a>
-      </div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class DynamicSoundEffectInstance : SoundEffectInstance, IDisposable</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance__ctor_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance__ctor_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.%23ctor(System.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L77">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance__ctor_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.#ctor(System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">DynamicSoundEffectInstance(Int32, AudioChannels)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DynamicSoundEffectInstance(int sampleRate, AudioChannels channels)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">sampleRate</span></td>
-          <td><p>Sample rate, in Hertz (Hz).</p>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance__ctor_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance__ctor_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.%23ctor(System.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L77">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance__ctor_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.#ctor(System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">DynamicSoundEffectInstance(Int32, AudioChannels)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DynamicSoundEffectInstance(int sampleRate, AudioChannels channels)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">sampleRate</span></td>
+                <td><p>Sample rate, in Hertz (Hz).</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
-          <td><span class="parametername">channels</span></td>
-          <td><p>Number of channels (mono or stereo).</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+                <td><span class="parametername">channels</span></td>
+                <td><p>Number of channels (mono or stereo).</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_IsLooped_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.IsLooped*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_IsLooped.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.IsLooped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L21">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_IsLooped" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.IsLooped">IsLooped</h4>
-    </div>
-    <div class="markdown level1 summary"><p>This value has no effect on DynamicSoundEffectInstance.
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_IsLooped_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.IsLooped*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_IsLooped.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.IsLooped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L21">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_IsLooped" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.IsLooped">IsLooped</h4>
+          </div>
+          <div class="markdown level1 summary"><p>This value has no effect on DynamicSoundEffectInstance.
 It may not be set.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override bool IsLooped { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsLooped">SoundEffectInstance.IsLooped</a></div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_PendingBufferCount_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.PendingBufferCount*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_PendingBufferCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.PendingBufferCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L48">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_PendingBufferCount" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.PendingBufferCount">PendingBufferCount</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the number of audio buffers queued for playback.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override bool IsLooped { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsLooped">SoundEffectInstance.IsLooped</a></div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_PendingBufferCount_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.PendingBufferCount*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_PendingBufferCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.PendingBufferCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L48">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_PendingBufferCount" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.PendingBufferCount">PendingBufferCount</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the number of audio buffers queued for playback.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int PendingBufferCount { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_State_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.State*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_State.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L36">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_State" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.State">State</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override SoundState State { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundState.html">SoundState</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_State">SoundEffectInstance.State</a></div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L274">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><span class="parametername">disposing</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose_System_Boolean_">SoundEffectInstance.Dispose(Boolean)</a></div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleDuration_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleDuration*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleDuration_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleDuration(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L104">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleDuration_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleDuration(System.Int32)">GetSampleDuration(Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the duration of an audio buffer of the specified size, based on the settings of this instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int PendingBufferCount { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_State_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.State*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_State.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L36">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_State" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.State">State</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override SoundState State { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundState.html">SoundState</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_State">SoundEffectInstance.State</a></div>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L274">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td><span class="parametername">disposing</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose_System_Boolean_">SoundEffectInstance.Dispose(Boolean)</a></div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleDuration_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleDuration*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleDuration_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleDuration(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L104">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleDuration_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleDuration(System.Int32)">GetSampleDuration(Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the duration of an audio buffer of the specified size, based on the settings of this instance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public TimeSpan GetSampleDuration(int sizeInBytes)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">sizeInBytes</span></td>
-          <td><p>Size of the buffer, in bytes.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public TimeSpan GetSampleDuration(int sizeInBytes)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">sizeInBytes</span></td>
+                <td><p>Size of the buffer, in bytes.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">TimeSpan</span></td>
-          <td><p>The playback length of the buffer.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+                <td><p>The playback length of the buffer.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleSizeInBytes_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleSizeInBytes*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleSizeInBytes_TimeSpan_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleSizeInBytes(TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L115">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleSizeInBytes_TimeSpan_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleSizeInBytes(TimeSpan)">GetSampleSizeInBytes(TimeSpan)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the size, in bytes, of a buffer of the specified duration, based on the settings of this instance.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleSizeInBytes_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleSizeInBytes*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleSizeInBytes_System_TimeSpan_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleSizeInBytes(System.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L115">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_GetSampleSizeInBytes_System_TimeSpan_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.GetSampleSizeInBytes(System.TimeSpan)">GetSampleSizeInBytes(TimeSpan)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the size, in bytes, of a buffer of the specified duration, based on the settings of this instance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int GetSampleSizeInBytes(TimeSpan duration)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">TimeSpan</span></td>
-          <td><span class="parametername">duration</span></td>
-          <td><p>The playback length of the buffer.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int GetSampleSizeInBytes(TimeSpan duration)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+                <td><span class="parametername">duration</span></td>
+                <td><p>The playback length of the buffer.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><p>The data size of the buffer, in bytes.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><p>The data size of the buffer, in bytes.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Pause_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Pause*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Pause.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L149">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Pause" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Pause">Pause()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Pauses playback of the DynamicSoundEffectInstance.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Pause_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Pause*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Pause.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L149">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Pause" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Pause">Pause()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Pauses playback of the DynamicSoundEffectInstance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override void Pause()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pause">SoundEffectInstance.Pause()</a></div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Play*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L124">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Play">Play()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Plays or resumes the DynamicSoundEffectInstance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override void Pause()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pause">SoundEffectInstance.Pause()</a></div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Play*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L124">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Play">Play()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Plays or resumes the DynamicSoundEffectInstance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override void Play()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Play">SoundEffectInstance.Play()</a></div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Resume_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Resume*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Resume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L159">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Resume" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Resume">Resume()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Resumes playback of the DynamicSoundEffectInstance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override void Play()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Play">SoundEffectInstance.Play()</a></div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Resume_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Resume*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Resume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L159">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Resume" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Resume">Resume()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Resumes playback of the DynamicSoundEffectInstance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override void Resume()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Resume">SoundEffectInstance.Resume()</a></div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L183">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop">Stop()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Immediately stops playing the DynamicSoundEffectInstance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override void Resume()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Resume">SoundEffectInstance.Resume()</a></div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L183">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop">Stop()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Immediately stops playing the DynamicSoundEffectInstance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override void Stop()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop">SoundEffectInstance.Stop()</a></div>
-    <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Calling this also releases all queued buffers.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override void Stop()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop">SoundEffectInstance.Stop()</a></div>
+          <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Calling this also releases all queued buffers.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L196">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop(System.Boolean)">Stop(Boolean)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Stops playing the DynamicSoundEffectInstance.
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L196">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop(System.Boolean)">Stop(Boolean)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Stops playing the DynamicSoundEffectInstance.
 If the <code data-dev-comment-type="paramref" class="paramref">immediate</code> parameter is false, this call has no effect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override void Stop(bool immediate)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><span class="parametername">immediate</span></td>
-          <td><p>When set to false, this call has no effect.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override void Stop(bool immediate)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td><span class="parametername">immediate</span></td>
+                <td><p>When set to false, this call has no effect.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop_System_Boolean_">SoundEffectInstance.Stop(Boolean)</a></div>
-    <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Calling this also releases all queued buffers.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop_System_Boolean_">SoundEffectInstance.Stop(Boolean)</a></div>
+          <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Calling this also releases all queued buffers.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L218">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte[])">SubmitBuffer(Byte[])</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Queues an audio buffer for playback.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L218">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte[])">SubmitBuffer(Byte[])</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Queues an audio buffer for playback.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SubmitBuffer(byte[] buffer)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-          <td><span class="parametername">buffer</span></td>
-          <td><p>The buffer containing PCM audio data.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SubmitBuffer(byte[] buffer)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+                <td><span class="parametername">buffer</span></td>
+                <td><p>The buffer containing PCM audio data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte____remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>The buffer length must conform to alignment requirements for the audio format.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte____remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>The buffer length must conform to alignment requirements for the audio format.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L243">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte[],System.Int32,System.Int32)">SubmitBuffer(Byte[], Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Queues an audio buffer for playback.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L243">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte[],System.Int32,System.Int32)">SubmitBuffer(Byte[], Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Queues an audio buffer for playback.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SubmitBuffer(byte[] buffer, int offset, int count)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-          <td><span class="parametername">buffer</span></td>
-          <td><p>The buffer containing PCM audio data.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SubmitBuffer(byte[] buffer, int offset, int count)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+                <td><span class="parametername">buffer</span></td>
+                <td><p>The buffer containing PCM audio data.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">offset</span></td>
-          <td><p>The starting position of audio data.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">offset</span></td>
+                <td><p>The starting position of audio data.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">count</span></td>
-          <td><p>The amount of bytes to use.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">count</span></td>
+                <td><p>The amount of bytes to use.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>The buffer length must conform to alignment requirements for the audio format.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>The buffer length must conform to alignment requirements for the audio format.</p>
 </div>
-    <h3 id="events">Events
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.BufferNeeded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L63">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.BufferNeeded">BufferNeeded</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The event that occurs when the number of queued audio buffers is less than or equal to 2.</p>
+        <h3 id="events">Events
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.BufferNeeded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/DynamicSoundEffectInstance.cs/#L63">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.BufferNeeded">BufferNeeded</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The event that occurs when the number of queued audio buffers is less than or equal to 2.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; BufferNeeded</code></pre>
-    </div>
-    <h5 class="eventType">Event Type</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">EventHandler</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>This event may occur when <a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.html#Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play">Play()</a> is called or during playback when a buffer is completed.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; BufferNeeded</code></pre>
+          </div>
+          <h5 class="eventType">Event Type</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>This event may occur when <a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.html#Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play">Play()</a> is called or during playback when a buffer is completed.</p>
 </div>
-  </article>
+      
+
+  </div>
+</article>

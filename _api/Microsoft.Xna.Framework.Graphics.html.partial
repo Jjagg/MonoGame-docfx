@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics" role="main" class="pos-rel">
-    <h1 id="Microsoft_Xna_Framework_Graphics" data-uid="Microsoft.Xna.Framework.Graphics" class="text-break">Microsoft.Xna.Framework.Graphics Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics" data-uid="Microsoft.Xna.Framework.Graphics" class="text-break">Microsoft.Xna.Framework.Graphics Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="classes">
           Classes
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.html">AlphaTestEffect</a></td>
@@ -273,7 +279,7 @@
         <h2 id="structs">
           Structs
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.html">EffectPassCollection.Enumerator</a></td>
@@ -347,7 +353,7 @@
         <h2 id="interfaces">
           Interfaces
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.html">IEffectFog</a></td>
@@ -376,7 +382,7 @@
         <h2 id="enums">
           Enums
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Blend.html">Blend</a></td>
@@ -529,6 +535,6 @@
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

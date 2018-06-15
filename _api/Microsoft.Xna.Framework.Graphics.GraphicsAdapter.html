@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,684 +55,816 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter" class="text-break">GraphicsAdapter Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><span class="xref">GraphicsAdapter</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class GraphicsAdapter : IDisposable</code></pre>
-    </div>
-  </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Adapters_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Adapters*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Adapters.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Adapters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L52">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Adapters" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Adapters">Adapters</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static ReadOnlyCollection&lt;GraphicsAdapter&gt; Adapters { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="ReadOnlyCollection`1" text="ReadOnlyCollection" alt="ReadOnlyCollection"/>&lt;<xref uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter" text="GraphicsAdapter" alt="Microsoft.Xna.Framework.Graphics.GraphicsAdapter"/>&gt;</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_CurrentDisplayMode_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_CurrentDisplayMode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L108">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_CurrentDisplayMode" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode">CurrentDisplayMode</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DisplayMode CurrentDisplayMode { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DisplayMode" text="DisplayMode" alt="Microsoft.Xna.Framework.Graphics.DisplayMode"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DefaultAdapter*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DefaultAdapter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L47">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DefaultAdapter">DefaultAdapter</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GraphicsAdapter DefaultAdapter { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter" text="GraphicsAdapter" alt="Microsoft.Xna.Framework.Graphics.GraphicsAdapter"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Description_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Description*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Description.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L87">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Description" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Description">Description</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceId_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceId*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceId.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L89">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceId" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceId">DeviceId</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int DeviceId { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceName_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceName*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceName.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L91">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceName" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceName">DeviceName</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public string DeviceName { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.String" text="String" alt="System.String"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsDefaultAdapter_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsDefaultAdapter*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsDefaultAdapter.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsDefaultAdapter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L95">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsDefaultAdapter" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsDefaultAdapter">IsDefaultAdapter</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsDefaultAdapter { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsWideScreen*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsWideScreen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L119">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsWideScreen">IsWideScreen</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns true if the <xref href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode" data-throw-if-not-resolved="false"></xref> is widescreen.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public sealed class GraphicsAdapter : IDisposable</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">GraphicsAdapter</span>
+        </div>
+      </div>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Adapters_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Adapters*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Adapters.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Adapters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L52">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Adapters" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Adapters">Adapters</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static ReadOnlyCollection&lt;GraphicsAdapter&gt; Adapters { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Collections.ObjectModel.ReadOnlyCollection`1" text="ReadOnlyCollection" alt="System.Collections.ObjectModel.ReadOnlyCollection"/>&lt;<xref uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter" text="GraphicsAdapter" alt="Microsoft.Xna.Framework.Graphics.GraphicsAdapter"/>&gt;</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_CurrentDisplayMode_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_CurrentDisplayMode.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L108">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_CurrentDisplayMode" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode">CurrentDisplayMode</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DisplayMode CurrentDisplayMode { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DisplayMode" text="DisplayMode" alt="Microsoft.Xna.Framework.Graphics.DisplayMode"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DefaultAdapter*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DefaultAdapter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L47">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DefaultAdapter">DefaultAdapter</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GraphicsAdapter DefaultAdapter { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter" text="GraphicsAdapter" alt="Microsoft.Xna.Framework.Graphics.GraphicsAdapter"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Description_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Description*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Description.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L87">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Description" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Description">Description</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceId_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceId*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceId.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L89">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceId" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceId">DeviceId</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int DeviceId { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceName_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceName*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceName.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L91">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DeviceName" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DeviceName">DeviceName</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public string DeviceName { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.String" text="String" alt="System.String"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsDefaultAdapter_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsDefaultAdapter*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsDefaultAdapter.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsDefaultAdapter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L95">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsDefaultAdapter" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsDefaultAdapter">IsDefaultAdapter</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsDefaultAdapter { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsWideScreen*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsWideScreen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L119">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsWideScreen">IsWideScreen</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns true if the <xref href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.CurrentDisplayMode" data-throw-if-not-resolved="false"></xref> is widescreen.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsWideScreen { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Common widescreen modes include 16:9, 16:10 and 2:1.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsWideScreen { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsWideScreen_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Common widescreen modes include 16:9, 16:10 and 2:1.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_MonitorHandle_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.MonitorHandle*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_MonitorHandle.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.MonitorHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L97">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_MonitorHandle" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.MonitorHandle">MonitorHandle</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public IntPtr MonitorHandle { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="IntPtr" text="IntPtr" alt="IntPtr"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Revision_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Revision*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Revision.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Revision%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L99">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Revision" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Revision">Revision</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int Revision { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SubSystemId_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SubSystemId*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SubSystemId.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SubSystemId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L101">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SubSystemId" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SubSystemId">SubSystemId</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int SubSystemId { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SupportedDisplayModes_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SupportedDisplayModes*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SupportedDisplayModes.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SupportedDisplayModes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L103">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SupportedDisplayModes" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SupportedDisplayModes">SupportedDisplayModes</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DisplayModeCollection SupportedDisplayModes { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection" text="DisplayModeCollection" alt="Microsoft.Xna.Framework.Graphics.DisplayModeCollection"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDebugLayers_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDebugLayers*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDebugLayers.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDebugLayers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L85">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDebugLayers" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDebugLayers">UseDebugLayers</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Used to request the graphics device should be created with debugging
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_MonitorHandle_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.MonitorHandle*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_MonitorHandle.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.MonitorHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L97">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_MonitorHandle" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.MonitorHandle">MonitorHandle</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public IntPtr MonitorHandle { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.IntPtr" text="IntPtr" alt="System.IntPtr"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Revision_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Revision*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Revision.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Revision%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L99">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Revision" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Revision">Revision</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int Revision { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SubSystemId_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SubSystemId*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SubSystemId.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SubSystemId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L101">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SubSystemId" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SubSystemId">SubSystemId</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int SubSystemId { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SupportedDisplayModes_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SupportedDisplayModes*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SupportedDisplayModes.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SupportedDisplayModes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L103">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_SupportedDisplayModes" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.SupportedDisplayModes">SupportedDisplayModes</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DisplayModeCollection SupportedDisplayModes { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DisplayModeCollection" text="DisplayModeCollection" alt="Microsoft.Xna.Framework.Graphics.DisplayModeCollection"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDebugLayers_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDebugLayers*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDebugLayers.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDebugLayers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L85">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDebugLayers" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDebugLayers">UseDebugLayers</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Used to request the graphics device should be created with debugging
 features enabled.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool UseDebugLayers { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDriverType*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDriverType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L79">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDriverType">UseDriverType</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Used to request creation of a specific kind of driver.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool UseDebugLayers { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDriverType*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDriverType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L79">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseDriverType">UseDriverType</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Used to request creation of a specific kind of driver.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GraphicsAdapter.DriverType UseDriverType { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType" text="GraphicsAdapter.DriverType" alt="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="3">These values only work on DirectX platforms and must be defined before the graphics device
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GraphicsAdapter.DriverType UseDriverType { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType" text="GraphicsAdapter.DriverType" alt="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseDriverType_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="3">These values only work on DirectX platforms and must be defined before the graphics device
 is created. <xref href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DriverType.Hardware" data-throw-if-not-resolved="false"></xref> by default.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L66">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice">UseReferenceDevice</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Used to request creation of the reference graphics device, 
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L66">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice">UseReferenceDevice</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Used to request creation of the reference graphics device, 
 or the default hardware accelerated device (when set to false).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool UseReferenceDevice { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="4">This only works on DirectX platforms where a reference graphics
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool UseReferenceDevice { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="4">This only works on DirectX platforms where a reference graphics
 device is available and must be defined before the graphics device
 is created. It defaults to false.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_VendorId_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.VendorId*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_VendorId.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.VendorId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L93">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_VendorId" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.VendorId">VendorId</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int VendorId { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L148">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Dispose" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Dispose">Dispose()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsProfileSupported_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsProfileSupported*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsProfileSupported_Microsoft_Xna_Framework_Graphics_GraphicsProfile_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsProfileSupported(Microsoft.Xna.Framework.Graphics.GraphicsProfile)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L143">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsProfileSupported_Microsoft_Xna_Framework_Graphics_GraphicsProfile_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsProfileSupported(Microsoft.Xna.Framework.Graphics.GraphicsProfile)">IsProfileSupported(GraphicsProfile)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsProfileSupported(GraphicsProfile graphicsProfile)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" text="GraphicsProfile" alt="Microsoft.Xna.Framework.Graphics.GraphicsProfile"/></td>
-          <td><span class="parametername">graphicsProfile</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_VendorId_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.VendorId*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_VendorId.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.VendorId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L93">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_VendorId" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.VendorId">VendorId</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int VendorId { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L174">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_Dispose" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.Dispose">Dispose()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsProfileSupported_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsProfileSupported*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsProfileSupported_Microsoft_Xna_Framework_Graphics_GraphicsProfile_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsProfileSupported(Microsoft.Xna.Framework.Graphics.GraphicsProfile)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L169">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_IsProfileSupported_Microsoft_Xna_Framework_Graphics_GraphicsProfile_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.IsProfileSupported(Microsoft.Xna.Framework.Graphics.GraphicsProfile)">IsProfileSupported(GraphicsProfile)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsProfileSupported(GraphicsProfile graphicsProfile)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" text="GraphicsProfile" alt="Microsoft.Xna.Framework.Graphics.GraphicsProfile"/></td>
+                <td><span class="parametername">graphicsProfile</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_QueryRenderTargetFormat_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_GraphicsAdapter_QueryRenderTargetFormat_Microsoft_Xna_Framework_Graphics_GraphicsProfile_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_SurfaceFormat__Microsoft_Xna_Framework_Graphics_DepthFormat__System_Int32__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat(Microsoft.Xna.Framework.Graphics.GraphicsProfile%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CMicrosoft.Xna.Framework.Graphics.DepthFormat%2CSystem.Int32%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%40%2CMicrosoft.Xna.Framework.Graphics.DepthFormat%40%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/GraphicsAdapter.cs/#L140">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_QueryRenderTargetFormat_Microsoft_Xna_Framework_Graphics_GraphicsProfile_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_SurfaceFormat__Microsoft_Xna_Framework_Graphics_DepthFormat__System_Int32__" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat(Microsoft.Xna.Framework.Graphics.GraphicsProfile,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.DepthFormat,System.Int32,Microsoft.Xna.Framework.Graphics.SurfaceFormat@,Microsoft.Xna.Framework.Graphics.DepthFormat@,System.Int32@)">QueryRenderTargetFormat(GraphicsProfile, SurfaceFormat, DepthFormat, Int32, out SurfaceFormat, out DepthFormat, out Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Queries for support of the requested render target format on the adaptor.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool QueryRenderTargetFormat(GraphicsProfile graphicsProfile, SurfaceFormat format, DepthFormat depthFormat, int multiSampleCount, out SurfaceFormat selectedFormat, out DepthFormat selectedDepthFormat, out int selectedMultiSampleCount)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsProfile" text="GraphicsProfile" alt="Microsoft.Xna.Framework.Graphics.GraphicsProfile"/></td>
+                <td><span class="parametername">graphicsProfile</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The graphics profile.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
+                <td><span class="parametername">format</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The requested surface format.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthFormat" text="DepthFormat" alt="Microsoft.Xna.Framework.Graphics.DepthFormat"/></td>
+                <td><span class="parametername">depthFormat</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The requested depth stencil format.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">multiSampleCount</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The requested multisample count.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
+                <td><span class="parametername">selectedFormat</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Set to the best format supported by the adaptor for the requested surface format.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DepthFormat" text="DepthFormat" alt="Microsoft.Xna.Framework.Graphics.DepthFormat"/></td>
+                <td><span class="parametername">selectedDepthFormat</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Set to the best format supported by the adaptor for the requested depth stencil format.</p>
+</td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">selectedMultiSampleCount</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Set to the best count supported by the adaptor for the requested multisample count.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.GraphicsAdapter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">True if the requested format is supported by the adaptor. False if one or more of the values was changed.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

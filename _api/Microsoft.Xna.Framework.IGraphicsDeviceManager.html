@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,110 +55,120 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_IGraphicsDeviceManager" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager" class="text-break">IGraphicsDeviceManager Interface
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework" text="Microsoft.Xna.Framework" alt="Microsoft.Xna.Framework"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Used by the platform code to control the graphics device.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public interface IGraphicsDeviceManager</code></pre>
-    </div>
-  </div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_IGraphicsDeviceManager_BeginDraw_" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IGraphicsDeviceManager_BeginDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IGraphicsDeviceManager.cs/#L16">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_BeginDraw" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw">BeginDraw()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Called at the start of rendering a frame.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public interface IGraphicsDeviceManager</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_IGraphicsDeviceManager_BeginDraw_" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IGraphicsDeviceManager_BeginDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IGraphicsDeviceManager.cs/#L16">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_BeginDraw" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw">BeginDraw()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Called at the start of rendering a frame.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">bool BeginDraw()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the frame should be rendered.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool BeginDraw()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns true if the frame should be rendered.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice_" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.CreateDevice*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IGraphicsDeviceManager.CreateDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IGraphicsDeviceManager.cs/#L22">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.CreateDevice">CreateDevice()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Called to create the graphics device.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice_" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.CreateDevice*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IGraphicsDeviceManager.CreateDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IGraphicsDeviceManager.cs/#L22">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.CreateDevice">CreateDevice()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Called to create the graphics device.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">void CreateDevice()</code></pre>
-    </div>
-    <h3 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Does nothing if the graphics device is already created.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void CreateDevice()</code></pre>
+          </div>
+          <h3 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Does nothing if the graphics device is already created.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_IGraphicsDeviceManager_EndDraw_" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.EndDraw*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IGraphicsDeviceManager_EndDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IGraphicsDeviceManager.EndDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IGraphicsDeviceManager.cs/#L27">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_EndDraw" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.EndDraw">EndDraw()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Called after rendering to present the frame to the screen.</p>
+      
+          <a id="Microsoft_Xna_Framework_IGraphicsDeviceManager_EndDraw_" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.EndDraw*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_IGraphicsDeviceManager_EndDraw.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.IGraphicsDeviceManager.EndDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/IGraphicsDeviceManager.cs/#L27">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_IGraphicsDeviceManager_EndDraw" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager.EndDraw">EndDraw()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.IGraphicsDeviceManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Called after rendering to present the frame to the screen.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">void EndDraw()</code></pre>
-    </div>
-  </article>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void EndDraw()</code></pre>
+          </div>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

@@ -1,43 +1,51 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.BufferUsage" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.BufferUsage" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_BufferUsage" data-uid="Microsoft.Xna.Framework.Graphics.BufferUsage" class="text-break">BufferUsage Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>A usage hint for optimizing memory placement of graphics buffers.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_BufferUsage_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum BufferUsage : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public enum BufferUsage</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_BufferUsage_None">None</td>
+            <td><p>No special usage.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_BufferUsage_WriteOnly">WriteOnly</td>
+            <td><p>The buffer will not be readable and will be optimized for rendering and writing.</p>
+</td>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_BufferUsage_None">None</td>
-          <td><p>No special usage.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_BufferUsage_WriteOnly">WriteOnly</td>
-          <td><p>The buffer will not be readable and will be optimized for rendering and writing.</p>
-</td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+</article>

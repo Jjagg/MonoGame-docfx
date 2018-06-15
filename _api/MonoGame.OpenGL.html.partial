@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="MonoGame.OpenGL" role="main" class="pos-rel">
-    <h1 id="MonoGame_OpenGL" data-uid="MonoGame.OpenGL" class="text-break">MonoGame.OpenGL Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="MonoGame.OpenGL" role="main" class="pos-rel">
+  <h1 id="MonoGame_OpenGL" data-uid="MonoGame.OpenGL" class="text-break">MonoGame.OpenGL Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="interfaces">
           Interfaces
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="MonoGame.OpenGL.IWindowInfo.html">IWindowInfo</a></td>
@@ -17,6 +23,6 @@
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

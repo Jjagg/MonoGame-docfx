@@ -1,863 +1,904 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect" class="text-break">SoundEffect Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Audio.html">Microsoft.Xna.Framework.Audio</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Represents a loaded sound resource.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">SoundEffect</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_SoundEffect_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class SoundEffect : IDisposable</code></pre>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_SoundEffect_remarks"><strong>Remarks</strong></h5>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public sealed class SoundEffect : IDisposable</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">SoundEffect</span>
+        </span></div>
+      </div>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+    <h2 id="Microsoft_Xna_Framework_Audio_SoundEffect_remarks"><strong>Remarks</strong></h2>
     <div class="markdown level0 remarks"><p>A SoundEffect represents the buffer used to hold audio data and metadata. SoundEffectInstances are used to play from SoundEffects. Multiple SoundEffectInstance objects can be created and played from the same SoundEffect object.</p>
 <p>The only limit on the number of loaded SoundEffects is restricted by available memory. When a SoundEffect is disposed, all SoundEffectInstances created from it will become invalid.</p>
 <p>SoundEffect.Play() can be used for &apos;fire and forget&apos; sounds. If advanced playback controls like volume or pitch is required, use SoundEffect.CreateInstance().</p>
 </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.%23ctor(System.Byte%5B%5D%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L89">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">SoundEffect(Byte[], Int32, AudioChannels)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Create a sound effect.</p>
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.%23ctor(System.Byte%5B%5D%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L89">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">SoundEffect(Byte[], Int32, AudioChannels)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Create a sound effect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public SoundEffect(byte[] buffer, int sampleRate, AudioChannels channels)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-          <td><span class="parametername">buffer</span></td>
-          <td><p>The buffer with the sound data.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public SoundEffect(byte[] buffer, int sampleRate, AudioChannels channels)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+                <td><span class="parametername">buffer</span></td>
+                <td><p>The buffer with the sound data.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">sampleRate</span></td>
-          <td><p>The sound data sample rate in hertz.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">sampleRate</span></td>
+                <td><p>The sound data sample rate in hertz.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
-          <td><span class="parametername">channels</span></td>
-          <td><p>The number of channels in the sound data.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+                <td><span class="parametername">channels</span></td>
+                <td><p>The number of channels in the sound data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>This only supports uncompressed 16bit PCM wav data.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>This only supports uncompressed 16bit PCM wav data.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.%23ctor(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L105">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,System.Int32,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels,System.Int32,System.Int32)">SoundEffect(Byte[], Int32, Int32, Int32, AudioChannels, Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Create a sound effect.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.%23ctor(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L105">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,System.Int32,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels,System.Int32,System.Int32)">SoundEffect(Byte[], Int32, Int32, Int32, AudioChannels, Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Create a sound effect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public SoundEffect(byte[] buffer, int offset, int count, int sampleRate, AudioChannels channels, int loopStart, int loopLength)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-          <td><span class="parametername">buffer</span></td>
-          <td><p>The buffer with the sound data.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public SoundEffect(byte[] buffer, int offset, int count, int sampleRate, AudioChannels channels, int loopStart, int loopLength)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+                <td><span class="parametername">buffer</span></td>
+                <td><p>The buffer with the sound data.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">offset</span></td>
-          <td><p>The offset to the start of the sound data in bytes.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">offset</span></td>
+                <td><p>The offset to the start of the sound data in bytes.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">count</span></td>
-          <td><p>The length of the sound data in bytes.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">count</span></td>
+                <td><p>The length of the sound data in bytes.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">sampleRate</span></td>
-          <td><p>The sound data sample rate in hertz.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">sampleRate</span></td>
+                <td><p>The sound data sample rate in hertz.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
-          <td><span class="parametername">channels</span></td>
-          <td><p>The number of channels in the sound data.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+                <td><span class="parametername">channels</span></td>
+                <td><p>The number of channels in the sound data.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">loopStart</span></td>
-          <td><p>The position where the sound should begin looping in samples.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">loopStart</span></td>
+                <td><p>The position where the sound should begin looping in samples.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">loopLength</span></td>
-          <td><p>The duration of the sound data loop in samples.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">loopLength</span></td>
+                <td><p>The duration of the sound data loop in samples.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>This only supports uncompressed 16bit PCM wav data.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>This only supports uncompressed 16bit PCM wav data.</p>
 </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L376">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale">DistanceScale</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the scale of distance calculations.</p>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L376">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale">DistanceScale</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the scale of distance calculations.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static float DistanceScale { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>DistanceScale defaults to 1.0 and must be greater than 0.0.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static float DistanceScale { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>DistanceScale defaults to 1.0 and must be greater than 0.0.</p>
 <p>Higher values reduce the rate of falloff between the sound and listener.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L397">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale">DopplerScale</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the scale of Doppler calculations applied to sounds.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L397">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale">DopplerScale</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the scale of Doppler calculations applied to sounds.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static float DopplerScale { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>DopplerScale defaults to 1.0 and must be greater or equal to 0.0</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static float DopplerScale { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>DopplerScale defaults to 1.0 and must be greater or equal to 0.0</p>
 <p>Affects the relative velocity of emitters and listeners.</p>
 <p>Higher values more dramatically shift the pitch for the given relative velocity of the emitter and listener.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Duration_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Duration*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Duration.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Duration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L331">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Duration" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Duration">Duration</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets the duration of the SoundEffect.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Duration_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Duration*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Duration.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Duration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L331">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Duration" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Duration">Duration</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets the duration of the SoundEffect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public TimeSpan Duration { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">TimeSpan</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L435">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed">IsDisposed</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Indicates whether the object is disposed.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public TimeSpan Duration { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_IsDisposed_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_IsDisposed.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L435">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_IsDisposed" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed">IsDisposed</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Indicates whether the object is disposed.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L352">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume">MasterVolume</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the master volume scale applied to all SoundEffectInstances.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L352">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume">MasterVolume</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the master volume scale applied to all SoundEffectInstances.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static float MasterVolume { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Each SoundEffectInstance has its own Volume property that is independent to SoundEffect.MasterVolume. During playback SoundEffectInstance.Volume is multiplied by SoundEffect.MasterVolume.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static float MasterVolume { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Each SoundEffectInstance has its own Volume property that is independent to SoundEffect.MasterVolume. During playback SoundEffectInstance.Volume is multiplied by SoundEffect.MasterVolume.</p>
 <p>This property is used to adjust the volume on all current and newly created SoundEffectInstances. The volume of an individual SoundEffectInstance can be adjusted on its own.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Name_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Name*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L334">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Name" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Name">Name</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the asset name of the SoundEffect.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Name_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Name*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Name.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L334">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Name" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Name">Name</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the asset name of the SoundEffect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Speakers_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Speakers.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Speakers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.XAudio.cs/#L30">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Speakers" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers">Speakers</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static Speakers Speakers { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">Speakers</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L418">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound">SpeedOfSound</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the speed of sound used when calculating the Doppler effect..</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Speakers_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Speakers.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Speakers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.XAudio.cs/#L30">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Speakers" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers">Speakers</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
+public static Speakers Speakers { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="xref">SharpDX.Multimedia.Speakers</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L418">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound">SpeedOfSound</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the speed of sound used when calculating the Doppler effect..</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static float SpeedOfSound { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Defaults to 343.5. Value is measured in meters per second.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static float SpeedOfSound { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Defaults to 343.5. Value is measured in meters per second.</p>
 <p>Has no effect on distance attenuation.</p>
 </div>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L171">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance">CreateInstance()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Creates a new SoundEffectInstance for this SoundEffect.</p>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L171">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance">CreateInstance()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Creates a new SoundEffectInstance for this SoundEffect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public SoundEffectInstance CreateInstance()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a></td>
-          <td><p>A new SoundEffectInstance for this SoundEffect.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public SoundEffectInstance CreateInstance()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a></td>
+                <td><p>A new SoundEffectInstance for this SoundEffect.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Creating a SoundEffectInstance before calling SoundEffectInstance.Play() allows you to access advanced playback features, such as volume, pitch, and 3D positioning.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Creating a SoundEffectInstance before calling SoundEffectInstance.Play() allows you to access advanced playback features, such as volume, pitch, and 3D positioning.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L438">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Dispose" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Dispose">Dispose()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Releases the resources held by this <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a>.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Dispose_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L438">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Dispose" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Dispose">Dispose()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Releases the resources held by this <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a>.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Finalize*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L157">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Finalize" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Finalize">Finalize()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Releases unmanaged resources and performs other cleanup operations before the
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Finalize*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Finalize.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L157">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Finalize" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Finalize">Finalize()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Releases unmanaged resources and performs other cleanup operations before the
 <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a> is reclaimed by garbage collection.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L199">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_Stream_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(Stream)">FromStream(Stream)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Creates a new SoundEffect object based on the specified data stream.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L199">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_System_IO_Stream_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(System.IO.Stream)">FromStream(Stream)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Creates a new SoundEffect object based on the specified data stream.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static SoundEffect FromStream(Stream stream)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">Stream</span></td>
-          <td><span class="parametername">stream</span></td>
-          <td><p>A stream containing the wave data.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static SoundEffect FromStream(Stream stream)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+                <td><span class="parametername">stream</span></td>
+                <td><p>A stream containing the wave data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a></td>
-          <td><p>A new SoundEffect object.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a></td>
+                <td><p>A new SoundEffect object.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_Stream__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>The stream must point to the head of a valid wave file in the RIFF bitstream format.  The formats supported are:
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_System_IO_Stream__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>The stream must point to the head of a valid wave file in the RIFF bitstream format.  The formats supported are:
 <ul><li>8-bit unsigned PCM16-bit signed PCM24-bit signed PCM32-bit IEEE float PCMMS-ADPCM 4-bit compressedIMA/ADPCM (IMA4) 4-bit compressed</li></ul></p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration(System.Int32%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L214">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration(System.Int32,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">GetSampleDuration(Int32, Int32, AudioChannels)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the duration for 16-bit PCM audio.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration(System.Int32%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L214">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration(System.Int32,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">GetSampleDuration(Int32, Int32, AudioChannels)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the duration for 16-bit PCM audio.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static TimeSpan GetSampleDuration(int sizeInBytes, int sampleRate, AudioChannels channels)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">sizeInBytes</span></td>
-          <td><p>The length of the audio data in bytes.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static TimeSpan GetSampleDuration(int sizeInBytes, int sampleRate, AudioChannels channels)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">sizeInBytes</span></td>
+                <td><p>The length of the audio data in bytes.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">sampleRate</span></td>
-          <td><p>Sample rate, in Hertz (Hz). Must be between 8000 Hz and 48000 Hz</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">sampleRate</span></td>
+                <td><p>Sample rate, in Hertz (Hz). Must be between 8000 Hz and 48000 Hz</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
-          <td><span class="parametername">channels</span></td>
-          <td><p>Number of channels in the audio data.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+                <td><span class="parametername">channels</span></td>
+                <td><p>Number of channels in the audio data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">TimeSpan</span></td>
-          <td><p>The duration of the audio data.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+                <td><p>The duration of the audio data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(TimeSpan%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L245">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(TimeSpan,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">GetSampleSizeInBytes(TimeSpan, Int32, AudioChannels)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the data size in bytes for 16bit PCM audio.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_System_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(System.TimeSpan%2CSystem.Int32%2CMicrosoft.Xna.Framework.Audio.AudioChannels)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L245">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_System_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(System.TimeSpan,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)">GetSampleSizeInBytes(TimeSpan, Int32, AudioChannels)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the data size in bytes for 16bit PCM audio.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static int GetSampleSizeInBytes(TimeSpan duration, int sampleRate, AudioChannels channels)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">TimeSpan</span></td>
-          <td><span class="parametername">duration</span></td>
-          <td><p>The total duration of the audio data.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static int GetSampleSizeInBytes(TimeSpan duration, int sampleRate, AudioChannels channels)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+                <td><span class="parametername">duration</span></td>
+                <td><p>The total duration of the audio data.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">sampleRate</span></td>
-          <td><p>Sample rate, in Hertz (Hz), of audio data. Must be between 8,000 and 48,000 Hz.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">sampleRate</span></td>
+                <td><p>Sample rate, in Hertz (Hz), of audio data. Must be between 8,000 and 48,000 Hz.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
-          <td><span class="parametername">channels</span></td>
-          <td><p>Number of channels in the audio data.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+                <td><span class="parametername">channels</span></td>
+                <td><p>Number of channels in the audio data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><p>The size in bytes of a single sample of audio data.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><p>The size in bytes of a single sample of audio data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Play.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L275">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play">Play()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets an internal SoundEffectInstance and plays it.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Play.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L275">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play">Play()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets an internal SoundEffectInstance and plays it.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool Play()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><p>True if a SoundEffectInstance was successfully played, false if not.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool Play()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td><p>True if a SoundEffectInstance was successfully played, false if not.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Play returns false if more SoundEffectInstances are currently playing then the platform allows.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Play returns false if more SoundEffectInstances are currently playing then the platform allows.</p>
 <p>To loop a sound or apply 3D effects, call SoundEffect.CreateInstance() and SoundEffectInstance.Play() instead.</p>
 <p>SoundEffectInstances used by SoundEffect.Play() are pooled internally.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Play(System.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L296">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play(System.Single,System.Single,System.Single)">Play(Single, Single, Single)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets an internal SoundEffectInstance and plays it with the specified volume, pitch, and panning.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect.Play(System.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/SoundEffect.cs/#L296">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play(System.Single,System.Single,System.Single)">Play(Single, Single, Single)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets an internal SoundEffectInstance and plays it with the specified volume, pitch, and panning.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool Play(float volume, float pitch, float pan)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">volume</span></td>
-          <td><p>Volume, ranging from 0.0 (silence) to 1.0 (full volume). Volume during playback is scaled by SoundEffect.MasterVolume.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool Play(float volume, float pitch, float pan)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">volume</span></td>
+                <td><p>Volume, ranging from 0.0 (silence) to 1.0 (full volume). Volume during playback is scaled by SoundEffect.MasterVolume.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">pitch</span></td>
-          <td><p>Pitch adjustment, ranging from -1.0 (down an octave) to 0.0 (no change) to 1.0 (up an octave).</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">pitch</span></td>
+                <td><p>Pitch adjustment, ranging from -1.0 (down an octave) to 0.0 (no change) to 1.0 (up an octave).</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">pan</span></td>
-          <td><p>Panning, ranging from -1.0 (left speaker) to 0.0 (centered), 1.0 (right speaker).</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">pan</span></td>
+                <td><p>Panning, ranging from -1.0 (left speaker) to 0.0 (centered), 1.0 (right speaker).</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><p>True if a SoundEffectInstance was successfully created and played, false if not.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td><p>True if a SoundEffectInstance was successfully created and played, false if not.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Play returns false if more SoundEffectInstances are currently playing then the platform allows.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Play returns false if more SoundEffectInstances are currently playing then the platform allows.</p>
 <p>To apply looping or simulate 3D audio, call SoundEffect.CreateInstance() and SoundEffectInstance.Play() instead.</p>
 <p>SoundEffectInstances used by SoundEffect.Play() are pooled internally.</p>
 </div>
-  </article>
+      
+
+  </div>
+</article>

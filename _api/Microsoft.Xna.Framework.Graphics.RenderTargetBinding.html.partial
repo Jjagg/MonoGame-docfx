@@ -1,400 +1,430 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding" class="text-break">RenderTargetBinding Struct
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct RenderTargetBinding</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public struct RenderTargetBinding</code></pre>
+      </div>
+      
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L69">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D)">RenderTargetBinding(RenderTarget2D)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget2D renderTarget)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></td>
+                <td><span class="parametername">renderTarget</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L93">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D,System.Int32)">RenderTargetBinding(RenderTarget2D, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget2D renderTarget, int arraySlice)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></td>
+                <td><span class="parametername">renderTarget</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">arraySlice</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L107">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D)">RenderTargetBinding(RenderTarget3D)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget3D renderTarget)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.html">RenderTarget3D</a></td>
+                <td><span class="parametername">renderTarget</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L117">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D,System.Int32)">RenderTargetBinding(RenderTarget3D, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget3D renderTarget, int arraySlice)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.html">RenderTarget3D</a></td>
+                <td><span class="parametername">renderTarget</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">arraySlice</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTargetCube_Microsoft_Xna_Framework_Graphics_CubeMapFace_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTargetCube%2CMicrosoft.Xna.Framework.Graphics.CubeMapFace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L79">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTargetCube_Microsoft_Xna_Framework_Graphics_CubeMapFace_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTargetCube,Microsoft.Xna.Framework.Graphics.CubeMapFace)">RenderTargetBinding(RenderTargetCube, CubeMapFace)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTargetCube renderTarget, CubeMapFace cubeMapFace)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.html">RenderTargetCube</a></td>
+                <td><span class="parametername">renderTarget</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.CubeMapFace.html">CubeMapFace</a></td>
+                <td><span class="parametername">cubeMapFace</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_ArraySlice_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.ArraySlice*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_ArraySlice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.ArraySlice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L59">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_ArraySlice" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.ArraySlice">ArraySlice</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int ArraySlice { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_RenderTarget_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.RenderTarget*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_RenderTarget.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.RenderTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L54">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_RenderTarget" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.RenderTarget">RenderTarget</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture RenderTarget { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html">Texture</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="operators">Operators
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget2D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget2D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L131">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget2D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget2D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding">Implicit(RenderTarget2D to RenderTargetBinding)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static implicit operator RenderTargetBinding(RenderTarget2D renderTarget)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></td>
+                <td><span class="parametername">renderTarget</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html">RenderTargetBinding</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget3D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget3D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L138">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget3D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget3D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding">Implicit(RenderTarget3D to RenderTargetBinding)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static implicit operator RenderTargetBinding(RenderTarget3D renderTarget)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.html">RenderTarget3D</a></td>
+                <td><span class="parametername">renderTarget</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html">RenderTargetBinding</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L69">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D)">RenderTargetBinding(RenderTarget2D)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget2D renderTarget)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></td>
-          <td><span class="parametername">renderTarget</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L93">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget2D_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget2D,System.Int32)">RenderTargetBinding(RenderTarget2D, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget2D renderTarget, int arraySlice)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></td>
-          <td><span class="parametername">renderTarget</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">arraySlice</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L107">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D)">RenderTargetBinding(RenderTarget3D)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget3D renderTarget)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.html">RenderTarget3D</a></td>
-          <td><span class="parametername">renderTarget</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L117">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTarget3D_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTarget3D,System.Int32)">RenderTargetBinding(RenderTarget3D, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTarget3D renderTarget, int arraySlice)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.html">RenderTarget3D</a></td>
-          <td><span class="parametername">renderTarget</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">arraySlice</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTargetCube_Microsoft_Xna_Framework_Graphics_CubeMapFace_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.%23ctor(Microsoft.Xna.Framework.Graphics.RenderTargetCube%2CMicrosoft.Xna.Framework.Graphics.CubeMapFace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L79">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding__ctor_Microsoft_Xna_Framework_Graphics_RenderTargetCube_Microsoft_Xna_Framework_Graphics_CubeMapFace_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.#ctor(Microsoft.Xna.Framework.Graphics.RenderTargetCube,Microsoft.Xna.Framework.Graphics.CubeMapFace)">RenderTargetBinding(RenderTargetCube, CubeMapFace)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public RenderTargetBinding(RenderTargetCube renderTarget, CubeMapFace cubeMapFace)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.html">RenderTargetCube</a></td>
-          <td><span class="parametername">renderTarget</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.CubeMapFace.html">CubeMapFace</a></td>
-          <td><span class="parametername">cubeMapFace</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_ArraySlice_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.ArraySlice*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_ArraySlice.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.ArraySlice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L59">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_ArraySlice" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.ArraySlice">ArraySlice</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int ArraySlice { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_RenderTarget_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.RenderTarget*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_RenderTarget.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.RenderTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L54">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_RenderTarget" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.RenderTarget">RenderTarget</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture RenderTarget { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html">Texture</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="operators">Operators
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget2D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget2D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L131">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget2D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget2D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding">Implicit(RenderTarget2D to RenderTargetBinding)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static implicit operator RenderTargetBinding(RenderTarget2D renderTarget)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></td>
-          <td><span class="parametername">renderTarget</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html">RenderTargetBinding</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget3D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget3D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/RenderTargetBinding.cs/#L138">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_RenderTargetBinding_op_Implicit_Microsoft_Xna_Framework_Graphics_RenderTarget3D__Microsoft_Xna_Framework_Graphics_RenderTargetBinding" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.op_Implicit(Microsoft.Xna.Framework.Graphics.RenderTarget3D)~Microsoft.Xna.Framework.Graphics.RenderTargetBinding">Implicit(RenderTarget3D to RenderTargetBinding)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static implicit operator RenderTargetBinding(RenderTarget3D renderTarget)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.html">RenderTarget3D</a></td>
-          <td><span class="parametername">renderTarget</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html">RenderTargetBinding</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

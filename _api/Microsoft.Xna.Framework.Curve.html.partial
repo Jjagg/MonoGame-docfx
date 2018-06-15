@@ -1,469 +1,510 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Curve" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Curve" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Curve" data-uid="Microsoft.Xna.Framework.Curve" class="text-break">Curve Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Contains a collection of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> points in 2D space and provides methods for evaluating features of the curve they define.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">Curve</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Curve_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class Curve : object</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">[DataContract]
+public class Curve</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">Curve</span>
+        </span></div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Curve__ctor_" data-uid="Microsoft.Xna.Framework.Curve.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L73">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve__ctor" data-uid="Microsoft.Xna.Framework.Curve.#ctor">Curve()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Constructs a curve.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Curve()</code></pre>
+          </div>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Curve_IsConstant_" data-uid="Microsoft.Xna.Framework.Curve.IsConstant*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_IsConstant.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.IsConstant%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L31">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_IsConstant" data-uid="Microsoft.Xna.Framework.Curve.IsConstant">IsConstant</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns <code>true</code> if this curve is constant (has zero or one points); <code>false</code> otherwise.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[DataMember]
+public bool IsConstant { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_Keys_" data-uid="Microsoft.Xna.Framework.Curve.Keys*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_Keys.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.Keys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L60">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_Keys" data-uid="Microsoft.Xna.Framework.Curve.Keys">Keys</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The collection of curve keys.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[DataMember]
+public CurveKeyCollection Keys { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.html">CurveKeyCollection</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_PostLoop_" data-uid="Microsoft.Xna.Framework.Curve.PostLoop*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_PostLoop.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.PostLoop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L50">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_PostLoop" data-uid="Microsoft.Xna.Framework.Curve.PostLoop">PostLoop</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Defines how to handle weighting values that are greater than the last control point in the curve.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[DataMember]
+public CurveLoopType PostLoop { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveLoopType.html">CurveLoopType</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_PreLoop_" data-uid="Microsoft.Xna.Framework.Curve.PreLoop*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_PreLoop.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.PreLoop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L40">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_PreLoop" data-uid="Microsoft.Xna.Framework.Curve.PreLoop">PreLoop</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Defines how to handle weighting values that are less than the first control point in the curve.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">[DataMember]
+public CurveLoopType PreLoop { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveLoopType.html">CurveLoopType</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Curve_Clone_" data-uid="Microsoft.Xna.Framework.Curve.Clone*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L86">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_Clone" data-uid="Microsoft.Xna.Framework.Curve.Clone">Clone()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Creates a copy of this curve.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Curve Clone()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a></td>
+                <td><p>A copy of this curve.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_ComputeTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32%2CMicrosoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L221">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32,Microsoft.Xna.Framework.CurveTangent)">ComputeTangent(Int32, CurveTangent)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Computes tangent for the specific key in the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void ComputeTangent(int keyIndex, CurveTangent tangentType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">keyIndex</span></td>
+                <td><p>The index of a key in the collection.</p>
+</td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+                <td><span class="parametername">tangentType</span></td>
+                <td><p>The tangent type for both in and out.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_ComputeTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32%2CMicrosoft.Xna.Framework.CurveTangent%2CMicrosoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L232">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32,Microsoft.Xna.Framework.CurveTangent,Microsoft.Xna.Framework.CurveTangent)">ComputeTangent(Int32, CurveTangent, CurveTangent)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Computes tangent for the specific key in the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void ComputeTangent(int keyIndex, CurveTangent tangentInType, CurveTangent tangentOutType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">keyIndex</span></td>
+                <td><p>The index of key in the collection.</p>
+</td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+                <td><span class="parametername">tangentInType</span></td>
+                <td><p>The tangent in-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentIn">TangentIn</a> for more details.</p>
+</td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+                <td><span class="parametername">tangentOutType</span></td>
+                <td><p>The tangent out-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentOut">TangentOut</a> for more details.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_ComputeTangents_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L198">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent)">ComputeTangents(CurveTangent)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Computes tangents for all keys in the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void ComputeTangents(CurveTangent tangentType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+                <td><span class="parametername">tangentType</span></td>
+                <td><p>The tangent type for both in and out.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_ComputeTangents_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent%2CMicrosoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L208">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent,Microsoft.Xna.Framework.CurveTangent)">ComputeTangents(CurveTangent, CurveTangent)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Computes tangents for all keys in the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void ComputeTangents(CurveTangent tangentInType, CurveTangent tangentOutType)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+                <td><span class="parametername">tangentInType</span></td>
+                <td><p>The tangent in-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentIn">TangentIn</a> for more details.</p>
+</td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+                <td><span class="parametername">tangentOutType</span></td>
+                <td><p>The tangent out-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentOut">TangentOut</a> for more details.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Curve_Evaluate_" data-uid="Microsoft.Xna.Framework.Curve.Evaluate*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_Evaluate_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.Evaluate(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L102">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Curve_Evaluate_System_Single_" data-uid="Microsoft.Xna.Framework.Curve.Evaluate(System.Single)">Evaluate(Single)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Evaluate the value at a position of this <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float Evaluate(float position)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">position</span></td>
+                <td><p>The position on this <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><p>Value at the position on this <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Curve__ctor_" data-uid="Microsoft.Xna.Framework.Curve.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L73">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve__ctor" data-uid="Microsoft.Xna.Framework.Curve.#ctor">Curve()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Constructs a curve.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Curve()</code></pre>
-    </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Curve_IsConstant_" data-uid="Microsoft.Xna.Framework.Curve.IsConstant*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_IsConstant.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.IsConstant%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L31">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_IsConstant" data-uid="Microsoft.Xna.Framework.Curve.IsConstant">IsConstant</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns <code>true</code> if this curve is constant (has zero or one points); <code>false</code> otherwise.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsConstant { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_Keys_" data-uid="Microsoft.Xna.Framework.Curve.Keys*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_Keys.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.Keys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L60">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_Keys" data-uid="Microsoft.Xna.Framework.Curve.Keys">Keys</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The collection of curve keys.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public CurveKeyCollection Keys { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.html">CurveKeyCollection</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_PostLoop_" data-uid="Microsoft.Xna.Framework.Curve.PostLoop*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_PostLoop.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.PostLoop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L50">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_PostLoop" data-uid="Microsoft.Xna.Framework.Curve.PostLoop">PostLoop</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Defines how to handle weighting values that are greater than the last control point in the curve.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public CurveLoopType PostLoop { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveLoopType.html">CurveLoopType</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_PreLoop_" data-uid="Microsoft.Xna.Framework.Curve.PreLoop*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_PreLoop.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.PreLoop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L40">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_PreLoop" data-uid="Microsoft.Xna.Framework.Curve.PreLoop">PreLoop</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Defines how to handle weighting values that are less than the first control point in the curve.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public CurveLoopType PreLoop { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveLoopType.html">CurveLoopType</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Curve_Clone_" data-uid="Microsoft.Xna.Framework.Curve.Clone*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L86">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_Clone" data-uid="Microsoft.Xna.Framework.Curve.Clone">Clone()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Creates a copy of this curve.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Curve Clone()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a></td>
-          <td><p>A copy of this curve.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_ComputeTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32%2CMicrosoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L221">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32,Microsoft.Xna.Framework.CurveTangent)">ComputeTangent(Int32, CurveTangent)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Computes tangent for the specific key in the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void ComputeTangent(int keyIndex, CurveTangent tangentType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">keyIndex</span></td>
-          <td><p>The index of a key in the collection.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
-          <td><span class="parametername">tangentType</span></td>
-          <td><p>The tangent type for both in and out.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_ComputeTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32%2CMicrosoft.Xna.Framework.CurveTangent%2CMicrosoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L232">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32,Microsoft.Xna.Framework.CurveTangent,Microsoft.Xna.Framework.CurveTangent)">ComputeTangent(Int32, CurveTangent, CurveTangent)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Computes tangent for the specific key in the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void ComputeTangent(int keyIndex, CurveTangent tangentInType, CurveTangent tangentOutType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">keyIndex</span></td>
-          <td><p>The index of key in the collection.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
-          <td><span class="parametername">tangentInType</span></td>
-          <td><p>The tangent in-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentIn">TangentIn</a> for more details.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
-          <td><span class="parametername">tangentOutType</span></td>
-          <td><p>The tangent out-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentOut">TangentOut</a> for more details.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_ComputeTangents_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L198">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent)">ComputeTangents(CurveTangent)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Computes tangents for all keys in the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void ComputeTangents(CurveTangent tangentType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
-          <td><span class="parametername">tangentType</span></td>
-          <td><p>The tangent type for both in and out.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_ComputeTangents_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent%2CMicrosoft.Xna.Framework.CurveTangent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L208">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent,Microsoft.Xna.Framework.CurveTangent)">ComputeTangents(CurveTangent, CurveTangent)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Computes tangents for all keys in the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void ComputeTangents(CurveTangent tangentInType, CurveTangent tangentOutType)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
-          <td><span class="parametername">tangentInType</span></td>
-          <td><p>The tangent in-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentIn">TangentIn</a> for more details.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
-          <td><span class="parametername">tangentOutType</span></td>
-          <td><p>The tangent out-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html#Microsoft_Xna_Framework_CurveKey_TangentOut">TangentOut</a> for more details.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Curve_Evaluate_" data-uid="Microsoft.Xna.Framework.Curve.Evaluate*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Curve_Evaluate_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Curve.Evaluate(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Curve.cs/#L102">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Curve_Evaluate_System_Single_" data-uid="Microsoft.Xna.Framework.Curve.Evaluate(System.Single)">Evaluate(Single)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Evaluate the value at a position of this <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float Evaluate(float position)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">position</span></td>
-          <td><p>The position on this <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><p>Value at the position on this <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

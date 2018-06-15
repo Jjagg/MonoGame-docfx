@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,253 +55,290 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Audio_AudioEmitter" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter" class="text-break">AudioEmitter Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Audio" text="Microsoft.Xna.Framework.Audio" alt="Microsoft.Xna.Framework.Audio"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Represents a 3D audio emitter. Used to simulate 3D audio effects.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><span class="xref">AudioEmitter</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Audio_AudioEmitter_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class AudioEmitter : object</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioEmitter__ctor_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L17">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter__ctor" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.#ctor">AudioEmitter()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Initializes a new AudioEmitter instance.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class AudioEmitter</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">AudioEmitter</span>
+        </div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioEmitter__ctor_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter__ctor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L17">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter__ctor" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.#ctor">AudioEmitter()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Initializes a new AudioEmitter instance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public AudioEmitter()</code></pre>
-    </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.DopplerScale*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.DopplerScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L33">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.DopplerScale">DopplerScale</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets a scale applied to the Doppler effect between the AudioEmitter and an AudioListener.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public AudioEmitter()</code></pre>
+          </div>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.DopplerScale*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.DopplerScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L33">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.DopplerScale">DopplerScale</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets a scale applied to the Doppler effect between the AudioEmitter and an AudioListener.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float DopplerScale { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Defaults to 1.0</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float DopplerScale { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_DopplerScale_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Defaults to 1.0</p>
 <p>A value of 1.0 leaves the Doppler effect unmodified.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Forward_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Forward*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Forward.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Forward%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L55">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Forward" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Forward">Forward</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the emitter&apos;s forward vector.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Forward_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Forward*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Forward.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Forward%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L55">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Forward" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Forward">Forward</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the emitter&apos;s forward vector.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 Forward { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Forward_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Defaults to Vector3.Forward. (new Vector3(0, 0, -1))</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 Forward { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Forward_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Defaults to Vector3.Forward. (new Vector3(0, 0, -1))</p>
 <p>Used with AudioListener.Velocity to calculate Doppler values.</p>
 <p>The Forward and Up values must be orthonormal.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Position_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Position*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Position.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L61">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Position" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Position">Position</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the position of this emitter.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Position_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Position*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Position.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L61">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Position" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Position">Position</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the position of this emitter.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 Position { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Up_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Up*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Up.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Up%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L71">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Up" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Up">Up</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the emitter&apos;s Up vector.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 Position { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Up_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Up*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Up.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Up%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L71">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Up" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Up">Up</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the emitter&apos;s Up vector.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 Up { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Up_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Defaults to Vector3.Up. (new Vector3(0, -1, 1)).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 Up { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Up_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Defaults to Vector3.Up. (new Vector3(0, -1, 1)).</p>
 <p>The Up and Forward vectors must be orthonormal.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Velocity*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Velocity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L81">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Velocity">Velocity</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the emitter&apos;s velocity vector.</p>
+      
+          <a id="Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity_" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Velocity*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.AudioEmitter.Velocity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Audio/AudioEmitter.cs/#L81">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity" data-uid="Microsoft.Xna.Framework.Audio.AudioEmitter.Velocity">Velocity</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Audio.AudioEmitter.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the emitter&apos;s velocity vector.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity_remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p>Defaults to Vector3.Zero.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Audio_AudioEmitter_Velocity_remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p>Defaults to Vector3.Zero.</p>
 <p>This value is only used when calculating Doppler values.</p>
 </div>
-  </article>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

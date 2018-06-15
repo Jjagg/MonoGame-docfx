@@ -1,342 +1,371 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph" class="text-break">SpriteFont.Glyph Struct
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Struct that defines the spacing, Kerning, and bounds of a character.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct Glyph</code></pre>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_remarks"><strong>Remarks</strong></h5>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public struct Glyph</code></pre>
+      </div>
+      
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+    <h2 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_remarks"><strong>Remarks</strong></h2>
     <div class="markdown level0 remarks"><p>Provides the data necessary to implement custom SpriteFont rendering.</p>
 </div>
+
+
+      
+        <h3 id="fields">Fields
+      </h3>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_BoundsInTexture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.BoundsInTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L360">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_BoundsInTexture" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.BoundsInTexture">BoundsInTexture</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Rectangle in the font texture where this letter exists.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Rectangle BoundsInTexture</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Character.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Character%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L356">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Character" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Character">Character</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The char associated with this glyph.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public char Character</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Cropping.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Cropping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L364">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Cropping" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Cropping">Cropping</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Cropping applied to the BoundsInTexture to calculate the bounds of the actual character.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Rectangle Cropping</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Empty.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Empty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L382">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Empty" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Empty">Empty</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static readonly SpriteFont.Glyph Empty</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.html">SpriteFont.Glyph</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_LeftSideBearing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.LeftSideBearing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L368">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_LeftSideBearing" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.LeftSideBearing">LeftSideBearing</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The amount of space between the left side ofthe character and its first pixel in the X dimention.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float LeftSideBearing</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_RightSideBearing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.RightSideBearing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L372">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_RightSideBearing" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.RightSideBearing">RightSideBearing</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The amount of space between the right side of the character and its last pixel in the X dimention.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float RightSideBearing</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Width.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L376">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Width" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Width">Width</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Width of the character before kerning is applied. </p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float Width</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_WidthIncludingBearings.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.WidthIncludingBearings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L380">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_WidthIncludingBearings" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.WidthIncludingBearings">WidthIncludingBearings</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Width of the character before kerning is applied. </p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float WidthIncludingBearings</code></pre>
+          </div>
+          <h5 class="fieldValue">Field Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_ToString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.ToString*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L384">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_ToString" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.ToString">ToString()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a></div>
+      
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_BoundsInTexture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.BoundsInTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L347">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_BoundsInTexture" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.BoundsInTexture">BoundsInTexture</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Rectangle in the font texture where this letter exists.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Rectangle BoundsInTexture</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Character.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Character%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L343">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Character" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Character">Character</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The char associated with this glyph.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public char Character</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Cropping.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Cropping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L351">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Cropping" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Cropping">Cropping</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Cropping applied to the BoundsInTexture to calculate the bounds of the actual character.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Rectangle Cropping</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Empty.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Empty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L369">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Empty" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Empty">Empty</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static readonly SpriteFont.Glyph Empty</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.html">SpriteFont.Glyph</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_LeftSideBearing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.LeftSideBearing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L355">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_LeftSideBearing" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.LeftSideBearing">LeftSideBearing</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The amount of space between the left side ofthe character and its first pixel in the X dimention.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float LeftSideBearing</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_RightSideBearing.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.RightSideBearing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L359">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_RightSideBearing" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.RightSideBearing">RightSideBearing</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The amount of space between the right side of the character and its last pixel in the X dimention.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float RightSideBearing</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Width.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L363">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Width" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Width">Width</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Width of the character before kerning is applied. </p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float Width</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_WidthIncludingBearings.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.WidthIncludingBearings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L367">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_WidthIncludingBearings" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.WidthIncludingBearings">WidthIncludingBearings</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Width of the character before kerning is applied. </p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float WidthIncludingBearings</code></pre>
-    </div>
-    <h5 class="fieldValue">Field Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_ToString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.ToString*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_ToString.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/SpriteFont.cs/#L371">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_ToString" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.ToString">ToString()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

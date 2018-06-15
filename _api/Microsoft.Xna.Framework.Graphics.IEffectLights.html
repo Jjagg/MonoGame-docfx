@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,231 +55,241 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_IEffectLights" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights" class="text-break">IEffectLights Interface
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The common effect light rendering parameters.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_IEffectLights_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public interface IEffectLights</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public interface IEffectLights</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L53">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor">AmbientLightColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The floating point ambient light color.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">Vector3 AmbientLightColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight0*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight0.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L58">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight0">DirectionalLight0</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the first directional light.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">DirectionalLight DirectionalLight0 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L63">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1">DirectionalLight1</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the second directional light.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">DirectionalLight DirectionalLight1 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight2*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L68">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight2">DirectionalLight2</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the third directional light.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">DirectionalLight DirectionalLight2 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.LightingEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.LightingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L73">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.LightingEnabled">LightingEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Toggles the rendering of lighting.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool LightingEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L78">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting">EnableDefaultLighting()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Initializes the lights to the standard key/fill/back lighting rig.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">void EnableDefaultLighting()</code></pre>
+          </div>
+      
+
   </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L53">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor">AmbientLightColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The floating point ambient light color.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">Vector3 AmbientLightColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight0*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight0.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L58">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight0">DirectionalLight0</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the first directional light.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">DirectionalLight DirectionalLight0 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L63">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1">DirectionalLight1</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the second directional light.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">DirectionalLight DirectionalLight1 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight2*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L68">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight2">DirectionalLight2</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the third directional light.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">DirectionalLight DirectionalLight2 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.LightingEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.LightingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L73">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.LightingEnabled">LightingEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Toggles the rendering of lighting.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">bool LightingEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/IEffectLights.cs/#L78">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting">EnableDefaultLighting()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.IEffectLights.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Initializes the lights to the standard key/fill/back lighting rig.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">void EnableDefaultLighting()</code></pre>
-    </div>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

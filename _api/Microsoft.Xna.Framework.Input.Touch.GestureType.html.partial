@@ -1,88 +1,97 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureType" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureType" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Input_Touch_GestureType" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureType" class="text-break">GestureType Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.html">Microsoft.Xna.Framework.Input.Touch</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Enumuration of values that represent different gestures that can be processed by <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanel.html#Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture">ReadGesture()</a>.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Input_Touch_GestureType_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum GestureType : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">[Flags]
+public enum GestureType</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_DoubleTap">DoubleTap</td>
+            <td><p>The user tapped the device twice which is always preceded by a Tap gesture.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_DragComplete">DragComplete</td>
+            <td><p>States completion of a drag gesture(VerticalDrag, HorizontalDrag, or FreeDrag).</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Flick">Flick</td>
+            <td><p>States that a touch was combined with a quick swipe.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_FreeDrag">FreeDrag</td>
+            <td><p>The use touched a point and then performed a free-form drag.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Hold">Hold</td>
+            <td><p>The use touched a single point for approximately one second.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_HorizontalDrag">HorizontalDrag</td>
+            <td><p>The user touched the screen and performed either left to right or right to left drag gesture.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_None">None</td>
+            <td><p>No gestures.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Pinch">Pinch</td>
+            <td><p>The user either converged or diverged two touch-points on the screen which is like a two-finger drag.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_PinchComplete">PinchComplete</td>
+            <td><p>An in-progress pinch operation was completed.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Tap">Tap</td>
+            <td><p>The user touched a single point.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_VerticalDrag">VerticalDrag</td>
+            <td><p>The user touched the screen and performed either top to bottom or bottom to top drag gesture.</p>
+</td>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_DoubleTap">DoubleTap</td>
-          <td><p>The user tapped the device twice which is always preceded by a Tap gesture.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_DragComplete">DragComplete</td>
-          <td><p>States completion of a drag gesture(VerticalDrag, HorizontalDrag, or FreeDrag).</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Flick">Flick</td>
-          <td><p>States that a touch was combined with a quick swipe.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_FreeDrag">FreeDrag</td>
-          <td><p>The use touched a point and then performed a free-form drag.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Hold">Hold</td>
-          <td><p>The use touched a single point for approximately one second.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_HorizontalDrag">HorizontalDrag</td>
-          <td><p>The user touched the screen and performed either left to right or right to left drag gesture.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_None">None</td>
-          <td><p>No gestures.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Pinch">Pinch</td>
-          <td><p>The user either converged or diverged two touch-points on the screen which is like a two-finger drag.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_PinchComplete">PinchComplete</td>
-          <td><p>An in-progress pinch operation was completed.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_Tap">Tap</td>
-          <td><p>The user touched a single point.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Input_Touch_GestureType_VerticalDrag">VerticalDrag</td>
-          <td><p>The user touched the screen and performed either top to bottom or bottom to top drag gesture.</p>
-</td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+</article>

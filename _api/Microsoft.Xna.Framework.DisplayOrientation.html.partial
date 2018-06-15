@@ -1,63 +1,72 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.DisplayOrientation" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.DisplayOrientation" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_DisplayOrientation" data-uid="Microsoft.Xna.Framework.DisplayOrientation" class="text-break">DisplayOrientation Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Defines the orientation of the display.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_DisplayOrientation_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum DisplayOrientation : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">[Flags]
+public enum DisplayOrientation</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_DisplayOrientation_Default">Default</td>
+            <td><p>The default orientation.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_DisplayOrientation_LandscapeLeft">LandscapeLeft</td>
+            <td><p>The display is rotated counterclockwise into a landscape orientation. Width is greater than height.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_DisplayOrientation_LandscapeRight">LandscapeRight</td>
+            <td><p>The display is rotated clockwise into a landscape orientation. Width is greater than height.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_DisplayOrientation_Portrait">Portrait</td>
+            <td><p>The display is rotated as portrait, where height is greater than width.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_DisplayOrientation_PortraitDown">PortraitDown</td>
+            <td><p>The display is rotated as inverted portrait, where height is greater than width.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_DisplayOrientation_Unknown">Unknown</td>
+            <td><p>Unknown display orientation.</p>
+</td>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_DisplayOrientation_Default">Default</td>
-          <td><p>The default orientation.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_DisplayOrientation_LandscapeLeft">LandscapeLeft</td>
-          <td><p>The display is rotated counterclockwise into a landscape orientation. Width is greater than height.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_DisplayOrientation_LandscapeRight">LandscapeRight</td>
-          <td><p>The display is rotated clockwise into a landscape orientation. Width is greater than height.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_DisplayOrientation_Portrait">Portrait</td>
-          <td><p>The display is rotated as portrait, where height is greater than width.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_DisplayOrientation_PortraitDown">PortraitDown</td>
-          <td><p>The display is rotated as inverted portrait, where height is greater than width.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_DisplayOrientation_Unknown">Unknown</td>
-          <td><p>Unknown display orientation.</p>
-</td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+</article>

@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="MonoGame.Utilities.Png" role="main" class="pos-rel">
-    <h1 id="MonoGame_Utilities_Png" data-uid="MonoGame.Utilities.Png" class="text-break">MonoGame.Utilities.Png Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="MonoGame.Utilities.Png" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_Png" data-uid="MonoGame.Utilities.Png" class="text-break">MonoGame.Utilities.Png Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="classes">
           Classes
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="MonoGame.Utilities.Png.PngReader.html">PngReader</a></td>
@@ -21,6 +27,6 @@
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

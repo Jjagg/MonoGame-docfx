@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,688 +55,722 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect" class="text-break">AlphaTestEffect Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Built-in effect that supports alpha testing.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></div>
-      <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></div>
-      <div class="level3"><span class="xref">AlphaTestEffect</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class AlphaTestEffect : Effect, IDisposable, IEffectMatrices, IEffectFog</code></pre>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level3"><span class="xref">AlphaTestEffect</span>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
-      </div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class AlphaTestEffect : Effect, IEffectMatrices, IEffectFog</code></pre>
-    </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_AlphaTestEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.%23ctor(Microsoft.Xna.Framework.Graphics.AlphaTestEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L270">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_AlphaTestEffect_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor(Microsoft.Xna.Framework.Graphics.AlphaTestEffect)">AlphaTestEffect(AlphaTestEffect)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new AlphaTestEffect by cloning parameter settings from an existing instance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected AlphaTestEffect(AlphaTestEffect cloneSource)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect" text="AlphaTestEffect" alt="Microsoft.Xna.Framework.Graphics.AlphaTestEffect"/></td>
+                <td><span class="parametername">cloneSource</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L261">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">AlphaTestEffect(GraphicsDevice)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new AlphaTestEffect with default parameter settings.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public AlphaTestEffect(GraphicsDevice device)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">device</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Alpha*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L126">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Alpha">Alpha</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_AlphaFunction_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.AlphaFunction*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_AlphaFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.AlphaFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L227">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_AlphaFunction" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.AlphaFunction">AlphaFunction</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the alpha compare function (default Greater).</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public CompareFunction AlphaFunction { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.DiffuseColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L111">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.DiffuseColor">DiffuseColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L189">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogColor">FogColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L141">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnabled">FogEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnd*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L174">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnd">FogEnd</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogStart*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L159">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogStart">FogStart</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Projection*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L96">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Projection">Projection</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_ReferenceAlpha_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.ReferenceAlpha*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_ReferenceAlpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.ReferenceAlpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L242">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_ReferenceAlpha" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.ReferenceAlpha">ReferenceAlpha</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the reference alpha value (default 0).</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int ReferenceAlpha { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Texture*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L199">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Texture">Texture</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current texture.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_VertexColorEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.VertexColorEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_VertexColorEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.VertexColorEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L209">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_VertexColorEnabled" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.VertexColorEnabled">VertexColorEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets whether vertex color is enabled.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool VertexColorEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.View*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L81">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.View">View</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L66">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World">World</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Clone*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L297">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Clone">Clone()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current AlphaTestEffect instance.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.OnApply*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L318">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.OnApply">OnApply()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_AlphaTestEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.%23ctor(Microsoft.Xna.Framework.Graphics.AlphaTestEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L270">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_AlphaTestEffect_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor(Microsoft.Xna.Framework.Graphics.AlphaTestEffect)">AlphaTestEffect(AlphaTestEffect)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new AlphaTestEffect by cloning parameter settings from an existing instance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected AlphaTestEffect(AlphaTestEffect cloneSource)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect" text="AlphaTestEffect" alt="Microsoft.Xna.Framework.Graphics.AlphaTestEffect"/></td>
-          <td><span class="parametername">cloneSource</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L261">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">AlphaTestEffect(GraphicsDevice)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new AlphaTestEffect with default parameter settings.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public AlphaTestEffect(GraphicsDevice device)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">device</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Alpha*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L126">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Alpha">Alpha</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_AlphaFunction_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.AlphaFunction*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_AlphaFunction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.AlphaFunction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L227">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_AlphaFunction" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.AlphaFunction">AlphaFunction</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the alpha compare function (default Greater).</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public CompareFunction AlphaFunction { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.CompareFunction" text="CompareFunction" alt="Microsoft.Xna.Framework.Graphics.CompareFunction"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.DiffuseColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L111">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.DiffuseColor">DiffuseColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L189">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogColor">FogColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L141">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnabled">FogEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnd*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L174">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogEnd">FogEnd</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogStart*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L159">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.FogStart">FogStart</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Projection*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L96">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Projection">Projection</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_ReferenceAlpha_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.ReferenceAlpha*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_ReferenceAlpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.ReferenceAlpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L242">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_ReferenceAlpha" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.ReferenceAlpha">ReferenceAlpha</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the reference alpha value (default 0).</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int ReferenceAlpha { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Texture*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L199">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Texture">Texture</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current texture.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_VertexColorEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.VertexColorEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_VertexColorEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.VertexColorEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L209">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_VertexColorEnabled" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.VertexColorEnabled">VertexColorEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets whether vertex color is enabled.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool VertexColorEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.View*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L81">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.View">View</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L66">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World">World</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Clone*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L297">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.Clone">Clone()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current AlphaTestEffect instance.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.OnApply*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_AlphaTestEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.AlphaTestEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/AlphaTestEffect.cs/#L318">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.OnApply">OnApply()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.AlphaTestEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

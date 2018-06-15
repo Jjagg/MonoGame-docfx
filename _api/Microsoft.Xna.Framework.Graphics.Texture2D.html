@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,1415 +55,1469 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D" class="text-break">Texture2D Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></div>
-      <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Texture" text="Texture" alt="Microsoft.Xna.Framework.Graphics.Texture"/></div>
-      <div class="level3"><span class="xref">Texture2D</span></div>
-        <div class="level4"><xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D" displayProperty="name" altProperty="fullName"/></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.Format" text="Texture.Format" alt="Microsoft.Xna.Framework.Graphics.Texture.Format"/>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class Texture2D : Texture, IDisposable</code></pre>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.LevelCount" text="Texture.LevelCount" alt="Microsoft.Xna.Framework.Graphics.Texture.LevelCount"/>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Texture" text="Texture" alt="Microsoft.Xna.Framework.Graphics.Texture"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level3"><span class="xref">Texture2D</span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level4"><xref uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D" displayProperty="name" altProperty="fullName"/></span>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.GraphicsDeviceResetting" text="Texture.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Texture.GraphicsDeviceResetting()"/>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle" text="Texture.GetSharedHandle()" alt="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle()"/>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Texture.Format" text="Texture.Format" alt="Microsoft.Xna.Framework.Graphics.Texture.Format"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Texture.LevelCount" text="Texture.LevelCount" alt="Microsoft.Xna.Framework.Graphics.Texture.LevelCount"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Texture.GraphicsDeviceResetting" text="Texture.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Texture.GraphicsDeviceResetting()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle" text="Texture.GetSharedHandle()" alt="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Texture.CreateShaderResourceView" text="Texture.CreateShaderResourceView()" alt="Microsoft.Xna.Framework.Graphics.Texture.CreateShaderResourceView()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Texture.CreateShaderResourceView" text="Texture.CreateShaderResourceView()" alt="Microsoft.Xna.Framework.Graphics.Texture.CreateShaderResourceView()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
-      </div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_Texture2D_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class Texture2D : Texture</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L45">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32)">Texture2D(GraphicsDevice, Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new texture of the given size</p>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L45">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32)">Texture2D(GraphicsDevice, Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new texture of the given size</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">graphicsDevice</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">width</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">height</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L58">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat)">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new texture of a given size with a surface format and optional mipmaps </p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">graphicsDevice</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">width</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">height</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L58">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat)">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new texture of a given size with a surface format and optional mipmaps </p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">graphicsDevice</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">width</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">height</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">mipmap</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
-          <td><span class="parametername">format</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CMicrosoft.Xna.Framework.Graphics.Texture2D.SurfaceType%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L93">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_System_Boolean_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType,System.Boolean,System.Int32)">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Texture2D.SurfaceType, Boolean, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format, Texture2D.SurfaceType type, bool shared, int arraySize)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">graphicsDevice</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">width</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">height</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">mipmap</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
-          <td><span class="parametername">format</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType" text="Texture2D.SurfaceType" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType"/></td>
-          <td><span class="parametername">type</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">shared</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">arraySize</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L73">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,System.Int32)">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Creates a new texture array of a given size with a surface format and optional mipmaps.
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">graphicsDevice</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">width</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">height</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">mipmap</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
+                <td><span class="parametername">format</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CMicrosoft.Xna.Framework.Graphics.Texture2D.SurfaceType%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L93">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_System_Boolean_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType,System.Boolean,System.Int32)">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Texture2D.SurfaceType, Boolean, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format, Texture2D.SurfaceType type, bool shared, int arraySize)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">graphicsDevice</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">width</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">height</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">mipmap</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
+                <td><span class="parametername">format</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType" text="Texture2D.SurfaceType" alt="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType"/></td>
+                <td><span class="parametername">type</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">shared</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">arraySize</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CMicrosoft.Xna.Framework.Graphics.SurfaceFormat%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L73">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,System.Int32)">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Creates a new texture array of a given size with a surface format and optional mipmaps.
 Throws ArgumentException if the current GraphicsDevice can&apos;t work with texture arrays</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format, int arraySize)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">graphicsDevice</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">width</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">height</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">mipmap</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
-          <td><span class="parametername">format</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">arraySize</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Bounds_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Bounds*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Bounds.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Bounds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L31">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Bounds" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Bounds">Bounds</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the dimensions of the texture</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format, int arraySize)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">graphicsDevice</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">width</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">height</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">mipmap</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.SurfaceFormat" text="SurfaceFormat" alt="Microsoft.Xna.Framework.Graphics.SurfaceFormat"/></td>
+                <td><span class="parametername">format</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">arraySize</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Bounds_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Bounds*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Bounds.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Bounds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L31">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Bounds" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Bounds">Bounds</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the dimensions of the texture</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Rectangle Bounds { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Height_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Height*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Height.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L135">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Height" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Height">Height</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the height of the texture in pixels.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Rectangle Bounds { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Height_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Height*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Height.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L135">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Height" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Height">Height</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the height of the texture in pixels.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L28">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap">Mipmap</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected bool Mipmap { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L29">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription">SampleDescription</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected SampleDescription SampleDescription { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="SampleDescription" text="SampleDescription" alt="SampleDescription"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Shared_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Shared*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Shared.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Shared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L27">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Shared" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Shared">Shared</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected bool Shared { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Width_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Width*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Width.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L124">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Width" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Width">Width</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the width of the texture in pixels.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L29">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap">Mipmap</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected bool Mipmap { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L30">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription">SampleDescription</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected SampleDescription SampleDescription { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="SharpDX.DXGI.SampleDescription" text="SampleDescription" alt="SharpDX.DXGI.SampleDescription"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Shared_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Shared*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Shared.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Shared%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L28">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Shared" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Shared">Shared</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected bool Shared { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Width_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Width*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Width.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L124">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Width" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Width">Width</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the width of the texture in pixels.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_CreateSampleDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.CreateSampleDescription*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_CreateSampleDescription.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.CreateSampleDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L384">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_CreateSampleDescription" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.CreateSampleDescription">CreateSampleDescription()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected virtual SampleDescription CreateSampleDescription()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="SampleDescription" text="SampleDescription" alt="SampleDescription"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L193">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td><span class="parametername">disposing</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Texture.Dispose(System.Boolean)" altProperty="fullName" displayProperty="nameWithType"/></div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.FromStream(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CStream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L281">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Stream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Stream)">FromStream(GraphicsDevice, Stream)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Creates a Texture2D from a stream, supported formats bmp, gif, jpg, png, tif and dds (only for simple textures).
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_CreateSampleDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.CreateSampleDescription*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_CreateSampleDescription.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.CreateSampleDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L408">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_CreateSampleDescription" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.CreateSampleDescription">CreateSampleDescription()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected virtual SampleDescription CreateSampleDescription()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="SharpDX.DXGI.SampleDescription" text="SampleDescription" alt="SharpDX.DXGI.SampleDescription"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L203">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td><span class="parametername">disposing</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Texture.Dispose(System.Boolean)" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.FromStream(Microsoft.Xna.Framework.Graphics.GraphicsDevice%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L281">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IO.Stream)">FromStream(GraphicsDevice, Stream)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Creates a Texture2D from a stream, supported formats bmp, gif, jpg, png, tif and dds (only for simple textures).
 May work with other formats, but will not work with tga files.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static Texture2D FromStream(GraphicsDevice graphicsDevice, Stream stream)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">graphicsDevice</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The graphics device where the texture will be created.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static Texture2D FromStream(GraphicsDevice graphicsDevice, Stream stream)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">graphicsDevice</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The graphics device where the texture will be created.</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="Stream" text="Stream" alt="Stream"/></td>
-          <td><span class="parametername">stream</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The stream from which to read the image data.</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.IO.Stream" text="Stream" alt="System.IO.Stream"/></td>
+                <td><span class="parametername">stream</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The stream from which to read the image data.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <xref href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.Color" data-throw-if-not-resolved="false"></xref> texture created from the image stream.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <xref href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.Color" data-throw-if-not-resolved="false"></xref> texture created from the image stream.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Stream__remarks">Remarks</h3>
-    <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="3">Note that different image decoders may generate slight differences between platforms, but perceptually 
+              </tr>
+            </tbody>
+          </table>
+          <h3 id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream__remarks">Remarks</h3>
+          <div class="markdown level1 remarks"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="3">Note that different image decoders may generate slight differences between platforms, but perceptually 
 the images should be identical.  This call does not premultiply the image alpha, but areas of zero alpha will
 result in black color data.</p>
 </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L263">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[])">GetData&lt;T&gt;(T[])</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L263">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[])">GetData&lt;T&gt;(T[])</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
 Throws ArgumentException if data is null, data.length is too short or
 if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the texture data</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the texture data</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L251">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[],System.Int32,System.Int32)">GetData&lt;T&gt;(T[], Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L251">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[],System.Int32,System.Int32)">GetData&lt;T&gt;(T[], Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
 Throws ArgumentException if data is null, data.length is too short or
 if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data, int startIndex, int elementCount)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the texture data</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the texture data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">startIndex</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First position in data where to write the pixel data</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">startIndex</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First position in data where to write the pixel data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">elementCount</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Number of pixels to read</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">elementCount</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Number of pixels to read</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(System.Int32%2CSystem.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L219">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">GetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(System.Int32%2CSystem.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L219">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">GetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
 Throws ArgumentException if data is null, data.length is too short or
 if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">level</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">level</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">arraySlice</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Index inside the texture array</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">arraySlice</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Index inside the texture array</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
-          <td><span class="parametername">rect</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area of the texture to retrieve</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
+                <td><span class="parametername">rect</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area of the texture to retrieve</p>
 </td>
-        </tr>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the data</p>
+              </tr>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">startIndex</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Starting index of data where to write the pixel data</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">startIndex</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Starting index of data where to write the pixel data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">elementCount</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Number of pixels to read</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">elementCount</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Number of pixels to read</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(System.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L237">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">GetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetData%60%601(System.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L237">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">GetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Retrieves the contents of the texture
 Throws ArgumentException if data is null, data.length is too short or
 if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">level</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">level</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
-          <td><span class="parametername">rect</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area of the texture</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
+                <td><span class="parametername">rect</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area of the texture</p>
 </td>
-        </tr>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the texture data</p>
+              </tr>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination array for the texture data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">startIndex</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First position in data where to write the pixel data</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">startIndex</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">First position in data where to write the pixel data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">elementCount</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Number of pixels to read</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">elementCount</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Number of pixels to read</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L354">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription">GetTexture2DDescription()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected virtual Texture2DDescription GetTexture2DDescription()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Texture2DDescription" text="Texture2DDescription" alt="Texture2DDescription"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Reload_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Reload*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Reload_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Reload(Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L321">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Reload_Stream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Reload(Stream)">Reload(Stream)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Reload(Stream textureStream)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Stream" text="Stream" alt="Stream"/></td>
-          <td><span class="parametername">textureStream</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_Stream_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg(Stream%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L303">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_Stream_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg(Stream,System.Int32,System.Int32)">SaveAsJpeg(Stream, Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Converts the texture to a JPG image</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.DirectX.cs/#L378">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription">GetTexture2DDescription()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected virtual Texture2DDescription GetTexture2DDescription()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="SharpDX.Direct3D11.Texture2DDescription" text="Texture2DDescription" alt="SharpDX.Direct3D11.Texture2DDescription"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_Reload_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Reload*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_Reload_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.Reload(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L321">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_Reload_System_IO_Stream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.Reload(System.IO.Stream)">Reload(Stream)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Reload(Stream textureStream)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.IO.Stream" text="Stream" alt="System.IO.Stream"/></td>
+                <td><span class="parametername">textureStream</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_System_IO_Stream_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg(System.IO.Stream%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L303">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_System_IO_Stream_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg(System.IO.Stream,System.Int32,System.Int32)">SaveAsJpeg(Stream, Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Converts the texture to a JPG image</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SaveAsJpeg(Stream stream, int width, int height)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Stream" text="Stream" alt="Stream"/></td>
-          <td><span class="parametername">stream</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination for the image</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SaveAsJpeg(Stream stream, int width, int height)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.IO.Stream" text="Stream" alt="System.IO.Stream"/></td>
+                <td><span class="parametername">stream</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination for the image</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">width</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">height</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_Stream_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng(Stream%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L314">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_Stream_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng(Stream,System.Int32,System.Int32)">SaveAsPng(Stream, Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Converts the texture to a PNG image</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">width</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">height</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_System_IO_Stream_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng(System.IO.Stream%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L314">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_System_IO_Stream_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng(System.IO.Stream,System.Int32,System.Int32)">SaveAsPng(Stream, Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Converts the texture to a PNG image</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SaveAsPng(Stream stream, int width, int height)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Stream" text="Stream" alt="Stream"/></td>
-          <td><span class="parametername">stream</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination for the image</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SaveAsPng(Stream stream, int width, int height)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.IO.Stream" text="Stream" alt="System.IO.Stream"/></td>
+                <td><span class="parametername">stream</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Destination for the image</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">width</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">height</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L200">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[])">SetData&lt;T&gt;(T[])</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Changes the texture&apos;s pixels</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">width</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">height</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L200">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[])">SetData&lt;T&gt;(T[])</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Changes the texture&apos;s pixels</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L188">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[],System.Int32,System.Int32)">SetData&lt;T&gt;(T[], Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Changes the texture&apos;s pixels</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L188">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[],System.Int32,System.Int32)">SetData&lt;T&gt;(T[], Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Changes the texture&apos;s pixels</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data, int startIndex, int elementCount)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">startIndex</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Start position of data</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">startIndex</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Start position of data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">elementCount</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(System.Int32%2CSystem.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L155">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">SetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Changes the pixels of the texture
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">elementCount</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(System.Int32%2CSystem.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L155">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">SetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Changes the pixels of the texture
 Throws ArgumentNullException if data is null
 Throws ArgumentException if arraySlice is greater than 0, and the GraphicsDevice does not support texture arrays</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">level</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture to modify</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">level</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture to modify</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">arraySlice</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Index inside the texture array</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">arraySlice</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Index inside the texture array</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
-          <td><span class="parametername">rect</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area to modify</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
+                <td><span class="parametername">rect</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area to modify</p>
 </td>
-        </tr>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
+              </tr>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">startIndex</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Start position of data</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">startIndex</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Start position of data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">elementCount</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(System.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L171">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">SetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Changes the pixels of the texture</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">elementCount</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.Texture2D.SetData%60%601(System.Int32%2CSystem.Nullable%7BMicrosoft.Xna.Framework.Rectangle%7D%2C%60%600%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Texture2D.cs/#L171">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)">SetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Changes the pixels of the texture</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)where T : struct</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">level</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture to modify</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">level</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Layer of the texture to modify</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
-          <td><span class="parametername">rect</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area to modify</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Nullable`1" text="Nullable" alt="System.Nullable"/>&lt;<xref uid="Microsoft.Xna.Framework.Rectangle" text="Rectangle" alt="Microsoft.Xna.Framework.Rectangle"/>&gt;</td>
+                <td><span class="parametername">rect</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Area to modify</p>
 </td>
-        </tr>
-        <tr>
-          <td>T[]</td>
-          <td><span class="parametername">data</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
+              </tr>
+              <tr>
+                <td>T[]</td>
+                <td><span class="parametername">data</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">New data for the texture</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">startIndex</span></td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Start position of data</p>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">startIndex</span></td>
+                <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Texture2D.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Start position of data</p>
 </td>
-        </tr>
-        <tr>
-          <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
-          <td><span class="parametername">elementCount</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="typeParameters">Type Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="parametername">T</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+              </tr>
+              <tr>
+                <td><xref uid="System.Int32" text="Int32" alt="System.Int32"/></td>
+                <td><span class="parametername">elementCount</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="typeParameters">Type Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="parametername">T</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

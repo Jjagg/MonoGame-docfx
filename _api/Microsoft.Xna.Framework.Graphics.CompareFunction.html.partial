@@ -1,73 +1,81 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.CompareFunction" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.CompareFunction" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_CompareFunction" data-uid="Microsoft.Xna.Framework.Graphics.CompareFunction" class="text-break">CompareFunction Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>The comparison function used for depth, stencil, and alpha tests.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_CompareFunction_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum CompareFunction : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public enum CompareFunction</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Always">Always</td>
+            <td><p>Always passes the test.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Equal">Equal</td>
+            <td><p>Passes the test when the new pixel value is equal to current pixel value.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Greater">Greater</td>
+            <td><p>Passes the test when the new pixel value is greater than current pixel value.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_GreaterEqual">GreaterEqual</td>
+            <td><p>Passes the test when the new pixel value is greater than or equal to current pixel value.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Less">Less</td>
+            <td><p>Passes the test when the new pixel value is less than current pixel value.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_LessEqual">LessEqual</td>
+            <td><p>Passes the test when the new pixel value is less than or equal to current pixel value.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Never">Never</td>
+            <td><p>Never passes the test.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_NotEqual">NotEqual</td>
+            <td><p>Passes the test when the new pixel value does not equal to current pixel value.</p>
+</td>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Always">Always</td>
-          <td><p>Always passes the test.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Equal">Equal</td>
-          <td><p>Passes the test when the new pixel value is equal to current pixel value.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Greater">Greater</td>
-          <td><p>Passes the test when the new pixel value is greater than current pixel value.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_GreaterEqual">GreaterEqual</td>
-          <td><p>Passes the test when the new pixel value is greater than or equal to current pixel value.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Less">Less</td>
-          <td><p>Passes the test when the new pixel value is less than current pixel value.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_LessEqual">LessEqual</td>
-          <td><p>Passes the test when the new pixel value is less than or equal to current pixel value.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_Never">Never</td>
-          <td><p>Never passes the test.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_CompareFunction_NotEqual">NotEqual</td>
-          <td><p>Passes the test when the new pixel value does not equal to current pixel value.</p>
-</td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+</article>

@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,147 +55,217 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator" class="text-break">TouchCollection.Enumerator Struct
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Input.Touch" text="Microsoft.Xna.Framework.Input.Touch" alt="Microsoft.Xna.Framework.Input.Touch"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Provides the ability to iterate through the TouchLocations in an TouchCollection.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="IEnumerator`1" text="IEnumerator" alt="IEnumerator"/>&lt;<xref uid="Microsoft.Xna.Framework.Input.Touch.TouchLocation" text="TouchLocation" alt="Microsoft.Xna.Framework.Input.Touch.TouchLocation"/>&gt;</div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct Enumerator : IEnumerator&lt;TouchLocation&gt;</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public struct Enumerator : IEnumerator&lt;TouchLocation&gt;, IDisposable, IEnumerator</code></pre>
+      </div>
+      
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.Collections.Generic.IEnumerator`1" text="IEnumerator" alt="System.Collections.Generic.IEnumerator"/>&lt;<xref uid="Microsoft.Xna.Framework.Input.Touch.TouchLocation" text="TouchLocation" alt="Microsoft.Xna.Framework.Input.Touch.TouchLocation"/>&gt;</div>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+        <div><xref uid="System.Collections.IEnumerator" text="IEnumerator" alt="System.Collections.IEnumerator"/></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="System.ValueType.Equals(System.Object)" text="ValueType.Equals(Object)" alt="System.ValueType.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.ValueType.GetHashCode" text="ValueType.GetHashCode()" alt="System.ValueType.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.ValueType.ToString" text="ValueType.ToString()" alt="System.ValueType.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L241">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current">Current</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the current element in the TouchCollection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public TouchLocation Current { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Input.Touch.TouchLocation" text="TouchLocation" alt="Microsoft.Xna.Framework.Input.Touch.TouchLocation"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Dispose_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Dispose*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L257">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Dispose" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Dispose">Dispose()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Immediately releases the unmanaged resources used by this object.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_MoveNext_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.MoveNext*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_MoveNext.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.MoveNext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L246">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_MoveNext" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.MoveNext">MoveNext()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Advances the enumerator to the next element of the TouchCollection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool MoveNext()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Reset_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Reset.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L270">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Reset" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset">Reset()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+          </div>
+        <h3 id="eii">Explicit Interface Implementations
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_System_Collections_IEnumerator_Current_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System#Collections#IEnumerator#Current*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_System_Collections_IEnumerator_Current.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System%23Collections%23IEnumerator%23Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L265">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_System_Collections_IEnumerator_Current" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System#Collections#IEnumerator#Current">IEnumerator.Current</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">object IEnumerator.Current { get; }</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Object" text="Object" alt="System.Object"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L241">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current">Current</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the current element in the TouchCollection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public TouchLocation Current { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Input.Touch.TouchLocation" text="TouchLocation" alt="Microsoft.Xna.Framework.Input.Touch.TouchLocation"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Dispose_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Dispose*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Dispose.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L257">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Dispose" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Dispose">Dispose()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Immediately releases the unmanaged resources used by this object.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_MoveNext_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.MoveNext*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_MoveNext.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.MoveNext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L246">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_MoveNext" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.MoveNext">MoveNext()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Advances the enumerator to the next element of the TouchCollection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool MoveNext()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Reset_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Reset.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L270">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Reset" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset">Reset()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
-    </div>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

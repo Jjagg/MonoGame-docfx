@@ -1,679 +1,788 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection" class="text-break">TouchCollection Struct
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.html">Microsoft.Xna.Framework.Input.Touch</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Provides state information for a touch screen enabled device.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><span class="xref">IList</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct TouchCollection : IList&lt;TouchLocation&gt;</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public struct TouchCollection : IList&lt;TouchLocation&gt;, ICollection&lt;TouchLocation&gt;, IEnumerable&lt;TouchLocation&gt;, IEnumerable</code></pre>
+      </div>
+      
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
+        <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+      </div>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_Microsoft_Xna_Framework_Input_Touch_TouchLocation___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.%23ctor(Microsoft.Xna.Framework.Input.Touch.TouchLocation%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L39">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_Microsoft_Xna_Framework_Input_Touch_TouchLocation___" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.#ctor(Microsoft.Xna.Framework.Input.Touch.TouchLocation[])">TouchCollection(TouchLocation[])</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a> with a pre-determined set of touch locations.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public TouchCollection(TouchLocation[] touches)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>[]</td>
+                <td><span class="parametername">touches</span></td>
+                <td><p>Array of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> items to initialize with.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L177">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count">Count</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the number of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> items that exist in the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsConnected*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsConnected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L28">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsConnected">IsConnected</h4>
+          </div>
+          <div class="markdown level1 summary"><p>States if a touch screen is available.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsConnected { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsReadOnly*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsReadOnly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L74">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsReadOnly">IsReadOnly</h4>
+          </div>
+          <div class="markdown level1 summary"><p>States if touch collection is read only.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Item*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L119">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Item(System.Int32)">Item[Int32]</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the item at the specified index of the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public TouchLocation this[int index] { get; set; }</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">index</span></td>
+                <td><p>Position of the item.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Add*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Add(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L135">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Add(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Add(TouchLocation)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Adds a <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> to the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Add(TouchLocation item)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+                <td><span class="parametername">item</span></td>
+                <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to be added. </p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Clear*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L143">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Clear">Clear()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Clears all the items in collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L153">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Contains(TouchLocation)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns true if specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item exists in the collection, false otherwise./&gt;</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool Contains(TouchLocation item)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+                <td><span class="parametername">item</span></td>
+                <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to query for.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td><p>Returns true if queried item is found, false otherwise.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.CopyTo*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_Microsoft_Xna_Framework_Input_Touch_TouchLocation___System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.CopyTo(Microsoft.Xna.Framework.Input.Touch.TouchLocation%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L169">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_Microsoft_Xna_Framework_Input_Touch_TouchLocation___System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.CopyTo(Microsoft.Xna.Framework.Input.Touch.TouchLocation[],System.Int32)">CopyTo(TouchLocation[], Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Copies the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>collection to specified array starting from the given index.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void CopyTo(TouchLocation[] array, int arrayIndex)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>[]</td>
+                <td><span class="parametername">array</span></td>
+                <td><p>The array to copy <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> items.</p>
+</td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">arrayIndex</span></td>
+                <td><p>The starting index of the copy operation.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById(System.Int32%2CMicrosoft.Xna.Framework.Input.Touch.TouchLocation%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L53">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById(System.Int32,Microsoft.Xna.Framework.Input.Touch.TouchLocation@)">FindById(Int32, out TouchLocation)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> specified by ID.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool FindById(int id, out TouchLocation touchLocation)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">id</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+                <td><span class="parametername">touchLocation</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L199">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator">GetEnumerator()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public TouchCollection.Enumerator GetEnumerator()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.html">TouchCollection.Enumerator</a></td>
+                <td><p>Enumerable list of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> objects.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IndexOf*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.IndexOf(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L84">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IndexOf(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">IndexOf(TouchLocation)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the index of the first occurrence of specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item in the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public int IndexOf(TouchLocation item)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+                <td><span class="parametername">item</span></td>
+                <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> to query.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Insert*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Insert(System.Int32%2CMicrosoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L100">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Insert(System.Int32,Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Insert(Int32, TouchLocation)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Inserts a <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item into the indicated position.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void Insert(int index, TouchLocation item)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">index</span></td>
+                <td><p>The position to insert into.</p>
+</td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+                <td><span class="parametername">item</span></td>
+                <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to insert.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Remove*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Remove(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L190">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Remove(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Remove(TouchLocation)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Removes the specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item from the collection.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool Remove(TouchLocation item)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+                <td><span class="parametername">item</span></td>
+                <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to remove.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L109">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt(System.Int32)">RemoveAt(Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Removes the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item at specified index.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void RemoveAt(int index)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">index</span></td>
+                <td><p>Index of the item that will be removed from collection.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="eii">Explicit Interface Implementations
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Input_Touch_TouchLocation__GetEnumerator_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Input#Touch#TouchLocation}#GetEnumerator*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Input_Touch_TouchLocation__GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.System%23Collections%23Generic%23IEnumerable%7BMicrosoft%23Xna%23Framework%23Input%23Touch%23TouchLocation%7D%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L208">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Input_Touch_TouchLocation__GetEnumerator" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Input#Touch#TouchLocation}#GetEnumerator">IEnumerable&lt;TouchLocation&gt;.GetEnumerator()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">IEnumerator&lt;TouchLocation&gt; IEnumerable&lt;TouchLocation&gt;.GetEnumerator()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</td>
+                <td><p>Enumerable list of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> objects.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_IEnumerable_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#IEnumerable#GetEnumerator*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L217">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_IEnumerable_GetEnumerator" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+                <td><p>Enumerable list of objects.</p>
+</td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_Microsoft_Xna_Framework_Input_Touch_TouchLocation___.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.%23ctor(Microsoft.Xna.Framework.Input.Touch.TouchLocation%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L39">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_Microsoft_Xna_Framework_Input_Touch_TouchLocation___" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.#ctor(Microsoft.Xna.Framework.Input.Touch.TouchLocation[])">TouchCollection(TouchLocation[])</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a> with a pre-determined set of touch locations.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public TouchCollection(TouchLocation[] touches)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>[]</td>
-          <td><span class="parametername">touches</span></td>
-          <td><p>Array of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> items to initialize with.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L177">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count">Count</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the number of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> items that exist in the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsConnected*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsConnected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L28">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsConnected">IsConnected</h4>
-    </div>
-    <div class="markdown level1 summary"><p>States if a touch screen is available.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsConnected { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsReadOnly*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsReadOnly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L74">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsReadOnly">IsReadOnly</h4>
-    </div>
-    <div class="markdown level1 summary"><p>States if touch collection is read only.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Item*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L119">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Item(System.Int32)">Item[Int32]</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the item at the specified index of the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public TouchLocation this[int index] { get; set; }</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">index</span></td>
-          <td><p>Position of the item.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Add*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Add(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L135">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Add(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Add(TouchLocation)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Adds a <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> to the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Add(TouchLocation item)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-          <td><span class="parametername">item</span></td>
-          <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to be added. </p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Clear*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L143">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Clear">Clear()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Clears all the items in collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L153">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Contains(TouchLocation)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns true if specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item exists in the collection, false otherwise./&gt;</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool Contains(TouchLocation item)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-          <td><span class="parametername">item</span></td>
-          <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to query for.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><p>Returns true if queried item is found, false otherwise.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.CopyTo*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_Microsoft_Xna_Framework_Input_Touch_TouchLocation___System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.CopyTo(Microsoft.Xna.Framework.Input.Touch.TouchLocation%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L169">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_Microsoft_Xna_Framework_Input_Touch_TouchLocation___System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.CopyTo(Microsoft.Xna.Framework.Input.Touch.TouchLocation[],System.Int32)">CopyTo(TouchLocation[], Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Copies the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>collection to specified array starting from the given index.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void CopyTo(TouchLocation[] array, int arrayIndex)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>[]</td>
-          <td><span class="parametername">array</span></td>
-          <td><p>The array to copy <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> items.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">arrayIndex</span></td>
-          <td><p>The starting index of the copy operation.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById(System.Int32%2CMicrosoft.Xna.Framework.Input.Touch.TouchLocation%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L53">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById(System.Int32,Microsoft.Xna.Framework.Input.Touch.TouchLocation@)">FindById(Int32, out TouchLocation)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> specified by ID.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool FindById(int id, out TouchLocation touchLocation)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">id</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-          <td><span class="parametername">touchLocation</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L199">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator">GetEnumerator()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public TouchCollection.Enumerator GetEnumerator()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.html">TouchCollection.Enumerator</a></td>
-          <td><p>Enumerable list of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> objects.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IndexOf*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.IndexOf(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L84">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IndexOf(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">IndexOf(TouchLocation)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the index of the first occurrence of specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item in the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public int IndexOf(TouchLocation item)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-          <td><span class="parametername">item</span></td>
-          <td><p><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> to query.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Insert*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Insert(System.Int32%2CMicrosoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L100">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Insert(System.Int32,Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Insert(Int32, TouchLocation)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Inserts a <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item into the indicated position.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void Insert(int index, TouchLocation item)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">index</span></td>
-          <td><p>The position to insert into.</p>
-</td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-          <td><span class="parametername">item</span></td>
-          <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to insert.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Remove*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_Microsoft_Xna_Framework_Input_Touch_TouchLocation_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.Remove(Microsoft.Xna.Framework.Input.Touch.TouchLocation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L190">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_Microsoft_Xna_Framework_Input_Touch_TouchLocation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Remove(Microsoft.Xna.Framework.Input.Touch.TouchLocation)">Remove(TouchLocation)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Removes the specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item from the collection.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool Remove(TouchLocation item)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-          <td><span class="parametername">item</span></td>
-          <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to remove.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchCollection.cs/#L109">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt(System.Int32)">RemoveAt(Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Removes the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item at specified index.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void RemoveAt(int index)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">index</span></td>
-          <td><p>Index of the item that will be removed from collection.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

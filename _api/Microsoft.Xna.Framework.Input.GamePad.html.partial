@@ -1,546 +1,582 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePad" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePad" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Input_GamePad" data-uid="Microsoft.Xna.Framework.Input.GamePad" class="text-break">GamePad Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Input.html">Microsoft.Xna.Framework.Input</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Supports querying the game controllers and setting the vibration motors.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">GamePad</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Input_GamePad_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static class GamePad : object</code></pre>
-    </div>
-  </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_MaximumGamePadCount_" data-uid="Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_MaximumGamePadCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L116">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_MaximumGamePadCount" data-uid="Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount">MaximumGamePadCount</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The maximum number of game pads supported on this system.  Attempting to
-access a gamepad index higher than this number will result in an <see cref="!:InvalidOperationException"></see>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public static class GamePad</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">GamePad</span>
+        </span></div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_MaximumGamePadCount_" data-uid="Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_MaximumGamePadCount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L116">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_MaximumGamePadCount" data-uid="Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount">MaximumGamePadCount</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The maximum number of game pads supported on this system.  Attempting to
+access a gamepad index higher than this number will result in an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a>
 being thrown by the API.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static int MaximumGamePadCount { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_Microsoft_Xna_Framework_PlayerIndex_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(Microsoft.Xna.Framework.PlayerIndex)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L19">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_Microsoft_Xna_Framework_PlayerIndex_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(Microsoft.Xna.Framework.PlayerIndex)">GetCapabilities(PlayerIndex)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the capabilites of the connected controller.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static int MaximumGamePadCount { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_Microsoft_Xna_Framework_PlayerIndex_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(Microsoft.Xna.Framework.PlayerIndex)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L19">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_Microsoft_Xna_Framework_PlayerIndex_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(Microsoft.Xna.Framework.PlayerIndex)">GetCapabilities(PlayerIndex)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the capabilites of the connected controller.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GamePadCapabilities GetCapabilities(PlayerIndex playerIndex)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
-          <td><span class="parametername">playerIndex</span></td>
-          <td><p>Player index for the controller you want to query.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GamePadCapabilities GetCapabilities(PlayerIndex playerIndex)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+                <td><span class="parametername">playerIndex</span></td>
+                <td><p>Player index for the controller you want to query.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a></td>
-          <td><p>The capabilites of the controller.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a></td>
+                <td><p>The capabilites of the controller.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L29">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(System.Int32)">GetCapabilities(Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the capabilites of the connected controller.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L29">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(System.Int32)">GetCapabilities(Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the capabilites of the connected controller.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GamePadCapabilities GetCapabilities(int index)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">index</span></td>
-          <td><p>Index for the controller you want to query.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GamePadCapabilities GetCapabilities(int index)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">index</span></td>
+                <td><p>Index for the controller you want to query.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a></td>
-          <td><p>The capabilites of the controller.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a></td>
+                <td><p>The capabilites of the controller.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L42">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex)">GetState(PlayerIndex)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L42">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex)">GetState(PlayerIndex)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GamePadState GetState(PlayerIndex playerIndex)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
-          <td><span class="parametername">playerIndex</span></td>
-          <td><p>Player index for the controller you want to query.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GamePadState GetState(PlayerIndex playerIndex)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+                <td><span class="parametername">playerIndex</span></td>
+                <td><p>Player index for the controller you want to query.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
-          <td><p>The state of the controller.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+                <td><p>The state of the controller.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_Microsoft_Xna_Framework_Input_GamePadDeadZone_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex%2CMicrosoft.Xna.Framework.Input.GamePadDeadZone)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L64">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_Microsoft_Xna_Framework_Input_GamePadDeadZone_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex,Microsoft.Xna.Framework.Input.GamePadDeadZone)">GetState(PlayerIndex, GamePadDeadZone)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_Microsoft_Xna_Framework_Input_GamePadDeadZone_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex%2CMicrosoft.Xna.Framework.Input.GamePadDeadZone)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L64">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_Microsoft_Xna_Framework_Input_GamePadDeadZone_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex,Microsoft.Xna.Framework.Input.GamePadDeadZone)">GetState(PlayerIndex, GamePadDeadZone)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets the current state of a game pad controller, using a specified dead zone
 on analog stick positions.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GamePadState GetState(PlayerIndex playerIndex, GamePadDeadZone deadZoneMode)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
-          <td><span class="parametername">playerIndex</span></td>
-          <td><p>Player index for the controller you want to query.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GamePadState GetState(PlayerIndex playerIndex, GamePadDeadZone deadZoneMode)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+                <td><span class="parametername">playerIndex</span></td>
+                <td><p>Player index for the controller you want to query.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDeadZone.html">GamePadDeadZone</a></td>
-          <td><span class="parametername">deadZoneMode</span></td>
-          <td><p>Enumerated value that specifies what dead zone type to use.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDeadZone.html">GamePadDeadZone</a></td>
+                <td><span class="parametername">deadZoneMode</span></td>
+                <td><p>Enumerated value that specifies what dead zone type to use.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
-          <td><p>The state of the controller.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+                <td><p>The state of the controller.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L52">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32)">GetState(Int32)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L52">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32)">GetState(Int32)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GamePadState GetState(int index)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">index</span></td>
-          <td><p>Index for the controller you want to query.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GamePadState GetState(int index)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">index</span></td>
+                <td><p>Index for the controller you want to query.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
-          <td><p>The state of the controller.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+                <td><p>The state of the controller.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_Microsoft_Xna_Framework_Input_GamePadDeadZone_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32%2CMicrosoft.Xna.Framework.Input.GamePadDeadZone)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L76">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_Microsoft_Xna_Framework_Input_GamePadDeadZone_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32,Microsoft.Xna.Framework.Input.GamePadDeadZone)">GetState(Int32, GamePadDeadZone)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_Microsoft_Xna_Framework_Input_GamePadDeadZone_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32%2CMicrosoft.Xna.Framework.Input.GamePadDeadZone)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L76">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_Microsoft_Xna_Framework_Input_GamePadDeadZone_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32,Microsoft.Xna.Framework.Input.GamePadDeadZone)">GetState(Int32, GamePadDeadZone)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets the current state of a game pad controller, using a specified dead zone
 on analog stick positions.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GamePadState GetState(int index, GamePadDeadZone deadZoneMode)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">index</span></td>
-          <td><p>Index for the controller you want to query.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GamePadState GetState(int index, GamePadDeadZone deadZoneMode)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">index</span></td>
+                <td><p>Index for the controller you want to query.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDeadZone.html">GamePadDeadZone</a></td>
-          <td><span class="parametername">deadZoneMode</span></td>
-          <td><p>Enumerated value that specifies what dead zone type to use.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDeadZone.html">GamePadDeadZone</a></td>
+                <td><span class="parametername">deadZoneMode</span></td>
+                <td><p>Enumerated value that specifies what dead zone type to use.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
-          <td><p>The state of the controller.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+                <td><p>The state of the controller.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_SetVibration_Microsoft_Xna_Framework_PlayerIndex_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.SetVibration(Microsoft.Xna.Framework.PlayerIndex%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L91">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_Microsoft_Xna_Framework_PlayerIndex_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(Microsoft.Xna.Framework.PlayerIndex,System.Single,System.Single)">SetVibration(PlayerIndex, Single, Single)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_SetVibration_Microsoft_Xna_Framework_PlayerIndex_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.SetVibration(Microsoft.Xna.Framework.PlayerIndex%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L91">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_Microsoft_Xna_Framework_PlayerIndex_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(Microsoft.Xna.Framework.PlayerIndex,System.Single,System.Single)">SetVibration(PlayerIndex, Single, Single)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool SetVibration(PlayerIndex playerIndex, float leftMotor, float rightMotor)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
-          <td><span class="parametername">playerIndex</span></td>
-          <td><p>Player index that identifies the controller to set.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool SetVibration(PlayerIndex playerIndex, float leftMotor, float rightMotor)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+                <td><span class="parametername">playerIndex</span></td>
+                <td><p>Player index that identifies the controller to set.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">leftMotor</span></td>
-          <td><p>The speed of the left motor, between 0.0 and 1.0. This motor is a low-frequency motor.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">leftMotor</span></td>
+                <td><p>The speed of the left motor, between 0.0 and 1.0. This motor is a low-frequency motor.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">rightMotor</span></td>
-          <td><p>The speed of the right motor, between 0.0 and 1.0. This motor is a high-frequency motor.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">rightMotor</span></td>
+                <td><p>The speed of the right motor, between 0.0 and 1.0. This motor is a high-frequency motor.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><p>Returns true if the vibration motors were set.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td><p>Returns true if the vibration motors were set.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_SetVibration_System_Int32_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.SetVibration(System.Int32%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L103">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_System_Int32_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(System.Int32,System.Single,System.Single)">SetVibration(Int32, Single, Single)</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad_SetVibration_System_Int32_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad.SetVibration(System.Int32%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/GamePad.cs/#L103">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_System_Int32_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(System.Int32,System.Single,System.Single)">SetVibration(Int32, Single, Single)</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool SetVibration(int index, float leftMotor, float rightMotor)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td><span class="parametername">index</span></td>
-          <td><p>Index for the controller you want to query.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool SetVibration(int index, float leftMotor, float rightMotor)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td><span class="parametername">index</span></td>
+                <td><p>Index for the controller you want to query.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">leftMotor</span></td>
-          <td><p>The speed of the left motor, between 0.0 and 1.0. This motor is a low-frequency motor.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">leftMotor</span></td>
+                <td><p>The speed of the left motor, between 0.0 and 1.0. This motor is a low-frequency motor.</p>
 </td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-          <td><span class="parametername">rightMotor</span></td>
-          <td><p>The speed of the right motor, between 0.0 and 1.0. This motor is a high-frequency motor.</p>
+              </tr>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+                <td><span class="parametername">rightMotor</span></td>
+                <td><p>The speed of the right motor, between 0.0 and 1.0. This motor is a high-frequency motor.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td><p>Returns true if the vibration motors were set.</p>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td><p>Returns true if the vibration motors were set.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>

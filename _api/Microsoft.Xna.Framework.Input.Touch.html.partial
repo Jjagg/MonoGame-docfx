@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch" role="main" class="pos-rel">
-    <h1 id="Microsoft_Xna_Framework_Input_Touch" data-uid="Microsoft.Xna.Framework.Input.Touch" class="text-break">Microsoft.Xna.Framework.Input.Touch Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch" data-uid="Microsoft.Xna.Framework.Input.Touch" class="text-break">Microsoft.Xna.Framework.Input.Touch Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="classes">
           Classes
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanel.html">TouchPanel</a></td>
@@ -25,7 +31,7 @@
         <h2 id="structs">
           Structs
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.html">GestureSample</a></td>
@@ -56,7 +62,7 @@
         <h2 id="enums">
           Enums
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureType.html">GestureType</a></td>
@@ -70,6 +76,6 @@
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

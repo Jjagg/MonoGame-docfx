@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework" role="main" class="pos-rel">
-    <h1 id="Microsoft_Xna_Framework" data-uid="Microsoft.Xna.Framework" class="text-break">Microsoft.Xna.Framework Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="Microsoft.Xna.Framework" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework" data-uid="Microsoft.Xna.Framework" class="text-break">Microsoft.Xna.Framework Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="classes">
           Classes
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a></td>
@@ -111,7 +117,7 @@ See <a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceManager.html#Mic
         <h2 id="structs">
           Structs
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
@@ -175,7 +181,7 @@ See <a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceManager.html#Mic
         <h2 id="interfaces">
           Interfaces
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IDrawable.html">IDrawable</a></td>
@@ -199,7 +205,7 @@ See <a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceManager.html#Mic
         <h2 id="enums">
           Enums
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
@@ -243,6 +249,6 @@ See <a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceManager.html#Mic
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

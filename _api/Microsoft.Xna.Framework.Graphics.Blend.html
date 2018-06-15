@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,112 +55,121 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Blend" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Blend" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_Blend" data-uid="Microsoft.Xna.Framework.Graphics.Blend" class="text-break">Blend Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Defines a blend mode.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_Blend_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum Blend : int</code></pre>
-    </div>
-  </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_BlendFactor">BlendFactor</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by a constant in the <xref href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.BlendFactor" data-throw-if-not-resolved="false"></xref>.</p>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public enum Blend</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_BlendFactor">BlendFactor</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by a constant in the <xref href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.BlendFactor" data-throw-if-not-resolved="false"></xref>.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_DestinationAlpha">DestinationAlpha</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the alpha value of the destination.
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_DestinationAlpha">DestinationAlpha</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the alpha value of the destination.
 {Ad, Ad, Ad, Ad}, where Ad is the destination alpha value.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_DestinationColor">DestinationColor</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component color is multiplied by the destination color. 
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_DestinationColor">DestinationColor</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component color is multiplied by the destination color. 
 {Rd, Gd, Bd, Ad}, where Rd, Gd, Bd, Ad are color destination values.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseBlendFactor">InverseBlendFactor</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by a inversed constant in the <xref href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.BlendFactor" data-throw-if-not-resolved="false"></xref>.</p>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseBlendFactor">InverseBlendFactor</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by a inversed constant in the <xref href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.BlendFactor" data-throw-if-not-resolved="false"></xref>.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseDestinationAlpha">InverseDestinationAlpha</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inversed alpha value of the destination. 
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseDestinationAlpha">InverseDestinationAlpha</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inversed alpha value of the destination. 
 {1 − Ad, 1 − Ad, 1 − Ad, 1 − Ad}, where Ad is the destination alpha value.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseDestinationColor">InverseDestinationColor</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inversed destination color. 
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseDestinationColor">InverseDestinationColor</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inversed destination color. 
 {1 − Rd, 1 − Gd, 1 − Bd, 1 − Ad}, where Rd, Gd, Bd, Ad are color destination values.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseSourceAlpha">InverseSourceAlpha</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inverse of the alpha value of the source. 
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseSourceAlpha">InverseSourceAlpha</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inverse of the alpha value of the source. 
 {1 − As, 1 − As, 1 − As, 1 − As}, where As is the source alpha value.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseSourceColor">InverseSourceColor</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inverse of the source color.
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_InverseSourceColor">InverseSourceColor</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the inverse of the source color.
 {1 − Rs, 1 − Gs, 1 − Bs, 1 − As}, where Rs, Gs, Bs, As are color source values.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_One">One</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by {1, 1, 1, 1}.</p>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_One">One</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by {1, 1, 1, 1}.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_SourceAlpha">SourceAlpha</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the alpha value of the source. 
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_SourceAlpha">SourceAlpha</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the alpha value of the source. 
 {As, As, As, As}, where As is the source alpha value.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_SourceAlphaSaturation">SourceAlphaSaturation</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by either the alpha of the source color, or the inverse of the alpha of the source color, whichever is greater. 
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_SourceAlphaSaturation">SourceAlphaSaturation</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by either the alpha of the source color, or the inverse of the alpha of the source color, whichever is greater. 
 {f, f, f, 1}, where f = min(As, 1 − As), where As is the source alpha value.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_SourceColor">SourceColor</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the source color. 
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_SourceColor">SourceColor</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Each component of the color is multiplied by the source color. 
 {Rs, Gs, Bs, As}, where Rs, Gs, Bs, As are color source values.</p>
 </td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Blend_Zero">Zero</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by {0, 0, 0, 0}.</p>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Blend_Zero">Zero</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.Blend.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Each component of the color is multiplied by {0, 0, 0, 0}.</p>
 </td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+          </tr>
+        </tbody>
+      </table>
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

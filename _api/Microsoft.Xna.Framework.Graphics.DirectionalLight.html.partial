@@ -1,221 +1,257 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_DirectionalLight" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" class="text-break">DirectionalLight Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">DirectionalLight</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class DirectionalLight : object</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public sealed class DirectionalLight</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">DirectionalLight</span>
+        </span></div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight__ctor_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_DirectionalLight_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.%23ctor(Microsoft.Xna.Framework.Graphics.EffectParameter%2CMicrosoft.Xna.Framework.Graphics.EffectParameter%2CMicrosoft.Xna.Framework.Graphics.EffectParameter%2CMicrosoft.Xna.Framework.Graphics.DirectionalLight)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L57">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight__ctor_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_DirectionalLight_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.#ctor(Microsoft.Xna.Framework.Graphics.EffectParameter,Microsoft.Xna.Framework.Graphics.EffectParameter,Microsoft.Xna.Framework.Graphics.EffectParameter,Microsoft.Xna.Framework.Graphics.DirectionalLight)">DirectionalLight(EffectParameter, EffectParameter, EffectParameter, DirectionalLight)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DirectionalLight(EffectParameter directionParameter, EffectParameter diffuseColorParameter, EffectParameter specularColorParameter, DirectionalLight cloneSource)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
+                <td><span class="parametername">directionParameter</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
+                <td><span class="parametername">diffuseColorParameter</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
+                <td><span class="parametername">specularColorParameter</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+                <td><span class="parametername">cloneSource</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.DiffuseColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L74">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.DiffuseColor">DiffuseColor</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Direction_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Direction*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_Direction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.Direction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L85">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Direction" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Direction">Direction</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 Direction { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Enabled_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Enabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_Enabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.Enabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L106">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Enabled" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Enabled">Enabled</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_SpecularColor_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.SpecularColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_SpecularColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.SpecularColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L96">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_SpecularColor" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.SpecularColor">SpecularColor</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 SpecularColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight__ctor_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_DirectionalLight_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.%23ctor(Microsoft.Xna.Framework.Graphics.EffectParameter%2CMicrosoft.Xna.Framework.Graphics.EffectParameter%2CMicrosoft.Xna.Framework.Graphics.EffectParameter%2CMicrosoft.Xna.Framework.Graphics.DirectionalLight)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L57">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight__ctor_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_EffectParameter_Microsoft_Xna_Framework_Graphics_DirectionalLight_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.#ctor(Microsoft.Xna.Framework.Graphics.EffectParameter,Microsoft.Xna.Framework.Graphics.EffectParameter,Microsoft.Xna.Framework.Graphics.EffectParameter,Microsoft.Xna.Framework.Graphics.DirectionalLight)">DirectionalLight(EffectParameter, EffectParameter, EffectParameter, DirectionalLight)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DirectionalLight(EffectParameter directionParameter, EffectParameter diffuseColorParameter, EffectParameter specularColorParameter, DirectionalLight cloneSource)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
-          <td><span class="parametername">directionParameter</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
-          <td><span class="parametername">diffuseColorParameter</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
-          <td><span class="parametername">specularColorParameter</span></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
-          <td><span class="parametername">cloneSource</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.DiffuseColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L74">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.DiffuseColor">DiffuseColor</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Direction_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Direction*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_Direction.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.Direction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L85">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Direction" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Direction">Direction</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 Direction { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Enabled_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Enabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_Enabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.Enabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L106">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_Enabled" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.Enabled">Enabled</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_DirectionalLight_SpecularColor_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.SpecularColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_DirectionalLight_SpecularColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.DirectionalLight.SpecularColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/DirectionalLight.cs/#L96">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_DirectionalLight_SpecularColor" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.SpecularColor">SpecularColor</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 SpecularColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

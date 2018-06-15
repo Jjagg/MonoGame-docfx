@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,58 +55,67 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DepthFormat" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DepthFormat" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_DepthFormat" data-uid="Microsoft.Xna.Framework.Graphics.DepthFormat" class="text-break">DepthFormat Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Defines formats for depth-stencil buffer.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_DepthFormat_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum DepthFormat : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public enum DepthFormat</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_Depth16">Depth16</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">16-bit depth buffer.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_Depth24">Depth24</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">24-bit depth buffer. Equivalent of <xref href="Microsoft.Xna.Framework.Graphics.DepthFormat.Depth24Stencil8" data-throw-if-not-resolved="false"></xref> for DirectX platforms.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_Depth24Stencil8">Depth24Stencil8</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">32-bit depth-stencil buffer. Where 24-bit depth and 8-bit for stencil used.</p>
+</td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_None">None</td>
+            <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Depth-stencil buffer will not be created.</p>
+</td>
+          </tr>
+        </tbody>
+      </table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_Depth16">Depth16</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">16-bit depth buffer.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_Depth24">Depth24</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">24-bit depth buffer. Equivalent of <xref href="Microsoft.Xna.Framework.Graphics.DepthFormat.Depth24Stencil8" data-throw-if-not-resolved="false"></xref> for DirectX platforms.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_Depth24Stencil8">Depth24Stencil8</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">32-bit depth-stencil buffer. Where 24-bit depth and 8-bit for stencil used.</p>
-</td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_DepthFormat_None">None</td>
-          <td><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.DepthFormat.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Depth-stencil buffer will not be created.</p>
-</td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>

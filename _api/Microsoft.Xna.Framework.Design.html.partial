@@ -1,15 +1,21 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Design" role="main" class="pos-rel">
-    <h1 id="Microsoft_Xna_Framework_Design" data-uid="Microsoft.Xna.Framework.Design" class="text-break">Microsoft.Xna.Framework.Design Namespace
-  </h1>
-    <div class="api">
-      <div class="markdown level0 summary"></div>
-      <div class="markdown level0 conceptual"></div>
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Design" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Design" data-uid="Microsoft.Xna.Framework.Design" class="text-break">Microsoft.Xna.Framework.Design Namespace
+</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+
+
+
+
+      
         <h2 id="classes">
           Classes
         </h2>
-        <div class="wrapper collapse in" aria-expanded="true">
+        <div>
           <table class="nameValue api-table">
               <tr>
               <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Design.Vector2TypeConverter.html">Vector2TypeConverter</a></td>
@@ -25,6 +31,6 @@
               </tr>
           </table>
         </div>
-    </div>
-    <div class="markdown level0 remarks"></div>
-  </article>
+
+  </div>
+</article>

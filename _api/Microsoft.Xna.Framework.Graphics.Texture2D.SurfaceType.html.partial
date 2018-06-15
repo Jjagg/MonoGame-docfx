@@ -1,44 +1,52 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType" class="text-break">Texture2D.SurfaceType Enum
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"></div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <h5 id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected enum SurfaceType : int</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">protected enum SurfaceType</code></pre>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      <h3 id="fields">Fields
+      </h3>
+      <table class="table table-bordered table-striped table-condensed">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_RenderTarget">RenderTarget</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_SwapChainRenderTarget">SwapChainRenderTarget</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_Texture">Texture</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </thead></thead></table>
+
   </div>
-    <h3 id="fields">Fields
-  </h3>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      <thead>
-      <tbody>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_RenderTarget">RenderTarget</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_SwapChainRenderTarget">SwapChainRenderTarget</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td id="Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_Texture">Texture</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </thead></thead></table>
-  </article>
+</article>

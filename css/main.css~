@@ -55,6 +55,10 @@ code {
   border-radius: 4px;
   padding: .2em .4em;
 }
+pre > code {
+  padding: 10px;
+  border: #e7e7e7 2px solid;
+}
 ul.nav {
   list-style: none;
   padding-left: 12px;
@@ -143,6 +147,7 @@ ul.nav {
   flex: 1 0 200px;
   position: sticky;
   top: 0;
+  max-width: 400px;
 }
 #toc-toggle-wrapper {
   margin-bottom: 10px;
@@ -340,6 +345,19 @@ ul.level1 {
 }
 #content-wrapper {
   margin-top: 15px;
+}
+
+a.subtitle-anchor {
+  margin-left: 12px;
+  font-size: .8em;
+  font-weight: 200;
+  color: #666;
+  transition: color .2s;
+  cursor: pointer;
+}
+a.subtitle-anchor:hover {
+  text-decoration: none;
+  color: #E73C00;
 }
 
 #prevnext {

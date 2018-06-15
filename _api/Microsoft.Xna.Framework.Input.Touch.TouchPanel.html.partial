@@ -1,475 +1,511 @@
 ﻿
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel" class="text-break">TouchPanel Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.html">Microsoft.Xna.Framework.Input.Touch</a></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p>Allows retrieval of information from Touch Panel device.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-      <div class="level1"><span class="xref">TouchPanel</span></div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static class TouchPanel : object</code></pre>
-    </div>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public static class TouchPanel</code></pre>
+      </div>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level1"><span class="xref">TouchPanel</span>
+        </span></div>
+      </div>
+      
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+        </div>
+        <div>
+          <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+        </div>
+      </div>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayHeight_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayHeight*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayHeight.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L103">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayHeight" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayHeight">DisplayHeight</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the display height of the touch panel.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static int DisplayHeight { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayOrientation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayOrientation*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayOrientation.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayOrientation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L112">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayOrientation" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayOrientation">DisplayOrientation</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the display orientation of the touch panel.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static DisplayOrientation DisplayOrientation { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.DisplayOrientation.html">DisplayOrientation</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayWidth_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayWidth*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayWidth.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L121">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayWidth" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayWidth">DisplayWidth</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets the display width of the touch panel.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static int DisplayWidth { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnabledGestures_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnabledGestures*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnabledGestures.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnabledGestures%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L130">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnabledGestures" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnabledGestures">EnabledGestures</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets or sets enabled gestures.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GestureType EnabledGestures { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureType.html">GestureType</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseGestures_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseGestures*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseGestures.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseGestures%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L142">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseGestures" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseGestures">EnableMouseGestures</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool EnableMouseGestures { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseTouchPoint_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseTouchPoint*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseTouchPoint.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseTouchPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L136">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseTouchPoint" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseTouchPoint">EnableMouseTouchPoint</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool EnableMouseTouchPoint { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_IsGestureAvailable_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.IsGestureAvailable*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_IsGestureAvailable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.IsGestureAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L151">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_IsGestureAvailable" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.IsGestureAvailable">IsGestureAvailable</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns true if a touch gesture is available.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static bool IsGestureAvailable { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_WindowHandle_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.WindowHandle*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_WindowHandle.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.WindowHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L94">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_WindowHandle" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.WindowHandle">WindowHandle</h4>
+          </div>
+          <div class="markdown level1 summary"><p>The window handle of the touch panel. Purely for Xna compatibility.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static IntPtr WindowHandle { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetCapabilities*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetCapabilities.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetCapabilities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L66">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetCapabilities" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetCapabilities">GetCapabilities()</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static TouchPanelCapabilities GetCapabilities()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.html">TouchPanelCapabilities</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L56">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState">GetState()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Gets the current state of the touch panel.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static TouchCollection GetState()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a></td>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_Microsoft_Xna_Framework_GameWindow_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState(Microsoft.Xna.Framework.GameWindow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L61">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_Microsoft_Xna_Framework_GameWindow_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState(Microsoft.Xna.Framework.GameWindow)">GetState(GameWindow)</h4>
+          </div>
+          <div class="markdown level1 summary"></div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static TouchPanelState GetState(GameWindow window)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.GameWindow.html">GameWindow</a></td>
+                <td><span class="parametername">window</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.html">TouchPanelState</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L85">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture">ReadGesture()</h4>
+          </div>
+          <div class="markdown level1 summary"><p>Returns the next available gesture on touch panel device.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public static GestureSample ReadGesture()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.html">GestureSample</a></td>
+                <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.html">GestureSample</a></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
   </div>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayHeight_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayHeight*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayHeight.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L103">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayHeight" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayHeight">DisplayHeight</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the display height of the touch panel.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static int DisplayHeight { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayOrientation_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayOrientation*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayOrientation.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayOrientation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L112">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayOrientation" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayOrientation">DisplayOrientation</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the display orientation of the touch panel.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static DisplayOrientation DisplayOrientation { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.DisplayOrientation.html">DisplayOrientation</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayWidth_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayWidth*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayWidth.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L121">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_DisplayWidth" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.DisplayWidth">DisplayWidth</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets the display width of the touch panel.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static int DisplayWidth { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnabledGestures_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnabledGestures*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnabledGestures.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnabledGestures%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L130">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnabledGestures" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnabledGestures">EnabledGestures</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets or sets enabled gestures.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GestureType EnabledGestures { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureType.html">GestureType</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseGestures_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseGestures*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseGestures.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseGestures%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L142">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseGestures" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseGestures">EnableMouseGestures</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool EnableMouseGestures { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseTouchPoint_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseTouchPoint*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseTouchPoint.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseTouchPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L136">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_EnableMouseTouchPoint" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.EnableMouseTouchPoint">EnableMouseTouchPoint</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool EnableMouseTouchPoint { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_IsGestureAvailable_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.IsGestureAvailable*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_IsGestureAvailable.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.IsGestureAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L151">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_IsGestureAvailable" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.IsGestureAvailable">IsGestureAvailable</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns true if a touch gesture is available.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static bool IsGestureAvailable { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_WindowHandle_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.WindowHandle*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_WindowHandle.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.WindowHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L94">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_WindowHandle" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.WindowHandle">WindowHandle</h4>
-    </div>
-    <div class="markdown level1 summary"><p>The window handle of the touch panel. Purely for Xna compatibility.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static IntPtr WindowHandle { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="xref">IntPtr</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetCapabilities*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetCapabilities.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetCapabilities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L66">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetCapabilities" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetCapabilities">GetCapabilities()</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static TouchPanelCapabilities GetCapabilities()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.html">TouchPanelCapabilities</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L56">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState">GetState()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Gets the current state of the touch panel.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static TouchCollection GetState()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a></td>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_Microsoft_Xna_Framework_GameWindow_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState(Microsoft.Xna.Framework.GameWindow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L61">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_GetState_Microsoft_Xna_Framework_GameWindow_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.GetState(Microsoft.Xna.Framework.GameWindow)">GetState(GameWindow)</h4>
-    </div>
-    <div class="markdown level1 summary"></div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static TouchPanelState GetState(GameWindow window)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.GameWindow.html">GameWindow</a></td>
-          <td><span class="parametername">window</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.html">TouchPanelState</a></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Input/Touch/TouchPanel.cs/#L85">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture">ReadGesture()</h4>
-    </div>
-    <div class="markdown level1 summary"><p>Returns the next available gesture on touch panel device.</p>
-</div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public static GestureSample ReadGesture()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.html">GestureSample</a></td>
-          <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.html">GestureSample</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+</article>

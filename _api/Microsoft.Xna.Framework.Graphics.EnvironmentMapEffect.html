@@ -34,7 +34,7 @@
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
             <div id="toc-filter-wrapper">
-              <input type="text" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
               <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
             </div>
             <div id="toc-no-results" class="hide">No results</div>
@@ -55,683 +55,713 @@
 </div>
 
               <div id="content-wrapper">
-  
-  <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect" role="main" class="pos-rel">
-    
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect" role="main" class="pos-rel">
   <h1 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect" class="text-break">EnvironmentMapEffect Class
-  </h1>
+</h1>
+
   <div class="api">
-    <div class="class-loc">
-      <h5><strong>Namespace</strong>: <xref uid="Microsoft.Xna.Framework.Graphics" text="Microsoft.Xna.Framework.Graphics" alt="Microsoft.Xna.Framework.Graphics"/></h5>
-      <h5><strong>Assembly</strong>: MonoGame.Framework.dll</h5>
-    </div>
     <div class="markdown level0 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Built-in effect that supports environment mapping.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
-    <hr>
-    <div class="inheritance">
-      <h5><strong>Inheritance</strong></h5>
-      <div class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></div>
-      <div class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></div>
-      <div class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></div>
-      <div class="level3"><span class="xref">EnvironmentMapEffect</span></div>
-    </div>
-    <div class="implements">
-      <h5><strong>Implements</strong></h5>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectLights" text="IEffectLights" alt="Microsoft.Xna.Framework.Graphics.IEffectLights"/></div>
-      <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
-    </div>
-    <div class="inheritedMembers">
-      <h5><strong>Inherited Members</strong></h5>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+
+      
+      <div class="codewrapper">
+        <pre><code class="lang-csharp hljs">public class EnvironmentMapEffect : Effect, IDisposable, IEffectMatrices, IEffectLights, IEffectFog</code></pre>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+      
+      <div class="inheritance">
+        <div>
+          <span><strong>Inheritance</strong> </span>
+          <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level1"><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource" text="GraphicsResource" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource"/></span>
+          <span class="mg-icons">&#xe800;</span>
+          <span class="level2"><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></span>
+          <span class="mg-icons">&#xe800;</span>
+        <span class="level3"><span class="xref">EnvironmentMapEffect</span>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+      
+      <div class="implements">
+        <strong>Implements</strong>
+        <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectMatrices" text="IEffectMatrices" alt="Microsoft.Xna.Framework.Graphics.IEffectMatrices"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectLights" text="IEffectLights" alt="Microsoft.Xna.Framework.Graphics.IEffectLights"/></div>
+        <div><xref uid="Microsoft.Xna.Framework.Graphics.IEffectFog" text="IEffectFog" alt="Microsoft.Xna.Framework.Graphics.IEffectFog"/></div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+      
+      <div class="inheritedMembers">
+        <strong>Inherited Members</strong>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Parameters" text="Effect.Parameters" alt="Microsoft.Xna.Framework.Graphics.Effect.Parameters"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Techniques" text="Effect.Techniques" alt="Microsoft.Xna.Framework.Graphics.Effect.Techniques"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique" text="Effect.CurrentTechnique" alt="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)" text="Effect.Dispose(Boolean)" alt="Microsoft.Xna.Framework.Graphics.Effect.Dispose(System.Boolean)"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
+        </div>
+        <div>
+          <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+        </div>
+        <div>
+          <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+        </div>
       </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting" text="Effect.GraphicsDeviceResetting()" alt="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" text="GraphicsResource.Dispose()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose()"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing" text="GraphicsResource.Disposing" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice" text="GraphicsResource.GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed" text="GraphicsResource.IsDisposed" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name" text="GraphicsResource.Name" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag" text="GraphicsResource.Tag" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag"/>
-      </div>
-      <div>
-        <xref uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString" text="GraphicsResource.ToString()" alt="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString()"/>
-      </div>
-    </div>
-    <h5 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_syntax"><strong>Syntax</strong></h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class EnvironmentMapEffect : Effect, IEffectMatrices, IEffectLights, IEffectFog</code></pre>
-    </div>
-  </div>
-    <h3 id="constructors">Constructors
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.%23ctor(Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L378">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor(Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect)">EnvironmentMapEffect(EnvironmentMapEffect)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new EnvironmentMapEffect by cloning parameter settings from an existing instance.</p>
+      
+      
+      
+      
+
+
+
+      
+        <h3 id="constructors">Constructors
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.%23ctor(Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L378">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor(Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect)">EnvironmentMapEffect(EnvironmentMapEffect)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new EnvironmentMapEffect by cloning parameter settings from an existing instance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected EnvironmentMapEffect(EnvironmentMapEffect cloneSource)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect" text="EnvironmentMapEffect" alt="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect"/></td>
-          <td><span class="parametername">cloneSource</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L362">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">EnvironmentMapEffect(GraphicsDevice)</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new EnvironmentMapEffect with default parameter settings.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected EnvironmentMapEffect(EnvironmentMapEffect cloneSource)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect" text="EnvironmentMapEffect" alt="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect"/></td>
+                <td><span class="parametername">cloneSource</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.%23ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L362">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">EnvironmentMapEffect(GraphicsDevice)</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new EnvironmentMapEffect with default parameter settings.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public EnvironmentMapEffect(GraphicsDevice device)</code></pre>
-    </div>
-    <h5 class="parameters">Parameters</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
-          <td><span class="parametername">device</span></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="properties">Properties
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Alpha*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L152">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Alpha">Alpha</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public EnvironmentMapEffect(GraphicsDevice device)</code></pre>
+          </div>
+          <h5 class="parameters">Parameters</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice" text="GraphicsDevice" alt="Microsoft.Xna.Framework.Graphics.GraphicsDevice"/></td>
+                <td><span class="parametername">device</span></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="properties">Properties
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Alpha*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Alpha.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L152">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Alpha">Alpha</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material alpha.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L167">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor">AmbientLightColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the ambient light color (range 0 to 1).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L167">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor">AmbientLightColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the ambient light color (range 0 to 1).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 AmbientLightColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DiffuseColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L122">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DiffuseColor">DiffuseColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 AmbientLightColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DiffuseColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DiffuseColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DiffuseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L122">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DiffuseColor">DiffuseColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material diffuse color (range 0 to 1).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight0*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight0.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L182">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight0">DirectionalLight0</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the first directional light.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight0*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight0.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L182">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight0">DirectionalLight0</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the first directional light.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight0 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight1*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L188">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight1">DirectionalLight1</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the second directional light.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight0 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight1*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight1.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L188">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight1">DirectionalLight1</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the second directional light.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight1 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight2*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L194">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight2">DirectionalLight2</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the third directional light.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight1 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight2*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight2.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L194">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight2">DirectionalLight2</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the third directional light.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight2 { get; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EmissiveColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EmissiveColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EmissiveColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EmissiveColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L137">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EmissiveColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EmissiveColor">EmissiveColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material emissive color (range 0 to 1).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight2 { get; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.DirectionalLight" text="DirectionalLight" alt="Microsoft.Xna.Framework.Graphics.DirectionalLight"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EmissiveColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EmissiveColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EmissiveColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EmissiveColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L137">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EmissiveColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EmissiveColor">EmissiveColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the material emissive color (range 0 to 1).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 EmissiveColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMap_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMap*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMap.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L268">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMap" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMap">EnvironmentMap</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current environment map texture.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 EmissiveColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMap_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMap*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMap.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L268">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMap" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMap">EnvironmentMap</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current environment map texture.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public TextureCube EnvironmentMap { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.TextureCube" text="TextureCube" alt="Microsoft.Xna.Framework.Graphics.TextureCube"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapAmount_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapAmount*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapAmount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapAmount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L281">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapAmount" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapAmount">EnvironmentMapAmount</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="5">Gets or sets the amount of the environment map RGB that will be blended over 
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public TextureCube EnvironmentMap { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.TextureCube" text="TextureCube" alt="Microsoft.Xna.Framework.Graphics.TextureCube"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapAmount_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapAmount*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapAmount.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapAmount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L281">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapAmount" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapAmount">EnvironmentMapAmount</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="5">Gets or sets the amount of the environment map RGB that will be blended over 
 the base texture. Range 0 to 1, default 1. If set to zero, the RGB channels 
 of the environment map will completely ignored (but the environment map alpha 
 may still be visible if EnvironmentMapSpecular is greater than zero).</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float EnvironmentMapAmount { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapSpecular_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapSpecular*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapSpecular.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapSpecular%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L295">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapSpecular" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapSpecular">EnvironmentMapSpecular</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Gets or sets the amount of the environment map alpha channel that will 
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float EnvironmentMapAmount { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapSpecular_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapSpecular*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapSpecular.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapSpecular%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L295">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapSpecular" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapSpecular">EnvironmentMapSpecular</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Gets or sets the amount of the environment map alpha channel that will 
 be added to the base texture. Range 0 to 1, default 0. This can be used 
 to implement cheap specular lighting, by encoding one or more specular 
 highlight patterns into the environment map alpha channel, then setting 
 EnvironmentMapSpecular to the desired specular light color.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 EnvironmentMapSpecular { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogColor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L248">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogColor">FogColor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 EnvironmentMapSpecular { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogColor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogColor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L248">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogColor">FogColor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog color.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L200">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnabled">FogEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Vector3" text="Vector3" alt="Microsoft.Xna.Framework.Vector3"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L200">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnabled">FogEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog enable flag.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnd*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L233">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnd">FogEnd</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnd*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnd.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L233">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnd">FogEnd</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog end distance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogStart*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L218">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogStart">FogStart</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogStart*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogStart.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L218">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogStart">FogStart</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the fog start distance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L324">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor">FresnelFactor</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Gets or sets the Fresnel factor used for the environment map blending. 
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L324">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor">FresnelFactor</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="6">Gets or sets the Fresnel factor used for the environment map blending. 
 Higher values make the environment map only visible around the silhouette 
 edges of the object, while lower values make it visible everywhere. 
 Setting this property to 0 disables Fresnel entirely, making the 
@@ -742,294 +772,298 @@ controlled by EnvironmentMapAmount). The alpha contribution (controlled by
 EnvironmentMapSpecular) is not affected by the Fresnel setting.</li>
 </ol>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public float FresnelFactor { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Projection*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L107">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Projection">Projection</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public float FresnelFactor { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Single" text="Single" alt="System.Single"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Projection*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Projection.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L107">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Projection">Projection</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the projection matrix.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Texture*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L258">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Texture">Texture</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current texture.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Texture*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Texture.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Texture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L258">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Texture">Texture</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the current texture.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.View*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L92">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.View">View</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Texture2D" text="Texture2D" alt="Microsoft.Xna.Framework.Graphics.Texture2D"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.View*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_View.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.View%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L92">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.View">View</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the view matrix.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.World*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L77">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.World">World</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.World*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_World.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.World%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L77">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.World">World</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the world matrix.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
-    </div>
-    <h5 class="propertyValue">Property Value</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 id="methods">Methods
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Clone*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L405">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Clone">Clone()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current EnvironmentMapEffect instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
+          </div>
+          <h5 class="propertyValue">Property Value</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Matrix" text="Matrix" alt="Microsoft.Xna.Framework.Matrix"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <h3 id="methods">Methods
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Clone*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Clone.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L405">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Clone">Clone()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a clone of the current EnvironmentMapEffect instance.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnableDefaultLighting*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnableDefaultLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnableDefaultLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L414">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnableDefaultLighting">EnableDefaultLighting()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets up the standard key/fill/back lighting rig.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="Microsoft.Xna.Framework.Graphics.Effect" text="Effect" alt="Microsoft.Xna.Framework.Graphics.Effect"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.Clone" altProperty="fullName" displayProperty="nameWithType"/></div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnableDefaultLighting*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnableDefaultLighting.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnableDefaultLighting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L414">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnableDefaultLighting">EnableDefaultLighting()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets up the standard key/fill/back lighting rig.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public void EnableDefaultLighting()</code></pre>
-    </div>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.OnApply*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L459">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.OnApply">OnApply()</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">public void EnableDefaultLighting()</code></pre>
+          </div>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.OnApply*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_OnApply.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.OnApply%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L459">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.OnApply">OnApply()</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lazily computes derived parameter values immediately before applying the effect.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
-    </div>
-    <h5 class="overrides">Overrides</h5>
-    <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
-    <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-    <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled*"></a>
-  
-    <div>
-      <span class="small pull-right mobile-hide">
-        <span class="divider">|</span>
-        <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Microsoft%23Xna%23Framework%23Graphics%23IEffectLights%23LightingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-      </span>
-      <span class="small pull-right">
-        <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L347">View Source</a>
-      </span>
-  
-      <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled">IEffectLights.LightingEnabled</h4>
-    </div>
-    <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="3">This effect requires lighting, so we explicitly implement
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
+          </div>
+          <h5 class="overrides">Overrides</h5>
+          <div><xref uid="Microsoft.Xna.Framework.Graphics.Effect.OnApply" altProperty="fullName" displayProperty="nameWithType"/></div>
+        <h3 id="eii">Explicit Interface Implementations
+      </h3>
+      
+          <a id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled*"></a>
+      
+          <div>
+            <span class="small pull-right mobile-hide">
+              <span class="divider">|</span>
+              <a href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Microsoft%23Xna%23Framework%23Graphics%23IEffectLights%23LightingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+            </span>
+            <span class="small pull-right">
+              <a href="https://github.com/Jjagg/MonoGame/blob/docs-fresh/MonoGame.Framework/Graphics/Effect/EnvironmentMapEffect.cs/#L347">View Source</a>
+            </span>
+      
+            <h4 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled">IEffectLights.LightingEnabled</h4>
+          </div>
+          <div class="markdown level1 summary"><p sourcefile="_api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="3">This effect requires lighting, so we explicitly implement
 IEffectLights.LightingEnabled, and do not allow turning it off.</p>
 </div>
-    <div class="markdown level1 conceptual"></div>
-    <h5 class="decalaration">Declaration</h5>
-    <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">bool IEffectLights.LightingEnabled { get; set; }</code></pre>
-    </div>
-    <h5 class="returns">Returns</h5>
-    <table class="table table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </article>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+          <div class="codewrapper">
+            <pre><code class="lang-csharp hljs">bool IEffectLights.LightingEnabled { get; set; }</code></pre>
+          </div>
+          <h5 class="returns">Returns</h5>
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><xref uid="System.Boolean" text="Boolean" alt="System.Boolean"/></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      
+
+  </div>
+</article>
+
 </div>
               <div id="prevnext">
                 <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
