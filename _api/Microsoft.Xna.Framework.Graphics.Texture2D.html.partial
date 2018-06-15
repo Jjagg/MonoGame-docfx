@@ -13,27 +13,27 @@
         <pre><code class="lang-csharp hljs">public class Texture2D : Texture, IDisposable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html">Texture</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level3"><span class="xref">Texture2D</span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level4"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.html">RenderTarget2D</a></span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html#Microsoft_Xna_Framework_Graphics_Texture_Format">Texture.Format</a>
@@ -722,7 +722,6 @@ if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support text
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -780,7 +779,6 @@ if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support text
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -850,7 +848,6 @@ if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support text
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -938,7 +935,6 @@ if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support text
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1188,7 +1184,6 @@ if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support text
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1244,7 +1239,6 @@ if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support text
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1313,7 +1307,6 @@ Throws ArgumentException if arraySlice is greater than 0, and the GraphicsDevice
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1398,7 +1391,6 @@ Throws ArgumentException if arraySlice is greater than 0, and the GraphicsDevice
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>

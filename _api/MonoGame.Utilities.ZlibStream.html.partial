@@ -14,25 +14,25 @@
         <pre><code class="lang-csharp hljs">public class ZlibStream : Stream, IDisposable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level2"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level3"><span class="xref">ZlibStream</span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.null">Stream.Null</a>

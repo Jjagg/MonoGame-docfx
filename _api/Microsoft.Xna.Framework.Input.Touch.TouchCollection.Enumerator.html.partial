@@ -15,14 +15,14 @@
       </div>
       
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>

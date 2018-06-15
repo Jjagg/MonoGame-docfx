@@ -13,37 +13,37 @@
         <pre><code class="lang-csharp hljs">public class Effect : GraphicsResource, IDisposable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level2"><span class="xref">Effect</span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.html">AlphaTestEffect</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.BasicEffect.html">BasicEffect</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DualTextureEffect.html">DualTextureEffect</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectMaterial.html">EffectMaterial</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.html">EnvironmentMapEffect</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SkinnedEffect.html">SkinnedEffect</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffect.html">SpriteEffect</a></span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>

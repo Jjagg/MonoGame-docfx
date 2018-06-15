@@ -13,25 +13,25 @@
         <pre><code class="lang-csharp hljs">public class DynamicVertexBuffer : VertexBuffer, IDisposable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level3"><span class="xref">DynamicVertexBuffer</span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_VertexCount">VertexBuffer.VertexCount</a>
@@ -281,7 +281,6 @@
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data, int startIndex, int elementCount, SetDataOptions options)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -350,7 +349,6 @@
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int offsetInBytes, T[] data, int startIndex, int elementCount, int vertexStride, SetDataOptions options)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>

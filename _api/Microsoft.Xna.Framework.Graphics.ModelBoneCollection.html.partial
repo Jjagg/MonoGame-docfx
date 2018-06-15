@@ -14,18 +14,18 @@
         <pre><code class="lang-csharp hljs">public class ModelBoneCollection : ReadOnlyCollection&lt;ModelBone&gt;, IList&lt;ModelBone&gt;, ICollection&lt;ModelBone&gt;, IList, ICollection, IReadOnlyList&lt;ModelBone&gt;, IReadOnlyCollection&lt;ModelBone&gt;, IEnumerable&lt;ModelBone&gt;, IEnumerable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1">ReadOnlyCollection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelBone.html">ModelBone</a>&gt;</span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level2"><span class="xref">ModelBoneCollection</span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelBone.html">ModelBone</a>&gt;</div>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelBone.html">ModelBone</a>&gt;</div>
@@ -37,7 +37,7 @@
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1.contains#System_Collections_ObjectModel_ReadOnlyCollection_1_Contains__0_">ReadOnlyCollection&lt;ModelBone&gt;.Contains(ModelBone)</a>

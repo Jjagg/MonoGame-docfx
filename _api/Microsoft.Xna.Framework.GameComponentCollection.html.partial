@@ -13,18 +13,18 @@
         <pre><code class="lang-csharp hljs">public sealed class GameComponentCollection : Collection&lt;IGameComponent&gt;, IList&lt;IGameComponent&gt;, ICollection&lt;IGameComponent&gt;, IList, ICollection, IReadOnlyList&lt;IGameComponent&gt;, IReadOnlyCollection&lt;IGameComponent&gt;, IEnumerable&lt;IGameComponent&gt;, IEnumerable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1">Collection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.IGameComponent.html">IGameComponent</a>&gt;</span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level2"><span class="xref">GameComponentCollection</span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.IGameComponent.html">IGameComponent</a>&gt;</div>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.IGameComponent.html">IGameComponent</a>&gt;</div>
@@ -36,7 +36,7 @@
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1.add#System_Collections_ObjectModel_Collection_1_Add__0_">Collection&lt;IGameComponent&gt;.Add(IGameComponent)</a>

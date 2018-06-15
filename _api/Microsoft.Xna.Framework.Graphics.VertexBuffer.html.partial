@@ -13,25 +13,25 @@
         <pre><code class="lang-csharp hljs">public class VertexBuffer : GraphicsResource, IDisposable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level2"><span class="xref">VertexBuffer</span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
           <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DynamicVertexBuffer.html">DynamicVertexBuffer</a></span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
@@ -411,7 +411,6 @@
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -465,7 +464,6 @@
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -530,7 +528,6 @@
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int offsetInBytes, T[] data, int startIndex, int elementCount, int vertexStride = 0)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -640,7 +637,6 @@ and <code>vertexStride</code> equal to <code>sizeof(T)</code>.</p>
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -700,7 +696,6 @@ and <code>vertexStride</code> equal to <code>sizeof(T)</code>.</p>
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -774,7 +769,6 @@ and how far apart elements from the source data array should be when they are co
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int offsetInBytes, T[] data, int startIndex, int elementCount, int vertexStride)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -876,7 +870,6 @@ vertexBuffer.SetData(12, texCoords, 0, numVertices, vertexBuffer.VertexDeclarati
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">protected void SetDataInternal&lt;T&gt;(int offsetInBytes, T[] data, int startIndex, int elementCount, int vertexStride, SetDataOptions options)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>

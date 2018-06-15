@@ -13,21 +13,21 @@
         <pre><code class="lang-csharp hljs">public class GraphicsDevice : IDisposable</code></pre>
       </div>
       
-      <div class="inheritance">
+      <div class="type-subheader inheritance">
         <div>
-          <span><strong>Inheritance</strong> </span>
+          <span class="pad-right10"><strong>Inheritance</strong> </span>
           <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
-          <span class="mg-icons">&#xe800;</span>
+          <span class="inherit-separator mg-icons">&#xe800;</span>
         <span class="level1"><span class="xref">GraphicsDevice</span>
         </span></div>
       </div>
       
-      <div class="implements">
+      <div class="type-subheader implements">
         <strong>Implements</strong>
         <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       </div>
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
@@ -1512,7 +1512,6 @@ public void DrawInstancedPrimitives(PrimitiveType primitiveType, int baseVertex,
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, short[] indexData, int indexOffset, int primitiveCount)
-
     where T : struct, IVertexType</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1609,7 +1608,6 @@ from an instance of <code data-dev-comment-type="typeparamref" class="typeparamr
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, short[] indexData, int indexOffset, int primitiveCount, VertexDeclaration vertexDeclaration)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1713,7 +1711,6 @@ in the array of vertices.</p>
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, int[] indexData, int indexOffset, int primitiveCount)
-
     where T : struct, IVertexType</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1810,7 +1807,6 @@ from an instance of <code data-dev-comment-type="typeparamref" class="typeparamr
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, int[] indexData, int indexOffset, int primitiveCount, VertexDeclaration vertexDeclaration)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1914,7 +1910,6 @@ in the array of vertices.</p>
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void DrawUserPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int primitiveCount)
-
     where T : struct, IVertexType</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -1993,7 +1988,6 @@ from an instance of <code data-dev-comment-type="typeparamref" class="typeparamr
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void DrawUserPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int primitiveCount, VertexDeclaration vertexDeclaration)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -2116,7 +2110,6 @@ The format is whatever the current format of the backbuffer is.</p>
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetBackBufferData&lt;T&gt;(T[] data)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -2171,7 +2164,6 @@ The format is whatever the current format of the backbuffer is.</p>
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetBackBufferData&lt;T&gt;(T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>
@@ -2235,7 +2227,6 @@ The format is whatever the current format of the backbuffer is.</p>
           <h5 class="decalaration">Declaration</h5>
           <div class="codewrapper">
             <pre><code class="lang-csharp hljs">public void GetBackBufferData&lt;T&gt;(Rectangle? rect, T[] data, int startIndex, int elementCount)
-
     where T : struct</code></pre>
           </div>
           <h5 class="parameters">Parameters</h5>

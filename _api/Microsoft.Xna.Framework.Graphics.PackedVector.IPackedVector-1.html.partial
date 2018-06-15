@@ -15,7 +15,7 @@
       
       
       
-      <div class="inheritedMembers">
+      <div class="type-subheader inheritedMembers">
         <strong>Inherited Members</strong>
         <div>
           <a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html#Microsoft_Xna_Framework_Graphics_PackedVector_IPackedVector_PackFromVector4_Microsoft_Xna_Framework_Vector4_">IPackedVector.PackFromVector4(Vector4)</a>
@@ -27,6 +27,7 @@
       
       
       
+      <div class="type-subheader">
       <strong>Type Parameters</strong>
       <table class="table table-bordered table-striped table-condensed">
         <thead>
@@ -42,6 +43,7 @@
           </tr>
         </tbody>
       </table>
+      </div>
       
 
 
