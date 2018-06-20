@@ -1,0 +1,57 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelBone.AddChild*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelBone_AddChild_" data-uid="Microsoft.Xna.Framework.Graphics.ModelBone.AddChild*" class="text-break">.ModelBone.AddChild(ModelBone) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void AddChild(ModelBone modelBone)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelBone.html">ModelBone</a></td>
+              <td><span class="parametername">modelBone</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

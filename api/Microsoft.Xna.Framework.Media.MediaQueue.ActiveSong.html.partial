@@ -1,0 +1,59 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.MediaQueue.ActiveSong*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_MediaQueue_ActiveSong_" data-uid="Microsoft.Xna.Framework.Media.MediaQueue.ActiveSong*" class="text-break">.MediaQueue.ActiveSong Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Song ActiveSong { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,102 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs" class="text-break">PreparingDeviceSettingsEventArgs Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The arguments to the <a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceManager.PreparingDeviceSettings.html#Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings">PreparingDeviceSettings</a> event.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class PreparingDeviceSettingsEventArgs : EventArgs</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level2"><span class="xref">PreparingDeviceSettingsEventArgs</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs.empty">EventArgs.Empty</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.-ctor.html#Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs__ctor_Microsoft_Xna_Framework_GraphicsDeviceInformation_">PreparingDeviceSettingsEventArgs(GraphicsDeviceInformation)</a></td>
+          <td class="summary"><p>Create a new instance of the event.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation.html#Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation">GraphicsDeviceInformation</a></td>
+          <td class="summary"><p>The default settings that will be used in device creation.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

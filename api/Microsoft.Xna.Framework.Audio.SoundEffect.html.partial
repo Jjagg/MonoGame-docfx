@@ -1,0 +1,198 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect" class="text-break">SoundEffect Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents a loaded sound resource.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class SoundEffect : IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">SoundEffect</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+<h id="Microsoft_Xna_Framework_Audio_SoundEffect_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>A SoundEffect represents the buffer used to hold audio data and metadata. SoundEffectInstances are used to play from SoundEffects. Multiple SoundEffectInstance objects can be created and played from the same SoundEffect object.</p>
+<p>The only limit on the number of loaded SoundEffects is restricted by available memory. When a SoundEffect is disposed, all SoundEffectInstances created from it will become invalid.</p>
+<p>SoundEffect.Play() can be used for &apos;fire and forget&apos; sounds. If advanced playback controls like volume or pitch is required, use SoundEffect.CreateInstance().</p>
+</div>
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.-ctor.html#Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_">SoundEffect(Byte[], Int32, AudioChannels)</a></td>
+          <td class="summary"><p>Create a sound effect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.-ctor.html#Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32_">SoundEffect(Byte[], Int32, Int32, Int32, AudioChannels, Int32, Int32)</a></td>
+          <td class="summary"><p>Create a sound effect.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale.html#Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale">DistanceScale</a></td>
+          <td class="summary"><p>Gets or sets the scale of distance calculations.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale.html#Microsoft_Xna_Framework_Audio_SoundEffect_DopplerScale">DopplerScale</a></td>
+          <td class="summary"><p>Gets or sets the scale of Doppler calculations applied to sounds.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Duration.html#Microsoft_Xna_Framework_Audio_SoundEffect_Duration">Duration</a></td>
+          <td class="summary"><p>Gets the duration of the SoundEffect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed.html#Microsoft_Xna_Framework_Audio_SoundEffect_IsDisposed">IsDisposed</a></td>
+          <td class="summary"><p>Indicates whether the object is disposed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume.html#Microsoft_Xna_Framework_Audio_SoundEffect_MasterVolume">MasterVolume</a></td>
+          <td class="summary"><p>Gets or sets the master volume scale applied to all SoundEffectInstances.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Name.html#Microsoft_Xna_Framework_Audio_SoundEffect_Name">Name</a></td>
+          <td class="summary"><p>Gets or sets the asset name of the SoundEffect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers.html#Microsoft_Xna_Framework_Audio_SoundEffect_Speakers">Speakers</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound.html#Microsoft_Xna_Framework_Audio_SoundEffect_SpeedOfSound">SpeedOfSound</a></td>
+          <td class="summary"><p>Returns the speed of sound used when calculating the Doppler effect..</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance.html#Microsoft_Xna_Framework_Audio_SoundEffect_CreateInstance">CreateInstance()</a></td>
+          <td class="summary"><p>Creates a new SoundEffectInstance for this SoundEffect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Dispose.html#Microsoft_Xna_Framework_Audio_SoundEffect_Dispose">Dispose()</a></td>
+          <td class="summary"><p>Releases the resources held by this <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Finalize.html#Microsoft_Xna_Framework_Audio_SoundEffect_Finalize">Finalize()</a></td>
+          <td class="summary"><p>Releases unmanaged resources and performs other cleanup operations before the
+<a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a> is reclaimed by garbage collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream.html#Microsoft_Xna_Framework_Audio_SoundEffect_FromStream_System_IO_Stream_">FromStream(Stream)</a></td>
+          <td class="summary"><p>Creates a new SoundEffect object based on the specified data stream.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration.html#Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_">GetSampleDuration(Int32, Int32, AudioChannels)</a></td>
+          <td class="summary"><p>Returns the duration for 16-bit PCM audio.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes.html#Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_System_TimeSpan_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_">GetSampleSizeInBytes(TimeSpan, Int32, AudioChannels)</a></td>
+          <td class="summary"><p>Returns the data size in bytes for 16bit PCM audio.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Play.html#Microsoft_Xna_Framework_Audio_SoundEffect_Play">Play()</a></td>
+          <td class="summary"><p>Gets an internal SoundEffectInstance and plays it.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Play.html#Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single_">Play(Single, Single, Single)</a></td>
+          <td class="summary"><p>Gets an internal SoundEffectInstance and plays it with the specified volume, pitch, and panning.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

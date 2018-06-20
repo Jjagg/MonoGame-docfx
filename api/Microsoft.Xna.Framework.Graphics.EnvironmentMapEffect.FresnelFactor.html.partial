@@ -1,0 +1,69 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor*" class="text-break">.EnvironmentMapEffect.FresnelFactor Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets or sets the Fresnel factor used for the environment map blending. 
+Higher values make the environment map only visible around the silhouette 
+edges of the object, while lower values make it visible everywhere. 
+Setting this property to 0 disables Fresnel entirely, making the 
+environment map equally visible regardless of view angle. The default is </p>
+<ol>
+<li>Fresnel only affects the environment map RGB (the intensity of which is 
+controlled by EnvironmentMapAmount). The alpha contribution (controlled by 
+EnvironmentMapSpecular) is not affected by the Fresnel setting.</li>
+</ol>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public float FresnelFactor { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

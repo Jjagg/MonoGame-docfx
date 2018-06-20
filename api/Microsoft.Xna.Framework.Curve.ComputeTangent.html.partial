@@ -1,0 +1,135 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Curve_ComputeTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent*" class="text-break">ComputeTangent Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangent.html#Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_">ComputeTangent(Int32, CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangent for the specific key in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangent.html#Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_">ComputeTangent(Int32, CurveTangent, CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangent for the specific key in the collection.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32,Microsoft.Xna.Framework.CurveTangent)" class="text-break">.Curve.ComputeTangent(Int32, CurveTangent) Method</h2>
+    <div class="markdown level0 summary"><p>Computes tangent for the specific key in the collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void ComputeTangent(int keyIndex, CurveTangent tangentType)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">keyIndex</span></td>
+              <td><p>The index of a key in the collection.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+              <td><span class="parametername">tangentType</span></td>
+              <td><p>The tangent type for both in and out.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangent(System.Int32,Microsoft.Xna.Framework.CurveTangent,Microsoft.Xna.Framework.CurveTangent)" class="text-break">.Curve.ComputeTangent(Int32, CurveTangent, CurveTangent) Method</h2>
+    <div class="markdown level0 summary"><p>Computes tangent for the specific key in the collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void ComputeTangent(int keyIndex, CurveTangent tangentInType, CurveTangent tangentOutType)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">keyIndex</span></td>
+              <td><p>The index of key in the collection.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+              <td><span class="parametername">tangentInType</span></td>
+              <td><p>The tangent in-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.TangentIn.html#Microsoft_Xna_Framework_CurveKey_TangentIn">TangentIn</a> for more details.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+              <td><span class="parametername">tangentOutType</span></td>
+              <td><p>The tangent out-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.TangentOut.html#Microsoft_Xna_Framework_CurveKey_TangentOut">TangentOut</a> for more details.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,46 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Plane.Normal" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Plane_Normal" data-uid="Microsoft.Xna.Framework.Plane.Normal" class="text-break">Plane.Normal Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataMember]
+public Vector3 Normal</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataMemberAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

@@ -1,0 +1,77 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.Song.FromUri*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_Song_FromUri_" data-uid="Microsoft.Xna.Framework.Media.Song.FromUri*" class="text-break">.Song.FromUri(String, Uri) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns a song that can be played via <a class="xref" href="Microsoft.Xna.Framework.Media.MediaPlayer.html">MediaPlayer</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Song FromUri(string name, Uri uri)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">name</span></td>
+              <td><p>The name for the song. See <a class="xref" href="Microsoft.Xna.Framework.Media.Song.Name.html#Microsoft_Xna_Framework_Media_Song_Name">Name</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+              <td><span class="parametername">uri</span></td>
+              <td><p>The path to the song file.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

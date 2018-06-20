@@ -1,0 +1,65 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKey.Continuity*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKey_Continuity_" data-uid="Microsoft.Xna.Framework.CurveKey.Continuity*" class="text-break">.CurveKey.Continuity Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets or sets the indicator whether the segment between this point and the next point on the curve is discrete or continuous.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">[DataMember]
+public CurveContinuity Continuity { get; set; }</code></pre>
+        </div>
+      
+      
+        <div class="type-subheader attributes">
+          <strong>Attributes</strong>
+            <div>System.Runtime.Serialization.DataMemberAttribute</div>
+        </div>
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.CurveContinuity.html">CurveContinuity</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

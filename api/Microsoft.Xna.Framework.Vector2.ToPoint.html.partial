@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector2.ToPoint*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector2_ToPoint_" data-uid="Microsoft.Xna.Framework.Vector2.ToPoint*" class="text-break">.Vector2.ToPoint() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> representation for this object.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Point ToPoint()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+            <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> representation for this object.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

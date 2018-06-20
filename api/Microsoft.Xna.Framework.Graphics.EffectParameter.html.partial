@@ -1,0 +1,250 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EffectParameter" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EffectParameter" data-uid="Microsoft.Xna.Framework.Graphics.EffectParameter" class="text-break">EffectParameter Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class EffectParameter</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">EffectParameter</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.Annotations.html#Microsoft_Xna_Framework_Graphics_EffectParameter_Annotations">Annotations</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.ColumnCount.html#Microsoft_Xna_Framework_Graphics_EffectParameter_ColumnCount">ColumnCount</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.Elements.html#Microsoft_Xna_Framework_Graphics_EffectParameter_Elements">Elements</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.Name.html#Microsoft_Xna_Framework_Graphics_EffectParameter_Name">Name</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.ParameterClass.html#Microsoft_Xna_Framework_Graphics_EffectParameter_ParameterClass">ParameterClass</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.ParameterType.html#Microsoft_Xna_Framework_Graphics_EffectParameter_ParameterType">ParameterType</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.RowCount.html#Microsoft_Xna_Framework_Graphics_EffectParameter_RowCount">RowCount</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.Semantic.html#Microsoft_Xna_Framework_Graphics_EffectParameter_Semantic">Semantic</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.StructureMembers.html#Microsoft_Xna_Framework_Graphics_EffectParameter_StructureMembers">StructureMembers</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueBoolean.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueBoolean">GetValueBoolean()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueInt32.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueInt32">GetValueInt32()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueMatrix.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueMatrix">GetValueMatrix()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueMatrixArray.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueMatrixArray_System_Int32_">GetValueMatrixArray(Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueQuaternion.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueQuaternion">GetValueQuaternion()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueSingle.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueSingle">GetValueSingle()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueSingleArray.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueSingleArray">GetValueSingleArray()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueString.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueString">GetValueString()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueTexture2D.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueTexture2D">GetValueTexture2D()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueTexture3D.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueTexture3D">GetValueTexture3D()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueTextureCube.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueTextureCube">GetValueTextureCube()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueVector2.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueVector2">GetValueVector2()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueVector2Array.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueVector2Array">GetValueVector2Array()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueVector3.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueVector3">GetValueVector3()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueVector3Array.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueVector3Array">GetValueVector3Array()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueVector4.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueVector4">GetValueVector4()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueVector4Array.html#Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueVector4Array">GetValueVector4Array()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Graphics_Texture_">SetValue(Texture)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Matrix_">SetValue(Matrix)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Matrix___">SetValue(Matrix[])</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Quaternion_">SetValue(Quaternion)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Vector2_">SetValue(Vector2)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Vector2___">SetValue(Vector2[])</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Vector3_">SetValue(Vector3)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Vector3___">SetValue(Vector3[])</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Vector4_">SetValue(Vector4)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_Microsoft_Xna_Framework_Vector4___">SetValue(Vector4[])</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_System_Boolean_">SetValue(Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_System_Int32_">SetValue(Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_System_Single_">SetValue(Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValue.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValue_System_Single___">SetValue(Single[])</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.SetValueTranspose.html#Microsoft_Xna_Framework_Graphics_EffectParameter_SetValueTranspose_Microsoft_Xna_Framework_Matrix_">SetValueTranspose(Matrix)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

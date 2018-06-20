@@ -1,0 +1,80 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream.Seek*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream_Seek_" data-uid="MonoGame.Utilities.ZlibStream.Seek*" class="text-break">.ZlibStream.Seek(Int64, SeekOrigin) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Calling this method always throws a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override long Seek(long offset, SeekOrigin origin)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+              <td><span class="parametername">offset</span></td>
+              <td><p>The offset to seek to....
+IF THIS METHOD ACTUALLY DID ANYTHING.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.seekorigin">SeekOrigin</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>The reference specifying how to apply the offset....  IF
+THIS METHOD ACTUALLY DID ANYTHING.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+            <td><p>nothing. This method always throws.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

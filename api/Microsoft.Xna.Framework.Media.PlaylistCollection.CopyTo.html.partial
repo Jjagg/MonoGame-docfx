@@ -1,0 +1,66 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.PlaylistCollection.CopyTo*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_PlaylistCollection_CopyTo_" data-uid="Microsoft.Xna.Framework.Media.PlaylistCollection.CopyTo*" class="text-break">.PlaylistCollection.CopyTo(Playlist[], Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void CopyTo(Playlist[] array, int arrayIndex)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto#System_Collections_Generic_ICollection_1_CopyTo__0___System_Int32_">CopyTo</a>(<a class="xref" href="Microsoft.Xna.Framework.Media.Playlist.html">Playlist</a>[], <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Media.Playlist.html">Playlist</a>[]</td>
+              <td><span class="parametername">array</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">arrayIndex</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

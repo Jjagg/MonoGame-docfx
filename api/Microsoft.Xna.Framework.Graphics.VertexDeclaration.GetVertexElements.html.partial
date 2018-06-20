@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.GetVertexElements*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_GetVertexElements_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.GetVertexElements*" class="text-break">.VertexDeclaration.GetVertexElements() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets a copy of the vertex elements.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexElement[] GetVertexElements()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a>[]</td>
+            <td><p>A copy of the vertex elements.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,563 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector4" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector4" data-uid="Microsoft.Xna.Framework.Vector4" class="text-break">Vector4 Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Describes a 4D-vector.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[TypeConverter(typeof(Vector4TypeConverter))]
+[DataContract]
+public struct Vector4 : IEquatable&lt;Vector4&gt;</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.ComponentModel.TypeConverterAttribute</div>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>&gt;</div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_">Vector4(Vector2, Single, Single)</a></td>
+          <td class="summary"><p>Constructs a 3d vector with X and Z from <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> and Z and W from the scalars.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_Microsoft_Xna_Framework_Vector3_System_Single_">Vector4(Vector3, Single)</a></td>
+          <td class="summary"><p>Constructs a 3d vector with X, Y, Z from <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> and W from a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_System_Single_">Vector4(Single)</a></td>
+          <td class="summary"><p>Constructs a 4d vector with X, Y, Z and W set to the same value.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_System_Single_System_Single_System_Single_System_Single_">Vector4(Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Constructs a 3d vector with X, Y, Z and W from four values.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.W.html#Microsoft_Xna_Framework_Vector4_W">W</a></td>
+          <td class="summary"><p>The w coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.X.html#Microsoft_Xna_Framework_Vector4_X">X</a></td>
+          <td class="summary"><p>The x coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Y.html#Microsoft_Xna_Framework_Vector4_Y">Y</a></td>
+          <td class="summary"><p>The y coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Z.html#Microsoft_Xna_Framework_Vector4_Z">Z</a></td>
+          <td class="summary"><p>The z coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.One.html#Microsoft_Xna_Framework_Vector4_One">One</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> with components 1, 1, 1, 1.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.UnitW.html#Microsoft_Xna_Framework_Vector4_UnitW">UnitW</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> with components 0, 0, 0, 1.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.UnitX.html#Microsoft_Xna_Framework_Vector4_UnitX">UnitX</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> with components 1, 0, 0, 0.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.UnitY.html#Microsoft_Xna_Framework_Vector4_UnitY">UnitY</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> with components 0, 1, 0, 0.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.UnitZ.html#Microsoft_Xna_Framework_Vector4_UnitZ">UnitZ</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> with components 0, 0, 1, 0.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Zero.html#Microsoft_Xna_Framework_Vector4_Zero">Zero</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> with components 0, 0, 0, 0.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Add.html#Microsoft_Xna_Framework_Vector4_Add_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Add(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Performs vector addition on <code data-dev-comment-type="paramref" class="paramref">value1</code> and <code data-dev-comment-type="paramref" class="paramref">value2</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Add.html#Microsoft_Xna_Framework_Vector4_Add_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Add(ref Vector4, ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Performs vector addition on <code data-dev-comment-type="paramref" class="paramref">value1</code> and
+<code data-dev-comment-type="paramref" class="paramref">value2</code>, storing the result of the
+addition in <code data-dev-comment-type="paramref" class="paramref">result</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Barycentric.html#Microsoft_Xna_Framework_Vector4_Barycentric_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_System_Single_System_Single_">Barycentric(Vector4, Vector4, Vector4, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 4d-triangle.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Barycentric.html#Microsoft_Xna_Framework_Vector4_Barycentric_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single_System_Single_Microsoft_Xna_Framework_Vector4__">Barycentric(ref Vector4, ref Vector4, ref Vector4, Single, Single, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 4d-triangle.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.CatmullRom.html#Microsoft_Xna_Framework_Vector4_CatmullRom_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_System_Single_">CatmullRom(Vector4, Vector4, Vector4, Vector4, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains CatmullRom interpolation of the specified vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.CatmullRom.html#Microsoft_Xna_Framework_Vector4_CatmullRom_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">CatmullRom(ref Vector4, ref Vector4, ref Vector4, ref Vector4, Single, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains CatmullRom interpolation of the specified vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Clamp.html#Microsoft_Xna_Framework_Vector4_Clamp_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Clamp(Vector4, Vector4, Vector4)</a></td>
+          <td class="summary"><p>Clamps the specified value within a range.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Clamp.html#Microsoft_Xna_Framework_Vector4_Clamp_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Clamp(ref Vector4, ref Vector4, ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Clamps the specified value within a range.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Deconstruct.html#Microsoft_Xna_Framework_Vector4_Deconstruct_System_Single__System_Single__System_Single__System_Single__">Deconstruct(out Single, out Single, out Single, out Single)</a></td>
+          <td class="summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Distance.html#Microsoft_Xna_Framework_Vector4_Distance_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Distance(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Returns the distance between two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Distance.html#Microsoft_Xna_Framework_Vector4_Distance_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single__">Distance(ref Vector4, ref Vector4, out Single)</a></td>
+          <td class="summary"><p>Returns the distance between two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.DistanceSquared.html#Microsoft_Xna_Framework_Vector4_DistanceSquared_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">DistanceSquared(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Returns the squared distance between two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.DistanceSquared.html#Microsoft_Xna_Framework_Vector4_DistanceSquared_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single__">DistanceSquared(ref Vector4, ref Vector4, out Single)</a></td>
+          <td class="summary"><p>Returns the squared distance between two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Divide.html#Microsoft_Xna_Framework_Vector4_Divide_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Divide(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by the components of another <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Divide.html#Microsoft_Xna_Framework_Vector4_Divide_Microsoft_Xna_Framework_Vector4_System_Single_">Divide(Vector4, Single)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Divide.html#Microsoft_Xna_Framework_Vector4_Divide_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Divide(ref Vector4, ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by the components of another <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Divide.html#Microsoft_Xna_Framework_Vector4_Divide_Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">Divide(ref Vector4, Single, out Vector4)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Dot.html#Microsoft_Xna_Framework_Vector4_Dot_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Dot(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Returns a dot product of two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Dot.html#Microsoft_Xna_Framework_Vector4_Dot_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single__">Dot(ref Vector4, ref Vector4, out Single)</a></td>
+          <td class="summary"><p>Returns a dot product of two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Equals.html#Microsoft_Xna_Framework_Vector4_Equals_Microsoft_Xna_Framework_Vector4_">Equals(Vector4)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Equals.html#Microsoft_Xna_Framework_Vector4_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.GetHashCode.html#Microsoft_Xna_Framework_Vector4_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets the hash code of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Hermite.html#Microsoft_Xna_Framework_Vector4_Hermite_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_System_Single_">Hermite(Vector4, Vector4, Vector4, Vector4, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains hermite spline interpolation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Hermite.html#Microsoft_Xna_Framework_Vector4_Hermite_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">Hermite(ref Vector4, ref Vector4, ref Vector4, ref Vector4, Single, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains hermite spline interpolation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Length.html#Microsoft_Xna_Framework_Vector4_Length">Length()</a></td>
+          <td class="summary"><p>Returns the length of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.LengthSquared.html#Microsoft_Xna_Framework_Vector4_LengthSquared">LengthSquared()</a></td>
+          <td class="summary"><p>Returns the squared length of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Lerp.html#Microsoft_Xna_Framework_Vector4_Lerp_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_System_Single_">Lerp(Vector4, Vector4, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains linear interpolation of the specified vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Lerp.html#Microsoft_Xna_Framework_Vector4_Lerp_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">Lerp(ref Vector4, ref Vector4, Single, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains linear interpolation of the specified vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.LerpPrecise.html#Microsoft_Xna_Framework_Vector4_LerpPrecise_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_System_Single_">LerpPrecise(Vector4, Vector4, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains linear interpolation of the specified vectors.
+Uses <a class="xref" href="Microsoft.Xna.Framework.MathHelper.LerpPrecise.html#Microsoft_Xna_Framework_MathHelper_LerpPrecise_System_Single_System_Single_System_Single_">LerpPrecise(Single, Single, Single)</a> on MathHelper for the interpolation.
+Less efficient but more precise compared to <a class="xref" href="Microsoft.Xna.Framework.Vector4.Lerp.html#Microsoft_Xna_Framework_Vector4_Lerp_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_System_Single_">Lerp(Vector4, Vector4, Single)</a>.
+See remarks section of <a class="xref" href="Microsoft.Xna.Framework.MathHelper.LerpPrecise.html#Microsoft_Xna_Framework_MathHelper_LerpPrecise_System_Single_System_Single_System_Single_">LerpPrecise(Single, Single, Single)</a> on MathHelper for more info.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.LerpPrecise.html#Microsoft_Xna_Framework_Vector4_LerpPrecise_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">LerpPrecise(ref Vector4, ref Vector4, Single, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains linear interpolation of the specified vectors.
+Uses <a class="xref" href="Microsoft.Xna.Framework.MathHelper.LerpPrecise.html#Microsoft_Xna_Framework_MathHelper_LerpPrecise_System_Single_System_Single_System_Single_">LerpPrecise(Single, Single, Single)</a> on MathHelper for the interpolation.
+Less efficient but more precise compared to <a class="xref" href="Microsoft.Xna.Framework.Vector4.Lerp.html#Microsoft_Xna_Framework_Vector4_Lerp_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">Lerp(ref Vector4, ref Vector4, Single, out Vector4)</a>.
+See remarks section of <a class="xref" href="Microsoft.Xna.Framework.MathHelper.LerpPrecise.html#Microsoft_Xna_Framework_MathHelper_LerpPrecise_System_Single_System_Single_System_Single_">LerpPrecise(Single, Single, Single)</a> on MathHelper for more info.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Max.html#Microsoft_Xna_Framework_Vector4_Max_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Max(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a maximal values from the two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Max.html#Microsoft_Xna_Framework_Vector4_Max_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Max(ref Vector4, ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a maximal values from the two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Min.html#Microsoft_Xna_Framework_Vector4_Min_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Min(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a minimal values from the two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Min.html#Microsoft_Xna_Framework_Vector4_Min_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Min(ref Vector4, ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a minimal values from the two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Multiply.html#Microsoft_Xna_Framework_Vector4_Multiply_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Multiply(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a multiplication of two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Multiply.html#Microsoft_Xna_Framework_Vector4_Multiply_Microsoft_Xna_Framework_Vector4_System_Single_">Multiply(Vector4, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> and a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Multiply.html#Microsoft_Xna_Framework_Vector4_Multiply_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Multiply(ref Vector4, ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a multiplication of two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Multiply.html#Microsoft_Xna_Framework_Vector4_Multiply_Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">Multiply(ref Vector4, Single, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> and a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Negate.html#Microsoft_Xna_Framework_Vector4_Negate_Microsoft_Xna_Framework_Vector4_">Negate(Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains the specified vector inversion.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Negate.html#Microsoft_Xna_Framework_Vector4_Negate_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Negate(ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains the specified vector inversion.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Normalize.html#Microsoft_Xna_Framework_Vector4_Normalize">Normalize()</a></td>
+          <td class="summary"><p>Turns this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> to a unit vector with the same direction.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Normalize.html#Microsoft_Xna_Framework_Vector4_Normalize_Microsoft_Xna_Framework_Vector4_">Normalize(Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a normalized values from another vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Normalize.html#Microsoft_Xna_Framework_Vector4_Normalize_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Normalize(ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a normalized values from another vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.SmoothStep.html#Microsoft_Xna_Framework_Vector4_SmoothStep_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_System_Single_">SmoothStep(Vector4, Vector4, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains cubic interpolation of the specified vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.SmoothStep.html#Microsoft_Xna_Framework_Vector4_SmoothStep_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single_Microsoft_Xna_Framework_Vector4__">SmoothStep(ref Vector4, ref Vector4, Single, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains cubic interpolation of the specified vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Subtract.html#Microsoft_Xna_Framework_Vector4_Subtract_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Subtract(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains subtraction of on <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> from a another.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Subtract.html#Microsoft_Xna_Framework_Vector4_Subtract_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Subtract(ref Vector4, ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains subtraction of on <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> from a another.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.ToString.html#Microsoft_Xna_Framework_Vector4_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> in the format:
+{X:[<a class="xref" href="Microsoft.Xna.Framework.Vector4.X.html#Microsoft_Xna_Framework_Vector4_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Vector4.Y.html#Microsoft_Xna_Framework_Vector4_Y">Y</a>] Z:[<a class="xref" href="Microsoft.Xna.Framework.Vector4.Z.html#Microsoft_Xna_Framework_Vector4_Z">Z</a>] W:[<a class="xref" href="Microsoft.Xna.Framework.Vector4.W.html#Microsoft_Xna_Framework_Vector4_W">W</a>]}</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Matrix_">Transform(Vector2, Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Quaternion_">Transform(Vector2, Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector4__">Transform(ref Vector2, ref Matrix, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector4__">Transform(ref Vector2, ref Quaternion, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Matrix_">Transform(Vector3, Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 3d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Quaternion_">Transform(Vector3, Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 3d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector4__">Transform(ref Vector3, ref Matrix, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 3d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector4__">Transform(ref Vector3, ref Quaternion, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 3d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Matrix_">Transform(Vector4, Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 4d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Quaternion_">Transform(Vector4, Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 4d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector4__">Transform(ref Vector4, ref Matrix, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 4d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector4__">Transform(ref Vector4, ref Quaternion, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a transformation of 4d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4___Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector4___">Transform(Vector4[], ref Matrix, Vector4[])</a></td>
+          <td class="summary"><p>Apply transformation on all vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and places the results in an another array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4___Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector4___">Transform(Vector4[], ref Quaternion, Vector4[])</a></td>
+          <td class="summary"><p>Apply transformation on all vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> and places the results in an another array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4___System_Int32_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector4___System_Int32_System_Int32_">Transform(Vector4[], Int32, ref Matrix, Vector4[], Int32, Int32)</a></td>
+          <td class="summary"><p>Apply transformation on vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and places the results in an another array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Transform.html#Microsoft_Xna_Framework_Vector4_Transform_Microsoft_Xna_Framework_Vector4___System_Int32_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector4___System_Int32_System_Int32_">Transform(Vector4[], Int32, ref Quaternion, Vector4[], Int32, Int32)</a></td>
+          <td class="summary"><p>Apply transformation on vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> and places the results in an another array.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Addition.html#Microsoft_Xna_Framework_Vector4_op_Addition_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Addition(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Adds two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Division.html#Microsoft_Xna_Framework_Vector4_op_Division_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Division(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by the components of another <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Division.html#Microsoft_Xna_Framework_Vector4_op_Division_Microsoft_Xna_Framework_Vector4_System_Single_">Division(Vector4, Single)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> by a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Equality.html#Microsoft_Xna_Framework_Vector4_op_Equality_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Equality(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> instances are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Inequality.html#Microsoft_Xna_Framework_Vector4_op_Inequality_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Inequality(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> instances are not equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Multiply.html#Microsoft_Xna_Framework_Vector4_op_Multiply_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Multiply(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Multiplies the components of two vectors by each other.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Multiply.html#Microsoft_Xna_Framework_Vector4_op_Multiply_Microsoft_Xna_Framework_Vector4_System_Single_">Multiply(Vector4, Single)</a></td>
+          <td class="summary"><p>Multiplies the components of vector by a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Multiply.html#Microsoft_Xna_Framework_Vector4_op_Multiply_System_Single_Microsoft_Xna_Framework_Vector4_">Multiply(Single, Vector4)</a></td>
+          <td class="summary"><p>Multiplies the components of vector by a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_Subtraction.html#Microsoft_Xna_Framework_Vector4_op_Subtraction_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Subtraction(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Subtracts a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> from a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.op_UnaryNegation.html#Microsoft_Xna_Framework_Vector4_op_UnaryNegation_Microsoft_Xna_Framework_Vector4_">UnaryNegation(Vector4)</a></td>
+          <td class="summary"><p>Inverts values in the specified <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

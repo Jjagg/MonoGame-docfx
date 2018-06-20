@@ -1,0 +1,213 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Plane.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Plane__ctor_" data-uid="Microsoft.Xna.Framework.Plane.#ctor*" class="text-break">Plane Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector4_">Plane(Vector4)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector3_System_Single_">Plane(Vector3, Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_">Plane(Vector3, Vector3, Vector3)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_System_Single_System_Single_System_Single_System_Single_">Plane(Single, Single, Single, Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector4_" data-uid="Microsoft.Xna.Framework.Plane.#ctor(Microsoft.Xna.Framework.Vector4)" class="text-break">.Plane.Plane(Vector4) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Plane(Vector4 value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">value</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector3_System_Single_" data-uid="Microsoft.Xna.Framework.Plane.#ctor(Microsoft.Xna.Framework.Vector3,System.Single)" class="text-break">.Plane.Plane(Vector3, Single) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Plane(Vector3 normal, float d)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">normal</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">d</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_" data-uid="Microsoft.Xna.Framework.Plane.#ctor(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)" class="text-break">.Plane.Plane(Vector3, Vector3, Vector3) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Plane(Vector3 a, Vector3 b, Vector3 c)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">a</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">b</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">c</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane__ctor_System_Single_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Plane.#ctor(System.Single,System.Single,System.Single,System.Single)" class="text-break">.Plane.Plane(Single, Single, Single, Single) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Plane(float a, float b, float c, float d)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">a</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">b</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">c</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">d</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

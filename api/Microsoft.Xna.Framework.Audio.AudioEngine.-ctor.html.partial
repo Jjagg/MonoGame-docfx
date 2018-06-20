@@ -1,0 +1,128 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor*" class="text-break">AudioEngine Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.-ctor.html#Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_">AudioEngine(String)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.-ctor.html#Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_">AudioEngine(String, TimeSpan, String)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor(System.String)" class="text-break">.AudioEngine.AudioEngine(String) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public AudioEngine(string settingsFile)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">settingsFile</span></td>
+              <td><p>Path to a XACT settings file.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.#ctor(System.String,System.TimeSpan,System.String)" class="text-break">.AudioEngine.AudioEngine(String, TimeSpan, String) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public AudioEngine(string settingsFile, TimeSpan lookAheadTime, string rendererId)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">settingsFile</span></td>
+              <td><p>Path to a XACT settings file.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+              <td><span class="parametername">lookAheadTime</span></td>
+              <td><p>Determines how many milliseconds the engine will look ahead when determing when to transition to another sound.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">rendererId</span></td>
+              <td><p>A string that specifies the audio renderer to use.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>For the best results, use a lookAheadTime of 250 milliseconds or greater.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

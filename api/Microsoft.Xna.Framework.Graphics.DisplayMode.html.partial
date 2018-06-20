@@ -1,0 +1,134 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DisplayMode" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_DisplayMode" data-uid="Microsoft.Xna.Framework.Graphics.DisplayMode" class="text-break">DisplayMode Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public class DisplayMode</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">DisplayMode</span>
+    </span></div>
+  </div>
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.AspectRatio.html#Microsoft_Xna_Framework_Graphics_DisplayMode_AspectRatio">AspectRatio</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.Format.html#Microsoft_Xna_Framework_Graphics_DisplayMode_Format">Format</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.Height.html#Microsoft_Xna_Framework_Graphics_DisplayMode_Height">Height</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.TitleSafeArea.html#Microsoft_Xna_Framework_Graphics_DisplayMode_TitleSafeArea">TitleSafeArea</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.Width.html#Microsoft_Xna_Framework_Graphics_DisplayMode_Width">Width</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.Equals.html#Microsoft_Xna_Framework_Graphics_DisplayMode_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.GetHashCode.html#Microsoft_Xna_Framework_Graphics_DisplayMode_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.ToString.html#Microsoft_Xna_Framework_Graphics_DisplayMode_ToString">ToString()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.op_Equality.html#Microsoft_Xna_Framework_Graphics_DisplayMode_op_Equality_Microsoft_Xna_Framework_Graphics_DisplayMode_Microsoft_Xna_Framework_Graphics_DisplayMode_">Equality(DisplayMode, DisplayMode)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.DisplayMode.op_Inequality.html#Microsoft_Xna_Framework_Graphics_DisplayMode_op_Inequality_Microsoft_Xna_Framework_Graphics_DisplayMode_Microsoft_Xna_Framework_Graphics_DisplayMode_">Inequality(DisplayMode, DisplayMode)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

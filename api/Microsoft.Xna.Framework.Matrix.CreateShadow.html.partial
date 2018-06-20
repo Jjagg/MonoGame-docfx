@@ -1,0 +1,148 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreateShadow*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreateShadow_" data-uid="Microsoft.Xna.Framework.Matrix.CreateShadow*" class="text-break">CreateShadow Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateShadow.html#Microsoft_Xna_Framework_Matrix_CreateShadow_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Plane_">CreateShadow(Vector3, Plane)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that flattens geometry into a specified <a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a> as if casting a shadow from a specified light source. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateShadow.html#Microsoft_Xna_Framework_Matrix_CreateShadow_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Matrix__">CreateShadow(ref Vector3, ref Plane, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that flattens geometry into a specified <a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a> as if casting a shadow from a specified light source. </p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateShadow_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Plane_" data-uid="Microsoft.Xna.Framework.Matrix.CreateShadow(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Plane)" class="text-break">.Matrix.CreateShadow(Vector3, Plane) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that flattens geometry into a specified <a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a> as if casting a shadow from a specified light source. </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateShadow(Vector3 lightDirection, Plane plane)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">lightDirection</span></td>
+              <td><p>A vector specifying the direction from which the light that will cast the shadow is coming.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td><p>The plane onto which the new matrix should flatten geometry so as to cast a shadow.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that can be used to flatten geometry onto the specified plane from the specified direction. </p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateShadow_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateShadow(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Plane@,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateShadow(ref Vector3, ref Plane, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that flattens geometry into a specified <a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a> as if casting a shadow from a specified light source. </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateShadow(ref Vector3 lightDirection, ref Plane plane, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">lightDirection</span></td>
+              <td><p>A vector specifying the direction from which the light that will cast the shadow is coming.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td><p>The plane onto which the new matrix should flatten geometry so as to cast a shadow.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that can be used to flatten geometry onto the specified plane from the specified direction as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

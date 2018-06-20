@@ -1,0 +1,148 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.Divide*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_Divide_" data-uid="Microsoft.Xna.Framework.Quaternion.Divide*" class="text-break">Divide Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.Divide.html#Microsoft_Xna_Framework_Quaternion_Divide_Microsoft_Xna_Framework_Quaternion_Microsoft_Xna_Framework_Quaternion_">Divide(Quaternion, Quaternion)</a></td>
+          <td class="summary"><p>Divides a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> by the other <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.Divide.html#Microsoft_Xna_Framework_Quaternion_Divide_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__">Divide(ref Quaternion, ref Quaternion, out Quaternion)</a></td>
+          <td class="summary"><p>Divides a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> by the other <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Quaternion_Divide_Microsoft_Xna_Framework_Quaternion_Microsoft_Xna_Framework_Quaternion_" data-uid="Microsoft.Xna.Framework.Quaternion.Divide(Microsoft.Xna.Framework.Quaternion,Microsoft.Xna.Framework.Quaternion)" class="text-break">.Quaternion.Divide(Quaternion, Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Divides a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> by the other <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion Divide(Quaternion quaternion1, Quaternion quaternion2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion2</span></td>
+              <td><p>Divisor <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>The result of dividing the quaternions.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Quaternion_Divide_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__" data-uid="Microsoft.Xna.Framework.Quaternion.Divide(Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Quaternion@)" class="text-break">.Quaternion.Divide(ref Quaternion, ref Quaternion, out Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Divides a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> by the other <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Divide(ref Quaternion quaternion1, ref Quaternion quaternion2, out Quaternion result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion2</span></td>
+              <td><p>Divisor <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of dividing the quaternions as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

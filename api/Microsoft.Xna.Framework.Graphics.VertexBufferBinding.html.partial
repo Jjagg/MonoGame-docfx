@@ -1,0 +1,107 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding" class="text-break">VertexBufferBinding Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines how a vertex buffer is bound to the graphics device for rendering.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct VertexBufferBinding</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_">VertexBufferBinding(VertexBuffer)</a></td>
+          <td class="summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_">VertexBufferBinding(VertexBuffer, Int32)</a></td>
+          <td class="summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_System_Int32_">VertexBufferBinding(VertexBuffer, Int32, Int32)</a></td>
+          <td class="summary"><p>Creates an instance of VertexBufferBinding.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.InstanceFrequency.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding_InstanceFrequency">InstanceFrequency</a></td>
+          <td class="summary"><p>Gets the number of instances to draw using the same per-instance data before advancing
+in the buffer by one element.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexBuffer.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexBuffer">VertexBuffer</a></td>
+          <td class="summary"><p>Gets the vertex buffer.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexOffset.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexOffset">VertexOffset</a></td>
+          <td class="summary"><p>Gets the index of the first vertex in the vertex buffer to use.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

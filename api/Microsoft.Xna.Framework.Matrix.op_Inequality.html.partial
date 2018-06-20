@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.op_Inequality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_op_Inequality_" data-uid="Microsoft.Xna.Framework.Matrix.op_Inequality*" class="text-break">.Matrix.Inequality(Matrix, Matrix) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> instances are not equal without any tolerance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator !=(Matrix matrix1, Matrix matrix2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> on the left of the not equal sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> on the right of the not equal sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the instances are not equal; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

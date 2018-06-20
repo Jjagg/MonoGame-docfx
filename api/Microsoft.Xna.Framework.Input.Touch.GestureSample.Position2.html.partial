@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureSample.Position2*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_GestureSample_Position2_" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureSample.Position2*" class="text-break">.GestureSample.Position2 Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets the position of the second touch-point in the gesture sample.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector2 Position2 { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

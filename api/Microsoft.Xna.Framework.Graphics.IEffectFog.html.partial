@@ -1,0 +1,63 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.IEffectFog" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_IEffectFog" data-uid="Microsoft.Xna.Framework.Graphics.IEffectFog" class="text-break">IEffectFog Interface</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The common effect fog rendering parameters.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public interface IEffectFog</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.FogColor.html#Microsoft_Xna_Framework_Graphics_IEffectFog_FogColor">FogColor</a></td>
+          <td class="summary"><p>The floating point fog color.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.FogEnabled.html#Microsoft_Xna_Framework_Graphics_IEffectFog_FogEnabled">FogEnabled</a></td>
+          <td class="summary"><p>Used to toggle the rendering of fog.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.FogEnd.html#Microsoft_Xna_Framework_Graphics_IEffectFog_FogEnd">FogEnd</a></td>
+          <td class="summary"><p>The world space distance from the camera at which fogging is fully applied.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.FogStart.html#Microsoft_Xna_Framework_Graphics_IEffectFog_FogStart">FogStart</a></td>
+          <td class="summary"><p>The world space distance from the camera at which fogging begins.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

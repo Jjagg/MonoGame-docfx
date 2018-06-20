@@ -1,0 +1,137 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Keyboard.GetState*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Keyboard_GetState_" data-uid="Microsoft.Xna.Framework.Input.Keyboard.GetState*" class="text-break">GetState Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Keyboard.GetState.html#Microsoft_Xna_Framework_Input_Keyboard_GetState">GetState()</a></td>
+          <td class="summary"><p>Returns the current keyboard state.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Keyboard.GetState.html#Microsoft_Xna_Framework_Input_Keyboard_GetState_Microsoft_Xna_Framework_PlayerIndex_">GetState(PlayerIndex)</a></td>
+          <td class="summary"><p>Returns the current keyboard state for a given player.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Input_Keyboard_GetState" data-uid="Microsoft.Xna.Framework.Input.Keyboard.GetState" class="text-break">.Keyboard.GetState() Method</h2>
+    <div class="markdown level0 summary"><p>Returns the current keyboard state.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static KeyboardState GetState()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a></td>
+            <td><p>Current keyboard state.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_Keyboard_GetState_Microsoft_Xna_Framework_PlayerIndex_" data-uid="Microsoft.Xna.Framework.Input.Keyboard.GetState(Microsoft.Xna.Framework.PlayerIndex)" class="text-break">.Keyboard.GetState(PlayerIndex) Method</h2>
+    <div class="markdown level0 summary"><p>Returns the current keyboard state for a given player.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use GetState() instead. In future versions this method can be removed.&quot;)]
+public static KeyboardState GetState(PlayerIndex playerIndex)</code></pre>
+        </div>
+      
+      
+        <div class="type-subheader attributes">
+          <strong>Attributes</strong>
+            <div>System.ObsoleteAttribute</div>
+        </div>
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+              <td><span class="parametername">playerIndex</span></td>
+              <td><p>Player index of the keyboard.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a></td>
+            <td><p>Current keyboard state.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

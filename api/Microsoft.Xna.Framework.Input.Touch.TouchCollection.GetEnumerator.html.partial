@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator*" class="text-break">.TouchCollection.GetEnumerator() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public TouchCollection.Enumerator GetEnumerator()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.html">TouchCollection.Enumerator</a></td>
+            <td><p>Enumerable list of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> objects.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

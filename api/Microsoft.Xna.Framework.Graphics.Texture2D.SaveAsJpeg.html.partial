@@ -1,0 +1,69 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg*" class="text-break">.Texture2D.SaveAsJpeg(Stream, Int32, Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Converts the texture to a JPG image</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SaveAsJpeg(Stream stream, int width, int height)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+              <td><span class="parametername">stream</span></td>
+              <td><p>Destination for the image</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

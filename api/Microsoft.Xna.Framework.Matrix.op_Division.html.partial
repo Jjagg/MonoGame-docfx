@@ -1,0 +1,155 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.op_Division*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_op_Division_" data-uid="Microsoft.Xna.Framework.Matrix.op_Division*" class="text-break">Division Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.op_Division.html#Microsoft_Xna_Framework_Matrix_op_Division_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_">Division(Matrix, Matrix)</a></td>
+          <td class="summary"><p>Divides the elements of a <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> by the elements of another <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.op_Division.html#Microsoft_Xna_Framework_Matrix_op_Division_Microsoft_Xna_Framework_Matrix_System_Single_">Division(Matrix, Single)</a></td>
+          <td class="summary"><p>Divides the elements of a <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> by a scalar.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_op_Division_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_" data-uid="Microsoft.Xna.Framework.Matrix.op_Division(Microsoft.Xna.Framework.Matrix,Microsoft.Xna.Framework.Matrix)" class="text-break">.Matrix.Division(Matrix, Matrix) Operator</h2>
+    <div class="markdown level0 summary"><p>Divides the elements of a <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> by the elements of another <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix operator /(Matrix matrix1, Matrix matrix2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> on the left of the div sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix2</span></td>
+              <td><p>Divisor <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> on the right of the div sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The result of dividing the matrixes.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_op_Division_Microsoft_Xna_Framework_Matrix_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.op_Division(Microsoft.Xna.Framework.Matrix,System.Single)" class="text-break">.Matrix.Division(Matrix, Single) Operator</h2>
+    <div class="markdown level0 summary"><p>Divides the elements of a <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> by a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix operator /(Matrix matrix, float divider)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> on the left of the div sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">divider</span></td>
+              <td><p>Divisor scalar on the right of the div sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The result of dividing a matrix by a scalar.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

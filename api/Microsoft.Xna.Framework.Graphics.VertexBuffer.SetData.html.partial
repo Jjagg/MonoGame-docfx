@@ -1,0 +1,267 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData*" class="text-break">SetData Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_">SetData&lt;T&gt;(Int32, T[], Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Sets the vertex buffer data, specifying the index at which to start copying from the source data array,
+the number of elements to copy from the source data array, 
+and how far apart elements from the source data array should be when they are copied into the vertex buffer.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1___0___System_Int32_System_Int32_">SetData&lt;T&gt;(T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Sets the vertex buffer data, specifying the index at which to start copying from the source data array,
+and the number of elements to copy from the source data array. This is the same as calling 
+<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_">SetData&lt;T&gt;(Int32, T[], Int32, Int32, Int32)</a>  with <code>offsetInBytes</code> equal to <code>0</code>,
+and <code>vertexStride</code> equal to <code>sizeof(T)</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1___0___">SetData&lt;T&gt;(T[])</a></td>
+          <td class="summary"><p>Sets the vertex buffer data. This is the same as calling <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_">SetData&lt;T&gt;(Int32, T[], Int32, Int32, Int32)</a> 
+with <code>offsetInBytes</code> and <code>startIndex</code> equal to <code>0</code>, <code>elementCount</code> equal to <code>data.Length</code>, 
+and <code>vertexStride</code> equal to <code>sizeof(T)</code>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData``1(System.Int32,``0[],System.Int32,System.Int32,System.Int32)" class="text-break">.VertexBuffer.SetData&lt;T&gt;(Int32, T[], Int32, Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Sets the vertex buffer data, specifying the index at which to start copying from the source data array,
+the number of elements to copy from the source data array, 
+and how far apart elements from the source data array should be when they are copied into the vertex buffer.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int offsetInBytes, T[] data, int startIndex, int elementCount, int vertexStride)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>Type of elements in the data array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offsetInBytes</span></td>
+              <td><p>Offset in bytes from the beginning of the vertex buffer to the start of the copied data.</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Data array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Index at which to start copying from <code data-dev-comment-type="paramref" class="paramref">data</code>.
+Must be within the <code data-dev-comment-type="paramref" class="paramref">data</code> array bounds.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td><p>Number of elements to copy from <code data-dev-comment-type="paramref" class="paramref">data</code>.
+The combination of <code data-dev-comment-type="paramref" class="paramref">startIndex</code> and <code data-dev-comment-type="paramref" class="paramref">elementCount</code> 
+must be within the <code data-dev-comment-type="paramref" class="paramref">data</code> array bounds.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexStride</span></td>
+              <td><p>Specifies how far apart, in bytes, elements from <code data-dev-comment-type="paramref" class="paramref">data</code> should be when 
+they are copied into the vertex buffer.
+In almost all cases this should be <code>sizeof(T)</code>, to create a tightly-packed vertex buffer.
+If you specify <code>sizeof(T)</code>, elements from <code data-dev-comment-type="paramref" class="paramref">data</code> will be copied into the 
+vertex buffer with no padding between each element.
+If you specify a value greater than <code>sizeof(T)</code>, elements from <code data-dev-comment-type="paramref" class="paramref">data</code> will be copied 
+into the vertex buffer with padding between each element.
+If you specify <code>0</code> for this parameter, it will be treated as if you had specified <code>sizeof(T)</code>.
+With the exception of <code>0</code>, you must specify a value greater than or equal to <code>sizeof(T)</code>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>If <code>T</code> is <code>VertexPositionTexture</code>, but you want to set only the position component of the vertex data,
+you would call this method as follows:</p>
+<pre><code>Vector3[] positions = new Vector3[numVertices];
+vertexBuffer.SetData(0, positions, 0, numVertices, vertexBuffer.VertexDeclaration.VertexStride);</code></pre>
+
+<p>Continuing from the previous example, if you want to set only the texture coordinate component of the vertex data,
+you would call this method as follows (note the use of <code data-dev-comment-type="paramref" class="paramref">offsetInBytes</code>:</p>
+<pre><code>Vector2[] texCoords = new Vector2[numVertices];
+vertexBuffer.SetData(12, texCoords, 0, numVertices, vertexBuffer.VertexDeclaration.VertexStride);</code></pre>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData``1(``0[],System.Int32,System.Int32)" class="text-break">.VertexBuffer.SetData&lt;T&gt;(T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Sets the vertex buffer data, specifying the index at which to start copying from the source data array,
+and the number of elements to copy from the source data array. This is the same as calling 
+<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_">SetData&lt;T&gt;(Int32, T[], Int32, Int32, Int32)</a>  with <code>offsetInBytes</code> equal to <code>0</code>,
+and <code>vertexStride</code> equal to <code>sizeof(T)</code>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>Type of elements in the data array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Data array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Index at which to start copying from <code data-dev-comment-type="paramref" class="paramref">data</code>.
+Must be within the <code data-dev-comment-type="paramref" class="paramref">data</code> array bounds.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td><p>Number of elements to copy from <code data-dev-comment-type="paramref" class="paramref">data</code>.
+The combination of <code data-dev-comment-type="paramref" class="paramref">startIndex</code> and <code data-dev-comment-type="paramref" class="paramref">elementCount</code> 
+must be within the <code data-dev-comment-type="paramref" class="paramref">data</code> array bounds.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData``1(``0[])" class="text-break">.VertexBuffer.SetData&lt;T&gt;(T[]) Method</h2>
+    <div class="markdown level0 summary"><p>Sets the vertex buffer data. This is the same as calling <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.SetData.html#Microsoft_Xna_Framework_Graphics_VertexBuffer_SetData__1_System_Int32___0___System_Int32_System_Int32_System_Int32_">SetData&lt;T&gt;(Int32, T[], Int32, Int32, Int32)</a> 
+with <code>offsetInBytes</code> and <code>startIndex</code> equal to <code>0</code>, <code>elementCount</code> equal to <code>data.Length</code>, 
+and <code>vertexStride</code> equal to <code>sizeof(T)</code>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>Type of elements in the data array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Data array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

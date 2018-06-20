@@ -1,0 +1,57 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReader.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReader__ctor_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReader.#ctor*" class="text-break">.ContentTypeReader.ContentTypeReader(Type) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected ContentTypeReader(Type targetType)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+              <td><span class="parametername">targetType</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,84 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.Decompose*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_Decompose_" data-uid="Microsoft.Xna.Framework.Matrix.Decompose*" class="text-break">.Matrix.Decompose(out Vector3, out Quaternion, out Vector3) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Decomposes this matrix to translation, rotation and scale elements. Returns <code>true</code> if matrix can be decomposed; <code>false</code> otherwise.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Decompose(out Vector3 scale, out Quaternion rotation, out Vector3 translation)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>Scale vector as an output parameter.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>Rotation quaternion as an output parameter.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">translation</span></td>
+              <td><p>Translation vector as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if matrix can be decomposed; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

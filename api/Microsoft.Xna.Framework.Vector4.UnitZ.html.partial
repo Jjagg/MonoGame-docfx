@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector4.UnitZ*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector4_UnitZ_" data-uid="Microsoft.Xna.Framework.Vector4.UnitZ*" class="text-break">.Vector4.UnitZ Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> with components 0, 0, 1, 0.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector4 UnitZ { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

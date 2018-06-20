@@ -1,0 +1,128 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateFromSphere*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingBox_CreateFromSphere_" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateFromSphere*" class="text-break">CreateFromSphere Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.CreateFromSphere.html#Microsoft_Xna_Framework_BoundingBox_CreateFromSphere_Microsoft_Xna_Framework_BoundingSphere_">CreateFromSphere(BoundingSphere)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.CreateFromSphere.html#Microsoft_Xna_Framework_BoundingBox_CreateFromSphere_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_BoundingBox__">CreateFromSphere(ref BoundingSphere, out BoundingBox)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_CreateFromSphere_Microsoft_Xna_Framework_BoundingSphere_" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateFromSphere(Microsoft.Xna.Framework.BoundingSphere)" class="text-break">.BoundingBox.CreateFromSphere(BoundingSphere) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static BoundingBox CreateFromSphere(BoundingSphere sphere)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_CreateFromSphere_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_BoundingBox__" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateFromSphere(Microsoft.Xna.Framework.BoundingSphere@,Microsoft.Xna.Framework.BoundingBox@)" class="text-break">.BoundingBox.CreateFromSphere(ref BoundingSphere, out BoundingBox) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateFromSphere(ref BoundingSphere sphere, out BoundingBox result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,64 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.Adapter*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GraphicsDeviceInformation_Adapter_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceInformation.Adapter*" class="text-break">.GraphicsDeviceInformation.Adapter Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>The graphics adapter on which the graphics device will be created.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GraphicsAdapter Adapter { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.html">GraphicsAdapter</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_GraphicsDeviceInformation_Adapter_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This is only valid on desktop systems where multiple graphics 
+adapters are possible.  Defaults to <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.DefaultAdapter.html#Microsoft_Xna_Framework_Graphics_GraphicsAdapter_DefaultAdapter">DefaultAdapter</a>.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

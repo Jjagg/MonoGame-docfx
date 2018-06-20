@@ -1,0 +1,63 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingBox.Deconstruct*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingBox_Deconstruct_" data-uid="Microsoft.Xna.Framework.BoundingBox.Deconstruct*" class="text-break">.BoundingBox.Deconstruct(out Vector3, out Vector3) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Deconstruct(out Vector3 min, out Vector3 max)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">min</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">max</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

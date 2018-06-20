@@ -1,0 +1,177 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.Song" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_Song" data-uid="Microsoft.Xna.Framework.Media.Song" class="text-break">Song Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class Song : IEquatable&lt;Song&gt;, IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">Song</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Album.html#Microsoft_Xna_Framework_Media_Song_Album">Album</a></td>
+          <td class="summary"><p>Gets the Album on which the Song appears.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Artist.html#Microsoft_Xna_Framework_Media_Song_Artist">Artist</a></td>
+          <td class="summary"><p>Gets the Artist of the Song.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Duration.html#Microsoft_Xna_Framework_Media_Song_Duration">Duration</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Genre.html#Microsoft_Xna_Framework_Media_Song_Genre">Genre</a></td>
+          <td class="summary"><p>Gets the Genre of the Song.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.IsDisposed.html#Microsoft_Xna_Framework_Media_Song_IsDisposed">IsDisposed</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.IsProtected.html#Microsoft_Xna_Framework_Media_Song_IsProtected">IsProtected</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.IsRated.html#Microsoft_Xna_Framework_Media_Song_IsRated">IsRated</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Name.html#Microsoft_Xna_Framework_Media_Song_Name">Name</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.PlayCount.html#Microsoft_Xna_Framework_Media_Song_PlayCount">PlayCount</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Rating.html#Microsoft_Xna_Framework_Media_Song_Rating">Rating</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.TrackNumber.html#Microsoft_Xna_Framework_Media_Song_TrackNumber">TrackNumber</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Dispose.html#Microsoft_Xna_Framework_Media_Song_Dispose">Dispose()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Equals.html#Microsoft_Xna_Framework_Media_Song_Equals_Microsoft_Xna_Framework_Media_Song_">Equals(Song)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Equals.html#Microsoft_Xna_Framework_Media_Song_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.Finalize.html#Microsoft_Xna_Framework_Media_Song_Finalize">Finalize()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.FromUri.html#Microsoft_Xna_Framework_Media_Song_FromUri_System_String_System_Uri_">FromUri(String, Uri)</a></td>
+          <td class="summary"><p>Returns a song that can be played via <a class="xref" href="Microsoft.Xna.Framework.Media.MediaPlayer.html">MediaPlayer</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.GetHashCode.html#Microsoft_Xna_Framework_Media_Song_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.op_Equality.html#Microsoft_Xna_Framework_Media_Song_op_Equality_Microsoft_Xna_Framework_Media_Song_Microsoft_Xna_Framework_Media_Song_">Equality(Song, Song)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Song.op_Inequality.html#Microsoft_Xna_Framework_Media_Song_op_Inequality_Microsoft_Xna_Framework_Media_Song_Microsoft_Xna_Framework_Media_Song_">Inequality(Song, Song)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

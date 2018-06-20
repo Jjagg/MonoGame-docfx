@@ -1,0 +1,138 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateMerged*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingBox_CreateMerged_" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateMerged*" class="text-break">CreateMerged Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.CreateMerged.html#Microsoft_Xna_Framework_BoundingBox_CreateMerged_Microsoft_Xna_Framework_BoundingBox_Microsoft_Xna_Framework_BoundingBox_">CreateMerged(BoundingBox, BoundingBox)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.CreateMerged.html#Microsoft_Xna_Framework_BoundingBox_CreateMerged_Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_BoundingBox__">CreateMerged(ref BoundingBox, ref BoundingBox, out BoundingBox)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_CreateMerged_Microsoft_Xna_Framework_BoundingBox_Microsoft_Xna_Framework_BoundingBox_" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateMerged(Microsoft.Xna.Framework.BoundingBox,Microsoft.Xna.Framework.BoundingBox)" class="text-break">.BoundingBox.CreateMerged(BoundingBox, BoundingBox) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static BoundingBox CreateMerged(BoundingBox original, BoundingBox additional)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">original</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">additional</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_CreateMerged_Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_BoundingBox__" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateMerged(Microsoft.Xna.Framework.BoundingBox@,Microsoft.Xna.Framework.BoundingBox@,Microsoft.Xna.Framework.BoundingBox@)" class="text-break">.BoundingBox.CreateMerged(ref BoundingBox, ref BoundingBox, out BoundingBox) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateMerged(ref BoundingBox original, ref BoundingBox additional, out BoundingBox result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">original</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">additional</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

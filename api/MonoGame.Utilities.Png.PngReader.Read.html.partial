@@ -1,0 +1,74 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.Png.PngReader.Read*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_Png_PngReader_Read_" data-uid="MonoGame.Utilities.Png.PngReader.Read*" class="text-break">.PngReader.Read(Stream, GraphicsDevice) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Texture2D Read(Stream inputStream, GraphicsDevice graphicsDevice)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+              <td><span class="parametername">inputStream</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

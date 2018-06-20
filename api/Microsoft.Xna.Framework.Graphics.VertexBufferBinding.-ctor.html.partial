@@ -1,0 +1,191 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor*" class="text-break">VertexBufferBinding Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_">VertexBufferBinding(VertexBuffer)</a></td>
+          <td class="summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_">VertexBufferBinding(VertexBuffer, Int32)</a></td>
+          <td class="summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_System_Int32_">VertexBufferBinding(VertexBuffer, Int32, Int32)</a></td>
+          <td class="summary"><p>Creates an instance of VertexBufferBinding.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer)" class="text-break">.VertexBufferBinding.VertexBufferBinding(VertexBuffer) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexBufferBinding(VertexBuffer vertexBuffer)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+              <td><span class="parametername">vertexBuffer</span></td>
+              <td><p>The vertex buffer to bind.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer,System.Int32)" class="text-break">.VertexBufferBinding.VertexBufferBinding(VertexBuffer, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates an instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.html">VertexBufferBinding</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexBufferBinding(VertexBuffer vertexBuffer, int vertexOffset)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+              <td><span class="parametername">vertexBuffer</span></td>
+              <td><p>The vertex buffer to bind.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexOffset</span></td>
+              <td><p>The index of the first vertex in the vertex buffer to use.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding__ctor_Microsoft_Xna_Framework_Graphics_VertexBuffer_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.#ctor(Microsoft.Xna.Framework.Graphics.VertexBuffer,System.Int32,System.Int32)" class="text-break">.VertexBufferBinding.VertexBufferBinding(VertexBuffer, Int32, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates an instance of VertexBufferBinding.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexBufferBinding(VertexBuffer vertexBuffer, int vertexOffset, int instanceFrequency)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+              <td><span class="parametername">vertexBuffer</span></td>
+              <td><p>The vertex buffer to bind.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexOffset</span></td>
+              <td><p>The index of the first vertex in the vertex buffer to use.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">instanceFrequency</span></td>
+              <td><p>The number of instances to draw using the same per-instance data before advancing in the
+buffer by one element. This value must be 0 for an element that contains per-vertex data
+and greater than 0 for per-instance data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">vertexBuffer</code> is <span class="xref">null</span>.</p>
+</td>
+          </tr>
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">vertexOffset</code> or <code data-dev-comment-type="paramref" class="paramref">instanceFrequency</code> is invalid.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

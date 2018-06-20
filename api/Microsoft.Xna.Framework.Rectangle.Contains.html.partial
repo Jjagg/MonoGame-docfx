@@ -1,0 +1,446 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Rectangle.Contains*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Rectangle_Contains_" data-uid="Microsoft.Xna.Framework.Rectangle.Contains*" class="text-break">Contains Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_System_Int32_System_Int32_">Contains(Int32, Int32)</a></td>
+          <td class="summary"><p>Gets whether or not the provided coordinates lie within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_System_Single_System_Single_">Contains(Single, Single)</a></td>
+          <td class="summary"><p>Gets whether or not the provided coordinates lie within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Point_">Contains(Point)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Point__System_Boolean__">Contains(ref Point, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Vector2_">Contains(Vector2)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Vector2__System_Boolean__">Contains(ref Vector2, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Rectangle_">Contains(Rectangle)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Rectangle__System_Boolean__">Contains(ref Rectangle, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(System.Int32,System.Int32)" class="text-break">.Rectangle.Contains(Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided coordinates lie within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Contains(int x, int y)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>The x coordinate of the point to check for containment.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>The y coordinate of the point to check for containment.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the provided coordinates lie inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(System.Single,System.Single)" class="text-break">.Rectangle.Contains(Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided coordinates lie within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Contains(float x, float y)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>The x coordinate of the point to check for containment.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>The y coordinate of the point to check for containment.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the provided coordinates lie inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(Microsoft.Xna.Framework.Point)" class="text-break">.Rectangle.Contains(Point) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Contains(Point value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The coordinates to check for inclusion in this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Point__System_Boolean__" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(Microsoft.Xna.Framework.Point@,System.Boolean@)" class="text-break">.Rectangle.Contains(ref Point, out Boolean) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Contains(ref Point value, out bool result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The coordinates to check for inclusion in this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise. As an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Vector2_" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(Microsoft.Xna.Framework.Vector2)" class="text-break">.Rectangle.Contains(Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Contains(Vector2 value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The coordinates to check for inclusion in this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Vector2__System_Boolean__" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(Microsoft.Xna.Framework.Vector2@,System.Boolean@)" class="text-break">.Rectangle.Contains(ref Vector2, out Boolean) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Contains(ref Vector2 value, out bool result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The coordinates to check for inclusion in this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise. As an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Rectangle_" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(Microsoft.Xna.Framework.Rectangle)" class="text-break">.Rectangle.Contains(Rectangle) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Contains(Rectangle value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> to check for inclusion in this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&apos;s bounds lie entirely inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Rectangle__System_Boolean__" data-uid="Microsoft.Xna.Framework.Rectangle.Contains(Microsoft.Xna.Framework.Rectangle@,System.Boolean@)" class="text-break">.Rectangle.Contains(ref Rectangle, out Boolean) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Contains(ref Rectangle value, out bool result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> to check for inclusion in this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&apos;s bounds lie entirely inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise. As an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

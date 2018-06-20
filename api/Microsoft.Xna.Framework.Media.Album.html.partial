@@ -1,0 +1,143 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.Album" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_Album" data-uid="Microsoft.Xna.Framework.Media.Album" class="text-break">Album Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class Album : IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">Album</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.Artist.html#Microsoft_Xna_Framework_Media_Album_Artist">Artist</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.Duration.html#Microsoft_Xna_Framework_Media_Album_Duration">Duration</a></td>
+          <td class="summary"><p>Gets the duration of the Album.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.Genre.html#Microsoft_Xna_Framework_Media_Album_Genre">Genre</a></td>
+          <td class="summary"><p>Gets the Genre of the Album.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.HasArt.html#Microsoft_Xna_Framework_Media_Album_HasArt">HasArt</a></td>
+          <td class="summary"><p>Gets a value indicating whether the Album has associated album art.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.IsDisposed.html#Microsoft_Xna_Framework_Media_Album_IsDisposed">IsDisposed</a></td>
+          <td class="summary"><p>Gets a value indicating whether the object is disposed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.Name.html#Microsoft_Xna_Framework_Media_Album_Name">Name</a></td>
+          <td class="summary"><p>Gets the name of the Album.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.Songs.html#Microsoft_Xna_Framework_Media_Album_Songs">Songs</a></td>
+          <td class="summary"><p>Gets a SongCollection that contains the songs on the album.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.Dispose.html#Microsoft_Xna_Framework_Media_Album_Dispose">Dispose()</a></td>
+          <td class="summary"><p>Immediately releases the unmanaged resources used by this object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.GetAlbumArt.html#Microsoft_Xna_Framework_Media_Album_GetAlbumArt">GetAlbumArt()</a></td>
+          <td class="summary"><p>Returns the stream that contains the album art image data.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.GetHashCode.html#Microsoft_Xna_Framework_Media_Album_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets the hash code for this instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.GetThumbnail.html#Microsoft_Xna_Framework_Media_Album_GetThumbnail">GetThumbnail()</a></td>
+          <td class="summary"><p>Returns the stream that contains the album thumbnail image data.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.Album.ToString.html#Microsoft_Xna_Framework_Media_Album_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a String representation of this Album.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

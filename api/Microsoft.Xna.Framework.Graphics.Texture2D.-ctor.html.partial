@@ -1,0 +1,281 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor*" class="text-break">Texture2D Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.-ctor.html#Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_">Texture2D(GraphicsDevice, Int32, Int32)</a></td>
+          <td class="summary"><p>Creates a new texture of the given size</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.-ctor.html#Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat)</a></td>
+          <td class="summary"><p>Creates a new texture of a given size with a surface format and optional mipmaps </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.-ctor.html#Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_System_Int32_">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Int32)</a></td>
+          <td class="summary"><p>Creates a new texture array of a given size with a surface format and optional mipmaps.
+Throws ArgumentException if the current GraphicsDevice can&apos;t work with texture arrays</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.-ctor.html#Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_System_Boolean_System_Int32_">Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Texture2D.SurfaceType, Boolean, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32)" class="text-break">.Texture2D.Texture2D(GraphicsDevice, Int32, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new texture of the given size</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat)" class="text-break">.Texture2D.Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new texture of a given size with a surface format and optional mipmaps </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">mipmap</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">format</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,System.Int32)" class="text-break">.Texture2D.Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new texture array of a given size with a surface format and optional mipmaps.
+Throws ArgumentException if the current GraphicsDevice can&apos;t work with texture arrays</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format, int arraySize)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">mipmap</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">format</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">arraySize</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_System_Boolean_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType,System.Boolean,System.Int32)" class="text-break">.Texture2D.Texture2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, Texture2D.SurfaceType, Boolean, Int32) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected Texture2D(GraphicsDevice graphicsDevice, int width, int height, bool mipmap, SurfaceFormat format, Texture2D.SurfaceType type, bool shared, int arraySize)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">mipmap</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">format</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SurfaceType.html">Texture2D.SurfaceType</a></td>
+              <td><span class="parametername">type</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">shared</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">arraySize</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

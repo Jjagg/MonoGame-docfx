@@ -1,0 +1,84 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleDuration_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration*" class="text-break">.SoundEffect.GetSampleDuration(Int32, Int32, AudioChannels) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns the duration for 16-bit PCM audio.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static TimeSpan GetSampleDuration(int sizeInBytes, int sampleRate, AudioChannels channels)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sizeInBytes</span></td>
+              <td><p>The length of the audio data in bytes.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sampleRate</span></td>
+              <td><p>Sample rate, in Hertz (Hz). Must be between 8000 Hz and 48000 Hz</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+              <td><span class="parametername">channels</span></td>
+              <td><p>Number of channels in the audio data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+            <td><p>The duration of the audio data.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,184 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Microphone" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_Microphone" data-uid="Microsoft.Xna.Framework.Audio.Microphone" class="text-break">Microphone Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Provides microphones capture features. </p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class Microphone</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">Microphone</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.Name.html#Microsoft_Xna_Framework_Audio_Microphone_Name">Name</a></td>
+          <td class="summary"><p>Returns the friendly name of the microphone.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.All.html#Microsoft_Xna_Framework_Audio_Microphone_All">All</a></td>
+          <td class="summary"><p>Returns all compatible microphones.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.BufferDuration.html#Microsoft_Xna_Framework_Audio_Microphone_BufferDuration">BufferDuration</a></td>
+          <td class="summary"><p>Gets or sets the capture buffer duration. This value must be greater than 100 milliseconds, lower than 1000 milliseconds, and must be 10 milliseconds aligned (BufferDuration % 10 == 10).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.Default.html#Microsoft_Xna_Framework_Audio_Microphone_Default">Default</a></td>
+          <td class="summary"><p>Returns the default microphone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.IsHeadset.html#Microsoft_Xna_Framework_Audio_Microphone_IsHeadset">IsHeadset</a></td>
+          <td class="summary"><p>Determines if the microphone is a wired headset.
+Note: XNA could know if a headset microphone was plugged in an Xbox 360 controller but MonoGame can&apos;t.
+Hence, this is always true on mobile platforms, and always false otherwise.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.SampleRate.html#Microsoft_Xna_Framework_Audio_Microphone_SampleRate">SampleRate</a></td>
+          <td class="summary"><p>Returns the sample rate of the captured audio.
+Note: default value is 44100hz</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.State.html#Microsoft_Xna_Framework_Audio_Microphone_State">State</a></td>
+          <td class="summary"><p>Returns the state of the Microphone. </p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.GetData.html#Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___">GetData(Byte[])</a></td>
+          <td class="summary"><p>Gets the latest available data from the microphone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.GetData.html#Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___System_Int32_System_Int32_">GetData(Byte[], Int32, Int32)</a></td>
+          <td class="summary"><p>Gets the latest available data from the microphone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.GetSampleDuration.html#Microsoft_Xna_Framework_Audio_Microphone_GetSampleDuration_System_Int32_">GetSampleDuration(Int32)</a></td>
+          <td class="summary"><p>Returns the duration based on the size of the buffer (assuming 16-bit PCM data).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.GetSampleSizeInBytes.html#Microsoft_Xna_Framework_Audio_Microphone_GetSampleSizeInBytes_System_TimeSpan_">GetSampleSizeInBytes(TimeSpan)</a></td>
+          <td class="summary"><p>Returns the size, in bytes, of the array required to hold the specified duration of 16-bit PCM data. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.Start.html#Microsoft_Xna_Framework_Audio_Microphone_Start">Start()</a></td>
+          <td class="summary"><p>Starts microphone capture.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.Stop.html#Microsoft_Xna_Framework_Audio_Microphone_Stop">Stop()</a></td>
+          <td class="summary"><p>Stops microphone capture.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.BufferReady.html#Microsoft_Xna_Framework_Audio_Microphone_BufferReady">BufferReady</a></td>
+          <td class="summary"><p>Event fired when the audio data are available.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.TryGetValue*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelMeshCollection_TryGetValue_" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.TryGetValue*" class="text-break">.ModelMeshCollection.TryGetValue(String, out ModelMesh) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Finds a mesh with a given name if it exists in the collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool TryGetValue(string meshName, out ModelMesh value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">meshName</span></td>
+              <td><p>The name of the mesh to find.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The mesh named meshName, if found.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>true if a mesh was found</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

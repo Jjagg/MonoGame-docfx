@@ -1,0 +1,108 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_QueryRenderTargetFormat_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat*" class="text-break">.GraphicsAdapter.QueryRenderTargetFormat(GraphicsProfile, SurfaceFormat, DepthFormat, Int32, out SurfaceFormat, out DepthFormat, out Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Queries for support of the requested render target format on the adaptor.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool QueryRenderTargetFormat(GraphicsProfile graphicsProfile, SurfaceFormat format, DepthFormat depthFormat, int multiSampleCount, out SurfaceFormat selectedFormat, out DepthFormat selectedDepthFormat, out int selectedMultiSampleCount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsProfile.html">GraphicsProfile</a></td>
+              <td><span class="parametername">graphicsProfile</span></td>
+              <td><p>The graphics profile.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">format</span></td>
+              <td><p>The requested surface format.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+              <td><span class="parametername">depthFormat</span></td>
+              <td><p>The requested depth stencil format.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">multiSampleCount</span></td>
+              <td><p>The requested multisample count.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">selectedFormat</span></td>
+              <td><p>Set to the best format supported by the adaptor for the requested surface format.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+              <td><span class="parametername">selectedDepthFormat</span></td>
+              <td><p>Set to the best format supported by the adaptor for the requested depth stencil format.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">selectedMultiSampleCount</span></td>
+              <td><p>Set to the best count supported by the adaptor for the requested multisample count.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>True if the requested format is supported by the adaptor. False if one or more of the values was changed.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

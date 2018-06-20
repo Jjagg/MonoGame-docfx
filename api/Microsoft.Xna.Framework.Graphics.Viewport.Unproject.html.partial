@@ -1,0 +1,90 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.Unproject*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Viewport_Unproject_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.Unproject*" class="text-break">.Viewport.Unproject(Vector3, Matrix, Matrix, Matrix) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Unprojects a <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> from screen space into world space.
+Note source.Z must be less than or equal to MaxDepth.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector3 Unproject(Vector3 source, Matrix projection, Matrix view, Matrix world)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">source</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> to unproject.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">projection</span></td>
+              <td><p>The projection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">view</span></td>
+              <td><p>The view <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">world</span></td>
+              <td><p>The world <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

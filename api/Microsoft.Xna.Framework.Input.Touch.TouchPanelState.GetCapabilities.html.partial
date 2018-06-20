@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.GetCapabilities*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelState_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.GetCapabilities*" class="text-break">.TouchPanelState.GetCapabilities() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns capabilities of touch panel device.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public TouchPanelCapabilities GetCapabilities()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.html">TouchPanelCapabilities</a></td>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelCapabilities.html">TouchPanelCapabilities</a></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

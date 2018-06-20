@@ -1,0 +1,141 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadDPad" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad" class="text-break">GamePadDPad Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct GamePadDPad</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.-ctor.html#Microsoft_Xna_Framework_Input_GamePadDPad__ctor_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_">GamePadDPad(ButtonState, ButtonState, ButtonState, ButtonState)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a> struct.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.Down.html#Microsoft_Xna_Framework_Input_GamePadDPad_Down">Down</a></td>
+          <td class="summary"><p>Gets a value indicating wethever down is pressed on the directional pad.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.Left.html#Microsoft_Xna_Framework_Input_GamePadDPad_Left">Left</a></td>
+          <td class="summary"><p>Gets a value indicating wethever left is pressed on the directional pad.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.Right.html#Microsoft_Xna_Framework_Input_GamePadDPad_Right">Right</a></td>
+          <td class="summary"><p>Gets a value indicating wethever right is pressed on the directional pad.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.Up.html#Microsoft_Xna_Framework_Input_GamePadDPad_Up">Up</a></td>
+          <td class="summary"><p>Gets a value indicating wethever up is pressed on the directional pad.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.Equals.html#Microsoft_Xna_Framework_Input_GamePadDPad_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Returns a value indicating whether this instance is equal to a specified object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.GetHashCode.html#Microsoft_Xna_Framework_Input_GamePadDPad_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Serves as a hash function for a <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a> object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.ToString.html#Microsoft_Xna_Framework_Input_GamePadDPad_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a>
+in a format of 0000 where each number represents a boolean value of each respecting object property: Left, Up, Right, Down.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.op_Equality.html#Microsoft_Xna_Framework_Input_GamePadDPad_op_Equality_Microsoft_Xna_Framework_Input_GamePadDPad_Microsoft_Xna_Framework_Input_GamePadDPad_">Equality(GamePadDPad, GamePadDPad)</a></td>
+          <td class="summary"><p>Determines whether two specified instances of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a> are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.op_Inequality.html#Microsoft_Xna_Framework_Input_GamePadDPad_op_Inequality_Microsoft_Xna_Framework_Input_GamePadDPad_Microsoft_Xna_Framework_Input_GamePadDPad_">Inequality(GamePadDPad, GamePadDPad)</a></td>
+          <td class="summary"><p>Determines whether two specified instances of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a> are not equal.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

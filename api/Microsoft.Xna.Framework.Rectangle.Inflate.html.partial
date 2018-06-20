@@ -1,0 +1,129 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Rectangle.Inflate*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Rectangle_Inflate_" data-uid="Microsoft.Xna.Framework.Rectangle.Inflate*" class="text-break">Inflate Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Inflate.html#Microsoft_Xna_Framework_Rectangle_Inflate_System_Int32_System_Int32_">Inflate(Int32, Int32)</a></td>
+          <td class="summary"><p>Adjusts the edges of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> by specified horizontal and vertical amounts. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Inflate.html#Microsoft_Xna_Framework_Rectangle_Inflate_System_Single_System_Single_">Inflate(Single, Single)</a></td>
+          <td class="summary"><p>Adjusts the edges of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> by specified horizontal and vertical amounts. </p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Inflate_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Rectangle.Inflate(System.Int32,System.Int32)" class="text-break">.Rectangle.Inflate(Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Adjusts the edges of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> by specified horizontal and vertical amounts. </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Inflate(int horizontalAmount, int verticalAmount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">horizontalAmount</span></td>
+              <td><p>Value to adjust the left and right edges.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">verticalAmount</span></td>
+              <td><p>Value to adjust the top and bottom edges.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Inflate_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Rectangle.Inflate(System.Single,System.Single)" class="text-break">.Rectangle.Inflate(Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Adjusts the edges of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> by specified horizontal and vertical amounts. </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Inflate(float horizontalAmount, float verticalAmount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">horizontalAmount</span></td>
+              <td><p>Value to adjust the left and right edges.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">verticalAmount</span></td>
+              <td><p>Value to adjust the top and bottom edges.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

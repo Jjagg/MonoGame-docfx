@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.Negate*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_Negate_" data-uid="Microsoft.Xna.Framework.Matrix.Negate*" class="text-break">Negate Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Negate.html#Microsoft_Xna_Framework_Matrix_Negate_Microsoft_Xna_Framework_Matrix_">Negate(Matrix)</a></td>
+          <td class="summary"><p>Returns a matrix with the all values negated.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Negate.html#Microsoft_Xna_Framework_Matrix_Negate_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__">Negate(ref Matrix, out Matrix)</a></td>
+          <td class="summary"><p>Returns a matrix with the all values negated.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_Negate_Microsoft_Xna_Framework_Matrix_" data-uid="Microsoft.Xna.Framework.Matrix.Negate(Microsoft.Xna.Framework.Matrix)" class="text-break">.Matrix.Negate(Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Returns a matrix with the all values negated.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix Negate(Matrix matrix)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>Result of the matrix negation.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_Negate_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.Negate(Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.Negate(ref Matrix, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Returns a matrix with the all values negated.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Negate(ref Matrix matrix, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>Result of the matrix negation as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

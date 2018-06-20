@@ -1,0 +1,257 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector3.Multiply*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector3_Multiply_" data-uid="Microsoft.Xna.Framework.Vector3.Multiply*" class="text-break">Multiply Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Multiply.html#Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_">Multiply(Vector3, Vector3)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Multiply.html#Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3_System_Single_">Multiply(Vector3, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> and a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Multiply.html#Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3__System_Single_Microsoft_Xna_Framework_Vector3__">Multiply(ref Vector3, Single, out Vector3)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> and a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Multiply.html#Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__">Multiply(ref Vector3, ref Vector3, out Vector3)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of two vectors.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_" data-uid="Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)" class="text-break">.Vector3.Multiply(Vector3, Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of two vectors.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector3 Multiply(Vector3 value1, Vector3 value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+            <td><p>The result of the vector multiplication.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3_System_Single_" data-uid="Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3,System.Single)" class="text-break">.Vector3.Multiply(Vector3, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> and a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector3 Multiply(Vector3 value1, float scaleFactor)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scaleFactor</span></td>
+              <td><p>Scalar value.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+            <td><p>The result of the vector multiplication with a scalar.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3__System_Single_Microsoft_Xna_Framework_Vector3__" data-uid="Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Vector3@)" class="text-break">.Vector3.Multiply(ref Vector3, Single, out Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> and a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Multiply(ref Vector3 value1, float scaleFactor, out Vector3 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scaleFactor</span></td>
+              <td><p>Scalar value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of the multiplication with a scalar as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector3_Multiply_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__" data-uid="Microsoft.Xna.Framework.Vector3.Multiply(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)" class="text-break">.Vector3.Multiply(ref Vector3, ref Vector3, out Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains a multiplication of two vectors.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Multiply(ref Vector3 value1, ref Vector3 value2, out Vector3 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of the vector multiplication as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

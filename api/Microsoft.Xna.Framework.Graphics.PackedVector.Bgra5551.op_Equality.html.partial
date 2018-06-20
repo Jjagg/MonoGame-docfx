@@ -1,0 +1,74 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra5551.op_Equality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgra5551_op_Equality_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra5551.op_Equality*" class="text-break">.Bgra5551.Equality(Bgra5551, Bgra5551) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator ==(Bgra5551 lhs, Bgra5551 rhs)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra5551.html">Bgra5551</a></td>
+              <td><span class="parametername">lhs</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra5551.html">Bgra5551</a></td>
+              <td><span class="parametername">rhs</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

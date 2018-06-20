@@ -1,0 +1,173 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawIndexedPrimitives*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawIndexedPrimitives_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawIndexedPrimitives*" class="text-break">DrawIndexedPrimitives Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawIndexedPrimitives.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawIndexedPrimitives_Microsoft_Xna_Framework_Graphics_PrimitiveType_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_">DrawIndexedPrimitives(PrimitiveType, Int32, Int32, Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Draw geometry by indexing into the vertex buffer.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawIndexedPrimitives.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawIndexedPrimitives_Microsoft_Xna_Framework_Graphics_PrimitiveType_System_Int32_System_Int32_System_Int32_">DrawIndexedPrimitives(PrimitiveType, Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Draw geometry by indexing into the vertex buffer.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawIndexedPrimitives_Microsoft_Xna_Framework_Graphics_PrimitiveType_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawIndexedPrimitives(Microsoft.Xna.Framework.Graphics.PrimitiveType,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" class="text-break">.GraphicsDevice.DrawIndexedPrimitives(PrimitiveType, Int32, Int32, Int32, Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Draw geometry by indexing into the vertex buffer.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int startIndex, int primitiveCount) instead. In future versions this method can be removed.&quot;)]
+public void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount)</code></pre>
+        </div>
+      
+      
+        <div class="type-subheader attributes">
+          <strong>Attributes</strong>
+            <div>System.ObsoleteAttribute</div>
+        </div>
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PrimitiveType.html">PrimitiveType</a></td>
+              <td><span class="parametername">primitiveType</span></td>
+              <td><p>The type of primitives in the index buffer.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">baseVertex</span></td>
+              <td><p>Used to offset the vertex range indexed from the vertex buffer.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">minVertexIndex</span></td>
+              <td><p>This is unused and remains here only for XNA API compatibility.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">numVertices</span></td>
+              <td><p>This is unused and remains here only for XNA API compatibility.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>The index within the index buffer to start drawing from.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">primitiveCount</span></td>
+              <td><p>The number of primitives to render from the index buffer.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawIndexedPrimitives_Microsoft_Xna_Framework_Graphics_PrimitiveType_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Note that minVertexIndex and numVertices are unused in MonoGame and will be ignored.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawIndexedPrimitives_Microsoft_Xna_Framework_Graphics_PrimitiveType_System_Int32_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawIndexedPrimitives(Microsoft.Xna.Framework.Graphics.PrimitiveType,System.Int32,System.Int32,System.Int32)" class="text-break">.GraphicsDevice.DrawIndexedPrimitives(PrimitiveType, Int32, Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Draw geometry by indexing into the vertex buffer.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int startIndex, int primitiveCount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PrimitiveType.html">PrimitiveType</a></td>
+              <td><span class="parametername">primitiveType</span></td>
+              <td><p>The type of primitives in the index buffer.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">baseVertex</span></td>
+              <td><p>Used to offset the vertex range indexed from the vertex buffer.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>The index within the index buffer to start drawing from.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">primitiveCount</span></td>
+              <td><p>The number of primitives to render from the index buffer.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

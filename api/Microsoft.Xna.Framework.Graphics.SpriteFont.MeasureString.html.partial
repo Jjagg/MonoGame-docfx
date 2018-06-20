@@ -1,0 +1,147 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString*" class="text-break">MeasureString Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString.html#Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_String_">MeasureString(String)</a></td>
+          <td class="summary"><p>Returns the size of a string when rendered in this font.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString.html#Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_Text_StringBuilder_">MeasureString(StringBuilder)</a></td>
+          <td class="summary"><p>Returns the size of the contents of a StringBuilder when
+rendered in this font.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_String_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.String)" class="text-break">.SpriteFont.MeasureString(String) Method</h2>
+    <div class="markdown level0 summary"><p>Returns the size of a string when rendered in this font.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector2 MeasureString(string text)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text to measure.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The size, in pixels, of &apos;text&apos; when rendered in
+this font.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteFont_MeasureString_System_Text_StringBuilder_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.MeasureString(System.Text.StringBuilder)" class="text-break">.SpriteFont.MeasureString(StringBuilder) Method</h2>
+    <div class="markdown level0 summary"><p>Returns the size of the contents of a StringBuilder when
+rendered in this font.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector2 MeasureString(StringBuilder text)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text to measure.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The size, in pixels, of &apos;text&apos; when rendered in
+this font.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

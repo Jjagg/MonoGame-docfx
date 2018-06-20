@@ -1,0 +1,84 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream*" class="text-break">.Texture2D.FromStream(GraphicsDevice, Stream) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Creates a Texture2D from a stream, supported formats bmp, gif, jpg, png, tif and dds (only for simple textures).
+May work with other formats, but will not work with tga files.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Texture2D FromStream(GraphicsDevice graphicsDevice, Stream stream)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td><p>The graphics device where the texture will be created.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+              <td><span class="parametername">stream</span></td>
+              <td><p>The stream from which to read the image data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+            <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html#Microsoft_Xna_Framework_Graphics_SurfaceFormat_Color">Color</a> texture created from the image stream.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Note that different image decoders may generate slight differences between platforms, but perceptually 
+the images should be identical.  This call does not premultiply the image alpha, but areas of zero alpha will
+result in black color data.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

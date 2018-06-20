@@ -1,0 +1,83 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.MouseCursor.FromTexture2D*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_MouseCursor_FromTexture2D_" data-uid="Microsoft.Xna.Framework.Input.MouseCursor.FromTexture2D*" class="text-break">.MouseCursor.FromTexture2D(Texture2D, Int32, Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Creates a mouse cursor from the specified texture.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static MouseCursor FromTexture2D(Texture2D texture, int originx, int originy)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>Texture to use as the cursor image.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">originx</span></td>
+              <td><p>X cordinate of the image that will be used for mouse position.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">originy</span></td>
+              <td><p>Y cordinate of the image that will be used for mouse position.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.html">MouseCursor</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

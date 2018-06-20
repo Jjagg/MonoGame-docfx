@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromQuaternion*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreateFromQuaternion_" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromQuaternion*" class="text-break">CreateFromQuaternion Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateFromQuaternion.html#Microsoft_Xna_Framework_Matrix_CreateFromQuaternion_Microsoft_Xna_Framework_Quaternion_">CreateFromQuaternion(Quaternion)</a></td>
+          <td class="summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateFromQuaternion.html#Microsoft_Xna_Framework_Matrix_CreateFromQuaternion_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Matrix__">CreateFromQuaternion(ref Quaternion, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateFromQuaternion_Microsoft_Xna_Framework_Quaternion_" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromQuaternion(Microsoft.Xna.Framework.Quaternion)" class="text-break">.Matrix.CreateFromQuaternion(Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateFromQuaternion(Quaternion quaternion)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion</span></td>
+              <td><p><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> of rotation moment.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateFromQuaternion_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromQuaternion(Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateFromQuaternion(ref Quaternion, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from a <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateFromQuaternion(ref Quaternion quaternion, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion</span></td>
+              <td><p><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> of rotation moment.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

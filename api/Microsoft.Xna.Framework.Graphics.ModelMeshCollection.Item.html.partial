@@ -1,0 +1,71 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Item*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Item_" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Item*" class="text-break">.ModelMeshCollection.Item[String] Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Retrieves a ModelMesh from the collection, given the name of the mesh.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ModelMesh this[string meshName] { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">meshName</span></td>
+              <td><p>The name of the mesh to retrieve.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

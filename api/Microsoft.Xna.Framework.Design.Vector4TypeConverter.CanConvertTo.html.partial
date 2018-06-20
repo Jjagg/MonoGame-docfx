@@ -1,0 +1,74 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Design_Vector4TypeConverter_CanConvertTo_" data-uid="Microsoft.Xna.Framework.Design.Vector4TypeConverter.CanConvertTo*" class="text-break">.Vector4TypeConverter.CanConvertTo(ITypeDescriptorContext, Type) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a></td>
+              <td><span class="parametername">context</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+              <td><span class="parametername">destinationType</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

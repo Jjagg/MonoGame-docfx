@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.DepthStencilFormat*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTargetCube_DepthStencilFormat_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.DepthStencilFormat*" class="text-break">.RenderTargetCube.DepthStencilFormat Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets the depth-stencil buffer format of this render target.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public DepthFormat DepthStencilFormat { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+            <td><p>The format of the depth-stencil buffer.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

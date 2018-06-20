@@ -1,0 +1,42 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.TwoPi" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper_TwoPi" data-uid="Microsoft.Xna.Framework.MathHelper.TwoPi" class="text-break">TwoPi Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents the value of pi times two(6.28318548).</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public const float TwoPi = 6.28318548F</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

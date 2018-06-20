@@ -1,0 +1,52 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting*" class="text-break">.SkinnedEffect.EnableDefaultLighting() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Sets up the standard key/fill/back lighting rig.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void EnableDefaultLighting()</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting.html#Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting">EnableDefaultLighting</a>()</div>
+      </div>
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

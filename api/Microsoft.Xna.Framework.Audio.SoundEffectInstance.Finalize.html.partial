@@ -1,0 +1,49 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Finalize*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Finalize_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Finalize*" class="text-break">.SoundEffectInstance.Finalize() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Releases unmanaged resources and performs other cleanup operations before the
+<a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a> is reclaimed by garbage collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,47 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingSphere.Center" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingSphere_Center" data-uid="Microsoft.Xna.Framework.BoundingSphere.Center" class="text-break">BoundingSphere.Center Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The sphere center.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataMember]
+public Vector3 Center</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataMemberAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

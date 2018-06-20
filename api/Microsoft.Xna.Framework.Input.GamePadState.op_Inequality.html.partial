@@ -1,0 +1,79 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState.op_Inequality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_op_Inequality_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.op_Inequality*" class="text-break">.GamePadState.Inequality(GamePadState, GamePadState) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Determines whether a specified instance of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> is not
+equal to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator !=(GamePadState left, GamePadState right)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+              <td><span class="parametername">left</span></td>
+              <td><p>The first <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> to compare.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+              <td><span class="parametername">right</span></td>
+              <td><p>The second <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> to compare.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if <code>left</code> and <code>right</code> are not equal; otherwise, <code>false</code>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.TextureCube.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_TextureCube__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.TextureCube.#ctor*" class="text-break">.TextureCube.TextureCube(GraphicsDevice, Int32, Boolean, SurfaceFormat) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public TextureCube(GraphicsDevice graphicsDevice, int size, bool mipMap, SurfaceFormat format)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">size</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">mipMap</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">format</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

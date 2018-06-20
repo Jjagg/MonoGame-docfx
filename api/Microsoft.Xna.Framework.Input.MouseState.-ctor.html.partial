@@ -1,0 +1,213 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.MouseState.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_MouseState__ctor_" data-uid="Microsoft.Xna.Framework.Input.MouseState.#ctor*" class="text-break">MouseState Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.-ctor.html#Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_">MouseState(Int32, Int32, Int32, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState)</a></td>
+          <td class="summary"><p>Initializes a new instance of the MouseState.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.-ctor.html#Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_System_Int32_">MouseState(Int32, Int32, Int32, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState, Int32)</a></td>
+          <td class="summary"><p>Initializes a new instance of the MouseState.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_" data-uid="Microsoft.Xna.Framework.Input.MouseState.#ctor(System.Int32,System.Int32,System.Int32,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState)" class="text-break">.MouseState.MouseState(Int32, Int32, Int32, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the MouseState.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public MouseState(int x, int y, int scrollWheel, ButtonState leftButton, ButtonState middleButton, ButtonState rightButton, ButtonState xButton1, ButtonState xButton2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>Horizontal position of the mouse in relation to the window.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>Vertical position of the mouse in relation to the window.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">scrollWheel</span></td>
+              <td><p>Mouse scroll wheel&apos;s value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">leftButton</span></td>
+              <td><p>Left mouse button&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">middleButton</span></td>
+              <td><p>Middle mouse button&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">rightButton</span></td>
+              <td><p>Right mouse button&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">xButton1</span></td>
+              <td><p>XBUTTON1&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">xButton2</span></td>
+              <td><p>XBUTTON2&apos;s state.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Normally <a class="xref" href="Microsoft.Xna.Framework.Input.Mouse.GetState.html#Microsoft_Xna_Framework_Input_Mouse_GetState">GetState()</a> should be used to get mouse current state. The constructor is provided for simulating mouse input.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.MouseState.#ctor(System.Int32,System.Int32,System.Int32,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState,Microsoft.Xna.Framework.Input.ButtonState,System.Int32)" class="text-break">.MouseState.MouseState(Int32, Int32, Int32, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the MouseState.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public MouseState(int x, int y, int scrollWheel, ButtonState leftButton, ButtonState middleButton, ButtonState rightButton, ButtonState xButton1, ButtonState xButton2, int horizontalScrollWheel)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>Horizontal position of the mouse in relation to the window.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>Vertical position of the mouse in relation to the window.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">scrollWheel</span></td>
+              <td><p>Mouse scroll wheel&apos;s value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">leftButton</span></td>
+              <td><p>Left mouse button&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">middleButton</span></td>
+              <td><p>Middle mouse button&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">rightButton</span></td>
+              <td><p>Right mouse button&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">xButton1</span></td>
+              <td><p>XBUTTON1&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">xButton2</span></td>
+              <td><p>XBUTTON2&apos;s state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">horizontalScrollWheel</span></td>
+              <td><p>Mouse horizontal scroll wheel&apos;s value.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Normally <a class="xref" href="Microsoft.Xna.Framework.Input.Mouse.GetState.html#Microsoft_Xna_Framework_Input_Mouse_GetState">GetState()</a> should be used to get mouse current state. The constructor is provided for simulating mouse input.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

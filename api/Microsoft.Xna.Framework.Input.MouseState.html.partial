@@ -1,0 +1,174 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.MouseState" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_MouseState" data-uid="Microsoft.Xna.Framework.Input.MouseState" class="text-break">MouseState Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents a mouse state with cursor position and button press information.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct MouseState</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.-ctor.html#Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_">MouseState(Int32, Int32, Int32, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState)</a></td>
+          <td class="summary"><p>Initializes a new instance of the MouseState.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.-ctor.html#Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_System_Int32_">MouseState(Int32, Int32, Int32, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState, Int32)</a></td>
+          <td class="summary"><p>Initializes a new instance of the MouseState.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.HorizontalScrollWheelValue.html#Microsoft_Xna_Framework_Input_MouseState_HorizontalScrollWheelValue">HorizontalScrollWheelValue</a></td>
+          <td class="summary"><p>Returns the cumulative horizontal scroll wheel value since the game start</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.LeftButton.html#Microsoft_Xna_Framework_Input_MouseState_LeftButton">LeftButton</a></td>
+          <td class="summary"><p>Gets state of the left mouse button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.MiddleButton.html#Microsoft_Xna_Framework_Input_MouseState_MiddleButton">MiddleButton</a></td>
+          <td class="summary"><p>Gets state of the middle mouse button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.Position.html#Microsoft_Xna_Framework_Input_MouseState_Position">Position</a></td>
+          <td class="summary"><p>Gets cursor position.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.RightButton.html#Microsoft_Xna_Framework_Input_MouseState_RightButton">RightButton</a></td>
+          <td class="summary"><p>Gets state of the right mouse button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.ScrollWheelValue.html#Microsoft_Xna_Framework_Input_MouseState_ScrollWheelValue">ScrollWheelValue</a></td>
+          <td class="summary"><p>Returns cumulative scroll wheel value since the game start.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.X.html#Microsoft_Xna_Framework_Input_MouseState_X">X</a></td>
+          <td class="summary"><p>Gets horizontal position of the cursor in relation to the window.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.XButton1.html#Microsoft_Xna_Framework_Input_MouseState_XButton1">XButton1</a></td>
+          <td class="summary"><p>Gets state of the XButton1.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.XButton2.html#Microsoft_Xna_Framework_Input_MouseState_XButton2">XButton2</a></td>
+          <td class="summary"><p>Gets state of the XButton2.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.Y.html#Microsoft_Xna_Framework_Input_MouseState_Y">Y</a></td>
+          <td class="summary"><p>Gets vertical position of the cursor in relation to the window.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.Equals.html#Microsoft_Xna_Framework_Input_MouseState_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.GetHashCode.html#Microsoft_Xna_Framework_Input_MouseState_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets the hash code for MouseState instance.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.op_Equality.html#Microsoft_Xna_Framework_Input_MouseState_op_Equality_Microsoft_Xna_Framework_Input_MouseState_Microsoft_Xna_Framework_Input_MouseState_">Equality(MouseState, MouseState)</a></td>
+          <td class="summary"><p>Compares whether two MouseState instances are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.op_Inequality.html#Microsoft_Xna_Framework_Input_MouseState_op_Inequality_Microsoft_Xna_Framework_Input_MouseState_Microsoft_Xna_Framework_Input_MouseState_">Inequality(MouseState, MouseState)</a></td>
+          <td class="summary"><p>Compares whether two MouseState instances are not equal.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

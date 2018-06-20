@@ -1,0 +1,414 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream.#ctor*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream__ctor_" data-uid="MonoGame.Utilities.ZlibStream.#ctor*" class="text-break">ZlibStream Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_">ZlibStream(Stream, CompressionMode)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_">ZlibStream(Stream, CompressionMode, CompressionLevel)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code> and
+the specified <code>CompressionLevel</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_System_Boolean_">ZlibStream(Stream, CompressionMode, Boolean)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>, and
+explicitly specify whether the captive stream should be left open after
+Deflation or Inflation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_System_Boolean_">ZlibStream(Stream, CompressionMode, CompressionLevel, Boolean)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>
+and the specified <code>CompressionLevel</code>, and explicitly specify
+whether the stream should be left open after Deflation or Inflation.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_" data-uid="MonoGame.Utilities.ZlibStream.#ctor(System.IO.Stream,MonoGame.Utilities.CompressionMode)" class="text-break">.ZlibStream.ZlibStream(Stream, CompressionMode) Constructor</h2>
+    <div class="markdown level0 summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ZlibStream(Stream stream, CompressionMode mode)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+              <td><span class="parametername">stream</span></td>
+              <td><p>The stream which will be read or written.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="MonoGame.Utilities.CompressionMode.html">CompressionMode</a></td>
+              <td><span class="parametername">mode</span></td>
+              <td><p>Indicates whether the ZlibStream will compress or decompress.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>
+  When mode is <code>CompressionMode.Compress</code>, the <code>ZlibStream</code>
+  will use the default compression level. The &quot;captive&quot; stream will be
+  closed when the <code>ZlibStream</code> is closed.
+</p>
+
+</div>
+    
+    <h id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode__examples">Examples</h>
+    <p>This example uses a <code>ZlibStream</code> to compress a file, and writes the
+compressed data to another file.</p>
+<pre><code>using (System.IO.Stream input = System.IO.File.OpenRead(fileToCompress))
+{
+    using (var raw = System.IO.File.Create(fileToCompress + &quot;.zlib&quot;))
+    {
+        using (Stream compressor = new ZlibStream(raw, CompressionMode.Compress))
+        {
+            byte[] buffer = new byte[WORKING_BUFFER_SIZE];
+            int n;
+            while ((n= input.Read(buffer, 0, buffer.Length)) != 0)
+            {
+                compressor.Write(buffer, 0, n);
+            }
+        }
+    }
+}</code></pre>
+<pre><code>Using input As Stream = File.OpenRead(fileToCompress)
+    Using raw As FileStream = File.Create(fileToCompress &amp; &quot;.zlib&quot;)
+    Using compressor As Stream = New ZlibStream(raw, CompressionMode.Compress)
+        Dim buffer As Byte() = New Byte(4096) {}
+        Dim n As Integer = -1
+        Do While (n &lt;> 0)
+            If (n > 0) Then
+                compressor.Write(buffer, 0, n)
+            End If
+            n = input.Read(buffer, 0, buffer.Length)
+        Loop
+    End Using
+    End Using
+End Using</code></pre>
+
+    
+    
+    
+      <h2 id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_" data-uid="MonoGame.Utilities.ZlibStream.#ctor(System.IO.Stream,MonoGame.Utilities.CompressionMode,MonoGame.Utilities.CompressionLevel)" class="text-break">.ZlibStream.ZlibStream(Stream, CompressionMode, CompressionLevel) Constructor</h2>
+    <div class="markdown level0 summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code> and
+the specified <code>CompressionLevel</code>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ZlibStream(Stream stream, CompressionMode mode, CompressionLevel level)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+              <td><span class="parametername">stream</span></td>
+              <td><p>The stream to be read or written while deflating or inflating.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="MonoGame.Utilities.CompressionMode.html">CompressionMode</a></td>
+              <td><span class="parametername">mode</span></td>
+              <td><p>Indicates whether the ZlibStream will compress or decompress.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="MonoGame.Utilities.CompressionLevel.html">CompressionLevel</a></td>
+              <td><span class="parametername">level</span></td>
+              <td><p>A tuning knob to trade speed for effectiveness.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>
+  When mode is <code>CompressionMode.Decompress</code>, the level parameter is ignored.
+  The &quot;captive&quot; stream will be closed when the <code>ZlibStream</code> is closed.
+</p>
+
+</div>
+    
+    <h id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel__examples">Examples</h>
+    <p>This example uses a <code>ZlibStream</code> to compress data from a file, and writes the
+compressed data to another file.</p>
+<pre><code>using (System.IO.Stream input = System.IO.File.OpenRead(fileToCompress))
+{
+    using (var raw = System.IO.File.Create(fileToCompress + &quot;.zlib&quot;))
+    {
+        using (Stream compressor = new ZlibStream(raw,
+                                                  CompressionMode.Compress,
+                                                  CompressionLevel.BestCompression))
+        {
+            byte[] buffer = new byte[WORKING_BUFFER_SIZE];
+            int n;
+            while ((n= input.Read(buffer, 0, buffer.Length)) != 0)
+            {
+                compressor.Write(buffer, 0, n);
+            }
+        }
+    }
+}</code></pre>
+
+<pre><code>Using input As Stream = File.OpenRead(fileToCompress)
+    Using raw As FileStream = File.Create(fileToCompress &amp; &quot;.zlib&quot;)
+        Using compressor As Stream = New ZlibStream(raw, CompressionMode.Compress, CompressionLevel.BestCompression)
+            Dim buffer As Byte() = New Byte(4096) {}
+            Dim n As Integer = -1
+            Do While (n &lt;> 0)
+                If (n > 0) Then
+                    compressor.Write(buffer, 0, n)
+                End If
+                n = input.Read(buffer, 0, buffer.Length)
+            Loop
+        End Using
+    End Using
+End Using</code></pre>
+
+    
+    
+    
+      <h2 id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_System_Boolean_" data-uid="MonoGame.Utilities.ZlibStream.#ctor(System.IO.Stream,MonoGame.Utilities.CompressionMode,System.Boolean)" class="text-break">.ZlibStream.ZlibStream(Stream, CompressionMode, Boolean) Constructor</h2>
+    <div class="markdown level0 summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>, and
+explicitly specify whether the captive stream should be left open after
+Deflation or Inflation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ZlibStream(Stream stream, CompressionMode mode, bool leaveOpen)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+              <td><span class="parametername">stream</span></td>
+              <td><p>The stream which will be read or written. This is called the
+&quot;captive&quot; stream in other places in this documentation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="MonoGame.Utilities.CompressionMode.html">CompressionMode</a></td>
+              <td><span class="parametername">mode</span></td>
+              <td><p>Indicates whether the ZlibStream will compress or decompress.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">leaveOpen</span></td>
+              <td><p>true if the application would like the stream to remain
+open after inflation/deflation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_System_Boolean__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>
+  When mode is <code>CompressionMode.Compress</code>, the <code>ZlibStream</code> will use
+  the default compression level.
+</p>
+
+<p>
+  This constructor allows the application to request that the captive stream
+  remain open after the deflation or inflation occurs.  By default, after
+<code>Close()</code> is called on the stream, the captive stream is also
+closed. In some cases this is not desired, for example if the stream is a
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a> that will be re-read after
+compression.  Specify true for the <code data-dev-comment-type="paramref" class="paramref">leaveOpen</code> parameter to leave the stream
+open.
+</p>
+
+<p>
+See the other overloads of this constructor for example code.
+</p>
+
+</div>
+    
+    
+    
+    
+      <h2 id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_System_Boolean_" data-uid="MonoGame.Utilities.ZlibStream.#ctor(System.IO.Stream,MonoGame.Utilities.CompressionMode,MonoGame.Utilities.CompressionLevel,System.Boolean)" class="text-break">.ZlibStream.ZlibStream(Stream, CompressionMode, CompressionLevel, Boolean) Constructor</h2>
+    <div class="markdown level0 summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>
+and the specified <code>CompressionLevel</code>, and explicitly specify
+whether the stream should be left open after Deflation or Inflation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ZlibStream(Stream stream, CompressionMode mode, CompressionLevel level, bool leaveOpen)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+              <td><span class="parametername">stream</span></td>
+              <td><p>The stream which will be read or written.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="MonoGame.Utilities.CompressionMode.html">CompressionMode</a></td>
+              <td><span class="parametername">mode</span></td>
+              <td><p>Indicates whether the ZlibStream will compress or decompress.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="MonoGame.Utilities.CompressionLevel.html">CompressionLevel</a></td>
+              <td><span class="parametername">level</span></td>
+              <td><p>A tuning knob to trade speed for effectiveness. This parameter is
+effective only when mode is <code>CompressionMode.Compress</code>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">leaveOpen</span></td>
+              <td><p>true if the application would like the stream to remain open after
+inflation/deflation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_System_Boolean__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>
+  This constructor allows the application to request that the captive
+  stream remain open after the deflation or inflation occurs.  By
+  default, after <code>Close()</code> is called on the stream, the captive
+  stream is also closed. In some cases this is not desired, for example
+  if the stream is a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a> that will be
+  re-read after compression.  Specify true for the <code data-dev-comment-type="paramref" class="paramref">leaveOpen</code> parameter to leave the stream open.
+</p>
+
+<p>
+  When mode is <code>CompressionMode.Decompress</code>, the level parameter is
+  ignored.
+</p>
+
+</div>
+    
+    <h id="MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_System_Boolean__examples">Examples</h>
+    <p>This example shows how to use a ZlibStream to compress the data from a file,
+and store the result into another file. The filestream remains open to allow
+additional data to be written to it.</p>
+<pre><code>using (var output = System.IO.File.Create(fileToCompress + &quot;.zlib&quot;))
+{
+    using (System.IO.Stream input = System.IO.File.OpenRead(fileToCompress))
+    {
+        using (Stream compressor = new ZlibStream(output, CompressionMode.Compress, CompressionLevel.BestCompression, true))
+        {
+            byte[] buffer = new byte[WORKING_BUFFER_SIZE];
+            int n;
+            while ((n= input.Read(buffer, 0, buffer.Length)) != 0)
+            {
+                compressor.Write(buffer, 0, n);
+            }
+        }
+    }
+    // can write additional data to the output stream here
+}</code></pre>
+<pre><code>Using output As FileStream = File.Create(fileToCompress &amp; &quot;.zlib&quot;)
+    Using input As Stream = File.OpenRead(fileToCompress)
+        Using compressor As Stream = New ZlibStream(output, CompressionMode.Compress, CompressionLevel.BestCompression, True)
+            Dim buffer As Byte() = New Byte(4096) {}
+            Dim n As Integer = -1
+            Do While (n &lt;> 0)
+                If (n > 0) Then
+                    compressor.Write(buffer, 0, n)
+                End If
+                n = input.Read(buffer, 0, buffer.Length)
+            Loop
+        End Using
+    End Using
+    &apos; can write additional data to the output stream here.
+End Using</code></pre>
+
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.JoystickState.Hats*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_JoystickState_Hats_" data-uid="Microsoft.Xna.Framework.Input.JoystickState.Hats*" class="text-break">.JoystickState.Hats Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets the joystick hat values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public JoystickHat[] Hats { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickHat.html">JoystickHat</a>[]</td>
+            <td><p>An array list of <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickHat.html">JoystickHat</a> that indicate hat values.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

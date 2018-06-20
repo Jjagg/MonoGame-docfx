@@ -1,0 +1,501 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString*" class="text-break">DrawString Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_">DrawString(SpriteFont, String, Vector2, Color)</a></td>
+          <td class="summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">DrawString(SpriteFont, String, Vector2, Color, Single, Vector2, Single, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">DrawString(SpriteFont, String, Vector2, Color, Single, Vector2, Vector2, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_">DrawString(SpriteFont, StringBuilder, Vector2, Color)</a></td>
+          <td class="summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">DrawString(SpriteFont, StringBuilder, Vector2, Color, Single, Vector2, Single, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">DrawString(SpriteFont, StringBuilder, Vector2, Color, Single, Vector2, Vector2, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)" class="text-break">.SpriteBatch.DrawString(SpriteFont, String, Vector2, Color) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, string text, Vector2 position, Color color)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+              <td><span class="parametername">spriteFont</span></td>
+              <td><p>A font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text which will be drawn.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.DrawString(SpriteFont, String, Vector2, Color, Single, Vector2, Single, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, string text, Vector2 position, Color color, float rotation, Vector2 origin, float scale, SpriteEffects effects, float layerDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+              <td><span class="parametername">spriteFont</span></td>
+              <td><p>A font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text which will be drawn.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>A rotation of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>A scaling of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>A depth of the layer of this string.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_String_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.DrawString(SpriteFont, String, Vector2, Color, Single, Vector2, Vector2, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, string text, Vector2 position, Color color, float rotation, Vector2 origin, Vector2 scale, SpriteEffects effects, float layerDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+              <td><span class="parametername">spriteFont</span></td>
+              <td><p>A font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text which will be drawn.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>A rotation of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>A scaling of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>A depth of the layer of this string.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.Text.StringBuilder,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)" class="text-break">.SpriteBatch.DrawString(SpriteFont, StringBuilder, Vector2, Color) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, StringBuilder text, Vector2 position, Color color)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+              <td><span class="parametername">spriteFont</span></td>
+              <td><p>A font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text which will be drawn.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.Text.StringBuilder,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.DrawString(SpriteFont, StringBuilder, Vector2, Color, Single, Vector2, Single, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, StringBuilder text, Vector2 position, Color color, float rotation, Vector2 origin, float scale, SpriteEffects effects, float layerDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+              <td><span class="parametername">spriteFont</span></td>
+              <td><p>A font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text which will be drawn.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>A rotation of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>A scaling of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>A depth of the layer of this string.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_DrawString_Microsoft_Xna_Framework_Graphics_SpriteFont_System_Text_StringBuilder_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.Text.StringBuilder,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.DrawString(SpriteFont, StringBuilder, Vector2, Color, Single, Vector2, Vector2, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a text string of sprites for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawString(SpriteFont spriteFont, StringBuilder text, Vector2 position, Color color, float rotation, Vector2 origin, Vector2 scale, SpriteEffects effects, float layerDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a></td>
+              <td><span class="parametername">spriteFont</span></td>
+              <td><p>A font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></td>
+              <td><span class="parametername">text</span></td>
+              <td><p>The text which will be drawn.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>A rotation of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>A scaling of this string.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>A depth of the layer of this string.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

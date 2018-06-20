@@ -1,0 +1,184 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector2.Barycentric*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector2_Barycentric_" data-uid="Microsoft.Xna.Framework.Vector2.Barycentric*" class="text-break">Barycentric Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Barycentric.html#Microsoft_Xna_Framework_Vector2_Barycentric_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_">Barycentric(Vector2, Vector2, Vector2, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 2d-triangle.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Barycentric.html#Microsoft_Xna_Framework_Vector2_Barycentric_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__System_Single_System_Single_Microsoft_Xna_Framework_Vector2__">Barycentric(ref Vector2, ref Vector2, ref Vector2, Single, Single, out Vector2)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 2d-triangle.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector2_Barycentric_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Vector2.Barycentric(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Single)" class="text-break">.Vector2.Barycentric(Vector2, Vector2, Vector2, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 2d-triangle.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 Barycentric(Vector2 value1, Vector2 value2, Vector2 value3, float amount1, float amount2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value3</span></td>
+              <td><p>The third vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount1</span></td>
+              <td><p>Barycentric scalar <code>b2</code> which represents a weighting factor towards second vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount2</span></td>
+              <td><p>Barycentric scalar <code>b3</code> which represents a weighting factor towards third vector of 2d-triangle.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The cartesian translation of barycentric coordinates.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Barycentric_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__System_Single_System_Single_Microsoft_Xna_Framework_Vector2__" data-uid="Microsoft.Xna.Framework.Vector2.Barycentric(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,System.Single,System.Single,Microsoft.Xna.Framework.Vector2@)" class="text-break">.Vector2.Barycentric(ref Vector2, ref Vector2, ref Vector2, Single, Single, out Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains the cartesian coordinates of a vector specified in barycentric coordinates and relative to 2d-triangle.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Barycentric(ref Vector2 value1, ref Vector2 value2, ref Vector2 value3, float amount1, float amount2, out Vector2 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value3</span></td>
+              <td><p>The third vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount1</span></td>
+              <td><p>Barycentric scalar <code>b2</code> which represents a weighting factor towards second vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount2</span></td>
+              <td><p>Barycentric scalar <code>b3</code> which represents a weighting factor towards third vector of 2d-triangle.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The cartesian translation of barycentric coordinates as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

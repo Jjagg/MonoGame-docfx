@@ -1,0 +1,75 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.ToFloatArray*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_ToFloatArray_" data-uid="Microsoft.Xna.Framework.Matrix.ToFloatArray*" class="text-break">.Matrix.ToFloatArray(Matrix) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Copy the values of specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> to the float array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float[] ToFloatArray(Matrix matrix)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>[]</td>
+            <td><p>The array which matrix values will be stored.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Matrix_ToFloatArray_Microsoft_Xna_Framework_Matrix__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Required for OpenGL 2.0 projection matrix stuff.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

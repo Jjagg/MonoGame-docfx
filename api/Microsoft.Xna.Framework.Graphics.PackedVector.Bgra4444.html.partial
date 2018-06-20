@@ -1,0 +1,150 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444" class="text-break">Bgra4444 Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Packed vector type containing unsigned normalized values, ranging from 0 to 1, using 4 bits each for x, y, z, and w.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct Bgra4444 : IPackedVector&lt;ushort&gt;, IPackedVector, IEquatable&lt;Bgra4444&gt;</code></pre>
+    </div>
+  
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector-1.html">IPackedVector</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a>&gt;</div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html">IPackedVector</a></div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.html">Bgra4444</a>&gt;</div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.-ctor.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444__ctor_Microsoft_Xna_Framework_Vector4_">Bgra4444(Vector4)</a></td>
+          <td class="summary"><p>Creates a new instance of Bgra4444.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.-ctor.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444__ctor_System_Single_System_Single_System_Single_System_Single_">Bgra4444(Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new instance of Bgra4444.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.PackedValue.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_PackedValue">PackedValue</a></td>
+          <td class="summary"><p>Gets and sets the packed value.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.Equals.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_Equals_Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_">Equals(Bgra4444)</a></td>
+          <td class="summary"><p>Compares another Bgra4444 packed vector with the packed vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.Equals.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Compares an object with the packed vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.GetHashCode.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets a hash code of the packed vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.Microsoft-Xna-Framework-Graphics-PackedVector-IPackedVector-PackFromVector4.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_Microsoft_Xna_Framework_Graphics_PackedVector_IPackedVector_PackFromVector4_Microsoft_Xna_Framework_Vector4_">IPackedVector.PackFromVector4(Vector4)</a></td>
+          <td class="summary"><p>Sets the packed vector from a Vector4.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.ToString.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_ToString">ToString()</a></td>
+          <td class="summary"><p>Gets a string representation of the packed vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.ToVector4.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_ToVector4">ToVector4()</a></td>
+          <td class="summary"><p>Gets the packed vector in Vector4 format.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.op_Equality.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_op_Equality_Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_">Equality(Bgra4444, Bgra4444)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.op_Inequality.html#Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_op_Inequality_Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_">Inequality(Bgra4444, Bgra4444)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

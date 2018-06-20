@@ -1,0 +1,198 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Point" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Point" data-uid="Microsoft.Xna.Framework.Point" class="text-break">Point Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Describes a 2D-point.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public struct Point : IEquatable&lt;Point&gt;</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>&gt;</div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.-ctor.html#Microsoft_Xna_Framework_Point__ctor_System_Int32_">Point(Int32)</a></td>
+          <td class="summary"><p>Constructs a point with X and Y set to the same value.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.-ctor.html#Microsoft_Xna_Framework_Point__ctor_System_Int32_System_Int32_">Point(Int32, Int32)</a></td>
+          <td class="summary"><p>Constructs a point with X and Y from two values.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.X.html#Microsoft_Xna_Framework_Point_X">X</a></td>
+          <td class="summary"><p>The x coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.Y.html#Microsoft_Xna_Framework_Point_Y">Y</a></td>
+          <td class="summary"><p>The y coordinate of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.Zero.html#Microsoft_Xna_Framework_Point_Zero">Zero</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> with coordinates 0, 0.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.Deconstruct.html#Microsoft_Xna_Framework_Point_Deconstruct_System_Int32__System_Int32__">Deconstruct(out Int32, out Int32)</a></td>
+          <td class="summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.Equals.html#Microsoft_Xna_Framework_Point_Equals_Microsoft_Xna_Framework_Point_">Equals(Point)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.Equals.html#Microsoft_Xna_Framework_Point_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.GetHashCode.html#Microsoft_Xna_Framework_Point_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets the hash code of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.ToString.html#Microsoft_Xna_Framework_Point_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> in the format:
+{X:[<a class="xref" href="Microsoft.Xna.Framework.Point.X.html#Microsoft_Xna_Framework_Point_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Point.Y.html#Microsoft_Xna_Framework_Point_Y">Y</a>]}</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.ToVector2.html#Microsoft_Xna_Framework_Point_ToVector2">ToVector2()</a></td>
+          <td class="summary"><p>Gets a <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> representation for this object.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.op_Addition.html#Microsoft_Xna_Framework_Point_op_Addition_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Addition(Point, Point)</a></td>
+          <td class="summary"><p>Adds two points.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.op_Division.html#Microsoft_Xna_Framework_Point_op_Division_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Division(Point, Point)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> by the components of another <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.op_Equality.html#Microsoft_Xna_Framework_Point_op_Equality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Equality(Point, Point)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instances are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.op_Inequality.html#Microsoft_Xna_Framework_Point_op_Inequality_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Inequality(Point, Point)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> instances are not equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.op_Multiply.html#Microsoft_Xna_Framework_Point_op_Multiply_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Multiply(Point, Point)</a></td>
+          <td class="summary"><p>Multiplies the components of two points by each other.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Point.op_Subtraction.html#Microsoft_Xna_Framework_Point_op_Subtraction_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Subtraction(Point, Point)</a></td>
+          <td class="summary"><p>Subtracts a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> from a <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

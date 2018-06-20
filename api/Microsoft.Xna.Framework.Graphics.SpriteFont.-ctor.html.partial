@@ -1,0 +1,101 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.#ctor*" class="text-break">.SpriteFont.SpriteFont(Texture2D, List&lt;Rectangle&gt;, List&lt;Rectangle&gt;, List&lt;Char&gt;, Int32, Single, List&lt;Vector3&gt;, Nullable&lt;Char&gt;) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.html">SpriteFont</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public SpriteFont(Texture2D texture, List&lt;Rectangle&gt; glyphBounds, List&lt;Rectangle&gt; cropping, List&lt;char&gt; characters, int lineSpacing, float spacing, List&lt;Vector3&gt; kerning, char? defaultCharacter)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>The font texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">glyphBounds</span></td>
+              <td><p>The rectangles in the font texture containing letters.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">cropping</span></td>
+              <td><p>The cropping rectangles, which are applied to the corresponding glyphBounds to calculate the bounds of the actual character.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>&gt;</td>
+              <td><span class="parametername">characters</span></td>
+              <td><p>The characters.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">lineSpacing</span></td>
+              <td><p>The line spacing (the distance from baseline to baseline) of the font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">spacing</span></td>
+              <td><p>The spacing (tracking) between characters in the font.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>&gt;</td>
+              <td><span class="parametername">kerning</span></td>
+              <td><p>The letters kernings(X - left side bearing, Y - width and Z - right side bearing).</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>&gt;</td>
+              <td><span class="parametername">defaultCharacter</span></td>
+              <td><p>The character that will be substituted when a given character is not included in the font.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerCollectionItemNameAttribute.CollectionItemName*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Content_ContentSerializerCollectionItemNameAttribute_CollectionItemName_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerCollectionItemNameAttribute.CollectionItemName*" class="text-break">.ContentSerializerCollectionItemNameAttribute.CollectionItemName Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>The XML element name to use for each item in the collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public string CollectionItemName { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,96 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.CatmullRom*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper_CatmullRom_" data-uid="Microsoft.Xna.Framework.MathHelper.CatmullRom*" class="text-break">.MathHelper.CatmullRom(Single, Single, Single, Single, Single) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Performs a Catmull-Rom interpolation using the specified positions.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float CatmullRom(float value1, float value2, float value3, float value4, float amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first position in the interpolation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second position in the interpolation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value3</span></td>
+              <td><p>The third position in the interpolation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value4</span></td>
+              <td><p>The fourth position in the interpolation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Weighting factor.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td><p>A position that is the result of the Catmull-Rom interpolation.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

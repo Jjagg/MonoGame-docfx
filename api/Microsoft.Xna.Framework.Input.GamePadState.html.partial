@@ -1,0 +1,190 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState" data-uid="Microsoft.Xna.Framework.Input.GamePadState" class="text-break">GamePadState Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents specific information about the state of the controller,
+including the current state of buttons and sticks.</p>
+<p>This is implemented as a partial struct to allow for individual platforms
+to offer additional data without separate state queries to GamePad.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct GamePadState</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.-ctor.html#Microsoft_Xna_Framework_Input_GamePadState__ctor_Microsoft_Xna_Framework_Input_GamePadThumbSticks_Microsoft_Xna_Framework_Input_GamePadTriggers_Microsoft_Xna_Framework_Input_GamePadButtons_Microsoft_Xna_Framework_Input_GamePadDPad_">GamePadState(GamePadThumbSticks, GamePadTriggers, GamePadButtons, GamePadDPad)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> struct
+using the specified GamePadThumbSticks, GamePadTriggers, GamePadButtons, and GamePadDPad.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.-ctor.html#Microsoft_Xna_Framework_Input_GamePadState__ctor_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_Microsoft_Xna_Framework_Input_Buttons_">GamePadState(Vector2, Vector2, Single, Single, Buttons)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> struct.
+using the specified stick, trigger, and button values.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.Default.html#Microsoft_Xna_Framework_Input_GamePadState_Default">Default</a></td>
+          <td class="summary"><p>The default initialized gamepad state.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.Buttons.html#Microsoft_Xna_Framework_Input_GamePadState_Buttons">Buttons</a></td>
+          <td class="summary"><p>Gets a structure that identifies what buttons on the controller are pressed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.DPad.html#Microsoft_Xna_Framework_Input_GamePadState_DPad">DPad</a></td>
+          <td class="summary"><p>Gets a structure that identifies what directions of the directional pad on the controller are pressed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.IsConnected.html#Microsoft_Xna_Framework_Input_GamePadState_IsConnected">IsConnected</a></td>
+          <td class="summary"><p>Gets a value indicating if the controller is connected.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.PacketNumber.html#Microsoft_Xna_Framework_Input_GamePadState_PacketNumber">PacketNumber</a></td>
+          <td class="summary"><p>Gets the packet number associated with this state.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.ThumbSticks.html#Microsoft_Xna_Framework_Input_GamePadState_ThumbSticks">ThumbSticks</a></td>
+          <td class="summary"><p>Gets a structure that indicates the position of the controller sticks (thumbsticks).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.Triggers.html#Microsoft_Xna_Framework_Input_GamePadState_Triggers">Triggers</a></td>
+          <td class="summary"><p>Gets a structure that identifies the position of triggers on the controller.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.Equals.html#Microsoft_Xna_Framework_Input_GamePadState_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.GetHashCode.html#Microsoft_Xna_Framework_Input_GamePadState_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Serves as a hash function for a <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.IsButtonDown.html#Microsoft_Xna_Framework_Input_GamePadState_IsButtonDown_Microsoft_Xna_Framework_Input_Buttons_">IsButtonDown(Buttons)</a></td>
+          <td class="summary"><p>Determines whether specified input device buttons are pressed in this GamePadState.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.IsButtonUp.html#Microsoft_Xna_Framework_Input_GamePadState_IsButtonUp_Microsoft_Xna_Framework_Input_Buttons_">IsButtonUp(Buttons)</a></td>
+          <td class="summary"><p>Determines whether specified input device buttons are released (not pressed) in this GamePadState.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.ToString.html#Microsoft_Xna_Framework_Input_GamePadState_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.op_Equality.html#Microsoft_Xna_Framework_Input_GamePadState_op_Equality_Microsoft_Xna_Framework_Input_GamePadState_Microsoft_Xna_Framework_Input_GamePadState_">Equality(GamePadState, GamePadState)</a></td>
+          <td class="summary"><p>Determines whether a specified instance of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> is equal
+to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.op_Inequality.html#Microsoft_Xna_Framework_Input_GamePadState_op_Inequality_Microsoft_Xna_Framework_Input_GamePadState_Microsoft_Xna_Framework_Input_GamePadState_">Inequality(GamePadState, GamePadState)</a></td>
+          <td class="summary"><p>Determines whether a specified instance of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> is not
+equal to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

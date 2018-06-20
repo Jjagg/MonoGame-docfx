@@ -1,0 +1,49 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameComponentCollection.ClearItems*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameComponentCollection_ClearItems_" data-uid="Microsoft.Xna.Framework.GameComponentCollection.ClearItems*" class="text-break">.GameComponentCollection.ClearItems() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Removes every <a class="xref" href="Microsoft.Xna.Framework.GameComponent.html">GameComponent</a> from this <a class="xref" href="Microsoft.Xna.Framework.GameComponentCollection.html">GameComponentCollection</a>.
+Triggers <span class="xref">Microsoft.Xna.Framework.GameComponentCollection.OnComponentRemoved(Microsoft.Xna.Framework.GameComponentCollectionEventArgs)</span> once for each <a class="xref" href="Microsoft.Xna.Framework.GameComponent.html">GameComponent</a> removed.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected override void ClearItems()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

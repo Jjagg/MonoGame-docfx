@@ -1,0 +1,48 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream.Flush*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream_Flush_" data-uid="MonoGame.Utilities.ZlibStream.Flush*" class="text-break">.ZlibStream.Flush() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Flush the stream.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override void Flush()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

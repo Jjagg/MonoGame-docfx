@@ -1,0 +1,119 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingFrustum.GetCorners*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingFrustum_GetCorners_" data-uid="Microsoft.Xna.Framework.BoundingFrustum.GetCorners*" class="text-break">GetCorners Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.GetCorners.html#Microsoft_Xna_Framework_BoundingFrustum_GetCorners">GetCorners()</a></td>
+          <td class="summary"><p>Returns a copy of internal corners array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.GetCorners.html#Microsoft_Xna_Framework_BoundingFrustum_GetCorners_Microsoft_Xna_Framework_Vector3___">GetCorners(Vector3[])</a></td>
+          <td class="summary"><p>Returns a copy of internal corners array.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingFrustum_GetCorners" data-uid="Microsoft.Xna.Framework.BoundingFrustum.GetCorners" class="text-break">.BoundingFrustum.GetCorners() Method</h2>
+    <div class="markdown level0 summary"><p>Returns a copy of internal corners array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector3[] GetCorners()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>[]</td>
+            <td><p>The array of corners.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingFrustum_GetCorners_Microsoft_Xna_Framework_Vector3___" data-uid="Microsoft.Xna.Framework.BoundingFrustum.GetCorners(Microsoft.Xna.Framework.Vector3[])" class="text-break">.BoundingFrustum.GetCorners(Vector3[]) Method</h2>
+    <div class="markdown level0 summary"><p>Returns a copy of internal corners array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetCorners(Vector3[] corners)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>[]</td>
+              <td><span class="parametername">corners</span></td>
+              <td><p>The array which values will be replaced to corner values of this instance. It must have size of <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.CornerCount.html#Microsoft_Xna_Framework_BoundingFrustum_CornerCount">CornerCount</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

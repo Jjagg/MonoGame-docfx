@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePad" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePad" data-uid="Microsoft.Xna.Framework.Input.GamePad" class="text-break">GamePad Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Supports querying the game controllers and setting the vibration motors.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static class GamePad</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">GamePad</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount.html#Microsoft_Xna_Framework_Input_GamePad_MaximumGamePadCount">MaximumGamePadCount</a></td>
+          <td class="summary"><p>The maximum number of game pads supported on this system.  Attempting to
+access a gamepad index higher than this number will result in an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a>
+being thrown by the API.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities.html#Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_Microsoft_Xna_Framework_PlayerIndex_">GetCapabilities(PlayerIndex)</a></td>
+          <td class="summary"><p>Returns the capabilites of the connected controller.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities.html#Microsoft_Xna_Framework_Input_GamePad_GetCapabilities_System_Int32_">GetCapabilities(Int32)</a></td>
+          <td class="summary"><p>Returns the capabilites of the connected controller.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_">GetState(PlayerIndex)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_Microsoft_Xna_Framework_Input_GamePadDeadZone_">GetState(PlayerIndex, GamePadDeadZone)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_">GetState(Int32)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_Microsoft_Xna_Framework_Input_GamePadDeadZone_">GetState(Int32, GamePadDeadZone)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.SetVibration.html#Microsoft_Xna_Framework_Input_GamePad_SetVibration_Microsoft_Xna_Framework_PlayerIndex_System_Single_System_Single_">SetVibration(PlayerIndex, Single, Single)</a></td>
+          <td class="summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.SetVibration.html#Microsoft_Xna_Framework_Input_GamePad_SetVibration_System_Int32_System_Single_System_Single_">SetVibration(Int32, Single, Single)</a></td>
+          <td class="summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

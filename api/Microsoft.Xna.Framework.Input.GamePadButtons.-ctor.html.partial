@@ -1,0 +1,57 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadButtons__ctor_" data-uid="Microsoft.Xna.Framework.Input.GamePadButtons.#ctor*" class="text-break">.GamePadButtons.GamePadButtons(Buttons) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GamePadButtons(Buttons buttons)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Buttons.html">Buttons</a></td>
+              <td><span class="parametername">buttons</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

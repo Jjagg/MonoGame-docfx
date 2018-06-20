@@ -1,0 +1,265 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Plane.Intersects*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Plane_Intersects_" data-uid="Microsoft.Xna.Framework.Plane.Intersects*" class="text-break">Intersects Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingBox_">Intersects(BoundingBox)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_PlaneIntersectionType__">Intersects(ref BoundingBox, out PlaneIntersectionType)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingFrustum_">Intersects(BoundingFrustum)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingSphere_">Intersects(BoundingSphere)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_PlaneIntersectionType__">Intersects(ref BoundingSphere, out PlaneIntersectionType)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingBox_" data-uid="Microsoft.Xna.Framework.Plane.Intersects(Microsoft.Xna.Framework.BoundingBox)" class="text-break">.Plane.Intersects(BoundingBox) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public PlaneIntersectionType Intersects(BoundingBox box)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">box</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_PlaneIntersectionType__" data-uid="Microsoft.Xna.Framework.Plane.Intersects(Microsoft.Xna.Framework.BoundingBox@,Microsoft.Xna.Framework.PlaneIntersectionType@)" class="text-break">.Plane.Intersects(ref BoundingBox, out PlaneIntersectionType) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Intersects(ref BoundingBox box, out PlaneIntersectionType result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">box</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingFrustum_" data-uid="Microsoft.Xna.Framework.Plane.Intersects(Microsoft.Xna.Framework.BoundingFrustum)" class="text-break">.Plane.Intersects(BoundingFrustum) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public PlaneIntersectionType Intersects(BoundingFrustum frustum)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a></td>
+              <td><span class="parametername">frustum</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingSphere_" data-uid="Microsoft.Xna.Framework.Plane.Intersects(Microsoft.Xna.Framework.BoundingSphere)" class="text-break">.Plane.Intersects(BoundingSphere) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public PlaneIntersectionType Intersects(BoundingSphere sphere)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_PlaneIntersectionType__" data-uid="Microsoft.Xna.Framework.Plane.Intersects(Microsoft.Xna.Framework.BoundingSphere@,Microsoft.Xna.Framework.PlaneIntersectionType@)" class="text-break">.Plane.Intersects(ref BoundingSphere, out PlaneIntersectionType) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Intersects(ref BoundingSphere sphere, out PlaneIntersectionType result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

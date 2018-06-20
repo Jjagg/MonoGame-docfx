@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_PreparingDeviceSettingsEventArgs_GraphicsDeviceInformation_" data-uid="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation*" class="text-break">.PreparingDeviceSettingsEventArgs.GraphicsDeviceInformation Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>The default settings that will be used in device creation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GraphicsDeviceInformation GraphicsDeviceInformation { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.GraphicsDeviceInformation.html">GraphicsDeviceInformation</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

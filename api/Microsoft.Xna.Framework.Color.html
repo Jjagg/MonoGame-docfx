@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Color Struct | MonoGame Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Color Struct | MonoGame Documentation ">
+    <meta name="generator" content="docfx 2.36.1.0">
+    <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Color">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <div class="flex-col">
+      <header>
+        
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
+          </div>
+          <div class="collapse" id="navbar"></div>
+        </nav>
+      </header>
+      <div class="flex-row flex-stretch no-overflow pos-rel">
+        
+        <div id="page-toc" class="shown pos-rel hide">
+          <div id="toc-scroll-wrapper" class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
+          </div>
+        </div>
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="page-main flex-stretch">
+            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
+              <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
+            </div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row ">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Color.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Color%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+    Improve this Doc
+  </a>
+</div>
+
+              <div id="content-wrapper">
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Color" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Color" data-uid="Microsoft.Xna.Framework.Color" class="text-break">Color Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Describes a 32-bit packed color.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public struct Color : IEquatable&lt;Color&gt;</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><xref uid="System.IEquatable`1" text="IEquatable" alt="System.IEquatable"/>&lt;<xref uid="Microsoft.Xna.Framework.Color" text="Color" alt="Microsoft.Xna.Framework.Color"/>&gt;</div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Color,System.Int32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from a <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> and an alpha value.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Color,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from color and alpha value.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Vector3)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from the XYZ unit length components of a vector. Alpha value will be opaque.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(Microsoft.Xna.Framework.Vector4)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from the XYZW unit length components of a vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from scalars representing red, green, blue and alpha values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(System.Int32,System.Int32,System.Int32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from scalars representing red, green and blue values. Alpha value will be opaque.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from scalars representing red, green, blue and alpha values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(System.Single,System.Single,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from scalars representing red, green and blue values. Alpha value will be opaque.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(System.Single,System.Single,System.Single,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Constructs an RGBA color from scalars representing red, green, blue and alpha values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.#ctor(System.UInt32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Constructs an RGBA color from a packed value.
+The value is a 32-bit unsigned integer, with R in the least significant octet.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.A" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the alpha component.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.AliceBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">AliceBlue color (R:240,G:248,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.AntiqueWhite" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">AntiqueWhite color (R:250,G:235,B:215,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Aqua" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Aqua color (R:0,G:255,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Aquamarine" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Aquamarine color (R:127,G:255,B:212,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Azure" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Azure color (R:240,G:255,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.B" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the blue component.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Beige" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Beige color (R:245,G:245,B:220,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Bisque" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Bisque color (R:255,G:228,B:196,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Black" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Black color (R:0,G:0,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.BlanchedAlmond" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">BlanchedAlmond color (R:255,G:235,B:205,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Blue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Blue color (R:0,G:0,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.BlueViolet" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">BlueViolet color (R:138,G:43,B:226,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Brown" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Brown color (R:165,G:42,B:42,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.BurlyWood" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">BurlyWood color (R:222,G:184,B:135,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.CadetBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">CadetBlue color (R:95,G:158,B:160,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Chartreuse" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Chartreuse color (R:127,G:255,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Chocolate" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Chocolate color (R:210,G:105,B:30,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Coral" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Coral color (R:255,G:127,B:80,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.CornflowerBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">CornflowerBlue color (R:100,G:149,B:237,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Cornsilk" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Cornsilk color (R:255,G:248,B:220,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Crimson" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Crimson color (R:220,G:20,B:60,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Cyan" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Cyan color (R:0,G:255,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkBlue color (R:0,G:0,B:139,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkCyan" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkCyan color (R:0,G:139,B:139,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkGoldenrod" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkGoldenrod color (R:184,G:134,B:11,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkGray" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkGray color (R:169,G:169,B:169,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkGreen color (R:0,G:100,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkKhaki" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkKhaki color (R:189,G:183,B:107,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkMagenta" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkMagenta color (R:139,G:0,B:139,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkOliveGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkOliveGreen color (R:85,G:107,B:47,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkOrange" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkOrange color (R:255,G:140,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkOrchid" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkOrchid color (R:153,G:50,B:204,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkRed" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkRed color (R:139,G:0,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkSalmon" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkSalmon color (R:233,G:150,B:122,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkSeaGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkSeaGreen color (R:143,G:188,B:139,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkSlateBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkSlateBlue color (R:72,G:61,B:139,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkSlateGray" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkSlateGray color (R:47,G:79,B:79,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkTurquoise" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkTurquoise color (R:0,G:206,B:209,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DarkViolet" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DarkViolet color (R:148,G:0,B:211,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DeepPink" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DeepPink color (R:255,G:20,B:147,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DeepSkyBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DeepSkyBlue color (R:0,G:191,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DimGray" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DimGray color (R:105,G:105,B:105,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.DodgerBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">DodgerBlue color (R:30,G:144,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Firebrick" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Firebrick color (R:178,G:34,B:34,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.FloralWhite" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">FloralWhite color (R:255,G:250,B:240,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.ForestGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">ForestGreen color (R:34,G:139,B:34,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Fuchsia" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Fuchsia color (R:255,G:0,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.G" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the green component.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Gainsboro" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gainsboro color (R:220,G:220,B:220,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.GhostWhite" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">GhostWhite color (R:248,G:248,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Gold" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gold color (R:255,G:215,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Goldenrod" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Goldenrod color (R:218,G:165,B:32,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Gray" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gray color (R:128,G:128,B:128,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Green" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Green color (R:0,G:128,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.GreenYellow" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">GreenYellow color (R:173,G:255,B:47,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Honeydew" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Honeydew color (R:240,G:255,B:240,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.HotPink" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">HotPink color (R:255,G:105,B:180,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.IndianRed" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">IndianRed color (R:205,G:92,B:92,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Indigo" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Indigo color (R:75,G:0,B:130,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Ivory" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Ivory color (R:255,G:255,B:240,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Khaki" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Khaki color (R:240,G:230,B:140,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Lavender" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lavender color (R:230,G:230,B:250,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LavenderBlush" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LavenderBlush color (R:255,G:240,B:245,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LawnGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LawnGreen color (R:124,G:252,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LemonChiffon" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LemonChiffon color (R:255,G:250,B:205,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightBlue color (R:173,G:216,B:230,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightCoral" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightCoral color (R:240,G:128,B:128,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightCyan" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightCyan color (R:224,G:255,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightGoldenrodYellow" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightGoldenrodYellow color (R:250,G:250,B:210,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightGray" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightGray color (R:211,G:211,B:211,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightGreen color (R:144,G:238,B:144,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightPink" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightPink color (R:255,G:182,B:193,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightSalmon" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightSalmon color (R:255,G:160,B:122,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightSeaGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightSeaGreen color (R:32,G:178,B:170,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightSkyBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightSkyBlue color (R:135,G:206,B:250,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightSlateGray" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightSlateGray color (R:119,G:136,B:153,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightSteelBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightSteelBlue color (R:176,G:196,B:222,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LightYellow" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LightYellow color (R:255,G:255,B:224,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Lime" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Lime color (R:0,G:255,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LimeGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">LimeGreen color (R:50,G:205,B:50,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Linen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Linen color (R:250,G:240,B:230,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Magenta" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Magenta color (R:255,G:0,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Maroon" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Maroon color (R:128,G:0,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumAquamarine" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumAquamarine color (R:102,G:205,B:170,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumBlue color (R:0,G:0,B:205,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumOrchid" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumOrchid color (R:186,G:85,B:211,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumPurple" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumPurple color (R:147,G:112,B:219,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumSeaGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumSeaGreen color (R:60,G:179,B:113,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumSlateBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumSlateBlue color (R:123,G:104,B:238,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumSpringGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumSpringGreen color (R:0,G:250,B:154,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumTurquoise" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumTurquoise color (R:72,G:209,B:204,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MediumVioletRed" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MediumVioletRed color (R:199,G:21,B:133,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MidnightBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MidnightBlue color (R:25,G:25,B:112,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MintCream" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MintCream color (R:245,G:255,B:250,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MistyRose" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MistyRose color (R:255,G:228,B:225,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Moccasin" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Moccasin color (R:255,G:228,B:181,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.MonoGameOrange" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">MonoGame orange theme color (R:231,G:60,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.NavajoWhite" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">NavajoWhite color (R:255,G:222,B:173,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Navy" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Navy color (R:0,G:0,B:128,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.OldLace" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">OldLace color (R:253,G:245,B:230,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Olive" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Olive color (R:128,G:128,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.OliveDrab" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">OliveDrab color (R:107,G:142,B:35,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Orange" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Orange color (R:255,G:165,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.OrangeRed" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">OrangeRed color (R:255,G:69,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Orchid" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Orchid color (R:218,G:112,B:214,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PackedValue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets packed value of this <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PaleGoldenrod" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">PaleGoldenrod color (R:238,G:232,B:170,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PaleGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">PaleGreen color (R:152,G:251,B:152,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PaleTurquoise" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">PaleTurquoise color (R:175,G:238,B:238,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PaleVioletRed" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">PaleVioletRed color (R:219,G:112,B:147,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PapayaWhip" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">PapayaWhip color (R:255,G:239,B:213,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PeachPuff" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">PeachPuff color (R:255,G:218,B:185,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Peru" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Peru color (R:205,G:133,B:63,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Pink" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Pink color (R:255,G:192,B:203,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Plum" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Plum color (R:221,G:160,B:221,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.PowderBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">PowderBlue color (R:176,G:224,B:230,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Purple" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Purple color (R:128,G:0,B:128,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.R" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the red component.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Red" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Red color (R:255,G:0,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.RosyBrown" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">RosyBrown color (R:188,G:143,B:143,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.RoyalBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">RoyalBlue color (R:65,G:105,B:225,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SaddleBrown" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SaddleBrown color (R:139,G:69,B:19,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Salmon" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Salmon color (R:250,G:128,B:114,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SandyBrown" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SandyBrown color (R:244,G:164,B:96,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SeaGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SeaGreen color (R:46,G:139,B:87,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SeaShell" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SeaShell color (R:255,G:245,B:238,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Sienna" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sienna color (R:160,G:82,B:45,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Silver" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Silver color (R:192,G:192,B:192,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SkyBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SkyBlue color (R:135,G:206,B:235,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SlateBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SlateBlue color (R:106,G:90,B:205,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SlateGray" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SlateGray color (R:112,G:128,B:144,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Snow" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Snow color (R:255,G:250,B:250,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SpringGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SpringGreen color (R:0,G:255,B:127,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.SteelBlue" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">SteelBlue color (R:70,G:130,B:180,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Tan" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Tan color (R:210,G:180,B:140,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Teal" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Teal color (R:0,G:128,B:128,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Thistle" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Thistle color (R:216,G:191,B:216,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Tomato" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Tomato color (R:255,G:99,B:71,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Transparent" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Transparent color (R:0,G:0,B:0,A:0).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.TransparentBlack" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">TransparentBlack color (R:0,G:0,B:0,A:0).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Turquoise" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Turquoise color (R:64,G:224,B:208,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Violet" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Violet color (R:238,G:130,B:238,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Wheat" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Wheat color (R:245,G:222,B:179,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.White" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">White color (R:255,G:255,B:255,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.WhiteSmoke" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">WhiteSmoke color (R:245,G:245,B:245,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Yellow" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Yellow color (R:255,G:255,B:0,A:255).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.YellowGreen" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">YellowGreen color (R:154,G:205,B:50,A:255).</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Deconstruct(System.Single@,System.Single@,System.Single@)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Deconstruction method for <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Deconstruct(System.Single@,System.Single@,System.Single@,System.Single@)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Deconstruction method for <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> with Alpha.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Equals(Microsoft.Xna.Framework.Color)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether current instance is equal to specified <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Equals(System.Object)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether current instance is equal to specified object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.FromNonPremultiplied(Microsoft.Xna.Framework.Vector4)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Translate a non-premultipled alpha <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> to a <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> that contains premultiplied alpha.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.FromNonPremultiplied(System.Int32,System.Int32,System.Int32,System.Int32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Translate a non-premultipled alpha <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> to a <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> that contains premultiplied alpha.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.GetHashCode" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the hash code of this <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Performs linear interpolation of <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.LerpPrecise(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2"><xref href="Microsoft.Xna.Framework.Color.Lerp(Microsoft.Xna.Framework.Color%2cMicrosoft.Xna.Framework.Color%2cSystem.Single)" data-throw-if-not-resolved="false"></xref> should be used instead of this function.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.Multiply(Microsoft.Xna.Framework.Color,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Multiply <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> by value.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.ToString" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of this <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> in the format:
+{R:[red] G:[green] B:[blue] A:[alpha]}</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.ToVector3" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets a <xref href="Microsoft.Xna.Framework.Vector3" data-throw-if-not-resolved="false"></xref> representation for this object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.ToVector4" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets a <xref href="Microsoft.Xna.Framework.Vector4" data-throw-if-not-resolved="false"></xref> representation for this object.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.op_Equality(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether two <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> instances are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.op_Inequality(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Compares whether two <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> instances are not equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Color.op_Multiply(Microsoft.Xna.Framework.Color,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Color.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Multiply <xref href="Microsoft.Xna.Framework.Color" data-throw-if-not-resolved="false"></xref> by value.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>
+
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
+              </div>
+            </div>
+          </div>
+          
+          <div id="page-affix" role="complementary" class=" ">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../js/tree.js"></script>
+    <script src="../js/main.js"></script>
+    
+  </body>
+</html>

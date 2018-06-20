@@ -1,0 +1,207 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Rectangle.Offset*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Rectangle_Offset_" data-uid="Microsoft.Xna.Framework.Rectangle.Offset*" class="text-break">Offset Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_System_Int32_System_Int32_">Offset(Int32, Int32)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_System_Single_System_Single_">Offset(Single, Single)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_Microsoft_Xna_Framework_Point_">Offset(Point)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_Microsoft_Xna_Framework_Vector2_">Offset(Vector2)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Offset_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Rectangle.Offset(System.Int32,System.Int32)" class="text-break">.Rectangle.Offset(Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Offset(int offsetX, int offsetY)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offsetX</span></td>
+              <td><p>The x coordinate to add to this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offsetY</span></td>
+              <td><p>The y coordinate to add to this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Offset_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Rectangle.Offset(System.Single,System.Single)" class="text-break">.Rectangle.Offset(Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Offset(float offsetX, float offsetY)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">offsetX</span></td>
+              <td><p>The x coordinate to add to this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">offsetY</span></td>
+              <td><p>The y coordinate to add to this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Offset_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Rectangle.Offset(Microsoft.Xna.Framework.Point)" class="text-break">.Rectangle.Offset(Point) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Offset(Point amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>The x and y components to add to this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Offset_Microsoft_Xna_Framework_Vector2_" data-uid="Microsoft.Xna.Framework.Rectangle.Offset(Microsoft.Xna.Framework.Vector2)" class="text-break">.Rectangle.Offset(Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Offset(Vector2 amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>The x and y components to add to this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

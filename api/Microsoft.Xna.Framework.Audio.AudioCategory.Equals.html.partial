@@ -1,0 +1,147 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals*" class="text-break">Equals Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.Equals.html#Microsoft_Xna_Framework_Audio_AudioCategory_Equals_Microsoft_Xna_Framework_Audio_AudioCategory_">Equals(AudioCategory)</a></td>
+          <td class="summary"><p>Determines whether two AudioCategory instances are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.Equals.html#Microsoft_Xna_Framework_Audio_AudioCategory_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Determines whether two AudioCategory instances are equal.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_Microsoft_Xna_Framework_Audio_AudioCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals(Microsoft.Xna.Framework.Audio.AudioCategory)" class="text-break">.AudioCategory.Equals(AudioCategory) Method</h2>
+    <div class="markdown level0 summary"><p>Determines whether two AudioCategory instances are equal.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Equals(AudioCategory other)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals</a>(<a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a></td>
+              <td><span class="parametername">other</span></td>
+              <td><p>AudioCategory to compare with this instance.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>true if the objects are equal or false if they aren&apos;t</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_AudioCategory_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Equals(System.Object)" class="text-break">.AudioCategory.Equals(Object) Method</h2>
+    <div class="markdown level0 summary"><p>Determines whether two AudioCategory instances are equal.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+              <td><span class="parametername">obj</span></td>
+              <td><p>Object to compare with this instance.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>true if the objects are equal or false if they aren&apos;t.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

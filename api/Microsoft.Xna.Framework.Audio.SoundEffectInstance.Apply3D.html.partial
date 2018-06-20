@@ -1,0 +1,129 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D*" class="text-break">Apply3D Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">Apply3D(AudioListener, AudioEmitter)</a></td>
+          <td class="summary"><p>Applies 3D positioning to the SoundEffectInstance using a single listener.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener___Microsoft_Xna_Framework_Audio_AudioEmitter_">Apply3D(AudioListener[], AudioEmitter)</a></td>
+          <td class="summary"><p>Applies 3D positioning to the SoundEffectInstance using multiple listeners.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D(Microsoft.Xna.Framework.Audio.AudioListener,Microsoft.Xna.Framework.Audio.AudioEmitter)" class="text-break">.SoundEffectInstance.Apply3D(AudioListener, AudioEmitter) Method</h2>
+    <div class="markdown level0 summary"><p>Applies 3D positioning to the SoundEffectInstance using a single listener.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Apply3D(AudioListener listener, AudioEmitter emitter)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a></td>
+              <td><span class="parametername">listener</span></td>
+              <td><p>Data about the listener.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
+              <td><span class="parametername">emitter</span></td>
+              <td><p>Data about the source of emission.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener___Microsoft_Xna_Framework_Audio_AudioEmitter_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D(Microsoft.Xna.Framework.Audio.AudioListener[],Microsoft.Xna.Framework.Audio.AudioEmitter)" class="text-break">.SoundEffectInstance.Apply3D(AudioListener[], AudioEmitter) Method</h2>
+    <div class="markdown level0 summary"><p>Applies 3D positioning to the SoundEffectInstance using multiple listeners.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Apply3D(AudioListener[] listeners, AudioEmitter emitter)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a>[]</td>
+              <td><span class="parametername">listeners</span></td>
+              <td><p>Data about each listener.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
+              <td><span class="parametername">emitter</span></td>
+              <td><p>Data about the source of emission.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,30 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.CompressionLevel" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_CompressionLevel" data-uid="MonoGame.Utilities.CompressionLevel" class="text-break">CompressionLevel Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The compression level to be used when using a DeflateStream or ZlibStream with CompressionMode.Compress.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum CompressionLevel</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

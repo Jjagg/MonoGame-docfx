@@ -1,0 +1,137 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Mouse_GetState_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState*" class="text-break">GetState Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Mouse.GetState.html#Microsoft_Xna_Framework_Input_Mouse_GetState_Microsoft_Xna_Framework_GameWindow_">GetState(GameWindow)</a></td>
+          <td class="summary"><p>This API is an extension to XNA.
+Gets mouse state information that includes position and button
+presses for the provided window</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Mouse.GetState.html#Microsoft_Xna_Framework_Input_Mouse_GetState">GetState()</a></td>
+          <td class="summary"><p>Gets mouse state information that includes position and button presses
+for the primary window</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Input_Mouse_GetState_Microsoft_Xna_Framework_GameWindow_" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState(Microsoft.Xna.Framework.GameWindow)" class="text-break">.Mouse.GetState(GameWindow) Method</h2>
+    <div class="markdown level0 summary"><p>This API is an extension to XNA.
+Gets mouse state information that includes position and button
+presses for the provided window</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static MouseState GetState(GameWindow window)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.GameWindow.html">GameWindow</a></td>
+              <td><span class="parametername">window</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.html">MouseState</a></td>
+            <td><p>Current state of the mouse.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_Mouse_GetState" data-uid="Microsoft.Xna.Framework.Input.Mouse.GetState" class="text-break">.Mouse.GetState() Method</h2>
+    <div class="markdown level0 summary"><p>Gets mouse state information that includes position and button presses
+for the primary window</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static MouseState GetState()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.html">MouseState</a></td>
+            <td><p>Current state of the mouse.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

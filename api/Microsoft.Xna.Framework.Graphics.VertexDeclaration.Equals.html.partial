@@ -1,0 +1,151 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals*" class="text-break">Equals Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_Microsoft_Xna_Framework_Graphics_VertexDeclaration_">Equals(VertexDeclaration)</a></td>
+          <td class="summary"><p>Determines whether the specified <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> is equal to this
+instance.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals(System.Object)" class="text-break">.VertexDeclaration.Equals(Object) Method</h2>
+    <div class="markdown level0 summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+              <td><span class="parametername">obj</span></td>
+              <td><p>The object to compare with the current object.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><span class="xref">true</span> if the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance;
+otherwise, <span class="xref">false</span>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_Microsoft_Xna_Framework_Graphics_VertexDeclaration_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals(Microsoft.Xna.Framework.Graphics.VertexDeclaration)" class="text-break">.VertexDeclaration.Equals(VertexDeclaration) Method</h2>
+    <div class="markdown level0 summary"><p>Determines whether the specified <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> is equal to this
+instance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Equals(VertexDeclaration other)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals</a>(<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a></td>
+              <td><span class="parametername">other</span></td>
+              <td><p>The object to compare with the current object.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><span class="xref">true</span> if the specified <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> is equal to this
+instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

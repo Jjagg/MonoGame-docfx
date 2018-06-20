@@ -1,0 +1,73 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKey.CompareTo*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKey_CompareTo_" data-uid="Microsoft.Xna.Framework.CurveKey.CompareTo*" class="text-break">.CurveKey.CompareTo(CurveKey) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public int CompareTo(CurveKey other)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1.compareto#System_IComparable_1_CompareTo__0_">CompareTo</a>(<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a></td>
+              <td><span class="parametername">other</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

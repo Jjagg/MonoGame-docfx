@@ -1,0 +1,30 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveLoopType" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveLoopType" data-uid="Microsoft.Xna.Framework.CurveLoopType" class="text-break">CurveLoopType Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines how the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> value is determined for position before first point or after the end point on the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum CurveLoopType</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

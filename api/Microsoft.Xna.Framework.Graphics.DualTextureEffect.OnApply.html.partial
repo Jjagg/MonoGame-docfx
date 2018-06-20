@@ -1,0 +1,48 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.OnApply*" class="text-break">.DualTextureEffect.OnApply() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Lazily computes derived parameter values immediately before applying the effect.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,115 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor*" class="text-break">EnvironmentMapEffect Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.-ctor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_">EnvironmentMapEffect(GraphicsDevice)</a></td>
+          <td class="summary"><p>Creates a new EnvironmentMapEffect with default parameter settings.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.-ctor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_">EnvironmentMapEffect(EnvironmentMapEffect)</a></td>
+          <td class="summary"><p>Creates a new EnvironmentMapEffect by cloning parameter settings from an existing instance.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)" class="text-break">.EnvironmentMapEffect.EnvironmentMapEffect(GraphicsDevice) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new EnvironmentMapEffect with default parameter settings.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public EnvironmentMapEffect(GraphicsDevice device)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">device</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.#ctor(Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect)" class="text-break">.EnvironmentMapEffect.EnvironmentMapEffect(EnvironmentMapEffect) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new EnvironmentMapEffect by cloning parameter settings from an existing instance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected EnvironmentMapEffect(EnvironmentMapEffect cloneSource)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.html">EnvironmentMapEffect</a></td>
+              <td><span class="parametername">cloneSource</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

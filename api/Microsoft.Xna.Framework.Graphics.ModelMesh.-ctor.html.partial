@@ -1,0 +1,62 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelMesh.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelMesh__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.ModelMesh.#ctor*" class="text-break">.ModelMesh.ModelMesh(GraphicsDevice, List&lt;ModelMeshPart&gt;) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ModelMesh(GraphicsDevice graphicsDevice, List&lt;ModelMeshPart&gt; parts)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a>&gt;</td>
+              <td><span class="parametername">parts</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

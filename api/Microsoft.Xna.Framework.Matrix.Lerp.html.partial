@@ -1,0 +1,161 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.Lerp*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_Lerp_" data-uid="Microsoft.Xna.Framework.Matrix.Lerp*" class="text-break">Lerp Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Lerp.html#Microsoft_Xna_Framework_Matrix_Lerp_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_System_Single_">Lerp(Matrix, Matrix, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains linear interpolation of the values in specified matrixes.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Lerp.html#Microsoft_Xna_Framework_Matrix_Lerp_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__System_Single_Microsoft_Xna_Framework_Matrix__">Lerp(ref Matrix, ref Matrix, Single, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains linear interpolation of the values in specified matrixes.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_Lerp_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.Lerp(Microsoft.Xna.Framework.Matrix,Microsoft.Xna.Framework.Matrix,System.Single)" class="text-break">.Matrix.Lerp(Matrix, Matrix, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains linear interpolation of the values in specified matrixes.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix Lerp(Matrix matrix1, Matrix matrix2, float amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>The first <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix2</span></td>
+              <td><p>The second <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Weighting value(between 0.0 and 1.0).</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><blockquote><p>The result of linear interpolation of the specified matrixes.</p>
+</blockquote>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_Lerp_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__System_Single_Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.Lerp(Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Matrix@,System.Single,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.Lerp(ref Matrix, ref Matrix, Single, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains linear interpolation of the values in specified matrixes.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Lerp(ref Matrix matrix1, ref Matrix matrix2, float amount, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>The first <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix2</span></td>
+              <td><p>The second <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Weighting value(between 0.0 and 1.0).</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of linear interpolation of the specified matrixes as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

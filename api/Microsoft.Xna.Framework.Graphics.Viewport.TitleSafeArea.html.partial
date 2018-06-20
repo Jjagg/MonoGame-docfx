@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.TitleSafeArea*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Viewport_TitleSafeArea_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.TitleSafeArea*" class="text-break">.Viewport.TitleSafeArea Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns the subset of the viewport that is guaranteed to be visible on a lower quality display.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Rectangle TitleSafeArea { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

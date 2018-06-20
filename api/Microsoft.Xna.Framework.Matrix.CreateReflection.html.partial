@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreateReflection*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreateReflection_" data-uid="Microsoft.Xna.Framework.Matrix.CreateReflection*" class="text-break">CreateReflection Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateReflection.html#Microsoft_Xna_Framework_Matrix_CreateReflection_Microsoft_Xna_Framework_Plane_">CreateReflection(Plane)</a></td>
+          <td class="summary"><p>Creates a new reflection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateReflection.html#Microsoft_Xna_Framework_Matrix_CreateReflection_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Matrix__">CreateReflection(ref Plane, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new reflection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateReflection_Microsoft_Xna_Framework_Plane_" data-uid="Microsoft.Xna.Framework.Matrix.CreateReflection(Microsoft.Xna.Framework.Plane)" class="text-break">.Matrix.CreateReflection(Plane) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new reflection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateReflection(Plane value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The plane that used for reflection calculation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The reflection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateReflection_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateReflection(Microsoft.Xna.Framework.Plane@,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateReflection(ref Plane, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new reflection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateReflection(ref Plane value, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The plane that used for reflection calculation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The reflection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

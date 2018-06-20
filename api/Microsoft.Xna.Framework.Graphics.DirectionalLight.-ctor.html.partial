@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_DirectionalLight__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.DirectionalLight.#ctor*" class="text-break">.DirectionalLight.DirectionalLight(EffectParameter, EffectParameter, EffectParameter, DirectionalLight) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public DirectionalLight(EffectParameter directionParameter, EffectParameter diffuseColorParameter, EffectParameter specularColorParameter, DirectionalLight cloneSource)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
+              <td><span class="parametername">directionParameter</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
+              <td><span class="parametername">diffuseColorParameter</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectParameter.html">EffectParameter</a></td>
+              <td><span class="parametername">specularColorParameter</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+              <td><span class="parametername">cloneSource</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

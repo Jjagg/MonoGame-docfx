@@ -1,0 +1,258 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture3D.GetData*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture3D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture3D.GetData*" class="text-break">GetData Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32___0___System_Int32_System_Int32_">GetData&lt;T&gt;(Int32, Int32, Int32, Int32, Int32, Int32, Int32, T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Gets a copy of 3D texture data, specifying a mipmap level, source box, start index, and number of elements.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___System_Int32_System_Int32_">GetData&lt;T&gt;(T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Gets a copy of 3D texture data, specifying a start index and number of elements.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___">GetData&lt;T&gt;(T[])</a></td>
+          <td class="summary"><p>Gets a copy of 3D texture data.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture3D.GetData``1(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,``0[],System.Int32,System.Int32)" class="text-break">.Texture3D.GetData&lt;T&gt;(Int32, Int32, Int32, Int32, Int32, Int32, Int32, T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Gets a copy of 3D texture data, specifying a mipmap level, source box, start index, and number of elements.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, int left, int top, int right, int bottom, int front, int back, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>The type of the elements in the array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">level</span></td>
+              <td><p>Mipmap level.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">left</span></td>
+              <td><p>Position of the left side of the box on the x-axis.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">top</span></td>
+              <td><p>Position of the top of the box on the y-axis.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">right</span></td>
+              <td><p>Position of the right side of the box on the x-axis.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">bottom</span></td>
+              <td><p>Position of the bottom of the box on the y-axis.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">front</span></td>
+              <td><p>Position of the front of the box on the z-axis.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">back</span></td>
+              <td><p>Position of the back of the box on the z-axis.</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Array of data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Index of the first element to get.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td><p>Number of elements to get.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture3D.GetData``1(``0[],System.Int32,System.Int32)" class="text-break">.Texture3D.GetData&lt;T&gt;(T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Gets a copy of 3D texture data, specifying a start index and number of elements.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>The type of the elements in the array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Array of data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Index of the first element to get.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td><p>Number of elements to get.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.Texture3D.GetData``1(``0[])" class="text-break">.Texture3D.GetData&lt;T&gt;(T[]) Method</h2>
+    <div class="markdown level0 summary"><p>Gets a copy of 3D texture data.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>The type of the elements in the array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Array of data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

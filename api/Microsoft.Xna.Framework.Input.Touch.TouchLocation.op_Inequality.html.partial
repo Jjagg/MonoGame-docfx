@@ -1,0 +1,74 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchLocation.op_Inequality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchLocation_op_Inequality_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchLocation.op_Inequality*" class="text-break">.TouchLocation.Inequality(TouchLocation, TouchLocation) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator !=(TouchLocation value1, TouchLocation value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

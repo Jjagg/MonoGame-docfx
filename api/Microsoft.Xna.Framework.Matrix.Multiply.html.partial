@@ -1,0 +1,257 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.Multiply*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_Multiply_" data-uid="Microsoft.Xna.Framework.Matrix.Multiply*" class="text-break">Multiply Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Multiply.html#Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_">Multiply(Matrix, Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of two matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Multiply.html#Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__">Multiply(ref Matrix, ref Matrix, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of two matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Multiply.html#Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix_System_Single_">Multiply(Matrix, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Multiply.html#Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix__System_Single_Microsoft_Xna_Framework_Matrix__">Multiply(ref Matrix, Single, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and a scalar.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_" data-uid="Microsoft.Xna.Framework.Matrix.Multiply(Microsoft.Xna.Framework.Matrix,Microsoft.Xna.Framework.Matrix)" class="text-break">.Matrix.Multiply(Matrix, Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of two matrix.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix Multiply(Matrix matrix1, Matrix matrix2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>Result of the matrix multiplication.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.Multiply(Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.Multiply(ref Matrix, ref Matrix, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of two matrix.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Multiply(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>Result of the matrix multiplication as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.Multiply(Microsoft.Xna.Framework.Matrix,System.Single)" class="text-break">.Matrix.Multiply(Matrix, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix Multiply(Matrix matrix1, float scaleFactor)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scaleFactor</span></td>
+              <td><p>Scalar value.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>Result of the matrix multiplication with a scalar.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_Multiply_Microsoft_Xna_Framework_Matrix__System_Single_Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.Multiply(Microsoft.Xna.Framework.Matrix@,System.Single,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.Multiply(ref Matrix, Single, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> that contains a multiplication of <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Multiply(ref Matrix matrix1, float scaleFactor, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scaleFactor</span></td>
+              <td><p>Scalar value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>Result of the matrix multiplication with a scalar as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

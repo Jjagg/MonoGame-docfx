@@ -1,0 +1,164 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.Conjugate*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_Conjugate_" data-uid="Microsoft.Xna.Framework.Quaternion.Conjugate*" class="text-break">Conjugate Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.Conjugate.html#Microsoft_Xna_Framework_Quaternion_Conjugate">Conjugate()</a></td>
+          <td class="summary"><p>Transforms this quaternion into its conjugated version.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.Conjugate.html#Microsoft_Xna_Framework_Quaternion_Conjugate_Microsoft_Xna_Framework_Quaternion_">Conjugate(Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> that contains conjugated version of the specified quaternion.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.Conjugate.html#Microsoft_Xna_Framework_Quaternion_Conjugate_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__">Conjugate(ref Quaternion, out Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> that contains conjugated version of the specified quaternion.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Quaternion_Conjugate" data-uid="Microsoft.Xna.Framework.Quaternion.Conjugate" class="text-break">.Quaternion.Conjugate() Method</h2>
+    <div class="markdown level0 summary"><p>Transforms this quaternion into its conjugated version.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Conjugate()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Quaternion_Conjugate_Microsoft_Xna_Framework_Quaternion_" data-uid="Microsoft.Xna.Framework.Quaternion.Conjugate(Microsoft.Xna.Framework.Quaternion)" class="text-break">.Quaternion.Conjugate(Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> that contains conjugated version of the specified quaternion.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion Conjugate(Quaternion value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The quaternion which values will be used to create the conjugated version.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>The conjugate version of the specified quaternion.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Quaternion_Conjugate_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__" data-uid="Microsoft.Xna.Framework.Quaternion.Conjugate(Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Quaternion@)" class="text-break">.Quaternion.Conjugate(ref Quaternion, out Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> that contains conjugated version of the specified quaternion.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Conjugate(ref Quaternion value, out Quaternion result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The quaternion which values will be used to create the conjugated version.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The conjugated version of the specified quaternion as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,123 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Curve_ComputeTangents_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents*" class="text-break">ComputeTangents Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangents.html#Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_">ComputeTangents(CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangents for all keys in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangents.html#Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_">ComputeTangents(CurveTangent, CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangents for all keys in the collection.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent)" class="text-break">.Curve.ComputeTangents(CurveTangent) Method</h2>
+    <div class="markdown level0 summary"><p>Computes tangents for all keys in the collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void ComputeTangents(CurveTangent tangentType)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+              <td><span class="parametername">tangentType</span></td>
+              <td><p>The tangent type for both in and out.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_" data-uid="Microsoft.Xna.Framework.Curve.ComputeTangents(Microsoft.Xna.Framework.CurveTangent,Microsoft.Xna.Framework.CurveTangent)" class="text-break">.Curve.ComputeTangents(CurveTangent, CurveTangent) Method</h2>
+    <div class="markdown level0 summary"><p>Computes tangents for all keys in the collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void ComputeTangents(CurveTangent tangentInType, CurveTangent tangentOutType)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+              <td><span class="parametername">tangentInType</span></td>
+              <td><p>The tangent in-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.TangentIn.html#Microsoft_Xna_Framework_CurveKey_TangentIn">TangentIn</a> for more details.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveTangent.html">CurveTangent</a></td>
+              <td><span class="parametername">tangentOutType</span></td>
+              <td><p>The tangent out-type. <a class="xref" href="Microsoft.Xna.Framework.CurveKey.TangentOut.html#Microsoft_Xna_Framework_CurveKey_TangentOut">TangentOut</a> for more details.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

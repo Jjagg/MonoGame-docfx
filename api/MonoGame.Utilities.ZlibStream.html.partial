@@ -1,0 +1,348 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream" data-uid="MonoGame.Utilities.ZlibStream" class="text-break">ZlibStream Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents a Zlib stream for compression or decompression.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class ZlibStream : Stream, IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level2"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level3"><span class="xref">ZlibStream</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.null">Stream.Null</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copytoasync#System_IO_Stream_CopyToAsync_System_IO_Stream_">Stream.CopyToAsync(Stream)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copytoasync#System_IO_Stream_CopyToAsync_System_IO_Stream_System_Int32_">Stream.CopyToAsync(Stream, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copytoasync#System_IO_Stream_CopyToAsync_System_IO_Stream_System_Int32_System_Threading_CancellationToken_">Stream.CopyToAsync(Stream, Int32, CancellationToken)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copyto#System_IO_Stream_CopyTo_System_IO_Stream_">Stream.CopyTo(Stream)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copyto#System_IO_Stream_CopyTo_System_IO_Stream_System_Int32_">Stream.CopyTo(Stream, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.close#System_IO_Stream_Close">Stream.Close()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose">Stream.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.flushasync#System_IO_Stream_FlushAsync">Stream.FlushAsync()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.flushasync#System_IO_Stream_FlushAsync_System_Threading_CancellationToken_">Stream.FlushAsync(CancellationToken)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.createwaithandle#System_IO_Stream_CreateWaitHandle">Stream.CreateWaitHandle()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginread#System_IO_Stream_BeginRead_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">Stream.BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.endread#System_IO_Stream_EndRead_System_IAsyncResult_">Stream.EndRead(IAsyncResult)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readasync#System_IO_Stream_ReadAsync_System_Byte___System_Int32_System_Int32_">Stream.ReadAsync(Byte[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readasync#System_IO_Stream_ReadAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_">Stream.ReadAsync(Byte[], Int32, Int32, CancellationToken)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginwrite#System_IO_Stream_BeginWrite_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">Stream.BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.endwrite#System_IO_Stream_EndWrite_System_IAsyncResult_">Stream.EndWrite(IAsyncResult)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writeasync#System_IO_Stream_WriteAsync_System_Byte___System_Int32_System_Int32_">Stream.WriteAsync(Byte[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writeasync#System_IO_Stream_WriteAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_">Stream.WriteAsync(Byte[], Int32, Int32, CancellationToken)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readbyte#System_IO_Stream_ReadByte">Stream.ReadByte()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writebyte#System_IO_Stream_WriteByte_System_Byte_">Stream.WriteByte(Byte)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.synchronized#System_IO_Stream_Synchronized_System_IO_Stream_">Stream.Synchronized(Stream)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.objectinvariant#System_IO_Stream_ObjectInvariant">Stream.ObjectInvariant()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.cantimeout#System_IO_Stream_CanTimeout">Stream.CanTimeout</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readtimeout#System_IO_Stream_ReadTimeout">Stream.ReadTimeout</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writetimeout#System_IO_Stream_WriteTimeout">Stream.WriteTimeout</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MarshalByRefObject.MemberwiseClone(Boolean)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice#System_MarshalByRefObject_GetLifetimeService">MarshalByRefObject.GetLifetimeService()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice#System_MarshalByRefObject_InitializeLifetimeService">MarshalByRefObject.InitializeLifetimeService()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.createobjref#System_MarshalByRefObject_CreateObjRef_System_Type_">MarshalByRefObject.CreateObjRef(Type)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+<h id="MonoGame_Utilities_ZlibStream_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>
+The ZlibStream is a <a href="http://en.wikipedia.org/wiki/Decorator_pattern">Decorator</a> on a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a>.  It adds ZLIB compression or decompression to any
+stream.
+</p>
+
+<p> Using this stream, applications can compress or decompress data via
+stream <code>Read()</code> and <code>Write()</code> operations.  Either compression or
+decompression can occur through either reading or writing. The compression
+format used is ZLIB, which is documented in <a href="http://www.ietf.org/rfc/rfc1950.txt">IETF RFC 1950</a>, &quot;ZLIB Compressed
+Data Format Specification version 3.3&quot;. This implementation of ZLIB always uses
+DEFLATE as the compression method.  (see <a href="http://www.ietf.org/rfc/rfc1951.txt">IETF RFC 1951</a>, &quot;DEFLATE
+Compressed Data Format Specification version 1.3.&quot;) </p>
+
+<p>
+The ZLIB format allows for varying compression methods, window sizes, and dictionaries.
+This implementation always uses the DEFLATE compression method, a preset dictionary,
+and 15 window bits by default.
+</p>
+
+<p>
+This class is similar to DeflateStream, except that it adds the
+RFC1950 header and trailer bytes to a compressed stream when compressing, or expects
+the RFC1950 header and trailer bytes when decompressing.  It is also similar to the
+<span class="xref">MonoGame.Utilities.GZipStream</span>.
+</p>
+</div>
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_">ZlibStream(Stream, CompressionMode)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_">ZlibStream(Stream, CompressionMode, CompressionLevel)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code> and
+the specified <code>CompressionLevel</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_MonoGame_Utilities_CompressionLevel_System_Boolean_">ZlibStream(Stream, CompressionMode, CompressionLevel, Boolean)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>
+and the specified <code>CompressionLevel</code>, and explicitly specify
+whether the stream should be left open after Deflation or Inflation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.-ctor.html#MonoGame_Utilities_ZlibStream__ctor_System_IO_Stream_MonoGame_Utilities_CompressionMode_System_Boolean_">ZlibStream(Stream, CompressionMode, Boolean)</a></td>
+          <td class="summary"><p>Create a <code>ZlibStream</code> using the specified <code>CompressionMode</code>, and
+explicitly specify whether the captive stream should be left open after
+Deflation or Inflation.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.BufferSize.html#MonoGame_Utilities_ZlibStream_BufferSize">BufferSize</a></td>
+          <td class="summary"><p>The size of the working buffer for the compression codec.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.CanRead.html#MonoGame_Utilities_ZlibStream_CanRead">CanRead</a></td>
+          <td class="summary"><p>Indicates whether the stream can be read.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.CanSeek.html#MonoGame_Utilities_ZlibStream_CanSeek">CanSeek</a></td>
+          <td class="summary"><p>Indicates whether the stream supports Seek operations.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.CanWrite.html#MonoGame_Utilities_ZlibStream_CanWrite">CanWrite</a></td>
+          <td class="summary"><p>Indicates whether the stream can be written.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.FlushMode.html#MonoGame_Utilities_ZlibStream_FlushMode">FlushMode</a></td>
+          <td class="summary"><p>This property sets the flush behavior on the stream.
+Sorry, though, not sure exactly how to describe all the various settings.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.Length.html#MonoGame_Utilities_ZlibStream_Length">Length</a></td>
+          <td class="summary"><p>Reading this property always throws a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.Position.html#MonoGame_Utilities_ZlibStream_Position">Position</a></td>
+          <td class="summary"><p>The position of the stream pointer.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.TotalIn.html#MonoGame_Utilities_ZlibStream_TotalIn">TotalIn</a></td>
+          <td class="summary"><p>Returns the total number of bytes input so far.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.TotalOut.html#MonoGame_Utilities_ZlibStream_TotalOut">TotalOut</a></td>
+          <td class="summary"><p>Returns the total number of bytes output so far.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.CompressBuffer.html#MonoGame_Utilities_ZlibStream_CompressBuffer_System_Byte___">CompressBuffer(Byte[])</a></td>
+          <td class="summary"><p>Compress a byte array into a new byte array using ZLIB.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.CompressString.html#MonoGame_Utilities_ZlibStream_CompressString_System_String_">CompressString(String)</a></td>
+          <td class="summary"><p>Compress a string into a byte array using ZLIB.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.Dispose.html#MonoGame_Utilities_ZlibStream_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+          <td class="summary"><p>Dispose the stream.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.Flush.html#MonoGame_Utilities_ZlibStream_Flush">Flush()</a></td>
+          <td class="summary"><p>Flush the stream.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.Read.html#MonoGame_Utilities_ZlibStream_Read_System_Byte___System_Int32_System_Int32_">Read(Byte[], Int32, Int32)</a></td>
+          <td class="summary"><p>Read data from the stream.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.Seek.html#MonoGame_Utilities_ZlibStream_Seek_System_Int64_System_IO_SeekOrigin_">Seek(Int64, SeekOrigin)</a></td>
+          <td class="summary"><p>Calling this method always throws a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.SetLength.html#MonoGame_Utilities_ZlibStream_SetLength_System_Int64_">SetLength(Int64)</a></td>
+          <td class="summary"><p>Calling this method always throws a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.UncompressBuffer.html#MonoGame_Utilities_ZlibStream_UncompressBuffer_System_Byte___">UncompressBuffer(Byte[])</a></td>
+          <td class="summary"><p>Uncompress a ZLIB-compressed byte array into a byte array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.UncompressString.html#MonoGame_Utilities_ZlibStream_UncompressString_System_Byte___">UncompressString(Byte[])</a></td>
+          <td class="summary"><p>Uncompress a ZLIB-compressed byte array into a single string.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="MonoGame.Utilities.ZlibStream.Write.html#MonoGame_Utilities_ZlibStream_Write_System_Byte___System_Int32_System_Int32_">Write(Byte[], Int32, Int32)</a></td>
+          <td class="summary"><p>Write data to the stream.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+<h id="seealso">See Also</h>
+<div class="seealso">
+      <div><span class="xref">MonoGame.Utilities.GZipStream</span></div>
+  </div>
+</div></article>

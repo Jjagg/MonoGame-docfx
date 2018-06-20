@@ -1,0 +1,209 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper" data-uid="Microsoft.Xna.Framework.MathHelper" class="text-break">MathHelper Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Contains commonly used precalculated values and mathematical operations.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static class MathHelper</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">MathHelper</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.E.html#Microsoft_Xna_Framework_MathHelper_E">E</a></td>
+          <td class="summary"><p>Represents the mathematical constant e(2.71828175).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Log10E.html#Microsoft_Xna_Framework_MathHelper_Log10E">Log10E</a></td>
+          <td class="summary"><p>Represents the log base ten of e(0.4342945).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Log2E.html#Microsoft_Xna_Framework_MathHelper_Log2E">Log2E</a></td>
+          <td class="summary"><p>Represents the log base two of e(1.442695).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Pi.html#Microsoft_Xna_Framework_MathHelper_Pi">Pi</a></td>
+          <td class="summary"><p>Represents the value of pi(3.14159274).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.PiOver2.html#Microsoft_Xna_Framework_MathHelper_PiOver2">PiOver2</a></td>
+          <td class="summary"><p>Represents the value of pi divided by two(1.57079637).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.PiOver4.html#Microsoft_Xna_Framework_MathHelper_PiOver4">PiOver4</a></td>
+          <td class="summary"><p>Represents the value of pi divided by four(0.7853982).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.TwoPi.html#Microsoft_Xna_Framework_MathHelper_TwoPi">TwoPi</a></td>
+          <td class="summary"><p>Represents the value of pi times two(6.28318548).</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Barycentric.html#Microsoft_Xna_Framework_MathHelper_Barycentric_System_Single_System_Single_System_Single_System_Single_System_Single_">Barycentric(Single, Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Returns the Cartesian coordinate for one axis of a point that is defined by a given triangle and two normalized barycentric (areal) coordinates.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.CatmullRom.html#Microsoft_Xna_Framework_MathHelper_CatmullRom_System_Single_System_Single_System_Single_System_Single_System_Single_">CatmullRom(Single, Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Performs a Catmull-Rom interpolation using the specified positions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Clamp.html#Microsoft_Xna_Framework_MathHelper_Clamp_System_Int32_System_Int32_System_Int32_">Clamp(Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Restricts a value to be within a specified range.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Clamp.html#Microsoft_Xna_Framework_MathHelper_Clamp_System_Single_System_Single_System_Single_">Clamp(Single, Single, Single)</a></td>
+          <td class="summary"><p>Restricts a value to be within a specified range.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Distance.html#Microsoft_Xna_Framework_MathHelper_Distance_System_Single_System_Single_">Distance(Single, Single)</a></td>
+          <td class="summary"><p>Calculates the absolute value of the difference of two values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Hermite.html#Microsoft_Xna_Framework_MathHelper_Hermite_System_Single_System_Single_System_Single_System_Single_System_Single_">Hermite(Single, Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Performs a Hermite spline interpolation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.IsPowerOfTwo.html#Microsoft_Xna_Framework_MathHelper_IsPowerOfTwo_System_Int32_">IsPowerOfTwo(Int32)</a></td>
+          <td class="summary"><p>Determines if value is powered by two.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Lerp.html#Microsoft_Xna_Framework_MathHelper_Lerp_System_Single_System_Single_System_Single_">Lerp(Single, Single, Single)</a></td>
+          <td class="summary"><p>Linearly interpolates between two values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.LerpPrecise.html#Microsoft_Xna_Framework_MathHelper_LerpPrecise_System_Single_System_Single_System_Single_">LerpPrecise(Single, Single, Single)</a></td>
+          <td class="summary"><p>Linearly interpolates between two values.
+This method is a less efficient, more precise version of <a class="xref" href="Microsoft.Xna.Framework.MathHelper.Lerp.html#Microsoft_Xna_Framework_MathHelper_Lerp_System_Single_System_Single_System_Single_">Lerp(Single, Single, Single)</a>.
+See remarks for more info.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Max.html#Microsoft_Xna_Framework_MathHelper_Max_System_Int32_System_Int32_">Max(Int32, Int32)</a></td>
+          <td class="summary"><p>Returns the greater of two values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Max.html#Microsoft_Xna_Framework_MathHelper_Max_System_Single_System_Single_">Max(Single, Single)</a></td>
+          <td class="summary"><p>Returns the greater of two values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Min.html#Microsoft_Xna_Framework_MathHelper_Min_System_Int32_System_Int32_">Min(Int32, Int32)</a></td>
+          <td class="summary"><p>Returns the lesser of two values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Min.html#Microsoft_Xna_Framework_MathHelper_Min_System_Single_System_Single_">Min(Single, Single)</a></td>
+          <td class="summary"><p>Returns the lesser of two values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.SmoothStep.html#Microsoft_Xna_Framework_MathHelper_SmoothStep_System_Single_System_Single_System_Single_">SmoothStep(Single, Single, Single)</a></td>
+          <td class="summary"><p>Interpolates between two values using a cubic equation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.ToDegrees.html#Microsoft_Xna_Framework_MathHelper_ToDegrees_System_Single_">ToDegrees(Single)</a></td>
+          <td class="summary"><p>Converts radians to degrees.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.ToRadians.html#Microsoft_Xna_Framework_MathHelper_ToRadians_System_Single_">ToRadians(Single)</a></td>
+          <td class="summary"><p>Converts degrees to radians.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.WrapAngle.html#Microsoft_Xna_Framework_MathHelper_WrapAngle_System_Single_">WrapAngle(Single)</a></td>
+          <td class="summary"><p>Reduces a given angle to a value between π and -π.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

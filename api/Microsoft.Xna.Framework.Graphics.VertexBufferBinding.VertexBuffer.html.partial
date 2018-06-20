@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexBuffer*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_VertexBuffer_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.VertexBuffer*" class="text-break">.VertexBufferBinding.VertexBuffer Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets the vertex buffer.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexBuffer VertexBuffer { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.html">VertexBuffer</a></td>
+            <td><p>The vertex buffer.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

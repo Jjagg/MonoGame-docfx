@@ -1,0 +1,257 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Plane.Transform*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Plane_Transform_" data-uid="Microsoft.Xna.Framework.Plane.Transform*" class="text-break">Transform Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Matrix_">Transform(Plane, Matrix)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Plane__">Transform(ref Plane, ref Matrix, out Plane)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Quaternion_">Transform(Plane, Quaternion)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a quaternion rotation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Plane__">Transform(ref Plane, ref Quaternion, out Plane)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a quaternion rotation.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Matrix_" data-uid="Microsoft.Xna.Framework.Plane.Transform(Microsoft.Xna.Framework.Plane,Microsoft.Xna.Framework.Matrix)" class="text-break">.Plane.Transform(Plane, Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Transforms a normalized plane by a matrix.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Plane Transform(Plane plane, Matrix matrix)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td><p>The normalized plane to transform.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation matrix.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+            <td><p>The transformed plane.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Plane__" data-uid="Microsoft.Xna.Framework.Plane.Transform(Microsoft.Xna.Framework.Plane@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Plane@)" class="text-break">.Plane.Transform(ref Plane, ref Matrix, out Plane) Method</h2>
+    <div class="markdown level0 summary"><p>Transforms a normalized plane by a matrix.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(ref Plane plane, ref Matrix matrix, out Plane result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td><p>The normalized plane to transform.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation matrix.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The transformed plane.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Quaternion_" data-uid="Microsoft.Xna.Framework.Plane.Transform(Microsoft.Xna.Framework.Plane,Microsoft.Xna.Framework.Quaternion)" class="text-break">.Plane.Transform(Plane, Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Transforms a normalized plane by a quaternion rotation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Plane Transform(Plane plane, Quaternion rotation)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td><p>The normalized plane to transform.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>The quaternion rotation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+            <td><p>The transformed plane.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Plane__" data-uid="Microsoft.Xna.Framework.Plane.Transform(Microsoft.Xna.Framework.Plane@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Plane@)" class="text-break">.Plane.Transform(ref Plane, ref Quaternion, out Plane) Method</h2>
+    <div class="markdown level0 summary"><p>Transforms a normalized plane by a quaternion rotation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(ref Plane plane, ref Quaternion rotation, out Plane result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td><p>The normalized plane to transform.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>The quaternion rotation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The transformed plane.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

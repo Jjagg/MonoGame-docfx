@@ -1,0 +1,229 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.TextureCube.GetData*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_TextureCube_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.TextureCube.GetData*" class="text-break">GetData Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.TextureCube.GetData.html#Microsoft_Xna_Framework_Graphics_TextureCube_GetData__1_Microsoft_Xna_Framework_Graphics_CubeMapFace___0___">GetData&lt;T&gt;(CubeMapFace, T[])</a></td>
+          <td class="summary"><p>Gets a copy of cube texture data specifying a cubemap face.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.TextureCube.GetData.html#Microsoft_Xna_Framework_Graphics_TextureCube_GetData__1_Microsoft_Xna_Framework_Graphics_CubeMapFace___0___System_Int32_System_Int32_">GetData&lt;T&gt;(CubeMapFace, T[], Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.TextureCube.GetData.html#Microsoft_Xna_Framework_Graphics_TextureCube_GetData__1_Microsoft_Xna_Framework_Graphics_CubeMapFace_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">GetData&lt;T&gt;(CubeMapFace, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_TextureCube_GetData__1_Microsoft_Xna_Framework_Graphics_CubeMapFace___0___" data-uid="Microsoft.Xna.Framework.Graphics.TextureCube.GetData``1(Microsoft.Xna.Framework.Graphics.CubeMapFace,``0[])" class="text-break">.TextureCube.GetData&lt;T&gt;(CubeMapFace, T[]) Method</h2>
+    <div class="markdown level0 summary"><p>Gets a copy of cube texture data specifying a cubemap face.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(CubeMapFace cubeMapFace, T[] data)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.CubeMapFace.html">CubeMapFace</a></td>
+              <td><span class="parametername">cubeMapFace</span></td>
+              <td><p>The cube map face.</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>The data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_TextureCube_GetData__1_Microsoft_Xna_Framework_Graphics_CubeMapFace___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.TextureCube.GetData``1(Microsoft.Xna.Framework.Graphics.CubeMapFace,``0[],System.Int32,System.Int32)" class="text-break">.TextureCube.GetData&lt;T&gt;(CubeMapFace, T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(CubeMapFace cubeMapFace, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.CubeMapFace.html">CubeMapFace</a></td>
+              <td><span class="parametername">cubeMapFace</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_TextureCube_GetData__1_Microsoft_Xna_Framework_Graphics_CubeMapFace_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.TextureCube.GetData``1(Microsoft.Xna.Framework.Graphics.CubeMapFace,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" class="text-break">.TextureCube.GetData&lt;T&gt;(CubeMapFace, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(CubeMapFace cubeMapFace, int level, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.CubeMapFace.html">CubeMapFace</a></td>
+              <td><span class="parametername">cubeMapFace</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">level</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">rect</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

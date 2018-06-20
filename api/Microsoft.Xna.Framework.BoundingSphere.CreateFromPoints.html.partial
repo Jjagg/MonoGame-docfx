@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateFromPoints*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingSphere_CreateFromPoints_" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateFromPoints*" class="text-break">.BoundingSphere.CreateFromPoints(IEnumerable&lt;Vector3&gt;) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Creates the smallest <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that can contain a specified list of points in 3D-space. </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static BoundingSphere CreateFromPoints(IEnumerable&lt;Vector3&gt; points)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>&gt;</td>
+              <td><span class="parametername">points</span></td>
+              <td><p>List of point to create the sphere from.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+            <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

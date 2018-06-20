@@ -1,0 +1,62 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameComponentCollection.SetItem*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameComponentCollection_SetItem_" data-uid="Microsoft.Xna.Framework.GameComponentCollection.SetItem*" class="text-break">.GameComponentCollection.SetItem(Int32, IGameComponent) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected override void SetItem(int index, IGameComponent item)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">index</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.IGameComponent.html">IGameComponent</a></td>
+              <td><span class="parametername">item</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

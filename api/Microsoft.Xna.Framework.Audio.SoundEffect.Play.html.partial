@@ -1,0 +1,154 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play*" class="text-break">Play Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Play.html#Microsoft_Xna_Framework_Audio_SoundEffect_Play">Play()</a></td>
+          <td class="summary"><p>Gets an internal SoundEffectInstance and plays it.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.Play.html#Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single_">Play(Single, Single, Single)</a></td>
+          <td class="summary"><p>Gets an internal SoundEffectInstance and plays it with the specified volume, pitch, and panning.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play" class="text-break">.SoundEffect.Play() Method</h2>
+    <div class="markdown level0 summary"><p>Gets an internal SoundEffectInstance and plays it.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Play()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>True if a SoundEffectInstance was successfully played, false if not.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Play returns false if more SoundEffectInstances are currently playing then the platform allows.</p>
+<p>To loop a sound or apply 3D effects, call SoundEffect.CreateInstance() and SoundEffectInstance.Play() instead.</p>
+<p>SoundEffectInstances used by SoundEffect.Play() are pooled internally.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play(System.Single,System.Single,System.Single)" class="text-break">.SoundEffect.Play(Single, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Gets an internal SoundEffectInstance and plays it with the specified volume, pitch, and panning.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Play(float volume, float pitch, float pan)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">volume</span></td>
+              <td><p>Volume, ranging from 0.0 (silence) to 1.0 (full volume). Volume during playback is scaled by SoundEffect.MasterVolume.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">pitch</span></td>
+              <td><p>Pitch adjustment, ranging from -1.0 (down an octave) to 0.0 (no change) to 1.0 (up an octave).</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">pan</span></td>
+              <td><p>Panning, ranging from -1.0 (left speaker) to 0.0 (centered), 1.0 (right speaker).</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>True if a SoundEffectInstance was successfully created and played, false if not.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundEffect_Play_System_Single_System_Single_System_Single__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Play returns false if more SoundEffectInstances are currently playing then the platform allows.</p>
+<p>To apply looping or simulate 3D audio, call SoundEffect.CreateInstance() and SoundEffectInstance.Play() instead.</p>
+<p>SoundEffectInstances used by SoundEffect.Play() are pooled internally.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

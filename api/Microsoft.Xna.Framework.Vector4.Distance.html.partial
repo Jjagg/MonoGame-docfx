@@ -1,0 +1,148 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector4.Distance*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector4_Distance_" data-uid="Microsoft.Xna.Framework.Vector4.Distance*" class="text-break">Distance Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Distance.html#Microsoft_Xna_Framework_Vector4_Distance_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_">Distance(Vector4, Vector4)</a></td>
+          <td class="summary"><p>Returns the distance between two vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Distance.html#Microsoft_Xna_Framework_Vector4_Distance_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single__">Distance(ref Vector4, ref Vector4, out Single)</a></td>
+          <td class="summary"><p>Returns the distance between two vectors.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector4_Distance_Microsoft_Xna_Framework_Vector4_Microsoft_Xna_Framework_Vector4_" data-uid="Microsoft.Xna.Framework.Vector4.Distance(Microsoft.Xna.Framework.Vector4,Microsoft.Xna.Framework.Vector4)" class="text-break">.Vector4.Distance(Vector4, Vector4) Method</h2>
+    <div class="markdown level0 summary"><p>Returns the distance between two vectors.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float Distance(Vector4 value1, Vector4 value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td><p>The distance between two vectors.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector4_Distance_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__System_Single__" data-uid="Microsoft.Xna.Framework.Vector4.Distance(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@,System.Single@)" class="text-break">.Vector4.Distance(ref Vector4, ref Vector4, out Single) Method</h2>
+    <div class="markdown level0 summary"><p>Returns the distance between two vectors.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Distance(ref Vector4 value1, ref Vector4 value2, out float result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The distance between two vectors as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

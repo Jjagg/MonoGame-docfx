@@ -1,0 +1,65 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingSphere.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingSphere__ctor_" data-uid="Microsoft.Xna.Framework.BoundingSphere.#ctor*" class="text-break">.BoundingSphere.BoundingSphere(Vector3, Single) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Constructs a bounding sphere with the specified center and radius.  </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public BoundingSphere(Vector3 center, float radius)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">center</span></td>
+              <td><p>The sphere center.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">radius</span></td>
+              <td><p>The sphere radius.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,260 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreatePerspectiveOffCenter_" data-uid="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter*" class="text-break">CreatePerspectiveOffCenter Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter.html#Microsoft_Xna_Framework_Matrix_CreatePerspectiveOffCenter_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_">CreatePerspectiveOffCenter(Single, Single, Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new projection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter.html#Microsoft_Xna_Framework_Matrix_CreatePerspectiveOffCenter_Microsoft_Xna_Framework_Rectangle_System_Single_System_Single_">CreatePerspectiveOffCenter(Rectangle, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new projection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter.html#Microsoft_Xna_Framework_Matrix_CreatePerspectiveOffCenter_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Matrix__">CreatePerspectiveOffCenter(Single, Single, Single, Single, Single, Single, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new projection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreatePerspectiveOffCenter_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" class="text-break">.Matrix.CreatePerspectiveOffCenter(Single, Single, Single, Single, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new projection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">left</span></td>
+              <td><p>Lower x-value at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">right</span></td>
+              <td><p>Upper x-value at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">bottom</span></td>
+              <td><p>Lower y-coordinate at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">top</span></td>
+              <td><p>Upper y-value at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">nearPlaneDistance</span></td>
+              <td><p>Distance to the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">farPlaneDistance</span></td>
+              <td><p>Distance to the far plane.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreatePerspectiveOffCenter_Microsoft_Xna_Framework_Rectangle_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter(Microsoft.Xna.Framework.Rectangle,System.Single,System.Single)" class="text-break">.Matrix.CreatePerspectiveOffCenter(Rectangle, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new projection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreatePerspectiveOffCenter(Rectangle viewingVolume, float nearPlaneDistance, float farPlaneDistance)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">viewingVolume</span></td>
+              <td><p>The viewing volume.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">nearPlaneDistance</span></td>
+              <td><p>Distance to the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">farPlaneDistance</span></td>
+              <td><p>Distance to the far plane.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreatePerspectiveOffCenter_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreatePerspectiveOffCenter(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreatePerspectiveOffCenter(Single, Single, Single, Single, Single, Single, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new projection <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">left</span></td>
+              <td><p>Lower x-value at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">right</span></td>
+              <td><p>Upper x-value at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">bottom</span></td>
+              <td><p>Lower y-coordinate at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">top</span></td>
+              <td><p>Upper y-value at the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">nearPlaneDistance</span></td>
+              <td><p>Distance to the near plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">farPlaneDistance</span></td>
+              <td><p>Distance to the far plane.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for customized perspective view as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

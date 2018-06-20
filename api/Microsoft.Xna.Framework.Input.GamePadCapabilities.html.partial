@@ -1,0 +1,248 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadCapabilities" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadCapabilities" data-uid="Microsoft.Xna.Framework.Input.GamePadCapabilities" class="text-break">GamePadCapabilities Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>A stuct that represents the controller capabilities.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct GamePadCapabilities</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.DisplayName.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_DisplayName">DisplayName</a></td>
+          <td class="summary"><p>Gets the gamepad display name.</p>
+<p>This property is not available in XNA.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.GamePadType.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_GamePadType">GamePadType</a></td>
+          <td class="summary"><p>Gets the type of the controller.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasAButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasAButton">HasAButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the button A.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasBackButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasBackButton">HasBackButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the button Back.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasBButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasBButton">HasBButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the button B.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasBigButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasBigButton">HasBigButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the guide button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasDPadDownButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasDPadDownButton">HasDPadDownButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the directional pad down button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasDPadLeftButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasDPadLeftButton">HasDPadLeftButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the directional pad left button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasDPadRightButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasDPadRightButton">HasDPadRightButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the directional pad right button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasDPadUpButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasDPadUpButton">HasDPadUpButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the directional pad up button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasLeftShoulderButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasLeftShoulderButton">HasLeftShoulderButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the left shoulder button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasLeftStickButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasLeftStickButton">HasLeftStickButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the left stick button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasLeftTrigger.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasLeftTrigger">HasLeftTrigger</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the left trigger button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasLeftVibrationMotor.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasLeftVibrationMotor">HasLeftVibrationMotor</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the left vibration motor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasLeftXThumbStick.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasLeftXThumbStick">HasLeftXThumbStick</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has X axis for the left stick (thumbstick) button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasLeftYThumbStick.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasLeftYThumbStick">HasLeftYThumbStick</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has Y axis for the left stick (thumbstick) button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasRightShoulderButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasRightShoulderButton">HasRightShoulderButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the right shoulder button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasRightStickButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasRightStickButton">HasRightStickButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the right stick button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasRightTrigger.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasRightTrigger">HasRightTrigger</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the right trigger button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasRightVibrationMotor.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasRightVibrationMotor">HasRightVibrationMotor</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the right vibration motor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasRightXThumbStick.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasRightXThumbStick">HasRightXThumbStick</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has X axis for the right stick (thumbstick) button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasRightYThumbStick.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasRightYThumbStick">HasRightYThumbStick</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has Y axis for the right stick (thumbstick) button.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasStartButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasStartButton">HasStartButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the button Start.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasVoiceSupport.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasVoiceSupport">HasVoiceSupport</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has a microphone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasXButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasXButton">HasXButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the button X.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasYButton.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_HasYButton">HasYButton</a></td>
+          <td class="summary"><p>Gets a value indicating whether the controller has the button Y.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.Identifier.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_Identifier">Identifier</a></td>
+          <td class="summary"><p>Gets the unique identifier of the gamepad.</p>
+<p>This property is not available in XNA.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.IsConnected.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_IsConnected">IsConnected</a></td>
+          <td class="summary"><p>Gets a value indicating if the controller is connected.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.Equals.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.GetHashCode.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Serves as a hash function for a <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a> object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.ToString.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.op_Equality.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_op_Equality_Microsoft_Xna_Framework_Input_GamePadCapabilities_Microsoft_Xna_Framework_Input_GamePadCapabilities_">Equality(GamePadCapabilities, GamePadCapabilities)</a></td>
+          <td class="summary"><p>Determines whether a specified instance of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>
+is equal to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.op_Inequality.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_op_Inequality_Microsoft_Xna_Framework_Input_GamePadCapabilities_Microsoft_Xna_Framework_Input_GamePadCapabilities_">Inequality(GamePadCapabilities, GamePadCapabilities)</a></td>
+          <td class="summary"><p>Determines whether a specified instance of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>
+is not equal to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

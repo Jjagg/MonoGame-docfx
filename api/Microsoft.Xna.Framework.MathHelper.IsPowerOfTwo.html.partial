@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.IsPowerOfTwo*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper_IsPowerOfTwo_" data-uid="Microsoft.Xna.Framework.MathHelper.IsPowerOfTwo*" class="text-break">.MathHelper.IsPowerOfTwo(Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Determines if value is powered by two.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool IsPowerOfTwo(int value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>A value.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if <code>value</code> is powered by two; otherwise <code>false</code>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

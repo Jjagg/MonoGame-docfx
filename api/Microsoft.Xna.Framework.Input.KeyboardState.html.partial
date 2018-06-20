@@ -1,0 +1,154 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.KeyboardState" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_KeyboardState" data-uid="Microsoft.Xna.Framework.Input.KeyboardState" class="text-break">KeyboardState Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Holds the state of keystrokes by a keyboard.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct KeyboardState</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.-ctor.html#Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___">KeyboardState(Keys[])</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.-ctor.html#Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___System_Boolean_System_Boolean_">KeyboardState(Keys[], Boolean, Boolean)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.CapsLock.html#Microsoft_Xna_Framework_Input_KeyboardState_CapsLock">CapsLock</a></td>
+          <td class="summary"><p>Gets the current state of the Caps Lock key.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.Item.html#Microsoft_Xna_Framework_Input_KeyboardState_Item_Microsoft_Xna_Framework_Input_Keys_">Item[Keys]</a></td>
+          <td class="summary"><p>Returns the state of a specified key.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.NumLock.html#Microsoft_Xna_Framework_Input_KeyboardState_NumLock">NumLock</a></td>
+          <td class="summary"><p>Gets the current state of the Num Lock key.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.Equals.html#Microsoft_Xna_Framework_Input_KeyboardState_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.GetHashCode.html#Microsoft_Xna_Framework_Input_KeyboardState_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets the hash code for <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.GetPressedKeys.html#Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys">GetPressedKeys()</a></td>
+          <td class="summary"><p>Returns an array of values holding keys that are currently being pressed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.IsKeyDown.html#Microsoft_Xna_Framework_Input_KeyboardState_IsKeyDown_Microsoft_Xna_Framework_Input_Keys_">IsKeyDown(Keys)</a></td>
+          <td class="summary"><p>Gets whether given key is currently being pressed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.IsKeyUp.html#Microsoft_Xna_Framework_Input_KeyboardState_IsKeyUp_Microsoft_Xna_Framework_Input_Keys_">IsKeyUp(Keys)</a></td>
+          <td class="summary"><p>Gets whether given key is currently being not pressed.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.op_Equality.html#Microsoft_Xna_Framework_Input_KeyboardState_op_Equality_Microsoft_Xna_Framework_Input_KeyboardState_Microsoft_Xna_Framework_Input_KeyboardState_">Equality(KeyboardState, KeyboardState)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> instances are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.op_Inequality.html#Microsoft_Xna_Framework_Input_KeyboardState_op_Inequality_Microsoft_Xna_Framework_Input_KeyboardState_Microsoft_Xna_Framework_Input_KeyboardState_">Inequality(KeyboardState, KeyboardState)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> instances are not equal.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

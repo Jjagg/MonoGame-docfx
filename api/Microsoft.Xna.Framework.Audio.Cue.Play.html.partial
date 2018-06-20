@@ -1,0 +1,51 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Cue.Play*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_Cue_Play_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Play*" class="text-break">.Cue.Play() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Requests playback of a prepared or preparing Cue.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Play()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_Cue_Play_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Calling Play when the Cue already is playing can result in an InvalidOperationException.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,108 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin*" class="text-break">.SpriteBatch.Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Nullable&lt;Matrix&gt;) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Begins a new sprite and text batch with the specified render state.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Begin(SpriteSortMode sortMode = SpriteSortMode.Deferred, BlendState blendState = null, SamplerState samplerState = null, DepthStencilState depthStencilState = null, RasterizerState rasterizerState = null, Effect effect = null, Matrix? transformMatrix = default(Matrix? ))</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteSortMode.html">SpriteSortMode</a></td>
+              <td><span class="parametername">sortMode</span></td>
+              <td><p>The drawing order for sprite and text drawing. <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteSortMode.html#Microsoft_Xna_Framework_Graphics_SpriteSortMode_Deferred">Deferred</a> by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BlendState.html">BlendState</a></td>
+              <td><span class="parametername">blendState</span></td>
+              <td><p>State of the blending. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.BlendState.AlphaBlend.html#Microsoft_Xna_Framework_Graphics_BlendState_AlphaBlend">AlphaBlend</a> if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SamplerState.html">SamplerState</a></td>
+              <td><span class="parametername">samplerState</span></td>
+              <td><p>State of the sampler. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.SamplerState.LinearClamp.html#Microsoft_Xna_Framework_Graphics_SamplerState_LinearClamp">LinearClamp</a> if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthStencilState.html">DepthStencilState</a></td>
+              <td><span class="parametername">depthStencilState</span></td>
+              <td><p>State of the depth-stencil buffer. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthStencilState.None.html#Microsoft_Xna_Framework_Graphics_DepthStencilState_None">None</a> if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RasterizerState.html">RasterizerState</a></td>
+              <td><span class="parametername">rasterizerState</span></td>
+              <td><p>State of the rasterization. Uses <a class="xref" href="Microsoft.Xna.Framework.Graphics.RasterizerState.CullCounterClockwise.html#Microsoft_Xna_Framework_Graphics_RasterizerState_CullCounterClockwise">CullCounterClockwise</a> if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
+              <td><span class="parametername">effect</span></td>
+              <td><p>A custom <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a> to override the default sprite effect. Uses default sprite effect if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>&gt;</td>
+              <td><span class="parametername">transformMatrix</span></td>
+              <td><p>An optional matrix used to transform the sprite geometry. Uses <a class="xref" href="Microsoft.Xna.Framework.Matrix.Identity.html#Microsoft_Xna_Framework_Matrix_Identity">Identity</a> if null.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+            <td><p>Thrown if <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_Microsoft_Xna_Framework_Graphics_SpriteSortMode_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_Microsoft_Xna_Framework_Graphics_DepthStencilState_Microsoft_Xna_Framework_Graphics_RasterizerState_Microsoft_Xna_Framework_Graphics_Effect_System_Nullable_Microsoft_Xna_Framework_Matrix__">Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Nullable&lt;Matrix&gt;)</a> is called next time without previous <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.End.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_End">End()</a>.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_Microsoft_Xna_Framework_Graphics_SpriteSortMode_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_Microsoft_Xna_Framework_Graphics_DepthStencilState_Microsoft_Xna_Framework_Graphics_RasterizerState_Microsoft_Xna_Framework_Graphics_Effect_System_Nullable_Microsoft_Xna_Framework_Matrix___remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This method uses optional parameters.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

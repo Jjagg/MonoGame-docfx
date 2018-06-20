@@ -1,0 +1,232 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKey.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKey__ctor_" data-uid="Microsoft.Xna.Framework.CurveKey.#ctor*" class="text-break">CurveKey Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKey.-ctor.html#Microsoft_Xna_Framework_CurveKey__ctor">CurveKey()</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class with position: 0 and value: 0.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKey.-ctor.html#Microsoft_Xna_Framework_CurveKey__ctor_System_Single_System_Single_">CurveKey(Single, Single)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKey.-ctor.html#Microsoft_Xna_Framework_CurveKey__ctor_System_Single_System_Single_System_Single_System_Single_">CurveKey(Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKey.-ctor.html#Microsoft_Xna_Framework_CurveKey__ctor_System_Single_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_CurveContinuity_">CurveKey(Single, Single, Single, Single, CurveContinuity)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_CurveKey__ctor" data-uid="Microsoft.Xna.Framework.CurveKey.#ctor" class="text-break">.CurveKey.CurveKey() Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class with position: 0 and value: 0.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public CurveKey()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_CurveKey__ctor_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.CurveKey.#ctor(System.Single,System.Single)" class="text-break">.CurveKey.CurveKey(Single, Single) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public CurveKey(float position, float value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>Position on the curve.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Value of the control point.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_CurveKey__ctor_System_Single_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.CurveKey.#ctor(System.Single,System.Single,System.Single,System.Single)" class="text-break">.CurveKey.CurveKey(Single, Single, Single, Single) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public CurveKey(float position, float value, float tangentIn, float tangentOut)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>Position on the curve.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Value of the control point.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">tangentIn</span></td>
+              <td><p>Tangent approaching point from the previous point on the curve.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">tangentOut</span></td>
+              <td><p>Tangent leaving point toward next point on the curve.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_CurveKey__ctor_System_Single_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_CurveContinuity_" data-uid="Microsoft.Xna.Framework.CurveKey.#ctor(System.Single,System.Single,System.Single,System.Single,Microsoft.Xna.Framework.CurveContinuity)" class="text-break">.CurveKey.CurveKey(Single, Single, Single, Single, CurveContinuity) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public CurveKey(float position, float value, float tangentIn, float tangentOut, CurveContinuity continuity)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>Position on the curve.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Value of the control point.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">tangentIn</span></td>
+              <td><p>Tangent approaching point from the previous point on the curve.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">tangentOut</span></td>
+              <td><p>Tangent leaving point toward next point on the curve.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveContinuity.html">CurveContinuity</a></td>
+              <td><span class="parametername">continuity</span></td>
+              <td><p>Indicates whether the curve is discrete or continuous.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,57 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameComponentCollectionEventArgs.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameComponentCollectionEventArgs__ctor_" data-uid="Microsoft.Xna.Framework.GameComponentCollectionEventArgs.#ctor*" class="text-break">.GameComponentCollectionEventArgs.GameComponentCollectionEventArgs(IGameComponent) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GameComponentCollectionEventArgs(IGameComponent gameComponent)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.IGameComponent.html">IGameComponent</a></td>
+              <td><span class="parametername">gameComponent</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

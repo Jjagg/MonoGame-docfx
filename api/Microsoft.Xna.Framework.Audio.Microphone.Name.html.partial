@@ -1,0 +1,42 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Microphone.Name" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_Microphone_Name" data-uid="Microsoft.Xna.Framework.Audio.Microphone.Name" class="text-break">Microphone.Name Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Returns the friendly name of the microphone.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public readonly string Name</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

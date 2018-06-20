@@ -1,0 +1,69 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.PackedValue*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgra4444_PackedValue_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgra4444.PackedValue*" class="text-break">.Bgra4444.PackedValue Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets and sets the packed value.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
+public ushort PackedValue { get; set; }</code></pre>
+        </div>
+      
+      
+        <div class="type-subheader attributes">
+          <strong>Attributes</strong>
+            <div>System.CLSCompliantAttribute</div>
+        </div>
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><span class="xref">Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector&lt;System.UInt16&gt;.PackedValue</span></div>
+      </div>
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

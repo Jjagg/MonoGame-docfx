@@ -1,0 +1,66 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.UseReferenceDevice*" class="text-break">.GraphicsAdapter.UseReferenceDevice Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Used to request creation of the reference graphics device, 
+or the default hardware accelerated device (when set to false).</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool UseReferenceDevice { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_UseReferenceDevice_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This only works on DirectX platforms where a reference graphics
+device is available and must be defined before the graphics device
+is created. It defaults to false.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

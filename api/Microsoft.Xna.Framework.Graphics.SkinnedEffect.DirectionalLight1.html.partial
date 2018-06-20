@@ -1,0 +1,64 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1*" class="text-break">.SkinnedEffect.DirectionalLight1 Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets the second directional light.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight1 { get; }</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1.html#Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1">DirectionalLight1</a></div>
+      </div>
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,84 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect_GetSampleSizeInBytes_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes*" class="text-break">.SoundEffect.GetSampleSizeInBytes(TimeSpan, Int32, AudioChannels) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns the data size in bytes for 16bit PCM audio.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static int GetSampleSizeInBytes(TimeSpan duration, int sampleRate, AudioChannels channels)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+              <td><span class="parametername">duration</span></td>
+              <td><p>The total duration of the audio data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sampleRate</span></td>
+              <td><p>Sample rate, in Hertz (Hz), of audio data. Must be between 8,000 and 48,000 Hz.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+              <td><span class="parametername">channels</span></td>
+              <td><p>Number of channels in the audio data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+            <td><p>The size in bytes of a single sample of audio data.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

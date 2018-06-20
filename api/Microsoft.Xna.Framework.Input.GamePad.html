@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>GamePad Class | MonoGame Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="GamePad Class | MonoGame Documentation ">
+    <meta name="generator" content="docfx 2.36.1.0">
+    <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Input.GamePad">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <div class="flex-col">
+      <header>
+        
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
+          </div>
+          <div class="collapse" id="navbar"></div>
+        </nav>
+      </header>
+      <div class="flex-row flex-stretch no-overflow pos-rel">
+        
+        <div id="page-toc" class="shown pos-rel hide">
+          <div id="toc-scroll-wrapper" class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
+          </div>
+        </div>
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="page-main flex-stretch">
+            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
+              <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
+            </div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row ">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Input_GamePad.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Input.GamePad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+    Improve this Doc
+  </a>
+</div>
+
+              <div id="content-wrapper">
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePad" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePad" data-uid="Microsoft.Xna.Framework.Input.GamePad" class="text-break">GamePad Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Supports querying the game controllers and setting the vibration motors.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static class GamePad</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">GamePad</span>
+    </div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+      </div>
+      <div>
+        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+      </div>
+      <div>
+        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+      </div>
+      <div>
+        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.MaximumGamePadCount" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="4">The maximum number of game pads supported on this system.  Attempting to
+access a gamepad index higher than this number will result in an <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref>
+being thrown by the API.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(Microsoft.Xna.Framework.PlayerIndex)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the capabilites of the connected controller.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.GetCapabilities(System.Int32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the capabilites of the connected controller.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex,Microsoft.Xna.Framework.Input.GamePadDeadZone)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32,Microsoft.Xna.Framework.Input.GamePadDeadZone)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(Microsoft.Xna.Framework.PlayerIndex,System.Single,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets the vibration motor speeds on the controller device if supported.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(System.Int32,System.Single,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Input.GamePad.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Sets the vibration motor speeds on the controller device if supported.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>
+
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
+              </div>
+            </div>
+          </div>
+          
+          <div id="page-affix" role="complementary" class=" ">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../js/tree.js"></script>
+    <script src="../js/main.js"></script>
+    
+  </body>
+</html>

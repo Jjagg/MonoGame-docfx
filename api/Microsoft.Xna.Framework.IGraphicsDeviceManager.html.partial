@@ -1,0 +1,58 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_IGraphicsDeviceManager" data-uid="Microsoft.Xna.Framework.IGraphicsDeviceManager" class="text-break">IGraphicsDeviceManager Interface</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Used by the platform code to control the graphics device.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public interface IGraphicsDeviceManager</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IGraphicsDeviceManager.BeginDraw.html#Microsoft_Xna_Framework_IGraphicsDeviceManager_BeginDraw">BeginDraw()</a></td>
+          <td class="summary"><p>Called at the start of rendering a frame.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IGraphicsDeviceManager.CreateDevice.html#Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice">CreateDevice()</a></td>
+          <td class="summary"><p>Called to create the graphics device.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IGraphicsDeviceManager.EndDraw.html#Microsoft_Xna_Framework_IGraphicsDeviceManager_EndDraw">EndDraw()</a></td>
+          <td class="summary"><p>Called after rendering to present the frame to the screen.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

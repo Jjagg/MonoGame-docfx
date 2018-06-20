@@ -1,0 +1,427 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingSphere_Contains_" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains*" class="text-break">Contains Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingBox_">Contains(BoundingBox)</a></td>
+          <td class="summary"><p>Test if a bounding box is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_ContainmentType__">Contains(ref BoundingBox, out ContainmentType)</a></td>
+          <td class="summary"><p>Test if a bounding box is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingFrustum_">Contains(BoundingFrustum)</a></td>
+          <td class="summary"><p>Test if a frustum is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingFrustum__Microsoft_Xna_Framework_ContainmentType__">Contains(ref BoundingFrustum, out ContainmentType)</a></td>
+          <td class="summary"><p>Test if a frustum is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingSphere_">Contains(BoundingSphere)</a></td>
+          <td class="summary"><p>Test if a sphere is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_ContainmentType__">Contains(ref BoundingSphere, out ContainmentType)</a></td>
+          <td class="summary"><p>Test if a sphere is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_Vector3_">Contains(Vector3)</a></td>
+          <td class="summary"><p>Test if a point is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Contains.html#Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_ContainmentType__">Contains(ref Vector3, out ContainmentType)</a></td>
+          <td class="summary"><p>Test if a point is fully inside, outside, or just intersecting the sphere.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingBox_" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.BoundingBox)" class="text-break">.BoundingSphere.Contains(BoundingBox) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a bounding box is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ContainmentType Contains(BoundingBox box)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">box</span></td>
+              <td><p>The box for testing.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+            <td><p>The containment type.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_ContainmentType__" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.BoundingBox@,Microsoft.Xna.Framework.ContainmentType@)" class="text-break">.BoundingSphere.Contains(ref BoundingBox, out ContainmentType) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a bounding box is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Contains(ref BoundingBox box, out ContainmentType result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">box</span></td>
+              <td><p>The box for testing.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The containment type as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingFrustum_" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.BoundingFrustum)" class="text-break">.BoundingSphere.Contains(BoundingFrustum) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a frustum is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ContainmentType Contains(BoundingFrustum frustum)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a></td>
+              <td><span class="parametername">frustum</span></td>
+              <td><p>The frustum for testing.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+            <td><p>The containment type.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingFrustum__Microsoft_Xna_Framework_ContainmentType__" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.BoundingFrustum@,Microsoft.Xna.Framework.ContainmentType@)" class="text-break">.BoundingSphere.Contains(ref BoundingFrustum, out ContainmentType) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a frustum is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Contains(ref BoundingFrustum frustum, out ContainmentType result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a></td>
+              <td><span class="parametername">frustum</span></td>
+              <td><p>The frustum for testing.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The containment type as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingSphere_" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.BoundingSphere)" class="text-break">.BoundingSphere.Contains(BoundingSphere) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a sphere is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ContainmentType Contains(BoundingSphere sphere)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td><p>The other sphere for testing.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+            <td><p>The containment type.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_ContainmentType__" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.BoundingSphere@,Microsoft.Xna.Framework.ContainmentType@)" class="text-break">.BoundingSphere.Contains(ref BoundingSphere, out ContainmentType) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a sphere is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Contains(ref BoundingSphere sphere, out ContainmentType result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td><p>The other sphere for testing.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The containment type as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_Vector3_" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.Vector3)" class="text-break">.BoundingSphere.Contains(Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a point is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ContainmentType Contains(Vector3 point)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">point</span></td>
+              <td><p>The vector in 3D-space for testing.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+            <td><p>The containment type.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Contains_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_ContainmentType__" data-uid="Microsoft.Xna.Framework.BoundingSphere.Contains(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.ContainmentType@)" class="text-break">.BoundingSphere.Contains(ref Vector3, out ContainmentType) Method</h2>
+    <div class="markdown level0 summary"><p>Test if a point is fully inside, outside, or just intersecting the sphere.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Contains(ref Vector3 point, out ContainmentType result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">point</span></td>
+              <td><p>The vector in 3D-space for testing.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.ContainmentType.html">ContainmentType</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The containment type as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

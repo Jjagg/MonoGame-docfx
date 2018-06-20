@@ -1,0 +1,48 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges*" class="text-break">.GraphicsDeviceManager.ApplyChanges() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Applies any pending property changes to the graphics device.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void ApplyChanges()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

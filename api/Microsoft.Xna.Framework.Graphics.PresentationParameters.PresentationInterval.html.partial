@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PresentationParameters.PresentationInterval*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PresentationParameters_PresentationInterval_" data-uid="Microsoft.Xna.Framework.Graphics.PresentationParameters.PresentationInterval*" class="text-break">.PresentationParameters.PresentationInterval Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Get or set the presentation interval.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public PresentInterval PresentationInterval { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PresentInterval.html">PresentInterval</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

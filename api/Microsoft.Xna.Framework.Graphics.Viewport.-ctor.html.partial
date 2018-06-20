@@ -1,0 +1,204 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Viewport__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.#ctor*" class="text-break">Viewport Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.-ctor.html#Microsoft_Xna_Framework_Graphics_Viewport__ctor_System_Int32_System_Int32_System_Int32_System_Int32_">Viewport(Int32, Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Constructs a viewport from the given values. The <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.MinDepth.html#Microsoft_Xna_Framework_Graphics_Viewport_MinDepth">MinDepth</a> will be 0.0 and <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.MaxDepth.html#Microsoft_Xna_Framework_Graphics_Viewport_MaxDepth">MaxDepth</a> will be 1.0.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.-ctor.html#Microsoft_Xna_Framework_Graphics_Viewport__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Single_System_Single_">Viewport(Int32, Int32, Int32, Int32, Single, Single)</a></td>
+          <td class="summary"><p>Constructs a viewport from the given values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.-ctor.html#Microsoft_Xna_Framework_Graphics_Viewport__ctor_Microsoft_Xna_Framework_Rectangle_">Viewport(Rectangle)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a> struct.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_Viewport__ctor_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)" class="text-break">.Viewport.Viewport(Int32, Int32, Int32, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Constructs a viewport from the given values. The <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.MinDepth.html#Microsoft_Xna_Framework_Graphics_Viewport_MinDepth">MinDepth</a> will be 0.0 and <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.MaxDepth.html#Microsoft_Xna_Framework_Graphics_Viewport_MaxDepth">MaxDepth</a> will be 1.0.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Viewport(int x, int y, int width, int height)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>The x coordinate of the upper-left corner of the view bounds in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>The y coordinate of the upper-left corner of the view bounds in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td><p>The width of the view bounds in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td><p>The height of the view bounds in pixels.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Viewport__ctor_System_Int32_System_Int32_System_Int32_System_Int32_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)" class="text-break">.Viewport.Viewport(Int32, Int32, Int32, Int32, Single, Single) Constructor</h2>
+    <div class="markdown level0 summary"><p>Constructs a viewport from the given values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Viewport(int x, int y, int width, int height, float minDepth, float maxDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>The x coordinate of the upper-left corner of the view bounds in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>The y coordinate of the upper-left corner of the view bounds in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td><p>The width of the view bounds in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td><p>The height of the view bounds in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">minDepth</span></td>
+              <td><p>The lower limit of depth.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">maxDepth</span></td>
+              <td><p>The upper limit of depth.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Viewport__ctor_Microsoft_Xna_Framework_Rectangle_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.#ctor(Microsoft.Xna.Framework.Rectangle)" class="text-break">.Viewport.Viewport(Rectangle) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a> struct.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Viewport(Rectangle bounds)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">bounds</span></td>
+              <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that defines the location and size of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a> in a render target.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,76 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.Add*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKeyCollection_Add_" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.Add*" class="text-break">.CurveKeyCollection.Add(CurveKey) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Adds a key to this collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Add(CurveKey item)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add#System_Collections_Generic_ICollection_1_Add__0_">Add</a>(<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a></td>
+              <td><span class="parametername">item</span></td>
+              <td><p>New key for the collection.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p>Throws if <code data-dev-comment-type="paramref" class="paramref">item</code> is null.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    <h id="Microsoft_Xna_Framework_CurveKeyCollection_Add_Microsoft_Xna_Framework_CurveKey__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>The new key would be added respectively to a position of that key and the position of other keys.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

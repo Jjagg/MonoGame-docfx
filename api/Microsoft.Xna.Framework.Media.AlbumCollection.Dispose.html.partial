@@ -1,0 +1,52 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Dispose*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_AlbumCollection_Dispose_" data-uid="Microsoft.Xna.Framework.Media.AlbumCollection.Dispose*" class="text-break">.AlbumCollection.Dispose() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Immediately releases the unmanaged resources used by this object.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable.dispose#System_IDisposable_Dispose">Dispose</a>()</div>
+      </div>
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,65 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.SetGlobalVariable*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioEngine_SetGlobalVariable_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.SetGlobalVariable*" class="text-break">.AudioEngine.SetGlobalVariable(String, Single) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Sets the value of a global variable.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetGlobalVariable(string name, float value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">name</span></td>
+              <td><p>Friendly name of the variable.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Value of the global variable.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

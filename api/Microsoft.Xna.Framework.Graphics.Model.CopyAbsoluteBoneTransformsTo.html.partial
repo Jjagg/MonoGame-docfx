@@ -1,0 +1,59 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Model.CopyAbsoluteBoneTransformsTo*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Model_CopyAbsoluteBoneTransformsTo_" data-uid="Microsoft.Xna.Framework.Graphics.Model.CopyAbsoluteBoneTransformsTo*" class="text-break">.Model.CopyAbsoluteBoneTransformsTo(Matrix[]) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Copies bone transforms relative to all parent bones of the each bone from this model to a given array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void CopyAbsoluteBoneTransformsTo(Matrix[] destinationBoneTransforms)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>[]</td>
+              <td><span class="parametername">destinationBoneTransforms</span></td>
+              <td><p>The array receiving the transformed bones.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

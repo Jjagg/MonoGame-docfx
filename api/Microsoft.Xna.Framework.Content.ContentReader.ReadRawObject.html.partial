@@ -1,0 +1,262 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject*" class="text-break">ReadRawObject Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject.html#Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1">ReadRawObject&lt;T&gt;()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject.html#Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader_">ReadRawObject&lt;T&gt;(ContentTypeReader)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject.html#Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1___0_">ReadRawObject&lt;T&gt;(T)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject.html#Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader___0_">ReadRawObject&lt;T&gt;(ContentTypeReader, T)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1" class="text-break">.ContentReader.ReadRawObject&lt;T&gt;() Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><span class="xref">T</span></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1(Microsoft.Xna.Framework.Content.ContentTypeReader)" class="text-break">.ContentReader.ReadRawObject&lt;T&gt;(ContentTypeReader) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;(ContentTypeReader typeReader)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
+              <td><span class="parametername">typeReader</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><span class="xref">T</span></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1___0_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1(``0)" class="text-break">.ContentReader.ReadRawObject&lt;T&gt;(T) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;(T existingInstance)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="xref">T</span></td>
+              <td><span class="parametername">existingInstance</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><span class="xref">T</span></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Content_ContentReader_ReadRawObject__1_Microsoft_Xna_Framework_Content_ContentTypeReader___0_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadRawObject``1(Microsoft.Xna.Framework.Content.ContentTypeReader,``0)" class="text-break">.ContentReader.ReadRawObject&lt;T&gt;(ContentTypeReader, T) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public T ReadRawObject&lt;T&gt;(ContentTypeReader typeReader, T existingInstance)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
+              <td><span class="parametername">typeReader</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><span class="xref">T</span></td>
+              <td><span class="parametername">existingInstance</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><span class="xref">T</span></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

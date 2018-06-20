@@ -1,0 +1,140 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Color.Deconstruct*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Color_Deconstruct_" data-uid="Microsoft.Xna.Framework.Color.Deconstruct*" class="text-break">Deconstruct Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Color.Deconstruct.html#Microsoft_Xna_Framework_Color_Deconstruct_System_Single__System_Single__System_Single__">Deconstruct(out Single, out Single, out Single)</a></td>
+          <td class="summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Color.Deconstruct.html#Microsoft_Xna_Framework_Color_Deconstruct_System_Single__System_Single__System_Single__System_Single__">Deconstruct(out Single, out Single, out Single, out Single)</a></td>
+          <td class="summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a> with Alpha.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Color_Deconstruct_System_Single__System_Single__System_Single__" data-uid="Microsoft.Xna.Framework.Color.Deconstruct(System.Single@,System.Single@,System.Single@)" class="text-break">.Color.Deconstruct(out Single, out Single, out Single) Method</h2>
+    <div class="markdown level0 summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Deconstruct(out float r, out float g, out float b)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">r</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">g</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">b</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Color_Deconstruct_System_Single__System_Single__System_Single__System_Single__" data-uid="Microsoft.Xna.Framework.Color.Deconstruct(System.Single@,System.Single@,System.Single@,System.Single@)" class="text-break">.Color.Deconstruct(out Single, out Single, out Single, out Single) Method</h2>
+    <div class="markdown level0 summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a> with Alpha.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Deconstruct(out float r, out float g, out float b, out float a)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">r</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">g</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">b</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">a</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

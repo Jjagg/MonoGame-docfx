@@ -1,0 +1,150 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Model" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Model" data-uid="Microsoft.Xna.Framework.Graphics.Model" class="text-break">Model Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>A basic 3D model with per mesh parent bones.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class Model</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">Model</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.-ctor.html#Microsoft_Xna_Framework_Graphics_Model__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Collections_Generic_List_Microsoft_Xna_Framework_Graphics_ModelBone__System_Collections_Generic_List_Microsoft_Xna_Framework_Graphics_ModelMesh__">Model(GraphicsDevice, List&lt;ModelBone&gt;, List&lt;ModelMesh&gt;)</a></td>
+          <td class="summary"><p>Constructs a model. </p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Bones.html#Microsoft_Xna_Framework_Graphics_Model_Bones">Bones</a></td>
+          <td class="summary"><p>A collection of <a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelBone.html">ModelBone</a> objects which describe how each mesh in the
+mesh collection for this model relates to its parent mesh.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Meshes.html#Microsoft_Xna_Framework_Graphics_Model_Meshes">Meshes</a></td>
+          <td class="summary"><p>A collection of <a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a> objects which compose the model. Each <a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a>
+in a model may be moved independently and may be composed of multiple materials
+identified as <a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a> objects.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Root.html#Microsoft_Xna_Framework_Graphics_Model_Root">Root</a></td>
+          <td class="summary"><p>Root bone for this model.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Tag.html#Microsoft_Xna_Framework_Graphics_Model_Tag">Tag</a></td>
+          <td class="summary"><p>Custom attached object.
+<remarks>
+Skinning data is example of attached object for model.
+</remarks></p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.CopyAbsoluteBoneTransformsTo.html#Microsoft_Xna_Framework_Graphics_Model_CopyAbsoluteBoneTransformsTo_Microsoft_Xna_Framework_Matrix___">CopyAbsoluteBoneTransformsTo(Matrix[])</a></td>
+          <td class="summary"><p>Copies bone transforms relative to all parent bones of the each bone from this model to a given array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.CopyBoneTransformsFrom.html#Microsoft_Xna_Framework_Graphics_Model_CopyBoneTransformsFrom_Microsoft_Xna_Framework_Matrix___">CopyBoneTransformsFrom(Matrix[])</a></td>
+          <td class="summary"><p>Copies bone transforms relative to <a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Root.html#Microsoft_Xna_Framework_Graphics_Model_Root">Root</a> bone from a given array to this model.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.CopyBoneTransformsTo.html#Microsoft_Xna_Framework_Graphics_Model_CopyBoneTransformsTo_Microsoft_Xna_Framework_Matrix___">CopyBoneTransformsTo(Matrix[])</a></td>
+          <td class="summary"><p>Copies bone transforms relative to <a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Root.html#Microsoft_Xna_Framework_Graphics_Model_Root">Root</a> bone from this model to a given array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Draw.html#Microsoft_Xna_Framework_Graphics_Model_Draw_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_Microsoft_Xna_Framework_Matrix_">Draw(Matrix, Matrix, Matrix)</a></td>
+          <td class="summary"><p>Draws the model meshes.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

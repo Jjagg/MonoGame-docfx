@@ -1,0 +1,165 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.MediaPlayer.Play*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_MediaPlayer_Play_" data-uid="Microsoft.Xna.Framework.Media.MediaPlayer.Play*" class="text-break">Play Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.MediaPlayer.Play.html#Microsoft_Xna_Framework_Media_MediaPlayer_Play_Microsoft_Xna_Framework_Media_Song_">Play(Song)</a></td>
+          <td class="summary"><p>Play clears the current playback queue, and then queues up the specified song for playback. 
+Playback starts immediately at the beginning of the song.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.MediaPlayer.Play.html#Microsoft_Xna_Framework_Media_MediaPlayer_Play_Microsoft_Xna_Framework_Media_Song_System_Nullable_System_TimeSpan__">Play(Song, Nullable&lt;TimeSpan&gt;)</a></td>
+          <td class="summary"><p>Play clears the current playback queue, and then queues up the specified song for playback. 
+Playback starts immediately at the given position of the song.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Media.MediaPlayer.Play.html#Microsoft_Xna_Framework_Media_MediaPlayer_Play_Microsoft_Xna_Framework_Media_SongCollection_System_Int32_">Play(SongCollection, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Media_MediaPlayer_Play_Microsoft_Xna_Framework_Media_Song_" data-uid="Microsoft.Xna.Framework.Media.MediaPlayer.Play(Microsoft.Xna.Framework.Media.Song)" class="text-break">.MediaPlayer.Play(Song) Method</h2>
+    <div class="markdown level0 summary"><p>Play clears the current playback queue, and then queues up the specified song for playback. 
+Playback starts immediately at the beginning of the song.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Play(Song song)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a></td>
+              <td><span class="parametername">song</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Media_MediaPlayer_Play_Microsoft_Xna_Framework_Media_Song_System_Nullable_System_TimeSpan__" data-uid="Microsoft.Xna.Framework.Media.MediaPlayer.Play(Microsoft.Xna.Framework.Media.Song,System.Nullable{System.TimeSpan})" class="text-break">.MediaPlayer.Play(Song, Nullable&lt;TimeSpan&gt;) Method</h2>
+    <div class="markdown level0 summary"><p>Play clears the current playback queue, and then queues up the specified song for playback. 
+Playback starts immediately at the given position of the song.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Play(Song song, TimeSpan? startPosition)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a></td>
+              <td><span class="parametername">song</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+              <td><span class="parametername">startPosition</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Media_MediaPlayer_Play_Microsoft_Xna_Framework_Media_SongCollection_System_Int32_" data-uid="Microsoft.Xna.Framework.Media.MediaPlayer.Play(Microsoft.Xna.Framework.Media.SongCollection,System.Int32)" class="text-break">.MediaPlayer.Play(SongCollection, Int32) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Play(SongCollection collection, int index = 0)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Media.SongCollection.html">SongCollection</a></td>
+              <td><span class="parametername">collection</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">index</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

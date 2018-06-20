@@ -1,0 +1,160 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector2.Lerp*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector2_Lerp_" data-uid="Microsoft.Xna.Framework.Vector2.Lerp*" class="text-break">Lerp Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Lerp.html#Microsoft_Xna_Framework_Vector2_Lerp_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_">Lerp(Vector2, Vector2, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains linear interpolation of the specified vectors.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Lerp.html#Microsoft_Xna_Framework_Vector2_Lerp_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__System_Single_Microsoft_Xna_Framework_Vector2__">Lerp(ref Vector2, ref Vector2, Single, out Vector2)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains linear interpolation of the specified vectors.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector2_Lerp_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_" data-uid="Microsoft.Xna.Framework.Vector2.Lerp(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)" class="text-break">.Vector2.Lerp(Vector2, Vector2, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains linear interpolation of the specified vectors.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 Lerp(Vector2 value1, Vector2 value2, float amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Weighting value(between 0.0 and 1.0).</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The result of linear interpolation of the specified vectors.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Lerp_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__System_Single_Microsoft_Xna_Framework_Vector2__" data-uid="Microsoft.Xna.Framework.Vector2.Lerp(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,System.Single,Microsoft.Xna.Framework.Vector2@)" class="text-break">.Vector2.Lerp(ref Vector2, ref Vector2, Single, out Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains linear interpolation of the specified vectors.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Lerp(ref Vector2 value1, ref Vector2 value2, float amount, out Vector2 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Weighting value(between 0.0 and 1.0).</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of linear interpolation of the specified vectors as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,285 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect" class="text-break">EnvironmentMapEffect Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Built-in effect that supports environment mapping.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class EnvironmentMapEffect : Effect, IDisposable, IEffectMatrices, IEffectLights, IEffectFog</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level3"><span class="xref">EnvironmentMapEffect</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectMatrices.html">IEffectMatrices</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.html">IEffectLights</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.html">IEffectFog</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.Parameters.html#Microsoft_Xna_Framework_Graphics_Effect_Parameters">Effect.Parameters</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.Techniques.html#Microsoft_Xna_Framework_Graphics_Effect_Techniques">Effect.Techniques</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.CurrentTechnique.html#Microsoft_Xna_Framework_Graphics_Effect_CurrentTechnique">Effect.CurrentTechnique</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.Dispose.html#Microsoft_Xna_Framework_Graphics_Effect_Dispose_System_Boolean_">Effect.Dispose(Boolean)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.GraphicsDeviceResetting.html#Microsoft_Xna_Framework_Graphics_Effect_GraphicsDeviceResetting">Effect.GraphicsDeviceResetting()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.-ctor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_">EnvironmentMapEffect(EnvironmentMapEffect)</a></td>
+          <td class="summary"><p>Creates a new EnvironmentMapEffect by cloning parameter settings from an existing instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.-ctor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_">EnvironmentMapEffect(GraphicsDevice)</a></td>
+          <td class="summary"><p>Creates a new EnvironmentMapEffect with default parameter settings.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Alpha.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Alpha">Alpha</a></td>
+          <td class="summary"><p>Gets or sets the material alpha.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor">AmbientLightColor</a></td>
+          <td class="summary"><p>Gets or sets the ambient light color (range 0 to 1).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DiffuseColor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DiffuseColor">DiffuseColor</a></td>
+          <td class="summary"><p>Gets or sets the material diffuse color (range 0 to 1).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight0.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight0">DirectionalLight0</a></td>
+          <td class="summary"><p>Gets the first directional light.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight1.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight1">DirectionalLight1</a></td>
+          <td class="summary"><p>Gets the second directional light.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.DirectionalLight2.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_DirectionalLight2">DirectionalLight2</a></td>
+          <td class="summary"><p>Gets the third directional light.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EmissiveColor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EmissiveColor">EmissiveColor</a></td>
+          <td class="summary"><p>Gets or sets the material emissive color (range 0 to 1).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMap.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMap">EnvironmentMap</a></td>
+          <td class="summary"><p>Gets or sets the current environment map texture.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapAmount.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapAmount">EnvironmentMapAmount</a></td>
+          <td class="summary"><p>Gets or sets the amount of the environment map RGB that will be blended over 
+the base texture. Range 0 to 1, default 1. If set to zero, the RGB channels 
+of the environment map will completely ignored (but the environment map alpha 
+may still be visible if EnvironmentMapSpecular is greater than zero).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnvironmentMapSpecular.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnvironmentMapSpecular">EnvironmentMapSpecular</a></td>
+          <td class="summary"><p>Gets or sets the amount of the environment map alpha channel that will 
+be added to the base texture. Range 0 to 1, default 0. This can be used 
+to implement cheap specular lighting, by encoding one or more specular 
+highlight patterns into the environment map alpha channel, then setting 
+EnvironmentMapSpecular to the desired specular light color.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogColor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogColor">FogColor</a></td>
+          <td class="summary"><p>Gets or sets the fog color.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnabled.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnabled">FogEnabled</a></td>
+          <td class="summary"><p>Gets or sets the fog enable flag.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogEnd.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogEnd">FogEnd</a></td>
+          <td class="summary"><p>Gets or sets the fog end distance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FogStart.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FogStart">FogStart</a></td>
+          <td class="summary"><p>Gets or sets the fog start distance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.FresnelFactor.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_FresnelFactor">FresnelFactor</a></td>
+          <td class="summary"><p>Gets or sets the Fresnel factor used for the environment map blending. 
+Higher values make the environment map only visible around the silhouette 
+edges of the object, while lower values make it visible everywhere. 
+Setting this property to 0 disables Fresnel entirely, making the 
+environment map equally visible regardless of view angle. The default is </p>
+<ol>
+<li>Fresnel only affects the environment map RGB (the intensity of which is 
+controlled by EnvironmentMapAmount). The alpha contribution (controlled by 
+EnvironmentMapSpecular) is not affected by the Fresnel setting.</li>
+</ol>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Microsoft-Xna-Framework-Graphics-IEffectLights-LightingEnabled.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled">IEffectLights.LightingEnabled</a></td>
+          <td class="summary"><p>This effect requires lighting, so we explicitly implement
+IEffectLights.LightingEnabled, and do not allow turning it off.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Projection.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Projection">Projection</a></td>
+          <td class="summary"><p>Gets or sets the projection matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Texture.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Texture">Texture</a></td>
+          <td class="summary"><p>Gets or sets the current texture.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.View.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_View">View</a></td>
+          <td class="summary"><p>Gets or sets the view matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.World.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_World">World</a></td>
+          <td class="summary"><p>Gets or sets the world matrix.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.Clone.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_Clone">Clone()</a></td>
+          <td class="summary"><p>Creates a clone of the current EnvironmentMapEffect instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.EnableDefaultLighting.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_EnableDefaultLighting">EnableDefaultLighting()</a></td>
+          <td class="summary"><p>Sets up the standard key/fill/back lighting rig.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.OnApply.html#Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_OnApply">OnApply()</a></td>
+          <td class="summary"><p>Lazily computes derived parameter values immediately before applying the effect.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

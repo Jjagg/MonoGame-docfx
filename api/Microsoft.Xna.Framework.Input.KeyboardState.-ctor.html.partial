@@ -1,0 +1,129 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_KeyboardState__ctor_" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.#ctor*" class="text-break">KeyboardState Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.-ctor.html#Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___System_Boolean_System_Boolean_">KeyboardState(Keys[], Boolean, Boolean)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.-ctor.html#Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___">KeyboardState(Keys[])</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___System_Boolean_System_Boolean_" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.#ctor(Microsoft.Xna.Framework.Input.Keys[],System.Boolean,System.Boolean)" class="text-break">.KeyboardState.KeyboardState(Keys[], Boolean, Boolean) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public KeyboardState(Keys[] keys, bool capsLock = false, bool numLock = false)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Keys.html">Keys</a>[]</td>
+              <td><span class="parametername">keys</span></td>
+              <td><p>List of keys to be flagged as pressed on initialization.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">capsLock</span></td>
+              <td><p>Caps Lock state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">numLock</span></td>
+              <td><p>Num Lock state.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.#ctor(Microsoft.Xna.Framework.Input.Keys[])" class="text-break">.KeyboardState.KeyboardState(Keys[]) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public KeyboardState(params Keys[] keys)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Keys.html">Keys</a>[]</td>
+              <td><span class="parametername">keys</span></td>
+              <td><p>List of keys to be flagged as pressed on initialization.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

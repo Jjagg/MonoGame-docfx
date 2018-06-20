@@ -1,0 +1,58 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Stop*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioCategory_Stop_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.Stop*" class="text-break">.AudioCategory.Stop(AudioStopOptions) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Stops all associated sounds.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Stop(AudioStopOptions options)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioStopOptions.html">AudioStopOptions</a></td>
+              <td><span class="parametername">options</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

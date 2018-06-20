@@ -1,0 +1,51 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Update*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioEngine_Update_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.Update*" class="text-break">.AudioEngine.Update() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Performs periodic work required by the audio engine.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_AudioEngine_Update_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Must be called at least once per frame.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

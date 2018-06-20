@@ -1,0 +1,35 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ClearOptions" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_ClearOptions" data-uid="Microsoft.Xna.Framework.Graphics.ClearOptions" class="text-break">ClearOptions Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines the buffers for clearing when calling <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.Clear.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_Clear_Microsoft_Xna_Framework_Graphics_ClearOptions_Microsoft_Xna_Framework_Color_System_Single_System_Int32_">Clear(ClearOptions, Color, Single, Int32)</a> operation.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[Flags]
+public enum ClearOptions</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.FlagsAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

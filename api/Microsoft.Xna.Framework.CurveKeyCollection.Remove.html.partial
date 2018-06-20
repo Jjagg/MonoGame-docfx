@@ -1,0 +1,76 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.Remove*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKeyCollection_Remove_" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.Remove*" class="text-break">.CurveKeyCollection.Remove(CurveKey) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Removes specific element.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Remove(CurveKey item)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove#System_Collections_Generic_ICollection_1_Remove__0_">Remove</a>(<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a></td>
+              <td><span class="parametername">item</span></td>
+              <td><p>The element</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if item is successfully removed; <code>false</code> otherwise. This method also returns <code>false</code> if item was not found.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

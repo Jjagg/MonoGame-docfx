@@ -1,0 +1,113 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingBox.GetCorners*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingBox_GetCorners_" data-uid="Microsoft.Xna.Framework.BoundingBox.GetCorners*" class="text-break">GetCorners Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.GetCorners.html#Microsoft_Xna_Framework_BoundingBox_GetCorners">GetCorners()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.GetCorners.html#Microsoft_Xna_Framework_BoundingBox_GetCorners_Microsoft_Xna_Framework_Vector3___">GetCorners(Vector3[])</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_GetCorners" data-uid="Microsoft.Xna.Framework.BoundingBox.GetCorners" class="text-break">.BoundingBox.GetCorners() Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector3[] GetCorners()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>[]</td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_GetCorners_Microsoft_Xna_Framework_Vector3___" data-uid="Microsoft.Xna.Framework.BoundingBox.GetCorners(Microsoft.Xna.Framework.Vector3[])" class="text-break">.BoundingBox.GetCorners(Vector3[]) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetCorners(Vector3[] corners)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>[]</td>
+              <td><span class="parametername">corners</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

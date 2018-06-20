@@ -1,0 +1,121 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameWindow_EndScreenDeviceChange_" data-uid="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange*" class="text-break">EndScreenDeviceChange Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange.html#Microsoft_Xna_Framework_GameWindow_EndScreenDeviceChange_System_String_System_Int32_System_Int32_">EndScreenDeviceChange(String, Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange.html#Microsoft_Xna_Framework_GameWindow_EndScreenDeviceChange_System_String_">EndScreenDeviceChange(String)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_GameWindow_EndScreenDeviceChange_System_String_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange(System.String,System.Int32,System.Int32)" class="text-break">.GameWindow.EndScreenDeviceChange(String, Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public abstract void EndScreenDeviceChange(string screenDeviceName, int clientWidth, int clientHeight)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">screenDeviceName</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">clientWidth</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">clientHeight</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_GameWindow_EndScreenDeviceChange_System_String_" data-uid="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange(System.String)" class="text-break">.GameWindow.EndScreenDeviceChange(String) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void EndScreenDeviceChange(string screenDeviceName)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">screenDeviceName</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

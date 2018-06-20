@@ -1,0 +1,51 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Play*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Play_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Play*" class="text-break">.SoundEffectInstance.Play() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Plays or resumes a SoundEffectInstance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public virtual void Play()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Play_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Throws an exception if more sounds are playing than the platform allows.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

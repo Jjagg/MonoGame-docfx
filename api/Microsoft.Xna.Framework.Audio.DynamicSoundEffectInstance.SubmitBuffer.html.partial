@@ -1,0 +1,135 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer*" class="text-break">SubmitBuffer Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer.html#Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___">SubmitBuffer(Byte[])</a></td>
+          <td class="summary"><p>Queues an audio buffer for playback.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer.html#Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32_">SubmitBuffer(Byte[], Int32, Int32)</a></td>
+          <td class="summary"><p>Queues an audio buffer for playback.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte[])" class="text-break">.DynamicSoundEffectInstance.SubmitBuffer(Byte[]) Method</h2>
+    <div class="markdown level0 summary"><p>Queues an audio buffer for playback.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SubmitBuffer(byte[] buffer)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">buffer</span></td>
+              <td><p>The buffer containing PCM audio data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte____remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>The buffer length must conform to alignment requirements for the audio format.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.SubmitBuffer(System.Byte[],System.Int32,System.Int32)" class="text-break">.DynamicSoundEffectInstance.SubmitBuffer(Byte[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Queues an audio buffer for playback.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SubmitBuffer(byte[] buffer, int offset, int count)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">buffer</span></td>
+              <td><p>The buffer containing PCM audio data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offset</span></td>
+              <td><p>The starting position of audio data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">count</span></td>
+              <td><p>The amount of bytes to use.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_SubmitBuffer_System_Byte___System_Int32_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>The buffer length must conform to alignment requirements for the audio format.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

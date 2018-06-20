@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream.FlushMode*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream_FlushMode_" data-uid="MonoGame.Utilities.ZlibStream.FlushMode*" class="text-break">.ZlibStream.FlushMode Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>This property sets the flush behavior on the stream.
+Sorry, though, not sure exactly how to describe all the various settings.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public virtual FlushType FlushMode { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="MonoGame.Utilities.FlushType.html">FlushType</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,155 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.op_Multiply*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_op_Multiply_" data-uid="Microsoft.Xna.Framework.Quaternion.op_Multiply*" class="text-break">Multiply Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.op_Multiply.html#Microsoft_Xna_Framework_Quaternion_op_Multiply_Microsoft_Xna_Framework_Quaternion_Microsoft_Xna_Framework_Quaternion_">Multiply(Quaternion, Quaternion)</a></td>
+          <td class="summary"><p>Multiplies two quaternions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.op_Multiply.html#Microsoft_Xna_Framework_Quaternion_op_Multiply_Microsoft_Xna_Framework_Quaternion_System_Single_">Multiply(Quaternion, Single)</a></td>
+          <td class="summary"><p>Multiplies the components of quaternion by a scalar.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Quaternion_op_Multiply_Microsoft_Xna_Framework_Quaternion_Microsoft_Xna_Framework_Quaternion_" data-uid="Microsoft.Xna.Framework.Quaternion.op_Multiply(Microsoft.Xna.Framework.Quaternion,Microsoft.Xna.Framework.Quaternion)" class="text-break">.Quaternion.Multiply(Quaternion, Quaternion) Operator</h2>
+    <div class="markdown level0 summary"><p>Multiplies two quaternions.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion operator *(Quaternion quaternion1, Quaternion quaternion2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> on the left of the mul sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> on the right of the mul sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>Result of the quaternions multiplication.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Quaternion_op_Multiply_Microsoft_Xna_Framework_Quaternion_System_Single_" data-uid="Microsoft.Xna.Framework.Quaternion.op_Multiply(Microsoft.Xna.Framework.Quaternion,System.Single)" class="text-break">.Quaternion.Multiply(Quaternion, Single) Operator</h2>
+    <div class="markdown level0 summary"><p>Multiplies the components of quaternion by a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion operator *(Quaternion quaternion1, float scaleFactor)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> on the left of the mul sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scaleFactor</span></td>
+              <td><p>Scalar value on the right of the mul sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>Result of the quaternion multiplication with a scalar.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

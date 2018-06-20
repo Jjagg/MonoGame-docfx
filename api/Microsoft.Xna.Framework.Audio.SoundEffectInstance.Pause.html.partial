@@ -1,0 +1,51 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Pause*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pause_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Pause*" class="text-break">.SoundEffectInstance.Pause() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Pauses playback of a SoundEffectInstance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public virtual void Pause()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pause_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Paused instances can be resumed with SoundEffectInstance.Play() or SoundEffectInstance.Resume().</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

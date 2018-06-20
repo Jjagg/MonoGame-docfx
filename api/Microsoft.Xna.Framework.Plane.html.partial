@@ -1,0 +1,228 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Plane" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Plane" data-uid="Microsoft.Xna.Framework.Plane" class="text-break">Plane Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public struct Plane : IEquatable&lt;Plane&gt;</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a>&gt;</div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_">Plane(Vector3, Vector3, Vector3)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector3_System_Single_">Plane(Vector3, Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_Microsoft_Xna_Framework_Vector4_">Plane(Vector4)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.-ctor.html#Microsoft_Xna_Framework_Plane__ctor_System_Single_System_Single_System_Single_System_Single_">Plane(Single, Single, Single, Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.D.html#Microsoft_Xna_Framework_Plane_D">D</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Normal.html#Microsoft_Xna_Framework_Plane_Normal">Normal</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Deconstruct.html#Microsoft_Xna_Framework_Plane_Deconstruct_Microsoft_Xna_Framework_Vector3__System_Single__">Deconstruct(out Vector3, out Single)</a></td>
+          <td class="summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Dot.html#Microsoft_Xna_Framework_Plane_Dot_Microsoft_Xna_Framework_Vector4_">Dot(Vector4)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Dot.html#Microsoft_Xna_Framework_Plane_Dot_Microsoft_Xna_Framework_Vector4__System_Single__">Dot(ref Vector4, out Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.DotCoordinate.html#Microsoft_Xna_Framework_Plane_DotCoordinate_Microsoft_Xna_Framework_Vector3_">DotCoordinate(Vector3)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.DotCoordinate.html#Microsoft_Xna_Framework_Plane_DotCoordinate_Microsoft_Xna_Framework_Vector3__System_Single__">DotCoordinate(ref Vector3, out Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.DotNormal.html#Microsoft_Xna_Framework_Plane_DotNormal_Microsoft_Xna_Framework_Vector3_">DotNormal(Vector3)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.DotNormal.html#Microsoft_Xna_Framework_Plane_DotNormal_Microsoft_Xna_Framework_Vector3__System_Single__">DotNormal(ref Vector3, out Single)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Equals.html#Microsoft_Xna_Framework_Plane_Equals_Microsoft_Xna_Framework_Plane_">Equals(Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Equals.html#Microsoft_Xna_Framework_Plane_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.GetHashCode.html#Microsoft_Xna_Framework_Plane_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingBox_">Intersects(BoundingBox)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingBox__Microsoft_Xna_Framework_PlaneIntersectionType__">Intersects(ref BoundingBox, out PlaneIntersectionType)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingFrustum_">Intersects(BoundingFrustum)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingSphere_">Intersects(BoundingSphere)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Intersects.html#Microsoft_Xna_Framework_Plane_Intersects_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_PlaneIntersectionType__">Intersects(ref BoundingSphere, out PlaneIntersectionType)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Normalize.html#Microsoft_Xna_Framework_Plane_Normalize">Normalize()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Normalize.html#Microsoft_Xna_Framework_Plane_Normalize_Microsoft_Xna_Framework_Plane_">Normalize(Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Normalize.html#Microsoft_Xna_Framework_Plane_Normalize_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Plane__">Normalize(ref Plane, out Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.ToString.html#Microsoft_Xna_Framework_Plane_ToString">ToString()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Matrix_">Transform(Plane, Matrix)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Quaternion_">Transform(Plane, Quaternion)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a quaternion rotation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Plane__">Transform(ref Plane, ref Matrix, out Plane)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a matrix.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Transform.html#Microsoft_Xna_Framework_Plane_Transform_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Plane__">Transform(ref Plane, ref Quaternion, out Plane)</a></td>
+          <td class="summary"><p>Transforms a normalized plane by a quaternion rotation.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.op_Equality.html#Microsoft_Xna_Framework_Plane_op_Equality_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Plane_">Equality(Plane, Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.op_Inequality.html#Microsoft_Xna_Framework_Plane_op_Inequality_Microsoft_Xna_Framework_Plane_Microsoft_Xna_Framework_Plane_">Inequality(Plane, Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

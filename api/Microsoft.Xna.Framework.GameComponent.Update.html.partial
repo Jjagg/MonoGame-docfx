@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameComponent.Update*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameComponent_Update_" data-uid="Microsoft.Xna.Framework.GameComponent.Update*" class="text-break">.GameComponent.Update(GameTime) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public virtual void Update(GameTime gameTime)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.Update.html#Microsoft_Xna_Framework_IUpdateable_Update_Microsoft_Xna_Framework_GameTime_">Update</a>(<a class="xref" href="Microsoft.Xna.Framework.GameTime.html">GameTime</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.GameTime.html">GameTime</a></td>
+              <td><span class="parametername">gameTime</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

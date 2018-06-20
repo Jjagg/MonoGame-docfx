@@ -1,0 +1,59 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueTexture3D*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EffectParameter_GetValueTexture3D_" data-uid="Microsoft.Xna.Framework.Graphics.EffectParameter.GetValueTexture3D*" class="text-break">.EffectParameter.GetValueTexture3D() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Texture3D GetValueTexture3D()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html">Texture3D</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

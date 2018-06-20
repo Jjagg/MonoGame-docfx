@@ -1,0 +1,321 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData*" class="text-break">GetData Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">GetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">GetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_">GetData&lt;T&gt;(T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___">GetData&lt;T&gt;(T[])</a></td>
+          <td class="summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" class="text-break">.Texture2D.GetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">level</span></td>
+              <td><p>Layer of the texture</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">arraySlice</span></td>
+              <td><p>Index inside the texture array</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">rect</span></td>
+              <td><p>Area of the texture to retrieve</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Destination array for the data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Starting index of data where to write the pixel data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td><p>Number of pixels to read</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" class="text-break">.Texture2D.GetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">level</span></td>
+              <td><p>Layer of the texture</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">rect</span></td>
+              <td><p>Area of the texture</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Destination array for the texture data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>First position in data where to write the pixel data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td><p>Number of pixels to read</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[],System.Int32,System.Int32)" class="text-break">.Texture2D.GetData&lt;T&gt;(T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Destination array for the texture data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>First position in data where to write the pixel data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td><p>Number of pixels to read</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetData``1(``0[])" class="text-break">.Texture2D.GetData&lt;T&gt;(T[]) Method</h2>
+    <div class="markdown level0 summary"><p>Retrieves the contents of the texture
+Throws ArgumentException if data is null, data.length is too short or
+if arraySlice is greater than 0 and the GraphicsDevice doesn&apos;t support texture arrays</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetData&lt;T&gt;(T[] data)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>Destination array for the texture data</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

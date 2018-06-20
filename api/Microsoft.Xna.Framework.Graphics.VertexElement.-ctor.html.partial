@@ -1,0 +1,77 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexElement__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.#ctor*" class="text-break">.VertexElement.VertexElement(Int32, VertexElementFormat, VertexElementUsage, Int32) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a> struct.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexElement(int offset, VertexElementFormat elementFormat, VertexElementUsage elementUsage, int usageIndex)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offset</span></td>
+              <td><p>The offset in bytes from the beginning of the stream to the vertex element.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElementFormat.html">VertexElementFormat</a></td>
+              <td><span class="parametername">elementFormat</span></td>
+              <td><p>The element format.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElementUsage.html">VertexElementUsage</a></td>
+              <td><span class="parametername">elementUsage</span></td>
+              <td><p>The HLSL semantic of the element in the vertex shader input-signature.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">usageIndex</span></td>
+              <td><p>The semantic index, which is required if the semantic is used for more than one vertex element.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

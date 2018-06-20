@@ -1,0 +1,148 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromAxisAngle*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_CreateFromAxisAngle_" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromAxisAngle*" class="text-break">CreateFromAxisAngle Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.CreateFromAxisAngle.html#Microsoft_Xna_Framework_Quaternion_CreateFromAxisAngle_Microsoft_Xna_Framework_Vector3_System_Single_">CreateFromAxisAngle(Vector3, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified axis and angle.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.CreateFromAxisAngle.html#Microsoft_Xna_Framework_Quaternion_CreateFromAxisAngle_Microsoft_Xna_Framework_Vector3__System_Single_Microsoft_Xna_Framework_Quaternion__">CreateFromAxisAngle(ref Vector3, Single, out Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified axis and angle.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Quaternion_CreateFromAxisAngle_Microsoft_Xna_Framework_Vector3_System_Single_" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromAxisAngle(Microsoft.Xna.Framework.Vector3,System.Single)" class="text-break">.Quaternion.CreateFromAxisAngle(Vector3, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified axis and angle.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion CreateFromAxisAngle(Vector3 axis, float angle)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">axis</span></td>
+              <td><p>The axis of rotation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">angle</span></td>
+              <td><p>The angle in radians.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>The new quaternion builded from axis and angle.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Quaternion_CreateFromAxisAngle_Microsoft_Xna_Framework_Vector3__System_Single_Microsoft_Xna_Framework_Quaternion__" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromAxisAngle(Microsoft.Xna.Framework.Vector3@,System.Single,Microsoft.Xna.Framework.Quaternion@)" class="text-break">.Quaternion.CreateFromAxisAngle(ref Vector3, Single, out Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified axis and angle.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateFromAxisAngle(ref Vector3 axis, float angle, out Quaternion result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">axis</span></td>
+              <td><p>The axis of rotation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">angle</span></td>
+              <td><p>The angle in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The new quaternion builded from axis and angle as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

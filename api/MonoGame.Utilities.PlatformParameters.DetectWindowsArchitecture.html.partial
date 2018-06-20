@@ -1,0 +1,45 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.PlatformParameters.DetectWindowsArchitecture" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_PlatformParameters_DetectWindowsArchitecture" data-uid="MonoGame.Utilities.PlatformParameters.DetectWindowsArchitecture" class="text-break">DetectWindowsArchitecture Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>If true, MonoGame will detect the CPU architecture (x86 or x86-64) and add the &quot;./x86&quot; or &quot;./x64&quot; folder to the
+native DLL resolution paths. This allows MonoGame to work with Any CPU by loading the correct dependencies at runtime.
+If false, MonoGame will look for native DLLs in the executing folder, which typically is the .exe home.</p>
+<p>This parameter only works on Windows and doesn&apos;t affect other platforms.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static bool DetectWindowsArchitecture</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

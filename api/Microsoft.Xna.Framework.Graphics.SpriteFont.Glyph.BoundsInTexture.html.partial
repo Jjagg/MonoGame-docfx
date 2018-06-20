@@ -1,0 +1,42 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.BoundsInTexture" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_BoundsInTexture" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.BoundsInTexture" class="text-break">SpriteFont.Glyph.BoundsInTexture Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Rectangle in the font texture where this letter exists.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public Rectangle BoundsInTexture</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

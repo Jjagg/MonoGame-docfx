@@ -1,0 +1,111 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose*" class="text-break">Dispose Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">Dispose()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+          <td class="summary"><p>The method that derived classes should override to implement disposing of managed and native resources.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose" class="text-break">.GraphicsResource.Dispose() Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable.dispose#System_IDisposable_Dispose">Dispose</a>()</div>
+      </div>
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose(System.Boolean)" class="text-break">.GraphicsResource.Dispose(Boolean) Method</h2>
+    <div class="markdown level0 summary"><p>The method that derived classes should override to implement disposing of managed and native resources.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">disposing</span></td>
+              <td><p>True if managed objects should be disposed.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Native resources should always be released regardless of the value of the disposing parameter.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

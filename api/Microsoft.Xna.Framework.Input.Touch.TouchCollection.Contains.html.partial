@@ -1,0 +1,76 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains*" class="text-break">.TouchCollection.Contains(TouchLocation) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns true if specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item exists in the collection, false otherwise./&gt;</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Contains(TouchLocation item)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains#System_Collections_Generic_ICollection_1_Contains__0_">Contains</a>(<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
+              <td><span class="parametername">item</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item to query for.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>Returns true if queried item is found, false otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

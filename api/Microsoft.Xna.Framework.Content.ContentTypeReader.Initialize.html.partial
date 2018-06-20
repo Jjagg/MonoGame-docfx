@@ -1,0 +1,57 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReader.Initialize*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReader_Initialize_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReader.Initialize*" class="text-break">.ContentTypeReader.Initialize(ContentTypeReaderManager) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected virtual void Initialize(ContentTypeReaderManager manager)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.html">ContentTypeReaderManager</a></td>
+              <td><span class="parametername">manager</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

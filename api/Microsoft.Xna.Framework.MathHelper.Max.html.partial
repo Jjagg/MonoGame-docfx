@@ -1,0 +1,155 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.Max*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper_Max_" data-uid="Microsoft.Xna.Framework.MathHelper.Max*" class="text-break">Max Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Max.html#Microsoft_Xna_Framework_MathHelper_Max_System_Single_System_Single_">Max(Single, Single)</a></td>
+          <td class="summary"><p>Returns the greater of two values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Max.html#Microsoft_Xna_Framework_MathHelper_Max_System_Int32_System_Int32_">Max(Int32, Int32)</a></td>
+          <td class="summary"><p>Returns the greater of two values.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_MathHelper_Max_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.MathHelper.Max(System.Single,System.Single)" class="text-break">.MathHelper.Max(Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Returns the greater of two values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float Max(float value1, float value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Source value.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td><p>The greater value.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_MathHelper_Max_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.MathHelper.Max(System.Int32,System.Int32)" class="text-break">.MathHelper.Max(Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Returns the greater of two values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static int Max(int value1, int value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Source value.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+            <td><p>The greater value.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

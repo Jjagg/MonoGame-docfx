@@ -1,0 +1,45 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.BufferNeeded" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.BufferNeeded" class="text-break">BufferNeeded Event</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The event that occurs when the number of queued audio buffers is less than or equal to 2.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; BufferNeeded</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Event Type</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+<h id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_BufferNeeded_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>This event may occur when <a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Play.html#Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Play">Play()</a> is called or during playback when a buffer is completed.</p>
+</div>
+
+
+
+
+  </div>
+</article>

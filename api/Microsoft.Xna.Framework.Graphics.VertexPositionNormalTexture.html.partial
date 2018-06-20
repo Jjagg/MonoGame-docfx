@@ -1,0 +1,150 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture" data-uid="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture" class="text-break">VertexPositionNormalTexture Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct VertexPositionNormalTexture : IVertexType</code></pre>
+    </div>
+  
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IVertexType.html">IVertexType</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture__ctor_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector2_">VertexPositionNormalTexture(Vector3, Vector3, Vector2)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.Normal.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_Normal">Normal</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.Position.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_Position">Position</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.TextureCoordinate.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_TextureCoordinate">TextureCoordinate</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.VertexDeclaration.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_VertexDeclaration">VertexDeclaration</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.Microsoft-Xna-Framework-Graphics-IVertexType-VertexDeclaration.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_Microsoft_Xna_Framework_Graphics_IVertexType_VertexDeclaration">IVertexType.VertexDeclaration</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.Equals.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.GetHashCode.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.ToString.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_ToString">ToString()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.op_Equality.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_op_Equality_Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_">Equality(VertexPositionNormalTexture, VertexPositionNormalTexture)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionNormalTexture.op_Inequality.html#Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_op_Inequality_Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_Microsoft_Xna_Framework_Graphics_VertexPositionNormalTexture_">Inequality(VertexPositionNormalTexture, VertexPositionNormalTexture)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

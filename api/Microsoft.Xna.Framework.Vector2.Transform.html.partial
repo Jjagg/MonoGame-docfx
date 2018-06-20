@@ -1,0 +1,497 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector2.Transform*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector2_Transform_" data-uid="Microsoft.Xna.Framework.Vector2.Transform*" class="text-break">Transform Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Matrix_">Transform(Vector2, Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector2__">Transform(ref Vector2, ref Matrix, out Vector2)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Quaternion_">Transform(Vector2, Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>, representing the rotation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector2__">Transform(ref Vector2, ref Quaternion, out Vector2)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>, representing the rotation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___System_Int32_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector2___System_Int32_System_Int32_">Transform(Vector2[], Int32, ref Matrix, Vector2[], Int32, Int32)</a></td>
+          <td class="summary"><p>Apply transformation on vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and places the results in an another array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___System_Int32_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector2___System_Int32_System_Int32_">Transform(Vector2[], Int32, ref Quaternion, Vector2[], Int32, Int32)</a></td>
+          <td class="summary"><p>Apply transformation on vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> and places the results in an another array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector2___">Transform(Vector2[], ref Matrix, Vector2[])</a></td>
+          <td class="summary"><p>Apply transformation on all vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and places the results in an another array.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Transform.html#Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector2___">Transform(Vector2[], ref Quaternion, Vector2[])</a></td>
+          <td class="summary"><p>Apply transformation on all vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> and places the results in an another array.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Matrix_" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Matrix)" class="text-break">.Vector2.Transform(Vector2, Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 Transform(Vector2 position, Matrix matrix)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>Transformed <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector2__" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector2@)" class="text-break">.Vector2.Transform(ref Vector2, ref Matrix, out Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(ref Vector2 position, ref Matrix matrix, out Vector2 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>Transformed <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Quaternion_" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Quaternion)" class="text-break">.Vector2.Transform(Vector2, Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>, representing the rotation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 Transform(Vector2 value, Quaternion rotation)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> which contains rotation transformation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>Transformed <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector2__" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector2@)" class="text-break">.Vector2.Transform(ref Vector2, ref Quaternion, out Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains a transformation of 2d-vector by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>, representing the rotation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(ref Vector2 value, ref Quaternion rotation, out Vector2 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> which contains rotation transformation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>Transformed <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___System_Int32_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector2___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2[],System.Int32,Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector2[],System.Int32,System.Int32)" class="text-break">.Vector2.Transform(Vector2[], Int32, ref Matrix, Vector2[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Apply transformation on vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and places the results in an another array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(Vector2[] sourceArray, int sourceIndex, ref Matrix matrix, Vector2[] destinationArray, int destinationIndex, int length)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">sourceArray</span></td>
+              <td><p>Source array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sourceIndex</span></td>
+              <td><p>The starting index of transformation in the source array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">destinationArray</span></td>
+              <td><p>Destination array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">destinationIndex</span></td>
+              <td><p>The starting index in the destination array, where the first <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> should be written.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">length</span></td>
+              <td><p>The number of vectors to be transformed.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___System_Int32_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector2___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2[],System.Int32,Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector2[],System.Int32,System.Int32)" class="text-break">.Vector2.Transform(Vector2[], Int32, ref Quaternion, Vector2[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Apply transformation on vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> and places the results in an another array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(Vector2[] sourceArray, int sourceIndex, ref Quaternion rotation, Vector2[] destinationArray, int destinationIndex, int length)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">sourceArray</span></td>
+              <td><p>Source array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sourceIndex</span></td>
+              <td><p>The starting index of transformation in the source array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> which contains rotation transformation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">destinationArray</span></td>
+              <td><p>Destination array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">destinationIndex</span></td>
+              <td><p>The starting index in the destination array, where the first <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> should be written.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">length</span></td>
+              <td><p>The number of vectors to be transformed.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_Vector2___" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2[],Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.Vector2[])" class="text-break">.Vector2.Transform(Vector2[], ref Matrix, Vector2[]) Method</h2>
+    <div class="markdown level0 summary"><p>Apply transformation on all vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> and places the results in an another array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(Vector2[] sourceArray, ref Matrix matrix, Vector2[] destinationArray)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">sourceArray</span></td>
+              <td><p>Source array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">destinationArray</span></td>
+              <td><p>Destination array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Transform_Microsoft_Xna_Framework_Vector2___Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Vector2___" data-uid="Microsoft.Xna.Framework.Vector2.Transform(Microsoft.Xna.Framework.Vector2[],Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Vector2[])" class="text-break">.Vector2.Transform(Vector2[], ref Quaternion, Vector2[]) Method</h2>
+    <div class="markdown level0 summary"><p>Apply transformation on all vectors within array of <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the specified <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> and places the results in an another array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Transform(Vector2[] sourceArray, ref Quaternion rotation, Vector2[] destinationArray)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">sourceArray</span></td>
+              <td><p>Source array.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> which contains rotation transformation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>[]</td>
+              <td><span class="parametername">destinationArray</span></td>
+              <td><p>Destination array.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

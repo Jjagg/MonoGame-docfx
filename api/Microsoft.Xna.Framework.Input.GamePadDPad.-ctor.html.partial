@@ -1,0 +1,77 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadDPad__ctor_" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad.#ctor*" class="text-break">.GamePadDPad.GamePadDPad(ButtonState, ButtonState, ButtonState, ButtonState) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a> struct.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GamePadDPad(ButtonState upValue, ButtonState downValue, ButtonState leftValue, ButtonState rightValue)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">upValue</span></td>
+              <td><p>Current state of directional pad up.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">downValue</span></td>
+              <td><p>Current state of directional pad down.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">leftValue</span></td>
+              <td><p>Current state of directional pad left.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.ButtonState.html">ButtonState</a></td>
+              <td><span class="parametername">rightValue</span></td>
+              <td><p>Current state of directional pad right.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

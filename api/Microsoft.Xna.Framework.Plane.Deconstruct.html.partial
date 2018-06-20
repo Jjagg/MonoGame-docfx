@@ -1,0 +1,63 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Plane.Deconstruct*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Plane_Deconstruct_" data-uid="Microsoft.Xna.Framework.Plane.Deconstruct*" class="text-break">.Plane.Deconstruct(out Vector3, out Single) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Deconstruct(out Vector3 normal, out float d)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">normal</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">d</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

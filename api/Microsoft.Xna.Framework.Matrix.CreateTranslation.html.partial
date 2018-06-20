@@ -1,0 +1,257 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreateTranslation*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreateTranslation_" data-uid="Microsoft.Xna.Framework.Matrix.CreateTranslation*" class="text-break">CreateTranslation Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateTranslation.html#Microsoft_Xna_Framework_Matrix_CreateTranslation_System_Single_System_Single_System_Single_">CreateTranslation(Single, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateTranslation.html#Microsoft_Xna_Framework_Matrix_CreateTranslation_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Matrix__">CreateTranslation(ref Vector3, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateTranslation.html#Microsoft_Xna_Framework_Matrix_CreateTranslation_Microsoft_Xna_Framework_Vector3_">CreateTranslation(Vector3)</a></td>
+          <td class="summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateTranslation.html#Microsoft_Xna_Framework_Matrix_CreateTranslation_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Matrix__">CreateTranslation(Single, Single, Single, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateTranslation_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.CreateTranslation(System.Single,System.Single,System.Single)" class="text-break">.Matrix.CreateTranslation(Single, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateTranslation(float xPosition, float yPosition, float zPosition)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">xPosition</span></td>
+              <td><p>X coordinate of translation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">yPosition</span></td>
+              <td><p>Y coordinate of translation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">zPosition</span></td>
+              <td><p>Z coordinate of translation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateTranslation_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateTranslation(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateTranslation(ref Vector3, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateTranslation(ref Vector3 position, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>X,Y and Z coordinates of translation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateTranslation_Microsoft_Xna_Framework_Vector3_" data-uid="Microsoft.Xna.Framework.Matrix.CreateTranslation(Microsoft.Xna.Framework.Vector3)" class="text-break">.Matrix.CreateTranslation(Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateTranslation(Vector3 position)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>X,Y and Z coordinates of translation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateTranslation_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateTranslation(System.Single,System.Single,System.Single,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateTranslation(Single, Single, Single, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateTranslation(float xPosition, float yPosition, float zPosition, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">xPosition</span></td>
+              <td><p>X coordinate of translation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">yPosition</span></td>
+              <td><p>Y coordinate of translation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">zPosition</span></td>
+              <td><p>Z coordinate of translation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The translation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

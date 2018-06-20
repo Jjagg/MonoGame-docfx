@@ -1,0 +1,160 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.Lerp*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_Lerp_" data-uid="Microsoft.Xna.Framework.Quaternion.Lerp*" class="text-break">Lerp Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.Lerp.html#Microsoft_Xna_Framework_Quaternion_Lerp_Microsoft_Xna_Framework_Quaternion_Microsoft_Xna_Framework_Quaternion_System_Single_">Lerp(Quaternion, Quaternion, Single)</a></td>
+          <td class="summary"><p>Performs a linear blend between two quaternions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.Lerp.html#Microsoft_Xna_Framework_Quaternion_Lerp_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__System_Single_Microsoft_Xna_Framework_Quaternion__">Lerp(ref Quaternion, ref Quaternion, Single, out Quaternion)</a></td>
+          <td class="summary"><p>Performs a linear blend between two quaternions.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Quaternion_Lerp_Microsoft_Xna_Framework_Quaternion_Microsoft_Xna_Framework_Quaternion_System_Single_" data-uid="Microsoft.Xna.Framework.Quaternion.Lerp(Microsoft.Xna.Framework.Quaternion,Microsoft.Xna.Framework.Quaternion,System.Single)" class="text-break">.Quaternion.Lerp(Quaternion, Quaternion, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Performs a linear blend between two quaternions.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion Lerp(Quaternion quaternion1, Quaternion quaternion2, float amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>The blend amount where 0 returns <code data-dev-comment-type="paramref" class="paramref">quaternion1</code> and 1 <code data-dev-comment-type="paramref" class="paramref">quaternion2</code>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>The result of linear blending between two quaternions.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Quaternion_Lerp_Microsoft_Xna_Framework_Quaternion__Microsoft_Xna_Framework_Quaternion__System_Single_Microsoft_Xna_Framework_Quaternion__" data-uid="Microsoft.Xna.Framework.Quaternion.Lerp(Microsoft.Xna.Framework.Quaternion@,Microsoft.Xna.Framework.Quaternion@,System.Single,Microsoft.Xna.Framework.Quaternion@)" class="text-break">.Quaternion.Lerp(ref Quaternion, ref Quaternion, Single, out Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Performs a linear blend between two quaternions.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Lerp(ref Quaternion quaternion1, ref Quaternion quaternion2, float amount, out Quaternion result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>The blend amount where 0 returns <code data-dev-comment-type="paramref" class="paramref">quaternion1</code> and 1 <code data-dev-comment-type="paramref" class="paramref">quaternion2</code>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of linear blending between two quaternions as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

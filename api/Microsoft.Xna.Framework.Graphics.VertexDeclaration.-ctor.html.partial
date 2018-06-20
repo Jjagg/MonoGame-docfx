@@ -1,0 +1,143 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.#ctor*" class="text-break">VertexDeclaration Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_Microsoft_Xna_Framework_Graphics_VertexElement___">VertexDeclaration(VertexElement[])</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_System_Int32_Microsoft_Xna_Framework_Graphics_VertexElement___">VertexDeclaration(Int32, VertexElement[])</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_Microsoft_Xna_Framework_Graphics_VertexElement___" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.#ctor(Microsoft.Xna.Framework.Graphics.VertexElement[])" class="text-break">.VertexDeclaration.VertexDeclaration(VertexElement[]) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexDeclaration(params VertexElement[] elements)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a>[]</td>
+              <td><span class="parametername">elements</span></td>
+              <td><p>The vertex elements.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">elements</code> is <span class="xref">null</span> or empty.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_System_Int32_Microsoft_Xna_Framework_Graphics_VertexElement___" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.#ctor(System.Int32,Microsoft.Xna.Framework.Graphics.VertexElement[])" class="text-break">.VertexDeclaration.VertexDeclaration(Int32, VertexElement[]) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexDeclaration(int vertexStride, params VertexElement[] elements)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexStride</span></td>
+              <td><p>The size of a vertex (including padding) in bytes.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a>[]</td>
+              <td><span class="parametername">elements</span></td>
+              <td><p>The vertex elements.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">elements</code> is <span class="xref">null</span> or empty.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

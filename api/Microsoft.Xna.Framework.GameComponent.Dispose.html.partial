@@ -1,0 +1,109 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameComponent.Dispose*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameComponent_Dispose_" data-uid="Microsoft.Xna.Framework.GameComponent.Dispose*" class="text-break">Dispose Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameComponent.Dispose.html#Microsoft_Xna_Framework_GameComponent_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+          <td class="summary"><p>Shuts down the component.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameComponent.Dispose.html#Microsoft_Xna_Framework_GameComponent_Dispose">Dispose()</a></td>
+          <td class="summary"><p>Shuts down the component.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_GameComponent_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.GameComponent.Dispose(System.Boolean)" class="text-break">.GameComponent.Dispose(Boolean) Method</h2>
+    <div class="markdown level0 summary"><p>Shuts down the component.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">disposing</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_GameComponent_Dispose" data-uid="Microsoft.Xna.Framework.GameComponent.Dispose" class="text-break">.GameComponent.Dispose() Method</h2>
+    <div class="markdown level0 summary"><p>Shuts down the component.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable.dispose#System_IDisposable_Dispose">Dispose</a>()</div>
+      </div>
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

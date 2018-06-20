@@ -1,0 +1,159 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Curve" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Curve" data-uid="Microsoft.Xna.Framework.Curve" class="text-break">Curve Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Contains a collection of <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> points in 2D space and provides methods for evaluating features of the curve they define.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public class Curve</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">Curve</span>
+    </span></div>
+  </div>
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.-ctor.html#Microsoft_Xna_Framework_Curve__ctor">Curve()</a></td>
+          <td class="summary"><p>Constructs a curve.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.IsConstant.html#Microsoft_Xna_Framework_Curve_IsConstant">IsConstant</a></td>
+          <td class="summary"><p>Returns <code>true</code> if this curve is constant (has zero or one points); <code>false</code> otherwise.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.Keys.html#Microsoft_Xna_Framework_Curve_Keys">Keys</a></td>
+          <td class="summary"><p>The collection of curve keys.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.PostLoop.html#Microsoft_Xna_Framework_Curve_PostLoop">PostLoop</a></td>
+          <td class="summary"><p>Defines how to handle weighting values that are greater than the last control point in the curve.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.PreLoop.html#Microsoft_Xna_Framework_Curve_PreLoop">PreLoop</a></td>
+          <td class="summary"><p>Defines how to handle weighting values that are less than the first control point in the curve.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.Clone.html#Microsoft_Xna_Framework_Curve_Clone">Clone()</a></td>
+          <td class="summary"><p>Creates a copy of this curve.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangent.html#Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_">ComputeTangent(Int32, CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangent for the specific key in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangent.html#Microsoft_Xna_Framework_Curve_ComputeTangent_System_Int32_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_">ComputeTangent(Int32, CurveTangent, CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangent for the specific key in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangents.html#Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_">ComputeTangents(CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangents for all keys in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.ComputeTangents.html#Microsoft_Xna_Framework_Curve_ComputeTangents_Microsoft_Xna_Framework_CurveTangent_Microsoft_Xna_Framework_CurveTangent_">ComputeTangents(CurveTangent, CurveTangent)</a></td>
+          <td class="summary"><p>Computes tangents for all keys in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Curve.Evaluate.html#Microsoft_Xna_Framework_Curve_Evaluate_System_Single_">Evaluate(Single)</a></td>
+          <td class="summary"><p>Evaluate the value at a position of this <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

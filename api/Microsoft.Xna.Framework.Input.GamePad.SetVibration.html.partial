@@ -1,0 +1,167 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration*" class="text-break">SetVibration Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.SetVibration.html#Microsoft_Xna_Framework_Input_GamePad_SetVibration_Microsoft_Xna_Framework_PlayerIndex_System_Single_System_Single_">SetVibration(PlayerIndex, Single, Single)</a></td>
+          <td class="summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.SetVibration.html#Microsoft_Xna_Framework_Input_GamePad_SetVibration_System_Int32_System_Single_System_Single_">SetVibration(Int32, Single, Single)</a></td>
+          <td class="summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_Microsoft_Xna_Framework_PlayerIndex_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(Microsoft.Xna.Framework.PlayerIndex,System.Single,System.Single)" class="text-break">.GamePad.SetVibration(PlayerIndex, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool SetVibration(PlayerIndex playerIndex, float leftMotor, float rightMotor)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+              <td><span class="parametername">playerIndex</span></td>
+              <td><p>Player index that identifies the controller to set.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">leftMotor</span></td>
+              <td><p>The speed of the left motor, between 0.0 and 1.0. This motor is a low-frequency motor.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rightMotor</span></td>
+              <td><p>The speed of the right motor, between 0.0 and 1.0. This motor is a high-frequency motor.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>Returns true if the vibration motors were set.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_GamePad_SetVibration_System_Int32_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Input.GamePad.SetVibration(System.Int32,System.Single,System.Single)" class="text-break">.GamePad.SetVibration(Int32, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Sets the vibration motor speeds on the controller device if supported.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool SetVibration(int index, float leftMotor, float rightMotor)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">index</span></td>
+              <td><p>Index for the controller you want to query.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">leftMotor</span></td>
+              <td><p>The speed of the left motor, between 0.0 and 1.0. This motor is a low-frequency motor.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rightMotor</span></td>
+              <td><p>The speed of the right motor, between 0.0 and 1.0. This motor is a high-frequency motor.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>Returns true if the vibration motors were set.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,224 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameWindow" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameWindow" data-uid="Microsoft.Xna.Framework.GameWindow" class="text-break">GameWindow Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public abstract class GameWindow</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">GameWindow</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.-ctor.html#Microsoft_Xna_Framework_GameWindow__ctor">GameWindow()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.AllowAltF4.html#Microsoft_Xna_Framework_GameWindow_AllowAltF4">AllowAltF4</a></td>
+          <td class="summary"><p>Gets or sets a bool that enables usage of Alt+F4 for window closing on desktop platforms. Value is true by default.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.AllowUserResizing.html#Microsoft_Xna_Framework_GameWindow_AllowUserResizing">AllowUserResizing</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.ClientBounds.html#Microsoft_Xna_Framework_GameWindow_ClientBounds">ClientBounds</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.CurrentOrientation.html#Microsoft_Xna_Framework_GameWindow_CurrentOrientation">CurrentOrientation</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.Handle.html#Microsoft_Xna_Framework_GameWindow_Handle">Handle</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.IsBorderless.html#Microsoft_Xna_Framework_GameWindow_IsBorderless">IsBorderless</a></td>
+          <td class="summary"><p>Determines whether the border of the window is visible. Currently only supported on the WinDX and WinGL/Linux platforms.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.Position.html#Microsoft_Xna_Framework_GameWindow_Position">Position</a></td>
+          <td class="summary"><p>The location of this window on the desktop, eg: global coordinate space
+which stretches across all screens.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.ScreenDeviceName.html#Microsoft_Xna_Framework_GameWindow_ScreenDeviceName">ScreenDeviceName</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.Title.html#Microsoft_Xna_Framework_GameWindow_Title">Title</a></td>
+          <td class="summary"><p>Gets or sets the title of the game window.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.BeginScreenDeviceChange.html#Microsoft_Xna_Framework_GameWindow_BeginScreenDeviceChange_System_Boolean_">BeginScreenDeviceChange(Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.Create.html#Microsoft_Xna_Framework_GameWindow_Create_Microsoft_Xna_Framework_Game_System_Int32_System_Int32_">Create(Game, Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange.html#Microsoft_Xna_Framework_GameWindow_EndScreenDeviceChange_System_String_">EndScreenDeviceChange(String)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.EndScreenDeviceChange.html#Microsoft_Xna_Framework_GameWindow_EndScreenDeviceChange_System_String_System_Int32_System_Int32_">EndScreenDeviceChange(String, Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.OnActivated.html#Microsoft_Xna_Framework_GameWindow_OnActivated">OnActivated()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.OnDeactivated.html#Microsoft_Xna_Framework_GameWindow_OnDeactivated">OnDeactivated()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.OnOrientationChanged.html#Microsoft_Xna_Framework_GameWindow_OnOrientationChanged">OnOrientationChanged()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.OnPaint.html#Microsoft_Xna_Framework_GameWindow_OnPaint">OnPaint()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.OnScreenDeviceNameChanged.html#Microsoft_Xna_Framework_GameWindow_OnScreenDeviceNameChanged">OnScreenDeviceNameChanged()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.OnTextInput.html#Microsoft_Xna_Framework_GameWindow_OnTextInput_System_Object_Microsoft_Xna_Framework_TextInputEventArgs_">OnTextInput(Object, TextInputEventArgs)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.SetSupportedOrientations.html#Microsoft_Xna_Framework_GameWindow_SetSupportedOrientations_Microsoft_Xna_Framework_DisplayOrientation_">SetSupportedOrientations(DisplayOrientation)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.SetTitle.html#Microsoft_Xna_Framework_GameWindow_SetTitle_System_String_">SetTitle(String)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.ClientSizeChanged.html#Microsoft_Xna_Framework_GameWindow_ClientSizeChanged">ClientSizeChanged</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.OrientationChanged.html#Microsoft_Xna_Framework_GameWindow_OrientationChanged">OrientationChanged</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.ScreenDeviceNameChanged.html#Microsoft_Xna_Framework_GameWindow_ScreenDeviceNameChanged">ScreenDeviceNameChanged</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.GameWindow.TextInput.html#Microsoft_Xna_Framework_GameWindow_TextInput">TextInput</a></td>
+          <td class="summary"><p>Use this event to retrieve text for objects like textbox&apos;s.
+This event is not raised by noncharacter keys.
+This event also supports key repeat.
+For more information this event is based off:
+<a href="http://msdn.microsoft.com/en-AU/library/system.windows.forms.control.keypress.aspx">http://msdn.microsoft.com/en-AU/library/system.windows.forms.control.keypress.aspx</a></p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

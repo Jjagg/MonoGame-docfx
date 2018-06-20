@@ -1,0 +1,105 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator" class="text-break">ModelMeshCollection.Enumerator Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Provides the ability to iterate through the bones in an ModelMeshCollection.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct Enumerator : IEnumerator&lt;ModelMesh&gt;, IDisposable, IEnumerator</code></pre>
+    </div>
+  
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Current.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_Current">Current</a></td>
+          <td class="summary"><p>Gets the current element in the ModelMeshCollection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_System_Collections_IEnumerator_Current">IEnumerator.Current</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Dispose.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_Dispose">Dispose()</a></td>
+          <td class="summary"><p>Immediately releases the unmanaged resources used by this object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.MoveNext.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_MoveNext">MoveNext()</a></td>
+          <td class="summary"><p>Advances the enumerator to the next element of the ModelMeshCollection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Reset.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_Reset">Reset()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

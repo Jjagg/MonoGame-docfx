@@ -1,0 +1,35 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.DisplayOrientation" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_DisplayOrientation" data-uid="Microsoft.Xna.Framework.DisplayOrientation" class="text-break">DisplayOrientation Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines the orientation of the display.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[Flags]
+public enum DisplayOrientation</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.FlagsAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

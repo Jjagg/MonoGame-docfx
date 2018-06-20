@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Joystick.GetCapabilities*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Joystick_GetCapabilities_" data-uid="Microsoft.Xna.Framework.Input.Joystick.GetCapabilities*" class="text-break">.Joystick.GetCapabilities(Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets the capabilites of the joystick.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static JoystickCapabilities GetCapabilities(int index)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">index</span></td>
+              <td><p>Index of the joystick you want to access.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickCapabilities.html">JoystickCapabilities</a></td>
+            <td><p>The capabilites of the joystick.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

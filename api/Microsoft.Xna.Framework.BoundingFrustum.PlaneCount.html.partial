@@ -1,0 +1,42 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingFrustum.PlaneCount" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingFrustum_PlaneCount" data-uid="Microsoft.Xna.Framework.BoundingFrustum.PlaneCount" class="text-break">BoundingFrustum.PlaneCount Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The number of planes in the frustum.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public const int PlaneCount = 6</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

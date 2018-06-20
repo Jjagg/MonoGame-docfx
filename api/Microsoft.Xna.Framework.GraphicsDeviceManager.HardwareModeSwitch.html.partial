@@ -1,0 +1,62 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch*" class="text-break">.GraphicsDeviceManager.HardwareModeSwitch Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets or sets the boolean which defines how window switches from windowed to fullscreen state.
+&quot;Hard&quot; mode(true) is slow to switch, but more effecient for performance, while &quot;soft&quot; mode(false) is vice versa.
+The default value is <code>true</code>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool HardwareModeSwitch { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

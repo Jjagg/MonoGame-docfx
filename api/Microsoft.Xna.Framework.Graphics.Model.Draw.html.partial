@@ -1,0 +1,71 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Model.Draw*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Model_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.Model.Draw*" class="text-break">.Model.Draw(Matrix, Matrix, Matrix) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Draws the model meshes.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Matrix world, Matrix view, Matrix projection)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">world</span></td>
+              <td><p>The world transform.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">view</span></td>
+              <td><p>The view transform.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">projection</span></td>
+              <td><p>The projection transform.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

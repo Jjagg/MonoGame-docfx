@@ -1,0 +1,253 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.IndexBuffer.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.IndexBuffer.#ctor*" class="text-break">IndexBuffer Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IndexBuffer.-ctor.html#Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Type_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_System_Boolean_">IndexBuffer(GraphicsDevice, Type, Int32, BufferUsage, Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IndexBuffer.-ctor.html#Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_IndexElementSize_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_System_Boolean_">IndexBuffer(GraphicsDevice, IndexElementSize, Int32, BufferUsage, Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IndexBuffer.-ctor.html#Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_IndexElementSize_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_">IndexBuffer(GraphicsDevice, IndexElementSize, Int32, BufferUsage)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IndexBuffer.-ctor.html#Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Type_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_">IndexBuffer(GraphicsDevice, Type, Int32, BufferUsage)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Type_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.IndexBuffer.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Type,System.Int32,Microsoft.Xna.Framework.Graphics.BufferUsage,System.Boolean)" class="text-break">.IndexBuffer.IndexBuffer(GraphicsDevice, Type, Int32, BufferUsage, Boolean) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected IndexBuffer(GraphicsDevice graphicsDevice, Type indexType, int indexCount, BufferUsage usage, bool dynamic)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+              <td><span class="parametername">indexType</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexCount</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BufferUsage.html">BufferUsage</a></td>
+              <td><span class="parametername">usage</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">dynamic</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_IndexElementSize_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.IndexBuffer.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Graphics.IndexElementSize,System.Int32,Microsoft.Xna.Framework.Graphics.BufferUsage,System.Boolean)" class="text-break">.IndexBuffer.IndexBuffer(GraphicsDevice, IndexElementSize, Int32, BufferUsage, Boolean) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected IndexBuffer(GraphicsDevice graphicsDevice, IndexElementSize indexElementSize, int indexCount, BufferUsage usage, bool dynamic)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.IndexElementSize.html">IndexElementSize</a></td>
+              <td><span class="parametername">indexElementSize</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexCount</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BufferUsage.html">BufferUsage</a></td>
+              <td><span class="parametername">usage</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">dynamic</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_IndexElementSize_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_" data-uid="Microsoft.Xna.Framework.Graphics.IndexBuffer.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Graphics.IndexElementSize,System.Int32,Microsoft.Xna.Framework.Graphics.BufferUsage)" class="text-break">.IndexBuffer.IndexBuffer(GraphicsDevice, IndexElementSize, Int32, BufferUsage) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public IndexBuffer(GraphicsDevice graphicsDevice, IndexElementSize indexElementSize, int indexCount, BufferUsage bufferUsage)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.IndexElementSize.html">IndexElementSize</a></td>
+              <td><span class="parametername">indexElementSize</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexCount</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BufferUsage.html">BufferUsage</a></td>
+              <td><span class="parametername">bufferUsage</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_IndexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Type_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_" data-uid="Microsoft.Xna.Framework.Graphics.IndexBuffer.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Type,System.Int32,Microsoft.Xna.Framework.Graphics.BufferUsage)" class="text-break">.IndexBuffer.IndexBuffer(GraphicsDevice, Type, Int32, BufferUsage) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public IndexBuffer(GraphicsDevice graphicsDevice, Type indexType, int indexCount, BufferUsage usage)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+              <td><span class="parametername">indexType</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexCount</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BufferUsage.html">BufferUsage</a></td>
+              <td><span class="parametername">usage</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

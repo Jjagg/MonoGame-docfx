@@ -1,0 +1,42 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState.Default" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_Default" data-uid="Microsoft.Xna.Framework.Input.GamePadState.Default" class="text-break">GamePadState.Default Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The default initialized gamepad state.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public static readonly GamePadState Default</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

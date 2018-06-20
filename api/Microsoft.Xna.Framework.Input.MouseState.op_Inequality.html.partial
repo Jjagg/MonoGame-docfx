@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.MouseState.op_Inequality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_MouseState_op_Inequality_" data-uid="Microsoft.Xna.Framework.Input.MouseState.op_Inequality*" class="text-break">.MouseState.Inequality(MouseState, MouseState) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Compares whether two MouseState instances are not equal.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator !=(MouseState left, MouseState right)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.html">MouseState</a></td>
+              <td><span class="parametername">left</span></td>
+              <td><p>MouseState instance on the left of the equal sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.MouseState.html">MouseState</a></td>
+              <td><span class="parametername">right</span></td>
+              <td><p>MouseState instance  on the right of the equal sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>true if the objects are not equal; false otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

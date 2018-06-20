@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad.op_Inequality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadDPad_op_Inequality_" data-uid="Microsoft.Xna.Framework.Input.GamePadDPad.op_Inequality*" class="text-break">.GamePadDPad.Inequality(GamePadDPad, GamePadDPad) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Determines whether two specified instances of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a> are not equal.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator !=(GamePadDPad left, GamePadDPad right)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a></td>
+              <td><span class="parametername">left</span></td>
+              <td><p>The first object to compare.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a></td>
+              <td><span class="parametername">right</span></td>
+              <td><p>The second object to compare.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>true if <code data-dev-comment-type="paramref" class="paramref">left</code> and <code data-dev-comment-type="paramref" class="paramref">right</code> are not equal; otherwise, false.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,119 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_NoMicrophoneConnectedException__ctor_" data-uid="Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.#ctor*" class="text-break">NoMicrophoneConnectedException Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.-ctor.html#Microsoft_Xna_Framework_Audio_NoMicrophoneConnectedException__ctor_System_String_">NoMicrophoneConnectedException(String)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.-ctor.html#Microsoft_Xna_Framework_Audio_NoMicrophoneConnectedException__ctor_System_String_System_Exception_">NoMicrophoneConnectedException(String, Exception)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_NoMicrophoneConnectedException__ctor_System_String_" data-uid="Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.#ctor(System.String)" class="text-break">.NoMicrophoneConnectedException.NoMicrophoneConnectedException(String) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public NoMicrophoneConnectedException(string msg)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">msg</span></td>
+              <td><p>A message describing the error.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_NoMicrophoneConnectedException__ctor_System_String_System_Exception_" data-uid="Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.#ctor(System.String,System.Exception)" class="text-break">.NoMicrophoneConnectedException.NoMicrophoneConnectedException(String, Exception) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public NoMicrophoneConnectedException(string msg, Exception innerException)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">msg</span></td>
+              <td><p>A message describing the error.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+              <td><span class="parametername">innerException</span></td>
+              <td><p>The exception that is the underlying cause of the current exception. If not null, the current exception is raised in a try/catch block that handled the innerException.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

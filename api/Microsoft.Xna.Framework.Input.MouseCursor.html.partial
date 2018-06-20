@@ -1,0 +1,164 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.MouseCursor" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_MouseCursor" data-uid="Microsoft.Xna.Framework.Input.MouseCursor" class="text-break">MouseCursor Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Describes a mouse cursor.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class MouseCursor : IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">MouseCursor</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.Arrow.html#Microsoft_Xna_Framework_Input_MouseCursor_Arrow">Arrow</a></td>
+          <td class="summary"><p>Gets the default arrow cursor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.Crosshair.html#Microsoft_Xna_Framework_Input_MouseCursor_Crosshair">Crosshair</a></td>
+          <td class="summary"><p>Gets the crosshair (&quot;+&quot;) cursor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.Hand.html#Microsoft_Xna_Framework_Input_MouseCursor_Hand">Hand</a></td>
+          <td class="summary"><p>Gets the hand cursor, usually used for web links.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.Handle.html#Microsoft_Xna_Framework_Input_MouseCursor_Handle">Handle</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.IBeam.html#Microsoft_Xna_Framework_Input_MouseCursor_IBeam">IBeam</a></td>
+          <td class="summary"><p>Gets the cursor that appears when the mouse is over text editing regions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.No.html#Microsoft_Xna_Framework_Input_MouseCursor_No">No</a></td>
+          <td class="summary"><p>Gets the cursor that points that something is invalid, usually a cross.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.SizeAll.html#Microsoft_Xna_Framework_Input_MouseCursor_SizeAll">SizeAll</a></td>
+          <td class="summary"><p>Gets the size all cursor which points in all directions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.SizeNESW.html#Microsoft_Xna_Framework_Input_MouseCursor_SizeNESW">SizeNESW</a></td>
+          <td class="summary"><p>Gets the northeast/southwest (&quot;/&quot;) cursor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.SizeNS.html#Microsoft_Xna_Framework_Input_MouseCursor_SizeNS">SizeNS</a></td>
+          <td class="summary"><p>Gets the vertical north/south (&quot;|&quot;) cursor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.SizeNWSE.html#Microsoft_Xna_Framework_Input_MouseCursor_SizeNWSE">SizeNWSE</a></td>
+          <td class="summary"><p>Gets the northwest/southeast (&quot;&amp;quot;) cursor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.SizeWE.html#Microsoft_Xna_Framework_Input_MouseCursor_SizeWE">SizeWE</a></td>
+          <td class="summary"><p>Gets the horizontal west/east (&quot;-&quot;) cursor.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.Wait.html#Microsoft_Xna_Framework_Input_MouseCursor_Wait">Wait</a></td>
+          <td class="summary"><p>Gets the waiting cursor that appears while the application/system is busy.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.WaitArrow.html#Microsoft_Xna_Framework_Input_MouseCursor_WaitArrow">WaitArrow</a></td>
+          <td class="summary"><p>Gets the cross between Arrow and Wait cursors.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.Dispose.html#Microsoft_Xna_Framework_Input_MouseCursor_Dispose">Dispose()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.FromTexture2D.html#Microsoft_Xna_Framework_Input_MouseCursor_FromTexture2D_Microsoft_Xna_Framework_Graphics_Texture2D_System_Int32_System_Int32_">FromTexture2D(Texture2D, Int32, Int32)</a></td>
+          <td class="summary"><p>Creates a mouse cursor from the specified texture.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

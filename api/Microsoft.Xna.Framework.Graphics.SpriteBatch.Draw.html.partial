@@ -1,0 +1,621 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw*" class="text-break">Draw Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Vector2__System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Color__Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">Draw(Texture2D, Nullable&lt;Vector2&gt;, Nullable&lt;Rectangle&gt;, Nullable&lt;Rectangle&gt;, Nullable&lt;Vector2&gt;, Single, Nullable&lt;Vector2&gt;, Nullable&lt;Color&gt;, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, Vector2, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, Single, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_">Draw(Texture2D, Rectangle, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, SpriteEffects, Single)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_">Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_">Draw(Texture2D, Rectangle, Nullable&lt;Rectangle&gt;, Color)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_">Draw(Texture2D, Vector2, Color)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw.html#Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Color_">Draw(Texture2D, Rectangle, Color)</a></td>
+          <td class="summary"><p>Submit a sprite for drawing in the current batch.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Vector2__System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Color__Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Rectangle},System.Nullable{Microsoft.Xna.Framework.Rectangle},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Single,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Color},Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.Draw(Texture2D, Nullable&lt;Vector2&gt;, Nullable&lt;Rectangle&gt;, Nullable&lt;Rectangle&gt;, Nullable&lt;Vector2&gt;, Single, Nullable&lt;Vector2&gt;, Nullable&lt;Color&gt;, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">[Obsolete(&quot;In future versions this method can be removed.&quot;)]
+public void Draw(Texture2D texture, Vector2? position = default(Vector2? ), Rectangle? destinationRectangle = default(Rectangle? ), Rectangle? sourceRectangle = default(Rectangle? ), Vector2? origin = default(Vector2? ), float rotation = 0F, Vector2? scale = default(Vector2? ), Color? color = default(Color? ), SpriteEffects effects = SpriteEffects.None, float layerDepth = 0F)</code></pre>
+        </div>
+      
+      
+        <div class="type-subheader attributes">
+          <strong>Attributes</strong>
+            <div>System.ObsoleteAttribute</div>
+        </div>
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen or null if <code data-dev-comment-type="paramref" class="paramref">destinationRectangle</code></p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">destinationRectangle</span></td>
+              <td><p>The drawing bounds on screen or null if <code data-dev-comment-type="paramref" class="paramref">position</code></p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">sourceRectangle</span></td>
+              <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>An optional center of rotation. Uses <a class="xref" href="Microsoft.Xna.Framework.Vector2.Zero.html#Microsoft_Xna_Framework_Vector2_Zero">Zero</a> if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>An optional rotation of this sprite. 0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>&gt;</td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>An optional scale vector. Uses <a class="xref" href="Microsoft.Xna.Framework.Vector2.One.html#Microsoft_Xna_Framework_Vector2_One">One</a> if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a>&gt;</td>
+              <td><span class="parametername">color</span></td>
+              <td><p>An optional color mask. Uses <a class="xref" href="Microsoft.Xna.Framework.Color.White.html#Microsoft_Xna_Framework_Color_White">White</a> if null.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>The optional drawing modificators. <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html#Microsoft_Xna_Framework_Graphics_SpriteEffects_None">None</a> by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>An optional depth of the layer of this sprite. 0 by default.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+            <td><p>Throwns if both <code data-dev-comment-type="paramref" class="paramref">position</code> and <code data-dev-comment-type="paramref" class="paramref">destinationRectangle</code> been used.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Rectangle__System_Nullable_Microsoft_Xna_Framework_Vector2__System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__System_Nullable_Microsoft_Xna_Framework_Color__Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This overload uses optional parameters. This overload requires only one of <code data-dev-comment-type="paramref" class="paramref">position</code> and <code data-dev-comment-type="paramref" class="paramref">destinationRectangle</code> been used.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, Vector2, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Rectangle? sourceRectangle, Color color, float rotation, Vector2 origin, Vector2 scale, SpriteEffects effects, float layerDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">sourceRectangle</span></td>
+              <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>A rotation of this sprite.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>A scaling of this sprite.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>A depth of the layer of this sprite.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_System_Single_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,System.Single,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, Single, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Rectangle? sourceRectangle, Color color, float rotation, Vector2 origin, float scale, SpriteEffects effects, float layerDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">sourceRectangle</span></td>
+              <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>A rotation of this sprite.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">scale</span></td>
+              <td><p>A scaling of this sprite.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>A depth of the layer of this sprite.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_System_Single_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Graphics_SpriteEffects_System_Single_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)" class="text-break">.SpriteBatch.Draw(Texture2D, Rectangle, Nullable&lt;Rectangle&gt;, Color, Single, Vector2, SpriteEffects, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Rectangle destinationRectangle, Rectangle? sourceRectangle, Color color, float rotation, Vector2 origin, SpriteEffects effects, float layerDepth)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">destinationRectangle</span></td>
+              <td><p>The drawing bounds on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">sourceRectangle</span></td>
+              <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rotation</span></td>
+              <td><p>A rotation of this sprite.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">origin</span></td>
+              <td><p>Center of the rotation. 0,0 by default.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffects.html">SpriteEffects</a></td>
+              <td><span class="parametername">effects</span></td>
+              <td><p>Modificators for drawing. Can be combined.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">layerDepth</span></td>
+              <td><p>A depth of the layer of this sprite.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color)" class="text-break">.SpriteBatch.Draw(Texture2D, Vector2, Nullable&lt;Rectangle&gt;, Color) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Rectangle? sourceRectangle, Color color)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">sourceRectangle</span></td>
+              <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_System_Nullable_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,System.Nullable{Microsoft.Xna.Framework.Rectangle},Microsoft.Xna.Framework.Color)" class="text-break">.SpriteBatch.Draw(Texture2D, Rectangle, Nullable&lt;Rectangle&gt;, Color) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Rectangle destinationRectangle, Rectangle? sourceRectangle, Color color)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">destinationRectangle</span></td>
+              <td><p>The drawing bounds on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">sourceRectangle</span></td>
+              <td><p>An optional region on the texture which will be rendered. If null - draws full texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)" class="text-break">.SpriteBatch.Draw(Texture2D, Vector2, Color) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Vector2 position, Color color)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">position</span></td>
+              <td><p>The drawing location on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Draw_Microsoft_Xna_Framework_Graphics_Texture2D_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Color_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Color)" class="text-break">.SpriteBatch.Draw(Texture2D, Rectangle, Color) Method</h2>
+    <div class="markdown level0 summary"><p>Submit a sprite for drawing in the current batch.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Draw(Texture2D texture, Rectangle destinationRectangle, Color color)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><span class="parametername">texture</span></td>
+              <td><p>A texture.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">destinationRectangle</span></td>
+              <td><p>The drawing bounds on screen.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><span class="parametername">color</span></td>
+              <td><p>A color mask.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

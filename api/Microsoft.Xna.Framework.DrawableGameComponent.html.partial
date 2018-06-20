@@ -1,0 +1,201 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.DrawableGameComponent" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_DrawableGameComponent" data-uid="Microsoft.Xna.Framework.DrawableGameComponent" class="text-break">DrawableGameComponent Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class DrawableGameComponent : GameComponent, IGameComponent, IUpdateable, IComparable&lt;GameComponent&gt;, IDisposable, IDrawable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.GameComponent.html">GameComponent</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level2"><span class="xref">DrawableGameComponent</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="Microsoft.Xna.Framework.IGameComponent.html">IGameComponent</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.html">IUpdateable</a></div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.GameComponent.html">GameComponent</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.IDrawable.html">IDrawable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.Game.html#Microsoft_Xna_Framework_GameComponent_Game">GameComponent.Game</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.Enabled.html#Microsoft_Xna_Framework_GameComponent_Enabled">GameComponent.Enabled</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.UpdateOrder.html#Microsoft_Xna_Framework_GameComponent_UpdateOrder">GameComponent.UpdateOrder</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.EnabledChanged.html#Microsoft_Xna_Framework_GameComponent_EnabledChanged">GameComponent.EnabledChanged</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.UpdateOrderChanged.html#Microsoft_Xna_Framework_GameComponent_UpdateOrderChanged">GameComponent.UpdateOrderChanged</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.Update.html#Microsoft_Xna_Framework_GameComponent_Update_Microsoft_Xna_Framework_GameTime_">GameComponent.Update(GameTime)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.OnUpdateOrderChanged.html#Microsoft_Xna_Framework_GameComponent_OnUpdateOrderChanged_System_Object_System_EventArgs_">GameComponent.OnUpdateOrderChanged(Object, EventArgs)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.OnEnabledChanged.html#Microsoft_Xna_Framework_GameComponent_OnEnabledChanged_System_Object_System_EventArgs_">GameComponent.OnEnabledChanged(Object, EventArgs)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.Dispose.html#Microsoft_Xna_Framework_GameComponent_Dispose_System_Boolean_">GameComponent.Dispose(Boolean)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.Dispose.html#Microsoft_Xna_Framework_GameComponent_Dispose">GameComponent.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.GameComponent.CompareTo.html#Microsoft_Xna_Framework_GameComponent_CompareTo_Microsoft_Xna_Framework_GameComponent_">GameComponent.CompareTo(GameComponent)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.-ctor.html#Microsoft_Xna_Framework_DrawableGameComponent__ctor_Microsoft_Xna_Framework_Game_">DrawableGameComponent(Game)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.DrawOrder.html#Microsoft_Xna_Framework_DrawableGameComponent_DrawOrder">DrawOrder</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.GraphicsDevice.html#Microsoft_Xna_Framework_DrawableGameComponent_GraphicsDevice">GraphicsDevice</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.Visible.html#Microsoft_Xna_Framework_DrawableGameComponent_Visible">Visible</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.Draw.html#Microsoft_Xna_Framework_DrawableGameComponent_Draw_Microsoft_Xna_Framework_GameTime_">Draw(GameTime)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.Initialize.html#Microsoft_Xna_Framework_DrawableGameComponent_Initialize">Initialize()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.LoadContent.html#Microsoft_Xna_Framework_DrawableGameComponent_LoadContent">LoadContent()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.OnDrawOrderChanged.html#Microsoft_Xna_Framework_DrawableGameComponent_OnDrawOrderChanged_System_Object_System_EventArgs_">OnDrawOrderChanged(Object, EventArgs)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.OnVisibleChanged.html#Microsoft_Xna_Framework_DrawableGameComponent_OnVisibleChanged_System_Object_System_EventArgs_">OnVisibleChanged(Object, EventArgs)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.UnloadContent.html#Microsoft_Xna_Framework_DrawableGameComponent_UnloadContent">UnloadContent()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.DrawOrderChanged.html#Microsoft_Xna_Framework_DrawableGameComponent_DrawOrderChanged">DrawOrderChanged</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.DrawableGameComponent.VisibleChanged.html#Microsoft_Xna_Framework_DrawableGameComponent_VisibleChanged">VisibleChanged</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

@@ -1,0 +1,45 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameComponent.UpdateOrderChanged" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameComponent_UpdateOrderChanged" data-uid="Microsoft.Xna.Framework.GameComponent.UpdateOrderChanged" class="text-break">GameComponent.UpdateOrderChanged Event</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; UpdateOrderChanged</code></pre>
+    </div>
+  
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.UpdateOrderChanged.html#Microsoft_Xna_Framework_IUpdateable_UpdateOrderChanged">UpdateOrderChanged</a></div>
+  </div>
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Event Type</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

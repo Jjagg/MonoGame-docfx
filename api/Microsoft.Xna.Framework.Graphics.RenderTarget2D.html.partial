@@ -1,0 +1,274 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTarget2D" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget2D" class="text-break">RenderTarget2D Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class RenderTarget2D : Texture2D, IDisposable, IRenderTarget</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html">Texture</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level4"><span class="xref">RenderTarget2D</span>
+    </span></div>
+  </div>
+      <div class="type-subheader derived">
+        <strong>Derived</strong>
+          <a class="xref" href="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.html">SwapChainRenderTarget</a>
+      </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.Bounds.html#Microsoft_Xna_Framework_Graphics_Texture2D_Bounds">Texture2D.Bounds</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.Width.html#Microsoft_Xna_Framework_Graphics_Texture2D_Width">Texture2D.Width</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.Height.html#Microsoft_Xna_Framework_Graphics_Texture2D_Height">Texture2D.Height</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.SetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.SetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_">Texture2D.SetData&lt;T&gt;(T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___">Texture2D.SetData&lt;T&gt;(T[])</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.GetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">Texture2D.GetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___System_Int32_System_Int32_">Texture2D.GetData&lt;T&gt;(T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_GetData__1___0___">Texture2D.GetData&lt;T&gt;(T[])</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream.html#Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream_">Texture2D.FromStream(GraphicsDevice, Stream)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsJpeg.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsJpeg_System_IO_Stream_System_Int32_System_Int32_">Texture2D.SaveAsJpeg(Stream, Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SaveAsPng.html#Microsoft_Xna_Framework_Graphics_Texture2D_SaveAsPng_System_IO_Stream_System_Int32_System_Int32_">Texture2D.SaveAsPng(Stream, Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.Reload.html#Microsoft_Xna_Framework_Graphics_Texture2D_Reload_System_IO_Stream_">Texture2D.Reload(Stream)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.Shared.html#Microsoft_Xna_Framework_Graphics_Texture2D_Shared">Texture2D.Shared</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.Mipmap.html#Microsoft_Xna_Framework_Graphics_Texture2D_Mipmap">Texture2D.Mipmap</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SampleDescription.html#Microsoft_Xna_Framework_Graphics_Texture2D_SampleDescription">Texture2D.SampleDescription</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.Format.html#Microsoft_Xna_Framework_Graphics_Texture_Format">Texture.Format</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.LevelCount.html#Microsoft_Xna_Framework_Graphics_Texture_LevelCount">Texture.LevelCount</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle.html#Microsoft_Xna_Framework_Graphics_Texture_GetSharedHandle">Texture.GetSharedHandle()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_">RenderTarget2D(GraphicsDevice, Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_">RenderTarget2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, DepthFormat)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_">RenderTarget2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_Microsoft_Xna_Framework_Graphics_Texture2D_SurfaceType_">RenderTarget2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage, Texture2D.SurfaceType)</a></td>
+          <td class="summary"><p>Allows child class to specify the surface type, eg: a swap chain.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_System_Boolean_">RenderTarget2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage, Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_System_Boolean_System_Int32_">RenderTarget2D(GraphicsDevice, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage, Boolean, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.DepthStencilFormat.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_DepthStencilFormat">DepthStencilFormat</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.IsContentLost.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_IsContentLost">IsContentLost</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.MultiSampleCount.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_MultiSampleCount">MultiSampleCount</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.RenderTargetUsage.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_RenderTargetUsage">RenderTargetUsage</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.CreateSampleDescription.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_CreateSampleDescription">CreateSampleDescription()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.CreateShaderResourceView.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_CreateShaderResourceView">CreateShaderResourceView()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.Dispose.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.GetTexture2DDescription.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_GetTexture2DDescription">GetTexture2DDescription()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.GraphicsDeviceResetting.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_GraphicsDeviceResetting">GraphicsDeviceResetting()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.QuerySelectedFormat.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_QuerySelectedFormat_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_SurfaceFormat_">QuerySelectedFormat(GraphicsDevice, SurfaceFormat)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget2D.ContentLost.html#Microsoft_Xna_Framework_Graphics_RenderTarget2D_ContentLost">ContentLost</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

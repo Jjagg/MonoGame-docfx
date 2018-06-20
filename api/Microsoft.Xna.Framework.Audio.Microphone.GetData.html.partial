@@ -1,0 +1,155 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Microphone.GetData*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_Microphone_GetData_" data-uid="Microsoft.Xna.Framework.Audio.Microphone.GetData*" class="text-break">GetData Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.GetData.html#Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___">GetData(Byte[])</a></td>
+          <td class="summary"><p>Gets the latest available data from the microphone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.GetData.html#Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___System_Int32_System_Int32_">GetData(Byte[], Int32, Int32)</a></td>
+          <td class="summary"><p>Gets the latest available data from the microphone.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___" data-uid="Microsoft.Xna.Framework.Audio.Microphone.GetData(System.Byte[])" class="text-break">.Microphone.GetData(Byte[]) Method</h2>
+    <div class="markdown level0 summary"><p>Gets the latest available data from the microphone.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public int GetData(byte[] buffer)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">buffer</span></td>
+              <td><p>Buffer, in bytes, of the captured data (16-bit PCM).</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+            <td><p>The buffer size, in bytes, of the captured data.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.Microphone.GetData(System.Byte[],System.Int32,System.Int32)" class="text-break">.Microphone.GetData(Byte[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Gets the latest available data from the microphone.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public int GetData(byte[] buffer, int offset, int count)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">buffer</span></td>
+              <td><p>Buffer, in bytes, of the captured data (16-bit PCM).</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offset</span></td>
+              <td><p>Byte offset.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">count</span></td>
+              <td><p>Amount, in bytes.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+            <td><p>The buffer size, in bytes, of the captured data.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

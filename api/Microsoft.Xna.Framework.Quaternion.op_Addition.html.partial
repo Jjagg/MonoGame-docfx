@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.op_Addition*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_op_Addition_" data-uid="Microsoft.Xna.Framework.Quaternion.op_Addition*" class="text-break">.Quaternion.Addition(Quaternion, Quaternion) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Adds two quaternions.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion operator +(Quaternion quaternion1, Quaternion quaternion2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> on the left of the add sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">quaternion2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> on the right of the add sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>Sum of the vectors.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

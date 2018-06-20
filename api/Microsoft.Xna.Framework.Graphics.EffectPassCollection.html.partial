@@ -1,0 +1,115 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EffectPassCollection" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EffectPassCollection" data-uid="Microsoft.Xna.Framework.Graphics.EffectPassCollection" class="text-break">EffectPassCollection Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class EffectPassCollection : IEnumerable&lt;EffectPass&gt;, IEnumerable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">EffectPassCollection</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPass.html">EffectPass</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPassCollection.Count.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_Count">Count</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPassCollection.Item.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_Item_System_Int32_">Item[Int32]</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPassCollection.Item.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_Item_System_String_">Item[String]</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPassCollection.GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_GetEnumerator">GetEnumerator()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPassCollection.System-Collections-Generic-IEnumerable-Microsoft-Xna-Framework-Graphics-EffectPass--GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Graphics_EffectPass__GetEnumerator">IEnumerable&lt;EffectPass&gt;.GetEnumerator()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPassCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_System_Collections_IEnumerable_GetEnumerator">IEnumerable.GetEnumerator()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

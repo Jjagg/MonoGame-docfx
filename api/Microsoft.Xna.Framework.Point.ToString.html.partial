@@ -1,0 +1,62 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Point.ToString*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Point_ToString_" data-uid="Microsoft.Xna.Framework.Point.ToString*" class="text-break">.Point.ToString() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> in the format:
+{X:[<a class="xref" href="Microsoft.Xna.Framework.Point.X.html#Microsoft_Xna_Framework_Point_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Point.Y.html#Microsoft_Xna_Framework_Point_Y">Y</a>]}</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+            <td><p><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

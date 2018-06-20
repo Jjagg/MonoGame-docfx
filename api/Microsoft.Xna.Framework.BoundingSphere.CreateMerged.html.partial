@@ -1,0 +1,148 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateMerged*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingSphere_CreateMerged_" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateMerged*" class="text-break">CreateMerged Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.CreateMerged.html#Microsoft_Xna_Framework_BoundingSphere_CreateMerged_Microsoft_Xna_Framework_BoundingSphere_Microsoft_Xna_Framework_BoundingSphere_">CreateMerged(BoundingSphere, BoundingSphere)</a></td>
+          <td class="summary"><p>Creates the smallest <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that can contain two spheres.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.CreateMerged.html#Microsoft_Xna_Framework_BoundingSphere_CreateMerged_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_BoundingSphere__">CreateMerged(ref BoundingSphere, ref BoundingSphere, out BoundingSphere)</a></td>
+          <td class="summary"><p>Creates the smallest <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that can contain two spheres.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_CreateMerged_Microsoft_Xna_Framework_BoundingSphere_Microsoft_Xna_Framework_BoundingSphere_" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateMerged(Microsoft.Xna.Framework.BoundingSphere,Microsoft.Xna.Framework.BoundingSphere)" class="text-break">.BoundingSphere.CreateMerged(BoundingSphere, BoundingSphere) Method</h2>
+    <div class="markdown level0 summary"><p>Creates the smallest <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that can contain two spheres.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static BoundingSphere CreateMerged(BoundingSphere original, BoundingSphere additional)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">original</span></td>
+              <td><p>First sphere.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">additional</span></td>
+              <td><p>Second sphere.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+            <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_CreateMerged_Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_BoundingSphere__Microsoft_Xna_Framework_BoundingSphere__" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateMerged(Microsoft.Xna.Framework.BoundingSphere@,Microsoft.Xna.Framework.BoundingSphere@,Microsoft.Xna.Framework.BoundingSphere@)" class="text-break">.BoundingSphere.CreateMerged(ref BoundingSphere, ref BoundingSphere, out BoundingSphere) Method</h2>
+    <div class="markdown level0 summary"><p>Creates the smallest <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that can contain two spheres.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateMerged(ref BoundingSphere original, ref BoundingSphere additional, out BoundingSphere result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">original</span></td>
+              <td><p>First sphere.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">additional</span></td>
+              <td><p>Second sphere.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

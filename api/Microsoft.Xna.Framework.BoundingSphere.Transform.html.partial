@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingSphere.Transform*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingSphere_Transform_" data-uid="Microsoft.Xna.Framework.BoundingSphere.Transform*" class="text-break">Transform Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Transform.html#Microsoft_Xna_Framework_BoundingSphere_Transform_Microsoft_Xna_Framework_Matrix_">Transform(Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that contains a transformation of translation and scale from this sphere by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.Transform.html#Microsoft_Xna_Framework_BoundingSphere_Transform_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_BoundingSphere__">Transform(ref Matrix, out BoundingSphere)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that contains a transformation of translation and scale from this sphere by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Transform_Microsoft_Xna_Framework_Matrix_" data-uid="Microsoft.Xna.Framework.BoundingSphere.Transform(Microsoft.Xna.Framework.Matrix)" class="text-break">.BoundingSphere.Transform(Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that contains a transformation of translation and scale from this sphere by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public BoundingSphere Transform(Matrix matrix)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+            <td><p>Transformed <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingSphere_Transform_Microsoft_Xna_Framework_Matrix__Microsoft_Xna_Framework_BoundingSphere__" data-uid="Microsoft.Xna.Framework.BoundingSphere.Transform(Microsoft.Xna.Framework.Matrix@,Microsoft.Xna.Framework.BoundingSphere@)" class="text-break">.BoundingSphere.Transform(ref Matrix, out BoundingSphere) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> that contains a transformation of translation and scale from this sphere by the specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Transform(ref Matrix matrix, out BoundingSphere result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">matrix</span></td>
+              <td><p>The transformation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>Transformed <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,59 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameWindow.ClientBounds*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameWindow_ClientBounds_" data-uid="Microsoft.Xna.Framework.GameWindow.ClientBounds*" class="text-break">.GameWindow.ClientBounds Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public abstract Rectangle ClientBounds { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

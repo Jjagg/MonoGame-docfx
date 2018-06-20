@@ -1,0 +1,30 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SetDataOptions" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SetDataOptions" data-uid="Microsoft.Xna.Framework.Graphics.SetDataOptions" class="text-break">SetDataOptions Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines how vertex or index buffer data will be flushed during a SetData operation.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum SetDataOptions</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

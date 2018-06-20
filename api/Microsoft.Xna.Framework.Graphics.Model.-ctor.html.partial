@@ -1,0 +1,91 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Model.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Model__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Model.#ctor*" class="text-break">.Model.Model(GraphicsDevice, List&lt;ModelBone&gt;, List&lt;ModelMesh&gt;) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Constructs a model. </p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Model(GraphicsDevice graphicsDevice, List&lt;ModelBone&gt; bones, List&lt;ModelMesh&gt; meshes)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td><p>A valid reference to <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelBone.html">ModelBone</a>&gt;</td>
+              <td><span class="parametername">bones</span></td>
+              <td><p>The collection of bones.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a>&gt;</td>
+              <td><span class="parametername">meshes</span></td>
+              <td><p>The collection of meshes.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">graphicsDevice</code> is null.</p>
+</td>
+          </tr>
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">bones</code> is null.</p>
+</td>
+          </tr>
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">meshes</code> is null.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

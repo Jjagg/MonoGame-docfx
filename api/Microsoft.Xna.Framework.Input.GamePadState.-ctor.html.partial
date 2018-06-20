@@ -1,0 +1,163 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState__ctor_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.#ctor*" class="text-break">GamePadState Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.-ctor.html#Microsoft_Xna_Framework_Input_GamePadState__ctor_Microsoft_Xna_Framework_Input_GamePadThumbSticks_Microsoft_Xna_Framework_Input_GamePadTriggers_Microsoft_Xna_Framework_Input_GamePadButtons_Microsoft_Xna_Framework_Input_GamePadDPad_">GamePadState(GamePadThumbSticks, GamePadTriggers, GamePadButtons, GamePadDPad)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> struct
+using the specified GamePadThumbSticks, GamePadTriggers, GamePadButtons, and GamePadDPad.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.-ctor.html#Microsoft_Xna_Framework_Input_GamePadState__ctor_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_Microsoft_Xna_Framework_Input_Buttons_">GamePadState(Vector2, Vector2, Single, Single, Buttons)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> struct.
+using the specified stick, trigger, and button values.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Input_GamePadState__ctor_Microsoft_Xna_Framework_Input_GamePadThumbSticks_Microsoft_Xna_Framework_Input_GamePadTriggers_Microsoft_Xna_Framework_Input_GamePadButtons_Microsoft_Xna_Framework_Input_GamePadDPad_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.#ctor(Microsoft.Xna.Framework.Input.GamePadThumbSticks,Microsoft.Xna.Framework.Input.GamePadTriggers,Microsoft.Xna.Framework.Input.GamePadButtons,Microsoft.Xna.Framework.Input.GamePadDPad)" class="text-break">.GamePadState.GamePadState(GamePadThumbSticks, GamePadTriggers, GamePadButtons, GamePadDPad) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> struct
+using the specified GamePadThumbSticks, GamePadTriggers, GamePadButtons, and GamePadDPad.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GamePadState(GamePadThumbSticks thumbSticks, GamePadTriggers triggers, GamePadButtons buttons, GamePadDPad dPad)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadThumbSticks.html">GamePadThumbSticks</a></td>
+              <td><span class="parametername">thumbSticks</span></td>
+              <td><p>Initial thumbstick state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.html">GamePadTriggers</a></td>
+              <td><span class="parametername">triggers</span></td>
+              <td><p>Initial trigger state..</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadButtons.html">GamePadButtons</a></td>
+              <td><span class="parametername">buttons</span></td>
+              <td><p>Initial button state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a></td>
+              <td><span class="parametername">dPad</span></td>
+              <td><p>Initial directional pad state.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_GamePadState__ctor_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_Microsoft_Xna_Framework_Input_Buttons_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.#ctor(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,Microsoft.Xna.Framework.Input.Buttons)" class="text-break">.GamePadState.GamePadState(Vector2, Vector2, Single, Single, Buttons) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a> struct.
+using the specified stick, trigger, and button values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GamePadState(Vector2 leftThumbStick, Vector2 rightThumbStick, float leftTrigger, float rightTrigger, Buttons buttons)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">leftThumbStick</span></td>
+              <td><p>Left stick value. Each axis is clamped between −1.0 and 1.0.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">rightThumbStick</span></td>
+              <td><p>Right stick value. Each axis is clamped between −1.0 and 1.0.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">leftTrigger</span></td>
+              <td><p>Left trigger value. This value is clamped between 0.0 and 1.0.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">rightTrigger</span></td>
+              <td><p>Right trigger value. This value is clamped between 0.0 and 1.0.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Buttons.html">Buttons</a></td>
+              <td><span class="parametername">buttons</span></td>
+              <td><p>Array or parameter list of Buttons to initialize as pressed.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

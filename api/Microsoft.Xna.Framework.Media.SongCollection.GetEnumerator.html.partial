@@ -1,0 +1,63 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.SongCollection.GetEnumerator*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_SongCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.Media.SongCollection.GetEnumerator*" class="text-break">.SongCollection.GetEnumerator() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public IEnumerator&lt;Song&gt; GetEnumerator()</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator#System_Collections_Generic_IEnumerable_1_GetEnumerator">GetEnumerator</a>()</div>
+      </div>
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a>&gt;</td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

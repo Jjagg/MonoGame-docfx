@@ -1,0 +1,59 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_DepthStencilState_CounterClockwiseStencilFunction_" data-uid="Microsoft.Xna.Framework.Graphics.DepthStencilState.CounterClockwiseStencilFunction*" class="text-break">.DepthStencilState.CounterClockwiseStencilFunction Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public CompareFunction CounterClockwiseStencilFunction { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.CompareFunction.html">CompareFunction</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

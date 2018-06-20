@@ -1,0 +1,197 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBuffer__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.#ctor*" class="text-break">VertexBuffer Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_VertexDeclaration_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_System_Boolean_">VertexBuffer(GraphicsDevice, VertexDeclaration, Int32, BufferUsage, Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_VertexDeclaration_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_">VertexBuffer(GraphicsDevice, VertexDeclaration, Int32, BufferUsage)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexBuffer.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Type_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_">VertexBuffer(GraphicsDevice, Type, Int32, BufferUsage)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_VertexDeclaration_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_System_Boolean_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Graphics.VertexDeclaration,System.Int32,Microsoft.Xna.Framework.Graphics.BufferUsage,System.Boolean)" class="text-break">.VertexBuffer.VertexBuffer(GraphicsDevice, VertexDeclaration, Int32, BufferUsage, Boolean) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected VertexBuffer(GraphicsDevice graphicsDevice, VertexDeclaration vertexDeclaration, int vertexCount, BufferUsage bufferUsage, bool dynamic)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a></td>
+              <td><span class="parametername">vertexDeclaration</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexCount</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BufferUsage.html">BufferUsage</a></td>
+              <td><span class="parametername">bufferUsage</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">dynamic</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_VertexDeclaration_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,Microsoft.Xna.Framework.Graphics.VertexDeclaration,System.Int32,Microsoft.Xna.Framework.Graphics.BufferUsage)" class="text-break">.VertexBuffer.VertexBuffer(GraphicsDevice, VertexDeclaration, Int32, BufferUsage) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexBuffer(GraphicsDevice graphicsDevice, VertexDeclaration vertexDeclaration, int vertexCount, BufferUsage bufferUsage)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a></td>
+              <td><span class="parametername">vertexDeclaration</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexCount</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BufferUsage.html">BufferUsage</a></td>
+              <td><span class="parametername">bufferUsage</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_VertexBuffer__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Type_System_Int32_Microsoft_Xna_Framework_Graphics_BufferUsage_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBuffer.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Type,System.Int32,Microsoft.Xna.Framework.Graphics.BufferUsage)" class="text-break">.VertexBuffer.VertexBuffer(GraphicsDevice, Type, Int32, BufferUsage) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public VertexBuffer(GraphicsDevice graphicsDevice, Type type, int vertexCount, BufferUsage bufferUsage)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+              <td><span class="parametername">type</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexCount</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.BufferUsage.html">BufferUsage</a></td>
+              <td><span class="parametername">bufferUsage</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

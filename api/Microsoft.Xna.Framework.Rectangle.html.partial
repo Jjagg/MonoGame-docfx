@@ -1,0 +1,326 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Rectangle" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Rectangle" data-uid="Microsoft.Xna.Framework.Rectangle" class="text-break">Rectangle Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Describes a 2D-rectangle. </p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public struct Rectangle : IEquatable&lt;Rectangle&gt;</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.-ctor.html#Microsoft_Xna_Framework_Rectangle__ctor_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Rectangle(Point, Point)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> struct, with the specified
+location and size.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.-ctor.html#Microsoft_Xna_Framework_Rectangle__ctor_System_Int32_System_Int32_System_Int32_System_Int32_">Rectangle(Int32, Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> struct, with the specified
+position, width, and height.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Height.html#Microsoft_Xna_Framework_Rectangle_Height">Height</a></td>
+          <td class="summary"><p>The height of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Width.html#Microsoft_Xna_Framework_Rectangle_Width">Width</a></td>
+          <td class="summary"><p>The width of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.X.html#Microsoft_Xna_Framework_Rectangle_X">X</a></td>
+          <td class="summary"><p>The x coordinate of the top-left corner of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Y.html#Microsoft_Xna_Framework_Rectangle_Y">Y</a></td>
+          <td class="summary"><p>The y coordinate of the top-left corner of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Bottom.html#Microsoft_Xna_Framework_Rectangle_Bottom">Bottom</a></td>
+          <td class="summary"><p>Returns the y coordinate of the bottom edge of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Center.html#Microsoft_Xna_Framework_Rectangle_Center">Center</a></td>
+          <td class="summary"><p>A <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> located in the center of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Empty.html#Microsoft_Xna_Framework_Rectangle_Empty">Empty</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> with X=0, Y=0, Width=0, Height=0.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.IsEmpty.html#Microsoft_Xna_Framework_Rectangle_IsEmpty">IsEmpty</a></td>
+          <td class="summary"><p>Whether or not this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> has a <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Width.html#Microsoft_Xna_Framework_Rectangle_Width">Width</a> and
+<a class="xref" href="Microsoft.Xna.Framework.Rectangle.Height.html#Microsoft_Xna_Framework_Rectangle_Height">Height</a> of 0, and a <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of (0, 0).</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Left.html#Microsoft_Xna_Framework_Rectangle_Left">Left</a></td>
+          <td class="summary"><p>Returns the x coordinate of the left edge of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a></td>
+          <td class="summary"><p>The top-left coordinates of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Right.html#Microsoft_Xna_Framework_Rectangle_Right">Right</a></td>
+          <td class="summary"><p>Returns the x coordinate of the right edge of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Size.html#Microsoft_Xna_Framework_Rectangle_Size">Size</a></td>
+          <td class="summary"><p>The width-height coordinates of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Top.html#Microsoft_Xna_Framework_Rectangle_Top">Top</a></td>
+          <td class="summary"><p>Returns the y coordinate of the top edge of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Point_">Contains(Point)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Point__System_Boolean__">Contains(ref Point, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Rectangle_">Contains(Rectangle)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Rectangle__System_Boolean__">Contains(ref Rectangle, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Vector2_">Contains(Vector2)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_Microsoft_Xna_Framework_Vector2__System_Boolean__">Contains(ref Vector2, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_System_Int32_System_Int32_">Contains(Int32, Int32)</a></td>
+          <td class="summary"><p>Gets whether or not the provided coordinates lie within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Contains.html#Microsoft_Xna_Framework_Rectangle_Contains_System_Single_System_Single_">Contains(Single, Single)</a></td>
+          <td class="summary"><p>Gets whether or not the provided coordinates lie within the bounds of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Deconstruct.html#Microsoft_Xna_Framework_Rectangle_Deconstruct_System_Int32__System_Int32__System_Int32__System_Int32__">Deconstruct(out Int32, out Int32, out Int32, out Int32)</a></td>
+          <td class="summary"><p>Deconstruction method for <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Equals.html#Microsoft_Xna_Framework_Rectangle_Equals_Microsoft_Xna_Framework_Rectangle_">Equals(Rectangle)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Equals.html#Microsoft_Xna_Framework_Rectangle_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.GetHashCode.html#Microsoft_Xna_Framework_Rectangle_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets the hash code of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Inflate.html#Microsoft_Xna_Framework_Rectangle_Inflate_System_Int32_System_Int32_">Inflate(Int32, Int32)</a></td>
+          <td class="summary"><p>Adjusts the edges of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> by specified horizontal and vertical amounts. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Inflate.html#Microsoft_Xna_Framework_Rectangle_Inflate_System_Single_System_Single_">Inflate(Single, Single)</a></td>
+          <td class="summary"><p>Adjusts the edges of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> by specified horizontal and vertical amounts. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Intersect.html#Microsoft_Xna_Framework_Rectangle_Intersect_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_">Intersect(Rectangle, Rectangle)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that contains overlapping region of two other rectangles.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Intersect.html#Microsoft_Xna_Framework_Rectangle_Intersect_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__">Intersect(ref Rectangle, ref Rectangle, out Rectangle)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that contains overlapping region of two other rectangles.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Intersects.html#Microsoft_Xna_Framework_Rectangle_Intersects_Microsoft_Xna_Framework_Rectangle_">Intersects(Rectangle)</a></td>
+          <td class="summary"><p>Gets whether or not the other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Intersects.html#Microsoft_Xna_Framework_Rectangle_Intersects_Microsoft_Xna_Framework_Rectangle__System_Boolean__">Intersects(ref Rectangle, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_Microsoft_Xna_Framework_Point_">Offset(Point)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_Microsoft_Xna_Framework_Vector2_">Offset(Vector2)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_System_Int32_System_Int32_">Offset(Int32, Int32)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Offset.html#Microsoft_Xna_Framework_Rectangle_Offset_System_Single_System_Single_">Offset(Single, Single)</a></td>
+          <td class="summary"><p>Changes the <a class="xref" href="Microsoft.Xna.Framework.Rectangle.Location.html#Microsoft_Xna_Framework_Rectangle_Location">Location</a> of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.ToString.html#Microsoft_Xna_Framework_Rectangle_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> in the format:
+{X:[<a class="xref" href="Microsoft.Xna.Framework.Rectangle.X.html#Microsoft_Xna_Framework_Rectangle_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Rectangle.Y.html#Microsoft_Xna_Framework_Rectangle_Y">Y</a>] Width:[<a class="xref" href="Microsoft.Xna.Framework.Rectangle.Width.html#Microsoft_Xna_Framework_Rectangle_Width">Width</a>] Height:[<a class="xref" href="Microsoft.Xna.Framework.Rectangle.Height.html#Microsoft_Xna_Framework_Rectangle_Height">Height</a>]}</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Union.html#Microsoft_Xna_Framework_Rectangle_Union_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_">Union(Rectangle, Rectangle)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that completely contains two other rectangles.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Union.html#Microsoft_Xna_Framework_Rectangle_Union_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__">Union(ref Rectangle, ref Rectangle, out Rectangle)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that completely contains two other rectangles.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.op_Equality.html#Microsoft_Xna_Framework_Rectangle_op_Equality_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_">Equality(Rectangle, Rectangle)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> instances are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.op_Inequality.html#Microsoft_Xna_Framework_Rectangle_op_Inequality_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_">Inequality(Rectangle, Rectangle)</a></td>
+          <td class="summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> instances are not equal.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

@@ -1,0 +1,65 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.GetEnumerator*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKeyCollection_GetEnumerator_" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.GetEnumerator*" class="text-break">.CurveKeyCollection.GetEnumerator() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns an enumerator that iterates through the collection.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public IEnumerator&lt;CurveKey&gt; GetEnumerator()</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator#System_Collections_Generic_IEnumerable_1_GetEnumerator">GetEnumerator</a>()</div>
+      </div>
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>&gt;</td>
+            <td><p>An enumerator for the <a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.html">CurveKeyCollection</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

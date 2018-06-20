@@ -1,0 +1,64 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EnvironmentMapEffect_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.AmbientLightColor*" class="text-break">.EnvironmentMapEffect.AmbientLightColor Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets or sets the ambient light color (range 0 to 1).</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector3 AmbientLightColor { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor.html#Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor">AmbientLightColor</a></div>
+      </div>
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

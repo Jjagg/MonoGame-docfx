@@ -1,0 +1,126 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.JoystickState" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_JoystickState" data-uid="Microsoft.Xna.Framework.Input.JoystickState" class="text-break">JoystickState Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Describes current joystick state.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct JoystickState</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.Axes.html#Microsoft_Xna_Framework_Input_JoystickState_Axes">Axes</a></td>
+          <td class="summary"><p>Gets the joystick axis values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.Buttons.html#Microsoft_Xna_Framework_Input_JoystickState_Buttons">Buttons</a></td>
+          <td class="summary"><p>Gets the joystick button values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.Hats.html#Microsoft_Xna_Framework_Input_JoystickState_Hats">Hats</a></td>
+          <td class="summary"><p>Gets the joystick hat values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.IsConnected.html#Microsoft_Xna_Framework_Input_JoystickState_IsConnected">IsConnected</a></td>
+          <td class="summary"><p>Gets a value indicating whether the joystick is connected.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.Equals.html#Microsoft_Xna_Framework_Input_JoystickState_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.GetHashCode.html#Microsoft_Xna_Framework_Input_JoystickState_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Serves as a hash function for a <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a> object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.ToString.html#Microsoft_Xna_Framework_Input_JoystickState_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents the current <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.op_Equality.html#Microsoft_Xna_Framework_Input_JoystickState_op_Equality_Microsoft_Xna_Framework_Input_JoystickState_Microsoft_Xna_Framework_Input_JoystickState_">Equality(JoystickState, JoystickState)</a></td>
+          <td class="summary"><p>Determines whether a specified instance of <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a> is
+equal to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.op_Inequality.html#Microsoft_Xna_Framework_Input_JoystickState_op_Inequality_Microsoft_Xna_Framework_Input_JoystickState_Microsoft_Xna_Framework_Input_JoystickState_">Inequality(JoystickState, JoystickState)</a></td>
+          <td class="summary"><p>Determines whether a specified instance of <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a> is not
+equal to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

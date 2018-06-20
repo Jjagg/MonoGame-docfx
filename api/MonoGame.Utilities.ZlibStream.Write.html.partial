@@ -1,0 +1,89 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream.Write*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream_Write_" data-uid="MonoGame.Utilities.ZlibStream.Write*" class="text-break">.ZlibStream.Write(Byte[], Int32, Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Write data to the stream.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override void Write(byte[] buffer, int offset, int count)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">buffer</span></td>
+              <td><p>The buffer holding data to write to the stream.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offset</span></td>
+              <td><p>the offset within that data array to find the first byte to write.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">count</span></td>
+              <td><p>the number of bytes to write.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="MonoGame_Utilities_ZlibStream_Write_System_Byte___System_Int32_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>
+  If you wish to use the <code>ZlibStream</code> to compress data while writing,
+  you can create a <code>ZlibStream</code> with <code>CompressionMode.Compress</code>,
+  and a writable output stream.  Then call <code>Write()</code> on that
+<code>ZlibStream</code>, providing uncompressed data as input.  The data sent to
+the output stream will be the compressed form of the data written.  If you
+wish to use the <code>ZlibStream</code> to decompress data while writing, you
+can create a <code>ZlibStream</code> with <code>CompressionMode.Decompress</code>, and a
+writable output stream.  Then call <code>Write()</code> on that stream,
+providing previously compressed data. The data sent to the output stream
+will be the decompressed form of the data written.
+</p>
+
+<p>
+  A <code>ZlibStream</code> can be used for <code>Read()</code> or <code>Write()</code>, but not both.
+</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

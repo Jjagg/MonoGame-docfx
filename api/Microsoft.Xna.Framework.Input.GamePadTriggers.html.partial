@@ -1,0 +1,131 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadTriggers" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadTriggers" data-uid="Microsoft.Xna.Framework.Input.GamePadTriggers" class="text-break">GamePadTriggers Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>A struct that countains information on the left and the right trigger buttons.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct GamePadTriggers</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.-ctor.html#Microsoft_Xna_Framework_Input_GamePadTriggers__ctor_System_Single_System_Single_">GamePadTriggers(Single, Single)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.html">GamePadTriggers</a> struct.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.Left.html#Microsoft_Xna_Framework_Input_GamePadTriggers_Left">Left</a></td>
+          <td class="summary"><p>Gets the position of the left trigger.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.Right.html#Microsoft_Xna_Framework_Input_GamePadTriggers_Right">Right</a></td>
+          <td class="summary"><p>Gets the position of the right trigger.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.Equals.html#Microsoft_Xna_Framework_Input_GamePadTriggers_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Returns a value indicating whether this instance is equal to a specified object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.GetHashCode.html#Microsoft_Xna_Framework_Input_GamePadTriggers_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Serves as a hash function for a <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.html">GamePadTriggers</a> object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.ToString.html#Microsoft_Xna_Framework_Input_GamePadTriggers_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> that represents the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.html">GamePadTriggers</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.op_Equality.html#Microsoft_Xna_Framework_Input_GamePadTriggers_op_Equality_Microsoft_Xna_Framework_Input_GamePadTriggers_Microsoft_Xna_Framework_Input_GamePadTriggers_">Equality(GamePadTriggers, GamePadTriggers)</a></td>
+          <td class="summary"><p>Determines whether two specified instances of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.html">GamePadTriggers</a> are equal.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.op_Inequality.html#Microsoft_Xna_Framework_Input_GamePadTriggers_op_Inequality_Microsoft_Xna_Framework_Input_GamePadTriggers_Microsoft_Xna_Framework_Input_GamePadTriggers_">Inequality(GamePadTriggers, GamePadTriggers)</a></td>
+          <td class="summary"><p>Determines whether two specified instances of <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadTriggers.html">GamePadTriggers</a> are not equal.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

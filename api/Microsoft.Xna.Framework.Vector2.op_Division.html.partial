@@ -1,0 +1,155 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector2.op_Division*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector2_op_Division_" data-uid="Microsoft.Xna.Framework.Vector2.op_Division*" class="text-break">Division Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.op_Division.html#Microsoft_Xna_Framework_Vector2_op_Division_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_">Division(Vector2, Vector2)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the components of another <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.op_Division.html#Microsoft_Xna_Framework_Vector2_op_Division_Microsoft_Xna_Framework_Vector2_System_Single_">Division(Vector2, Single)</a></td>
+          <td class="summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by a scalar.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector2_op_Division_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_" data-uid="Microsoft.Xna.Framework.Vector2.op_Division(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)" class="text-break">.Vector2.Division(Vector2, Vector2) Operator</h2>
+    <div class="markdown level0 summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by the components of another <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 operator /(Vector2 value1, Vector2 value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> on the left of the div sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Divisor <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> on the right of the div sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The result of dividing the vectors.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_op_Division_Microsoft_Xna_Framework_Vector2_System_Single_" data-uid="Microsoft.Xna.Framework.Vector2.op_Division(Microsoft.Xna.Framework.Vector2,System.Single)" class="text-break">.Vector2.Division(Vector2, Single) Operator</h2>
+    <div class="markdown level0 summary"><p>Divides the components of a <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> by a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 operator /(Vector2 value1, float divider)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> on the left of the div sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">divider</span></td>
+              <td><p>Divisor scalar on the right of the div sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The result of dividing a vector by a scalar.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

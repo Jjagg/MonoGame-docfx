@@ -1,0 +1,184 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector2.Hermite*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector2_Hermite_" data-uid="Microsoft.Xna.Framework.Vector2.Hermite*" class="text-break">Hermite Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Hermite.html#Microsoft_Xna_Framework_Vector2_Hermite_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_">Hermite(Vector2, Vector2, Vector2, Vector2, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains hermite spline interpolation.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Hermite.html#Microsoft_Xna_Framework_Vector2_Hermite_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__System_Single_Microsoft_Xna_Framework_Vector2__">Hermite(ref Vector2, ref Vector2, ref Vector2, ref Vector2, Single, out Vector2)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains hermite spline interpolation.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector2_Hermite_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_System_Single_" data-uid="Microsoft.Xna.Framework.Vector2.Hermite(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single)" class="text-break">.Vector2.Hermite(Vector2, Vector2, Vector2, Vector2, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains hermite spline interpolation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 Hermite(Vector2 value1, Vector2 tangent1, Vector2 value2, Vector2 tangent2, float amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first position vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">tangent1</span></td>
+              <td><p>The first tangent vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second position vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">tangent2</span></td>
+              <td><p>The second tangent vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Weighting factor.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The hermite spline interpolation vector.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Hermite_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__System_Single_Microsoft_Xna_Framework_Vector2__" data-uid="Microsoft.Xna.Framework.Vector2.Hermite(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,System.Single,Microsoft.Xna.Framework.Vector2@)" class="text-break">.Vector2.Hermite(ref Vector2, ref Vector2, ref Vector2, ref Vector2, Single, out Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> that contains hermite spline interpolation.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Hermite(ref Vector2 value1, ref Vector2 tangent1, ref Vector2 value2, ref Vector2 tangent2, float amount, out Vector2 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first position vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">tangent1</span></td>
+              <td><p>The first tangent vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second position vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">tangent2</span></td>
+              <td><p>The second tangent vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Weighting factor.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The hermite spline interpolation vector as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

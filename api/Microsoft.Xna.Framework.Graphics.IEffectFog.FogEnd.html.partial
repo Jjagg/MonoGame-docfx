@@ -1,0 +1,64 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.IEffectFog.FogEnd*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_IEffectFog_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.IEffectFog.FogEnd*" class="text-break">.IEffectFog.FogEnd Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>The world space distance from the camera at which fogging is fully applied.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">float FogEnd { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_IEffectFog_FogEnd_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>FogEnd should be greater than FogStart.  If FogEnd and FogStart 
+are the same value everything is fully fogged.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

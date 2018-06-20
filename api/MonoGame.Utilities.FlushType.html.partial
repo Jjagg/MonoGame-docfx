@@ -1,0 +1,33 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.FlushType" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_FlushType" data-uid="MonoGame.Utilities.FlushType" class="text-break">FlushType Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Describes how to flush the current deflate operation.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum FlushType</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<h id="MonoGame_Utilities_FlushType_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>The different FlushType values are useful when using a Deflate in a streaming application.</p>
+</div>
+
+
+
+
+  </div>
+</article>

@@ -1,0 +1,74 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.op_Equality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Alpha8_op_Equality_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.op_Equality*" class="text-break">.Alpha8.Equality(Alpha8, Alpha8) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator ==(Alpha8 lhs, Alpha8 rhs)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.html">Alpha8</a></td>
+              <td><span class="parametername">lhs</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Alpha8.html">Alpha8</a></td>
+              <td><span class="parametername">rhs</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

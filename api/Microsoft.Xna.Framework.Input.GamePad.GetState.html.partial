@@ -1,0 +1,263 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePad_GetState_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState*" class="text-break">GetState Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_">GetState(PlayerIndex)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_">GetState(Int32)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_Microsoft_Xna_Framework_Input_GamePadDeadZone_">GetState(PlayerIndex, GamePadDeadZone)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePad.GetState.html#Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_Microsoft_Xna_Framework_Input_GamePadDeadZone_">GetState(Int32, GamePadDeadZone)</a></td>
+          <td class="summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex)" class="text-break">.GamePad.GetState(PlayerIndex) Method</h2>
+    <div class="markdown level0 summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static GamePadState GetState(PlayerIndex playerIndex)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+              <td><span class="parametername">playerIndex</span></td>
+              <td><p>Player index for the controller you want to query.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+            <td><p>The state of the controller.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32)" class="text-break">.GamePad.GetState(Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Gets the current state of a game pad controller with an independent axes dead zone.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static GamePadState GetState(int index)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">index</span></td>
+              <td><p>Index for the controller you want to query.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+            <td><p>The state of the controller.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_GamePad_GetState_Microsoft_Xna_Framework_PlayerIndex_Microsoft_Xna_Framework_Input_GamePadDeadZone_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex,Microsoft.Xna.Framework.Input.GamePadDeadZone)" class="text-break">.GamePad.GetState(PlayerIndex, GamePadDeadZone) Method</h2>
+    <div class="markdown level0 summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static GamePadState GetState(PlayerIndex playerIndex, GamePadDeadZone deadZoneMode)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlayerIndex.html">PlayerIndex</a></td>
+              <td><span class="parametername">playerIndex</span></td>
+              <td><p>Player index for the controller you want to query.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDeadZone.html">GamePadDeadZone</a></td>
+              <td><span class="parametername">deadZoneMode</span></td>
+              <td><p>Enumerated value that specifies what dead zone type to use.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+            <td><p>The state of the controller.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Input_GamePad_GetState_System_Int32_Microsoft_Xna_Framework_Input_GamePadDeadZone_" data-uid="Microsoft.Xna.Framework.Input.GamePad.GetState(System.Int32,Microsoft.Xna.Framework.Input.GamePadDeadZone)" class="text-break">.GamePad.GetState(Int32, GamePadDeadZone) Method</h2>
+    <div class="markdown level0 summary"><p>Gets the current state of a game pad controller, using a specified dead zone
+on analog stick positions.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static GamePadState GetState(int index, GamePadDeadZone deadZoneMode)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">index</span></td>
+              <td><p>Index for the controller you want to query.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDeadZone.html">GamePadDeadZone</a></td>
+              <td><span class="parametername">deadZoneMode</span></td>
+              <td><p>Enumerated value that specifies what dead zone type to use.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a></td>
+            <td><p>The state of the controller.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

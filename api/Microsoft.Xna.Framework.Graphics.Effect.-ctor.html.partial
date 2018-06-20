@@ -1,0 +1,167 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Effect.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Effect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.Effect.#ctor*" class="text-break">Effect Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.-ctor.html#Microsoft_Xna_Framework_Graphics_Effect__ctor_Microsoft_Xna_Framework_Graphics_Effect_">Effect(Effect)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.-ctor.html#Microsoft_Xna_Framework_Graphics_Effect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Byte___">Effect(GraphicsDevice, Byte[])</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.-ctor.html#Microsoft_Xna_Framework_Graphics_Effect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Byte___System_Int32_System_Int32_">Effect(GraphicsDevice, Byte[], Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_Effect__ctor_Microsoft_Xna_Framework_Graphics_Effect_" data-uid="Microsoft.Xna.Framework.Graphics.Effect.#ctor(Microsoft.Xna.Framework.Graphics.Effect)" class="text-break">.Effect.Effect(Effect) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected Effect(Effect cloneSource)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
+              <td><span class="parametername">cloneSource</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Effect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Byte___" data-uid="Microsoft.Xna.Framework.Graphics.Effect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Byte[])" class="text-break">.Effect.Effect(GraphicsDevice, Byte[]) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Effect(GraphicsDevice graphicsDevice, byte[] effectCode)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">effectCode</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Effect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Byte___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Effect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Byte[],System.Int32,System.Int32)" class="text-break">.Effect.Effect(GraphicsDevice, Byte[], Int32, Int32) Constructor</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Effect(GraphicsDevice graphicsDevice, byte[] effectCode, int index, int count)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">effectCode</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">index</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">count</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

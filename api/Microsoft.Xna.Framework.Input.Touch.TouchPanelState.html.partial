@@ -1,0 +1,138 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelState" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelState" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelState" class="text-break">TouchPanelState Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class TouchPanelState</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">TouchPanelState</span>
+    </span></div>
+  </div>
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.DisplayHeight.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_DisplayHeight">DisplayHeight</a></td>
+          <td class="summary"><p>Gets or sets the display height of the touch panel.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.DisplayOrientation.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_DisplayOrientation">DisplayOrientation</a></td>
+          <td class="summary"><p>Gets or sets the display orientation of the touch panel.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.DisplayWidth.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_DisplayWidth">DisplayWidth</a></td>
+          <td class="summary"><p>Gets or sets the display width of the touch panel.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.EnabledGestures.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_EnabledGestures">EnabledGestures</a></td>
+          <td class="summary"><p>Gets or sets enabled gestures.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.EnableMouseGestures.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_EnableMouseGestures">EnableMouseGestures</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.EnableMouseTouchPoint.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_EnableMouseTouchPoint">EnableMouseTouchPoint</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.IsGestureAvailable.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_IsGestureAvailable">IsGestureAvailable</a></td>
+          <td class="summary"><p>Returns true if a touch gesture is available.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.WindowHandle.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_WindowHandle">WindowHandle</a></td>
+          <td class="summary"><p>The window handle of the touch panel. Purely for Xna compatibility.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.GetCapabilities.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_GetCapabilities">GetCapabilities()</a></td>
+          <td class="summary"><p>Returns capabilities of touch panel device.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.GetState.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_GetState">GetState()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.ReadGesture.html#Microsoft_Xna_Framework_Input_Touch_TouchPanelState_ReadGesture">ReadGesture()</a></td>
+          <td class="summary"><p>Returns the next available gesture on touch panel device.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

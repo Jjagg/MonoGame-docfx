@@ -1,0 +1,69 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.CopyTo*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKeyCollection_CopyTo_" data-uid="Microsoft.Xna.Framework.CurveKeyCollection.CopyTo*" class="text-break">.CurveKeyCollection.CopyTo(CurveKey[], Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Copies the keys of this collection to an array, starting at the array index provided.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void CopyTo(CurveKey[] array, int arrayIndex)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto#System_Collections_Generic_ICollection_1_CopyTo__0___System_Int32_">CopyTo</a>(<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>[], <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>[]</td>
+              <td><span class="parametername">array</span></td>
+              <td><p>Destination array where elements will be copied.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">arrayIndex</span></td>
+              <td><p>The zero-based index in the array to start copying from.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,42 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.WidthIncludingBearings" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_WidthIncludingBearings" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.WidthIncludingBearings" class="text-break">SpriteFont.Glyph.WidthIncludingBearings Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Width of the character before kerning is applied. </p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public float WidthIncludingBearings</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

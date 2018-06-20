@@ -1,0 +1,115 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteEffect.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteEffect.#ctor*" class="text-break">SpriteEffect Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffect.-ctor.html#Microsoft_Xna_Framework_Graphics_SpriteEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_">SpriteEffect(GraphicsDevice)</a></td>
+          <td class="summary"><p>Creates a new SpriteEffect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffect.-ctor.html#Microsoft_Xna_Framework_Graphics_SpriteEffect__ctor_Microsoft_Xna_Framework_Graphics_SpriteEffect_">SpriteEffect(SpriteEffect)</a></td>
+          <td class="summary"><p>Creates a new SpriteEffect by cloning parameter settings from an existing instance.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)" class="text-break">.SpriteEffect.SpriteEffect(GraphicsDevice) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new SpriteEffect.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public SpriteEffect(GraphicsDevice device)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">device</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_SpriteEffect__ctor_Microsoft_Xna_Framework_Graphics_SpriteEffect_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteEffect.#ctor(Microsoft.Xna.Framework.Graphics.SpriteEffect)" class="text-break">.SpriteEffect.SpriteEffect(SpriteEffect) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new SpriteEffect by cloning parameter settings from an existing instance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected SpriteEffect(SpriteEffect cloneSource)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteEffect.html">SpriteEffect</a></td>
+              <td><span class="parametername">cloneSource</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

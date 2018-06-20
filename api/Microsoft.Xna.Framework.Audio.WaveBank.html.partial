@@ -1,0 +1,150 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.WaveBank" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_WaveBank" data-uid="Microsoft.Xna.Framework.Audio.WaveBank" class="text-break">WaveBank Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents a collection of wave files.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class WaveBank : IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">WaveBank</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.-ctor.html#Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_">WaveBank(AudioEngine, String)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.-ctor.html#Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16_">WaveBank(AudioEngine, String, Int32, Int16)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.IsDisposed.html#Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed">IsDisposed</a></td>
+          <td class="summary"><p>Is true if the WaveBank has been disposed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.IsInUse.html#Microsoft_Xna_Framework_Audio_WaveBank_IsInUse">IsInUse</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.IsPrepared.html#Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared">IsPrepared</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.Dispose.html#Microsoft_Xna_Framework_Audio_WaveBank_Dispose">Dispose()</a></td>
+          <td class="summary"><p>Disposes the WaveBank.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.Finalize.html#Microsoft_Xna_Framework_Audio_WaveBank_Finalize">Finalize()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.Disposing.html#Microsoft_Xna_Framework_Audio_WaveBank_Disposing">Disposing</a></td>
+          <td class="summary"><p>This event is triggered when the WaveBank is disposed.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

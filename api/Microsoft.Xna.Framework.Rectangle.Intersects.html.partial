@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Rectangle.Intersects*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Rectangle_Intersects_" data-uid="Microsoft.Xna.Framework.Rectangle.Intersects*" class="text-break">Intersects Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Intersects.html#Microsoft_Xna_Framework_Rectangle_Intersects_Microsoft_Xna_Framework_Rectangle_">Intersects(Rectangle)</a></td>
+          <td class="summary"><p>Gets whether or not the other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Intersects.html#Microsoft_Xna_Framework_Rectangle_Intersects_Microsoft_Xna_Framework_Rectangle__System_Boolean__">Intersects(ref Rectangle, out Boolean)</a></td>
+          <td class="summary"><p>Gets whether or not the other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Intersects_Microsoft_Xna_Framework_Rectangle_" data-uid="Microsoft.Xna.Framework.Rectangle.Intersects(Microsoft.Xna.Framework.Rectangle)" class="text-break">.Rectangle.Intersects(Rectangle) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Intersects(Rectangle value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The other rectangle for testing.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Intersects_Microsoft_Xna_Framework_Rectangle__System_Boolean__" data-uid="Microsoft.Xna.Framework.Rectangle.Intersects(Microsoft.Xna.Framework.Rectangle@,System.Boolean@)" class="text-break">.Rectangle.Intersects(ref Rectangle, out Boolean) Method</h2>
+    <div class="markdown level0 summary"><p>Gets whether or not the other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Intersects(ref Rectangle value, out bool result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The other rectangle for testing.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p><code>true</code> if other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle; <code>false</code> otherwise. As an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

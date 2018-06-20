@@ -1,0 +1,113 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.GetRenderTargets*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_GetRenderTargets_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.GetRenderTargets*" class="text-break">GetRenderTargets Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.GetRenderTargets.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_GetRenderTargets">GetRenderTargets()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.GetRenderTargets.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_GetRenderTargets_Microsoft_Xna_Framework_Graphics_RenderTargetBinding___">GetRenderTargets(RenderTargetBinding[])</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_GetRenderTargets" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.GetRenderTargets" class="text-break">.GraphicsDevice.GetRenderTargets() Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public RenderTargetBinding[] GetRenderTargets()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html">RenderTargetBinding</a>[]</td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_GetRenderTargets_Microsoft_Xna_Framework_Graphics_RenderTargetBinding___" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.GetRenderTargets(Microsoft.Xna.Framework.Graphics.RenderTargetBinding[])" class="text-break">.GraphicsDevice.GetRenderTargets(RenderTargetBinding[]) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void GetRenderTargets(RenderTargetBinding[] outTargets)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetBinding.html">RenderTargetBinding</a>[]</td>
+              <td><span class="parametername">outTargets</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

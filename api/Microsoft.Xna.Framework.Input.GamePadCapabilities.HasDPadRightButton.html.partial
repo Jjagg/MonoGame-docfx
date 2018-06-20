@@ -1,0 +1,61 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasDPadRightButton*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadCapabilities_HasDPadRightButton_" data-uid="Microsoft.Xna.Framework.Input.GamePadCapabilities.HasDPadRightButton*" class="text-break">.GamePadCapabilities.HasDPadRightButton Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets a value indicating whether the controller has the directional pad right button.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool HasDPadRightButton { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if it has the directional pad right button; otherwise, <code>false</code>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

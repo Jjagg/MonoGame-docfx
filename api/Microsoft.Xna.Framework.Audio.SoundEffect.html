@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SoundEffect Class | MonoGame Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="SoundEffect Class | MonoGame Documentation ">
+    <meta name="generator" content="docfx 2.36.1.0">
+    <meta property="docfx:pagedata" content="Microsoft.Xna.Framework.Audio.SoundEffect">
+    <meta property="docfx:baseDir" content="MonoGame-docfx">
+    <link rel="stylesheet" href="../css/mg-icons.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <div class="flex-col">
+      <header>
+        
+        <nav id="navbar-wrapper" role="navigation">
+          <div class="navbar-header hide">
+            <button type="button" id="navbar-toggle" />
+          </div>
+          <div class="collapse" id="navbar"></div>
+        </nav>
+      </header>
+      <div class="flex-row flex-stretch no-overflow pos-rel">
+        
+        <div id="page-toc" class="shown pos-rel hide">
+          <div id="toc-scroll-wrapper" class="scroll stretch-height">
+            <div id="toc-filter-wrapper">
+              <input type="search" id="toc-filter-input" placeholder="Type to filter" onkeypress="if(event.keyCode==13) {return false;}">
+              <span id="filter-clear" class="mg-icons hide">&#xe803;</span>
+            </div>
+            <div id="toc-no-results" class="hide">No results</div>
+            <div id="toc"></div>
+          </div>
+        </div>
+        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+          <div id="page-main" class="page-main flex-stretch">
+            <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
+              <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
+            </div>
+            <div id="main-wrapper">
+              <div id="breadcrumb-wrapper" class="flex-row ">
+  <div id="breadcrumb"></div>
+  <a id="contribution-link" class="hide-sm " href="https://github.com/Jjagg/MonoGame/new/docs-fresh/apiSpec/new?filename=Microsoft_Xna_Framework_Audio_SoundEffect.md&amp;value=---%0Auid%3A%20Microsoft.Xna.Framework.Audio.SoundEffect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+    Improve this Doc
+  </a>
+</div>
+
+              <div id="content-wrapper">
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect" class="text-break">SoundEffect Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Represents a loaded sound resource.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public sealed class SoundEffect : IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">SoundEffect</span>
+    </div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
+      </div>
+      <div>
+        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
+      </div>
+      <div>
+        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
+      </div>
+      <div>
+        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
+      </div>
+      <div>
+        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+<h id="Microsoft_Xna_Framework_Audio_SoundEffect_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>A SoundEffect represents the buffer used to hold audio data and metadata. SoundEffectInstances are used to play from SoundEffects. Multiple SoundEffectInstance objects can be created and played from the same SoundEffect object.</p>
+<p>The only limit on the number of loaded SoundEffects is restricted by available memory. When a SoundEffect is disposed, all SoundEffectInstances created from it will become invalid.</p>
+<p>SoundEffect.Play() can be used for &apos;fire and forget&apos; sounds. If advanced playback controls like volume or pitch is required, use SoundEffect.CreateInstance().</p>
+</div>
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Create a sound effect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,System.Int32,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels,System.Int32,System.Int32)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Create a sound effect.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the scale of distance calculations.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.DopplerScale" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the scale of Doppler calculations applied to sounds.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.Duration" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets the duration of the SoundEffect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.IsDisposed" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Indicates whether the object is disposed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.MasterVolume" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Gets or sets the master volume scale applied to all SoundEffectInstances.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.Name" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets or sets the asset name of the SoundEffect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.SpeedOfSound" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Returns the speed of sound used when calculating the Doppler effect..</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.CreateInstance" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new SoundEffectInstance for this SoundEffect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.Dispose" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Releases the resources held by this <xref href="Microsoft.Xna.Framework.Audio.SoundEffect" data-throw-if-not-resolved="false"></xref>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.Finalize" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Releases unmanaged resources and performs other cleanup operations before the
+<xref href="Microsoft.Xna.Framework.Audio.SoundEffect" data-throw-if-not-resolved="false"></xref> is reclaimed by garbage collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.FromStream(System.IO.Stream)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Creates a new SoundEffect object based on the specified data stream.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleDuration(System.Int32,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the duration for 16-bit PCM audio.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.GetSampleSizeInBytes(System.TimeSpan,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns the data size in bytes for 16bit PCM audio.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets an internal SoundEffectInstance and plays it.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><xref uid="Microsoft.Xna.Framework.Audio.SoundEffect.Play(System.Single,System.Single,System.Single)" altProperty="fullName" displayProperty="name"/></td>
+          <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.Audio.SoundEffect.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Gets an internal SoundEffectInstance and plays it with the specified volume, pitch, and panning.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>
+
+</div>
+              <div id="prevnext">
+                <a id="prev" class="page-nav"><span class="mg-icons">&#xe801;</span></a>
+                <a id="next" class="page-nav"><span class="mg-icons">&#xe802;</span></a>
+              </div>
+            </div>
+          </div>
+          
+          <div id="page-affix" role="complementary" class=" ">
+            <div class="affix-fade fade-in"></div>
+            <div class="affix-fade fade-out"></div>
+            <nav id="affix"></nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="../js/tree.js"></script>
+    <script src="../js/main.js"></script>
+    
+  </body>
+</html>

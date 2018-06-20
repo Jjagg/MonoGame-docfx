@@ -1,0 +1,111 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureSample" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_GestureSample" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureSample" class="text-break">GestureSample Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents data from a multi-touch gesture over a span of time.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct GestureSample</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.-ctor.html#Microsoft_Xna_Framework_Input_Touch_GestureSample__ctor_Microsoft_Xna_Framework_Input_Touch_GestureType_System_TimeSpan_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_">GestureSample(GestureType, TimeSpan, Vector2, Vector2, Vector2, Vector2)</a></td>
+          <td class="summary"><p>Initializes a new <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.html">GestureSample</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.Delta.html#Microsoft_Xna_Framework_Input_Touch_GestureSample_Delta">Delta</a></td>
+          <td class="summary"><p>Gets the delta information for the first touch-point in the gesture sample.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.Delta2.html#Microsoft_Xna_Framework_Input_Touch_GestureSample_Delta2">Delta2</a></td>
+          <td class="summary"><p>Gets the delta information for the second touch-point in the gesture sample.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.GestureType.html#Microsoft_Xna_Framework_Input_Touch_GestureSample_GestureType">GestureType</a></td>
+          <td class="summary"><p>Gets the type of the gesture.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.Position.html#Microsoft_Xna_Framework_Input_Touch_GestureSample_Position">Position</a></td>
+          <td class="summary"><p>Gets the position of the first touch-point in the gesture sample.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.Position2.html#Microsoft_Xna_Framework_Input_Touch_GestureSample_Position2">Position2</a></td>
+          <td class="summary"><p>Gets the position of the second touch-point in the gesture sample.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.GestureSample.Timestamp.html#Microsoft_Xna_Framework_Input_Touch_GestureSample_Timestamp">Timestamp</a></td>
+          <td class="summary"><p>Gets the starting time for this multi-touch gesture sample.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

@@ -1,0 +1,167 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.Clamp*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper_Clamp_" data-uid="Microsoft.Xna.Framework.MathHelper.Clamp*" class="text-break">Clamp Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Clamp.html#Microsoft_Xna_Framework_MathHelper_Clamp_System_Single_System_Single_System_Single_">Clamp(Single, Single, Single)</a></td>
+          <td class="summary"><p>Restricts a value to be within a specified range.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.MathHelper.Clamp.html#Microsoft_Xna_Framework_MathHelper_Clamp_System_Int32_System_Int32_System_Int32_">Clamp(Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Restricts a value to be within a specified range.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_MathHelper_Clamp_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.MathHelper.Clamp(System.Single,System.Single,System.Single)" class="text-break">.MathHelper.Clamp(Single, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Restricts a value to be within a specified range.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float Clamp(float value, float min, float max)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The value to clamp.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">min</span></td>
+              <td><p>The minimum value. If <code>value</code> is less than <code>min</code>, <code>min</code> will be returned.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">max</span></td>
+              <td><p>The maximum value. If <code>value</code> is greater than <code>max</code>, <code>max</code> will be returned.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td><p>The clamped value.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_MathHelper_Clamp_System_Int32_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.MathHelper.Clamp(System.Int32,System.Int32,System.Int32)" class="text-break">.MathHelper.Clamp(Int32, Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Restricts a value to be within a specified range.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static int Clamp(int value, int min, int max)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The value to clamp.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">min</span></td>
+              <td><p>The minimum value. If <code>value</code> is less than <code>min</code>, <code>min</code> will be returned.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">max</span></td>
+              <td><p>The maximum value. If <code>value</code> is greater than <code>max</code>, <code>max</code> will be returned.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+            <td><p>The clamped value.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

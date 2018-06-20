@@ -1,0 +1,179 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.CurveKeyCollection" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_CurveKeyCollection" data-uid="Microsoft.Xna.Framework.CurveKeyCollection" class="text-break">CurveKeyCollection Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The collection of the <a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a> elements and a part of the <a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a> class.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataContract]
+public class CurveKeyCollection : ICollection&lt;CurveKey&gt;, IEnumerable&lt;CurveKey&gt;, IEnumerable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">CurveKeyCollection</span>
+    </span></div>
+  </div>
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataContractAttribute</div>
+    </div>
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.-ctor.html#Microsoft_Xna_Framework_CurveKeyCollection__ctor">CurveKeyCollection()</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.html">CurveKeyCollection</a> class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.Count.html#Microsoft_Xna_Framework_CurveKeyCollection_Count">Count</a></td>
+          <td class="summary"><p>Returns the count of keys in this collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.IsReadOnly.html#Microsoft_Xna_Framework_CurveKeyCollection_IsReadOnly">IsReadOnly</a></td>
+          <td class="summary"><p>Returns false because it is not a read-only collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.Item.html#Microsoft_Xna_Framework_CurveKeyCollection_Item_System_Int32_">Item[Int32]</a></td>
+          <td class="summary"><p>Indexer.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.Add.html#Microsoft_Xna_Framework_CurveKeyCollection_Add_Microsoft_Xna_Framework_CurveKey_">Add(CurveKey)</a></td>
+          <td class="summary"><p>Adds a key to this collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.Clear.html#Microsoft_Xna_Framework_CurveKeyCollection_Clear">Clear()</a></td>
+          <td class="summary"><p>Removes all keys from this collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.Clone.html#Microsoft_Xna_Framework_CurveKeyCollection_Clone">Clone()</a></td>
+          <td class="summary"><p>Creates a copy of this collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.Contains.html#Microsoft_Xna_Framework_CurveKeyCollection_Contains_Microsoft_Xna_Framework_CurveKey_">Contains(CurveKey)</a></td>
+          <td class="summary"><p>Determines whether this collection contains a specific key.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.CopyTo.html#Microsoft_Xna_Framework_CurveKeyCollection_CopyTo_Microsoft_Xna_Framework_CurveKey___System_Int32_">CopyTo(CurveKey[], Int32)</a></td>
+          <td class="summary"><p>Copies the keys of this collection to an array, starting at the array index provided.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.GetEnumerator.html#Microsoft_Xna_Framework_CurveKeyCollection_GetEnumerator">GetEnumerator()</a></td>
+          <td class="summary"><p>Returns an enumerator that iterates through the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.IndexOf.html#Microsoft_Xna_Framework_CurveKeyCollection_IndexOf_Microsoft_Xna_Framework_CurveKey_">IndexOf(CurveKey)</a></td>
+          <td class="summary"><p>Finds element in the collection and returns its index.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.Remove.html#Microsoft_Xna_Framework_CurveKeyCollection_Remove_Microsoft_Xna_Framework_CurveKey_">Remove(CurveKey)</a></td>
+          <td class="summary"><p>Removes specific element.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.RemoveAt.html#Microsoft_Xna_Framework_CurveKeyCollection_RemoveAt_System_Int32_">RemoveAt(Int32)</a></td>
+          <td class="summary"><p>Removes element at the specified index.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_CurveKeyCollection_System_Collections_IEnumerable_GetEnumerator">IEnumerable.GetEnumerator()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

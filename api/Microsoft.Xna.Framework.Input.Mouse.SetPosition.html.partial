@@ -1,0 +1,65 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetPosition*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Mouse_SetPosition_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetPosition*" class="text-break">.Mouse.SetPosition(Int32, Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Sets mouse cursor&apos;s relative position to game-window.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void SetPosition(int x, int y)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>Relative horizontal position of the cursor.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>Relative vertical position of the cursor.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

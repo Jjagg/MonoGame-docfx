@@ -1,0 +1,35 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ColorWriteChannels" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_ColorWriteChannels" data-uid="Microsoft.Xna.Framework.Graphics.ColorWriteChannels" class="text-break">ColorWriteChannels Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines the color channels for render target blending operations.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[Flags]
+public enum ColorWriteChannels</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.FlagsAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

@@ -1,0 +1,47 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.W" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_W" data-uid="Microsoft.Xna.Framework.Quaternion.W" class="text-break">Quaternion.W Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The rotation component of this <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a>.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataMember]
+public float W</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataMemberAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

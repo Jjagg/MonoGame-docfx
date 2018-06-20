@@ -1,0 +1,179 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffectInstance" data-uid="Microsoft.Xna.Framework.Audio.SoundEffectInstance" class="text-break">SoundEffectInstance Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents a single instance of a playing, paused, or stopped sound.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class SoundEffectInstance : IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">SoundEffectInstance</span>
+    </span></div>
+  </div>
+      <div class="type-subheader derived">
+        <strong>Derived</strong>
+          <a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.html">DynamicSoundEffectInstance</a>
+      </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+<h id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>SoundEffectInstances are created through SoundEffect.CreateInstance() and used internally by SoundEffect.Play()</p>
+</div>
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.IsDisposed.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsDisposed">IsDisposed</a></td>
+          <td class="summary"><p>Indicates whether the object is disposed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.IsLooped.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsLooped">IsLooped</a></td>
+          <td class="summary"><p>Enables or Disables whether the SoundEffectInstance should repeat after playback.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Pan.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pan">Pan</a></td>
+          <td class="summary"><p>Gets or sets the pan, or speaker balance..</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Pitch.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pitch">Pitch</a></td>
+          <td class="summary"><p>Gets or sets the pitch adjustment.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.State.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_State">State</a></td>
+          <td class="summary"><p>Gets the SoundEffectInstance&apos;s current playback state.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Volume.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Volume">Volume</a></td>
+          <td class="summary"><p>Gets or sets the volume of the SoundEffectInstance.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">Apply3D(AudioListener, AudioEmitter)</a></td>
+          <td class="summary"><p>Applies 3D positioning to the SoundEffectInstance using a single listener.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Apply3D.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener___Microsoft_Xna_Framework_Audio_AudioEmitter_">Apply3D(AudioListener[], AudioEmitter)</a></td>
+          <td class="summary"><p>Applies 3D positioning to the SoundEffectInstance using multiple listeners.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Dispose.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose">Dispose()</a></td>
+          <td class="summary"><p>Releases the resources held by this <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Dispose.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+          <td class="summary"><p>Releases the resources held by this <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Finalize.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Finalize">Finalize()</a></td>
+          <td class="summary"><p>Releases unmanaged resources and performs other cleanup operations before the
+<a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a> is reclaimed by garbage collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Pause.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pause">Pause()</a></td>
+          <td class="summary"><p>Pauses playback of a SoundEffectInstance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Play.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Play">Play()</a></td>
+          <td class="summary"><p>Plays or resumes a SoundEffectInstance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Resume.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Resume">Resume()</a></td>
+          <td class="summary"><p>Resumes playback for a SoundEffectInstance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Stop.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop">Stop()</a></td>
+          <td class="summary"><p>Immediately stops playing a SoundEffectInstance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.Stop.html#Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop_System_Boolean_">Stop(Boolean)</a></td>
+          <td class="summary"><p>Stops playing a SoundEffectInstance, either immediately or as authored.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

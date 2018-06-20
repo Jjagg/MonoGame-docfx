@@ -1,0 +1,114 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop*" class="text-break">Stop Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop.html#Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop">Stop()</a></td>
+          <td class="summary"><p>Immediately stops playing the DynamicSoundEffectInstance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop.html#Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean_">Stop(Boolean)</a></td>
+          <td class="summary"><p>Stops playing the DynamicSoundEffectInstance.
+If the <code data-dev-comment-type="paramref" class="paramref">immediate</code> parameter is false, this call has no effect.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop" class="text-break">.DynamicSoundEffectInstance.Stop() Method</h2>
+    <div class="markdown level0 summary"><p>Immediately stops playing the DynamicSoundEffectInstance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override void Stop()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Calling this also releases all queued buffers.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.Stop(System.Boolean)" class="text-break">.DynamicSoundEffectInstance.Stop(Boolean) Method</h2>
+    <div class="markdown level0 summary"><p>Stops playing the DynamicSoundEffectInstance.
+If the <code data-dev-comment-type="paramref" class="paramref">immediate</code> parameter is false, this call has no effect.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override void Stop(bool immediate)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">immediate</span></td>
+              <td><p>When set to false, this call has no effect.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance_Stop_System_Boolean__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Calling this also releases all queued buffers.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

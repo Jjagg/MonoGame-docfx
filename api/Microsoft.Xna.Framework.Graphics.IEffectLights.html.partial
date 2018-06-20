@@ -1,0 +1,85 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_IEffectLights" data-uid="Microsoft.Xna.Framework.Graphics.IEffectLights" class="text-break">IEffectLights Interface</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>The common effect light rendering parameters.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public interface IEffectLights</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.AmbientLightColor.html#Microsoft_Xna_Framework_Graphics_IEffectLights_AmbientLightColor">AmbientLightColor</a></td>
+          <td class="summary"><p>The floating point ambient light color.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight0.html#Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight0">DirectionalLight0</a></td>
+          <td class="summary"><p>Returns the first directional light.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight1.html#Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight1">DirectionalLight1</a></td>
+          <td class="summary"><p>Returns the second directional light.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.DirectionalLight2.html#Microsoft_Xna_Framework_Graphics_IEffectLights_DirectionalLight2">DirectionalLight2</a></td>
+          <td class="summary"><p>Returns the third directional light.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.LightingEnabled.html#Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled">LightingEnabled</a></td>
+          <td class="summary"><p>Toggles the rendering of lighting.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.EnableDefaultLighting.html#Microsoft_Xna_Framework_Graphics_IEffectLights_EnableDefaultLighting">EnableDefaultLighting()</a></td>
+          <td class="summary"><p>Initializes the lights to the standard key/fill/back lighting rig.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

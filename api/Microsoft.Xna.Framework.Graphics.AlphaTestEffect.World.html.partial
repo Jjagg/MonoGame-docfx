@@ -1,0 +1,64 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_AlphaTestEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.AlphaTestEffect.World*" class="text-break">.AlphaTestEffect.World Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets or sets the world matrix.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectMatrices.World.html#Microsoft_Xna_Framework_Graphics_IEffectMatrices_World">World</a></div>
+      </div>
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

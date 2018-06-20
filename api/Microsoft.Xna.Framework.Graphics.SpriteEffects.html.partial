@@ -1,0 +1,35 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteEffects" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteEffects" data-uid="Microsoft.Xna.Framework.Graphics.SpriteEffects" class="text-break">SpriteEffects Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines sprite visual options for mirroring.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[Flags]
+public enum SpriteEffects</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.FlagsAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

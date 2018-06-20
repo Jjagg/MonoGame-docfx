@@ -1,0 +1,74 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_OcclusionQuery__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.#ctor*" class="text-break">.OcclusionQuery.OcclusionQuery(GraphicsDevice) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.html">OcclusionQuery</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public OcclusionQuery(GraphicsDevice graphicsDevice)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td><p>The graphics device.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">graphicsDevice</code> is <span class="xref">null</span>.</p>
+</td>
+          </tr>
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+            <td><p>The current graphics profile does not support occlusion queries.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

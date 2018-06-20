@@ -1,0 +1,184 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreateConstrainedBillboard*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreateConstrainedBillboard_" data-uid="Microsoft.Xna.Framework.Matrix.CreateConstrainedBillboard*" class="text-break">CreateConstrainedBillboard Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateConstrainedBillboard.html#Microsoft_Xna_Framework_Matrix_CreateConstrainedBillboard_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_System_Nullable_Microsoft_Xna_Framework_Vector3__System_Nullable_Microsoft_Xna_Framework_Vector3__">CreateConstrainedBillboard(Vector3, Vector3, Vector3, Nullable&lt;Vector3&gt;, Nullable&lt;Vector3&gt;)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding that rotates around specified axis.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateConstrainedBillboard.html#Microsoft_Xna_Framework_Matrix_CreateConstrainedBillboard_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__System_Nullable_Microsoft_Xna_Framework_Vector3__System_Nullable_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Matrix__">CreateConstrainedBillboard(ref Vector3, ref Vector3, ref Vector3, Nullable&lt;Vector3&gt;, Nullable&lt;Vector3&gt;, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding that rotates around specified axis.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateConstrainedBillboard_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_System_Nullable_Microsoft_Xna_Framework_Vector3__System_Nullable_Microsoft_Xna_Framework_Vector3__" data-uid="Microsoft.Xna.Framework.Matrix.CreateConstrainedBillboard(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,System.Nullable{Microsoft.Xna.Framework.Vector3},System.Nullable{Microsoft.Xna.Framework.Vector3})" class="text-break">.Matrix.CreateConstrainedBillboard(Vector3, Vector3, Vector3, Nullable&lt;Vector3&gt;, Nullable&lt;Vector3&gt;) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding that rotates around specified axis.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 rotateAxis, Vector3? cameraForwardVector, Vector3? objectForwardVector)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">objectPosition</span></td>
+              <td><p>Object position the billboard will rotate around.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">cameraPosition</span></td>
+              <td><p>Camera position.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">rotateAxis</span></td>
+              <td><p>Axis of billboard for rotation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>&gt;</td>
+              <td><span class="parametername">cameraForwardVector</span></td>
+              <td><p>Optional camera forward vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>&gt;</td>
+              <td><span class="parametername">objectForwardVector</span></td>
+              <td><p>Optional object forward vector.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateConstrainedBillboard_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__System_Nullable_Microsoft_Xna_Framework_Vector3__System_Nullable_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateConstrainedBillboard(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,System.Nullable{Microsoft.Xna.Framework.Vector3},System.Nullable{Microsoft.Xna.Framework.Vector3},Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateConstrainedBillboard(ref Vector3, ref Vector3, ref Vector3, Nullable&lt;Vector3&gt;, Nullable&lt;Vector3&gt;, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding that rotates around specified axis.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateConstrainedBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 rotateAxis, Vector3? cameraForwardVector, Vector3? objectForwardVector, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">objectPosition</span></td>
+              <td><p>Object position the billboard will rotate around.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">cameraPosition</span></td>
+              <td><p>Camera position.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">rotateAxis</span></td>
+              <td><p>Axis of billboard for rotation.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>&gt;</td>
+              <td><span class="parametername">cameraForwardVector</span></td>
+              <td><p>Optional camera forward vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>&gt;</td>
+              <td><span class="parametername">objectForwardVector</span></td>
+              <td><p>Optional object forward vector.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,143 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio" data-uid="Microsoft.Xna.Framework.Audio" class="text-break">Microsoft.Xna.Framework.Audio </h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+
+
+
+  
+    <h2 id="classes">
+      
+    Classes
+  
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
+          <td class="summary"><p>Represents a 3D audio emitter. Used to simulate 3D audio effects.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEngine.html">AudioEngine</a></td>
+          <td class="summary"><p>Class used to create and manipulate code audio objects.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a></td>
+          <td class="summary"><p>Represents a 3D audio listener. Used when simulating 3D Audio.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Cue.html">Cue</a></td>
+          <td class="summary"><p>Manages the playback of a sound or set of sounds.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.html">DynamicSoundEffectInstance</a></td>
+          <td class="summary"><p>A <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a> for which the audio buffer is provided by the game at run time.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.InstancePlayLimitException.html">InstancePlayLimitException</a></td>
+          <td class="summary"><p>The exception thrown when the system attempts to play more SoundEffectInstances than allotted.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.Microphone.html">Microphone</a></td>
+          <td class="summary"><p>Provides microphones capture features. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.NoAudioHardwareException.html">NoAudioHardwareException</a></td>
+          <td class="summary"><p>The exception thrown when no audio hardware is present, or driver issues are detected.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.NoMicrophoneConnectedException.html">NoMicrophoneConnectedException</a></td>
+          <td class="summary"><p>The exception thrown when no audio hardware is present, or driver issues are detected.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.html">SoundBank</a></td>
+          <td class="summary"><p>Represents a collection of Cues.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.html">SoundEffect</a></td>
+          <td class="summary"><p>Represents a loaded sound resource.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffectInstance.html">SoundEffectInstance</a></td>
+          <td class="summary"><p>Represents a single instance of a playing, paused, or stopped sound.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.WaveBank.html">WaveBank</a></td>
+          <td class="summary"><p>Represents a collection of wave files.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="structs">
+      
+    Structs
+  
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a></td>
+          <td class="summary"><p>Provides functionality for manipulating multiple sounds at a time.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="enums">
+      
+    Enums
+  
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+          <td class="summary"><p>Represents how many channels are used in the audio data.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioStopOptions.html">AudioStopOptions</a></td>
+          <td class="summary"><p>Controls how Cue objects should cease playback when told to stop.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.MicrophoneState.html">MicrophoneState</a></td>
+          <td class="summary"><p>Microphone state. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundState.html">SoundState</a></td>
+          <td class="summary"><p>Described the playback state of a SoundEffectInstance.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

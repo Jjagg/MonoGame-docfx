@@ -1,0 +1,133 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue*" class="text-break">PlayCue Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue.html#Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_">PlayCue(String)</a></td>
+          <td class="summary"><p>Plays a cue.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue.html#Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">PlayCue(String, AudioListener, AudioEmitter)</a></td>
+          <td class="summary"><p>Plays a cue with static 3D positional information.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String)" class="text-break">.SoundBank.PlayCue(String) Method</h2>
+    <div class="markdown level0 summary"><p>Plays a cue.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void PlayCue(string name)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">name</span></td>
+              <td><p>Name of the cue to play.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue(System.String,Microsoft.Xna.Framework.Audio.AudioListener,Microsoft.Xna.Framework.Audio.AudioEmitter)" class="text-break">.SoundBank.PlayCue(String, AudioListener, AudioEmitter) Method</h2>
+    <div class="markdown level0 summary"><p>Plays a cue with static 3D positional information.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void PlayCue(string name, AudioListener listener, AudioEmitter emitter)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">name</span></td>
+              <td><p>The name of the cue to play.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a></td>
+              <td><span class="parametername">listener</span></td>
+              <td><p>The listener state.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
+              <td><span class="parametername">emitter</span></td>
+              <td><p>The cue emitter state.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Commonly used for short lived effects.  To dynamically change the 3D 
+positional information on a cue over time use <a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.GetCue.html#Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String_">GetCue(String)</a> and <a class="xref" href="Microsoft.Xna.Framework.Audio.Cue.Apply3D.html#Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">Apply3D(AudioListener, AudioEmitter)</a>.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

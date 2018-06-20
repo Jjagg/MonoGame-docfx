@@ -1,0 +1,76 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream.Dispose*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream_Dispose_" data-uid="MonoGame.Utilities.ZlibStream.Dispose*" class="text-break">.ZlibStream.Dispose(Boolean) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Dispose the stream.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">disposing</span></td>
+              <td><p>indicates whether the Dispose method was invoked by user code.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="MonoGame_Utilities_ZlibStream_Dispose_System_Boolean__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>
+  This may or may not result in a <code>Close()</code> call on the captive
+  stream.  See the constructors that have a <code>leaveOpen</code> parameter
+  for more information.
+</p>
+<p>
+  This method may be invoked in two distinct scenarios.  If disposing
+  == true, the method has been called directly or indirectly by a
+  user&apos;s code, for example via the public Dispose() method. In this
+  case, both managed and unmanaged resources can be referenced and
+  disposed.  If disposing == false, the method has been called by the
+  runtime from inside the object finalizer and this method should not
+  reference other objects; in that case only unmanaged resources must
+  be referenced or disposed.
+</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

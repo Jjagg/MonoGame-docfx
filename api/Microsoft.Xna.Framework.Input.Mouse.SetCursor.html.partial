@@ -1,0 +1,59 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetCursor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Mouse_SetCursor_" data-uid="Microsoft.Xna.Framework.Input.Mouse.SetCursor*" class="text-break">.Mouse.SetCursor(MouseCursor) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Sets the cursor image to the specified MouseCursor.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void SetCursor(MouseCursor cursor)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.MouseCursor.html">MouseCursor</a></td>
+              <td><span class="parametername">cursor</span></td>
+              <td><p>Mouse cursor to use for the cursor image.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

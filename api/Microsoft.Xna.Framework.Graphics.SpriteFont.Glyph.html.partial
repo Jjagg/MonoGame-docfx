@@ -1,0 +1,119 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph" class="text-break">SpriteFont.Glyph Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Struct that defines the spacing, Kerning, and bounds of a character.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct Glyph</code></pre>
+    </div>
+  
+  
+  
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+<h id="Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>Provides the data necessary to implement custom SpriteFont rendering.</p>
+</div>
+
+
+  
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.BoundsInTexture.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_BoundsInTexture">BoundsInTexture</a></td>
+          <td class="summary"><p>Rectangle in the font texture where this letter exists.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Character.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Character">Character</a></td>
+          <td class="summary"><p>The char associated with this glyph.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Cropping.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Cropping">Cropping</a></td>
+          <td class="summary"><p>Cropping applied to the BoundsInTexture to calculate the bounds of the actual character.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Empty.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Empty">Empty</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.LeftSideBearing.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_LeftSideBearing">LeftSideBearing</a></td>
+          <td class="summary"><p>The amount of space between the left side ofthe character and its first pixel in the X dimention.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.RightSideBearing.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_RightSideBearing">RightSideBearing</a></td>
+          <td class="summary"><p>The amount of space between the right side of the character and its last pixel in the X dimention.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.Width.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_Width">Width</a></td>
+          <td class="summary"><p>Width of the character before kerning is applied. </p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.WidthIncludingBearings.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_WidthIncludingBearings">WidthIncludingBearings</a></td>
+          <td class="summary"><p>Width of the character before kerning is applied. </p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.ToString.html#Microsoft_Xna_Framework_Graphics_SpriteFont_Glyph_ToString">ToString()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

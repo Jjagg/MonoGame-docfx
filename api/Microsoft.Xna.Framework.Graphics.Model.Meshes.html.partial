@@ -1,0 +1,62 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Model.Meshes*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Model_Meshes_" data-uid="Microsoft.Xna.Framework.Graphics.Model.Meshes*" class="text-break">.Model.Meshes Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>A collection of <a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a> objects which compose the model. Each <a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMesh.html">ModelMesh</a>
+in a model may be moved independently and may be composed of multiple materials
+identified as <a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshPart.html">ModelMeshPart</a> objects.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public ModelMeshCollection Meshes { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.html">ModelMeshCollection</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

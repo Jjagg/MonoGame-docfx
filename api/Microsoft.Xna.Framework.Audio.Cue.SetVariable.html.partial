@@ -1,0 +1,68 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Cue.SetVariable*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_" data-uid="Microsoft.Xna.Framework.Audio.Cue.SetVariable*" class="text-break">.Cue.SetVariable(String, Single) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Sets the value of a cue-instance variable based on its friendly name.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetVariable(string name, float value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">name</span></td>
+              <td><p>Friendly name of the variable to set.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Value to assign to the variable.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>The friendly name is a value set from the designer.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

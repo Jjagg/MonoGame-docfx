@@ -1,0 +1,66 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Content_ContentReader_ReadSharedResource_" data-uid="Microsoft.Xna.Framework.Content.ContentReader.ReadSharedResource*" class="text-break">.ContentReader.ReadSharedResource&lt;T&gt;(Action&lt;T&gt;) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void ReadSharedResource&lt;T&gt;(Action&lt;T&gt; fixup)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+              <td><span class="parametername">fixup</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

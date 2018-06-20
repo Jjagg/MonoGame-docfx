@@ -1,0 +1,47 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.M44" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_M44" data-uid="Microsoft.Xna.Framework.Matrix.M44" class="text-break">Matrix.M44 Field</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>A fourth row and fourth column value.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[DataMember]
+public float M44</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.Runtime.Serialization.DataMemberAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Field Value</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+
+
+
+
+  </div>
+</article>

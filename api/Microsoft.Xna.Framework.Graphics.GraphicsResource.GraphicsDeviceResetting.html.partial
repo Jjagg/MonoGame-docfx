@@ -1,0 +1,51 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting*" class="text-break">.GraphicsResource.GraphicsDeviceResetting() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Called before the device is reset. Allows graphics resources to 
+invalidate their state so they can be recreated after the device reset.
+Warning: This may be called after a call to Dispose() up until
+the resource is garbage collected.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">protected virtual void GraphicsDeviceResetting()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

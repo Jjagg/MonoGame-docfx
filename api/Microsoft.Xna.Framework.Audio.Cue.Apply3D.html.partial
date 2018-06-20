@@ -1,0 +1,69 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Cue.Apply3D*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_" data-uid="Microsoft.Xna.Framework.Audio.Cue.Apply3D*" class="text-break">.Cue.Apply3D(AudioListener, AudioEmitter) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Updates the simulated 3D Audio settings calculated between an AudioEmitter and AudioListener.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Apply3D(AudioListener listener, AudioEmitter emitter)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioListener.html">AudioListener</a></td>
+              <td><span class="parametername">listener</span></td>
+              <td><p>The listener to calculate.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioEmitter.html">AudioEmitter</a></td>
+              <td><span class="parametername">emitter</span></td>
+              <td><p>The emitter to calculate.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This must be called before Play().</p>
+<p>Calling this method automatically converts the sound to monoaural and sets the speaker mix for any sound played by this cue to a value calculated with the listener&apos;s and emitter&apos;s positions. Any stereo information in the sound will be discarded.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,191 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration" class="text-break">VertexDeclaration Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines per-vertex data of a vertex buffer.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class VertexDeclaration : GraphicsResource, IDisposable, IEquatable&lt;VertexDeclaration&gt;</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level2"><span class="xref">VertexDeclaration</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a>&gt;</div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDeviceResetting.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDeviceResetting">GraphicsResource.GraphicsDeviceResetting()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose_System_Boolean_">GraphicsResource.Dispose(Boolean)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+<h id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a> and can be used as
+a key in a dictionary. Two vertex declarations are considered equal if the vertices are
+structurally equivalent, i.e. the vertex elements and the vertex stride are identical. (The
+properties <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">Name</a> and <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">Tag</a> are
+ignored in <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.GetHashCode.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_GetHashCode">GetHashCode()</a> and <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_Microsoft_Xna_Framework_Graphics_VertexDeclaration_">Equals(VertexDeclaration)</a>!)</p>
+</div>
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_Microsoft_Xna_Framework_Graphics_VertexElement___">VertexDeclaration(VertexElement[])</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration__ctor_System_Int32_Microsoft_Xna_Framework_Graphics_VertexElement___">VertexDeclaration(Int32, VertexElement[])</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.VertexStride.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_VertexStride">VertexStride</a></td>
+          <td class="summary"><p>Gets the size of a vertex (including padding) in bytes.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_Microsoft_Xna_Framework_Graphics_VertexDeclaration_">Equals(VertexDeclaration)</a></td>
+          <td class="summary"><p>Determines whether the specified <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> is equal to this
+instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.GetHashCode.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Returns a hash code for this instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.GetVertexElements.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_GetVertexElements">GetVertexElements()</a></td>
+          <td class="summary"><p>Gets a copy of the vertex elements.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.op_Equality.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_op_Equality_Microsoft_Xna_Framework_Graphics_VertexDeclaration_Microsoft_Xna_Framework_Graphics_VertexDeclaration_">Equality(VertexDeclaration, VertexDeclaration)</a></td>
+          <td class="summary"><p>Compares two <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a> instances to determine whether they are the
+same.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.op_Inequality.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_op_Inequality_Microsoft_Xna_Framework_Graphics_VertexDeclaration_Microsoft_Xna_Framework_Graphics_VertexDeclaration_">Inequality(VertexDeclaration, VertexDeclaration)</a></td>
+          <td class="summary"><p>Compares two <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexElement.html">VertexElement</a> instances to determine whether they are
+different.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

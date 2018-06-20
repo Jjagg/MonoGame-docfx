@@ -1,0 +1,231 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector4.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector4__ctor_" data-uid="Microsoft.Xna.Framework.Vector4.#ctor*" class="text-break">Vector4 Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_System_Single_System_Single_System_Single_System_Single_">Vector4(Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Constructs a 3d vector with X, Y, Z and W from four values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_">Vector4(Vector2, Single, Single)</a></td>
+          <td class="summary"><p>Constructs a 3d vector with X and Z from <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> and Z and W from the scalars.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_Microsoft_Xna_Framework_Vector3_System_Single_">Vector4(Vector3, Single)</a></td>
+          <td class="summary"><p>Constructs a 3d vector with X, Y, Z from <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> and W from a scalar.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.-ctor.html#Microsoft_Xna_Framework_Vector4__ctor_System_Single_">Vector4(Single)</a></td>
+          <td class="summary"><p>Constructs a 4d vector with X, Y, Z and W set to the same value.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector4__ctor_System_Single_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Vector4.#ctor(System.Single,System.Single,System.Single,System.Single)" class="text-break">.Vector4.Vector4(Single, Single, Single, Single) Constructor</h2>
+    <div class="markdown level0 summary"><p>Constructs a 3d vector with X, Y, Z and W from four values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector4(float x, float y, float z, float w)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>The x coordinate in 4d-space.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>The y coordinate in 4d-space.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">z</span></td>
+              <td><p>The z coordinate in 4d-space.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">w</span></td>
+              <td><p>The w coordinate in 4d-space.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector4__ctor_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Vector4.#ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single)" class="text-break">.Vector4.Vector4(Vector2, Single, Single) Constructor</h2>
+    <div class="markdown level0 summary"><p>Constructs a 3d vector with X and Z from <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> and Z and W from the scalars.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector4(Vector2 value, float z, float w)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The x and y coordinates in 4d-space.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">z</span></td>
+              <td><p>The z coordinate in 4d-space.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">w</span></td>
+              <td><p>The w coordinate in 4d-space.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector4__ctor_Microsoft_Xna_Framework_Vector3_System_Single_" data-uid="Microsoft.Xna.Framework.Vector4.#ctor(Microsoft.Xna.Framework.Vector3,System.Single)" class="text-break">.Vector4.Vector4(Vector3, Single) Constructor</h2>
+    <div class="markdown level0 summary"><p>Constructs a 3d vector with X, Y, Z from <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> and W from a scalar.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector4(Vector3 value, float w)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The x, y and z coordinates in 4d-space.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">w</span></td>
+              <td><p>The w coordinate in 4d-space.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector4__ctor_System_Single_" data-uid="Microsoft.Xna.Framework.Vector4.#ctor(System.Single)" class="text-break">.Vector4.Vector4(Single) Constructor</h2>
+    <div class="markdown level0 summary"><p>Constructs a 4d vector with X, Y, Z and W set to the same value.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector4(float value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>The x, y, z and w coordinates in 4d-space.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState.IsButtonUp*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_IsButtonUp_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.IsButtonUp*" class="text-break">.GamePadState.IsButtonUp(Buttons) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Determines whether specified input device buttons are released (not pressed) in this GamePadState.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool IsButtonUp(Buttons button)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Buttons.html">Buttons</a></td>
+              <td><span class="parametername">button</span></td>
+              <td><p>Buttons to query. Specify a single button, or combine multiple buttons using a bitwise OR operation.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code>, if button was released (not pressed), <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

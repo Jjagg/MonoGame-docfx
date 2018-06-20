@@ -1,0 +1,145 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Rectangle.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Rectangle__ctor_" data-uid="Microsoft.Xna.Framework.Rectangle.#ctor*" class="text-break">Rectangle Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.-ctor.html#Microsoft_Xna_Framework_Rectangle__ctor_System_Int32_System_Int32_System_Int32_System_Int32_">Rectangle(Int32, Int32, Int32, Int32)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> struct, with the specified
+position, width, and height.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.-ctor.html#Microsoft_Xna_Framework_Rectangle__ctor_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_">Rectangle(Point, Point)</a></td>
+          <td class="summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> struct, with the specified
+location and size.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Rectangle__ctor_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Rectangle.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)" class="text-break">.Rectangle.Rectangle(Int32, Int32, Int32, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> struct, with the specified
+position, width, and height.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Rectangle(int x, int y, int width, int height)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">x</span></td>
+              <td><p>The x coordinate of the top-left corner of the created <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">y</span></td>
+              <td><p>The y coordinate of the top-left corner of the created <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">width</span></td>
+              <td><p>The width of the created <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">height</span></td>
+              <td><p>The height of the created <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle__ctor_Microsoft_Xna_Framework_Point_Microsoft_Xna_Framework_Point_" data-uid="Microsoft.Xna.Framework.Rectangle.#ctor(Microsoft.Xna.Framework.Point,Microsoft.Xna.Framework.Point)" class="text-break">.Rectangle.Rectangle(Point, Point) Constructor</h2>
+    <div class="markdown level0 summary"><p>Creates a new instance of <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> struct, with the specified
+location and size.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Rectangle(Point location, Point size)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><span class="parametername">location</span></td>
+              <td><p>The x and y coordinates of the top-left corner of the created <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><span class="parametername">size</span></td>
+              <td><p>The width and height of the created <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

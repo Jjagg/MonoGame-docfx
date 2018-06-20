@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingFrustum.op_Inequality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingFrustum_op_Inequality_" data-uid="Microsoft.Xna.Framework.BoundingFrustum.op_Inequality*" class="text-break">.BoundingFrustum.Inequality(BoundingFrustum, BoundingFrustum) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Compares whether two <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a> instances are not equal.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator !=(BoundingFrustum a, BoundingFrustum b)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a></td>
+              <td><span class="parametername">a</span></td>
+              <td><p><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a> instance on the left of the not equal sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a></td>
+              <td><span class="parametername">b</span></td>
+              <td><p><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a> instance on the right of the not equal sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the instances are not equal; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

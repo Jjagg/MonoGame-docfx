@@ -1,0 +1,158 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundBank" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundBank" data-uid="Microsoft.Xna.Framework.Audio.SoundBank" class="text-break">SoundBank Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Represents a collection of Cues.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class SoundBank : IDisposable</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level1"><span class="xref">SoundBank</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.-ctor.html#Microsoft_Xna_Framework_Audio_SoundBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_">SoundBank(AudioEngine, String)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.IsDisposed.html#Microsoft_Xna_Framework_Audio_SoundBank_IsDisposed">IsDisposed</a></td>
+          <td class="summary"><p>Is true if the SoundBank has been disposed.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.IsInUse.html#Microsoft_Xna_Framework_Audio_SoundBank_IsInUse">IsInUse</a></td>
+          <td class="summary"><p>Is true if the SoundBank has any live Cues in use.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.Dispose.html#Microsoft_Xna_Framework_Audio_SoundBank_Dispose">Dispose()</a></td>
+          <td class="summary"><p>Disposes the SoundBank.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.Finalize.html#Microsoft_Xna_Framework_Audio_SoundBank_Finalize">Finalize()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.GetCue.html#Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String_">GetCue(String)</a></td>
+          <td class="summary"><p>Returns a pooled Cue object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue.html#Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_">PlayCue(String)</a></td>
+          <td class="summary"><p>Plays a cue.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.PlayCue.html#Microsoft_Xna_Framework_Audio_SoundBank_PlayCue_System_String_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_">PlayCue(String, AudioListener, AudioEmitter)</a></td>
+          <td class="summary"><p>Plays a cue with static 3D positional information.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundBank.Disposing.html#Microsoft_Xna_Framework_Audio_SoundBank_Disposing">Disposing</a></td>
+          <td class="summary"><p>This event is triggered when the SoundBank is disposed.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

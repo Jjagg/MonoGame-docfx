@@ -1,0 +1,75 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.PrepareType*" class="text-break">.ContentTypeReaderManager.PrepareType(String) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Removes Version, Culture and PublicKeyToken from a type string.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static string PrepareType(string type)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">type</span></td>
+              <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+            <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_PrepareType_System_String__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Supports multiple generic types (e.g. Dictionary&lt;TKey,TValue&gt;) and nested generic types (e.g. List&lt;List&lt;int&gt;&gt;).</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

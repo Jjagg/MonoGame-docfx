@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.PixelCount*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_OcclusionQuery_PixelCount_" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.PixelCount*" class="text-break">.OcclusionQuery.PixelCount Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets the number of visible pixels.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public int PixelCount { get; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+            <td><p>The number of visible pixels.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+            <td><p>The occlusion query has not yet completed. Check <a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.IsComplete.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_IsComplete">IsComplete</a> before reading
+the result!</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

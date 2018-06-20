@@ -1,0 +1,59 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingFrustum.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingFrustum__ctor_" data-uid="Microsoft.Xna.Framework.BoundingFrustum.#ctor*" class="text-break">.BoundingFrustum.BoundingFrustum(Matrix) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Constructs the frustum by extracting the view planes from a matrix.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public BoundingFrustum(Matrix value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Combined matrix which usually is (View * Projection).</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

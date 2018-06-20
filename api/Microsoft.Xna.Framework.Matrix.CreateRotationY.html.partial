@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreateRotationY*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreateRotationY_" data-uid="Microsoft.Xna.Framework.Matrix.CreateRotationY*" class="text-break">CreateRotationY Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateRotationY.html#Microsoft_Xna_Framework_Matrix_CreateRotationY_System_Single_">CreateRotationY(Single)</a></td>
+          <td class="summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> around Y axis.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateRotationY.html#Microsoft_Xna_Framework_Matrix_CreateRotationY_System_Single_Microsoft_Xna_Framework_Matrix__">CreateRotationY(Single, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> around Y axis.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateRotationY_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.CreateRotationY(System.Single)" class="text-break">.Matrix.CreateRotationY(Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> around Y axis.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateRotationY(float radians)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">radians</span></td>
+              <td><p>Angle in radians.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> around Y axis.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateRotationY_System_Single_Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateRotationY(System.Single,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateRotationY(Single, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> around Y axis.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateRotationY(float radians, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">radians</span></td>
+              <td><p>Angle in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> around Y axis as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

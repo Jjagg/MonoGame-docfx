@@ -1,0 +1,154 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Plane.Normalize*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Plane_Normalize_" data-uid="Microsoft.Xna.Framework.Plane.Normalize*" class="text-break">Normalize Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Normalize.html#Microsoft_Xna_Framework_Plane_Normalize">Normalize()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Normalize.html#Microsoft_Xna_Framework_Plane_Normalize_Microsoft_Xna_Framework_Plane_">Normalize(Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Plane.Normalize.html#Microsoft_Xna_Framework_Plane_Normalize_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Plane__">Normalize(ref Plane, out Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Plane_Normalize" data-uid="Microsoft.Xna.Framework.Plane.Normalize" class="text-break">.Plane.Normalize() Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Normalize()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Normalize_Microsoft_Xna_Framework_Plane_" data-uid="Microsoft.Xna.Framework.Plane.Normalize(Microsoft.Xna.Framework.Plane)" class="text-break">.Plane.Normalize(Plane) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Plane Normalize(Plane value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">value</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Plane_Normalize_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_Plane__" data-uid="Microsoft.Xna.Framework.Plane.Normalize(Microsoft.Xna.Framework.Plane@,Microsoft.Xna.Framework.Plane@)" class="text-break">.Plane.Normalize(ref Plane, out Plane) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Normalize(ref Plane value, out Plane result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">value</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,31 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadDeadZone" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadDeadZone" data-uid="Microsoft.Xna.Framework.Input.GamePadDeadZone" class="text-break">GamePadDeadZone Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Specifies a type of dead zone processing to apply to Xbox 360 Controller
+analog sticks when calling GetState.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum GamePadDeadZone</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

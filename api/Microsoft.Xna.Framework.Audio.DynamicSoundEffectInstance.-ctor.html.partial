@@ -1,0 +1,64 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_DynamicSoundEffectInstance__ctor_" data-uid="Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance.#ctor*" class="text-break">.DynamicSoundEffectInstance.DynamicSoundEffectInstance(Int32, AudioChannels) Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public DynamicSoundEffectInstance(int sampleRate, AudioChannels channels)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sampleRate</span></td>
+              <td><p>Sample rate, in Hertz (Hz).</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+              <td><span class="parametername">channels</span></td>
+              <td><p>Number of channels (mono or stereo).</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

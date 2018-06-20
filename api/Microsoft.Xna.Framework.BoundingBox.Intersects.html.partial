@@ -1,0 +1,443 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_BoundingBox_Intersects_" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects*" class="text-break">Intersects Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingBox_">Intersects(BoundingBox)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingBox__System_Boolean__">Intersects(ref BoundingBox, out Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingFrustum_">Intersects(BoundingFrustum)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingSphere_">Intersects(BoundingSphere)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingSphere__System_Boolean__">Intersects(ref BoundingSphere, out Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Plane_">Intersects(Plane)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_PlaneIntersectionType__">Intersects(ref Plane, out PlaneIntersectionType)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Ray_">Intersects(Ray)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.Intersects.html#Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Ray__System_Nullable_System_Single___">Intersects(ref Ray, out Nullable&lt;Single&gt;)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingBox_" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.BoundingBox)" class="text-break">.BoundingBox.Intersects(BoundingBox) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Intersects(BoundingBox box)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">box</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingBox__System_Boolean__" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.BoundingBox@,System.Boolean@)" class="text-break">.BoundingBox.Intersects(ref BoundingBox, out Boolean) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Intersects(ref BoundingBox box, out bool result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><span class="parametername">box</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingFrustum_" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.BoundingFrustum)" class="text-break">.BoundingBox.Intersects(BoundingFrustum) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Intersects(BoundingFrustum frustum)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a></td>
+              <td><span class="parametername">frustum</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingSphere_" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.BoundingSphere)" class="text-break">.BoundingBox.Intersects(BoundingSphere) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Intersects(BoundingSphere sphere)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_BoundingSphere__System_Boolean__" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.BoundingSphere@,System.Boolean@)" class="text-break">.BoundingBox.Intersects(ref BoundingSphere, out Boolean) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Intersects(ref BoundingSphere sphere, out bool result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><span class="parametername">sphere</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Plane_" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.Plane)" class="text-break">.BoundingBox.Intersects(Plane) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public PlaneIntersectionType Intersects(Plane plane)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Plane__Microsoft_Xna_Framework_PlaneIntersectionType__" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.Plane@,Microsoft.Xna.Framework.PlaneIntersectionType@)" class="text-break">.BoundingBox.Intersects(ref Plane, out PlaneIntersectionType) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Intersects(ref Plane plane, out PlaneIntersectionType result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Plane.html">Plane</a></td>
+              <td><span class="parametername">plane</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Ray_" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.Ray)" class="text-break">.BoundingBox.Intersects(Ray) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public float? Intersects(Ray ray)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Ray.html">Ray</a></td>
+              <td><span class="parametername">ray</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_BoundingBox_Intersects_Microsoft_Xna_Framework_Ray__System_Nullable_System_Single___" data-uid="Microsoft.Xna.Framework.BoundingBox.Intersects(Microsoft.Xna.Framework.Ray@,System.Nullable{System.Single}@)" class="text-break">.BoundingBox.Intersects(ref Ray, out Nullable&lt;Single&gt;) Method</h2>
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Intersects(ref Ray ray, out float? result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Ray.html">Ray</a></td>
+              <td><span class="parametername">ray</span></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+              <td><span class="parametername">result</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,152 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Byte4" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4" class="text-break">Byte4 Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Packed vector type containing four 8-bit unsigned integer values, ranging from 0 to 255.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct Byte4 : IPackedVector&lt;uint&gt;, IEquatable&lt;Byte4&gt;, IPackedVector</code></pre>
+    </div>
+  
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector-1.html">IPackedVector</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.html">Byte4</a>&gt;</div>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html">IPackedVector</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.-ctor.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4__ctor_Microsoft_Xna_Framework_Vector4_">Byte4(Vector4)</a></td>
+          <td class="summary"><p>Initializes a new instance of the Byte4 class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.-ctor.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4__ctor_System_Single_System_Single_System_Single_System_Single_">Byte4(Single, Single, Single, Single)</a></td>
+          <td class="summary"><p>Initializes a new instance of the Byte4 class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.PackedValue.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_PackedValue">PackedValue</a></td>
+          <td class="summary"><p>Directly gets or sets the packed representation of the value.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.Equals.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_Equals_Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_">Equals(Byte4)</a></td>
+          <td class="summary"><p>Returns a value that indicates whether the current instance is equal to a specified object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.Equals.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Returns a value that indicates whether the current instance is equal to a specified object.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.GetHashCode.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"><p>Gets the hash code for the current instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.Microsoft-Xna-Framework-Graphics-PackedVector-IPackedVector-PackFromVector4.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_Microsoft_Xna_Framework_Graphics_PackedVector_IPackedVector_PackFromVector4_Microsoft_Xna_Framework_Vector4_">IPackedVector.PackFromVector4(Vector4)</a></td>
+          <td class="summary"><p>Sets the packed representation from a Vector4.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.ToString.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_ToString">ToString()</a></td>
+          <td class="summary"><p>Returns a string representation of the current instance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.ToVector4.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_ToVector4">ToVector4()</a></td>
+          <td class="summary"><p>Expands the packed representation into a Vector4.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.op_Equality.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_op_Equality_Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_">Equality(Byte4, Byte4)</a></td>
+          <td class="summary"><p>Compares the current instance of a class to another instance to determine whether they are the same.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.Byte4.op_Inequality.html#Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_op_Inequality_Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_Microsoft_Xna_Framework_Graphics_PackedVector_Byte4_">Inequality(Byte4, Byte4)</a></td>
+          <td class="summary"><p>Compares the current instance of a class to another instance to determine whether they are different.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

@@ -1,0 +1,58 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.Begin*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_OcclusionQuery_Begin_" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.Begin*" class="text-break">.OcclusionQuery.Begin() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Begins the occlusion query.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Begin()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+            <td><p><a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.Begin.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_Begin">Begin()</a> is called again before calling <a class="xref" href="Microsoft.Xna.Framework.Graphics.OcclusionQuery.End.html#Microsoft_Xna_Framework_Graphics_OcclusionQuery_End">End()</a>.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,76 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.Cue.GetVariable*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_" data-uid="Microsoft.Xna.Framework.Audio.Cue.GetVariable*" class="text-break">.Cue.GetVariable(String) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets a cue-instance variable value based on its friendly name.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public float GetVariable(string name)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">name</span></td>
+              <td><p>Friendly name of the variable.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td><p>Value of the variable.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Cue-instance variables are useful when multiple instantiations of a single cue (and its associated sounds) are required (for example, a &quot;car&quot; cue where there may be more than one car at any given time). While a global variable allows multiple audio elements to be controlled in unison, a cue instance variable grants discrete control of each instance of a cue, even for each copy of the same cue.</p>
+<p>The friendly name is a value set from the designer.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

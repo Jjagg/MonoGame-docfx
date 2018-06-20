@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioCategory_op_Equality_" data-uid="Microsoft.Xna.Framework.Audio.AudioCategory.op_Equality*" class="text-break">.AudioCategory.Equality(AudioCategory, AudioCategory) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Determines whether two AudioCategory instances are equal.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static bool operator ==(AudioCategory first, AudioCategory second)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a></td>
+              <td><span class="parametername">first</span></td>
+              <td><p>First AudioCategory instance to compare.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a></td>
+              <td><span class="parametername">second</span></td>
+              <td><p>Second AudioCategory instance to compare.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>true if the objects are equal or false if they aren&apos;t.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

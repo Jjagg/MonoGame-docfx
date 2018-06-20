@@ -1,0 +1,306 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData*" class="text-break">SetData Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">SetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Changes the pixels of the texture
+Throws ArgumentNullException if data is null
+Throws ArgumentException if arraySlice is greater than 0, and the GraphicsDevice does not support texture arrays</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_">SetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Changes the pixels of the texture</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_">SetData&lt;T&gt;(T[], Int32, Int32)</a></td>
+          <td class="summary"><p>Changes the texture&apos;s pixels</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___">SetData&lt;T&gt;(T[])</a></td>
+          <td class="summary"><p>Changes the texture&apos;s pixels</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" class="text-break">.Texture2D.SetData&lt;T&gt;(Int32, Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the pixels of the texture
+Throws ArgumentNullException if data is null
+Throws ArgumentException if arraySlice is greater than 0, and the GraphicsDevice does not support texture arrays</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, int arraySlice, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">level</span></td>
+              <td><p>Layer of the texture to modify</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">arraySlice</span></td>
+              <td><p>Index inside the texture array</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">rect</span></td>
+              <td><p>Area to modify</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>New data for the texture</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Start position of data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1_System_Int32_System_Nullable_Microsoft_Xna_Framework_Rectangle____0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(System.Int32,System.Nullable{Microsoft.Xna.Framework.Rectangle},``0[],System.Int32,System.Int32)" class="text-break">.Texture2D.SetData&lt;T&gt;(Int32, Nullable&lt;Rectangle&gt;, T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the pixels of the texture</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(int level, Rectangle? rect, T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">level</span></td>
+              <td><p>Layer of the texture to modify</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&gt;</td>
+              <td><span class="parametername">rect</span></td>
+              <td><p>Area to modify</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>New data for the texture</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Start position of data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[],System.Int32,System.Int32)" class="text-break">.Texture2D.SetData&lt;T&gt;(T[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the texture&apos;s pixels</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data, int startIndex, int elementCount)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td><p>New data for the texture</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">startIndex</span></td>
+              <td><p>Start position of data</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">elementCount</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_Texture2D_SetData__1___0___" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.SetData``1(``0[])" class="text-break">.Texture2D.SetData&lt;T&gt;(T[]) Method</h2>
+    <div class="markdown level0 summary"><p>Changes the texture&apos;s pixels</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void SetData&lt;T&gt;(T[] data)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>New data for the texture</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">data</span></td>
+              <td></td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

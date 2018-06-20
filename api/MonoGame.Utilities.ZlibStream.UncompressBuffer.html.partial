@@ -1,0 +1,76 @@
+﻿
+
+<article id="content" data-uid="MonoGame.Utilities.ZlibStream.UncompressBuffer*" role="main" class="pos-rel">
+  <h1 id="MonoGame_Utilities_ZlibStream_UncompressBuffer_" data-uid="MonoGame.Utilities.ZlibStream.UncompressBuffer*" class="text-break">.ZlibStream.UncompressBuffer(Byte[]) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Uncompress a ZLIB-compressed byte array into a byte array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static byte[] UncompressBuffer(byte[] compressed)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">compressed</span></td>
+              <td><p>A buffer containing ZLIB-compressed data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+            <td><p>The data in uncompressed form</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+    <h id="seealso">See Also</h>
+    <div class="seealso">
+          <div><a class="xref" href="MonoGame.Utilities.ZlibStream.CompressBuffer.html#MonoGame_Utilities_ZlibStream_CompressBuffer_System_Byte___">CompressBuffer(Byte[])</a></div>
+          <div><a class="xref" href="MonoGame.Utilities.ZlibStream.UncompressString.html#MonoGame_Utilities_ZlibStream_UncompressString_System_Byte___">UncompressString(Byte[])</a></div>
+
+  </div>
+</div></article>

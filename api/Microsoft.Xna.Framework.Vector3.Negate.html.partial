@@ -1,0 +1,136 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector3.Negate*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector3_Negate_" data-uid="Microsoft.Xna.Framework.Vector3.Negate*" class="text-break">Negate Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Negate.html#Microsoft_Xna_Framework_Vector3_Negate_Microsoft_Xna_Framework_Vector3_">Negate(Vector3)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains the specified vector inversion.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Negate.html#Microsoft_Xna_Framework_Vector3_Negate_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__">Negate(ref Vector3, out Vector3)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains the specified vector inversion.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector3_Negate_Microsoft_Xna_Framework_Vector3_" data-uid="Microsoft.Xna.Framework.Vector3.Negate(Microsoft.Xna.Framework.Vector3)" class="text-break">.Vector3.Negate(Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains the specified vector inversion.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector3 Negate(Vector3 value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+            <td><p>The result of the vector inversion.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector3_Negate_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__" data-uid="Microsoft.Xna.Framework.Vector3.Negate(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)" class="text-break">.Vector3.Negate(ref Vector3, out Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> that contains the specified vector inversion.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Negate(ref Vector3 value, out Vector3 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of the vector inversion as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.Input;
 <p>The reason why they start with Microsoft.Xna.Framework is because MonoGame is an open source implementation of Microsoft Xna framework, and in order to maintain compatibility with the XNA code, it is using the same namespaces.</p>
 <p><strong>The Game1 Class</strong></p>
 <pre><code class="lang-csharp">public class Game1 : Game
-</code></pre><p>The main Game1 class is inheriting from the <a class="xref" href="../../_api/Microsoft.Xna.Framework.Game.html">Game</a> class, which provides all the core methods for your game (ie. Load/Unload Content, Update, Draw etc.). You usually have only one Game class per game so its name isn&#39;t that important.</p>
+</code></pre><p>The main Game1 class is inheriting from the <a class="xref" href="../../api/Microsoft.Xna.Framework.Game.html">Game</a> class, which provides all the core methods for your game (ie. Load/Unload Content, Update, Draw etc.). You usually have only one Game class per game so its name isn&#39;t that important.</p>
 <p><strong>Instanced Variables</strong></p>
 <pre><code class="lang-csharp">GraphicsDeviceManager graphics;
 SpriteBatch spriteBatch;

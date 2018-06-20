@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Addition_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition*" class="text-break">.GraphicsMetrics.Addition(GraphicsMetrics, GraphicsMetrics) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns the combination of two sets of metrics.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static GraphicsMetrics operator +(GraphicsMetrics value1, GraphicsMetrics value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a> on the left of the add sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a> on the right of the add sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+            <td><p>Combination of two sets of metrics.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,30 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PresentInterval" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_PresentInterval" data-uid="Microsoft.Xna.Framework.Graphics.PresentInterval" class="text-break">PresentInterval Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Defines how <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.Present.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_Present">Present()</a> updates the game window.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public enum PresentInterval</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

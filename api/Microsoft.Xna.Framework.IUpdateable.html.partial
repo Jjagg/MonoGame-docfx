@@ -1,0 +1,86 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.IUpdateable" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_IUpdateable" data-uid="Microsoft.Xna.Framework.IUpdateable" class="text-break">IUpdateable Interface</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public interface IUpdateable</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.Enabled.html#Microsoft_Xna_Framework_IUpdateable_Enabled">Enabled</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.UpdateOrder.html#Microsoft_Xna_Framework_IUpdateable_UpdateOrder">UpdateOrder</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.Update.html#Microsoft_Xna_Framework_IUpdateable_Update_Microsoft_Xna_Framework_GameTime_">Update(GameTime)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.EnabledChanged.html#Microsoft_Xna_Framework_IUpdateable_EnabledChanged">EnabledChanged</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.IUpdateable.UpdateOrderChanged.html#Microsoft_Xna_Framework_IUpdateable_UpdateOrderChanged">UpdateOrderChanged</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

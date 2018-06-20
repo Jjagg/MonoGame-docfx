@@ -1,0 +1,148 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Rectangle.Union*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Rectangle_Union_" data-uid="Microsoft.Xna.Framework.Rectangle.Union*" class="text-break">Union Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Union.html#Microsoft_Xna_Framework_Rectangle_Union_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_">Union(Rectangle, Rectangle)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that completely contains two other rectangles.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Rectangle.Union.html#Microsoft_Xna_Framework_Rectangle_Union_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__">Union(ref Rectangle, ref Rectangle, out Rectangle)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that completely contains two other rectangles.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Union_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_" data-uid="Microsoft.Xna.Framework.Rectangle.Union(Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Rectangle)" class="text-break">.Rectangle.Union(Rectangle, Rectangle) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that completely contains two other rectangles.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Rectangle Union(Rectangle value1, Rectangle value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+            <td><p>The union of the two rectangles.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Rectangle_Union_Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__Microsoft_Xna_Framework_Rectangle__" data-uid="Microsoft.Xna.Framework.Rectangle.Union(Microsoft.Xna.Framework.Rectangle@,Microsoft.Xna.Framework.Rectangle@,Microsoft.Xna.Framework.Rectangle@)" class="text-break">.Rectangle.Union(ref Rectangle, ref Rectangle, out Rectangle) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> that completely contains two other rectangles.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Union(ref Rectangle value1, ref Rectangle value2, out Rectangle result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The union of the two rectangles as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

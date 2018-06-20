@@ -1,0 +1,60 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile*" class="text-break">.GraphicsDeviceManager.GraphicsProfile Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>The profile which determines the graphics feature level.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public GraphicsProfile GraphicsProfile { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsProfile.html">GraphicsProfile</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

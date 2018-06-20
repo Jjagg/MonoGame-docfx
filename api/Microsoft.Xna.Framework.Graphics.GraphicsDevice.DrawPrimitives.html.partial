@@ -1,0 +1,71 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawPrimitives*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawPrimitives_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawPrimitives*" class="text-break">.GraphicsDevice.DrawPrimitives(PrimitiveType, Int32, Int32) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Draw primitives of the specified type from the currently bound vertexbuffers without indexing.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawPrimitives(PrimitiveType primitiveType, int vertexStart, int primitiveCount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PrimitiveType.html">PrimitiveType</a></td>
+              <td><span class="parametername">primitiveType</span></td>
+              <td><p>The type of primitives to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexStart</span></td>
+              <td><p>Index of the vertex to start at.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">primitiveCount</span></td>
+              <td><p>The number of primitives to draw.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

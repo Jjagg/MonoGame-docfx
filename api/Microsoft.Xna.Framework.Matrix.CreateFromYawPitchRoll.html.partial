@@ -1,0 +1,166 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromYawPitchRoll*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_CreateFromYawPitchRoll_" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromYawPitchRoll*" class="text-break">CreateFromYawPitchRoll Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateFromYawPitchRoll.html#Microsoft_Xna_Framework_Matrix_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_">CreateFromYawPitchRoll(Single, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from the specified yaw, pitch and roll values.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.CreateFromYawPitchRoll.html#Microsoft_Xna_Framework_Matrix_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Matrix__">CreateFromYawPitchRoll(Single, Single, Single, out Matrix)</a></td>
+          <td class="summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from the specified yaw, pitch and roll values.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromYawPitchRoll(System.Single,System.Single,System.Single)" class="text-break">.Matrix.CreateFromYawPitchRoll(Single, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from the specified yaw, pitch and roll values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Matrix CreateFromYawPitchRoll(float yaw, float pitch, float roll)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">yaw</span></td>
+              <td><p>The yaw rotation value in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">pitch</span></td>
+              <td><p>The pitch rotation value in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">roll</span></td>
+              <td><p>The roll rotation value in radians.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+            <td><p>The rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Matrix_CreateFromYawPitchRoll_System_Single_System_Single_System_Single__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>For more information about yaw, pitch and roll visit <a href="http://en.wikipedia.org/wiki/Euler_angles">http://en.wikipedia.org/wiki/Euler_angles</a>.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Matrix__" data-uid="Microsoft.Xna.Framework.Matrix.CreateFromYawPitchRoll(System.Single,System.Single,System.Single,Microsoft.Xna.Framework.Matrix@)" class="text-break">.Matrix.CreateFromYawPitchRoll(Single, Single, Single, out Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> from the specified yaw, pitch and roll values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateFromYawPitchRoll(float yaw, float pitch, float roll, out Matrix result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">yaw</span></td>
+              <td><p>The yaw rotation value in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">pitch</span></td>
+              <td><p>The pitch rotation value in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">roll</span></td>
+              <td><p>The roll rotation value in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The rotation <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Matrix_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Matrix___remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>For more information about yaw, pitch and roll visit <a href="http://en.wikipedia.org/wiki/Euler_angles">http://en.wikipedia.org/wiki/Euler_angles</a>.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,64 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.DistanceScale*" class="text-break">.SoundEffect.DistanceScale Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets or sets the scale of distance calculations.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float DistanceScale { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundEffect_DistanceScale_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>DistanceScale defaults to 1.0 and must be greater than 0.0.</p>
+<p>Higher values reduce the rate of falloff between the sound and listener.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

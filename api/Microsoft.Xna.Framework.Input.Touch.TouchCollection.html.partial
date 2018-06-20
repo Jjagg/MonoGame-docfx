@@ -1,0 +1,180 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection" class="text-break">TouchCollection Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Provides state information for a touch screen enabled device.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct TouchCollection : IList&lt;TouchLocation&gt;, ICollection&lt;TouchLocation&gt;, IEnumerable&lt;TouchLocation&gt;, IEnumerable</code></pre>
+    </div>
+  
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.-ctor.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_Microsoft_Xna_Framework_Input_Touch_TouchLocation___">TouchCollection(TouchLocation[])</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a> with a pre-determined set of touch locations.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count">Count</a></td>
+          <td class="summary"><p>Returns the number of <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> items that exist in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsConnected.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected">IsConnected</a></td>
+          <td class="summary"><p>States if a touch screen is available.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IsReadOnly.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly">IsReadOnly</a></td>
+          <td class="summary"><p>States if touch collection is read only.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Item.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_System_Int32_">Item[Int32]</a></td>
+          <td class="summary"><p>Gets or sets the item at the specified index of the collection.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Add.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_Microsoft_Xna_Framework_Input_Touch_TouchLocation_">Add(TouchLocation)</a></td>
+          <td class="summary"><p>Adds a <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> to the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Clear.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear">Clear()</a></td>
+          <td class="summary"><p>Clears all the items in collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Contains.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_Microsoft_Xna_Framework_Input_Touch_TouchLocation_">Contains(TouchLocation)</a></td>
+          <td class="summary"><p>Returns true if specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item exists in the collection, false otherwise./&gt;</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.CopyTo.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_Microsoft_Xna_Framework_Input_Touch_TouchLocation___System_Int32_">CopyTo(TouchLocation[], Int32)</a></td>
+          <td class="summary"><p>Copies the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>collection to specified array starting from the given index.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__">FindById(Int32, out TouchLocation)</a></td>
+          <td class="summary"><p>Returns <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> specified by ID.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator">GetEnumerator()</a></td>
+          <td class="summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.IndexOf.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_Microsoft_Xna_Framework_Input_Touch_TouchLocation_">IndexOf(TouchLocation)</a></td>
+          <td class="summary"><p>Returns the index of the first occurrence of specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item in the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Insert.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation_">Insert(Int32, TouchLocation)</a></td>
+          <td class="summary"><p>Inserts a <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item into the indicated position.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Remove.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_Microsoft_Xna_Framework_Input_Touch_TouchLocation_">Remove(TouchLocation)</a></td>
+          <td class="summary"><p>Removes the specified <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item from the collection.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_">RemoveAt(Int32)</a></td>
+          <td class="summary"><p>Removes the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item at specified index.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-Generic-IEnumerable-Microsoft-Xna-Framework-Input-Touch-TouchLocation--GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Input_Touch_TouchLocation__GetEnumerator">IEnumerable&lt;TouchLocation&gt;.GetEnumerator()</a></td>
+          <td class="summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_IEnumerable_GetEnumerator">IEnumerable.GetEnumerator()</a></td>
+          <td class="summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

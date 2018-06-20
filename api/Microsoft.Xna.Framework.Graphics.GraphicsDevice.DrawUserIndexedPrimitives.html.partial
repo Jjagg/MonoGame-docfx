@@ -1,0 +1,417 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives*" class="text-break">DrawUserIndexedPrimitives Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int16___System_Int32_System_Int32_">DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int16[], Int32, Int32)</a></td>
+          <td class="summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 16-bit indices.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int16___System_Int32_System_Int32_Microsoft_Xna_Framework_Graphics_VertexDeclaration_">DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int16[], Int32, Int32, VertexDeclaration)</a></td>
+          <td class="summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 16-bit indices.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int32___System_Int32_System_Int32_">DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int32[], Int32, Int32)</a></td>
+          <td class="summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 32-bit indices.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives.html#Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int32___System_Int32_System_Int32_Microsoft_Xna_Framework_Graphics_VertexDeclaration_">DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int32[], Int32, Int32, VertexDeclaration)</a></td>
+          <td class="summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 32-bit indices.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int16___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives``1(Microsoft.Xna.Framework.Graphics.PrimitiveType,``0[],System.Int32,System.Int32,System.Int16[],System.Int32,System.Int32)" class="text-break">.GraphicsDevice.DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int16[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 16-bit indices.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, short[] indexData, int indexOffset, int primitiveCount)
+
+    where T : struct, IVertexType</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>The type of the vertices.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PrimitiveType.html">PrimitiveType</a></td>
+              <td><span class="parametername">primitiveType</span></td>
+              <td><p>The type of primitives to draw with the vertices.</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">vertexData</span></td>
+              <td><p>An array of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexOffset</span></td>
+              <td><p>The index in the array of the first vertex to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">numVertices</span></td>
+              <td><p>The number of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a>[]</td>
+              <td><span class="parametername">indexData</span></td>
+              <td><p>The index data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexOffset</span></td>
+              <td><p>The index in the array of indices of the first index to use</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">primitiveCount</span></td>
+              <td><p>The number of primitives to draw.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int16___System_Int32_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>The <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> will be found by getting <a class="xref" href="Microsoft.Xna.Framework.Graphics.IVertexType.VertexDeclaration.html#Microsoft_Xna_Framework_Graphics_IVertexType_VertexDeclaration">VertexDeclaration</a>
+from an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> and cached for subsequent calls.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int16___System_Int32_System_Int32_Microsoft_Xna_Framework_Graphics_VertexDeclaration_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives``1(Microsoft.Xna.Framework.Graphics.PrimitiveType,``0[],System.Int32,System.Int32,System.Int16[],System.Int32,System.Int32,Microsoft.Xna.Framework.Graphics.VertexDeclaration)" class="text-break">.GraphicsDevice.DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int16[], Int32, Int32, VertexDeclaration) Method</h2>
+    <div class="markdown level0 summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 16-bit indices.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, short[] indexData, int indexOffset, int primitiveCount, VertexDeclaration vertexDeclaration)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>The type of the vertices.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PrimitiveType.html">PrimitiveType</a></td>
+              <td><span class="parametername">primitiveType</span></td>
+              <td><p>The type of primitives to draw with the vertices.</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">vertexData</span></td>
+              <td><p>An array of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexOffset</span></td>
+              <td><p>The index in the array of the first vertex to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">numVertices</span></td>
+              <td><p>The number of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a>[]</td>
+              <td><span class="parametername">indexData</span></td>
+              <td><p>The index data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexOffset</span></td>
+              <td><p>The index in the array of indices of the first index to use</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">primitiveCount</span></td>
+              <td><p>The number of primitives to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a></td>
+              <td><span class="parametername">vertexDeclaration</span></td>
+              <td><p>The layout of the vertices.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int16___System_Int32_System_Int32_Microsoft_Xna_Framework_Graphics_VertexDeclaration__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>All indices in the vertex buffer are interpreted relative to the specified <code data-dev-comment-type="paramref" class="paramref">vertexOffset</code>.
+For example a value of zero in the array of indices points to the vertex at index <code data-dev-comment-type="paramref" class="paramref">vertexOffset</code>
+in the array of vertices.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int32___System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives``1(Microsoft.Xna.Framework.Graphics.PrimitiveType,``0[],System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32)" class="text-break">.GraphicsDevice.DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int32[], Int32, Int32) Method</h2>
+    <div class="markdown level0 summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 32-bit indices.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, int[] indexData, int indexOffset, int primitiveCount)
+
+    where T : struct, IVertexType</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>The type of the vertices.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PrimitiveType.html">PrimitiveType</a></td>
+              <td><span class="parametername">primitiveType</span></td>
+              <td><p>The type of primitives to draw with the vertices.</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">vertexData</span></td>
+              <td><p>An array of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexOffset</span></td>
+              <td><p>The index in the array of the first vertex to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">numVertices</span></td>
+              <td><p>The number of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>[]</td>
+              <td><span class="parametername">indexData</span></td>
+              <td><p>The index data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexOffset</span></td>
+              <td><p>The index in the array of indices of the first index to use</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">primitiveCount</span></td>
+              <td><p>The number of primitives to draw.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int32___System_Int32_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>The <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> will be found by getting <a class="xref" href="Microsoft.Xna.Framework.Graphics.IVertexType.VertexDeclaration.html#Microsoft_Xna_Framework_Graphics_IVertexType_VertexDeclaration">VertexDeclaration</a>
+from an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> and cached for subsequent calls.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int32___System_Int32_System_Int32_Microsoft_Xna_Framework_Graphics_VertexDeclaration_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsDevice.DrawUserIndexedPrimitives``1(Microsoft.Xna.Framework.Graphics.PrimitiveType,``0[],System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32,Microsoft.Xna.Framework.Graphics.VertexDeclaration)" class="text-break">.GraphicsDevice.DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType, T[], Int32, Int32, Int32[], Int32, Int32, VertexDeclaration) Method</h2>
+    <div class="markdown level0 summary"><p>Draw primitives of the specified type by indexing into the given array of vertices with 32-bit indices.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void DrawUserIndexedPrimitives&lt;T&gt;(PrimitiveType primitiveType, T[] vertexData, int vertexOffset, int numVertices, int[] indexData, int indexOffset, int primitiveCount, VertexDeclaration vertexDeclaration)
+
+    where T : struct</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Type Parameters</strong>
+        <table class="">
+            <tr>
+              <td><span class="parametername">T</span></td>
+              <td><p>The type of the vertices.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.PrimitiveType.html">PrimitiveType</a></td>
+              <td><span class="parametername">primitiveType</span></td>
+              <td><p>The type of primitives to draw with the vertices.</p>
+</td>
+            </tr>
+            <tr>
+              <td>T[]</td>
+              <td><span class="parametername">vertexData</span></td>
+              <td><p>An array of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">vertexOffset</span></td>
+              <td><p>The index in the array of the first vertex to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">numVertices</span></td>
+              <td><p>The number of vertices to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>[]</td>
+              <td><span class="parametername">indexData</span></td>
+              <td><p>The index data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">indexOffset</span></td>
+              <td><p>The index in the array of indices of the first index to use</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">primitiveCount</span></td>
+              <td><p>The number of primitives to draw.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a></td>
+              <td><span class="parametername">vertexDeclaration</span></td>
+              <td><p>The layout of the vertices.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Graphics_GraphicsDevice_DrawUserIndexedPrimitives__1_Microsoft_Xna_Framework_Graphics_PrimitiveType___0___System_Int32_System_Int32_System_Int32___System_Int32_System_Int32_Microsoft_Xna_Framework_Graphics_VertexDeclaration__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>All indices in the vertex buffer are interpreted relative to the specified <code data-dev-comment-type="paramref" class="paramref">vertexOffset</code>.
+For example value of zero in the array of indices points to the vertex at index <code data-dev-comment-type="paramref" class="paramref">vertexOffset</code>
+in the array of vertices.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

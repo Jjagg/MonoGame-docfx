@@ -1,0 +1,62 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.ToString*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Viewport_ToString_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.ToString*" class="text-break">.Viewport.ToString() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a> in the format:
+{X:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.X.html#Microsoft_Xna_Framework_Graphics_Viewport_X">X</a>] Y:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.Y.html#Microsoft_Xna_Framework_Graphics_Viewport_Y">Y</a>] Width:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.Width.html#Microsoft_Xna_Framework_Graphics_Viewport_Width">Width</a>] Height:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.Height.html#Microsoft_Xna_Framework_Graphics_Viewport_Height">Height</a>] MinDepth:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.MinDepth.html#Microsoft_Xna_Framework_Graphics_Viewport_MinDepth">MinDepth</a>] MaxDepth:[<a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.MaxDepth.html#Microsoft_Xna_Framework_Graphics_Viewport_MaxDepth">MaxDepth</a>]}</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+            <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Graphics.Viewport.html">Viewport</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

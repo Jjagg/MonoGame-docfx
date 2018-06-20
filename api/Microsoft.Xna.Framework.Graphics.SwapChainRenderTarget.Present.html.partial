@@ -1,0 +1,48 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_SwapChainRenderTarget_Present_" data-uid="Microsoft.Xna.Framework.Graphics.SwapChainRenderTarget.Present*" class="text-break">.SwapChainRenderTarget.Present() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Displays the contents of the active back buffer to the screen.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Present()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

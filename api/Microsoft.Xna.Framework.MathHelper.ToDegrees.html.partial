@@ -1,0 +1,77 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.ToDegrees*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper_ToDegrees_" data-uid="Microsoft.Xna.Framework.MathHelper.ToDegrees*" class="text-break">.MathHelper.ToDegrees(Single) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Converts radians to degrees.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float ToDegrees(float radians)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">radians</span></td>
+              <td><p>The angle in radians.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td><p>The angle in degrees.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_MathHelper_ToDegrees_System_Single__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This method uses double precission internally,
+though it returns single float
+Factor = 180 / pi</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

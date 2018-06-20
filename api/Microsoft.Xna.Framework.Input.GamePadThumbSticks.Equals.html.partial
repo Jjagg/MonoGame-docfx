@@ -1,0 +1,72 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadThumbSticks.Equals*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadThumbSticks_Equals_" data-uid="Microsoft.Xna.Framework.Input.GamePadThumbSticks.Equals*" class="text-break">.GamePadThumbSticks.Equals(Object) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns a value indicating whether this instance is equal to a specified object.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+              <td><span class="parametername">obj</span></td>
+              <td><p>An object to compare to this instance.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p>true if <code data-dev-comment-type="paramref" class="paramref">obj</code> is a <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadThumbSticks.html">GamePadThumbSticks</a> and has the same value as this instance; otherwise, false.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

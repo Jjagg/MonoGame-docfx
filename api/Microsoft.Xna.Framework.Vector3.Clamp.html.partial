@@ -1,0 +1,160 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector3.Clamp*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector3_Clamp_" data-uid="Microsoft.Xna.Framework.Vector3.Clamp*" class="text-break">Clamp Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Clamp.html#Microsoft_Xna_Framework_Vector3_Clamp_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_">Clamp(Vector3, Vector3, Vector3)</a></td>
+          <td class="summary"><p>Clamps the specified value within a range.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector3.Clamp.html#Microsoft_Xna_Framework_Vector3_Clamp_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__">Clamp(ref Vector3, ref Vector3, ref Vector3, out Vector3)</a></td>
+          <td class="summary"><p>Clamps the specified value within a range.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector3_Clamp_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Vector3_" data-uid="Microsoft.Xna.Framework.Vector3.Clamp(Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3,Microsoft.Xna.Framework.Vector3)" class="text-break">.Vector3.Clamp(Vector3, Vector3, Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Clamps the specified value within a range.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector3 Clamp(Vector3 value1, Vector3 min, Vector3 max)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The value to clamp.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">min</span></td>
+              <td><p>The min value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">max</span></td>
+              <td><p>The max value.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+            <td><p>The clamped value.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector3_Clamp_Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__Microsoft_Xna_Framework_Vector3__" data-uid="Microsoft.Xna.Framework.Vector3.Clamp(Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@,Microsoft.Xna.Framework.Vector3@)" class="text-break">.Vector3.Clamp(ref Vector3, ref Vector3, ref Vector3, out Vector3) Method</h2>
+    <div class="markdown level0 summary"><p>Clamps the specified value within a range.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Clamp(ref Vector3 value1, ref Vector3 min, ref Vector3 max, out Vector3 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The value to clamp.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">min</span></td>
+              <td><p>The min value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">max</span></td>
+              <td><p>The max value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The clamped value as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

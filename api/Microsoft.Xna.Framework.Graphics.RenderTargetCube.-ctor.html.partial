@@ -1,0 +1,177 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTargetCube__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.#ctor*" class="text-break">RenderTargetCube Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTargetCube__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_">RenderTargetCube(GraphicsDevice, Int32, Boolean, SurfaceFormat, DepthFormat)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.html">RenderTargetCube</a> class.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTargetCube__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_">RenderTargetCube(GraphicsDevice, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage)</a></td>
+          <td class="summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.html">RenderTargetCube</a> class.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Graphics_RenderTargetCube__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.DepthFormat)" class="text-break">.RenderTargetCube.RenderTargetCube(GraphicsDevice, Int32, Boolean, SurfaceFormat, DepthFormat) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.html">RenderTargetCube</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public RenderTargetCube(GraphicsDevice graphicsDevice, int size, bool mipMap, SurfaceFormat preferredFormat, DepthFormat preferredDepthFormat)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td><p>The graphics device.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">size</span></td>
+              <td><p>The width and height of a texture cube face in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">mipMap</span></td>
+              <td><p><span class="xref">true</span> to generate a full mipmap chain; otherwise <span class="xref">false</span>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">preferredFormat</span></td>
+              <td><p>The preferred format of the surface.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+              <td><span class="parametername">preferredDepthFormat</span></td>
+              <td><p>The preferred format of the depth-stencil buffer.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Graphics_RenderTargetCube__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.Int32,System.Boolean,Microsoft.Xna.Framework.Graphics.SurfaceFormat,Microsoft.Xna.Framework.Graphics.DepthFormat,System.Int32,Microsoft.Xna.Framework.Graphics.RenderTargetUsage)" class="text-break">.RenderTargetCube.RenderTargetCube(GraphicsDevice, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage) Constructor</h2>
+    <div class="markdown level0 summary"><p>Initializes a new instance of the <a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetCube.html">RenderTargetCube</a> class.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public RenderTargetCube(GraphicsDevice graphicsDevice, int size, bool mipMap, SurfaceFormat preferredFormat, DepthFormat preferredDepthFormat, int preferredMultiSampleCount, RenderTargetUsage usage)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+              <td><span class="parametername">graphicsDevice</span></td>
+              <td><p>The graphics device.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">size</span></td>
+              <td><p>The width and height of a texture cube face in pixels.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><span class="parametername">mipMap</span></td>
+              <td><p><span class="xref">true</span> to generate a full mipmap chain; otherwise <span class="xref">false</span>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td><span class="parametername">preferredFormat</span></td>
+              <td><p>The preferred format of the surface.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+              <td><span class="parametername">preferredDepthFormat</span></td>
+              <td><p>The preferred format of the depth-stencil buffer.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">preferredMultiSampleCount</span></td>
+              <td><p>The preferred number of multisample locations.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTargetUsage.html">RenderTargetUsage</a></td>
+              <td><span class="parametername">usage</span></td>
+              <td><p>The usage mode of the render target.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

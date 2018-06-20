@@ -1,0 +1,77 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Media.VideoPlayer.GetTexture*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Media_VideoPlayer_GetTexture_" data-uid="Microsoft.Xna.Framework.Media.VideoPlayer.GetTexture*" class="text-break">.VideoPlayer.GetTexture() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Retrieves a Texture2D containing the current frame of video being played.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Texture2D GetTexture()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+            <td><p>The current frame of video.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+            <td><p>Thrown if no video is set on the player</p>
+</td>
+          </tr>
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+            <td><p>Thrown if the platform was unable to get a texture in a reasonable amount of time. Often the platform specific media code is running
+in a different thread or process. Note: This may be a change from XNA behaviour</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

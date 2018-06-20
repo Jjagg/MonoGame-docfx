@@ -1,0 +1,75 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue*" class="text-break">.SoundBank.GetCue(String) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns a pooled Cue object.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Cue GetCue(string name)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><span class="parametername">name</span></td>
+              <td><p>Friendly name of the cue to get.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Audio.Cue.html">Cue</a></td>
+            <td><p>a unique Cue object from a pool.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_System_String__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Cue instances are unique, even when sharing the same name. This allows multiple instances to simultaneously play.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

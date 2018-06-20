@@ -1,0 +1,90 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.Lerp*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_MathHelper_Lerp_" data-uid="Microsoft.Xna.Framework.MathHelper.Lerp*" class="text-break">.MathHelper.Lerp(Single, Single, Single) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Linearly interpolates between two values.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static float Lerp(float value1, float value2, float amount)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Destination value.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">amount</span></td>
+              <td><p>Value between 0 and 1 indicating the weight of value2.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+            <td><p>Interpolated value.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_MathHelper_Lerp_System_Single_System_Single_System_Single__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This method performs the linear interpolation based on the following formula:</p>
+<pre><code>value1 + (value2 - value1) * amount</code></pre>.
+<p>Passing amount a value of 0 will cause value1 to be returned, a value of 1 will cause value2 to be returned.
+See <a class="xref" href="Microsoft.Xna.Framework.MathHelper.LerpPrecise.html#Microsoft_Xna_Framework_MathHelper_LerpPrecise_System_Single_System_Single_System_Single_">LerpPrecise(Single, Single, Single)</a> for a less efficient version with more precision around edge cases.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

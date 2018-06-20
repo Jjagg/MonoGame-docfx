@@ -1,0 +1,164 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector4.Normalize*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector4_Normalize_" data-uid="Microsoft.Xna.Framework.Vector4.Normalize*" class="text-break">Normalize Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Normalize.html#Microsoft_Xna_Framework_Vector4_Normalize">Normalize()</a></td>
+          <td class="summary"><p>Turns this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> to a unit vector with the same direction.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Normalize.html#Microsoft_Xna_Framework_Vector4_Normalize_Microsoft_Xna_Framework_Vector4_">Normalize(Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a normalized values from another vector.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector4.Normalize.html#Microsoft_Xna_Framework_Vector4_Normalize_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__">Normalize(ref Vector4, out Vector4)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a normalized values from another vector.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector4_Normalize" data-uid="Microsoft.Xna.Framework.Vector4.Normalize" class="text-break">.Vector4.Normalize() Method</h2>
+    <div class="markdown level0 summary"><p>Turns this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> to a unit vector with the same direction.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void Normalize()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector4_Normalize_Microsoft_Xna_Framework_Vector4_" data-uid="Microsoft.Xna.Framework.Vector4.Normalize(Microsoft.Xna.Framework.Vector4)" class="text-break">.Vector4.Normalize(Vector4) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a normalized values from another vector.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector4 Normalize(Vector4 value)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+            <td><p>Unit vector.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector4_Normalize_Microsoft_Xna_Framework_Vector4__Microsoft_Xna_Framework_Vector4__" data-uid="Microsoft.Xna.Framework.Vector4.Normalize(Microsoft.Xna.Framework.Vector4@,Microsoft.Xna.Framework.Vector4@)" class="text-break">.Vector4.Normalize(ref Vector4, out Vector4) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a> that contains a normalized values from another vector.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Normalize(ref Vector4 value, out Vector4 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">value</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>Unit vector as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

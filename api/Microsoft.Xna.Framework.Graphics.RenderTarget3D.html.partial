@@ -1,0 +1,220 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D" class="text-break">RenderTarget3D Class</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public class RenderTarget3D : Texture3D, IDisposable, IRenderTarget</code></pre>
+    </div>
+  
+  <div class="type-subheader inheritance">
+    <div>
+      <span class="pad-right10"><strong>Inheritance</strong> </span>
+        <span class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.html">Texture</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+        <span class="level3"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.html">Texture3D</a></span>
+        <span class="inherit-separator mg-icons">&#xe800;</span>
+      <span class="level4"><span class="xref">RenderTarget3D</span>
+    </span></div>
+  </div>
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.Width.html#Microsoft_Xna_Framework_Graphics_Texture3D_Width">Texture3D.Width</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.Height.html#Microsoft_Xna_Framework_Graphics_Texture3D_Height">Texture3D.Height</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.Depth.html#Microsoft_Xna_Framework_Graphics_Texture3D_Depth">Texture3D.Depth</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_SetData__1___0___">Texture3D.SetData&lt;T&gt;(T[])</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_SetData__1___0___System_Int32_System_Int32_">Texture3D.SetData&lt;T&gt;(T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.SetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_SetData__1_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32___0___System_Int32_System_Int32_">Texture3D.SetData&lt;T&gt;(Int32, Int32, Int32, Int32, Int32, Int32, Int32, T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32___0___System_Int32_System_Int32_">Texture3D.GetData&lt;T&gt;(Int32, Int32, Int32, Int32, Int32, Int32, Int32, T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___System_Int32_System_Int32_">Texture3D.GetData&lt;T&gt;(T[], Int32, Int32)</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture3D.GetData.html#Microsoft_Xna_Framework_Graphics_Texture3D_GetData__1___0___">Texture3D.GetData&lt;T&gt;(T[])</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.Format.html#Microsoft_Xna_Framework_Graphics_Texture_Format">Texture.Format</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.LevelCount.html#Microsoft_Xna_Framework_Graphics_Texture_LevelCount">Texture.LevelCount</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.GraphicsDeviceResetting.html#Microsoft_Xna_Framework_Graphics_Texture_GraphicsDeviceResetting">Texture.GraphicsDeviceResetting()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.GetSharedHandle.html#Microsoft_Xna_Framework_Graphics_Texture_GetSharedHandle">Texture.GetSharedHandle()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture.CreateShaderResourceView.html#Microsoft_Xna_Framework_Graphics_Texture_CreateShaderResourceView">Texture.CreateShaderResourceView()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Dispose.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Disposing.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.GraphicsDevice.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.IsDisposed.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Name.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.Tag.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+      </div>
+      <div>
+        <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_">RenderTarget3D(GraphicsDevice, Int32, Int32, Int32)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_">RenderTarget3D(GraphicsDevice, Int32, Int32, Int32, Boolean, SurfaceFormat, DepthFormat)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.-ctor.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_Int32_System_Int32_System_Int32_System_Boolean_Microsoft_Xna_Framework_Graphics_SurfaceFormat_Microsoft_Xna_Framework_Graphics_DepthFormat_System_Int32_Microsoft_Xna_Framework_Graphics_RenderTargetUsage_">RenderTarget3D(GraphicsDevice, Int32, Int32, Int32, Boolean, SurfaceFormat, DepthFormat, Int32, RenderTargetUsage)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.DepthStencilFormat.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D_DepthStencilFormat">DepthStencilFormat</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.IsContentLost.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D_IsContentLost">IsContentLost</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.MultiSampleCount.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D_MultiSampleCount">MultiSampleCount</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.RenderTargetUsage.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D_RenderTargetUsage">RenderTargetUsage</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.Dispose.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D_Dispose_System_Boolean_">Dispose(Boolean)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.QuerySelectedFormat.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D_QuerySelectedFormat_Microsoft_Xna_Framework_Graphics_GraphicsDevice_Microsoft_Xna_Framework_Graphics_SurfaceFormat_">QuerySelectedFormat(GraphicsDevice, SurfaceFormat)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="events">
+      
+  
+    Events
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.RenderTarget3D.ContentLost.html#Microsoft_Xna_Framework_Graphics_RenderTarget3D_ContentLost">ContentLost</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

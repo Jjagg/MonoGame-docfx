@@ -1,0 +1,65 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioListener.Velocity*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioListener_Velocity_" data-uid="Microsoft.Xna.Framework.Audio.AudioListener.Velocity*" class="text-break">.AudioListener.Velocity Property</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Gets or sets the listener&apos;s velocity vector.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; set; }</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+          <strong>Property Value</strong>
+      
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_AudioListener_Velocity_remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>Defaults to Vector3.Zero.</p>
+<p>Scaled by DopplerScale to calculate the Doppler effect value applied to a Cue.</p>
+<p>This value is only used to calculate Doppler values.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,49 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.GameWindow.TextInput" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_GameWindow_TextInput" data-uid="Microsoft.Xna.Framework.GameWindow.TextInput" class="text-break">GameWindow.TextInput Event</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Use this event to retrieve text for objects like textbox&apos;s.
+This event is not raised by noncharacter keys.
+This event also supports key repeat.
+For more information this event is based off:
+<a href="http://msdn.microsoft.com/en-AU/library/system.windows.forms.control.keypress.aspx">http://msdn.microsoft.com/en-AU/library/system.windows.forms.control.keypress.aspx</a></p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public event EventHandler&lt;TextInputEventArgs&gt; TextInput</code></pre>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+    <div class="type-subheader">
+  
+      <strong>Event Type</strong>
+  
+  
+    <table class="">
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.TextInputEventArgs.html">TextInputEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </table>
+    </div>
+  
+  
+
+<h id="Microsoft_Xna_Framework_GameWindow_TextInput_remarks">Remarks</h>
+<div class="markdown level0 remarks"><p>This event is only supported on the Windows DirectX, Windows OpenGL and Linux platforms.</p>
+</div>
+
+
+
+
+  </div>
+</article>

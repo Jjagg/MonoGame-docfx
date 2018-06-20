@@ -1,0 +1,160 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromYawPitchRoll*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Quaternion_CreateFromYawPitchRoll_" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromYawPitchRoll*" class="text-break">CreateFromYawPitchRoll Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.CreateFromYawPitchRoll.html#Microsoft_Xna_Framework_Quaternion_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_">CreateFromYawPitchRoll(Single, Single, Single)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified yaw, pitch and roll angles.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Quaternion.CreateFromYawPitchRoll.html#Microsoft_Xna_Framework_Quaternion_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Quaternion__">CreateFromYawPitchRoll(Single, Single, Single, out Quaternion)</a></td>
+          <td class="summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified yaw, pitch and roll angles.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Quaternion_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromYawPitchRoll(System.Single,System.Single,System.Single)" class="text-break">.Quaternion.CreateFromYawPitchRoll(Single, Single, Single) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified yaw, pitch and roll angles.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Quaternion CreateFromYawPitchRoll(float yaw, float pitch, float roll)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">yaw</span></td>
+              <td><p>Yaw around the y axis in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">pitch</span></td>
+              <td><p>Pitch around the x axis in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">roll</span></td>
+              <td><p>Roll around the z axis in radians.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+            <td><p>A new quaternion from the concatenated yaw, pitch, and roll angles.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Quaternion_CreateFromYawPitchRoll_System_Single_System_Single_System_Single_Microsoft_Xna_Framework_Quaternion__" data-uid="Microsoft.Xna.Framework.Quaternion.CreateFromYawPitchRoll(System.Single,System.Single,System.Single,Microsoft.Xna.Framework.Quaternion@)" class="text-break">.Quaternion.CreateFromYawPitchRoll(Single, Single, Single, out Quaternion) Method</h2>
+    <div class="markdown level0 summary"><p>Creates a new <a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a> from the specified yaw, pitch and roll angles.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void CreateFromYawPitchRoll(float yaw, float pitch, float roll, out Quaternion result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">yaw</span></td>
+              <td><p>Yaw around the y axis in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">pitch</span></td>
+              <td><p>Pitch around the x axis in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><span class="parametername">roll</span></td>
+              <td><p>Roll around the z axis in radians.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>A new quaternion from the concatenated yaw, pitch, and roll angles as an output parameter.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

@@ -1,0 +1,150 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture" data-uid="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture" class="text-break">VertexPositionColorTexture Struct</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">public struct VertexPositionColorTexture : IVertexType</code></pre>
+    </div>
+  
+  
+  
+  <div class="type-subheader implements">
+    <strong>Implements</strong>
+      <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IVertexType.html">IVertexType</a></div>
+  </div>
+  
+  <div class="type-subheader inheritedMembers">
+    <strong>Inherited Members</strong>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+      </div>
+      <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="constructors">
+      
+  
+    Constructors
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.-ctor.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture__ctor_Microsoft_Xna_Framework_Vector3_Microsoft_Xna_Framework_Color_Microsoft_Xna_Framework_Vector2_">VertexPositionColorTexture(Vector3, Color, Vector2)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="fields">
+      
+  
+    Fields
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.Color.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_Color">Color</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.Position.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_Position">Position</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.TextureCoordinate.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_TextureCoordinate">TextureCoordinate</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.VertexDeclaration.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_VertexDeclaration">VertexDeclaration</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="properties">
+      
+  
+    Properties
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.Microsoft-Xna-Framework-Graphics-IVertexType-VertexDeclaration.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_Microsoft_Xna_Framework_Graphics_IVertexType_VertexDeclaration">IVertexType.VertexDeclaration</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="methods">
+      
+  
+    Methods
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.Equals.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.GetHashCode.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_GetHashCode">GetHashCode()</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.ToString.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_ToString">ToString()</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+    <h2 id="operators">
+      
+  
+    Operators
+  
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.op_Equality.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_op_Equality_Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_">Equality(VertexPositionColorTexture, VertexPositionColorTexture)</a></td>
+          <td class="summary"></td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexPositionColorTexture.op_Inequality.html#Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_op_Inequality_Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_Microsoft_Xna_Framework_Graphics_VertexPositionColorTexture_">Inequality(VertexPositionColorTexture, VertexPositionColorTexture)</a></td>
+          <td class="summary"></td>
+          </tr>
+      </table>
+    </div>
+
+
+  </div>
+</article>

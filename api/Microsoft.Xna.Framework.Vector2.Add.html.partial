@@ -1,0 +1,152 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Vector2.Add*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Vector2_Add_" data-uid="Microsoft.Xna.Framework.Vector2.Add*" class="text-break">Add Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Add.html#Microsoft_Xna_Framework_Vector2_Add_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_">Add(Vector2, Vector2)</a></td>
+          <td class="summary"><p>Performs vector addition on <code data-dev-comment-type="paramref" class="paramref">value1</code> and <code data-dev-comment-type="paramref" class="paramref">value2</code>.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Vector2.Add.html#Microsoft_Xna_Framework_Vector2_Add_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__">Add(ref Vector2, ref Vector2, out Vector2)</a></td>
+          <td class="summary"><p>Performs vector addition on <code data-dev-comment-type="paramref" class="paramref">value1</code> and
+<code data-dev-comment-type="paramref" class="paramref">value2</code>, storing the result of the
+addition in <code data-dev-comment-type="paramref" class="paramref">result</code>.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Vector2_Add_Microsoft_Xna_Framework_Vector2_Microsoft_Xna_Framework_Vector2_" data-uid="Microsoft.Xna.Framework.Vector2.Add(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)" class="text-break">.Vector2.Add(Vector2, Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Performs vector addition on <code data-dev-comment-type="paramref" class="paramref">value1</code> and <code data-dev-comment-type="paramref" class="paramref">value2</code>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Vector2 Add(Vector2 value1, Vector2 value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector to add.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector to add.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+            <td><p>The result of the vector addition.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Vector2_Add_Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__Microsoft_Xna_Framework_Vector2__" data-uid="Microsoft.Xna.Framework.Vector2.Add(Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@,Microsoft.Xna.Framework.Vector2@)" class="text-break">.Vector2.Add(ref Vector2, ref Vector2, out Vector2) Method</h2>
+    <div class="markdown level0 summary"><p>Performs vector addition on <code data-dev-comment-type="paramref" class="paramref">value1</code> and
+<code data-dev-comment-type="paramref" class="paramref">value2</code>, storing the result of the
+addition in <code data-dev-comment-type="paramref" class="paramref">result</code>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static void Add(ref Vector2 value1, ref Vector2 value2, out Vector2 result)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>The first vector to add.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>The second vector to add.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><span class="parametername">result</span></td>
+              <td><p>The result of the vector addition.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

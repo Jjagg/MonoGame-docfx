@@ -1,0 +1,171 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor*" class="text-break">SoundEffect Constructor</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.-ctor.html#Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_">SoundEffect(Byte[], Int32, AudioChannels)</a></td>
+          <td class="summary"><p>Create a sound effect.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Audio.SoundEffect.-ctor.html#Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32_">SoundEffect(Byte[], Int32, Int32, Int32, AudioChannels, Int32, Int32)</a></td>
+          <td class="summary"><p>Create a sound effect.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels)" class="text-break">.SoundEffect.SoundEffect(Byte[], Int32, AudioChannels) Constructor</h2>
+    <div class="markdown level0 summary"><p>Create a sound effect.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public SoundEffect(byte[] buffer, int sampleRate, AudioChannels channels)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">buffer</span></td>
+              <td><p>The buffer with the sound data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sampleRate</span></td>
+              <td><p>The sound data sample rate in hertz.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+              <td><span class="parametername">channels</span></td>
+              <td><p>The number of channels in the sound data.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This only supports uncompressed 16bit PCM wav data.</p>
+</div>
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.#ctor(System.Byte[],System.Int32,System.Int32,System.Int32,Microsoft.Xna.Framework.Audio.AudioChannels,System.Int32,System.Int32)" class="text-break">.SoundEffect.SoundEffect(Byte[], Int32, Int32, Int32, AudioChannels, Int32, Int32) Constructor</h2>
+    <div class="markdown level0 summary"><p>Create a sound effect.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public SoundEffect(byte[] buffer, int offset, int count, int sampleRate, AudioChannels channels, int loopStart, int loopLength)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><span class="parametername">buffer</span></td>
+              <td><p>The buffer with the sound data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">offset</span></td>
+              <td><p>The offset to the start of the sound data in bytes.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">count</span></td>
+              <td><p>The length of the sound data in bytes.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">sampleRate</span></td>
+              <td><p>The sound data sample rate in hertz.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioChannels.html">AudioChannels</a></td>
+              <td><span class="parametername">channels</span></td>
+              <td><p>The number of channels in the sound data.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">loopStart</span></td>
+              <td><p>The position where the sound should begin looping in samples.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><span class="parametername">loopLength</span></td>
+              <td><p>The duration of the sound data loop in samples.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      
+    
+    <h id="Microsoft_Xna_Framework_Audio_SoundEffect__ctor_System_Byte___System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Audio_AudioChannels_System_Int32_System_Int32__remarks">Remarks</h>
+    <div class="markdown level0 remarks"><p>This only supports uncompressed 16bit PCM wav data.</p>
+</div>
+    
+    
+    
+    
+
+  </div>
+</article>

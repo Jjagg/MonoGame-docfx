@@ -1,0 +1,74 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Model.CopyBoneTransformsTo*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_Model_CopyBoneTransformsTo_" data-uid="Microsoft.Xna.Framework.Graphics.Model.CopyBoneTransformsTo*" class="text-break">.Model.CopyBoneTransformsTo(Matrix[]) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Copies bone transforms relative to <a class="xref" href="Microsoft.Xna.Framework.Graphics.Model.Root.html#Microsoft_Xna_Framework_Graphics_Model_Root">Root</a> bone from this model to a given array.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public void CopyBoneTransformsTo(Matrix[] destinationBoneTransforms)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>[]</td>
+              <td><span class="parametername">destinationBoneTransforms</span></td>
+              <td><p>The array receiving the transformed bones.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+      
+      <div class="type-subheader">
+        <strong>Exceptions</strong>
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">destinationBoneTransforms</code> is null.</p>
+</td>
+          </tr>
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+            <td><p><code data-dev-comment-type="paramref" class="paramref">destinationBoneTransforms</code> is invalid.</p>
+</td>
+          </tr>
+        </table>
+      </div>
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

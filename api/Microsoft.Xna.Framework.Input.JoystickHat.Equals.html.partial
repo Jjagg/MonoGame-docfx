@@ -1,0 +1,73 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.JoystickHat.Equals*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_JoystickHat_Equals_" data-uid="Microsoft.Xna.Framework.Input.JoystickHat.Equals*" class="text-break">.JoystickHat.Equals(Object) Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickHat.html">JoystickHat</a>.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+              <td><span class="parametername">obj</span></td>
+              <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> to compare with the current <a class="xref" href="Microsoft.Xna.Framework.Input.JoystickHat.html">JoystickHat</a>.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to the current
+<a class="xref" href="Microsoft.Xna.Framework.Input.JoystickHat.html">JoystickHat</a>; otherwise, <code>false</code>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

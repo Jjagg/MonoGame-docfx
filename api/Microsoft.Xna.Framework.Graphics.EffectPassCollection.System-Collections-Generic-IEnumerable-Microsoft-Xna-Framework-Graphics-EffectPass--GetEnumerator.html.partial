@@ -1,0 +1,63 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Graphics#EffectPass}#GetEnumerator*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Graphics_EffectPassCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Graphics_EffectPass__GetEnumerator_" data-uid="Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Graphics#EffectPass}#GetEnumerator*" class="text-break">.EffectPassCollection.IEnumerable&lt;EffectPass&gt;.GetEnumerator() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"></div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">IEnumerator&lt;EffectPass&gt; IEnumerable&lt;EffectPass&gt;.GetEnumerator()</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator#System_Collections_Generic_IEnumerable_1_GetEnumerator">GetEnumerator</a>()</div>
+      </div>
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Graphics.EffectPass.html">EffectPass</a>&gt;</td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

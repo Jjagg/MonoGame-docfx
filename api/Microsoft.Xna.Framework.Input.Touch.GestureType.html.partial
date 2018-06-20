@@ -1,0 +1,35 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureType" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_GestureType" data-uid="Microsoft.Xna.Framework.Input.Touch.GestureType" class="text-break">GestureType Enum</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"><p>Enumuration of values that represent different gestures that can be processed by <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture.html#Microsoft_Xna_Framework_Input_Touch_TouchPanel_ReadGesture">ReadGesture()</a>.</p>
+</div>
+<div class="markdown level0 conceptual"></div>
+
+  
+    <div class="codewrapper">
+      <pre><code class="lang-csharp hljs">[Flags]
+public enum GestureType</code></pre>
+    </div>
+  
+  
+    <div class="type-subheader attributes">
+      <strong>Attributes</strong>
+        <div>System.FlagsAttribute</div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+  </div>
+</article>

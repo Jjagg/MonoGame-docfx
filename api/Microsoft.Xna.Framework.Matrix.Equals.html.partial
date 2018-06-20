@@ -1,0 +1,147 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.Equals*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_Equals_" data-uid="Microsoft.Xna.Framework.Matrix.Equals*" class="text-break">Equals Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+    <h2 id="overloads">
+      
+  
+  
+    Overloads
+  
+  
+    </h2>
+    <div>
+      <table class="nameValue api-table">
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Equals.html#Microsoft_Xna_Framework_Matrix_Equals_Microsoft_Xna_Framework_Matrix_">Equals(Matrix)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> without any tolerance.</p>
+</td>
+          </tr>
+          <tr>
+          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Matrix.Equals.html#Microsoft_Xna_Framework_Matrix_Equals_System_Object_">Equals(Object)</a></td>
+          <td class="summary"><p>Compares whether current instance is equal to specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> without any tolerance.</p>
+</td>
+          </tr>
+      </table>
+    </div>
+
+      <h2 id="Microsoft_Xna_Framework_Matrix_Equals_Microsoft_Xna_Framework_Matrix_" data-uid="Microsoft.Xna.Framework.Matrix.Equals(Microsoft.Xna.Framework.Matrix)" class="text-break">.Matrix.Equals(Matrix) Method</h2>
+    <div class="markdown level0 summary"><p>Compares whether current instance is equal to specified <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> without any tolerance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public bool Equals(Matrix other)</code></pre>
+        </div>
+      
+      
+      
+      <div class="type-subheader implements">
+        <strong>Implements</strong>
+          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals</a>(<a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>)</div>
+      </div>
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><span class="parametername">other</span></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> to compare.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+      <h2 id="Microsoft_Xna_Framework_Matrix_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Matrix.Equals(System.Object)" class="text-break">.Matrix.Equals(Object) Method</h2>
+    <div class="markdown level0 summary"><p>Compares whether current instance is equal to specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> without any tolerance.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+              <td><span class="parametername">obj</span></td>
+              <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> to compare.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+            <td><p><code>true</code> if the instances are equal; <code>false</code> otherwise.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

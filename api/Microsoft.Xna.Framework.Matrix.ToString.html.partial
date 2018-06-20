@@ -1,0 +1,65 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Matrix.ToString*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Matrix_ToString_" data-uid="Microsoft.Xna.Framework.Matrix.ToString*" class="text-break">.Matrix.ToString() Method</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> in the format:
+{M11:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M11.html#Microsoft_Xna_Framework_Matrix_M11">M11</a>] M12:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M12.html#Microsoft_Xna_Framework_Matrix_M12">M12</a>] M13:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M13.html#Microsoft_Xna_Framework_Matrix_M13">M13</a>] M14:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M14.html#Microsoft_Xna_Framework_Matrix_M14">M14</a>]}
+{M21:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M21.html#Microsoft_Xna_Framework_Matrix_M21">M21</a>] M12:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M22.html#Microsoft_Xna_Framework_Matrix_M22">M22</a>] M13:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M23.html#Microsoft_Xna_Framework_Matrix_M23">M23</a>] M14:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M24.html#Microsoft_Xna_Framework_Matrix_M24">M24</a>]}
+{M31:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M31.html#Microsoft_Xna_Framework_Matrix_M31">M31</a>] M32:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M32.html#Microsoft_Xna_Framework_Matrix_M32">M32</a>] M33:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M33.html#Microsoft_Xna_Framework_Matrix_M33">M33</a>] M34:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M34.html#Microsoft_Xna_Framework_Matrix_M34">M34</a>]}
+{M41:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M41.html#Microsoft_Xna_Framework_Matrix_M41">M41</a>] M42:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M42.html#Microsoft_Xna_Framework_Matrix_M42">M42</a>] M43:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M43.html#Microsoft_Xna_Framework_Matrix_M43">M43</a>] M44:[<a class="xref" href="Microsoft.Xna.Framework.Matrix.M44.html#Microsoft_Xna_Framework_Matrix_M44">M44</a>]}</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+            <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>

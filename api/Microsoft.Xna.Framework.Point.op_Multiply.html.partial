@@ -1,0 +1,78 @@
+﻿
+
+<article id="content" data-uid="Microsoft.Xna.Framework.Point.op_Multiply*" role="main" class="pos-rel">
+  <h1 id="Microsoft_Xna_Framework_Point_op_Multiply_" data-uid="Microsoft.Xna.Framework.Point.op_Multiply*" class="text-break">.Point.Multiply(Point, Point) Operator</h1>
+
+  <div class="api">
+    <div class="markdown level0 summary"></div>
+<div class="markdown level0 conceptual"></div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="markdown level0 summary"><p>Multiplies the components of two points by each other.</p>
+</div>
+    <div class="markdown level0 conceptual"></div>
+    
+      
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs">public static Point operator *(Point value1, Point value2)</code></pre>
+        </div>
+      
+      
+      
+      
+      
+      
+      <div class="type-subheader">
+        <strong>Parameters</strong>
+        <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><span class="parametername">value1</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the left of the mul sign.</p>
+</td>
+            </tr>
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><span class="parametername">value2</span></td>
+              <td><p>Source <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> on the right of the mul sign.</p>
+</td>
+            </tr>
+        </table>
+      </div>
+      
+        <div class="type-subheader">
+      
+      
+          <strong>Returns</strong>
+      
+        <table class="">
+          <tr>
+            <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+            <td><p>Result of the multiplication.</p>
+</td>
+          </tr>
+        </table>
+        </div>
+      
+      
+    
+    
+    
+    
+    
+
+  </div>
+</article>
