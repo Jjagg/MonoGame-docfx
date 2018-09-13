@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Media.PlaylistCollection.Add*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Media_PlaylistCollection_Add_" data-uid="Microsoft.Xna.Framework.Media.PlaylistCollection.Add*" class="text-break">.PlaylistCollection.Add(Playlist) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Media_PlaylistCollection_Add_" data-uid="Microsoft.Xna.Framework.Media.PlaylistCollection.Add*" class="text-break">PlaylistCollection.Add(Playlist) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -31,10 +31,6 @@
       
       
       
-      <div class="type-subheader implements">
-        <strong>Implements</strong>
-          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add#System_Collections_Generic_ICollection_1_Add__0_">Add</a>(<a class="xref" href="Microsoft.Xna.Framework.Media.Playlist.html">Playlist</a>)</div>
-      </div>
       
       
       

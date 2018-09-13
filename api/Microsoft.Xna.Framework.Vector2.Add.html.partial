@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -80,17 +78,14 @@ addition in <code data-dev-comment-type="paramref" class="paramref">result</code
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
-            <td><p>The result of the vector addition.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><p>The result of the vector addition.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

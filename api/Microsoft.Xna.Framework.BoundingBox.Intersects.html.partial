@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -96,16 +94,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       
@@ -177,16 +172,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       
@@ -221,16 +213,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       
@@ -302,16 +291,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       
@@ -363,7 +349,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public float? Intersects(Ray ray)</code></pre>
+          <pre><code class="lang-csharp hljs">public Nullable&lt;float&gt; Intersects(Ray ray)</code></pre>
         </div>
       
       
@@ -383,16 +369,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       
@@ -407,7 +390,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public void Intersects(ref Ray ray, out float? result)</code></pre>
+          <pre><code class="lang-csharp hljs">public void Intersects(ref Ray ray, out Nullable&lt;float&gt; result)</code></pre>
         </div>
       
       

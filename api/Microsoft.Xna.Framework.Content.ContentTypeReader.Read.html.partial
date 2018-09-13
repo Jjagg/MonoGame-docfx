@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReader.Read*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReader_Read_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReader.Read*" class="text-break">.ContentTypeReader.Read(ContentReader, Object) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReader_Read_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReader.Read*" class="text-break">ContentTypeReader.Read(ContentReader, Object) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -51,16 +51,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

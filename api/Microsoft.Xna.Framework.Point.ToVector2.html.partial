@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Point.ToVector2*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Point_ToVector2_" data-uid="Microsoft.Xna.Framework.Point.ToVector2*" class="text-break">.Point.ToVector2() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Point_ToVector2_" data-uid="Microsoft.Xna.Framework.Point.ToVector2*" class="text-break">Point.ToVector2() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
-            <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> representation for this object.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> representation for this object.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

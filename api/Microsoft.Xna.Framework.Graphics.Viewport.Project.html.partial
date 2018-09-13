@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.Project*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_Viewport_Project_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.Project*" class="text-break">.Viewport.Project(Vector3, Matrix, Matrix, Matrix) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_Viewport_Project_" data-uid="Microsoft.Xna.Framework.Graphics.Viewport.Project*" class="text-break">Viewport.Project(Vector3, Matrix, Matrix, Matrix) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -66,16 +66,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

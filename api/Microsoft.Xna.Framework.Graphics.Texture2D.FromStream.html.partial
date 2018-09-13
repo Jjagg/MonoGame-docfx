@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream*" class="text-break">.Texture2D.FromStream(GraphicsDevice, Stream) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_FromStream_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.FromStream*" class="text-break">Texture2D.FromStream(GraphicsDevice, Stream) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -55,17 +55,14 @@ May work with other formats, but will not work with tga files.</p>
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
-            <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html#Microsoft_Xna_Framework_Graphics_SurfaceFormat_Color">Color</a> texture created from the image stream.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html#Microsoft_Xna_Framework_Graphics_SurfaceFormat_Color">Color</a> texture created from the image stream.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

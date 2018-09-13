@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -51,7 +49,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public static Matrix CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 rotateAxis, Vector3? cameraForwardVector, Vector3? objectForwardVector)</code></pre>
+          <pre><code class="lang-csharp hljs">public static Matrix CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 rotateAxis, Nullable&lt;Vector3&gt; cameraForwardVector, Nullable&lt;Vector3&gt; objectForwardVector)</code></pre>
         </div>
       
       
@@ -96,17 +94,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
-            <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><p>The <a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a> for cylindrical billboarding.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

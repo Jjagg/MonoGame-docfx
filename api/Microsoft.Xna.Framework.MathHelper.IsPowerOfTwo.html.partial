@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.IsPowerOfTwo*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_MathHelper_IsPowerOfTwo_" data-uid="Microsoft.Xna.Framework.MathHelper.IsPowerOfTwo*" class="text-break">.MathHelper.IsPowerOfTwo(Int32) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_MathHelper_IsPowerOfTwo_" data-uid="Microsoft.Xna.Framework.MathHelper.IsPowerOfTwo*" class="text-break">MathHelper.IsPowerOfTwo(Int32) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if <code>value</code> is powered by two; otherwise <code>false</code>.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if <code>value</code> is powered by two; otherwise <code>false</code>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

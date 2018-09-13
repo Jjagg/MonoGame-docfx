@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Curve.Clone*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Curve_Clone_" data-uid="Microsoft.Xna.Framework.Curve.Clone*" class="text-break">.Curve.Clone() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Curve_Clone_" data-uid="Microsoft.Xna.Framework.Curve.Clone*" class="text-break">Curve.Clone() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a></td>
-            <td><p>A copy of this curve.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Curve.html">Curve</a></td>
+              <td><p>A copy of this curve.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

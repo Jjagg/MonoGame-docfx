@@ -16,18 +16,6 @@
   
   
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-  </div>
   
   
   
@@ -41,7 +29,6 @@
       
   
     Properties
-  
   
   
     </h2>
@@ -197,13 +184,12 @@
     Methods
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
           <tr>
           <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.Equals.html#Microsoft_Xna_Framework_Input_GamePadCapabilities_Equals_System_Object_">Equals(Object)</a></td>
-          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>.</p>
+          <td class="summary"><p>Determines whether the specified <see cref="!:System.Object"></see> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadCapabilities.html">GamePadCapabilities</a>.</p>
 </td>
           </tr>
           <tr>
@@ -222,7 +208,6 @@
       
   
     Operators
-  
   
   
     </h2>

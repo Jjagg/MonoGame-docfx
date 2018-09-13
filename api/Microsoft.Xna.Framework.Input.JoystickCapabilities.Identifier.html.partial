@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.JoystickCapabilities.Identifier*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_JoystickCapabilities_Identifier_" data-uid="Microsoft.Xna.Framework.Input.JoystickCapabilities.Identifier*" class="text-break">.JoystickCapabilities.Identifier Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_JoystickCapabilities_Identifier_" data-uid="Microsoft.Xna.Framework.Input.JoystickCapabilities.Identifier*" class="text-break">JoystickCapabilities.Identifier Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,19 +36,6 @@
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-            <td><p>String representing the unique identifier of the joystick.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

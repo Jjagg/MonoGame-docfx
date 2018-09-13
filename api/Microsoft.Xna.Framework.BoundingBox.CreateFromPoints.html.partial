@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateFromPoints*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_BoundingBox_CreateFromPoints_" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateFromPoints*" class="text-break">.BoundingBox.CreateFromPoints(IEnumerable&lt;Vector3&gt;) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_BoundingBox_CreateFromPoints_" data-uid="Microsoft.Xna.Framework.BoundingBox.CreateFromPoints*" class="text-break">BoundingBox.CreateFromPoints(IEnumerable&lt;Vector3&gt;) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
-            <td><p>A bounding box that encapsulates the given point cloud.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a></td>
+              <td><p>A bounding box that encapsulates the given point cloud.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       <div class="type-subheader">

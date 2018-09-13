@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Dispose*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Dispose*" class="text-break">.Enumerator.Dispose() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_Dispose_" data-uid="Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Dispose*" class="text-break">Enumerator.Dispose() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -32,10 +32,6 @@
       
       
       
-      <div class="type-subheader implements">
-        <strong>Implements</strong>
-          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable.dispose#System_IDisposable_Dispose">Dispose</a>()</div>
-      </div>
       
       
       

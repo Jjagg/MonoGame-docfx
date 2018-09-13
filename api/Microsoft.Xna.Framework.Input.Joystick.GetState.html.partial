@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.Joystick.GetState*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_Joystick_GetState_" data-uid="Microsoft.Xna.Framework.Input.Joystick.GetState*" class="text-break">.Joystick.GetState(Int32) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_Joystick_GetState_" data-uid="Microsoft.Xna.Framework.Input.Joystick.GetState*" class="text-break">Joystick.GetState(Int32) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a></td>
-            <td><p>The state of the joystick.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.JoystickState.html">JoystickState</a></td>
+              <td><p>The state of the joystick.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count*" class="text-break">.TouchCollection.Count Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Count*" class="text-break">TouchCollection.Count Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -32,26 +32,10 @@
       
       
       
-      <div class="type-subheader implements">
-        <strong>Implements</strong>
-          <div><span class="xref">System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.Input.Touch.TouchLocation&gt;.Count</span></div>
-      </div>
       
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-            <td></td>
-          </tr>
-        </table>
-        </div>
       
       
     

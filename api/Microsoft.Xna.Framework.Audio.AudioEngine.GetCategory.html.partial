@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.GetCategory*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Audio_AudioEngine_GetCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.GetCategory*" class="text-break">.AudioEngine.GetCategory(String) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Audio_AudioEngine_GetCategory_" data-uid="Microsoft.Xna.Framework.Audio.AudioEngine.GetCategory*" class="text-break">AudioEngine.GetCategory(String) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a></td>
-            <td><p>The AudioCategory with a matching name. Throws an exception if not found.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.AudioCategory.html">AudioCategory</a></td>
+              <td><p>The AudioCategory with a matching name. Throws an exception if not found.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

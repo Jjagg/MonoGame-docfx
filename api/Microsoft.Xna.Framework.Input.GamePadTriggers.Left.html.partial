@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadTriggers.Left*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_GamePadTriggers_Left_" data-uid="Microsoft.Xna.Framework.Input.GamePadTriggers.Left*" class="text-break">.GamePadTriggers.Left Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadTriggers_Left_" data-uid="Microsoft.Xna.Framework.Input.GamePadTriggers.Left*" class="text-break">GamePadTriggers.Left Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,19 +36,6 @@
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-            <td><p>A value from 0.0f to 1.0f representing left trigger.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

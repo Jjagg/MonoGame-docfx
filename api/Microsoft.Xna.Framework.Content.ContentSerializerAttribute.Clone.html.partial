@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Clone*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Clone_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Clone*" class="text-break">.ContentSerializerAttribute.Clone() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Content_ContentSerializerAttribute_Clone_" data-uid="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.Clone*" class="text-break">ContentSerializerAttribute.Clone() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,16 +36,13 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.html">ContentSerializerAttribute</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentSerializerAttribute.html">ContentSerializerAttribute</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

@@ -9,7 +9,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class Album : IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class Album : object, IDisposable</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -27,24 +27,6 @@
       <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-      </div>
-  </div>
   
   
   
@@ -58,7 +40,6 @@
       
   
     Properties
-  
   
   
     </h2>
@@ -104,7 +85,6 @@
       
   
     Methods
-  
   
   
     </h2>

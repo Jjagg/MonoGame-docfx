@@ -9,7 +9,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">protected enum SurfaceType</code></pre>
+      <pre><code class="lang-csharp hljs">protected enum SurfaceType : int</code></pre>
     </div>
   
   

@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current*" class="text-break">.Enumerator.Current Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_Current_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Current*" class="text-break">Enumerator.Current Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -32,26 +32,10 @@
       
       
       
-      <div class="type-subheader implements">
-        <strong>Implements</strong>
-          <div><span class="xref">System.Collections.Generic.IEnumerator&lt;Microsoft.Xna.Framework.Input.Touch.TouchLocation&gt;.Current</span></div>
-      </div>
       
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a></td>
-            <td></td>
-          </tr>
-        </table>
-        </div>
       
       
     

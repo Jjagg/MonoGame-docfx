@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.SmoothStep*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_MathHelper_SmoothStep_" data-uid="Microsoft.Xna.Framework.MathHelper.SmoothStep*" class="text-break">.MathHelper.SmoothStep(Single, Single, Single) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_MathHelper_SmoothStep_" data-uid="Microsoft.Xna.Framework.MathHelper.SmoothStep*" class="text-break">MathHelper.SmoothStep(Single, Single, Single) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -60,17 +60,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-            <td><p>Interpolated value.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><p>Interpolated value.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

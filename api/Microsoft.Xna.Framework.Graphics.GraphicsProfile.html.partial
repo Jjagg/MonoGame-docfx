@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum GraphicsProfile</code></pre>
+      <pre><code class="lang-csharp hljs">public enum GraphicsProfile : int</code></pre>
     </div>
   
   

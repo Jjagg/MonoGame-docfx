@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState.ThumbSticks*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_ThumbSticks_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.ThumbSticks*" class="text-break">.GamePadState.ThumbSticks Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_ThumbSticks_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.ThumbSticks*" class="text-break">GamePadState.ThumbSticks Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,19 +36,6 @@
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadThumbSticks.html">GamePadThumbSticks</a></td>
-            <td><p>The thumbsticks position.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

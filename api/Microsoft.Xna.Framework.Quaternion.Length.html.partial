@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.Length*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Quaternion_Length_" data-uid="Microsoft.Xna.Framework.Quaternion.Length*" class="text-break">.Quaternion.Length() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Quaternion_Length_" data-uid="Microsoft.Xna.Framework.Quaternion.Length*" class="text-break">Quaternion.Length() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-            <td><p>The magnitude of the quaternion components.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><p>The magnitude of the quaternion components.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

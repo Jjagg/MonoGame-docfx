@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum KeyState</code></pre>
+      <pre><code class="lang-csharp hljs">public enum KeyState : int</code></pre>
     </div>
   
   

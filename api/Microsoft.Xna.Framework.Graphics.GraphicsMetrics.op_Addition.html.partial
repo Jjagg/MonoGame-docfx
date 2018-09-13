@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Addition_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition*" class="text-break">.GraphicsMetrics.Addition(GraphicsMetrics, GraphicsMetrics) Operator</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsMetrics_op_Addition_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.op_Addition*" class="text-break">GraphicsMetrics.Addition(GraphicsMetrics, GraphicsMetrics) Operator</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -54,17 +54,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
-            <td><p>Combination of two sets of metrics.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsMetrics.html">GraphicsMetrics</a></td>
+              <td><p>Combination of two sets of metrics.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

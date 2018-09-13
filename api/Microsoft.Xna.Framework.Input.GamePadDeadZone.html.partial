@@ -11,7 +11,7 @@ analog sticks when calling GetState.</p>
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum GamePadDeadZone</code></pre>
+      <pre><code class="lang-csharp hljs">public enum GamePadDeadZone : int</code></pre>
     </div>
   
   

@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -78,17 +76,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
-            <td><p>Result of the matrix multiplication.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><p>Result of the matrix multiplication.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -134,17 +129,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
-            <td><p>Result of the matrix multiplication with a scalar.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+              <td><p>Result of the matrix multiplication with a scalar.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

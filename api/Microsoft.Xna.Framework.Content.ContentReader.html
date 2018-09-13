@@ -27,7 +27,7 @@
           <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="flex-row flex-stretch no-overflow pos-rel">
+      <div class="flex-row flex-stretch pos-rel">
         
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
@@ -39,7 +39,7 @@
             <div id="toc"></div>
           </div>
         </div>
-        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+        <div id="page-scroll" class="flex-stretch flex-row">
           <div id="page-main" class="page-main flex-stretch">
             <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
               <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
@@ -63,7 +63,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class ContentReader : BinaryReader, IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class ContentReader : BinaryReader</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -71,120 +71,12 @@
       <span class="pad-right10"><strong>Inheritance</strong> </span>
         <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
         <span class="inherit-separator mg-icons">&#xe800;</span>
-        <span class="level1"><xref uid="System.IO.BinaryReader" text="BinaryReader" alt="System.IO.BinaryReader"/></span>
-        <span class="inherit-separator mg-icons">&#xe800;</span>
-      <span class="level2"><span class="xref">ContentReader</span>
+      <span class="level1"><span class="xref">ContentReader</span>
     </div>
   </div>
   
   
-  <div class="type-subheader implements">
-    <strong>Implements</strong>
-      <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
-  </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <xref uid="System.IO.BinaryReader.Close" text="BinaryReader.Close()" alt="System.IO.BinaryReader.Close()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.Dispose(System.Boolean)" text="BinaryReader.Dispose(Boolean)" alt="System.IO.BinaryReader.Dispose(System.Boolean)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.Dispose" text="BinaryReader.Dispose()" alt="System.IO.BinaryReader.Dispose()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.PeekChar" text="BinaryReader.PeekChar()" alt="System.IO.BinaryReader.PeekChar()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.Read" text="BinaryReader.Read()" alt="System.IO.BinaryReader.Read()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadBoolean" text="BinaryReader.ReadBoolean()" alt="System.IO.BinaryReader.ReadBoolean()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadByte" text="BinaryReader.ReadByte()" alt="System.IO.BinaryReader.ReadByte()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadSByte" text="BinaryReader.ReadSByte()" alt="System.IO.BinaryReader.ReadSByte()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadChar" text="BinaryReader.ReadChar()" alt="System.IO.BinaryReader.ReadChar()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadInt16" text="BinaryReader.ReadInt16()" alt="System.IO.BinaryReader.ReadInt16()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadUInt16" text="BinaryReader.ReadUInt16()" alt="System.IO.BinaryReader.ReadUInt16()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadInt32" text="BinaryReader.ReadInt32()" alt="System.IO.BinaryReader.ReadInt32()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadUInt32" text="BinaryReader.ReadUInt32()" alt="System.IO.BinaryReader.ReadUInt32()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadInt64" text="BinaryReader.ReadInt64()" alt="System.IO.BinaryReader.ReadInt64()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadUInt64" text="BinaryReader.ReadUInt64()" alt="System.IO.BinaryReader.ReadUInt64()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadSingle" text="BinaryReader.ReadSingle()" alt="System.IO.BinaryReader.ReadSingle()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadDouble" text="BinaryReader.ReadDouble()" alt="System.IO.BinaryReader.ReadDouble()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadDecimal" text="BinaryReader.ReadDecimal()" alt="System.IO.BinaryReader.ReadDecimal()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadString" text="BinaryReader.ReadString()" alt="System.IO.BinaryReader.ReadString()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)" text="BinaryReader.Read(Char[], Int32, Int32)" alt="System.IO.BinaryReader.Read(System.Char[], System.Int32, System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadChars(System.Int32)" text="BinaryReader.ReadChars(Int32)" alt="System.IO.BinaryReader.ReadChars(System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)" text="BinaryReader.Read(Byte[], Int32, Int32)" alt="System.IO.BinaryReader.Read(System.Byte[], System.Int32, System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.ReadBytes(System.Int32)" text="BinaryReader.ReadBytes(Int32)" alt="System.IO.BinaryReader.ReadBytes(System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.FillBuffer(System.Int32)" text="BinaryReader.FillBuffer(Int32)" alt="System.IO.BinaryReader.FillBuffer(System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.Read7BitEncodedInt" text="BinaryReader.Read7BitEncodedInt()" alt="System.IO.BinaryReader.Read7BitEncodedInt()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.BinaryReader.BaseStream" text="BinaryReader.BaseStream" alt="System.IO.BinaryReader.BaseStream"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
-  </div>
   
   
   
@@ -198,7 +90,6 @@
       
   
     Properties
-  
   
   
     </h2>
@@ -218,7 +109,6 @@
       
   
     Methods
-  
   
   
     </h2>

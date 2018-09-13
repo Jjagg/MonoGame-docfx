@@ -19,18 +19,6 @@ to offer additional data without separate state queries to GamePad.</p>
   
   
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-  </div>
   
   
   
@@ -44,7 +32,6 @@ to offer additional data without separate state queries to GamePad.</p>
       
   
     Constructors
-  
   
   
     </h2>
@@ -70,7 +57,6 @@ using the specified stick, trigger, and button values.</p>
     Fields
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -85,7 +71,6 @@ using the specified stick, trigger, and button values.</p>
       
   
     Properties
-  
   
   
     </h2>
@@ -129,13 +114,12 @@ using the specified stick, trigger, and button values.</p>
     Methods
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
           <tr>
           <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.Equals.html#Microsoft_Xna_Framework_Input_GamePadState_Equals_System_Object_">Equals(Object)</a></td>
-          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a>.</p>
+          <td class="summary"><p>Determines whether the specified <see cref="!:System.Object"></see> is equal to the current <a class="xref" href="Microsoft.Xna.Framework.Input.GamePadState.html">GamePadState</a>.</p>
 </td>
           </tr>
           <tr>
@@ -164,7 +148,6 @@ using the specified stick, trigger, and button values.</p>
       
   
     Operators
-  
   
   
     </h2>

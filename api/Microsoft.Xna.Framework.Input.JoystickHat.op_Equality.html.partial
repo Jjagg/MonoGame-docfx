@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.JoystickHat.op_Equality*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_JoystickHat_op_Equality_" data-uid="Microsoft.Xna.Framework.Input.JoystickHat.op_Equality*" class="text-break">.JoystickHat.Equality(JoystickHat, JoystickHat) Operator</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_JoystickHat_op_Equality_" data-uid="Microsoft.Xna.Framework.Input.JoystickHat.op_Equality*" class="text-break">JoystickHat.Equality(JoystickHat, JoystickHat) Operator</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -55,17 +55,14 @@ to another specified <a class="xref" href="Microsoft.Xna.Framework.Input.Joystic
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if <code>left</code> and <code>right</code> are equal; otherwise, <code>false</code>.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if <code>left</code> and <code>right</code> are equal; otherwise, <code>false</code>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

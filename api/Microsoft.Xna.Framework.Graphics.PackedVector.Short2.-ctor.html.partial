@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -80,7 +78,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public Short2(float x, float y)</code></pre>
+          <pre><code class="lang-csharp hljs">public Short2(Single x, Single y)</code></pre>
         </div>
       
       

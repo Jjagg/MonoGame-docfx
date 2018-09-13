@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue*" class="text-break">.SoundBank.GetCue(String) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundBank_GetCue_" data-uid="Microsoft.Xna.Framework.Audio.SoundBank.GetCue*" class="text-break">SoundBank.GetCue(String) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Audio.Cue.html">Cue</a></td>
-            <td><p>a unique Cue object from a pool.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Audio.Cue.html">Cue</a></td>
+              <td><p>a unique Cue object from a pool.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

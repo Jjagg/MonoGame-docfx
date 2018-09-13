@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -93,17 +91,14 @@ See remarks section of <a class="xref" href="Microsoft.Xna.Framework.MathHelper.
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
-            <td><p>The result of linear interpolation of the specified vectors.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><p>The result of linear interpolation of the specified vectors.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

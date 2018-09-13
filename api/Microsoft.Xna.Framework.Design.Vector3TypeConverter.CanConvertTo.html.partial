@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Design.Vector3TypeConverter.CanConvertTo*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Design_Vector3TypeConverter_CanConvertTo_" data-uid="Microsoft.Xna.Framework.Design.Vector3TypeConverter.CanConvertTo*" class="text-break">.Vector3TypeConverter.CanConvertTo(ITypeDescriptorContext, Type) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Design_Vector3TypeConverter_CanConvertTo_" data-uid="Microsoft.Xna.Framework.Design.Vector3TypeConverter.CanConvertTo*" class="text-break">Vector3TypeConverter.CanConvertTo(ITypeDescriptorContext, Type) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -51,16 +51,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

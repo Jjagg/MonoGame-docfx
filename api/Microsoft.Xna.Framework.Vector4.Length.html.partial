@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Vector4.Length*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Vector4_Length_" data-uid="Microsoft.Xna.Framework.Vector4.Length*" class="text-break">.Vector4.Length() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Vector4_Length_" data-uid="Microsoft.Xna.Framework.Vector4.Length*" class="text-break">Vector4.Length() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-            <td><p>The length of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><p>The length of this <a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

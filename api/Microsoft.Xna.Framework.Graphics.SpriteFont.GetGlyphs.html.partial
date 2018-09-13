@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.GetGlyphs*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_GetGlyphs_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.GetGlyphs*" class="text-break">.SpriteFont.GetGlyphs() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_GetGlyphs_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.GetGlyphs*" class="text-break">SpriteFont.GetGlyphs() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>, <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.html">SpriteFont.Glyph</a>&gt;</td>
-            <td><p>A new Dictionary containing all of the glyphs inthis SpriteFont</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>, <a class="xref" href="Microsoft.Xna.Framework.Graphics.SpriteFont.Glyph.html">SpriteFont.Glyph</a>&gt;</td>
+              <td><p>A new Dictionary containing all of the glyphs inthis SpriteFont</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

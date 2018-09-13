@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Media.VideoPlayer.GetTexture*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Media_VideoPlayer_GetTexture_" data-uid="Microsoft.Xna.Framework.Media.VideoPlayer.GetTexture*" class="text-break">.VideoPlayer.GetTexture() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Media_VideoPlayer_GetTexture_" data-uid="Microsoft.Xna.Framework.Media.VideoPlayer.GetTexture*" class="text-break">VideoPlayer.GetTexture() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
-            <td><p>The current frame of video.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+              <td><p>The current frame of video.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       <div class="type-subheader">

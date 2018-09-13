@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum AudioStopOptions</code></pre>
+      <pre><code class="lang-csharp hljs">public enum AudioStopOptions : int</code></pre>
     </div>
   
   

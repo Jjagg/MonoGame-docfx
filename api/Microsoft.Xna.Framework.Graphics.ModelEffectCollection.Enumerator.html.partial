@@ -21,27 +21,6 @@
       <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-  </div>
   
   
   
@@ -57,16 +36,11 @@
     Properties
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
           <tr>
           <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.Current.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_Current">Current</a></td>
-          <td class="summary"></td>
-          </tr>
-          <tr>
-          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_System_Collections_IEnumerator_Current">IEnumerator.Current</a></td>
           <td class="summary"></td>
           </tr>
       </table>
@@ -75,7 +49,6 @@
       
   
     Methods
-  
   
   
     </h2>
@@ -87,10 +60,6 @@
           </tr>
           <tr>
           <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.MoveNext.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_MoveNext">MoveNext()</a></td>
-          <td class="summary"></td>
-          </tr>
-          <tr>
-          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System-Collections-IEnumerator-Reset.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_System_Collections_IEnumerator_Reset">IEnumerator.Reset()</a></td>
           <td class="summary"></td>
           </tr>
       </table>

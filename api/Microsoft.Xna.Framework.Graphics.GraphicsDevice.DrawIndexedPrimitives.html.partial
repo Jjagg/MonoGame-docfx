@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -51,15 +49,10 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int startIndex, int primitiveCount) instead. In future versions this method can be removed.&quot;)]
-public void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount)</code></pre>
+          <pre><code class="lang-csharp hljs">public void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount)</code></pre>
         </div>
       
       
-        <div class="type-subheader attributes">
-          <strong>Attributes</strong>
-            <div>System.ObsoleteAttribute</div>
-        </div>
       
       
       

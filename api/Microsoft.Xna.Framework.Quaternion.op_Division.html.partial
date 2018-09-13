@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Quaternion.op_Division*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Quaternion_op_Division_" data-uid="Microsoft.Xna.Framework.Quaternion.op_Division*" class="text-break">.Quaternion.Division(Quaternion, Quaternion) Operator</h1>
+  <h1 id="Microsoft_Xna_Framework_Quaternion_op_Division_" data-uid="Microsoft.Xna.Framework.Quaternion.op_Division*" class="text-break">Quaternion.Division(Quaternion, Quaternion) Operator</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -54,17 +54,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
-            <td><p>The result of dividing the quaternions.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Quaternion.html">Quaternion</a></td>
+              <td><p>The result of dividing the quaternions.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

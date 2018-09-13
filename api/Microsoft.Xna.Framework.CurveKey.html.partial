@@ -10,8 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataContract]
-public class CurveKey : IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;</code></pre>
+      <pre><code class="lang-csharp hljs">public class CurveKey : object, IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -23,10 +22,6 @@ public class CurveKey : IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;<
     </span></div>
   </div>
   
-    <div class="type-subheader attributes">
-      <strong>Attributes</strong>
-        <div>System.Runtime.Serialization.DataContractAttribute</div>
-    </div>
   
   <div class="type-subheader implements">
     <strong>Implements</strong>
@@ -34,24 +29,6 @@ public class CurveKey : IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;<
       <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.CurveKey.html">CurveKey</a>&gt;</div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-      </div>
-  </div>
   
   
   
@@ -65,7 +42,6 @@ public class CurveKey : IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;<
       
   
     Constructors
-  
   
   
     </h2>
@@ -97,7 +73,6 @@ public class CurveKey : IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;<
       
   
     Properties
-  
   
   
     </h2>
@@ -136,7 +111,6 @@ public class CurveKey : IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;<
     Methods
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -167,7 +141,6 @@ public class CurveKey : IEquatable&lt;CurveKey&gt;, IComparable&lt;CurveKey&gt;<
       
   
     Operators
-  
   
   
     </h2>

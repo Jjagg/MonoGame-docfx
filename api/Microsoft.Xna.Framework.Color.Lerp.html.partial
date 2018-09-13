@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Color.Lerp*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Color_Lerp_" data-uid="Microsoft.Xna.Framework.Color.Lerp*" class="text-break">.Color.Lerp(Color, Color, Single) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Color_Lerp_" data-uid="Microsoft.Xna.Framework.Color.Lerp*" class="text-break">Color.Lerp(Color, Color, Single) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -27,7 +27,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public static Color Lerp(Color value1, Color value2, float amount)</code></pre>
+          <pre><code class="lang-csharp hljs">public static Color Lerp(Color value1, Color value2, Single amount)</code></pre>
         </div>
       
       
@@ -60,17 +60,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
-            <td><p>Interpolated <a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a>.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><p>Interpolated <a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

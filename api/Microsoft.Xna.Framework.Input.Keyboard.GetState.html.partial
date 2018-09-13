@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -61,17 +59,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a></td>
-            <td><p>Current keyboard state.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a></td>
+              <td><p>Current keyboard state.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -87,15 +82,10 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use GetState() instead. In future versions this method can be removed.&quot;)]
-public static KeyboardState GetState(PlayerIndex playerIndex)</code></pre>
+          <pre><code class="lang-csharp hljs">public static KeyboardState GetState(PlayerIndex playerIndex)</code></pre>
         </div>
       
       
-        <div class="type-subheader attributes">
-          <strong>Attributes</strong>
-            <div>System.ObsoleteAttribute</div>
-        </div>
       
       
       
@@ -113,17 +103,14 @@ public static KeyboardState GetState(PlayerIndex playerIndex)</code></pre>
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a></td>
-            <td><p>Current keyboard state.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.KeyboardState.html">KeyboardState</a></td>
+              <td><p>Current keyboard state.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

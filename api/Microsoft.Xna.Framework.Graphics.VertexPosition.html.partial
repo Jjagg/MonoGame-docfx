@@ -9,33 +9,16 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataContract]
-public struct VertexPosition : IVertexType</code></pre>
+      <pre><code class="lang-csharp hljs">public struct VertexPosition : IVertexType</code></pre>
     </div>
   
   
-    <div class="type-subheader attributes">
-      <strong>Attributes</strong>
-        <div>System.Runtime.Serialization.DataContractAttribute</div>
-    </div>
   
   <div class="type-subheader implements">
     <strong>Implements</strong>
       <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IVertexType.html">IVertexType</a></div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-  </div>
   
   
   
@@ -51,7 +34,6 @@ public struct VertexPosition : IVertexType</code></pre>
     Constructors
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -65,7 +47,6 @@ public struct VertexPosition : IVertexType</code></pre>
       
   
     Fields
-  
   
   
     </h2>
@@ -87,7 +68,6 @@ public struct VertexPosition : IVertexType</code></pre>
     Properties
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -101,7 +81,6 @@ public struct VertexPosition : IVertexType</code></pre>
       
   
     Methods
-  
   
   
     </h2>
@@ -125,7 +104,6 @@ public struct VertexPosition : IVertexType</code></pre>
       
   
     Operators
-  
   
   
     </h2>

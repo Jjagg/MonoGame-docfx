@@ -11,7 +11,7 @@ The x , y and z components use 5 bits, and the w component uses 1 bit.</p>
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct Bgra5551 : IPackedVector&lt;ushort&gt;, IEquatable&lt;Bgra5551&gt;, IPackedVector</code></pre>
+      <pre><code class="lang-csharp hljs">public struct Bgra5551 : IPackedVector&lt;UInt16&gt;, IEquatable&lt;Bgra5551&gt;, IPackedVector</code></pre>
     </div>
   
   
@@ -23,18 +23,6 @@ The x , y and z components use 5 bits, and the w component uses 1 bit.</p>
       <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.PackedVector.IPackedVector.html">IPackedVector</a></div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-  </div>
   
   
   
@@ -48,7 +36,6 @@ The x , y and z components use 5 bits, and the w component uses 1 bit.</p>
       
   
     Constructors
-  
   
   
     </h2>
@@ -72,7 +59,6 @@ The x , y and z components use 5 bits, and the w component uses 1 bit.</p>
     Properties
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -87,7 +73,6 @@ The x , y and z components use 5 bits, and the w component uses 1 bit.</p>
       
   
     Methods
-  
   
   
     </h2>
@@ -129,7 +114,6 @@ The x , y and z components use 5 bits, and the w component uses 1 bit.</p>
       
   
     Operators
-  
   
   
     </h2>

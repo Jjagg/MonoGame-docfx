@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Vector2.ToString*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Vector2_ToString_" data-uid="Microsoft.Xna.Framework.Vector2.ToString*" class="text-break">.Vector2.ToString() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Vector2_ToString_" data-uid="Microsoft.Xna.Framework.Vector2.ToString*" class="text-break">Vector2.ToString() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -38,17 +38,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-            <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representation of this <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

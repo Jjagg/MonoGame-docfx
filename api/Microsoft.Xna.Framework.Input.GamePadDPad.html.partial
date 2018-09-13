@@ -15,18 +15,6 @@
   
   
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-  </div>
   
   
   
@@ -40,7 +28,6 @@
       
   
     Constructors
-  
   
   
     </h2>
@@ -57,7 +44,6 @@
       
   
     Properties
-  
   
   
     </h2>
@@ -91,7 +77,6 @@
     Methods
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -117,7 +102,6 @@ in a format of 0000 where each number represents a boolean value of each respect
       
   
     Operators
-  
   
   
     </h2>

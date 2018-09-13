@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Rg32.op_Inequality*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Rg32_op_Inequality_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Rg32.op_Inequality*" class="text-break">.Rg32.Inequality(Rg32, Rg32) Operator</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Rg32_op_Inequality_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Rg32.op_Inequality*" class="text-break">Rg32.Inequality(Rg32, Rg32) Operator</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -51,16 +51,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

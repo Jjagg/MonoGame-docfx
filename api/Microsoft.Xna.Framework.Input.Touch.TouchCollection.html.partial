@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public struct TouchCollection : IList&lt;TouchLocation&gt;, ICollection&lt;TouchLocation&gt;, IEnumerable&lt;TouchLocation&gt;, IEnumerable</code></pre>
+      <pre><code class="lang-csharp hljs">public struct TouchCollection : IList&lt;TouchLocation&gt;</code></pre>
     </div>
   
   
@@ -18,32 +18,8 @@
   <div class="type-subheader implements">
     <strong>Implements</strong>
       <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a>&gt;</div>
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-  </div>
   
   
   
@@ -57,7 +33,6 @@
       
   
     Constructors
-  
   
   
     </h2>
@@ -74,7 +49,6 @@
       
   
     Properties
-  
   
   
     </h2>
@@ -106,7 +80,6 @@
       
   
     Methods
-  
   
   
     </h2>
@@ -160,16 +133,6 @@
           <tr>
           <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_">RemoveAt(Int32)</a></td>
           <td class="summary"><p>Removes the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchLocation.html">TouchLocation</a> item at specified index.</p>
-</td>
-          </tr>
-          <tr>
-          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-Generic-IEnumerable-Microsoft-Xna-Framework-Input-Touch-TouchLocation--GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Input_Touch_TouchLocation__GetEnumerator">IEnumerable&lt;TouchLocation&gt;.GetEnumerator()</a></td>
-          <td class="summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
-</td>
-          </tr>
-          <tr>
-          <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_IEnumerable_GetEnumerator">IEnumerable.GetEnumerator()</a></td>
-          <td class="summary"><p>Returns an enumerator for the <a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a>.</p>
 </td>
           </tr>
       </table>

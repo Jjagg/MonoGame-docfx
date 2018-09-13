@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.ModelBoneCollection.TryGetValue*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_ModelBoneCollection_TryGetValue_" data-uid="Microsoft.Xna.Framework.Graphics.ModelBoneCollection.TryGetValue*" class="text-break">.ModelBoneCollection.TryGetValue(String, out ModelBone) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_ModelBoneCollection_TryGetValue_" data-uid="Microsoft.Xna.Framework.Graphics.ModelBoneCollection.TryGetValue*" class="text-break">ModelBoneCollection.TryGetValue(String, out ModelBone) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -54,17 +54,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p>true if the bone was found</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p>true if the bone was found</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

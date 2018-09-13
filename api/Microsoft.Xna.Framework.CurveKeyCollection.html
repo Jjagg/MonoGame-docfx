@@ -27,7 +27,7 @@
           <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="flex-row flex-stretch no-overflow pos-rel">
+      <div class="flex-row flex-stretch pos-rel">
         
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
@@ -39,7 +39,7 @@
             <div id="toc"></div>
           </div>
         </div>
-        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+        <div id="page-scroll" class="flex-stretch flex-row">
           <div id="page-main" class="page-main flex-stretch">
             <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
               <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
@@ -64,8 +64,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataContract]
-public class CurveKeyCollection : ICollection&lt;CurveKey&gt;, IEnumerable&lt;CurveKey&gt;, IEnumerable</code></pre>
+      <pre><code class="lang-csharp hljs">public class CurveKeyCollection : object, ICollection&lt;CurveKey&gt;</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -77,42 +76,12 @@ public class CurveKeyCollection : ICollection&lt;CurveKey&gt;, IEnumerable&lt;Cu
     </div>
   </div>
   
-    <div class="type-subheader attributes">
-      <strong>Attributes</strong>
-        <div>System.Runtime.Serialization.DataContractAttribute</div>
-    </div>
   
   <div class="type-subheader implements">
     <strong>Implements</strong>
       <div><xref uid="System.Collections.Generic.ICollection`1" text="ICollection" alt="System.Collections.Generic.ICollection"/>&lt;<xref uid="Microsoft.Xna.Framework.CurveKey" text="CurveKey" alt="Microsoft.Xna.Framework.CurveKey"/>&gt;</div>
-      <div><xref uid="System.Collections.Generic.IEnumerable`1" text="IEnumerable" alt="System.Collections.Generic.IEnumerable"/>&lt;<xref uid="Microsoft.Xna.Framework.CurveKey" text="CurveKey" alt="Microsoft.Xna.Framework.CurveKey"/>&gt;</div>
-      <div><xref uid="System.Collections.IEnumerable" text="IEnumerable" alt="System.Collections.IEnumerable"/></div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
-  </div>
   
   
   
@@ -126,7 +95,6 @@ public class CurveKeyCollection : ICollection&lt;CurveKey&gt;, IEnumerable&lt;Cu
       
   
     Constructors
-  
   
   
     </h2>
@@ -143,7 +111,6 @@ public class CurveKeyCollection : ICollection&lt;CurveKey&gt;, IEnumerable&lt;Cu
       
   
     Properties
-  
   
   
     </h2>
@@ -170,7 +137,6 @@ public class CurveKeyCollection : ICollection&lt;CurveKey&gt;, IEnumerable&lt;Cu
       
   
     Methods
-  
   
   
     </h2>
@@ -220,10 +186,6 @@ public class CurveKeyCollection : ICollection&lt;CurveKey&gt;, IEnumerable&lt;Cu
           <td class="member"><xref uid="Microsoft.Xna.Framework.CurveKeyCollection.RemoveAt(System.Int32)" altProperty="fullName" displayProperty="name"/></td>
           <td class="summary"><p sourcefile="obj/api/merged/Microsoft.Xna.Framework.CurveKeyCollection.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Removes element at the specified index.</p>
 </td>
-          </tr>
-          <tr>
-          <td class="member"><xref uid="Microsoft.Xna.Framework.CurveKeyCollection.System#Collections#IEnumerable#GetEnumerator" altProperty="fullName" displayProperty="name"/></td>
-          <td class="summary"></td>
           </tr>
       </table>
     </div>

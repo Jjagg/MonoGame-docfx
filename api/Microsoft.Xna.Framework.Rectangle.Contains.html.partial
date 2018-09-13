@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -108,17 +106,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if the provided coordinates lie inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if the provided coordinates lie inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -161,17 +156,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if the provided coordinates lie inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if the provided coordinates lie inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -208,17 +200,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -295,17 +284,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a> lies inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -382,17 +368,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&apos;s bounds lie entirely inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if the provided <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>&apos;s bounds lie entirely inside this <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

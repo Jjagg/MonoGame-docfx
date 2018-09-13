@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -107,17 +105,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if specified <a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a> intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if specified <a class="xref" href="Microsoft.Xna.Framework.BoundingBox.html">BoundingBox</a> intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -194,17 +189,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if other <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a> intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if other <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a> intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -241,17 +233,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if specified <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a>; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if specified <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a> intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a>; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -328,17 +317,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
-            <td><p>A plane intersection type.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.PlaneIntersectionType.html">PlaneIntersectionType</a></td>
+              <td><p>A plane intersection type.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -415,17 +401,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
-            <td><p>Distance at which ray intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a> or null if no intersection happens.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+              <td><p>Distance at which ray intersects with this <a class="xref" href="Microsoft.Xna.Framework.BoundingFrustum.html">BoundingFrustum</a> or null if no intersection happens.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

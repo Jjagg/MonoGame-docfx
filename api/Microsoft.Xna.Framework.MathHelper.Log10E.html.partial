@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public const float Log10E = 0.4342945F</code></pre>
+      <pre><code class="lang-csharp hljs">public const float Log10E = null</code></pre>
     </div>
   
   
@@ -19,18 +19,6 @@
   
   
   
-    <div class="type-subheader">
-  
-      <strong>Field Value</strong>
-  
-  
-    <table class="">
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </table>
-    </div>
   
   
 

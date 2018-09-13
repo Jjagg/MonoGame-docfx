@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms*" class="text-break">.SkinnedEffect.GetBoneTransforms(Int32) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms*" class="text-break">SkinnedEffect.GetBoneTransforms(Int32) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -47,16 +47,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>[]</td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>[]</td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

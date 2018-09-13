@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.JoystickCapabilities.ButtonCount*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_JoystickCapabilities_ButtonCount_" data-uid="Microsoft.Xna.Framework.Input.JoystickCapabilities.ButtonCount*" class="text-break">.JoystickCapabilities.ButtonCount Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_JoystickCapabilities_ButtonCount_" data-uid="Microsoft.Xna.Framework.Input.JoystickCapabilities.ButtonCount*" class="text-break">JoystickCapabilities.ButtonCount Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,19 +36,6 @@
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-            <td><p>The number of buttons that the joystick possesses.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

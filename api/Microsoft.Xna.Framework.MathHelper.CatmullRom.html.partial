@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.CatmullRom*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_MathHelper_CatmullRom_" data-uid="Microsoft.Xna.Framework.MathHelper.CatmullRom*" class="text-break">.MathHelper.CatmullRom(Single, Single, Single, Single, Single) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_MathHelper_CatmullRom_" data-uid="Microsoft.Xna.Framework.MathHelper.CatmullRom*" class="text-break">MathHelper.CatmullRom(Single, Single, Single, Single, Single) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -72,17 +72,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-            <td><p>A position that is the result of the Catmull-Rom interpolation.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><p>A position that is the result of the Catmull-Rom interpolation.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

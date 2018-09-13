@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector4.GetHashCode*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_HalfVector4_GetHashCode_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector4.GetHashCode*" class="text-break">.HalfVector4.GetHashCode() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_HalfVector4_GetHashCode_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.HalfVector4.GetHashCode*" class="text-break">HalfVector4.GetHashCode() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-            <td><p>Hash code for the instance.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><p>Hash code for the instance.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

@@ -27,7 +27,7 @@
           <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="flex-row flex-stretch no-overflow pos-rel">
+      <div class="flex-row flex-stretch pos-rel">
         
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
@@ -39,7 +39,7 @@
             <div id="toc"></div>
           </div>
         </div>
-        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+        <div id="page-scroll" class="flex-stretch flex-row">
           <div id="page-main" class="page-main flex-stretch">
             <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
               <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
@@ -64,35 +64,16 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[TypeConverter(typeof(Vector4TypeConverter))]
-[DataContract]
-public struct Vector4 : IEquatable&lt;Vector4&gt;</code></pre>
+      <pre><code class="lang-csharp hljs">public struct Vector4 : IEquatable&lt;Vector4&gt;</code></pre>
     </div>
   
   
-    <div class="type-subheader attributes">
-      <strong>Attributes</strong>
-        <div>System.ComponentModel.TypeConverterAttribute</div>
-        <div>System.Runtime.Serialization.DataContractAttribute</div>
-    </div>
   
   <div class="type-subheader implements">
     <strong>Implements</strong>
       <div><xref uid="System.IEquatable`1" text="IEquatable" alt="System.IEquatable"/>&lt;<xref uid="Microsoft.Xna.Framework.Vector4" text="Vector4" alt="Microsoft.Xna.Framework.Vector4"/>&gt;</div>
   </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-  </div>
   
   
   
@@ -106,7 +87,6 @@ public struct Vector4 : IEquatable&lt;Vector4&gt;</code></pre>
       
   
     Constructors
-  
   
   
     </h2>
@@ -140,7 +120,6 @@ public struct Vector4 : IEquatable&lt;Vector4&gt;</code></pre>
     Fields
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -170,7 +149,6 @@ public struct Vector4 : IEquatable&lt;Vector4&gt;</code></pre>
       
   
     Properties
-  
   
   
     </h2>
@@ -212,7 +190,6 @@ public struct Vector4 : IEquatable&lt;Vector4&gt;</code></pre>
       
   
     Methods
-  
   
   
     </h2>
@@ -553,7 +530,6 @@ See remarks section of <xref href="Microsoft.Xna.Framework.MathHelper.LerpPrecis
       
   
     Operators
-  
   
   
     </h2>

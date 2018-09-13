@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum MicrophoneState</code></pre>
+      <pre><code class="lang-csharp hljs">public enum MicrophoneState : int</code></pre>
     </div>
   
   

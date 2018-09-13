@@ -27,7 +27,7 @@
           <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="flex-row flex-stretch no-overflow pos-rel">
+      <div class="flex-row flex-stretch pos-rel">
         
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
@@ -39,7 +39,7 @@
             <div id="toc"></div>
           </div>
         </div>
-        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+        <div id="page-scroll" class="flex-stretch flex-row">
           <div id="page-main" class="page-main flex-stretch">
             <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
               <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
@@ -63,7 +63,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class GameComponentCollection : Collection&lt;IGameComponent&gt;, IList&lt;IGameComponent&gt;, ICollection&lt;IGameComponent&gt;, IList, ICollection, IReadOnlyList&lt;IGameComponent&gt;, IReadOnlyCollection&lt;IGameComponent&gt;, IEnumerable&lt;IGameComponent&gt;, IEnumerable</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class GameComponentCollection : Collection&lt;IGameComponent&gt;</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -71,130 +71,12 @@
       <span class="pad-right10"><strong>Inheritance</strong> </span>
         <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
         <span class="inherit-separator mg-icons">&#xe800;</span>
-        <span class="level1"><xref uid="System.Collections.ObjectModel.Collection`1" text="Collection" alt="System.Collections.ObjectModel.Collection"/>&lt;<xref uid="Microsoft.Xna.Framework.IGameComponent" text="IGameComponent" alt="Microsoft.Xna.Framework.IGameComponent"/>&gt;</span>
-        <span class="inherit-separator mg-icons">&#xe800;</span>
-      <span class="level2"><span class="xref">GameComponentCollection</span>
+      <span class="level1"><span class="xref">GameComponentCollection</span>
     </div>
   </div>
   
   
-  <div class="type-subheader implements">
-    <strong>Implements</strong>
-      <div><xref uid="System.Collections.Generic.IList`1" text="IList" alt="System.Collections.Generic.IList"/>&lt;<xref uid="Microsoft.Xna.Framework.IGameComponent" text="IGameComponent" alt="Microsoft.Xna.Framework.IGameComponent"/>&gt;</div>
-      <div><xref uid="System.Collections.Generic.ICollection`1" text="ICollection" alt="System.Collections.Generic.ICollection"/>&lt;<xref uid="Microsoft.Xna.Framework.IGameComponent" text="IGameComponent" alt="Microsoft.Xna.Framework.IGameComponent"/>&gt;</div>
-      <div><xref uid="System.Collections.IList" text="IList" alt="System.Collections.IList"/></div>
-      <div><xref uid="System.Collections.ICollection" text="ICollection" alt="System.Collections.ICollection"/></div>
-      <div><xref uid="System.Collections.Generic.IReadOnlyList`1" text="IReadOnlyList" alt="System.Collections.Generic.IReadOnlyList"/>&lt;<xref uid="Microsoft.Xna.Framework.IGameComponent" text="IGameComponent" alt="Microsoft.Xna.Framework.IGameComponent"/>&gt;</div>
-      <div><xref uid="System.Collections.Generic.IReadOnlyCollection`1" text="IReadOnlyCollection" alt="System.Collections.Generic.IReadOnlyCollection"/>&lt;<xref uid="Microsoft.Xna.Framework.IGameComponent" text="IGameComponent" alt="Microsoft.Xna.Framework.IGameComponent"/>&gt;</div>
-      <div><xref uid="System.Collections.Generic.IEnumerable`1" text="IEnumerable" alt="System.Collections.Generic.IEnumerable"/>&lt;<xref uid="Microsoft.Xna.Framework.IGameComponent" text="IGameComponent" alt="Microsoft.Xna.Framework.IGameComponent"/>&gt;</div>
-      <div><xref uid="System.Collections.IEnumerable" text="IEnumerable" alt="System.Collections.IEnumerable"/></div>
-  </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Add(`0)" text="Collection&lt;IGameComponent&gt;.Add(IGameComponent)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Add(Microsoft.Xna.Framework.IGameComponent)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Clear" text="Collection&lt;IGameComponent&gt;.Clear()" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Clear()"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.CopyTo(`0[],System.Int32)" text="Collection&lt;IGameComponent&gt;.CopyTo(IGameComponent[], Int32)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.CopyTo(Microsoft.Xna.Framework.IGameComponent[], System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Contains(`0)" text="Collection&lt;IGameComponent&gt;.Contains(IGameComponent)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Contains(Microsoft.Xna.Framework.IGameComponent)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.GetEnumerator" text="Collection&lt;IGameComponent&gt;.GetEnumerator()" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.GetEnumerator()"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.IndexOf(`0)" text="Collection&lt;IGameComponent&gt;.IndexOf(IGameComponent)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.IndexOf(Microsoft.Xna.Framework.IGameComponent)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Insert(System.Int32,`0)" text="Collection&lt;IGameComponent&gt;.Insert(Int32, IGameComponent)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Insert(System.Int32, Microsoft.Xna.Framework.IGameComponent)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Remove(`0)" text="Collection&lt;IGameComponent&gt;.Remove(IGameComponent)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Remove(Microsoft.Xna.Framework.IGameComponent)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.RemoveAt(System.Int32)" text="Collection&lt;IGameComponent&gt;.RemoveAt(Int32)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.RemoveAt(System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IEnumerable#GetEnumerator" text="Collection&lt;IGameComponent&gt;.IEnumerable.GetEnumerator()" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IEnumerable.GetEnumerator()"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" text="Collection&lt;IGameComponent&gt;.ICollection.CopyTo(Array, Int32)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.ICollection.CopyTo(System.Array, System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#get_Item(System.Int32)" text="Collection&lt;IGameComponent&gt;.IList.get_Item(Int32)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.get_Item(System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#set_Item(System.Int32,System.Object)" text="Collection&lt;IGameComponent&gt;.IList.set_Item(Int32, Object)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.set_Item(System.Int32, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#Add(System.Object)" text="Collection&lt;IGameComponent&gt;.IList.Add(Object)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.Add(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#Contains(System.Object)" text="Collection&lt;IGameComponent&gt;.IList.Contains(Object)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.Contains(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#IndexOf(System.Object)" text="Collection&lt;IGameComponent&gt;.IList.IndexOf(Object)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.IndexOf(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#Insert(System.Int32,System.Object)" text="Collection&lt;IGameComponent&gt;.IList.Insert(Int32, Object)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.Insert(System.Int32, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#Remove(System.Object)" text="Collection&lt;IGameComponent&gt;.IList.Remove(Object)" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.Remove(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Count" text="Collection&lt;IGameComponent&gt;.Count" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Count"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Items" text="Collection&lt;IGameComponent&gt;.Items" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Items"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.Item(System.Int32)" text="Collection&lt;IGameComponent&gt;.Item[Int32]" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.Item[System.Int32]"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" text="Collection&lt;IGameComponent&gt;.ICollection&lt;IGameComponent&gt;.IsReadOnly" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.Generic.ICollection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.IsReadOnly"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized" text="Collection&lt;IGameComponent&gt;.ICollection.IsSynchronized" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.ICollection.IsSynchronized"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot" text="Collection&lt;IGameComponent&gt;.ICollection.SyncRoot" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.ICollection.SyncRoot"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#Item(System.Int32)" text="Collection&lt;IGameComponent&gt;.IList.Item[Int32]" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.Item[System.Int32]"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsReadOnly" text="Collection&lt;IGameComponent&gt;.IList.IsReadOnly" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.IsReadOnly"/>
-      </div>
-      <div>
-        <xref uid="System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize" text="Collection&lt;IGameComponent&gt;.IList.IsFixedSize" alt="System.Collections.ObjectModel.Collection&lt;Microsoft.Xna.Framework.IGameComponent&gt;.System.Collections.IList.IsFixedSize"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
-  </div>
   
   
   
@@ -208,7 +90,6 @@
       
   
     Methods
-  
   
   
     </h2>
@@ -238,7 +119,6 @@ Triggers <xref href="Microsoft.Xna.Framework.GameComponentCollection.OnComponent
       
   
     Events
-  
   
   
     </h2>

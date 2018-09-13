@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.GetState*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelState_GetState_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.GetState*" class="text-break">.TouchPanelState.GetState() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_Touch_TouchPanelState_GetState_" data-uid="Microsoft.Xna.Framework.Input.Touch.TouchPanelState.GetState*" class="text-break">TouchPanelState.GetState() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,16 +36,13 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Touch.TouchCollection.html">TouchCollection</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.InstanceFrequency*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_InstanceFrequency_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.InstanceFrequency*" class="text-break">.VertexBufferBinding.InstanceFrequency Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexBufferBinding_InstanceFrequency_" data-uid="Microsoft.Xna.Framework.Graphics.VertexBufferBinding.InstanceFrequency*" class="text-break">VertexBufferBinding.InstanceFrequency Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,21 +37,6 @@ in the buffer by one element.</p>
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-            <td><p>The number of instances to draw using the same per-instance data before advancing in the
-buffer by one element. This value must be 0 for an element that contains per-vertex
-data and greater than 0 for per-instance data.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

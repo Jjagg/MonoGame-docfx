@@ -10,32 +10,15 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataMember]
-public float M42</code></pre>
-    </div>
-  
-  
-    <div class="type-subheader attributes">
-      <strong>Attributes</strong>
-        <div>System.Runtime.Serialization.DataMemberAttribute</div>
+      <pre><code class="lang-csharp hljs">public float M42</code></pre>
     </div>
   
   
   
   
   
-    <div class="type-subheader">
-  
-      <strong>Field Value</strong>
   
   
-    <table class="">
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </table>
-    </div>
   
   
 

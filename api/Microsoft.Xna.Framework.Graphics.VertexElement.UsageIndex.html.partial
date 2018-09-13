@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.UsageIndex*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_VertexElement_UsageIndex_" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.UsageIndex*" class="text-break">.VertexElement.UsageIndex Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_VertexElement_UsageIndex_" data-uid="Microsoft.Xna.Framework.Graphics.VertexElement.UsageIndex*" class="text-break">VertexElement.UsageIndex Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,20 +36,6 @@
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-            <td><p>The semantic index, which is required if the semantic is used for more than one vertex
-element.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

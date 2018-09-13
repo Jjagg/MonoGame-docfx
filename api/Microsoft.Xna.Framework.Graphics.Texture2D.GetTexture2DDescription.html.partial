@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription*" class="text-break">.Texture2D.GetTexture2DDescription() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_Texture2D_GetTexture2DDescription_" data-uid="Microsoft.Xna.Framework.Graphics.Texture2D.GetTexture2DDescription*" class="text-break">Texture2D.GetTexture2DDescription() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,16 +36,13 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><span class="xref">SharpDX.Direct3D11.Texture2DDescription</span></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><span class="xref">SharpDX.Direct3D11.Texture2DDescription</span></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

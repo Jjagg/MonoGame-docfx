@@ -26,8 +26,8 @@ $(function() {
   var filterClearEl = pageTocEl.find('#filter-clear');
   var filterNoResultsEl = pageTocEl.find('#toc-no-results');
   var tocEl = pageTocEl.find('#toc');
-  var pageScrollEl = $('#page-scroll');
-  var tocToggleWrapperEl = pageScrollEl.find('#toc-toggle-wrapper');
+  var pageScrollEl = $(window);
+  var tocToggleWrapperEl = $('#toc-toggle-wrapper');
   var contentWrapperEl = $('#content-wrapper');
   var breadcrumbWrapperEl = $('#breadcrumb-wrapper');
   var breadcrumbEl = $('#breadcrumb');
@@ -37,13 +37,15 @@ $(function() {
   var nextEl = prevnextEl.find('#next');
   var affixEl = $('#affix');
 
+  var scrollWithNavEl = $('#page-toc,#page-affix');
+
   var baseDir = $("meta[property='docfx\\:baseDir']").attr('content');
   var basePath = baseDir ? '/' + baseDir : '';
+  var loaderHtml = '<div class="loader"></div>';
 
   init();
   
   function init() {
-
     $('#toc-toggle').click(function (ev) {
       pageTocEl.toggleClass('shown');
       ev.stopPropagation();
@@ -96,6 +98,9 @@ $(function() {
       setScroll(scrollPos, hash);
       return false;
     }
+
+    contentWrapperEl.removeClass('fadein');
+    contentWrapperEl.html(loaderHtml);
 
     getJSON(path + '.json', function (page) {
       updatePage(page, scrollPos, hash);
@@ -163,7 +168,12 @@ $(function() {
   }
 
   function loadToc(oldPage, newPage) {
+
+    tocEl.removeClass('fadein');
+    tocEl.html(loaderHtml);
+
     getJSON(newPage.toc + '.json', function (tocNodes) {
+      tocEl.addClass('fadein');
       toc = new Tree(tocNodes);
       var tocHtml = buildTreeHtml(toc, createTocEntry, true);
       tocEl.html(tocHtml);
@@ -308,17 +318,24 @@ $(function() {
 
   function loadConceptual(page, scrollPos, hash) {
     var conceptualPath = basePath + page.path + '.html.partial';
+    affixEl.empty();
     $.get(conceptualPath, function (contentHtml) {
       contentWrapperEl.html(contentHtml);
+      contentWrapperEl.addClass('fadein');
       loadAfterConceptual(page, scrollPos, hash);
    });
   }
 
   function loadAfterConceptual(page, scrollPos, hash) {
+    fixWordBreaks();
     highlightjs();
 
     // unhook possible scroll event handlers
     pageScrollEl.off('scroll');
+
+    pageScrollEl.scroll(function () {
+        scrollSidebars();
+    });
 
     if (page.hasAffix)
       loadAffix(page);
@@ -333,6 +350,13 @@ $(function() {
     makeLocalLinksDynamic(contentWrapperEl);
   }
 
+  function fixWordBreaks() {
+    contentWrapperEl.find('.text-break').each(function(i, header) {
+      var textWithBreaks = $(this).html().replace(/([a-z])([A-Z])|(\.)(\w)/g, '$1$3<wbr>$2$4');
+      $(this).html(textWithBreaks);
+    });
+  }
+
   function highlightjs() {
     contentWrapperEl.find('pre code').each(function(i, block) {
       hljs.highlightBlock(block);
@@ -340,7 +364,7 @@ $(function() {
   }
 
   function addSubtitleAnchors() {
-    contentWrapperEl.find('h2').each(function(i) {
+    contentWrapperEl.find('h2,h3,h4').each(function(i) {
       var id = $(this).attr('id');
       var anchor = $('<a class="subtitle-anchor mg-icons hide" href="#' + id + '">&#xF07B;</a>');
       $(this).append(anchor);
@@ -367,9 +391,18 @@ $(function() {
       pageScrollEl.scroll(function () {
         scrollAffix(headingTree);
       });
-
       scrollAffix(headingTree);
     }
+  }
+
+  function scrollSidebars() {
+    var scrollTop = pageScrollEl.scrollTop();
+    var offset = 50 - scrollTop;
+    var newHeight = offset > 0 ? 'calc(100vh - ' + offset + 'px)' : '100vh'; 
+    var newTop = Math.max(scrollTop - 50, 0);
+
+    scrollWithNavEl.css('height', newHeight);
+    scrollWithNavEl.css('top', newTop);
   }
 
   function getHeadingTree(subLevel) {

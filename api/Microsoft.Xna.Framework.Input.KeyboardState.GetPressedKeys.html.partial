@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.GetPressedKeys*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys_" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.GetPressedKeys*" class="text-break">.KeyboardState.GetPressedKeys() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys_" data-uid="Microsoft.Xna.Framework.Input.KeyboardState.GetPressedKeys*" class="text-break">KeyboardState.GetPressedKeys() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.Keys.html">Keys</a>[]</td>
-            <td><p>The keys that are currently being pressed.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Input.Keys.html">Keys</a>[]</td>
+              <td><p>The keys that are currently being pressed.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

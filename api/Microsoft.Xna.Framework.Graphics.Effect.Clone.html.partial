@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.Effect.Clone*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_Effect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.Effect.Clone*" class="text-break">.Effect.Clone() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_Effect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.Effect.Clone*" class="text-break">Effect.Clone() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -38,17 +38,14 @@ are shared and mutable data is duplicated.</p>
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
-            <td><p>The cloned effect.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
+              <td><p>The cloned effect.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

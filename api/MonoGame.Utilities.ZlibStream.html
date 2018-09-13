@@ -27,7 +27,7 @@
           <div class="collapse" id="navbar"></div>
         </nav>
       </header>
-      <div class="flex-row flex-stretch no-overflow pos-rel">
+      <div class="flex-row flex-stretch pos-rel">
         
         <div id="page-toc" class="shown pos-rel hide">
           <div id="toc-scroll-wrapper" class="scroll stretch-height">
@@ -39,7 +39,7 @@
             <div id="toc"></div>
           </div>
         </div>
-        <div id="page-scroll" class="flex-stretch flex-row scroll-y">
+        <div id="page-scroll" class="flex-stretch flex-row">
           <div id="page-main" class="page-main flex-stretch">
             <div id="toc-toggle-wrapper" class="hide show-sm pos-rel">
               <a id="toc-toggle" class="mg-icons pos-rel">&#xf0c9;</a>
@@ -64,7 +64,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public class ZlibStream : Stream, IDisposable</code></pre>
+      <pre><code class="lang-csharp hljs">public class ZlibStream : Stream</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -72,134 +72,12 @@
       <span class="pad-right10"><strong>Inheritance</strong> </span>
         <span class="level0"><xref uid="System.Object" text="Object" alt="System.Object"/></span>
         <span class="inherit-separator mg-icons">&#xe800;</span>
-        <span class="level1"><xref uid="System.MarshalByRefObject" text="MarshalByRefObject" alt="System.MarshalByRefObject"/></span>
-        <span class="inherit-separator mg-icons">&#xe800;</span>
-        <span class="level2"><xref uid="System.IO.Stream" text="Stream" alt="System.IO.Stream"/></span>
-        <span class="inherit-separator mg-icons">&#xe800;</span>
-      <span class="level3"><span class="xref">ZlibStream</span>
+      <span class="level1"><span class="xref">ZlibStream</span>
     </div>
   </div>
   
   
-  <div class="type-subheader implements">
-    <strong>Implements</strong>
-      <div><xref uid="System.IDisposable" text="IDisposable" alt="System.IDisposable"/></div>
-  </div>
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <xref uid="System.IO.Stream.Null" text="Stream.Null" alt="System.IO.Stream.Null"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.CopyToAsync(System.IO.Stream)" text="Stream.CopyToAsync(Stream)" alt="System.IO.Stream.CopyToAsync(System.IO.Stream)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)" text="Stream.CopyToAsync(Stream, Int32)" alt="System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)" text="Stream.CopyToAsync(Stream, Int32, CancellationToken)" alt="System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32, System.Threading.CancellationToken)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.CopyTo(System.IO.Stream)" text="Stream.CopyTo(Stream)" alt="System.IO.Stream.CopyTo(System.IO.Stream)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)" text="Stream.CopyTo(Stream, Int32)" alt="System.IO.Stream.CopyTo(System.IO.Stream, System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.Close" text="Stream.Close()" alt="System.IO.Stream.Close()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.Dispose" text="Stream.Dispose()" alt="System.IO.Stream.Dispose()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.FlushAsync" text="Stream.FlushAsync()" alt="System.IO.Stream.FlushAsync()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.FlushAsync(System.Threading.CancellationToken)" text="Stream.FlushAsync(CancellationToken)" alt="System.IO.Stream.FlushAsync(System.Threading.CancellationToken)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.CreateWaitHandle" text="Stream.CreateWaitHandle()" alt="System.IO.Stream.CreateWaitHandle()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" text="Stream.BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)" alt="System.IO.Stream.BeginRead(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.EndRead(System.IAsyncResult)" text="Stream.EndRead(IAsyncResult)" alt="System.IO.Stream.EndRead(System.IAsyncResult)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)" text="Stream.ReadAsync(Byte[], Int32, Int32)" alt="System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)" text="Stream.ReadAsync(Byte[], Int32, Int32, CancellationToken)" alt="System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" text="Stream.BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)" alt="System.IO.Stream.BeginWrite(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.EndWrite(System.IAsyncResult)" text="Stream.EndWrite(IAsyncResult)" alt="System.IO.Stream.EndWrite(System.IAsyncResult)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)" text="Stream.WriteAsync(Byte[], Int32, Int32)" alt="System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)" text="Stream.WriteAsync(Byte[], Int32, Int32, CancellationToken)" alt="System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.ReadByte" text="Stream.ReadByte()" alt="System.IO.Stream.ReadByte()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.WriteByte(System.Byte)" text="Stream.WriteByte(Byte)" alt="System.IO.Stream.WriteByte(System.Byte)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.Synchronized(System.IO.Stream)" text="Stream.Synchronized(Stream)" alt="System.IO.Stream.Synchronized(System.IO.Stream)"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.ObjectInvariant" text="Stream.ObjectInvariant()" alt="System.IO.Stream.ObjectInvariant()"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.CanTimeout" text="Stream.CanTimeout" alt="System.IO.Stream.CanTimeout"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.ReadTimeout" text="Stream.ReadTimeout" alt="System.IO.Stream.ReadTimeout"/>
-      </div>
-      <div>
-        <xref uid="System.IO.Stream.WriteTimeout" text="Stream.WriteTimeout" alt="System.IO.Stream.WriteTimeout"/>
-      </div>
-      <div>
-        <xref uid="System.MarshalByRefObject.MemberwiseClone(System.Boolean)" text="MarshalByRefObject.MemberwiseClone(Boolean)" alt="System.MarshalByRefObject.MemberwiseClone(System.Boolean)"/>
-      </div>
-      <div>
-        <xref uid="System.MarshalByRefObject.GetLifetimeService" text="MarshalByRefObject.GetLifetimeService()" alt="System.MarshalByRefObject.GetLifetimeService()"/>
-      </div>
-      <div>
-        <xref uid="System.MarshalByRefObject.InitializeLifetimeService" text="MarshalByRefObject.InitializeLifetimeService()" alt="System.MarshalByRefObject.InitializeLifetimeService()"/>
-      </div>
-      <div>
-        <xref uid="System.MarshalByRefObject.CreateObjRef(System.Type)" text="MarshalByRefObject.CreateObjRef(Type)" alt="System.MarshalByRefObject.CreateObjRef(System.Type)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ToString" text="Object.ToString()" alt="System.Object.ToString()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object)" text="Object.Equals(Object)" alt="System.Object.Equals(System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.Equals(System.Object,System.Object)" text="Object.Equals(Object, Object)" alt="System.Object.Equals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.ReferenceEquals(System.Object,System.Object)" text="Object.ReferenceEquals(Object, Object)" alt="System.Object.ReferenceEquals(System.Object, System.Object)"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetHashCode" text="Object.GetHashCode()" alt="System.Object.GetHashCode()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.GetType" text="Object.GetType()" alt="System.Object.GetType()"/>
-      </div>
-      <div>
-        <xref uid="System.Object.MemberwiseClone" text="Object.MemberwiseClone()" alt="System.Object.MemberwiseClone()"/>
-      </div>
-  </div>
   
   
   
@@ -242,7 +120,6 @@ the RFC1950 header and trailer bytes when decompressing.  It is also similar to 
     Constructors
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -277,7 +154,6 @@ Deflation or Inflation.</p>
       
   
     Properties
-  
   
   
     </h2>
@@ -335,7 +211,6 @@ Sorry, though, not sure exactly how to describe all the various settings.</p>
       
   
     Methods
-  
   
   
     </h2>

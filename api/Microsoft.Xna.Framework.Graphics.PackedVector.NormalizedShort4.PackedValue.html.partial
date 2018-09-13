@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort4.PackedValue*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_NormalizedShort4_PackedValue_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort4.PackedValue*" class="text-break">.NormalizedShort4.PackedValue Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_NormalizedShort4_PackedValue_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort4.PackedValue*" class="text-break">NormalizedShort4.PackedValue Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -26,15 +26,10 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public ulong PackedValue { get; set; }</code></pre>
+          <pre><code class="lang-csharp hljs">public ulong PackedValue { get; set; }</code></pre>
         </div>
       
       
-        <div class="type-subheader attributes">
-          <strong>Attributes</strong>
-            <div>System.CLSCompliantAttribute</div>
-        </div>
       
       <div class="type-subheader implements">
         <strong>Implements</strong>
@@ -44,18 +39,6 @@ public ulong PackedValue { get; set; }</code></pre>
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
-            <td></td>
-          </tr>
-        </table>
-        </div>
       
       
     

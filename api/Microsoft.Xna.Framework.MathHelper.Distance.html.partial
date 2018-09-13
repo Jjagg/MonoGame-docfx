@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.Distance*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_MathHelper_Distance_" data-uid="Microsoft.Xna.Framework.MathHelper.Distance*" class="text-break">.MathHelper.Distance(Single, Single) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_MathHelper_Distance_" data-uid="Microsoft.Xna.Framework.MathHelper.Distance*" class="text-break">MathHelper.Distance(Single, Single) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -54,17 +54,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-            <td><p>Distance between the two values.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><p>Distance between the two values.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

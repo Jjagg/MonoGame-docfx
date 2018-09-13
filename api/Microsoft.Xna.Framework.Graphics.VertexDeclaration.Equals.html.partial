@@ -25,15 +25,13 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
       <table class="nameValue api-table">
           <tr>
           <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_System_Object_">Equals(Object)</a></td>
-          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+          <td class="summary"><p>Determines whether the specified <see cref="!:System.Object"></see> is equal to this instance.</p>
 </td>
           </tr>
           <tr>
@@ -46,7 +44,7 @@ instance.</p>
     </div>
 
       <h2 id="Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_System_Object_" data-uid="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals(System.Object)" class="text-break">.VertexDeclaration.Equals(Object) Method</h2>
-    <div class="markdown level0 summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+    <div class="markdown level0 summary"><p>Determines whether the specified <see cref="!:System.Object"></see> is equal to this instance.</p>
 </div>
     <div class="markdown level0 conceptual"></div>
     
@@ -73,18 +71,15 @@ instance.</p>
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><span class="xref">true</span> if the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance;
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><span class="xref">true</span> if the specified <see cref="!:System.Object"></see> is equal to this instance;
 otherwise, <span class="xref">false</span>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -106,10 +101,6 @@ instance.</p>
       
       
       
-      <div class="type-subheader implements">
-        <strong>Implements</strong>
-          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals</a>(<a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a>)</div>
-      </div>
       
       
       
@@ -126,18 +117,15 @@ instance.</p>
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><span class="xref">true</span> if the specified <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> is equal to this
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><span class="xref">true</span> if the specified <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.html">VertexDeclaration</a> is equal to this
 instance; otherwise, <span class="xref">false</span>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

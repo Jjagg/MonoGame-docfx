@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Point.op_Multiply*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Point_op_Multiply_" data-uid="Microsoft.Xna.Framework.Point.op_Multiply*" class="text-break">.Point.Multiply(Point, Point) Operator</h1>
+  <h1 id="Microsoft_Xna_Framework_Point_op_Multiply_" data-uid="Microsoft.Xna.Framework.Point.op_Multiply*" class="text-break">Point.Multiply(Point, Point) Operator</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -54,17 +54,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
-            <td><p>Result of the multiplication.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Point.html">Point</a></td>
+              <td><p>Result of the multiplication.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum CurveContinuity</code></pre>
+      <pre><code class="lang-csharp hljs">public enum CurveContinuity : int</code></pre>
     </div>
   
   

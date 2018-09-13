@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="MonoGame.Utilities.ZlibStream.CompressString*" role="main" class="pos-rel">
-  <h1 id="MonoGame_Utilities_ZlibStream_CompressString_" data-uid="MonoGame.Utilities.ZlibStream.CompressString*" class="text-break">.ZlibStream.CompressString(String) Method</h1>
+  <h1 id="MonoGame_Utilities_ZlibStream_CompressString_" data-uid="MonoGame.Utilities.ZlibStream.CompressString*" class="text-break">ZlibStream.CompressString(String) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -27,7 +27,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public static byte[] CompressString(string s)</code></pre>
+          <pre><code class="lang-csharp hljs">public static byte[] CompressString(String s)</code></pre>
         </div>
       
       
@@ -49,17 +49,14 @@ using UTF8, then compressed.</p>
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-            <td><p>The string in compressed form</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><p>The string in compressed form</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -75,7 +72,6 @@ using UTF8, then compressed.</p>
     <div class="seealso">
           <div><a class="xref" href="MonoGame.Utilities.ZlibStream.UncompressString.html#MonoGame_Utilities_ZlibStream_UncompressString_System_Byte___">UncompressString(Byte[])</a></div>
           <div><a class="xref" href="MonoGame.Utilities.ZlibStream.CompressBuffer.html#MonoGame_Utilities_ZlibStream_CompressBuffer_System_Byte___">CompressBuffer(Byte[])</a></div>
-          <div><span class="xref">MonoGame.Utilities.GZipStream.CompressString(System.String)</span></div>
 
   </div>
 </div></article>

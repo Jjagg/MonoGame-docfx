@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum TouchLocationState</code></pre>
+      <pre><code class="lang-csharp hljs">public enum TouchLocationState : int</code></pre>
     </div>
   
   

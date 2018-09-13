@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect_Speakers_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers*" class="text-break">.SoundEffect.Speakers Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Audio_SoundEffect_Speakers_" data-uid="Microsoft.Xna.Framework.Audio.SoundEffect.Speakers*" class="text-break">SoundEffect.Speakers Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -26,32 +26,15 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public static Speakers Speakers { get; set; }</code></pre>
-        </div>
-      
-      
-        <div class="type-subheader attributes">
-          <strong>Attributes</strong>
-            <div>System.CLSCompliantAttribute</div>
+          <pre><code class="lang-csharp hljs">public static Speakers Speakers { get; set; }</code></pre>
         </div>
       
       
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
       
       
-        <table class="">
-          <tr>
-            <td><span class="xref">SharpDX.Multimedia.Speakers</span></td>
-            <td></td>
-          </tr>
-        </table>
-        </div>
       
       
     

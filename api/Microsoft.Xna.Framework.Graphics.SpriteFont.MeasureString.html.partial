@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -73,18 +71,15 @@ rendered in this font.</p>
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
-            <td><p>The size, in pixels, of &apos;text&apos; when rendered in
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><p>The size, in pixels, of &apos;text&apos; when rendered in
 this font.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -122,18 +117,15 @@ rendered in this font.</p>
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
-            <td><p>The size, in pixels, of &apos;text&apos; when rendered in
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector2.html">Vector2</a></td>
+              <td><p>The size, in pixels, of &apos;text&apos; when rendered in
 this font.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

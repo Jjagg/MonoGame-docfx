@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader*" class="text-break">.ContentTypeReaderManager.GetTypeReader(Type) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Content_ContentTypeReaderManager_GetTypeReader_" data-uid="Microsoft.Xna.Framework.Content.ContentTypeReaderManager.GetTypeReader*" class="text-break">ContentTypeReaderManager.GetTypeReader(Type) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -46,16 +46,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Content.ContentTypeReader.html">ContentTypeReader</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

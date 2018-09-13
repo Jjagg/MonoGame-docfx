@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Color.ToVector3*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Color_ToVector3_" data-uid="Microsoft.Xna.Framework.Color.ToVector3*" class="text-break">.Color.ToVector3() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Color_ToVector3_" data-uid="Microsoft.Xna.Framework.Color.ToVector3*" class="text-break">Color.ToVector3() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
-            <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> representation for this object.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><p>A <a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a> representation for this object.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

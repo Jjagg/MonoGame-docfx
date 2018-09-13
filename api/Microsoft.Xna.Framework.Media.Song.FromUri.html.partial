@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Media.Song.FromUri*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Media_Song_FromUri_" data-uid="Microsoft.Xna.Framework.Media.Song.FromUri*" class="text-break">.Song.FromUri(String, Uri) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Media_Song_FromUri_" data-uid="Microsoft.Xna.Framework.Media.Song.FromUri*" class="text-break">Song.FromUri(String, Uri) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -54,16 +54,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

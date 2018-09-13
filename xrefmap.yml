@@ -6071,22 +6071,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.CurveKeyCollection.RemoveAt
   fullName: Microsoft.Xna.Framework.CurveKeyCollection.RemoveAt
   nameWithType: CurveKeyCollection.RemoveAt
-- uid: Microsoft.Xna.Framework.CurveKeyCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.CurveKeyCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_CurveKeyCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.CurveKeyCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.CurveKeyCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: CurveKeyCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: CurveKeyCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.CurveKeyCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.CurveKeyCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_CurveKeyCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.CurveKeyCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.CurveKeyCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: CurveKeyCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: CurveKeyCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.CurveLoopType
   name: CurveLoopType
   href: api/Microsoft.Xna.Framework.CurveLoopType.html
@@ -9303,22 +9287,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item
   fullName: Microsoft.Xna.Framework.Graphics.DisplayModeCollection.Item
   nameWithType: DisplayModeCollection.Item
-- uid: Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_DisplayModeCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: DisplayModeCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: DisplayModeCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_DisplayModeCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Graphics.DisplayModeCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: DisplayModeCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: DisplayModeCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Graphics.DualTextureEffect
   name: DualTextureEffect
   href: api/Microsoft.Xna.Framework.Graphics.DualTextureEffect.html
@@ -9883,22 +9851,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.Item
   fullName: Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.Item
   nameWithType: EffectAnnotationCollection.Item
-- uid: Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectAnnotationCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: EffectAnnotationCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: EffectAnnotationCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectAnnotationCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Graphics.EffectAnnotationCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: EffectAnnotationCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: EffectAnnotationCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Graphics.EffectMaterial
   name: EffectMaterial
   href: api/Microsoft.Xna.Framework.Graphics.EffectMaterial.html
@@ -10442,22 +10394,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectParameterCollection.Item
   fullName: Microsoft.Xna.Framework.Graphics.EffectParameterCollection.Item
   nameWithType: EffectParameterCollection.Item
-- uid: Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectParameterCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: EffectParameterCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: EffectParameterCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectParameterCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Graphics.EffectParameterCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: EffectParameterCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: EffectParameterCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Graphics.EffectParameterType
   name: EffectParameterType
   href: api/Microsoft.Xna.Framework.Graphics.EffectParameterType.html
@@ -10626,38 +10562,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.MoveNext
   fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.MoveNext
   nameWithType: EffectPassCollection.Enumerator.MoveNext
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Current
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_Enumerator_System_Collections_IEnumerator_Current
-  commentId: P:Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: EffectPassCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: EffectPassCollection.Enumerator.System.Collections.IEnumerator.Current
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Current*
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_Enumerator_System_Collections_IEnumerator_Current_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: EffectPassCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: EffectPassCollection.Enumerator.System.Collections.IEnumerator.Current
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Reset
-  name: IEnumerator.Reset()
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System-Collections-IEnumerator-Reset.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_Enumerator_System_Collections_IEnumerator_Reset
-  commentId: M:Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Reset
-  name.vb: System.Collections.IEnumerator.Reset()
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System.Collections.IEnumerator.Reset()
-  nameWithType: EffectPassCollection.Enumerator.IEnumerator.Reset()
-  nameWithType.vb: EffectPassCollection.Enumerator.System.Collections.IEnumerator.Reset()
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Reset*
-  name: IEnumerator.Reset
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System-Collections-IEnumerator-Reset.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_Enumerator_System_Collections_IEnumerator_Reset_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System#Collections#IEnumerator#Reset
-  name.vb: System.Collections.IEnumerator.Reset
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Enumerator.System.Collections.IEnumerator.Reset
-  nameWithType: EffectPassCollection.Enumerator.IEnumerator.Reset
-  nameWithType.vb: EffectPassCollection.Enumerator.System.Collections.IEnumerator.Reset
 - uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.GetEnumerator
   name: GetEnumerator()
   href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_GetEnumerator
@@ -10694,38 +10598,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectPassCollection.Item
   fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.Item
   nameWithType: EffectPassCollection.Item
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Graphics#EffectPass}#GetEnumerator
-  name: IEnumerable<EffectPass>.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.System-Collections-Generic-IEnumerable-Microsoft-Xna-Framework-Graphics-EffectPass--GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Graphics_EffectPass__GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Graphics#EffectPass}#GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Graphics.EffectPass>.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Graphics.EffectPass>.GetEnumerator()
-  nameWithType: EffectPassCollection.IEnumerable<EffectPass>.GetEnumerator()
-  nameWithType.vb: EffectPassCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Graphics.EffectPass>.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Graphics#EffectPass}#GetEnumerator*
-  name: IEnumerable<EffectPass>.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.System-Collections-Generic-IEnumerable-Microsoft-Xna-Framework-Graphics-EffectPass--GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Graphics_EffectPass__GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Graphics#EffectPass}#GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Graphics.EffectPass>.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Graphics.EffectPass>.GetEnumerator
-  nameWithType: EffectPassCollection.IEnumerable<EffectPass>.GetEnumerator
-  nameWithType.vb: EffectPassCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Graphics.EffectPass>.GetEnumerator
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: EffectPassCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: EffectPassCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Graphics.EffectPassCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectPassCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectPassCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Graphics.EffectPassCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: EffectPassCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: EffectPassCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Graphics.EffectTechnique
   name: EffectTechnique
   href: api/Microsoft.Xna.Framework.Graphics.EffectTechnique.html
@@ -10822,22 +10694,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.Item
   fullName: Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.Item
   nameWithType: EffectTechniqueCollection.Item
-- uid: Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectTechniqueCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: EffectTechniqueCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: EffectTechniqueCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Graphics_EffectTechniqueCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Graphics.EffectTechniqueCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: EffectTechniqueCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: EffectTechniqueCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect
   name: EnvironmentMapEffect
   href: api/Microsoft.Xna.Framework.Graphics.EnvironmentMapEffect.html
@@ -13242,22 +13098,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.Reset
   fullName: Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.Reset
   nameWithType: ModelBoneCollection.Enumerator.Reset
-- uid: Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System#Collections#IEnumerator#Current
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelBoneCollection_Enumerator_System_Collections_IEnumerator_Current
-  commentId: P:Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: ModelBoneCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: ModelBoneCollection.Enumerator.System.Collections.IEnumerator.Current
-- uid: Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System#Collections#IEnumerator#Current*
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelBoneCollection_Enumerator_System_Collections_IEnumerator_Current_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.ModelBoneCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: ModelBoneCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: ModelBoneCollection.Enumerator.System.Collections.IEnumerator.Current
 - uid: Microsoft.Xna.Framework.Graphics.ModelBoneCollection.GetEnumerator
   name: GetEnumerator()
   href: api/Microsoft.Xna.Framework.Graphics.ModelBoneCollection.GetEnumerator.html#Microsoft_Xna_Framework_Graphics_ModelBoneCollection_GetEnumerator
@@ -13348,38 +13188,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.MoveNext
   fullName: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.MoveNext
   nameWithType: ModelEffectCollection.Enumerator.MoveNext
-- uid: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Current
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_System_Collections_IEnumerator_Current
-  commentId: P:Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: ModelEffectCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Current
-- uid: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Current*
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_System_Collections_IEnumerator_Current_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: ModelEffectCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Current
-- uid: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Reset
-  name: IEnumerator.Reset()
-  href: api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System-Collections-IEnumerator-Reset.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_System_Collections_IEnumerator_Reset
-  commentId: M:Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Reset
-  name.vb: System.Collections.IEnumerator.Reset()
-  fullName: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Reset()
-  nameWithType: ModelEffectCollection.Enumerator.IEnumerator.Reset()
-  nameWithType.vb: ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Reset()
-- uid: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Reset*
-  name: IEnumerator.Reset
-  href: api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System-Collections-IEnumerator-Reset.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_Enumerator_System_Collections_IEnumerator_Reset_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System#Collections#IEnumerator#Reset
-  name.vb: System.Collections.IEnumerator.Reset
-  fullName: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Reset
-  nameWithType: ModelEffectCollection.Enumerator.IEnumerator.Reset
-  nameWithType.vb: ModelEffectCollection.Enumerator.System.Collections.IEnumerator.Reset
 - uid: Microsoft.Xna.Framework.Graphics.ModelEffectCollection.GetEnumerator
   name: GetEnumerator()
   href: api/Microsoft.Xna.Framework.Graphics.ModelEffectCollection.GetEnumerator.html#Microsoft_Xna_Framework_Graphics_ModelEffectCollection_GetEnumerator
@@ -13557,22 +13365,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Reset
   fullName: Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.Reset
   nameWithType: ModelMeshCollection.Enumerator.Reset
-- uid: Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System#Collections#IEnumerator#Current
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_System_Collections_IEnumerator_Current
-  commentId: P:Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: ModelMeshCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: ModelMeshCollection.Enumerator.System.Collections.IEnumerator.Current
-- uid: Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System#Collections#IEnumerator#Current*
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_Enumerator_System_Collections_IEnumerator_Current_
-  commentId: Overload:Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Graphics.ModelMeshCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: ModelMeshCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: ModelMeshCollection.Enumerator.System.Collections.IEnumerator.Current
 - uid: Microsoft.Xna.Framework.Graphics.ModelMeshCollection.GetEnumerator
   name: GetEnumerator()
   href: api/Microsoft.Xna.Framework.Graphics.ModelMeshCollection.GetEnumerator.html#Microsoft_Xna_Framework_Graphics_ModelMeshCollection_GetEnumerator
@@ -25057,22 +24849,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset
   fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.Reset
   nameWithType: TouchCollection.Enumerator.Reset
-- uid: Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System#Collections#IEnumerator#Current
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_System_Collections_IEnumerator_Current
-  commentId: P:Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: TouchCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: TouchCollection.Enumerator.System.Collections.IEnumerator.Current
-- uid: Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System#Collections#IEnumerator#Current*
-  name: IEnumerator.Current
-  href: api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System-Collections-IEnumerator-Current.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_Enumerator_System_Collections_IEnumerator_Current_
-  commentId: Overload:Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System#Collections#IEnumerator#Current
-  name.vb: System.Collections.IEnumerator.Current
-  fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator.System.Collections.IEnumerator.Current
-  nameWithType: TouchCollection.Enumerator.IEnumerator.Current
-  nameWithType.vb: TouchCollection.Enumerator.System.Collections.IEnumerator.Current
 - uid: Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById(System.Int32,Microsoft.Xna.Framework.Input.Touch.TouchLocation@)
   name: FindById(Int32, out TouchLocation)
   href: api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.FindById.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__
@@ -25187,38 +24963,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt
   fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.RemoveAt
   nameWithType: TouchCollection.RemoveAt
-- uid: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Input#Touch#TouchLocation}#GetEnumerator
-  name: IEnumerable<TouchLocation>.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-Generic-IEnumerable-Microsoft-Xna-Framework-Input-Touch-TouchLocation--GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Input_Touch_TouchLocation__GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Input#Touch#TouchLocation}#GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Input.Touch.TouchLocation>.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Input.Touch.TouchLocation>.GetEnumerator()
-  nameWithType: TouchCollection.IEnumerable<TouchLocation>.GetEnumerator()
-  nameWithType.vb: TouchCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Input.Touch.TouchLocation>.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Input#Touch#TouchLocation}#GetEnumerator*
-  name: IEnumerable<TouchLocation>.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-Generic-IEnumerable-Microsoft-Xna-Framework-Input-Touch-TouchLocation--GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_Generic_IEnumerable_Microsoft_Xna_Framework_Input_Touch_TouchLocation__GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#Generic#IEnumerable{Microsoft#Xna#Framework#Input#Touch#TouchLocation}#GetEnumerator
-  name.vb: System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Input.Touch.TouchLocation>.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Input.Touch.TouchLocation>.GetEnumerator
-  nameWithType: TouchCollection.IEnumerable<TouchLocation>.GetEnumerator
-  nameWithType.vb: TouchCollection.System.Collections.Generic.IEnumerable<Microsoft.Xna.Framework.Input.Touch.TouchLocation>.GetEnumerator
-- uid: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: TouchCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: TouchCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Input_Touch_TouchCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Input.Touch.TouchCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Input.Touch.TouchCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: TouchCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: TouchCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Input.Touch.TouchLocation
   name: TouchLocation
   href: api/Microsoft.Xna.Framework.Input.Touch.TouchLocation.html
@@ -28180,22 +27924,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Media.PlaylistCollection.Remove
   fullName: Microsoft.Xna.Framework.Media.PlaylistCollection.Remove
   nameWithType: PlaylistCollection.Remove
-- uid: Microsoft.Xna.Framework.Media.PlaylistCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Media.PlaylistCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Media_PlaylistCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Media.PlaylistCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Media.PlaylistCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: PlaylistCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: PlaylistCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Media.PlaylistCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Media.PlaylistCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Media_PlaylistCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Media.PlaylistCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Media.PlaylistCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: PlaylistCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: PlaylistCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Media.Song
   name: Song
   href: api/Microsoft.Xna.Framework.Media.Song.html
@@ -28580,22 +28308,6 @@ references:
   commentId: Overload:Microsoft.Xna.Framework.Media.SongCollection.Remove
   fullName: Microsoft.Xna.Framework.Media.SongCollection.Remove
   nameWithType: SongCollection.Remove
-- uid: Microsoft.Xna.Framework.Media.SongCollection.System#Collections#IEnumerable#GetEnumerator
-  name: IEnumerable.GetEnumerator()
-  href: api/Microsoft.Xna.Framework.Media.SongCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Media_SongCollection_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:Microsoft.Xna.Framework.Media.SongCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: Microsoft.Xna.Framework.Media.SongCollection.System.Collections.IEnumerable.GetEnumerator()
-  nameWithType: SongCollection.IEnumerable.GetEnumerator()
-  nameWithType.vb: SongCollection.System.Collections.IEnumerable.GetEnumerator()
-- uid: Microsoft.Xna.Framework.Media.SongCollection.System#Collections#IEnumerable#GetEnumerator*
-  name: IEnumerable.GetEnumerator
-  href: api/Microsoft.Xna.Framework.Media.SongCollection.System-Collections-IEnumerable-GetEnumerator.html#Microsoft_Xna_Framework_Media_SongCollection_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:Microsoft.Xna.Framework.Media.SongCollection.System#Collections#IEnumerable#GetEnumerator
-  name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: Microsoft.Xna.Framework.Media.SongCollection.System.Collections.IEnumerable.GetEnumerator
-  nameWithType: SongCollection.IEnumerable.GetEnumerator
-  nameWithType.vb: SongCollection.System.Collections.IEnumerable.GetEnumerator
 - uid: Microsoft.Xna.Framework.Media.Video
   name: Video
   href: api/Microsoft.Xna.Framework.Media.Video.html

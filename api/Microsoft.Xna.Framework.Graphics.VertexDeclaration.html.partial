@@ -60,18 +60,6 @@
       <div>
         <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.ToString.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
       </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-      </div>
   </div>
   
   
@@ -95,7 +83,6 @@ ignored in <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclarat
     Constructors
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -117,7 +104,6 @@ ignored in <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclarat
     Properties
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -134,7 +120,6 @@ ignored in <a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclarat
     Methods
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -146,7 +131,7 @@ instance.</p>
           </tr>
           <tr>
           <td class="member"><a class="xref" href="Microsoft.Xna.Framework.Graphics.VertexDeclaration.Equals.html#Microsoft_Xna_Framework_Graphics_VertexDeclaration_Equals_System_Object_">Equals(Object)</a></td>
-          <td class="summary"><p>Determines whether the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> is equal to this instance.</p>
+          <td class="summary"><p>Determines whether the specified <see cref="!:System.Object"></see> is equal to this instance.</p>
 </td>
           </tr>
           <tr>
@@ -165,7 +150,6 @@ instance.</p>
       
   
     Operators
-  
   
   
     </h2>

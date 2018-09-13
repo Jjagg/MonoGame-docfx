@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort2.Microsoft#Xna#Framework#Graphics#PackedVector#IPackedVector#ToVector4*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_NormalizedShort2_Microsoft_Xna_Framework_Graphics_PackedVector_IPackedVector_ToVector4_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort2.Microsoft#Xna#Framework#Graphics#PackedVector#IPackedVector#ToVector4*" class="text-break">.NormalizedShort2.IPackedVector.ToVector4() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_NormalizedShort2_Microsoft_Xna_Framework_Graphics_PackedVector_IPackedVector_ToVector4_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.NormalizedShort2.Microsoft#Xna#Framework#Graphics#PackedVector#IPackedVector#ToVector4*" class="text-break">NormalizedShort2.IPackedVector.ToVector4() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -40,16 +40,13 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector4.html">Vector4</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

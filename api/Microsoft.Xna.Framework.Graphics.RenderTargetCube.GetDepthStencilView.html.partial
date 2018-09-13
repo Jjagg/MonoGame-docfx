@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.GetDepthStencilView*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTargetCube_GetDepthStencilView_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.GetDepthStencilView*" class="text-break">.RenderTargetCube.GetDepthStencilView() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTargetCube_GetDepthStencilView_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTargetCube.GetDepthStencilView*" class="text-break">RenderTargetCube.GetDepthStencilView() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -26,31 +26,23 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public DepthStencilView GetDepthStencilView()</code></pre>
+          <pre><code class="lang-csharp hljs">public DepthStencilView GetDepthStencilView()</code></pre>
         </div>
       
       
-        <div class="type-subheader attributes">
-          <strong>Attributes</strong>
-            <div>System.CLSCompliantAttribute</div>
-        </div>
       
       
       
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><span class="xref">SharpDX.Direct3D11.DepthStencilView</span></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><span class="xref">SharpDX.Direct3D11.DepthStencilView</span></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

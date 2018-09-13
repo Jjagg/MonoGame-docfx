@@ -9,8 +9,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[DataContract]
-public class DisplayMode</code></pre>
+      <pre><code class="lang-csharp hljs">public class DisplayMode : object</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -22,27 +21,8 @@ public class DisplayMode</code></pre>
     </span></div>
   </div>
   
-    <div class="type-subheader attributes">
-      <strong>Attributes</strong>
-        <div>System.Runtime.Serialization.DataContractAttribute</div>
-    </div>
   
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-      </div>
-  </div>
   
   
   
@@ -56,7 +36,6 @@ public class DisplayMode</code></pre>
       
   
     Properties
-  
   
   
     </h2>
@@ -90,7 +69,6 @@ public class DisplayMode</code></pre>
     Methods
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -112,7 +90,6 @@ public class DisplayMode</code></pre>
       
   
     Operators
-  
   
   
     </h2>

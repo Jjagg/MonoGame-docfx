@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_QueryRenderTargetFormat_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat*" class="text-break">.GraphicsAdapter.QueryRenderTargetFormat(GraphicsProfile, SurfaceFormat, DepthFormat, Int32, out SurfaceFormat, out DepthFormat, out Int32) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_GraphicsAdapter_QueryRenderTargetFormat_" data-uid="Microsoft.Xna.Framework.Graphics.GraphicsAdapter.QueryRenderTargetFormat*" class="text-break">GraphicsAdapter.QueryRenderTargetFormat(GraphicsProfile, SurfaceFormat, DepthFormat, Int32, out SurfaceFormat, out DepthFormat, out Int32) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -84,17 +84,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p>True if the requested format is supported by the adaptor. False if one or more of the values was changed.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p>True if the requested format is supported by the adaptor. False if one or more of the values was changed.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

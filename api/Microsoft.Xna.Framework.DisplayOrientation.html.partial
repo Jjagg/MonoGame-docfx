@@ -10,15 +10,10 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">[Flags]
-public enum DisplayOrientation</code></pre>
+      <pre><code class="lang-csharp hljs">public enum DisplayOrientation : int</code></pre>
     </div>
   
   
-    <div class="type-subheader attributes">
-      <strong>Attributes</strong>
-        <div>System.FlagsAttribute</div>
-    </div>
   
   
   

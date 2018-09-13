@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin*" class="text-break">.SpriteBatch.Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Nullable&lt;Matrix&gt;) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteBatch_Begin_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin*" class="text-break">SpriteBatch.Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Nullable&lt;Matrix&gt;) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -27,7 +27,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public void Begin(SpriteSortMode sortMode = SpriteSortMode.Deferred, BlendState blendState = null, SamplerState samplerState = null, DepthStencilState depthStencilState = null, RasterizerState rasterizerState = null, Effect effect = null, Matrix? transformMatrix = default(Matrix? ))</code></pre>
+          <pre><code class="lang-csharp hljs">public void Begin(SpriteSortMode sortMode = SpriteSortMode.Deferred, BlendState blendState = null, SamplerState samplerState = null, DepthStencilState depthStencilState = null, RasterizerState rasterizerState = null, Effect effect = null, Matrix? transformMatrix = null)</code></pre>
         </div>
       
       

@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.IsComplete*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_OcclusionQuery_IsComplete_" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.IsComplete*" class="text-break">.OcclusionQuery.IsComplete Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_OcclusionQuery_IsComplete_" data-uid="Microsoft.Xna.Framework.Graphics.OcclusionQuery.IsComplete*" class="text-break">OcclusionQuery.IsComplete Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,20 +36,6 @@
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><span class="xref">true</span> if the occlusion query has completed; otherwise,
-<span class="xref">false</span>.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

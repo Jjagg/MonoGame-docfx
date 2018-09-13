@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgr565.ToVector3*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgr565_ToVector3_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgr565.ToVector3*" class="text-break">.Bgr565.ToVector3() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_PackedVector_Bgr565_ToVector3_" data-uid="Microsoft.Xna.Framework.Graphics.PackedVector.Bgr565.ToVector3*" class="text-break">Bgr565.ToVector3() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,17 +37,14 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
-            <td><p>The packed vector in Vector3 format</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+              <td><p>The packed vector in Vector3 format</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

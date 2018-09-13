@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Color.Multiply*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Color_Multiply_" data-uid="Microsoft.Xna.Framework.Color.Multiply*" class="text-break">.Color.Multiply(Color, Single) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Color_Multiply_" data-uid="Microsoft.Xna.Framework.Color.Multiply*" class="text-break">Color.Multiply(Color, Single) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -54,17 +54,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
-            <td><p>Multiplication result.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Color.html">Color</a></td>
+              <td><p>Multiplication result.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

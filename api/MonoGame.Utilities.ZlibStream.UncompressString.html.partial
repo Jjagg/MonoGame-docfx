@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="MonoGame.Utilities.ZlibStream.UncompressString*" role="main" class="pos-rel">
-  <h1 id="MonoGame_Utilities_ZlibStream_UncompressString_" data-uid="MonoGame.Utilities.ZlibStream.UncompressString*" class="text-break">.ZlibStream.UncompressString(Byte[]) Method</h1>
+  <h1 id="MonoGame_Utilities_ZlibStream_UncompressString_" data-uid="MonoGame.Utilities.ZlibStream.UncompressString*" class="text-break">ZlibStream.UncompressString(Byte[]) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -27,7 +27,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public static string UncompressString(byte[] compressed)</code></pre>
+          <pre><code class="lang-csharp hljs">public static String UncompressString(byte[] compressed)</code></pre>
         </div>
       
       
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-            <td><p>The uncompressed string</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+              <td><p>The uncompressed string</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.TextInputEventArgs.#ctor*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_TextInputEventArgs__ctor_" data-uid="Microsoft.Xna.Framework.TextInputEventArgs.#ctor*" class="text-break">.TextInputEventArgs.TextInputEventArgs(Char, Keys) Constructor</h1>
+  <h1 id="Microsoft_Xna_Framework_TextInputEventArgs__ctor_" data-uid="Microsoft.Xna.Framework.TextInputEventArgs.#ctor*" class="text-break">TextInputEventArgs.TextInputEventArgs(Char, Keys) Constructor</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -26,7 +26,7 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">public TextInputEventArgs(char character, Keys key = Keys.None)</code></pre>
+          <pre><code class="lang-csharp hljs">public TextInputEventArgs(char character, Keys key = default(Keys))</code></pre>
         </div>
       
       

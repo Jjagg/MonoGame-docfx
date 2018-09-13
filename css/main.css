@@ -105,6 +105,20 @@ ul.nav {
 .nowrap {
   white-space: nowrap;
 }
+.fadein {
+  animation: fadein .6s;
+}
+.fadeout {
+  animation: fadeout .6s;
+}
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeout {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
 
 .expander::before {
   font-family: "mg-icons";
@@ -123,18 +137,25 @@ ul.nav {
 .no-overflow {
   overflow: hidden;
 }
-#page-scroll {
+.no-overflow-x {
   overflow-x: hidden;
+}
+.no-overflow-y {
+  overflow-y: hidden;
+}
+#page-scroll {
   min-width: 280px;
   align-items: stretch;
 }
 #page-toc {
-  overflow: hidden;
   white-space: nowrap;
   flex: 0 0 0;
   transition: flex-basis .2s ease;
   background-color: #f1f1f1;
   border-right: 2px solid #e7e7e7;
+  position: relative;
+  top: 0;
+  height: calc(100vh - 50px);
 }
 #page-toc.shown {
   flex-basis: 280px;
@@ -146,9 +167,10 @@ ul.nav {
 }
 #page-affix {
   flex: 1 0 200px;
-  position: sticky;
-  top: 0;
   max-width: 400px;
+  position: relative;
+  top: 0;
+  height: calc(100vh - 50px);
 }
 #toc-toggle-wrapper {
   margin-bottom: 10px;
@@ -172,7 +194,6 @@ ul.nav {
   font-size: .8em;
   background-color: #f1f1f1;
   border: #e7e7e7 2px solid;
-  overflow: hidden;
 }
 #breadcrumb {
   padding: 5px;
@@ -322,6 +343,34 @@ ul.level1 {
 }
 
 /* ===== CONTENT ===== */
+
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+/* Loader from https://projects.lukehaas.me/css-loaders/ */
+
+.loader {
+  margin: 20px auto;
+  font-size: 10px;
+  position: relative;
+  border-top: 1.1em solid #E73C0030;
+  border-right: 1.1em solid #E73C0030;
+  border-bottom: 1.1em solid #E73C0030;
+  border-left: 1.1em solid #E73C00;
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  animation: load 1s infinite linear, fadein .5s;
+  
+}
+@keyframes load {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 .page-main {
   padding: 15px 20px;
@@ -510,18 +559,25 @@ table.api-table td.summary>p {
 
 /* ===== RESPONSIVENESS ===== */
 
-@media(max-width: 786px) {
-  .hide-sm {
-    display: none;
-  }
+@media(max-width: 950px) {
   #page-affix {
     display: none;
   }
 }
+
+@media(max-width: 786px) {
+  .hide-sm {
+    display: none;
+  }
+}
 @media(max-width: 576px) {
+  #page-scroll {
+    min-width: calc(100% - 2px)
+  }
   #page-main {
     padding-left: 10px;
     padding-right: 10px;
+    min-width: calc(100% - 20px);
   }
 }
 @media(max-width: 414px) {

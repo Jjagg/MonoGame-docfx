@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Content.ContentManager.Load*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Content_ContentManager_Load_" data-uid="Microsoft.Xna.Framework.Content.ContentManager.Load*" class="text-break">.ContentManager.Load&lt;T&gt;(String) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Content_ContentManager_Load_" data-uid="Microsoft.Xna.Framework.Content.ContentManager.Load*" class="text-break">ContentManager.Load&lt;T&gt;(String) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -55,16 +55,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><span class="xref">T</span></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><span class="xref">T</span></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

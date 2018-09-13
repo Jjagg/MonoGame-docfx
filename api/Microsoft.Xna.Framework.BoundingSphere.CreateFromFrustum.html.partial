@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateFromFrustum*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_BoundingSphere_CreateFromFrustum_" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateFromFrustum*" class="text-break">.BoundingSphere.CreateFromFrustum(BoundingFrustum) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_BoundingSphere_CreateFromFrustum_" data-uid="Microsoft.Xna.Framework.BoundingSphere.CreateFromFrustum*" class="text-break">BoundingSphere.CreateFromFrustum(BoundingFrustum) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
-            <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a>.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a></td>
+              <td><p>The new <a class="xref" href="Microsoft.Xna.Framework.BoundingSphere.html">BoundingSphere</a>.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

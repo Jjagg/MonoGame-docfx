@@ -1,4 +1,4 @@
-﻿<article id="content" data-uid="" role="main" class="pos-rel">
+﻿<article id="content" data-uid="" role="main" class="pos-rel fadein">
   <h1 id="using-the-pipeline-tool">Using the Pipeline Tool</h1>
   
 <p>The <a href="../tools/pipeline.html">Pipeline Tool</a> is used to organize and build content for use with MonoGame. It is installed as part of the MonoGame SDK Installer or can be built <a href="https://github.com/mono/MonoGame/tree/develop/Tools/Pipeline">directly from source</a> if needed.</p>

@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState.GetHashCode*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_GetHashCode_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.GetHashCode*" class="text-break">.GamePadState.GetHashCode() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_GetHashCode_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.GetHashCode*" class="text-break">GamePadState.GetHashCode() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,18 +37,15 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-            <td><p>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+              <td><p>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a
 hash table.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

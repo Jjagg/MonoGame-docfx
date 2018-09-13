@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.DefaultCharacter*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_DefaultCharacter_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.DefaultCharacter*" class="text-break">.SpriteFont.DefaultCharacter Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_SpriteFont_DefaultCharacter_" data-uid="Microsoft.Xna.Framework.Graphics.SpriteFont.DefaultCharacter*" class="text-break">SpriteFont.DefaultCharacter Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,18 +37,6 @@ given character is not included in the font.</p>
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>&gt;</td>
-            <td></td>
-          </tr>
-        </table>
-        </div>
       
       
     

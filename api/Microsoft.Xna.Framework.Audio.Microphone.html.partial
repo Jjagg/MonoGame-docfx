@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public sealed class Microphone</code></pre>
+      <pre><code class="lang-csharp hljs">public sealed class Microphone : object</code></pre>
     </div>
   
   <div class="type-subheader inheritance">
@@ -24,30 +24,6 @@
   
   
   
-  <div class="type-subheader inheritedMembers">
-    <strong>Inherited Members</strong>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-      </div>
-      <div>
-        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-      </div>
-  </div>
   
   
   
@@ -61,7 +37,6 @@
       
   
     Fields
-  
   
   
     </h2>
@@ -78,7 +53,6 @@
       
   
     Properties
-  
   
   
     </h2>
@@ -125,7 +99,6 @@ Note: default value is 44100hz</p>
     Methods
   
   
-  
     </h2>
     <div>
       <table class="nameValue api-table">
@@ -165,7 +138,6 @@ Note: default value is 44100hz</p>
       
   
     Events
-  
   
   
     </h2>

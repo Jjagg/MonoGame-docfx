@@ -10,7 +10,7 @@
 
   
     <div class="codewrapper">
-      <pre><code class="lang-csharp hljs">public enum DriverType</code></pre>
+      <pre><code class="lang-csharp hljs">public enum DriverType : int</code></pre>
     </div>
   
   

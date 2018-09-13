@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="MonoGame.Utilities.ZlibStream.CompressBuffer*" role="main" class="pos-rel">
-  <h1 id="MonoGame_Utilities_ZlibStream_CompressBuffer_" data-uid="MonoGame.Utilities.ZlibStream.CompressBuffer*" class="text-break">.ZlibStream.CompressBuffer(Byte[]) Method</h1>
+  <h1 id="MonoGame_Utilities_ZlibStream_CompressBuffer_" data-uid="MonoGame.Utilities.ZlibStream.CompressBuffer*" class="text-break">ZlibStream.CompressBuffer(Byte[]) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-            <td><p>The data in compressed form</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+              <td><p>The data in compressed form</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       
@@ -72,7 +69,6 @@
     
     <h id="seealso">See Also</h>
     <div class="seealso">
-          <div><a class="xref" href="MonoGame.Utilities.ZlibStream.CompressString.html#MonoGame_Utilities_ZlibStream_CompressString_System_String_">CompressString(String)</a></div>
           <div><a class="xref" href="MonoGame.Utilities.ZlibStream.UncompressBuffer.html#MonoGame_Utilities_ZlibStream_UncompressBuffer_System_Byte___">UncompressBuffer(Byte[])</a></div>
 
   </div>

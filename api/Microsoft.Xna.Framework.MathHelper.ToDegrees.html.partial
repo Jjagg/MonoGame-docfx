@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.MathHelper.ToDegrees*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_MathHelper_ToDegrees_" data-uid="Microsoft.Xna.Framework.MathHelper.ToDegrees*" class="text-break">.MathHelper.ToDegrees(Single) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_MathHelper_ToDegrees_" data-uid="Microsoft.Xna.Framework.MathHelper.ToDegrees*" class="text-break">MathHelper.ToDegrees(Single) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -48,17 +48,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-            <td><p>The angle in degrees.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+              <td><p>The angle in degrees.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

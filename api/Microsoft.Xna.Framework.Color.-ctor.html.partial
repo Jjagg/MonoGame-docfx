@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -93,15 +91,10 @@ The value is a 32-bit unsigned integer, with R in the least significant octet.</
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
-public Color(uint packedValue)</code></pre>
+          <pre><code class="lang-csharp hljs">public Color(uint packedValue)</code></pre>
         </div>
       
       
-        <div class="type-subheader attributes">
-          <strong>Attributes</strong>
-            <div>System.CLSCompliantAttribute</div>
-        </div>
       
       
       

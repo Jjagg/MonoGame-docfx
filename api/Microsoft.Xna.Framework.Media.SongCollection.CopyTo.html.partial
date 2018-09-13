@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Media.SongCollection.CopyTo*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Media_SongCollection_CopyTo_" data-uid="Microsoft.Xna.Framework.Media.SongCollection.CopyTo*" class="text-break">.SongCollection.CopyTo(Song[], Int32) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Media_SongCollection_CopyTo_" data-uid="Microsoft.Xna.Framework.Media.SongCollection.CopyTo*" class="text-break">SongCollection.CopyTo(Song[], Int32) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -31,10 +31,6 @@
       
       
       
-      <div class="type-subheader implements">
-        <strong>Implements</strong>
-          <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto#System_Collections_Generic_ICollection_1_CopyTo__0___System_Int32_">CopyTo</a>(<a class="xref" href="Microsoft.Xna.Framework.Media.Song.html">Song</a>[], <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>)</div>
-      </div>
       
       
       

@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Input.GamePadState.DPad*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_DPad_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.DPad*" class="text-break">.GamePadState.DPad Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Input_GamePadState_DPad_" data-uid="Microsoft.Xna.Framework.Input.GamePadState.DPad*" class="text-break">GamePadState.DPad Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -36,19 +36,6 @@
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
-      
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Input.GamePadDPad.html">GamePadDPad</a></td>
-            <td><p>The directional pad structure.</p>
-</td>
-          </tr>
-        </table>
-        </div>
       
       
     

@@ -25,8 +25,6 @@
       
   
   
-    Overloads
-  
   
     </h2>
     <div>
@@ -72,17 +70,14 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-            <td><p><code>true</code> if other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle; <code>false</code> otherwise.</p>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+              <td><p><code>true</code> if other <a class="xref" href="Microsoft.Xna.Framework.Rectangle.html">Rectangle</a> intersects with this rectangle; <code>false</code> otherwise.</p>
 </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
         </div>
       
       

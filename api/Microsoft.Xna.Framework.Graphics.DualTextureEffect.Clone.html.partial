@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone*" class="text-break">.DualTextureEffect.Clone() Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_DualTextureEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.DualTextureEffect.Clone*" class="text-break">DualTextureEffect.Clone() Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -37,16 +37,13 @@
       
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

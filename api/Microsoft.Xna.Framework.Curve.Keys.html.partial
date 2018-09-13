@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Curve.Keys*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Curve_Keys_" data-uid="Microsoft.Xna.Framework.Curve.Keys*" class="text-break">.Curve.Keys Property</h1>
+  <h1 id="Microsoft_Xna_Framework_Curve_Keys_" data-uid="Microsoft.Xna.Framework.Curve.Keys*" class="text-break">Curve.Keys Property</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -27,32 +27,15 @@
     
       
         <div class="codewrapper">
-          <pre><code class="lang-csharp hljs">[DataMember]
-public CurveKeyCollection Keys { get; }</code></pre>
-        </div>
-      
-      
-        <div class="type-subheader attributes">
-          <strong>Attributes</strong>
-            <div>System.Runtime.Serialization.DataMemberAttribute</div>
+          <pre><code class="lang-csharp hljs">public CurveKeyCollection Keys { get; }</code></pre>
         </div>
       
       
       
       
       
-        <div class="type-subheader">
-      
-          <strong>Property Value</strong>
       
       
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.CurveKeyCollection.html">CurveKeyCollection</a></td>
-            <td></td>
-          </tr>
-        </table>
-        </div>
       
       
     

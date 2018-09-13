@@ -1,7 +1,7 @@
 ﻿
 
 <article id="content" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.QuerySelectedFormat*" role="main" class="pos-rel">
-  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_QuerySelectedFormat_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.QuerySelectedFormat*" class="text-break">.RenderTarget3D.QuerySelectedFormat(GraphicsDevice, SurfaceFormat) Method</h1>
+  <h1 id="Microsoft_Xna_Framework_Graphics_RenderTarget3D_QuerySelectedFormat_" data-uid="Microsoft.Xna.Framework.Graphics.RenderTarget3D.QuerySelectedFormat*" class="text-break">RenderTarget3D.QuerySelectedFormat(GraphicsDevice, SurfaceFormat) Method</h1>
 
   <div class="api">
     <div class="markdown level0 summary"></div>
@@ -51,16 +51,13 @@
       </div>
       
         <div class="type-subheader">
-      
-      
           <strong>Returns</strong>
-      
-        <table class="">
-          <tr>
-            <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
-            <td></td>
-          </tr>
-        </table>
+          <table class="">
+            <tr>
+              <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
       
       

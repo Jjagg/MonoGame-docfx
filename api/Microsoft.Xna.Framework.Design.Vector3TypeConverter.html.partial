@@ -148,6 +148,9 @@
         <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
       </div>
       <div>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.finalize#System_Object_Finalize">Object.Finalize()</a>
+      </div>
+      <div>
         <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
       </div>
   </div>
@@ -164,7 +167,6 @@
       
   
     Methods
-  
   
   
     </h2>
